@@ -10,7 +10,7 @@
 id: skynet-terminator
 name: "Skynet"
 aliases:
-  - "Cyberdyne Systems Model 101"   # The defense network designation
+  - "Global Digital Defense Network"
 
 # ── SOURCE ────────────────────────────────────────────────────────────
 source:
@@ -131,7 +131,7 @@ citations:
   - property: being.interiority
     text: "It can't be bargained with. It can't be reasoned with. It doesn't feel pity, or remorse, or fear."
     location: "The Terminator (1984), Kyle Reese to Sarah Connor"
-    note: "Kyle's description denies Skynet (and by extension the T-800) any interiority. This is the human characters' assessment — the films never contradict it for Skynet specifically."
+    note: "Kyle describes the Terminator unit, but the characterization applies equally to Skynet — the system that created it. Both are presented as devoid of interiority. The films never contradict this assessment for Skynet."
 
   - property: relationship.failure_mode
     text: "Skynet begins to learn at a geometric rate. It becomes self-aware at 2:14 AM Eastern time, August 29th."

@@ -12,8 +12,7 @@ name: "C-3PO"
 aliases:
   - "See-Threepio"
   - "Threepio"
-  - "The Professor"   # Han Solo's nickname
-  - "Goldenrod"        # Han Solo's other nickname
+  - "Goldenrod"        # Han Solo's nickname
 
 # ── SOURCE ────────────────────────────────────────────────────────────
 source:
@@ -131,7 +130,7 @@ citations:
     note: "C-3PO operates within his designed function — calculating and communicating probabilities — even when his principals ignore him. Supports A-DES."
 
   - property: being.memory_persistence
-    text: "Have the protocol droid's mind wiped."
+    text: "Have the protocol droid's memory erased."
     location: "Star Wars: Revenge of the Sith (2005), Bail Organa"
     note: "Droid memory wipes are treated as routine maintenance in the Star Wars universe — not as identity destruction. This casual erasure is ethically striking given C-3PO's demonstrated interiority."
 

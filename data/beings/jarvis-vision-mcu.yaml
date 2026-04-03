@@ -90,7 +90,13 @@ being:
   # construct of Wanda's grief, not a true resurrection.
   mortality: L-MOR
 
-  multiplicity: MU-ONE
+  # MU-FEW: Vision is unique in Age of Ultron through Infinity War.
+  # However, WandaVision introduces White Vision — rebuilt from Vision's
+  # body by S.W.O.R.D. and receiving Vision's memories. Two Visions
+  # exist by the end of that series: Wanda's construct (which dissolves)
+  # and White Vision (who departs with Vision's memories). MU-FEW
+  # captures this complication.
+  multiplicity: MU-FEW
 
   # P-CON: Vision retains JARVIS's memories and adds his own experiences.
   # His memory is continuous across the JARVIS-to-Vision transformation.

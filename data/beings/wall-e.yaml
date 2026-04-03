@@ -68,11 +68,13 @@ being:
   # dialogue, purely through behavior and animation.
   interiority: I-DEM
 
-  # L-MOR: WALL-E is nearly destroyed in the film's climax — crushed
+  # L-RES: WALL-E is nearly destroyed in the film's climax — crushed
   # and rebuilt with replacement parts, he initially loses his personality
-  # (effectively dying). EVE's touch restores him, but the film makes clear
-  # that destruction was real and permanent loss was possible.
-  mortality: L-MOR
+  # (effectively dying). EVE's touch restores him. He survives, making
+  # him resurrectable rather than mortal — but the film makes the threat
+  # of permanent death vivid and real. The restoration is presented as
+  # miraculous, not routine.
+  mortality: L-RES
 
   # MU-MAN: WALL-E units were mass-produced — the film shows rows of
   # deactivated units. This WALL-E is the last functioning one, making

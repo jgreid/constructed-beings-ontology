@@ -20,8 +20,9 @@ source:
   tradition: American/British
 
 # ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
-# Ash is a Hyperdyne Systems 120-A/2 android — a synthetic person
-# manufactured by Weyland-Yutani corporation.
+# Ash is a synthetic android manufactured by Weyland-Yutani corporation.
+# (The designation "Hyperdyne Systems 120-A/2" comes from franchise
+# supplementary materials, not the 1979 film itself.)
 reproductive_method: made
 
 # ── CREATOR ───────────────────────────────────────────────────────────

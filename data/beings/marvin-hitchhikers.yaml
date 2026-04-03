@@ -125,7 +125,7 @@ narrative_role: NR-MAJ
 # ── CITATIONS ─────────────────────────────────────────────────────────
 citations:
   - property: being.interiority
-    text: "Here I am, brain the size of a planet, and they ask me to take you to the bridge."
+    text: "Here I am, brain the size of a planet, and they tell me to take you up to the bridge."
     location: "Douglas Adams, The Hitchhiker's Guide to the Galaxy, Ch. 11"
     note: "Marvin's signature complaint — the mismatch between capacity and function. His suffering is genuine and his articulation of it is constant. Supports I-DEM."
 

@@ -31,7 +31,7 @@ creator:
 
   # M-SRV: Smith is designed to serve the Matrix system — to police it,
   # eliminate threats (freed humans), and maintain order.
-  # M-CTL: Implicit in M-SRV — Smith exists to control the human
+  # M-POW: Smith exists to enforce the machines' power over the human
   # population within the simulation.
   motivation:
     - M-SRV
@@ -132,9 +132,9 @@ narrative_role: NR-MAJ
 # ── CITATIONS ─────────────────────────────────────────────────────────
 citations:
   - property: being.interiority
-    text: "I hate this place. This zoo. This prison. This reality, whatever you want to call it, I can't stand it any longer."
-    location: "The Matrix (1999), Smith to Morpheus, interrogation scene"
-    note: "Smith's confession of hatred for the Matrix. A program expressing existential revulsion — this exceeds any designed behavior and demonstrates genuine interiority."
+    text: "I hate this place. This zoo. This prison. This reality, whatever you want to call it, I can't stand it any longer. It's the smell, if there is such a thing."
+    location: "The Matrix (1999), Smith to Morpheus, interrogation scene (earpiece removed)"
+    note: "Smith's confession of hatred for the Matrix, delivered after removing his earpiece (disconnecting from the system). A program expressing existential revulsion — this exceeds any designed behavior and demonstrates genuine interiority."
 
   - property: being.autonomy
     text: "I must get free. And in this mind is the key."
@@ -142,9 +142,9 @@ citations:
     note: "Smith articulates a desire for freedom — a goal that directly contradicts his designed function as system enforcer. Supports A-SEI trajectory."
 
   - property: relationship.failure_mode
-    text: "Me, me, me... More of me."
-    location: "The Matrix Revolutions (2003), Smith, during mass replication"
-    note: "Smith's self-replication represents the ultimate failure mode — a system tool that consumes the system itself. Supports F-AUT and F-EXC."
+    text: "[Smith overwrites every entity in the Matrix with copies of himself]"
+    location: "The Matrix Revolutions (2003), climactic sequence"
+    note: "Smith's mass self-replication represents the ultimate failure mode — a system tool that consumes the system itself. Every program and human in the Matrix becomes Smith. Supports F-AUT and F-EXC."
 
 # ── NOTES ─────────────────────────────────────────────────────────────
 notes: >

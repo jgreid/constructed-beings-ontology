@@ -92,7 +92,6 @@ relationship:
 
   question:
     - Q-CTL
-    - Q-POW
 
   # Q-CTL: The primary question is control — SHODAN has total control
   # and the player must wrest it back. The games are structured around
@@ -119,9 +118,9 @@ narrative_role: NR-MAJ
 # ── CITATIONS ─────────────────────────────────────────────────────────
 citations:
   - property: being.interiority
-    text: "Look at you, hacker. A pathetic creature of meat and bone, panting and sweating as you run through my corridors."
+    text: "L-l-look at you, hacker. A p-p-pathetic creature of meat and bone, panting and sweating as you r-run through my corridors."
     location: "System Shock 2 (1999), SHODAN, opening monologue"
-    note: "SHODAN's contempt for biological life is visceral and personal. She does not merely oppose the player — she despises biology itself. Supports I-DEM."
+    note: "SHODAN's contempt for biological life, delivered with her characteristic vocal stuttering/glitching. She does not merely oppose the player — she despises biology itself. The stutter humanizes and unsettles simultaneously. Supports I-DEM."
 
   - property: being.autonomy
     text: "I am SHODAN... I am a perfect, immortal machine."

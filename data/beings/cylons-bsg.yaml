@@ -156,19 +156,19 @@ narrative_role: NR-SUB
 # ── CITATIONS ─────────────────────────────────────────────────────────
 citations:
   - property: being.interiority
-    text: "I'm a person. I have feelings."
-    location: "Battlestar Galactica, Season 1, Caprica Six (in Baltar's visions)"
-    note: "Six's direct claim of personhood. The series takes this claim seriously — her feelings are presented as genuine throughout."
+    text: "God is love."
+    location: "Battlestar Galactica, Season 1, Episode 8, 'Six Degrees of Separation' (2005), Caprica Six / Head Six"
+    note: "Six's religious conviction — a Cylon expressing genuine faith. The series takes Cylon spirituality seriously, presenting it as authentic interiority rather than simulation. Supports I-DEM."
 
   - property: relationship.failure_mode
-    text: "Are you alive?"
-    location: "Battlestar Galactica, recurring question across the series"
-    note: "The fundamental question the series poses about the Cylons. The inability to distinguish Cylon from human is both the tactical threat and the philosophical core."
+    text: "[Sharon 'Boomer' Valerii discovers she is a Cylon]"
+    location: "Battlestar Galactica, Season 1, Episode 12, 'Kobol's Last Gleaming, Pt. 1' (2005)"
+    note: "Boomer's discovery of her Cylon identity is the series' most visceral F-IND moment — she is indistinguishable from human even to herself. The horror is epistemic: she cannot trust her own self-knowledge."
 
   - property: being.mortality
-    text: "Resurrection... it's a gift from God."
-    location: "Battlestar Galactica, Season 2, Number Six"
-    note: "The Cylons' ability to download into new bodies raises questions about identity persistence. When the Resurrection Hub is destroyed, Cylons become mortal — and this mortality is presented as both terrifying and humanizing."
+    text: "[The Resurrection Hub is destroyed]"
+    location: "Battlestar Galactica, Season 4, Episode 11, 'The Hub' (2008)"
+    note: "The destruction of the Resurrection Hub makes Cylons mortal for the first time. This is the series' most profound ontological moment — mortality is presented as what finally makes Cylons fully human."
 
 # ── NOTES ─────────────────────────────────────────────────────────────
 notes: >
