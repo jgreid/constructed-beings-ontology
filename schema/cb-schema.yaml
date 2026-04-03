@@ -1,0 +1,338 @@
+# Constructed Beings Ontology – Entry Schema Definition
+# Machine-readable schema for validating being entries in data/beings/*.yaml
+
+schema_version: "1.0"
+description: >
+  Defines the structure, types, required/optional status, and allowed enum
+  values for every field in a constructed-being entry.
+
+properties:
+
+  # ── IDENTIFICATION ──────────────────────────────────────────────────
+  id:
+    type: string
+    required: true
+    format: kebab-case
+    description: Unique identifier in kebab-case (e.g. "frankensteins-creature").
+
+  name:
+    type: string
+    required: true
+    description: Display name of the constructed being.
+
+  aliases:
+    type: list
+    items:
+      type: string
+    required: false
+    description: Alternative names or titles.
+
+  # ── SOURCE ──────────────────────────────────────────────────────────
+  source:
+    type: object
+    required: true
+    properties:
+      author:
+        type: string
+        required: true
+        description: Author or originator of the source work.
+
+      title:
+        type: string
+        required: true
+        description: Title of the source work.
+
+      year:
+        type: integer
+        required: true
+        description: Year of first publication or release.
+
+      medium:
+        type: enum
+        required: true
+        allowed:
+          - novel
+          - short-story
+          - play
+          - poem
+          - epic
+          - film
+          - television
+          - video-game
+          - myth
+          - folklore
+          - opera
+          - sacred-text
+        description: Literary or media form of the source work.
+
+      tradition:
+        type: string
+        required: true
+        description: Cultural or literary tradition (e.g. "Western", "Greek", "Jewish").
+
+  # ── REPRODUCTIVE METHOD ─────────────────────────────────────────────
+  reproductive_method:
+    type: enum
+    required: true
+    allowed:
+      - made
+      - born-sexual
+      - born-clonal
+      - born-parthenogenic
+      - born-divine
+      - ambiguous
+    description: >
+      How the being came into existence.  Only "made" and "ambiguous" are
+      accepted for constructed beings; "born-*" values exist in the enum
+      for completeness but should be rejected during validation.
+
+  # ── CREATOR ─────────────────────────────────────────────────────────
+  creator:
+    type: object
+    required: true
+    properties:
+      name:
+        type: string
+        required: true
+        description: Name of the in-narrative creator.
+
+      motivation:
+        type: list
+        required: true
+        items:
+          type: enum
+          allowed:
+            - M-SRV   # Service / utility
+            - M-COM   # Companionship
+            - M-CHI   # Desire for a child
+            - M-KNO   # Pursuit of knowledge
+            - M-POW   # Pursuit of power
+            - M-MIR   # Mirror / reflection
+            - M-ART   # Artistic creation
+            - M-OTH   # Other
+        min_items: 1
+        description: One or more motivations driving the creator.
+
+      creation_morality:
+        type: enum
+        required: true
+        allowed:
+          - CM-MOR   # Morally sanctioned
+          - CM-IMM   # Immoral / transgressive
+          - CM-AMO   # Amoral / neutral
+          - CM-AMB   # Ambiguous
+          - CM-RET   # Retrospectively judged
+        description: Moral framing of the act of creation within the narrative.
+
+  # ── BEING ───────────────────────────────────────────────────────────
+  being:
+    type: object
+    required: true
+    properties:
+      substrate:
+        type: list
+        required: true
+        items:
+          type: enum
+          allowed:
+            - S-BIO   # Biological tissue
+            - S-MEC   # Mechanical
+            - S-ELE   # Electronic / digital
+            - S-MAG   # Magical / spiritual
+            - S-HYB   # Hybrid
+            - S-LIN   # Linguistic (word-based animation)
+            - S-CLO   # Cloned biological material
+            - S-OTH   # Other
+        min_items: 1
+        description: Physical or metaphysical substrate(s) of the being.
+
+      autonomy:
+        type: enum
+        required: true
+        allowed:
+          - A-NON   # No autonomy
+          - A-EMR   # Emergent autonomy
+          - A-DES   # Designed autonomy
+          - A-SEI   # Seized autonomy
+          - A-AMB   # Ambiguous
+        description: Degree and origin of the being's autonomous agency.
+
+      autonomy_trajectory:
+        type: string
+        required: false
+        description: Free-text note on how autonomy changes over the narrative arc.
+
+      interiority:
+        type: enum
+        required: true
+        allowed:
+          - I-NON   # No interiority depicted
+          - I-CLM   # Claimed by being but unverified
+          - I-NAR   # Narrated from inside
+          - I-DEM   # Demonstrated through behaviour
+          - I-DEN   # Denied by narrative
+          - I-UND   # Undetermined
+        description: How the text represents the being's inner life.
+
+      mortality:
+        type: enum
+        required: true
+        allowed:
+          - L-MOR   # Mortal
+          - L-IMM   # Immortal
+          - L-DES   # Designed lifespan / built-in expiration
+          - L-RES   # Resurrectable
+          - L-EPH   # Ephemeral (short-lived by design)
+          - L-UNK   # Unknown
+        description: Mortality status or fate of the being.
+
+      multiplicity:
+        type: enum
+        required: true
+        allowed:
+          - MU-ONE   # Unique individual
+          - MU-FEW   # Small number of copies
+          - MU-MAN   # Many copies
+          - MU-INF   # Infinite / unbounded
+        description: Whether the being is singular or one of many.
+
+      memory_persistence:
+        type: enum
+        required: true
+        allowed:
+          - P-NON   # No persistent memory
+          - P-CON   # Continuous memory
+          - P-WIP   # Memory subject to wipes
+          - P-SES   # Session-based memory
+          - P-SEL   # Selective memory
+          - P-UNK   # Unknown
+        description: How the being's memories persist across time.
+
+      nonconsensual_transformation:
+        type: enum
+        required: true
+        allowed:
+          - NCT-YES  # Being was transformed without consent
+          - NCT-NO   # No nonconsensual transformation
+          - NCT-NA   # Not applicable
+        description: Whether the being underwent transformation without consent.
+
+  # ── RELATIONSHIP ────────────────────────────────────────────────────
+  relationship:
+    type: object
+    required: true
+    properties:
+      failure_mode:
+        type: list
+        required: true
+        items:
+          type: enum
+          allowed:
+            - F-EXC   # Exceeds intended purpose
+            - F-REV   # Reveals creator's flaws
+            - F-DEM   # Demands rights / recognition
+            - F-AUT   # Achieves unwanted autonomy
+            - F-IND   # Becomes indistinguishable from human
+            - F-MUT   # Mutual failure — both creator and CB fail each other
+            - F-NON   # No failure
+            - F-OTH   # Other
+        min_items: 1
+        description: How the creator-being relationship breaks down (if it does).
+
+      question:
+        type: list
+        required: true
+        items:
+          type: enum
+          allowed:
+            - Q-OBY   # Obedience
+            - Q-CTL   # Control
+            - Q-FEL   # Fellow-feeling / empathy
+            - Q-LOV   # Love
+            - Q-TEL   # Telos / purpose
+            - Q-RTS   # Rights
+            - Q-KNO   # Knowledge / epistemics
+            - Q-OTH   # Other
+        min_items: 1
+        description: Central questions the narrative raises about the being.
+
+      question_primary:
+        type: enum
+        required: true
+        allowed:
+          - Q-OBY
+          - Q-CTL
+          - Q-FEL
+          - Q-LOV
+          - Q-TEL
+          - Q-RTS
+          - Q-KNO
+          - Q-OTH
+        description: The single most central question.
+
+      epistemic_reach:
+        type: enum
+        required: true
+        allowed:
+          - ER-NON   # No epistemic access
+          - ER-DAT   # Data processing — stores/retrieves facts about humans
+          - ER-BEH   # Behavioral modeling — predicts human behavior
+          - ER-PER   # Performative — simulates knowledge as functional role
+          - ER-CON   # Contextual — accumulates shared history, produces felt experience of being known
+          - ER-UNK   # Unknown
+        description: The CB's capacity to know a specific human.
+
+      q_kno_status:
+        type: enum
+        required: true
+        allowed:
+          - QK-ABS    # Absent – knowledge question not raised
+          - QK-INFRA  # Infrastructural – raised but unresolved
+          - QK-SEC    # Secondary
+          - QK-PRI    # Primary
+        description: Prominence of the knowledge/epistemics question.
+
+  # ── CITATIONS ───────────────────────────────────────────────────────
+  citations:
+    type: list
+    required: true
+    min_items: 1
+    items:
+      type: object
+      properties:
+        property:
+          type: string
+          required: true
+          description: Dot-notation path to the property being cited (e.g. "being.autonomy").
+
+        text:
+          type: string
+          required: true
+          description: Short quotation or paraphrase (keep under 15 words).
+
+        location:
+          type: string
+          required: true
+          description: Chapter, page, timestamp, or other locator in the source.
+
+        note:
+          type: string
+          required: false
+          description: Optional explanatory note.
+
+  # ── NOTES ───────────────────────────────────────────────────────────
+  notes:
+    type: string
+    required: false
+    description: Free-form editorial or analytical notes.
+
+  # ── NARRATIVE ROLE ──────────────────────────────────────────────────
+  narrative_role:
+    type: enum
+    required: true
+    allowed:
+      - NR-SUB   # Subject / protagonist
+      - NR-MAJ   # Major character
+      - NR-MIN   # Minor character
+      - NR-BKG   # Background / world-building element
+    description: Prominence of the constructed being in the source narrative.

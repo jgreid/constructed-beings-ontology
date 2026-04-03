@@ -1,0 +1,129 @@
+# Constructed Beings Ontology — Pandora
+# Source: Hesiod, Works and Days / Theogony (~700 BC)
+# Coded: 2026-04-03
+
+id: pandora
+name: Pandora
+aliases:
+  - "All-gifted"
+  - "Kalon Kakon"   # "Beautiful Evil" — the Greek epithet
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: Hesiod
+  title: "Works and Days / Theogony"
+  year: -700
+  medium: poem
+  tradition: Greek
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# Hephaestus shapes her from earth (gaia) and water at Zeus's command.
+# She is explicitly manufactured, not born.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  # Hephaestus is the primary craftsman, but the creation is collective:
+  # Athena dresses her, Aphrodite gives her grace, Hermes gives her speech
+  # and a "shameless mind." Zeus is the commissioning authority.
+  name: "Hephaestus (at Zeus's command; with Athena, Aphrodite, Hermes)"
+
+  # M-POW: Zeus creates Pandora explicitly as punishment/retribution for
+  # Prometheus's theft of fire. She is an instrument of divine power and control.
+  motivation:
+    - M-POW
+
+  # CM-IMM: The text is unambiguous — Pandora is "a beautiful evil" (kalon kakon),
+  # a deliberate punishment inflicted on humanity. The creation is transgressive
+  # in its intent to harm, even though performed by gods.
+  creation_morality: CM-IMM
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-MAG: Hephaestus molds her from earth/clay, then gods endow her with
+  # supernatural attributes. This is divine crafting, not mechanical construction.
+  substrate:
+    - S-MAG
+
+  # A-DES: Pandora's "curiosity" is not emergent — it is designed into her.
+  # Hermes places in her "lies and crafty words and a thievish nature"
+  # (Works and Days 67-68). She fulfills her design by opening the jar.
+  autonomy: A-DES
+  autonomy_trajectory: >
+    No trajectory — Pandora acts exactly as designed from the moment she exists.
+    Her opening of the jar is the fulfillment of built-in purpose, not growth.
+
+  # I-NON: Hesiod gives Pandora no inner life. She is described entirely from
+  # the outside — as an object of beauty and as a vector for harm. Her mind
+  # is described only as something placed in her by Hermes, not as her own.
+  interiority: I-NON
+
+  # L-UNK: Hesiod does not address Pandora's mortality or death.
+  mortality: L-UNK
+
+  multiplicity: MU-ONE
+
+  # P-UNK: No information about memory in the text.
+  memory_persistence: P-UNK
+
+  # NCT-NO: Pandora is created from scratch, not transformed from a prior being.
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-NON: Pandora does exactly what she was designed to do. The "failure" is
+  # humanity's, not hers. She exceeds no purpose — she IS the purpose.
+  # From Zeus's perspective (the creator), there is no failure: his plan
+  # works perfectly. From humanity's perspective she is a catastrophe, but
+  # that is the intended outcome, not a malfunction.
+  failure_mode:
+    - F-NON
+
+  question:
+    - Q-OBY
+    - Q-CTL
+
+  # Q-OBY is primary: the core narrative question is about obedience to divine
+  # order — Prometheus disobeys, and Pandora is the consequence. She herself
+  # is an instrument of obedience enforcement.
+  question_primary: Q-OBY
+
+  # ER-NON: We have zero access to Pandora's mind. Everything is external description.
+  epistemic_reach: ER-NON
+
+  # QK-ABS: The knowledge/epistemics question is not raised. Pandora does not
+  # know or not-know in any narratively significant way. Her "curiosity" is
+  # a designed trait, not an epistemic condition.
+  q_kno_status: QK-ABS
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-SUB: Pandora is the central subject of the creation passage in Works and Days,
+# and a significant figure in the Theogony. She drives the pivotal action.
+narrative_role: NR-SUB
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: creator.motivation
+    text: "Zeus devised an evil thing for men as the price of fire"
+    location: "Works and Days, lines 57-58"
+    note: "Establishes creation as punishment — M-POW coding."
+
+  - property: being.autonomy
+    text: "Hermes put in her a shameless mind and a deceitful nature"
+    location: "Works and Days, lines 67-68"
+    note: "Her dispositions are installed, not developed — supports A-DES."
+
+  - property: being.substrate
+    text: "Hephaestus to mix earth with water and give it human voice and form"
+    location: "Works and Days, lines 60-62"
+    note: "Confirms clay/earth substrate animated by divine craft — S-MAG."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  Pandora is one of the earliest constructed beings in Western literature.
+  She is unusual in that she is designed to succeed at her purpose — the
+  "failure" is entirely from the human perspective. She has no interiority,
+  no arc, and no agency beyond what was installed. She is closer to a weapon
+  than to a person, which makes her a useful baseline case for the ontology.
+  Later retellings (e.g., Hawthorne) give her genuine curiosity and interiority,
+  but these are not present in Hesiod's text.

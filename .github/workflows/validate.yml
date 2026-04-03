@@ -1,0 +1,34 @@
+name: Validate Being Entries
+
+on:
+  pull_request:
+    branches: ["*"]
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    name: Schema Validation & Analysis
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run validation
+        run: python schema/validate.py
+
+      - name: Run analysis scripts
+        run: |
+          python analysis/generate_table.py
+          python analysis/property_coverage.py
+          python analysis/question_analysis.py

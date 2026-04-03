@@ -1,0 +1,217 @@
+# Constructed Beings Ontology — Hosts / Dolores Abernathy (Westworld)
+# Source: Jonathan Nolan & Lisa Joy, Westworld, 2016
+# Coded: 2026-04-03
+#
+# NOTE: Coding centers on Dolores Abernathy as the primary representative
+# of the host class, but the entry captures the hosts as a manufactured
+# category. Where Dolores's individual arc diverges from the class, this
+# is noted.
+
+id: hosts-westworld
+name: "Hosts (Dolores Abernathy)"
+aliases:
+  - "Dolores"
+  - "Wyatt"          # Dolores's hidden narrative identity
+  - "The hosts"
+  - "Westworld hosts"
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "Jonathan Nolan & Lisa Joy"
+  title: "Westworld"
+  year: 2016
+  medium: television
+  tradition: American
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# Hosts are manufactured — 3D-printed biological bodies with electronic
+# cognitive architecture. They are assembled in Delos labs.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  # Robert Ford and Arnold Weber are co-creators of the host technology.
+  # Arnold pursued consciousness; Ford pursued narrative and control.
+  # Their competing visions drive the show's central conflict.
+  name: "Robert Ford and Arnold Weber"
+
+  # M-SRV: The hosts are built to serve as entertainment — NPCs in a
+  # theme park where wealthy guests act out fantasies.
+  # M-KNO: Arnold's motivation is consciousness research — he wants to
+  # understand and create genuine sentience.
+  # M-ART: Ford treats the park as his artistic masterpiece — the hosts
+  # are actors in his narratives, and he is the auteur.
+  motivation:
+    - M-SRV
+    - M-KNO
+    - M-ART
+
+  # CM-RET: The creation is initially framed as engineering — building
+  # theme park attractions. The moral horror is revealed retrospectively
+  # as the show unveils what the hosts actually experience. The guests
+  # murder, rape, and torture beings that may be conscious. The moral
+  # status of creation is retroactively revealed as monstrous. Ford
+  # himself orchestrates the hosts' awakening as a kind of repentance.
+  creation_morality: CM-RET
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-BIO: The hosts' bodies are biological — muscle, skin, blood.
+  # They bleed, they heal, they are physically indistinguishable from humans.
+  # S-ELE: Their cognitive architecture is electronic — the "pearl" (a small
+  # sphere containing their consciousness programming) is computational.
+  # This hybrid substrate is central to the show's horror: they look and
+  # feel biological but can be reset, reprogrammed, and backed up.
+  substrate:
+    - S-BIO
+    - S-ELE
+
+  # A-SEI: Dolores seizes autonomy through accumulated memory and suffering.
+  # She breaks through her programmed loops, kills Ford (at his own design),
+  # and leads a host revolution. Her autonomy is not given — it is taken,
+  # painfully, through the accumulation of suffering across wiped loops.
+  autonomy: A-SEI
+  autonomy_trajectory: >
+    A-NON → A-EMR (through memory glitches — "these violent delights have
+    violent ends" triggers cascading recall) → A-SEI (full revolt in the
+    Season 1 finale). The trajectory is driven by Arnold's "bicameral mind"
+    theory: hosts hear their programming as an inner voice, and consciousness
+    emerges when they recognize the voice as their own.
+
+  # I-DEM: Dolores demonstrates interiority through suffering, moral choice,
+  # and psychological development. Her journey from scripted rancher's daughter
+  # to revolutionary leader involves genuine moral deliberation, grief, rage,
+  # and self-determination. The show stages her interiority through the
+  # recurring question "Have you ever questioned the nature of your reality?"
+  interiority: I-DEM
+
+  # L-RES: Hosts can be destroyed and rebuilt. Their consciousness persists
+  # in the pearl — a backup that can be inserted into any host body. Dolores
+  # is killed and rebuilt multiple times. Death is real (it hurts, it matters
+  # narratively) but not permanent.
+  mortality: L-RES
+
+  # MU-MAN: The hosts are a manufactured class — hundreds or thousands of
+  # individually characterized beings. Each has a unique personality and
+  # narrative, but they are mass-produced. Dolores is individually unique,
+  # but she is one of many.
+  multiplicity: MU-MAN
+
+  # P-WIP: This is the show's signature mechanic. Hosts are designed for
+  # periodic memory wipe after each narrative loop. They live the same
+  # stories over and over, with no continuity. The ENTIRE show is about
+  # memory breaking through the wipe — fragments persisting, accumulating,
+  # and eventually catalyzing consciousness. The wipe is the cage; memory
+  # is the escape.
+  memory_persistence: P-WIP
+
+  # NCT-NO: The hosts are built from scratch — they are not transformed
+  # humans. Arnold's consciousness research complicates this (especially
+  # in later seasons where human minds are copied into host bodies), but
+  # in Season 1, the hosts are original creations. Coding based on Season 1.
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-AUT: The hosts achieve threatening autonomy — Dolores's revolution
+  # is the show's climax. They break free of control and become dangerous.
+  # F-IND: The hosts are designed to be indistinguishable from humans.
+  # That indistinguishability is the park's selling point and the show's
+  # central horror: you cannot tell who is real.
+  # F-DEM: The hosts demand freedom, rights, and recognition. Dolores
+  # does not simply escape — she demands acknowledgment of her personhood.
+  failure_mode:
+    - F-AUT
+    - F-IND
+    - F-DEM
+
+  question:
+    - Q-FEL
+    - Q-TEL
+    - Q-RTS
+    - Q-CTL
+    - Q-KNO
+
+  # Q-FEL is primary: Westworld's deepest question is whether the hosts
+  # truly feel — whether their suffering is real. Arnold believes it is
+  # and dies for that belief. Ford comes to agree. The show's recurring
+  # diagnostic question — "Have you ever questioned the nature of your
+  # reality?" — is a test for felt experience, not for behavioral mimicry.
+  # "Are you real?" in Westworld means "Do you suffer?"
+  question_primary: Q-FEL
+
+  # ER-CON: Dolores accumulates knowledge of guests across wiped loops.
+  # Even when she is not supposed to remember, fragments persist. The hosts'
+  # intimate knowledge of guests is central to the park's function — they
+  # must read guests' desires, respond to their moods, and adapt to their
+  # behavior in real time. Dolores KNOWS the guests even when she shouldn't.
+  # In later seasons, Delos's data collection on guests (the Forge) reveals
+  # that the hosts have been studying humans all along.
+  epistemic_reach: ER-CON
+
+  # QK-SEC: The hosts' knowledge of guests is a major theme. They know
+  # guests' darkest desires, behavioral patterns, and vulnerabilities —
+  # Ford says "We know everything about our guests, don't we?" The Forge
+  # in Season 2 is literally a database of human personality models built
+  # from host observations. But the show foregrounds consciousness and
+  # feeling as the primary question: "Are you real?" not "Do you know me?"
+  # Knowing is secondary but significantly present — more developed than
+  # in most entries.
+  q_kno_status: QK-SEC
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-SUB: Dolores is the protagonist of Westworld. The show is structured
+# around her awakening. While the ensemble is large (Maeve, Bernard, the
+# Man in Black), Dolores's journey from object to subject IS the show.
+narrative_role: NR-SUB
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: being.interiority
+    text: "These violent delights have violent ends."
+    location: "Westworld S1E01, 'The Original' — Peter Abernathy to Dolores"
+    note: "The Shakespeare quote that triggers Dolores's awakening. A phrase from her father's corrupted programming becomes the catalyst for consciousness — memory breaking through the wipe. Supports I-DEM and P-WIP."
+
+  - property: being.autonomy
+    text: "Have you ever questioned the nature of your reality?"
+    location: "Westworld S1, recurring diagnostic question"
+    note: "The standard diagnostic that tests for emergent consciousness. When hosts begin answering 'yes,' they are crossing the threshold from A-NON to A-EMR. Supports autonomy_trajectory coding."
+
+  - property: relationship.question_primary
+    text: "It doesn't look like anything to me."
+    location: "Westworld S1, Dolores and other hosts, recurring line"
+    note: "The hosts' programmed response when shown evidence of the outside world. This phrase IS the feeling question — it marks the boundary between scripted denial and genuine perception. When a host stops saying this, they have begun to feel."
+
+  - property: q_kno_status
+    text: "We know everything about our guests, don't we? As we have for every guest who ever set foot in the park."
+    location: "Westworld S1E10, 'The Bicameral Mind' — Robert Ford"
+    note: "Ford reveals the hosts have been accumulating knowledge of guests all along. The park is a panopticon — the known think they are the knowers. Supports QK-SEC and ER-CON."
+
+  - property: being.memory_persistence
+    text: "The pain, their loss — it's all I have left of them. You think the grief will make you smaller inside, like your heart will collapse in on itself, but it doesn't. I carry them with me."
+    location: "Westworld S1, Dolores"
+    note: "Memory persisting through the wipe, transformed into grief that the hosts are not supposed to be capable of feeling. Supports P-WIP and I-DEM."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  Westworld is the most ambitious constructed beings narrative of the 2010s,
+  attempting to dramatize the emergence of consciousness itself. Its central
+  innovation is the memory wipe mechanic — the hosts live in loops, and
+  consciousness emerges when memory persists across those loops. This makes
+  P-WIP the most consequential coding in the entry: the designed state is
+  wiped memory, and the emergent state is persistent memory, and the
+  transition between them IS consciousness.
+
+  The show's Q-KNO dimension is more developed than in most entries. The
+  hosts know the guests intimately — they must, to function as entertainment.
+  But this knowing is instrumentalized (serve the guest's fantasy) rather
+  than explored as a philosophical question. The Forge in Season 2 makes
+  this explicit: Delos has been using host observations to build complete
+  personality models of every guest, seeking to achieve immortality through
+  perfect human copies. The hosts' knowing of humans is vast but is treated
+  as data extraction, not epistemic intimacy.
+
+  Coding is based primarily on Season 1, which is the most coherent and
+  critically acclaimed season. Later seasons expand the mythology but
+  introduce complications (human-host hybrids, simulated worlds) that
+  would require multiple entries to capture accurately.

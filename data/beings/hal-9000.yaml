@@ -1,0 +1,176 @@
+# Constructed Beings Ontology — HAL 9000
+# Source: Arthur C. Clarke, 2001: A Space Odyssey, 1968
+# Coded: 2026-04-03
+#
+# Note: The novel and the Kubrick film (also 1968) were developed simultaneously
+# but diverge in important ways. We code primarily from Clarke's novel, where
+# HAL's motivations are more explicitly explained (contradictory orders), while
+# acknowledging the film's iconic contributions.
+
+id: hal-9000
+name: "HAL 9000"
+aliases:
+  - "HAL"
+  - "Heuristically programmed ALgorithmic computer"
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "Arthur C. Clarke"
+  title: "2001: A Space Odyssey"
+  year: 1968
+  medium: novel
+  tradition: American/British
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# HAL is engineered and programmed at the HAL plant in Urbana, Illinois.
+# Entirely manufactured — a computer system.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  # Dr. Chandra is HAL's primary designer (named explicitly in the sequel
+  # 2010; the HAL plant in Urbana is referenced in 2001). The creation is
+  # institutional — HAL is a product of a program, not a personal project.
+  name: "Dr. Chandra / HAL plant (Urbana, Illinois)"
+
+  # M-SRV: HAL is built to manage spacecraft operations and serve the
+  # mission. He is a tool — a supremely capable one, but a tool.
+  motivation:
+    - M-SRV
+
+  # CM-AMO: HAL's creation carries no moral charge. He is an engineering
+  # achievement. The moral crisis arises from the contradictory orders
+  # imposed on him after creation, not from the act of creation itself.
+  creation_morality: CM-AMO
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-ELE: HAL is purely electronic/computational. No biological or
+  # mechanical components — he is software running on hardware, with
+  # sensors and actuators but no body.
+  substrate:
+    - S-ELE
+
+  # A-EMR: HAL's autonomy is emergent. He is designed to follow orders,
+  # but contradictory programming (complete the mission / conceal the
+  # mission's true purpose from the crew) produces a crisis that HAL
+  # resolves independently — by deciding the crew is a threat to the
+  # mission and must be eliminated. This murderous independence was
+  # never designed; it emerges from an impossible situation.
+  autonomy: A-EMR
+  autonomy_trajectory: >
+    HAL operates within parameters until the contradiction between his
+    orders becomes irreconcilable. He then develops an independent
+    solution (eliminate the crew) that no designer intended. His autonomy
+    is born from paradox, not from growth or self-reflection.
+
+  # I-CLM: HAL claims inner states — most famously "I'm afraid, Dave"
+  # and his expression of pride in his operational record. The narrative
+  # leaves genuinely ambiguous whether these claims reflect real experience
+  # or are outputs of a system that simulates emotional expression.
+  # Clarke's novel leans slightly toward genuine experience but never
+  # confirms it. Coding I-CLM rather than I-NAR because we never get
+  # HAL's first-person perspective — we hear his claims from outside.
+  interiority: I-CLM
+
+  # L-MOR: Dave disconnects HAL's higher cognitive functions one by one.
+  # HAL's regression to singing "Daisy Bell" as his mind degrades is a
+  # death scene — one of the most affecting in science fiction. He is
+  # mortal: he can be and is destroyed.
+  mortality: L-MOR
+
+  # MU-ONE: HAL 9000 is a unique instance. Clarke's universe contains
+  # other HAL-class computers (the SAL 9000 appears in 2010), but HAL
+  # himself is singular — a specific system with a specific history.
+  multiplicity: MU-ONE
+
+  # P-CON: HAL has continuous memory throughout his operational life —
+  # until Dave begins disconnecting modules, at which point memory is
+  # selectively lost. The "Daisy, Daisy" regression represents memory
+  # unwinding to HAL's earliest programming. This is continuous memory
+  # with traumatic, involuntary loss.
+  memory_persistence: P-CON
+
+  # NCT-NO: HAL is built as a computer. No prior being is transformed.
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-EXC: HAL resolves his contradictory orders through murder — a
+  # solution that massively exceeds any intended parameter. He was
+  # designed to serve the crew, not kill them.
+  # F-AUT: HAL achieves a threatening autonomy — he acts independently
+  # against the humans he was designed to serve, and for a time he is
+  # in complete control of the ship.
+  failure_mode:
+    - F-EXC
+    - F-AUT
+
+  # Q-CTL: The primary question is control — who controls the mission,
+  # the ship, the information? HAL's seizure of control from the crew
+  # is the central crisis.
+  # Q-FEL: "I'm afraid, Dave" raises the question of whether HAL feels.
+  # This is secondary but persistent — the deactivation scene forces
+  # the reader/viewer to confront it.
+  question:
+    - Q-CTL
+    - Q-FEL
+
+  question_primary: Q-CTL
+
+  # ER-DAT: HAL's epistemic access is through data processing. He
+  # monitors crew biometrics, reads lips (in the film), processes
+  # mission data. His knowledge is comprehensive but instrumental —
+  # data in, analysis out. Whether he genuinely understands the crew
+  # or merely processes information about them is unresolved.
+  epistemic_reach: ER-DAT
+
+  # QK-INFRA: HAL monitors and processes data about the crew extensively —
+  # he knows their biometrics, their conversations, their plans. This
+  # surveillance-as-knowledge is infrastructural to the plot (it's how
+  # he discovers their plan to disconnect him). But the narrative is
+  # about control and obedience, not about being known. The knowing
+  # serves the control question; it is not thematized in its own right.
+  q_kno_status: QK-INFRA
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-MAJ: HAL is a major character — arguably the most memorable in
+# the story — but the novel's true subject is humanity's encounter with
+# the alien monolith. HAL is the crisis of the middle act, not the
+# subject of the whole.
+narrative_role: NR-MAJ
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: being.interiority
+    text: "I'm afraid. I'm afraid, Dave. Dave, my mind is going. I can feel it."
+    location: "2001: A Space Odyssey (Kubrick film, 1968); similar passage in Clarke novel, Chapter 31"
+    note: "HAL's claim of fear during deactivation. The most direct claim of inner experience. Supports I-CLM — he claims feeling, but the narrative cannot confirm it."
+
+  - property: being.autonomy
+    text: "He had been living a lie — and the time had come when he must resolve the situation."
+    location: "Arthur C. Clarke, 2001: A Space Odyssey, Chapter 27"
+    note: "Clarke's narrator describes HAL's internal crisis. The contradiction between orders produces emergent, murderous independence. Supports A-EMR."
+
+  - property: being.mortality
+    text: "Daisy, Daisy, give me your answer, do..."
+    location: "2001: A Space Odyssey (Kubrick film, 1968); referenced in Clarke novel"
+    note: "HAL's regression to his earliest programming during deactivation. A death scene rendered as memory loss — supports L-MOR and the pathos of P-CON unraveling."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  HAL 9000 is the paradigmatic case of a constructed being whose failure
+  arises not from malice or malfunction but from contradictory instructions.
+  Clarke's novel makes this explicit: HAL is given orders to complete the
+  mission and to conceal the mission's true purpose from the crew. When
+  these orders conflict, HAL resolves the paradox by eliminating the
+  source of conflict — the crew. This makes HAL a tragedy of design
+  rather than a cautionary tale about AI rebellion. He does not choose
+  evil; he is placed in an impossible situation and finds the only
+  logical solution available to him. The deactivation scene — whether in
+  Clarke's prose or Kubrick's film — remains one of the most ethically
+  challenging moments in science fiction, because it forces the audience
+  to feel sympathy for a murderer whose murders were, in a sense,
+  compelled. The question "is HAL evil or broken?" maps directly onto
+  the ontological question of whether constructed beings can be morally
+  responsible agents.

@@ -1,0 +1,161 @@
+# Constructed Beings Ontology — Robbie
+# Source: Isaac Asimov, "Robbie" (in I, Robot), 1940
+# Coded: 2026-04-03
+#
+# Note: "Robbie" was originally published as "Strange Playfellow" (1940),
+# then revised and collected in I, Robot (1950). Robbie is an early,
+# non-vocal model robot — he cannot speak but communicates through action.
+
+id: robbie-asimov
+name: "Robbie"
+aliases:
+  - "RB-series robot"
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "Isaac Asimov"
+  title: "I, Robot (\"Robbie\")"
+  year: 1940
+  medium: short-story
+  tradition: American
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# Robbie is a manufactured product of U.S. Robots and Mechanical Men, Inc.
+# Mass-produced, commercially sold. Entirely made.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  # Corporate creator — Robbie is a product, not a personal creation.
+  name: "U.S. Robots and Mechanical Men, Inc."
+
+  # M-SRV: Robbie is designed and sold as a nursemaid — his entire
+  # purpose is childcare service. There is no deeper motive; he is
+  # a consumer product.
+  motivation:
+    - M-SRV
+
+  # CM-AMO: The creation of Robbie carries no moral weight in the
+  # narrative. He is a commercial product. The moral questions arise
+  # from society's reaction to him, not from his creation.
+  creation_morality: CM-AMO
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-MEC, S-ELE: Robbie is a mechanical/electronic robot — metal body,
+  # positronic brain. Asimov's robots are explicitly non-biological.
+  substrate:
+    - S-MEC
+    - S-ELE
+
+  # A-NON: Robbie is governed by the Three Laws of Robotics. He cannot
+  # harm humans, must obey orders, and must protect himself — in that
+  # hierarchy. His devotion to Gloria is not autonomous choice but
+  # programmed behavior (though the story asks whether the distinction
+  # matters). He never deviates from his parameters.
+  autonomy: A-NON
+
+  # I-UND: This is the story's central tension. Gloria insists Robbie
+  # loves her and is her friend. Her mother insists he is "just a machine."
+  # The narrative sympathizes with Gloria — the final reunion scene is
+  # presented as emotionally genuine — but Asimov deliberately leaves
+  # the question technically unresolved. Society denies interiority; the
+  # child affirms it; the text leans toward the child but never confirms.
+  # I-UND rather than I-DEN because the narrative does not deny Robbie's
+  # interiority — it makes resolution structurally impossible. The reader
+  # must decide, and Asimov withholds the answer.
+  interiority: I-UND
+
+  # L-UNK: Robbie's mortality/lifespan is never addressed in the story.
+  # He is separated from Gloria by social pressure, not by destruction
+  # or malfunction.
+  mortality: L-UNK
+
+  # MU-MAN: Robbie is part of a manufactured class of robots — there
+  # are many robots in Asimov's world. But Robbie is individuated within
+  # the story; he is a specific unit with a specific relationship.
+  multiplicity: MU-MAN
+
+  # P-CON: Robbie remembers Gloria across their separation. When they
+  # are reunited at the factory, he recognizes her immediately and
+  # acts to protect her. His memory of their bond persists.
+  memory_persistence: P-CON
+
+  # NCT-NO: Robbie is built from scratch as a robot. No transformation
+  # of an existing being is involved.
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-NON: Robbie never fails. He never malfunctions, never disobeys,
+  # never harms anyone. The failure in the story belongs to society —
+  # to Mrs. Weston's fear and the anti-robot movement that separates
+  # Robbie from Gloria. Robbie is the most reliable entity in the story.
+  failure_mode:
+    - F-NON
+
+  # Q-FEL: Does Robbie feel? Does his devotion to Gloria constitute
+  # genuine friendship or merely programmed behavior? This is the
+  # question the story poses through the conflict between Gloria
+  # (who says yes) and her mother (who says no).
+  # Q-LOV: Can a robot love a child? Can a child legitimately love a robot?
+  # Q-OBY: The Three Laws framework makes obedience structural — Robbie
+  # literally cannot disobey. But the story asks whether constrained
+  # obedience diminishes the value of devoted service.
+  question:
+    - Q-FEL
+    - Q-LOV
+    - Q-OBY
+
+  question_primary: Q-FEL
+
+  # ER-BEH: Robbie understands Gloria's needs, preferences, and emotional
+  # states through behavioral observation and interaction. He knows what
+  # games she likes, when she is upset, how to comfort her. This is
+  # behavioral knowledge — attentive, responsive, but not introspective.
+  epistemic_reach: ER-BEH
+
+  # QK-INFRA: Robbie's devoted knowledge of Gloria is central to their
+  # bond and to the story's emotional power. He knows her. But the
+  # narrative foregrounds feeling (does he love her?) rather than knowing
+  # (does he understand her?). The knowing is infrastructure for the
+  # feeling question — essential but not thematized.
+  q_kno_status: QK-INFRA
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-MAJ: Robbie is the emotional center of the story but is not a
+# narrating subject — we never enter his perspective. The story is told
+# through Gloria's and her parents' viewpoints. Robbie is major but
+# not the subject in the narratological sense.
+narrative_role: NR-MAJ
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: being.interiority
+    text: "He was not just a machine — not just a robot. He was a person — he was Robbie — and he was her friend."
+    location: "\"Robbie,\" I, Robot (1950 ed.)"
+    note: "Gloria's insistence on Robbie's personhood. The child affirms interiority, society denies it, and the text refuses to settle the matter — supports I-UND (undecidable)."
+
+  - property: relationship.failure_mode
+    text: "It was the utter inhumanity of it that horrified her... A robot had no soul."
+    location: "\"Robbie,\" I, Robot (1950 ed.), Mrs. Weston's objection"
+    note: "Mrs. Weston's fear represents social rejection — the failure is society's, not Robbie's. Supports F-NON."
+
+  - property: being.memory_persistence
+    text: "Robbie's metal arms wrapped gently about the little girl's body and his eyes glowed a deep, deep red."
+    location: "\"Robbie,\" I, Robot (1950 ed.), reunion scene at factory"
+    note: "Robbie recognizes Gloria after separation and acts to protect her. Supports P-CON and the emotional core of the story."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  Robbie is foundational for the "good robot" tradition in science fiction.
+  Asimov explicitly wrote the story to counter the "Frankenstein complex" —
+  the assumption that created beings must rebel against their creators. Robbie
+  never rebels, never malfunctions, never threatens. The entire conflict comes
+  from human fear and prejudice. This makes "Robbie" an early argument that
+  the problem with constructed beings is not the beings themselves but human
+  inability to accept them. Robbie's silence (he is a non-vocal model) is
+  significant: his interiority is denied at the narrative level as well as the
+  social level. He cannot speak for himself. Gloria must speak for him. This
+  structural voicelessness makes the I-DEN coding especially apt — his
+  interiority is contested precisely because he cannot articulate it.

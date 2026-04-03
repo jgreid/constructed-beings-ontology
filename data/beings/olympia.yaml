@@ -1,0 +1,139 @@
+# Constructed Beings Ontology — Olympia
+# Source: E.T.A. Hoffmann, Der Sandmann (The Sandman), 1816
+# Coded: 2026-04-03
+
+id: olympia
+name: Olympia
+aliases:
+  - "Professor Spalanzani's daughter"
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "E.T.A. Hoffmann"
+  title: "Der Sandmann"
+  year: 1816
+  medium: short-story
+  tradition: German
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# Olympia is a clockwork automaton built by Spalanzani and Coppelius/Coppola.
+# She is entirely manufactured — no birth, no transformation.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  # Spalanzani builds the body; Coppelius/Coppola provides the eyes
+  # (which are linked to the Sandman motif and Nathanael's stolen eyes).
+  # The collaboration is itself sinister — two deceivers working together.
+  name: "Spalanzani (and Coppelius/Coppola)"
+
+  # M-KNO: Spalanzani presents her as an experiment in automaton-making.
+  # M-ART: She is also an artistic creation — presented at a social gathering
+  # as a piano-playing, singing marvel.
+  motivation:
+    - M-KNO
+    - M-ART
+
+  # CM-IMM: The creation is fundamentally deceptive — Olympia is passed off
+  # as Spalanzani's human daughter. The deception drives Nathanael to madness.
+  creation_morality: CM-IMM
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-MEC: She is a clockwork automaton — mechanical through and through.
+  substrate:
+    - S-MEC
+
+  # A-NON: Olympia has no autonomy whatsoever. She is pure mechanism.
+  # She sits, she plays piano, she says "Ah, ah!" — all mechanical responses.
+  # There is no will, no choice, no deviation from her programming.
+  autonomy: A-NON
+  autonomy_trajectory: >
+    No trajectory. Olympia never develops, changes, or acts independently.
+    She is the same mechanism from first appearance to destruction.
+
+  # I-DEN: This is the crux of Hoffmann's story. Nathanael attributes deep
+  # interiority to Olympia — he believes she understands him, that her silence
+  # is sympathetic attention. The narrative reveals this is entirely projected.
+  # Her "interiority" is denied by the text; she is a mirror for narcissism.
+  interiority: I-DEN
+
+  # L-MOR: Olympia is destroyed when Spalanzani and Coppelius fight over her.
+  # Her eyes are torn out, her body smashed — she is revealed as mechanism.
+  mortality: L-MOR
+
+  multiplicity: MU-ONE
+
+  # P-NON: Olympia has no memory. She is a mechanism that produces fixed
+  # responses. There is nothing to persist.
+  memory_persistence: P-NON
+
+  # NCT-NO: She was never a living being prior to construction.
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-IND: Nathanael cannot tell the difference between Olympia and a human.
+  # This is the central failure — the indistinguishability of mechanism from person.
+  # F-REV: The Olympia episode reveals Nathanael's narcissism. He loves her
+  # precisely because she never contradicts him, never has her own opinions.
+  # She is a mirror, and his "love" exposes his inability to engage with real others.
+  failure_mode:
+    - F-IND
+    - F-REV
+
+  question:
+    - Q-TEL
+    - Q-LOV
+    - Q-FEL
+
+  # Q-TEL is primary: the core question is about purpose and what it means
+  # to be "real." Can a mechanism fulfill the role of a person? The answer
+  # Hoffmann gives is devastating — yes, if the human is broken enough.
+  question_primary: Q-TEL
+
+  # ER-NON: Olympia has zero epistemic capacity. She perceives nothing,
+  # understands nothing. All "knowing" in the Olympia subplot is Nathanael's
+  # projection onto a blank surface.
+  epistemic_reach: ER-NON
+
+  # QK-INFRA: Nathanael's belief that Olympia "understands" him is a
+  # proto-Q-KNO theme — he thinks she knows him better than any human does.
+  # But the narrative uses this to expose delusion, not to genuinely ask
+  # whether a machine can know you. The question is raised only to be demolished.
+  q_kno_status: QK-INFRA
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-MAJ: Olympia is not the protagonist (Nathanael is), but she is the
+# pivotal figure in the central episode — the automaton-love subplot that
+# drives Nathanael's descent into madness.
+narrative_role: NR-MAJ
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: being.interiority
+    text: "She spoke few words, but those few words appeared as genuine hieroglyphics of the inner world"
+    location: "Der Sandmann, Nathanael's letter (middle section)"
+    note: "Nathanael projects depth onto Olympia's near-silence — supports I-DEN coding."
+
+  - property: being.autonomy
+    text: "Olympia sat, as usual, at the little table with her hands laid upon it, her lips half opened"
+    location: "Der Sandmann, party scene"
+    note: "Stock posture of a mechanism waiting for input — supports A-NON."
+
+  - property: relationship.failure_mode
+    text: "Spalanzani seized a bloody pair of eyes from the ground and flung them at Nathanael's breast"
+    location: "Der Sandmann, destruction scene"
+    note: "Olympia's dismemberment reveals mechanism; eyes link to Sandman motif — supports F-IND, F-REV."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  Olympia is one of the earliest literary automata and a foundational text for
+  the "uncanny valley" concept. Hoffmann's achievement is to make the horror
+  not about the automaton itself but about what Nathanael's love for her reveals
+  about him. She has zero interiority, zero autonomy, zero epistemic capacity —
+  yet she is the most "understanding" listener Nathanael has ever encountered.
+  This inversion makes her a crucial baseline case: the constructed being as
+  mirror, not as subject. Freud's essay "Das Unheimliche" (1919) draws heavily
+  on this story, though Freud controversially downplays the automaton theme
+  in favor of the castration/eyes motif.
