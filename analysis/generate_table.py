@@ -17,10 +17,13 @@ def load_beings():
     for ext in ('*.yaml', '*.yml'):
         pattern = os.path.join(DATA_DIR, ext)
         for filepath in sorted(glob.glob(pattern)):
-            with open(filepath, 'r', encoding='utf-8') as f:
-                data = yaml.safe_load(f)
-                if data is not None:
-                    beings.append(data)
+            try:
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    data = yaml.safe_load(f)
+                    if data is not None and isinstance(data, dict):
+                        beings.append(data)
+            except (yaml.YAMLError, OSError) as exc:
+                print(f"Warning: skipping {filepath}: {exc}")
     return beings
 
 

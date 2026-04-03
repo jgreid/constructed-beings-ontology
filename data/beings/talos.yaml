@@ -70,13 +70,13 @@ being:
 
 # ── RELATIONSHIP ──────────────────────────────────────────────────────
 relationship:
-  # F-EXC: Talos does not exceed his purpose — he is defeated by Medea's
+  # F-NON: Talos does not exceed his purpose — he is defeated by Medea's
   # magic/cunning. The "failure" is external: Medea exploits his single
-  # vulnerability. Coding F-EXC because from the Argonauts' perspective
-  # he is an obstacle that must be overcome, but he never malfunctions
-  # or rebels. He fails by being defeated, not by exceeding design.
+  # vulnerability. Talos never malfunctions, never rebels, never deviates
+  # from his guardian function. He performs exactly as designed until
+  # destroyed by external force. There is no creator-being failure.
   failure_mode:
-    - F-EXC
+    - F-NON
 
   # Q-CTL primary: The central question Talos raises is about control —
   # who controls this immensely powerful guardian, and what happens when

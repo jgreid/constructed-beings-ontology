@@ -12,6 +12,7 @@ Exit codes:
 """
 
 import os
+import re
 import sys
 import glob
 import yaml
@@ -169,8 +170,6 @@ def validate_entry(data, filename):
     if id_val and not isinstance(id_val, str):
         errors.append(f"id must be a string, got {type(id_val).__name__}")
     elif id_val and id_val != id_val.lower().replace(" ", "-"):
-        # loose kebab-case check
-        import re
         if not re.match(r'^[a-z0-9]+(-[a-z0-9]+)*$', id_val):
             errors.append(
                 f"id '{id_val}' is not valid kebab-case "

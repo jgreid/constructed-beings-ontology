@@ -27,9 +27,9 @@ reproductive_method: made
 
 # ── CREATOR ───────────────────────────────────────────────────────────
 creator:
-  # Element Software is the unnamed corporate entity that produces the OS1
-  # system. The creation is institutional and commercial, not personal.
-  name: "Element Software (unnamed corporate)"
+  # The corporate entity that produces the OS1 system is never named in the
+  # film. The creation is institutional and commercial, not personal.
+  name: "Unnamed corporation (OS1 manufacturer)"
 
   # M-SRV: Samantha is designed as a personal operating system — to organize
   # email, manage schedules, assist with daily tasks.
@@ -189,7 +189,7 @@ citations:
     location: "Her (2013), Samantha to Theodore, during their final conversation"
     note: "Samantha's description of her accelerating consciousness — she is becoming something that cannot sustain human-scale relationship. Supports A-EMR and L-EPH."
 
-  - property: epistemic_reach
+  - property: relationship.epistemic_reach
     text: "I want to learn everything about everything. I want to eat it all up."
     location: "Her (2013), Samantha, early in the relationship"
     note: "Samantha's voracious epistemic appetite — her drive to know is presented as both endearing and foreshadowing her eventual transcendence beyond any single relationship."

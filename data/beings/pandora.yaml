@@ -71,12 +71,13 @@ being:
 
 # ── RELATIONSHIP ──────────────────────────────────────────────────────
 relationship:
-  # F-EXC: Pandora does exactly what she was designed to do. The "failure" is
+  # F-NON: Pandora does exactly what she was designed to do. The "failure" is
   # humanity's, not hers. She exceeds no purpose — she IS the purpose.
-  # Coding F-EXC because from humanity's perspective she exceeds what they
-  # expected (a gift), but she perfectly fulfills her creator's intent.
+  # From Zeus's perspective (the creator), there is no failure: his plan
+  # works perfectly. From humanity's perspective she is a catastrophe, but
+  # that is the intended outcome, not a malfunction.
   failure_mode:
-    - F-EXC
+    - F-NON
 
   question:
     - Q-OBY

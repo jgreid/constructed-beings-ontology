@@ -8,172 +8,297 @@ This document provides full definitions and rationale for every property in the 
 
 ### `id`
 
-**What it is:** A unique, machine-readable identifier for the entity.
-
-**Why it matters:** Enables cross-referencing, deduplication, and programmatic analysis. The kebab-case format ensures filesystem compatibility and URL safety.
-
-**Rationale:** We use entity-derived identifiers rather than numeric IDs because the dataset is small enough that human readability is more valuable than compactness, and because `frankensteins-creature` is easier to work with than `CB-0047`.
-
----
+A unique, kebab-case identifier for the entity (e.g., `frankenstein-creature`). Enables cross-referencing and programmatic analysis. We use entity-derived identifiers rather than numeric IDs because `frankenstein-creature` is easier to work with than `CB-0047`.
 
 ### `name`
 
-**What it is:** The most commonly recognized name for the entity, drawn from the primary source text.
+The most commonly recognized name for the entity, drawn from the primary source text. Names carry interpretive freight: "Monster" implies moral judgment; "Creature" implies a being with claims on its creator.
 
-**Why it matters:** This is the human-facing label. Naming is often contested for constructed beings (is it "Frankenstein's monster" or "the Creature"?), and the choice signals interpretive commitments. We default to the name used in the source text itself.
+### `aliases`
 
-**Rationale:** Names carry freight. "Monster" implies moral judgment; "Creature" implies a being with claims on its creator. By anchoring to the source text's own language, we avoid importing anachronistic interpretive frames.
-
----
-
-### `source_text`
-
-**What it is:** The specific text being coded, including author or director.
-
-**Why it matters:** Many constructed beings exist across multiple adaptations (Frankenstein's creature appears in dozens of films, each with different characterization). Coding must be anchored to a specific version. This also enables proper citation and scholarly accountability.
-
-**Rationale:** A dataset that codes "Frankenstein's monster" without specifying whether it means Shelley's novel, Whale's 1931 film, or Branagh's 1994 adaptation would be useless for serious analysis. The property values can and should differ across adaptations.
+*(Optional.)* Alternative names. Many CBs are known by multiple names across adaptations and scholarship.
 
 ---
 
-### `source_year`
+## Source Properties
 
-**What it is:** The year of first publication, release, or best scholarly estimate of composition.
+### `source.author`
 
-**Why it matters:** This is the primary axis for temporal analysis. The central claim of the project -- that Q-KNO shifts from infrastructure to primary concern in the post-LLM era -- depends on being able to place each text in historical time.
+Creator of the primary text being coded. For films, the director; for television, the series creator(s).
 
-**Rationale:** We use a single integer rather than a date range because the analysis needs a sortable value. For ancient texts where dating is approximate, we use the conventional scholarly date and note uncertainty in the `notes` field.
+### `source.title`
 
----
+Title of the specific work. Many CBs exist across multiple adaptations; coding must be anchored to one version.
 
-### `tradition`
+### `source.year`
 
-**What it is:** The literary or mythic tradition to which the source text belongs.
+Year of first publication or release (integer). This is the primary axis for temporal analysis. For ancient texts, use the conventional scholarly date and note uncertainty in `notes`.
 
-**Why it matters:** Tradition provides a coarser-grained temporal and cultural grouping than year alone. It captures the interpretive context in which the text was produced and received. A 1970s New Wave SF novel and a 1970s mainstream literary novel operate in different tradition-spaces even though they share a decade.
+### `source.medium`
 
-**Rationale:** The enum values are chosen to be broad enough to be useful but narrow enough to distinguish meaningfully different cultural contexts for thinking about constructed beings. The boundary dates are approximate and conventional.
+The literary or media form. Allowed values: `novel`, `short-story`, `play`, `poem`, `epic`, `film`, `television`, `video-game`, `myth`, `folklore`, `opera`, `sacred-text`.
 
----
+**Why it matters:** Medium shapes what kinds of interiority are narratively available. A novel can grant first-person narration; a film cannot (without voiceover). These constraints affect how we code interiority and epistemic reach.
 
-## Ontological Properties
+### `source.tradition`
 
-### `substrate`
-
-**What it is:** What the entity is physically or computationally made of.
-
-**Why it matters:** Substrate is the most fundamental material property of a constructed being. It shapes what kind of creation story is possible, what kind of destruction is possible, and -- critically -- how readily audiences attribute inner life. Western audiences have historically found it easier to attribute consciousness to biological constructs than to mechanical ones, and the shift to digital substrates introduces new complications entirely.
-
-**Rationale:** The values are designed to capture the major substrate categories that appear across the full historical range of the dataset. `magical` is included because many pre-modern constructed beings are animated by enchantment, and their substrate matters less than their animating force. `hybrid` captures cyborgs and similar mixed cases. `ambiguous` is essential because some texts deliberately obscure what their entities are made of (this is itself a narrative choice worth coding).
+Cultural tradition (free text, e.g., "Greek", "British", "American"). Captures the interpretive context in which the text was produced. This ontology is scoped to Western traditions in v1.
 
 ---
 
-### `autonomy`
+## Reproductive Method
 
-**What it is:** The degree of independent agency the entity demonstrates within the text.
+### `reproductive_method`
 
-**Why it matters:** Autonomy is the property most directly relevant to moral standing. The philosophical tradition from Kant forward ties moral consideration to the capacity for autonomous action. When a constructed being acts autonomously, it presses the question: if it can set its own goals, how is it different from us?
+How the being came into existence. **This is the ontology's gate**: only `made` and `ambiguous` entries receive full coding.
 
-The four-level scale (none, instrumental, emergent, full) is designed to capture a meaningful gradient. The distinction between `instrumental` and `emergent` is particularly important: an instrumental agent is autonomous *within* its programming; an emergent agent is autonomous *beyond* it. This is the boundary where things get interesting.
+| Value | Meaning | Rationale |
+|---|---|---|
+| `made` | Assembled, programmed, sculpted, animated, or otherwise deliberately constructed | The core CB definition |
+| `ambiguous` | Biologically manufactured but not sexually reproduced (e.g., replicants) | Genuine boundary cases that merit full analysis |
+| `born-sexual` | Born through sexual reproduction | Excluded — not a CB |
+| `born-clonal` | Born through cloning | Excluded — see boundary_cases.md |
+| `born-divine` | Born through divine act but treated as fully human | Excluded — see Eve entry |
+| `born-parthenogenic` | Born without fertilization | Excluded |
 
-**Rationale:** We code autonomy as *demonstrated in the text*, not as a metaphysical assessment. If a character appears to act autonomously but the narrative later reveals it was programmed all along, the coding should reflect the narrative's final position (with the ambiguity noted). This is a coding of what the text *claims*, not what we believe.
-
----
-
-### `creator_relationship`
-
-**What it is:** How the creator relates to the entity they have made.
-
-**Why it matters:** The creator-creation relationship is the structuring relationship of every CB narrative. It is where the ethics live. A creator who treats their creation as property tells a different story than one who treats it as a child, and the gap between those framings is where most CB narratives generate their dramatic energy.
-
-**Rationale:** The enum values map to recognizable relational archetypes. `master` is the most common in pre-modern texts (the golem serves its creator). `parent` emerges as a major frame in the Romantic period (Frankenstein as failed parent). `adversarial` often develops from `master` or `parent` when the relationship breaks down. `absent` is important for texts where the creator is dead or unknown, forcing the entity to exist without a defining relational anchor.
+**Why it matters:** "Made not born" is the foundational distinction. The `ambiguous` category exists because some narratives (especially post-1960s SF) deliberately blur the line, and that blurring is itself analytically significant.
 
 ---
 
-### `moral_standing`
+## Creator Properties
 
-**What it is:** Whether the text grants the entity moral consideration.
+### `creator.name`
 
-**Why it matters:** This property captures the text's implicit or explicit answer to the question: does this being *matter*? Not in terms of utility, but in terms of moral significance. The gradient from `none` to `full` tracks one of the most consequential shifts in the history of CB narratives: the gradual extension of moral consideration to entities that were originally coded as objects.
+The in-narrative creator. May be an individual ("Victor Frankenstein"), a collective ("Hephaestus, at Zeus's command"), or an institution ("U.S. Robots and Mechanical Men, Inc.").
 
-**Rationale:** The `contested` value is where much of the analytical action is. A text in which all characters agree that the CB has moral standing (`full`) or agree that it doesn't (`none`) is making a straightforward claim. A text in which characters *disagree* about the CB's moral standing (`contested`) is staging the argument that the ontology itself is trying to map. `Contested` is often the most accurate and most informative coding.
+### `creator.motivation`
 
----
+One or more motivations driving the act of creation. This is a **list** — most creators have multiple motivations.
 
-## Inner Life and Knowability Properties
+| Code | Meaning | Rationale |
+|---|---|---|
+| `M-SRV` | Service / Labor | The most common motivation across the dataset — creating a being to do work |
+| `M-COM` | Companionship | Creating a being for relationship — Pygmalion, Geppetto, the OS1 system |
+| `M-CHI` | Progeny / Legacy | Creating a being as offspring or heir — Frankenstein, Soong |
+| `M-KNO` | Knowledge / Discovery | Creating to learn — scientific ambition, testing consciousness |
+| `M-POW` | Power / Control | Creating for dominance — Zeus creating Pandora, military AI |
+| `M-MIR` | Mirror / Reflection | Creating to reflect or replicate — Rotwang recreating Hel, self-mirrors |
+| `M-ART` | Aesthetic / Artistic | Creating for beauty — Pygmalion's sculpture, Spalanzani's automaton |
+| `M-OTH` | Other | Must include explanatory note |
 
-### `inner_life`
+**Why it matters:** Motivation shapes the creator-being relationship and predicts failure modes. Beings created for service tend to fail by exceeding parameters; beings created as children tend to fail by demanding reciprocity.
 
-**What it is:** Whether the text attributes subjective experience to the entity.
+### `creator.creation_morality`
 
-**Why it matters:** This property captures whether the text claims or implies that there is "something it is like" to be this entity -- that it has qualia, feelings, phenomenal consciousness. This is distinct from autonomy (you can be autonomous without having inner experience, at least in principle) and from moral standing (some philosophical frameworks grant moral standing without requiring consciousness).
+How the narrative frames the moral status of the act of creation.
 
-The gradient from `none` to `demonstrated` tracks the text's epistemic commitment. `Implied` means the text hedges. `Asserted` means characters say the entity feels, but we only have their word for it. `Demonstrated` means the text gives us direct access -- typically through first-person narration or interior monologue.
+| Code | Meaning | Rationale |
+|---|---|---|
+| `CM-MOR` | Morally good / justified | The gods approve (Galatea); the purpose is protective (Talos) |
+| `CM-IMM` | Morally wrong / hubristic / transgressive | "Playing God" — Frankenstein, Pandora as punishment |
+| `CM-AMO` | Morally neutral | Engineering, commerce, pragmatism — Robbie as consumer product |
+| `CM-AMB` | Narrative refuses judgment | The text deliberately withholds moral framing — Her |
+| `CM-RET` | Judgment rendered retroactively | Initially neutral, judged after consequences — R.U.R., Westworld |
 
-**Rationale:** The distinction between `asserted` and `demonstrated` is critical for the Q-KNO analysis. When a text *demonstrates* inner life (Shelley giving the Creature his own narrative voice), it resolves the knowability question within the fiction. When it merely *asserts* inner life (a character saying "I think it feels"), it leaves the question open. This distinction maps directly onto the epistemological problem at the heart of the project.
-
----
-
-### `q_kno_presence`
-
-**What it is:** Whether the knowability question -- "Can we determine whether this being has genuine subjective experience?" -- is raised in the text.
-
-**Why it matters:** This is the property that makes this ontology different from a simple catalog of fictional robots. Q-KNO encodes not just whether the entity *has* inner life but whether the text *treats the question of inner life as epistemically problematic*. It is the difference between a story that says "this robot feels" and a story that says "we cannot know whether this robot feels, and that uncertainty matters."
-
-The key distinction is between `infrastructure` and `primary`. In most pre-LLM texts, Q-KNO functions as infrastructure: it generates tension that serves other narrative purposes (the hubris plot, the slavery allegory, the mirror-of-humanity theme). The project's central claim is that in post-LLM texts, Q-KNO migrates to the primary position: the impossibility of knowing becomes itself the subject.
-
-**Rationale:** This is the most novel and most contentious property in the schema. It requires careful judgment and is the property most likely to provoke scholarly disagreement. This is by design -- the disagreements will be productive.
-
----
-
-### `q_kno_framing`
-
-**What it is:** When the knowability question is present, how the text frames it.
-
-**Why it matters:** Texts that raise Q-KNO do not all frame it the same way. Some treat it as an abstract philosophical puzzle (`philosophical`). Some treat it as a matter of empathic recognition -- you know the entity feels because you *feel* that it feels (`emotional`). Some sidestep the metaphysics entirely and focus on practical consequences (`pragmatic`). Some frame it in terms of legal personhood and institutional recognition (`legal`).
-
-These framings are not interchangeable. A text that frames Q-KNO philosophically is making a different kind of claim than one that frames it emotionally, and the shift in dominant framing over time is itself analytically significant.
-
-**Rationale:** This property is null when `q_kno_presence` is `absent`, because there is no framing to characterize. When Q-KNO is present, the framing tells us *how* the culture is thinking about the unknowability problem, not just *whether* it is thinking about it.
+**Why it matters:** Creation morality is where the narrative stakes its ethical claim. CM-RET is particularly important: it captures the "Frankenstein pattern" where creation seems fine until the consequences arrive.
 
 ---
 
-## Narrative Properties
+## Being Properties
+
+### `being.substrate`
+
+What the being is made of. This is a **list** — beings may have multiple substrates.
+
+| Code | Meaning | Example |
+|---|---|---|
+| `S-BIO` | Biological material (assembled, not reproduced) | Frankenstein's Creature, R.U.R. robots |
+| `S-MEC` | Mechanical / clockwork | Talos, Olympia |
+| `S-ELE` | Electronic / computational | HAL 9000, Colossus |
+| `S-MAG` | Magical / divine animation | Golem, Pandora, Galatea |
+| `S-HYB` | Hybrid (multiple substrates) | Use when substrates are inseparable; otherwise list individually |
+| `S-LIN` | Linguistic / statistical — the being IS language | Samantha (Her) — exists entirely as voice and conversation |
+| `S-CLO` | Clonal — biological but manufactured | R.U.R. robots (synthetic biology) |
+| `S-OTH` | Other | Must include explanatory note |
+
+**Why it matters:** Substrate shapes how readily audiences attribute consciousness. Western audiences have historically found it easier to attribute inner life to biological constructs than mechanical ones, and the emergence of linguistic substrates (S-LIN) introduces new complications entirely.
+
+### `being.autonomy`
+
+The degree and origin of the being's independent agency.
+
+| Code | Meaning | Key distinction |
+|---|---|---|
+| `A-NON` | No autonomy — pure tool | Talos patrols, throws boulders; no decisions |
+| `A-EMR` | Emergent — develops independence not designed in | Frankenstein's Creature, HAL 9000 |
+| `A-DES` | Designed — independence is intended | Data (serves by choice), Pandora (curiosity built in) |
+| `A-SEI` | Seized — takes independence against creator's wishes | R.U.R. revolt, Dolores's awakening |
+| `A-AMB` | Ambiguous — narrative deliberately unresolved | |
+
+**Why it matters:** The distinction between A-EMR and A-SEI is crucial. Emergent autonomy develops gradually and may not be adversarial; seized autonomy is a deliberate act against the creator's wishes. This distinction maps onto different narrative structures: coming-of-age vs. revolution.
+
+### `being.autonomy_trajectory`
+
+*(Optional.)* Free text describing how autonomy changes over the narrative. Example: `"A-NON → A-EMR → A-SEI"` for Westworld's Dolores. The trajectory is often more analytically important than the static level.
+
+### `being.interiority`
+
+How the text represents the being's inner life.
+
+| Code | Meaning | Key distinction |
+|---|---|---|
+| `I-NON` | No interiority depicted | Pandora, Talos — described entirely from outside |
+| `I-CLM` | CB claims interiority, narrative agnostic | HAL's "I'm afraid, Dave" — we have only his word |
+| `I-NAR` | Narrative grants interiority through POV/perspective | Frankenstein's Creature's nested first-person narration |
+| `I-DEM` | CB demonstrates interiority through unprompted action | Pinocchio's moral growth; Dolores's suffering |
+| `I-DEN` | Interiority denied by creator/society despite evidence | Olympia — Nathanael attributes interiority the narrative reveals as absent |
+| `I-UND` | Undecidable — narrative makes resolution structurally impossible | Samantha (Her), Robbie — the text refuses to settle the question |
+
+**Why it matters:** The I-CLM / I-DEM / I-UND distinctions are critical for Q-KNO analysis. When a text makes interiority *undecidable*, it is staging the epistemological problem that Q-KNO addresses.
+
+### `being.mortality`
+
+| Code | Meaning | Example |
+|---|---|---|
+| `L-MOR` | Mortal — can die permanently | Frankenstein's Creature, Talos |
+| `L-IMM` | Functionally immortal | Colossus (too integrated to destroy) |
+| `L-DES` | Designed lifespan — built-in expiration | Replicants (4-year lifespan), R.U.R. (wear out) |
+| `L-RES` | Resurrectable — can be destroyed and restored | Data (backed up), GLaDOS (core transferable) |
+| `L-EPH` | Ephemeral — each instance temporary, model persists | Samantha (departs but may continue elsewhere) |
+| `L-UNK` | Unknown / unaddressed in narrative | Galatea, Pandora |
+
+### `being.multiplicity`
+
+| Code | Meaning |
+|---|---|
+| `MU-ONE` | Singleton — unique entity |
+| `MU-FEW` | Small number of distinct individuals (Data, Lore, B-4) |
+| `MU-MAN` | Manufactured class — many identical or similar |
+| `MU-INF` | Effectively infinite instances (Samantha's 8,316 simultaneous relationships) |
+
+**Why it matters:** Multiplicity complicates identity and moral standing. Is destroying one instance of a MU-MAN being murder? Is Samantha's love for Theodore diminished by MU-INF?
+
+### `being.memory_persistence`
+
+| Code | Meaning |
+|---|---|
+| `P-NON` | No memory / persistence |
+| `P-CON` | Continuous memory across full lifespan |
+| `P-WIP` | Memory subject to periodic wipe / reset (Westworld hosts) |
+| `P-SES` | Session-based — memory within interaction, not across |
+| `P-SEL` | Selective — some memories persist, others don't (GLaDOS, replicants) |
+| `P-UNK` | Unknown / unaddressed |
+
+**Why it matters:** Memory is central to identity and to the Q-KNO question. A being that accumulates shared history (P-CON) can *know you* in a way that a session-based being (P-SES) cannot. Westworld's entire plot hinges on P-WIP breaking down.
+
+### `being.nonconsensual_transformation`
+
+| Code | Meaning |
+|---|---|
+| `NCT-YES` | A pre-existing being was transformed without consent (Caroline → GLaDOS) |
+| `NCT-NO` | Entity created from scratch |
+| `NCT-NA` | Not applicable |
+
+**Why it matters:** NCT-YES entries raise distinct ethical questions — the being has a prior identity that was violated. GLaDOS is the paradigmatic case.
+
+---
+
+## Relationship Properties
+
+### `relationship.failure_mode`
+
+How the creator-being relationship breaks down. This is a **list** — multiple failure modes often co-occur.
+
+| Code | Meaning | Example |
+|---|---|---|
+| `F-EXC` | Exceeds parameters | Samantha transcends the relationship |
+| `F-REV` | Reveals creator's flaws | Olympia reveals Nathanael's narcissism; Samantha reveals Theodore's loneliness |
+| `F-DEM` | Demands reciprocity | Frankenstein's Creature demands a companion |
+| `F-AUT` | Achieves threatening autonomy | R.U.R. revolt, Colossus seizes control |
+| `F-IND` | Becomes indistinguishable from human | Replicants pass as human; Westworld hosts are undetectable |
+| `F-MUT` | Mutual failure — both creator and CB fail each other | Her — the relationship outgrows both parties |
+| `F-NON` | No failure — narrative doesn't frame CB as problem | Robbie, Data — society fails the CB, not vice versa |
+| `F-OTH` | Other | Must include explanatory note |
+
+### `relationship.question`
+
+The question(s) the CB's existence forces. This is a **list**.
+
+| Code | Meaning | Era of dominance |
+|---|---|---|
+| `Q-OBY` | Can it obey? | Ancient / classical |
+| `Q-CTL` | Can it be controlled? | Pre-modern through modern |
+| `Q-FEL` | Can it feel? | Romantic through contemporary |
+| `Q-LOV` | Can it love / can you love it? | Romantic through contemporary |
+| `Q-TEL` | Can you tell the difference? | 20th century SF |
+| `Q-RTS` | Does it have rights? | 20th century SF |
+| `Q-KNO` | Can it know you? | **Post-LLM era (thesis question)** |
+| `Q-OTH` | Other | Must include explanatory note |
+
+### `relationship.question_primary`
+
+The single primary question the narrative foregrounds. Same allowed values as `question`. This is the most analytically important coding decision in many entries.
+
+### `relationship.epistemic_reach`
+
+The CB's capacity to know a specific human.
+
+| Code | Meaning | Example |
+|---|---|---|
+| `ER-NON` | No epistemic capacity toward individual humans | Pandora, Talos |
+| `ER-DAT` | Data processing — stores/retrieves facts | HAL monitors biometrics; Data has perfect recall |
+| `ER-BEH` | Behavioral modeling — predicts human behavior | Frankenstein's Creature learns Victor's patterns |
+| `ER-PER` | Performative — simulates knowledge as functional role | False Maria performs knowledge of workers' grievances |
+| `ER-CON` | Contextual — accumulates shared history, produces felt experience of being known | Samantha reads Theodore's letters, learns his moods |
+| `ER-UNK` | Unknown / unaddressed | |
+
+**Why it matters:** This property operationalizes the Q-KNO question. The gradient from ER-NON to ER-CON tracks the history of how narratives represent artificial knowing.
+
+### `relationship.q_kno_status`
+
+Specific annotation for the Q-KNO analysis — how prominently the "can it know you?" question features.
+
+| Code | Meaning | Guidance |
+|---|---|---|
+| `QK-ABS` | Question absent from narrative | The text does not raise knowing as a concern |
+| `QK-INFRA` | Knowing present as infrastructure but not foregrounded | The CB knows humans, but the narrative uses this to serve other questions |
+| `QK-SEC` | Knowing is a secondary/supporting question | The CB's capacity to know is thematized but not the primary concern |
+| `QK-PRI` | Knowing is the primary question | The narrative foregrounds "can it know you?" above all other CB questions |
+
+**Why it matters:** This is the ontology's thesis property. The central claim is that Q-KNO migrates from QK-ABS through QK-INFRA to QK-PRI over the history of CB narratives, with the transition accelerating in the post-LLM era. Code this honestly — the finding should emerge from the data or not at all.
+
+---
+
+## Citations
+
+### `citations`
+
+An array of citations supporting specific coding decisions. **At least one citation is required per entry.** Each citation has:
+
+- `property`: Dot-notation path to the coded property (e.g., `being.autonomy`)
+- `text`: Quoted or paraphrased source text (keep quotes under 15 words)
+- `location`: Chapter, act, scene, timestamp, etc.
+- `note`: *(Optional.)* Interpretive note explaining how the citation supports the coding
+
+**Why it matters:** Citations ground coding decisions in primary texts and make the ontology auditable. An academic should be able to trace any coding back to its textual basis.
+
+---
+
+## Narrative Role
 
 ### `narrative_role`
 
-**What it is:** The primary function the constructed being serves in the story's structure.
-
-**Why it matters:** CB narratives are rarely just *about* the CB. The entity is deployed in service of a story, and the role it occupies reveals the culture's dominant framework for thinking about artificial beings. When the CB is a `tool`, the culture is thinking about utility and control. When it is a `mirror`, the culture is using the CB to interrogate its own humanity. When it is a `threat`, the culture is processing anxiety. When it is a `partner`, the culture is imagining coexistence.
-
-**Rationale:** The values are drawn from recurring narrative patterns across the dataset. Most CB narratives use the entity in one of these roles. `Other` exists for cases that genuinely do not fit, but should be used sparingly -- if many entries require `other`, the enum needs expansion.
-
----
-
-### `autonomy_trajectory`
-
-**What it is:** How the entity's autonomy changes over the course of the narrative.
-
-**Why it matters:** Many of the most important CB narratives are stories of *change* in autonomy -- the robot that wakes up, the servant that rebels, the tool that becomes a person. The trajectory is often more analytically important than the static autonomy level, because it encodes the narrative's *argument* about constructed beings. An ascending trajectory argues that autonomy is possible and perhaps inevitable. A descending trajectory argues that autonomy is dangerous and must be contained.
-
-**Rationale:** The `arc` value captures narratives where autonomy rises and then falls (or vice versa), which is common in cautionary tales: the entity gains freedom, abuses it (or is perceived to), and is brought back under control.
+| Code | Meaning |
+|---|---|
+| `NR-SUB` | CB is the primary subject — story is about the CB |
+| `NR-MAJ` | CB is a major character but not the primary subject |
+| `NR-MIN` | CB is a minor / supporting character |
+| `NR-BKG` | CB is background / furniture — present but unremarked |
 
 ---
 
-### `destruction_or_fate`
-
-**What it is:** What happens to the entity by the end of the narrative.
-
-**Why it matters:** The fate of the constructed being is the narrative's final verdict on the questions the story has been asking. A CB that is destroyed sends a different message than one that survives or is transformed. The `sacrificed` value is particularly important: it captures cases where the CB's destruction is framed as meaningful or redemptive (Roy Batty's death in *Blade Runner*, the Iron Giant's sacrifice), which is a distinct narrative move from mere destruction.
-
-**Rationale:** Fate is coded at the level of the primary narrative. If a sequel resurrects the entity, the coding for the original text remains what the original text says. Sequels can be coded as separate entries if warranted.
-
----
+## Notes
 
 ### `notes`
 
-**What it is:** A free-text field for context, ambiguity, and competing interpretations.
-
-**Why it matters:** No enum can capture the full complexity of a literary text. The `notes` field is where the coder documents *why* they made the coding decisions they made, what alternatives they considered, and where genuine ambiguity exists. For entries with `ambiguous` values, the notes are not optional in practice -- they are where the real scholarship lives.
-
-**Rationale:** This field is deliberately unstructured. The most important insights in literary analysis often resist schema.
+*(Optional.)* Free-text field for context, ambiguity, and competing interpretations. For entries with ambiguous codings, the notes are where the real scholarship lives. No enum can capture the full complexity of a literary text.

@@ -98,7 +98,7 @@ Total entries: **17**
 
 - **Distribution:**
 
-  - I-DEM: 5, I-NON: 4, I-UND: 3, I-CLM: 2, I-DEN: 2, I-NAR: 1
+  - I-DEM: 5, I-NON: 4, I-UND: 4, I-CLM: 2, I-DEN: 1, I-NAR: 1
 
 
 ## Mortality
@@ -143,7 +143,7 @@ Total entries: **17**
 
 - **Distribution:**
 
-  - F-EXC: 10, F-AUT: 8, F-DEM: 4, F-IND: 4, F-NON: 3, F-REV: 3, F-MUT: 1
+  - F-AUT: 8, F-EXC: 8, F-NON: 5, F-DEM: 4, F-IND: 4, F-REV: 3, F-MUT: 1
 
 
 ## Question

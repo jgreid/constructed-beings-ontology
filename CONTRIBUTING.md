@@ -23,10 +23,10 @@ If you want to contribute a fully coded CB entry:
 
 1. **Fork** this repository.
 2. **Create a YAML file** in `data/beings/` following the naming convention: `kebab-case-entity-name.yaml` (e.g., `hal-9000.yaml`).
-3. **Code all properties** defined in [SCHEMA.md](SCHEMA.md). Use the [coding guide](docs/coding_guide.md) for ambiguous cases.
+3. **Code all properties** defined in [SCHEMA.md](SCHEMA.md). Entries use nested objects (`source`, `creator`, `being`, `relationship`) rather than flat top-level properties. Each entry must include a `citations` array with at least one citation to the primary text. Use the [coding guide](docs/coding_guide.md) for ambiguous cases.
 4. **Run validation** to ensure your entry conforms to the schema:
    ```bash
-   python analysis/validate.py
+   python schema/validate.py
    ```
 5. **Submit a pull request** with:
    - The new YAML file

@@ -1,12 +1,28 @@
 # Schema Reference
 
-This document is the human-readable companion to `schema/cb-schema.yaml`. It defines every property, its type, allowed values, and the meaning of each enumerated value. For the rationale behind each property -- *why* it is in the schema -- see [docs/property_definitions.md](docs/property_definitions.md).
+This document is the human-readable companion to `schema/cb-schema.yaml`. It defines every property, its type, allowed values, and the meaning of each enumerated code. For the rationale behind each property -- *why* it is in the schema -- see [docs/property_definitions.md](docs/property_definitions.md).
 
 ---
 
 ## Entry Structure
 
-Each constructed being is stored as a single YAML file in `data/beings/`. All properties listed below are **required** unless marked as optional.
+Each constructed being is stored as a single YAML file in `data/beings/`. The top-level structure is:
+
+```
+id
+name
+aliases          (optional)
+source           (object)
+reproductive_method
+creator          (object)
+being            (object)
+relationship     (object)
+narrative_role
+citations        (array)
+notes            (optional)
+```
+
+All properties are **required** unless marked as optional.
 
 ---
 
@@ -19,7 +35,7 @@ Each constructed being is stored as a single YAML file in `data/beings/`. All pr
 | **Type** | `string` |
 | **Format** | kebab-case (lowercase, hyphens, no spaces) |
 | **Required** | Yes |
-| **Example** | `frankensteins-creature` |
+| **Example** | `frankenstein-creature` |
 
 A unique identifier for the entity. Used as the filename (without extension) and for cross-references.
 
@@ -31,25 +47,49 @@ A unique identifier for the entity. Used as the filename (without extension) and
 |---|---|
 | **Type** | `string` |
 | **Required** | Yes |
-| **Example** | `Frankenstein's Creature` |
+| **Example** | `The Creature` |
 
-The most commonly used name for the entity. Where multiple names exist (e.g., "Frankenstein's monster" vs. "the Creature"), prefer the name used in the primary source text.
+The most commonly used name for the entity. Where multiple names exist, prefer the name used in the primary source text.
 
 ---
 
-### `source_text`
+### `aliases`
+
+| | |
+|---|---|
+| **Type** | `list` of `string` |
+| **Required** | No (optional) |
+| **Example** | `["Frankenstein's Monster", "The Wretch", "The Daemon"]` |
+
+Alternative names or titles by which the entity is known.
+
+---
+
+## `source` (object)
+
+Metadata about the work in which the entity appears. This is a **nested object**, not a flat field.
+
+### `source.author`
 
 | | |
 |---|---|
 | **Type** | `string` |
 | **Required** | Yes |
-| **Example** | `Frankenstein; or, The Modern Prometheus (Mary Shelley)` |
+| **Example** | `Mary Shelley` |
 
-The primary text in which the entity appears. Include author name in parentheses. For films, include director. For mythological entities, cite the specific textual source being coded (e.g., "Metamorphoses (Ovid)" rather than "Greek myth").
+Author or originator of the source work.
 
----
+### `source.title`
 
-### `source_year`
+| | |
+|---|---|
+| **Type** | `string` |
+| **Required** | Yes |
+| **Example** | `Frankenstein; or, The Modern Prometheus` |
+
+Title of the source work.
+
+### `source.year`
 
 | | |
 |---|---|
@@ -57,271 +97,476 @@ The primary text in which the entity appears. Include author name in parentheses
 | **Required** | Yes |
 | **Example** | `1818` |
 
-Year of first publication, release, or best scholarly estimate of composition. For ancient texts, use the conventional date. Negative values indicate BCE (e.g., `-8` for Ovid's *Metamorphoses*, completed around 8 CE; use `-700` for Hesiod).
+Year of first publication or release. Negative values indicate BCE.
 
----
-
-### `tradition`
+### `source.medium`
 
 | | |
 |---|---|
 | **Type** | `enum` |
 | **Required** | Yes |
 
-The literary or mythic tradition to which the source text belongs.
+Literary or media form of the source work.
 
 | Value | Meaning |
 |---|---|
-| `greco-roman` | Greek and Roman mythology and literature |
-| `jewish-folklore` | Jewish mystical and folkloric traditions (Golem narratives) |
-| `medieval` | Medieval European literature and legend |
-| `renaissance` | Renaissance-era literature and drama |
-| `enlightenment-fiction` | Enlightenment through early Romantic literature (roughly 1700--1830) |
-| `gothic` | Gothic fiction tradition |
-| `early-sf` | Early science fiction, pre-Golden Age (roughly 1818--1937) |
-| `golden-age-sf` | Golden Age science fiction (roughly 1938--1960) |
-| `new-wave-sf` | New Wave and post-New Wave science fiction (roughly 1960--1985) |
-| `modern-sf` | Modern science fiction (roughly 1985--2015) |
-| `post-llm-sf` | Post-LLM era science fiction and narrative (roughly 2015--present) |
-| `film` | Primarily a film (when the film is the primary text, not an adaptation) |
-| `television` | Primarily a television series |
-| `other` | Traditions not captured above |
+| `novel` | Novel |
+| `short-story` | Short story |
+| `play` | Play / drama |
+| `poem` | Poem |
+| `epic` | Epic (long-form verse narrative) |
+| `film` | Film |
+| `television` | Television series |
+| `video-game` | Video game |
+| `myth` | Myth |
+| `folklore` | Folklore |
+| `opera` | Opera |
+| `sacred-text` | Sacred or religious text |
+
+### `source.tradition`
+
+| | |
+|---|---|
+| **Type** | `string` |
+| **Required** | Yes |
+| **Example** | `British` |
+
+Cultural or literary tradition to which the source text belongs (free text, e.g. "Western", "Greek", "Jewish", "British").
 
 ---
 
-### `substrate`
+## `reproductive_method`
 
 | | |
 |---|---|
 | **Type** | `enum` |
 | **Required** | Yes |
 
-What the entity is made of -- its physical or computational substrate.
+How the being came into existence. For constructed beings, the value is almost always `made`; the `born-*` values exist for completeness.
 
 | Value | Meaning |
 |---|---|
-| `mechanical` | Metal, clockwork, gears, electromechanical parts. The classic robot. |
-| `biological` | Organic tissue, whether grown, assembled, or sculpted from flesh. Includes replicants and beings made from clay that the narrative treats as living tissue. |
-| `digital` | Software, code, neural networks, or other purely computational substrates. No physical body, or body is incidental to identity. |
-| `magical` | Animated by supernatural means -- enchantment, divine breath, necromancy. The substrate is secondary to the animating force. |
-| `hybrid` | Explicitly combines two or more substrate types (e.g., a cyborg with both biological and mechanical components, where both are essential to identity). |
-| `ambiguous` | The text does not clearly establish the substrate, or the substrate resists classification. |
+| `made` | Artificially constructed, assembled, or manufactured |
+| `born-sexual` | Born through sexual reproduction |
+| `born-clonal` | Born through cloning |
+| `born-parthenogenic` | Born through parthenogenesis |
+| `born-divine` | Born through divine act |
+| `ambiguous` | Origin method is unclear or contested |
 
 ---
 
-### `autonomy`
+## `creator` (object)
+
+Information about the in-narrative creator of the being.
+
+### `creator.name`
+
+| | |
+|---|---|
+| **Type** | `string` |
+| **Required** | Yes |
+| **Example** | `Victor Frankenstein` |
+
+Name of the in-narrative creator.
+
+### `creator.motivation`
+
+| | |
+|---|---|
+| **Type** | `list` of `enum` (min 1 item) |
+| **Required** | Yes |
+
+One or more motivations driving the creator. Multiple values are allowed.
+
+| Code | Mnemonic | Meaning |
+|---|---|---|
+| `M-SRV` | Service | Service / labor / utility |
+| `M-COM` | Companionship | Companionship |
+| `M-CHI` | Child | Desire for progeny / legacy |
+| `M-KNO` | Knowledge | Pursuit of knowledge / discovery |
+| `M-POW` | Power | Pursuit of power / control |
+| `M-MIR` | Mirror | Miracle / divine act / reflection |
+| `M-ART` | Artistic | Aesthetic or artistic creation |
+| `M-OTH` | Other | Other motivation |
+
+### `creator.creation_morality`
 
 | | |
 |---|---|
 | **Type** | `enum` |
 | **Required** | Yes |
 
-The degree of independent agency the entity demonstrates in the text.
+Moral framing of the act of creation within the narrative.
 
-| Value | Meaning |
-|---|---|
-| `none` | The entity has no independent will. It follows instructions or programming without deviation. A pure tool. |
-| `instrumental` | The entity has limited autonomy in pursuit of assigned goals. It can choose *how* to accomplish tasks but not *which* tasks to pursue. |
-| `emergent` | The entity develops or displays autonomy beyond its original design or instructions, but this autonomy is partial, unstable, or contested within the narrative. |
-| `full` | The entity is narratively treated as a fully autonomous agent, capable of setting its own goals, making moral choices, and acting against its creator's wishes. |
-| `ambiguous` | The text is genuinely indeterminate about the entity's level of autonomy, or the autonomy level is actively contested within the narrative. |
+| Code | Mnemonic | Meaning |
+|---|---|---|
+| `CM-MOR` | Moral | The act of creation is framed as morally good or sanctioned |
+| `CM-IMM` | Immoral | The act is framed as morally wrong, transgressive, or hubristic |
+| `CM-AMO` | Amoral | The act is framed as morally neutral |
+| `CM-AMB` | Ambiguous | The narrative refuses clear moral judgment |
+| `CM-RET` | Retroactive | Moral judgment is applied retroactively, after consequences unfold |
 
 ---
 
-### `creator_relationship`
+## `being` (object)
+
+Properties of the constructed being itself.
+
+### `being.substrate`
+
+| | |
+|---|---|
+| **Type** | `list` of `enum` (min 1 item) |
+| **Required** | Yes |
+
+Physical or metaphysical substrate(s) of the being. Multiple values are allowed for hybrid beings.
+
+| Code | Mnemonic | Meaning |
+|---|---|---|
+| `S-BIO` | Biological | Organic tissue -- grown, assembled, or sculpted from flesh |
+| `S-MEC` | Mechanical | Metal, clockwork, gears, electromechanical parts |
+| `S-ELE` | Electronic | Software, code, neural networks, or purely computational substrates |
+| `S-MAG` | Magical | Animated by supernatural means -- enchantment, divine breath, necromancy |
+| `S-HYB` | Hybrid | Explicitly combines two or more substrate types |
+| `S-LIN` | Linguistic | Linguistic or statistical -- word-based animation |
+| `S-CLO` | Clonal | Cloned biological material |
+| `S-OTH` | Other | Substrate not captured above |
+
+### `being.autonomy`
 
 | | |
 |---|---|
 | **Type** | `enum` |
 | **Required** | Yes |
 
-How the creator relates to the created entity within the narrative.
+Degree and origin of the being's autonomous agency.
 
-| Value | Meaning |
-|---|---|
-| `master` | The creator treats the entity as property or a tool. The relationship is one of ownership and command. |
-| `parent` | The creator relates to the entity as a parent to a child -- with nurture, responsibility, and emotional investment (even if imperfect). |
-| `absent` | The creator is dead, gone, unknown, or otherwise absent from the narrative. The entity exists without a creator relationship to navigate. |
-| `adversarial` | The creator and entity are in conflict. The relationship has broken down into opposition. |
-| `collaborative` | The creator and entity work as partners or colleagues, with mutual respect. |
-| `ambiguous` | The relationship is complex, shifting, or not clearly one of the above. |
+| Code | Mnemonic | Meaning |
+|---|---|---|
+| `A-NON` | None | No independent will; follows instructions without deviation |
+| `A-EMR` | Emergent | Develops autonomy beyond original design; partial, unstable, or contested |
+| `A-DES` | Designed | Autonomy is an intentional feature of the being's design |
+| `A-SEI` | Seized | The being seizes or claims autonomy against the creator's intent |
+| `A-AMB` | Ambiguous | The text is genuinely indeterminate about the being's autonomy |
 
----
-
-### `moral_standing`
-
-| | |
-|---|---|
-| **Type** | `enum` |
-| **Required** | Yes |
-
-Whether the text grants the entity moral consideration -- i.e., whether harming or destroying it is treated as morally significant.
-
-| Value | Meaning |
-|---|---|
-| `none` | The entity is treated as an object. Its destruction carries no more moral weight than breaking a tool. |
-| `instrumental` | The entity has moral standing only insofar as it is useful or valued by someone. Destroying it is wrong because it belongs to someone, not because it matters in itself. |
-| `contested` | The entity's moral standing is actively debated within the text. Characters disagree about whether it deserves moral consideration. This is often the most interesting value. |
-| `full` | The text treats the entity as a full moral patient. Harming it is wrong for the same reasons harming a person is wrong. |
-| `ambiguous` | The text does not clearly establish the entity's moral standing, or sends conflicting signals. |
-
----
-
-### `inner_life`
-
-| | |
-|---|---|
-| **Type** | `enum` |
-| **Required** | Yes |
-
-Whether the text attributes subjective experience (qualia, feelings, consciousness) to the entity.
-
-| Value | Meaning |
-|---|---|
-| `none` | The text does not attribute any inner experience to the entity. It is presented as purely mechanistic. |
-| `implied` | The text hints at inner experience without confirming it. Behavioral cues suggest feeling, but the text maintains deniability. |
-| `asserted` | Characters within the text (including the entity itself) assert that the entity has inner experience, but the narrative does not independently confirm this. |
-| `demonstrated` | The text provides direct access to the entity's subjective experience (e.g., through narration from the entity's point of view that includes qualia, emotions, or phenomenal consciousness). |
-| `ambiguous` | The text deliberately or inadvertently leaves the question of inner experience unresolved. |
-
----
-
-### `q_kno_presence`
-
-| | |
-|---|---|
-| **Type** | `enum` |
-| **Required** | Yes |
-
-Whether the **knowability question** -- "Can we determine whether this being has genuine subjective experience?" -- is raised in the text.
-
-| Value | Meaning |
-|---|---|
-| `absent` | The text does not engage with the question of whether the entity's inner life is knowable. The entity either clearly has or clearly lacks inner life, and this is not treated as epistemically problematic. |
-| `infrastructure` | The knowability question is present in the text and generates dramatic tension, but it serves other narrative purposes. It is a supporting concern, not the central question. |
-| `primary` | The knowability question is the central dramatic or thematic concern of the text. The narrative is organized around the impossibility or difficulty of knowing whether the entity truly experiences. |
-| `ambiguous` | The text engages with knowability in a way that resists classification as infrastructure or primary. |
-
----
-
-### `q_kno_framing`
-
-| | |
-|---|---|
-| **Type** | `enum` or `null` |
-| **Required** | Only when `q_kno_presence` is not `absent` |
-
-When the knowability question is present, how does the text frame it?
-
-| Value | Meaning |
-|---|---|
-| `philosophical` | Framed as an epistemological or metaphysical problem. Characters or narration engage with it abstractly. |
-| `emotional` | Framed as a matter of empathy, connection, or emotional recognition. "I feel that it feels" rather than "I can prove that it feels." |
-| `pragmatic` | Framed as a practical problem with real-world consequences. "It doesn't matter whether it really feels; what matters is how we treat it." |
-| `legal` | Framed in terms of rights, legal personhood, or institutional recognition. |
-| `mixed` | The text uses multiple framings without a dominant one. |
-| `ambiguous` | The framing resists classification. |
-
----
-
-### `narrative_role`
-
-| | |
-|---|---|
-| **Type** | `enum` |
-| **Required** | Yes |
-
-The primary narrative function of the constructed being within the story.
-
-| Value | Meaning |
-|---|---|
-| `tool` | The entity functions primarily as an instrument or device. Its purpose is to serve. |
-| `mirror` | The entity functions as a reflection of humanity -- its existence raises questions about what it means to be human. |
-| `child` | The entity occupies the role of offspring or ward. The narrative focuses on creation, nurture, and the creator's responsibility. |
-| `threat` | The entity is primarily a source of danger. The narrative focuses on containment, conflict, or survival. |
-| `partner` | The entity functions as a companion, collaborator, or equal. |
-| `other` | The narrative role does not fit the above categories. |
-
----
-
-### `autonomy_trajectory`
-
-| | |
-|---|---|
-| **Type** | `enum` |
-| **Required** | Yes |
-
-How the entity's autonomy changes over the course of the narrative.
-
-| Value | Meaning |
-|---|---|
-| `static` | The entity's level of autonomy does not meaningfully change. |
-| `ascending` | The entity gains autonomy over the course of the narrative -- from less to more independent. |
-| `descending` | The entity loses autonomy -- from more to less independent (e.g., brought under control, lobotomized, enslaved). |
-| `arc` | The entity's autonomy rises and then falls (or vice versa) over the narrative. |
-| `ambiguous` | The trajectory is unclear or contested. |
-
----
-
-### `destruction_or_fate`
-
-| | |
-|---|---|
-| **Type** | `enum` |
-| **Required** | Yes |
-
-What happens to the entity by the end of the narrative.
-
-| Value | Meaning |
-|---|---|
-| `survives` | The entity is intact and continuing to exist at the narrative's close. |
-| `destroyed` | The entity is killed, deactivated, dismantled, or otherwise ended. |
-| `transformed` | The entity undergoes a fundamental change in nature (e.g., becomes human, merges with another entity, transcends its original form). |
-| `sacrificed` | The entity is destroyed, but its destruction is framed as a meaningful, voluntary, or redemptive act. |
-| `ambiguous` | The entity's fate is left unclear or open to interpretation. |
-| `unknown` | The narrative does not address the entity's ultimate fate. |
-
----
-
-### `notes`
+### `being.autonomy_trajectory`
 
 | | |
 |---|---|
 | **Type** | `string` |
 | **Required** | No (optional) |
 
-Free-text field for recording context, ambiguities, coding rationale, or competing interpretations. This field is especially important for entries where one or more properties are coded as `ambiguous` -- use it to explain *why* the ambiguity exists and what competing readings are in play.
+Free-text note on how the being's autonomy changes over the narrative arc.
+
+### `being.interiority`
+
+| | |
+|---|---|
+| **Type** | `enum` |
+| **Required** | Yes |
+
+How the text represents the being's inner life (subjective experience, consciousness).
+
+| Code | Mnemonic | Meaning |
+|---|---|---|
+| `I-NON` | None | No interiority depicted; the being is presented as purely mechanistic |
+| `I-CLM` | Claims | The being claims interiority, but it is unverified by the narrative |
+| `I-NAR` | Narrated | Narrative grants interiority via point-of-view access |
+| `I-DEM` | Demonstrated | Interiority is demonstrated through action and behavior |
+| `I-DEN` | Denied | Interiority is denied by the narrative despite evidence |
+| `I-UND` | Undecidable | The text leaves the question of interiority deliberately unresolved |
+
+### `being.mortality`
+
+| | |
+|---|---|
+| **Type** | `enum` |
+| **Required** | Yes |
+
+Mortality status or fate of the being.
+
+| Code | Mnemonic | Meaning |
+|---|---|---|
+| `L-MOR` | Mortal | The being is mortal; its body is destructible and death is final |
+| `L-IMM` | Immortal | The being is immortal or functionally undying |
+| `L-DES` | Designed lifespan | The being has a designed lifespan or expiration date |
+| `L-RES` | Resurrectable | The being can be resurrected, rebooted, or restored after death |
+| `L-EPH` | Ephemeral | The being is short-lived by design |
+| `L-UNK` | Unknown | Mortality status is unknown or unaddressed |
+
+### `being.multiplicity`
+
+| | |
+|---|---|
+| **Type** | `enum` |
+| **Required** | Yes |
+
+Whether the being is singular or one of many.
+
+| Code | Mnemonic | Meaning |
+|---|---|---|
+| `MU-ONE` | One | Unique individual |
+| `MU-FEW` | Few | Small number of copies |
+| `MU-MAN` | Many | Many copies |
+| `MU-INF` | Infinite | Infinite or unbounded copies |
+
+### `being.memory_persistence`
+
+| | |
+|---|---|
+| **Type** | `enum` |
+| **Required** | Yes |
+
+How the being's memories persist across time.
+
+| Code | Mnemonic | Meaning |
+|---|---|---|
+| `P-NON` | None | No persistent memory |
+| `P-CON` | Continuous | Continuous, unbroken memory |
+| `P-WIP` | Wiped | Memory subject to wipes or resets |
+| `P-SES` | Session | Session-based memory only |
+| `P-SEL` | Selective | Selective memory -- some memories persist, others do not |
+| `P-UNK` | Unknown | Memory persistence is unknown or unaddressed |
+
+### `being.nonconsensual_transformation`
+
+| | |
+|---|---|
+| **Type** | `enum` |
+| **Required** | Yes |
+
+Whether the being underwent transformation without consent (e.g., a living person converted into a constructed being against their will).
+
+| Code | Mnemonic | Meaning |
+|---|---|---|
+| `NCT-YES` | Yes | The being was transformed without consent |
+| `NCT-NO` | No | No nonconsensual transformation |
+| `NCT-NA` | Not applicable | Not applicable (e.g., the being was never a living person) |
 
 ---
 
-## Example Entry
+## `relationship` (object)
+
+Properties describing the creator-being relationship and the narrative questions it raises.
+
+### `relationship.failure_mode`
+
+| | |
+|---|---|
+| **Type** | `list` of `enum` (min 1 item) |
+| **Required** | Yes |
+
+How the creator-being relationship breaks down (if it does). Multiple values are allowed.
+
+| Code | Mnemonic | Meaning |
+|---|---|---|
+| `F-EXC` | Exceeds | The being exceeds its intended parameters |
+| `F-REV` | Reveals | The being reveals the creator's flaws |
+| `F-DEM` | Demands | The being demands reciprocity or recognition |
+| `F-AUT` | Autonomy | The being achieves an autonomy the creator finds threatening |
+| `F-IND` | Indistinguishable | The being becomes indistinguishable from human |
+| `F-MUT` | Mutual | Mutual failure or mutual destruction |
+| `F-NON` | None | No failure -- the relationship remains intact |
+| `F-OTH` | Other | Other failure mode |
+
+### `relationship.question`
+
+| | |
+|---|---|
+| **Type** | `list` of `enum` (min 1 item) |
+| **Required** | Yes |
+
+Central questions the narrative raises about the being. Multiple values are allowed.
+
+| Code | Mnemonic | Meaning |
+|---|---|---|
+| `Q-OBY` | Obedience | Should the being obey? |
+| `Q-CTL` | Control | Can the being be controlled? |
+| `Q-FEL` | Fellow-feeling | Does the being have genuine feelings / empathy? |
+| `Q-LOV` | Love | Can the being love or be loved? |
+| `Q-TEL` | Telos | What is the being's purpose? |
+| `Q-RTS` | Rights | Does the being have rights? |
+| `Q-KNO` | Knowledge | Can we know the being's inner state? (Epistemic question) |
+| `Q-OTH` | Other | Other question |
+
+### `relationship.question_primary`
+
+| | |
+|---|---|
+| **Type** | `enum` |
+| **Required** | Yes |
+
+The single most central question from the `question` list. Uses the same codes as `relationship.question`.
+
+### `relationship.epistemic_reach`
+
+| | |
+|---|---|
+| **Type** | `enum` |
+| **Required** | Yes |
+
+How much access the narrative gives into the being's mind.
+
+| Code | Mnemonic | Meaning |
+|---|---|---|
+| `ER-NON` | None | No epistemic access to the being's inner state |
+| `ER-DAT` | Data | Data or outputs only |
+| `ER-BEH` | Behavioral | Observable behavior -- the being is read through its actions |
+| `ER-PER` | Perceptual | Perceptual access -- the narrative shows the being's sensory experience |
+| `ER-CON` | Consciousness | Full consciousness access -- the narrative enters the being's mind |
+| `ER-UNK` | Unknown | Epistemic reach is unknown or unaddressed |
+
+### `relationship.q_kno_status`
+
+| | |
+|---|---|
+| **Type** | `enum` |
+| **Required** | Yes |
+
+Prominence of the knowledge/epistemics question (Q-KNO) in the narrative.
+
+| Code | Mnemonic | Meaning |
+|---|---|---|
+| `QK-ABS` | Absent | The knowledge question is not raised |
+| `QK-INFRA` | Infrastructural | The question is present and generates tension, but serves other narrative purposes |
+| `QK-SEC` | Secondary | The question is raised but is not the central concern |
+| `QK-PRI` | Primary | The knowledge question is the central dramatic or thematic concern |
+
+---
+
+## `narrative_role`
+
+| | |
+|---|---|
+| **Type** | `enum` |
+| **Required** | Yes |
+
+Prominence of the constructed being in the source narrative.
+
+| Code | Mnemonic | Meaning |
+|---|---|---|
+| `NR-SUB` | Subject | Subject or protagonist of the narrative |
+| `NR-MAJ` | Major | Major character |
+| `NR-MIN` | Minor | Minor character |
+| `NR-BKG` | Background | Background or world-building element |
+
+---
+
+## `citations` (array)
+
+| | |
+|---|---|
+| **Type** | `list` of `object` (min 1 item) |
+| **Required** | Yes |
+
+An array of textual citations supporting the coding decisions. Each citation is an object with the following fields:
+
+| Field | Type | Required | Description |
+|---|---|---|---|
+| `property` | `string` | Yes | Dot-notation path to the property being cited (e.g. `being.autonomy`, `creator.motivation`) |
+| `text` | `string` | Yes | Short quotation or paraphrase from the source (keep under 15 words) |
+| `location` | `string` | Yes | Chapter, page, timestamp, or other locator in the source |
+| `note` | `string` | No | Optional explanatory note on how the citation supports the coding |
+
+---
+
+## `notes`
+
+| | |
+|---|---|
+| **Type** | `string` |
+| **Required** | No (optional) |
+
+Free-form editorial or analytical notes. Use YAML block scalar syntax (`>` or `|`) for multi-line text. This field is especially important for entries where one or more properties are coded with ambiguous values -- use it to explain *why* the ambiguity exists and what competing readings are in play.
+
+---
+
+## Worked Example
+
+The following is the complete entry for the Creature from *Frankenstein* (`data/beings/frankenstein-creature.yaml`):
 
 ```yaml
-id: frankensteins-creature
-name: "Frankenstein's Creature"
-source_text: "Frankenstein; or, The Modern Prometheus (Mary Shelley)"
-source_year: 1818
-tradition: gothic
-substrate: biological
-autonomy: full
-creator_relationship: adversarial
-moral_standing: contested
-inner_life: demonstrated
-q_kno_presence: infrastructure
-q_kno_framing: emotional
-narrative_role: mirror
-autonomy_trajectory: ascending
-destruction_or_fate: ambiguous
+id: frankenstein-creature
+name: "The Creature"
+aliases:
+  - "Frankenstein's Monster"
+  - "The Wretch"
+  - "The Daemon"
+  - "Adam"
+
+source:
+  author: "Mary Shelley"
+  title: "Frankenstein; or, The Modern Prometheus"
+  year: 1818
+  medium: novel
+  tradition: British
+
+reproductive_method: made
+
+creator:
+  name: "Victor Frankenstein"
+  motivation:
+    - M-KNO
+    - M-CHI
+    - M-POW
+  creation_morality: CM-RET
+
+being:
+  substrate:
+    - S-BIO
+  autonomy: A-EMR
+  autonomy_trajectory: >
+    The Creature progresses from helpless newborn-like confusion to independent
+    language-learner to moral philosopher to deliberate antagonist. Each stage
+    is shaped by experience (especially rejection), not by design. His autonomy
+    grows in direct proportion to Victor's abandonment.
+  interiority: I-NAR
+  mortality: L-MOR
+  multiplicity: MU-ONE
+  memory_persistence: P-CON
+  nonconsensual_transformation: NCT-NO
+
+relationship:
+  failure_mode:
+    - F-DEM
+    - F-REV
+    - F-AUT
+  question:
+    - Q-FEL
+    - Q-RTS
+    - Q-LOV
+  question_primary: Q-FEL
+  epistemic_reach: ER-BEH
+  q_kno_status: QK-INFRA
+
+narrative_role: NR-SUB
+
+citations:
+  - property: creator.motivation
+    text: "A new species would bless me as its creator and source"
+    location: "Volume I, Chapter 4"
+    note: "Victor's godlike ambition — supports M-CHI and M-POW coding."
+
+  - property: being.interiority
+    text: "I am malicious because I am miserable"
+    location: "Volume II, Chapter 9 (Creature's narrative)"
+    note: "Direct first-person articulation of inner state — supports I-NAR."
+
+  - property: relationship.failure_mode
+    text: "I will be with you on your wedding-night"
+    location: "Volume II, Chapter 9"
+    note: "The Creature's threat demonstrates his power over Victor — supports F-AUT, F-REV."
+
+  - property: being.autonomy
+    text: "I ought to be thy Adam, but I am rather the fallen angel"
+    location: "Volume II, Chapter 7 (Creature's narrative)"
+    note: "Self-identification via Paradise Lost shows emergent moral reasoning — supports A-EMR."
+
 notes: >
-  The Creature narrates his own experience in Volume II, providing direct
-  access to his inner life (loneliness, desire for companionship, moral
-  reasoning). This makes inner_life "demonstrated" rather than "asserted."
-  However, Q-KNO functions as infrastructure rather than primary: the novel's
-  central concern is Frankenstein's hubris and responsibility, not whether
-  the Creature truly feels. The knowability question enables the moral
-  argument but is not itself the main event. Fate is "ambiguous" because
-  the Creature declares intent to self-immolate but is last seen drifting
-  into darkness; the text does not confirm his death.
+  The Creature is the foundational case for the constructed being who demands
+  recognition. Shelley's nested narrative structure is itself an argument about
+  interiority — by giving the Creature his own voice, she forces the reader to
+  confront his personhood before returning to Victor's dehumanizing perspective.
 ```
 
 ---

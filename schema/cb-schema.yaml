@@ -107,7 +107,7 @@ properties:
             - M-CHI   # Desire for a child
             - M-KNO   # Pursuit of knowledge
             - M-POW   # Pursuit of power
-            - M-MIR   # Miracle / divine act
+            - M-MIR   # Mirror / reflection
             - M-ART   # Artistic creation
             - M-OTH   # Other
         min_items: 1
@@ -180,7 +180,7 @@ properties:
         allowed:
           - L-MOR   # Mortal
           - L-IMM   # Immortal
-          - L-DES   # Destroyed in narrative
+          - L-DES   # Designed lifespan / built-in expiration
           - L-RES   # Resurrectable
           - L-EPH   # Ephemeral (short-lived by design)
           - L-UNK   # Unknown
@@ -229,11 +229,11 @@ properties:
           type: enum
           allowed:
             - F-EXC   # Exceeds intended purpose
-            - F-REV   # Revolts against creator
+            - F-REV   # Reveals creator's flaws
             - F-DEM   # Demands rights / recognition
             - F-AUT   # Achieves unwanted autonomy
-            - F-IND   # Becomes indifferent to creator
-            - F-MUT   # Mutual destruction
+            - F-IND   # Becomes indistinguishable from human
+            - F-MUT   # Mutual failure — both creator and CB fail each other
             - F-NON   # No failure
             - F-OTH   # Other
         min_items: 1
@@ -275,12 +275,12 @@ properties:
         required: true
         allowed:
           - ER-NON   # No epistemic access
-          - ER-DAT   # Data / outputs only
-          - ER-BEH   # Observable behaviour
-          - ER-PER   # Perceptual access
-          - ER-CON   # Full consciousness access
+          - ER-DAT   # Data processing — stores/retrieves facts about humans
+          - ER-BEH   # Behavioral modeling — predicts human behavior
+          - ER-PER   # Performative — simulates knowledge as functional role
+          - ER-CON   # Contextual — accumulates shared history, produces felt experience of being known
           - ER-UNK   # Unknown
-        description: How much access the narrative gives into the being's mind.
+        description: The CB's capacity to know a specific human.
 
       q_kno_status:
         type: enum

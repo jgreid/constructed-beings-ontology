@@ -22,7 +22,7 @@ Most boundary cases involve criterion 1: the line between "made" and "born" is n
 
 **Exception:** If a clone is produced through a process narratively indistinguishable from natural reproduction (e.g., a naturally occurring twin described as a "clone"), exclude.
 
-**Coding notes:** Clone entries should use `substrate: biological` and should document the cloning process in `notes`. The `creator_relationship` property is particularly interesting for clones: the relationship to the genetic original is distinct from the relationship to the person or institution that ordered the cloning.
+**Coding notes:** Clone entries should use substrate code `S-BIO` and should document the cloning process in `notes`. The `creator_relationship` property is particularly interesting for clones: the relationship to the genetic original is distinct from the relationship to the person or institution that ordered the cloning.
 
 ---
 
@@ -35,7 +35,7 @@ Most boundary cases involve criterion 1: the line between "made" and "born" is n
 **Decision: Generally exclude, with important exceptions.** The exclusion is not based on the formal criteria (which these beings often satisfy) but on scope and utility. If we include every divinely created being, the category expands to encompass most characters in creation myths, which dilutes its analytical value.
 
 **Exceptions:**
-- **Beings created by gods that are narratively treated as constructed** -- i.e., as artifacts, servants, or tools rather than as persons -- are included. Hephaestus's golden handmaidens (automatons created to serve in his workshop) are in; Adam and Eve are out.
+- **Beings created by gods that are narratively treated as constructed** -- i.e., as artifacts, servants, or tools rather than as persons -- are included. Hephaestus's golden handmaidens (automatons created to serve in his workshop) are in; Adam and Eve are out. (For a worked example of an excluded divine creation, see [`data/boundary_cases/eve-genesis.yaml`](../data/boundary_cases/eve-genesis.yaml).)
 - **The Golem of Prague** is included even though its animation has divine elements (the use of sacred names), because the tradition treats the Golem as a constructed servant, not as a person.
 - **Pandora** is a borderline case that we include: she is explicitly crafted by Hephaestus and assembled with attributes from multiple gods. The text (Hesiod's *Works and Days* and *Theogony*) frames her construction as artifice.
 
@@ -61,7 +61,7 @@ If the text treats the modification as so total that the original biological ide
 
 **A person with a cochlear implant** is a clear exclusion: the modification is not identity-replacing.
 
-**Coding notes:** Included cyborgs should use `substrate: hybrid` and should document the extent of modification in `notes`. The `inner_life` coding is particularly interesting for cyborgs, since the text may distinguish between the biological person's inner life and whatever the technological components contribute.
+**Coding notes:** Included cyborgs should use substrate code `S-HYB` (or list multiple codes such as `[S-BIO, S-ELE]`) and should document the extent of modification in `notes`. The `inner_life` coding is particularly interesting for cyborgs, since the text may distinguish between the biological person's inner life and whatever the technological components contribute.
 
 ---
 
@@ -75,7 +75,7 @@ If the text treats the modification as so total that the original biological ide
 
 The key distinction is between the **original person** (born, not a CB) and the **upload** (constructed, a CB). If the text treats the upload as continuous with the original person, this should be coded in `notes` and reflected in properties like `inner_life` (probably `demonstrated`, since the upload inherits the original's reported experience) and `q_kno_presence` (often `infrastructure` or `primary`, since the question of whether the upload is "really" the person is frequently central).
 
-**Coding notes:** Use `substrate: digital`. The `creator_relationship` property may need `ambiguous` if the "creator" is the original person -- is it self-creation, reproduction, or something else? The `notes` field should address personal identity questions the text raises.
+**Coding notes:** Use substrate code `S-ELE`. The `creator_relationship` property may need `ambiguous` if the "creator" is the original person -- is it self-creation, reproduction, or something else? The `notes` field should address personal identity questions the text raises.
 
 ---
 
@@ -101,7 +101,7 @@ The key distinction is between the **original person** (born, not a CB) and the 
 
 **The test:** Does the enchanted object exhibit *independent* goal pursuit, language use, decision-making, or social interaction? If it only responds to commands or performs a single enchanted function, exclude. If it displays genuine agency -- choosing, speaking, resisting, deceiving -- include.
 
-**Coding notes:** Included enchanted objects should use `substrate: magical` and should note the ambiguity of agency in the `notes` field. The `autonomy` coding will often be `instrumental` or `ambiguous`.
+**Coding notes:** Included enchanted objects should use substrate code `S-MAG` and should note the ambiguity of agency in the `notes` field. The `autonomy` coding will often be `instrumental` or `ambiguous`.
 
 ---
 
@@ -129,7 +129,7 @@ The key distinction is between the **original person** (born, not a CB) and the 
 
 **The boundary question:** None, actually. Disembodied AIs straightforwardly satisfy the CB definition: they are made (programmed), agent-like (by design), and have narrative presence. They are core cases, not boundary cases.
 
-We include this section only to address a common question: **does a CB need a body?** No. The `substrate: digital` value exists precisely for entities whose existence is computational. The absence of a body does not make an entity less of a constructed being -- it makes it a constructed being of a particular kind, and one that is increasingly central to contemporary CB narratives.
+We include this section only to address a common question: **does a CB need a body?** No. The `S-ELE` substrate code exists precisely for entities whose existence is computational. The absence of a body does not make an entity less of a constructed being -- it makes it a constructed being of a particular kind, and one that is increasingly central to contemporary CB narratives.
 
 ---
 

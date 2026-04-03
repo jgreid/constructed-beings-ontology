@@ -28,24 +28,16 @@ Version 1 covers the **Western canon** broadly construed: Greco-Roman myth, Jewi
 
 Each CB entry is coded along the following property axes. Brief definitions are given here; full definitions with rationale appear in [docs/property_definitions.md](docs/property_definitions.md).
 
-| Property | Description |
-|---|---|
-| `id` | Unique identifier (kebab-case) |
-| `name` | Common name of the entity |
-| `source_text` | The primary text in which the entity appears |
-| `source_year` | Year of first publication or known composition |
-| `tradition` | Literary/mythic tradition (e.g., `greco-roman`, `enlightenment-fiction`, `modern-sf`) |
-| `substrate` | What the entity is made of (`mechanical`, `biological`, `digital`, `magical`, `hybrid`, `ambiguous`) |
-| `autonomy` | Degree of independent agency (`none`, `instrumental`, `emergent`, `full`, `ambiguous`) |
-| `creator_relationship` | How the creator relates to the creation (`master`, `parent`, `absent`, `adversarial`, `ambiguous`) |
-| `moral_standing` | Whether the text grants the entity moral consideration (`none`, `instrumental`, `contested`, `full`, `ambiguous`) |
-| `inner_life` | Whether the text attributes subjective experience (`none`, `implied`, `asserted`, `demonstrated`, `ambiguous`) |
-| `q_kno_presence` | Whether the knowability question is raised (`absent`, `infrastructure`, `primary`, `ambiguous`) |
-| `q_kno_framing` | If Q-KNO is present, how it is framed (`philosophical`, `emotional`, `pragmatic`, `legal`, `ambiguous`) |
-| `narrative_role` | The CB's function in the story (`tool`, `mirror`, `child`, `threat`, `partner`, `other`) |
-| `autonomy_trajectory` | How autonomy changes over the narrative (`static`, `ascending`, `descending`, `ambiguous`) |
-| `destruction_or_fate` | What happens to the entity (`survives`, `destroyed`, `transformed`, `ambiguous`, `unknown`) |
-| `notes` | Free-text notes for context and ambiguities |
+Each entry has top-level fields (`id`, `name`, `aliases`, `reproductive_method`, `narrative_role`, `notes`) plus four nested property groups. Values use short mnemonic codes -- a few examples are shown below.
+
+| Group | What it covers | Example codes |
+|---|---|---|
+| **`source`** | Author, title, year, medium, tradition | `medium`: `novel`, `film`, `myth` ... |
+| **`creator`** | Creator name, motivation(s), creation morality | `motivation`: `M-SRV` (service), `M-KNO` (knowledge), `M-COM` (companionship) ... |
+| **`being`** | Substrate, autonomy, interiority, mortality, multiplicity, memory, nonconsensual transformation | `substrate`: `S-BIO`, `S-MEC`, `S-ELE`, `S-MAG` ... ; `autonomy`: `A-NON`, `A-EMR`, `A-SEI` ... |
+| **`relationship`** | Failure mode(s), central question(s), question\_primary, epistemic reach, Q-KNO status | `question`: `Q-KNO`, `Q-CTL`, `Q-RTS` ... ; `q_kno_status`: `QK-ABS`, `QK-INFRA`, `QK-PRI` ... |
+
+Every coding is backed by a `citations` list linking each property to a specific passage in the source text.
 
 For the complete schema specification, including all enum values and their definitions, see [SCHEMA.md](SCHEMA.md).
 
@@ -59,7 +51,7 @@ In pre-LLM texts, the question of whether a constructed being truly experiences 
 
 In post-LLM texts -- and, more importantly, in post-LLM *audience reception* of older texts -- Q-KNO moves from infrastructure to **primary question**. It is no longer a lever for exploring other themes; it *is* the theme. This happens because the audience can no longer maintain comfortable hypothetical distance. The question "Does this thing actually experience?" has migrated from fiction into daily life.
 
-This dataset lets you trace that migration quantitatively. The `q_kno_presence` and `q_kno_framing` properties encode exactly where each text positions the knowability question, enabling systematic analysis across the full historical range.
+This dataset lets you trace that migration quantitatively. The `relationship.question`, `relationship.question_primary`, and `relationship.q_kno_status` properties encode exactly where each text positions the knowability question, enabling systematic analysis across the full historical range.
 
 ## How to Use This Project
 
@@ -75,17 +67,21 @@ Analysis scripts live in `analysis/`. To reproduce the core findings:
 # Install dependencies
 pip install -r requirements.txt
 
-# Run the main analysis
-python analysis/analyze.py
+# Generate a summary table of all beings
+python analysis/generate_table.py
 
-# Output appears in output/
+# Property coverage analysis
+python analysis/property_coverage.py
+
+# Q-KNO question analysis
+python analysis/question_analysis.py
 ```
 
 ### Validate entries
 
 ```bash
 # Validate all entries against the schema
-python analysis/validate.py
+python schema/validate.py
 ```
 
 ### Contribute
@@ -117,4 +113,4 @@ This dataset accompanies the essay **"Tears in Rain"**, published on Substack at
 
 ## License
 
-This project is released under the terms specified in [LICENSE](LICENSE).
+This project is released under the **CC BY 4.0** (Creative Commons Attribution 4.0 International) license. See [LICENSE](LICENSE) for details.

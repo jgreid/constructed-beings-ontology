@@ -83,11 +83,13 @@ being:
     The A-DES code is a category mismatch — she has autonomy because
     she is human, not because it was "designed in" as a feature.
 
-  # I-NAR: Eve has narrated interiority in Genesis — she sees that the
-  # tree is "good for food, and that it was a delight to the eyes, and
-  # that the tree was to be desired to make one wise" (Gen 3:6). She
-  # reasons, perceives, desires. She has a full inner life.
-  interiority: I-NAR
+  # I-DEM: Eve demonstrates interiority through action and described
+  # perception. Genesis 3:6 is third-person narration ("the woman saw
+  # that the tree was good for food"), not first-person or deep free
+  # indirect discourse — so I-NAR (narrated from inside) is too strong.
+  # I-DEM captures that Eve's inner life is demonstrated through her
+  # choices, reasoning, and desires as described from outside.
+  interiority: I-DEM
 
   # L-MOR: Eve is mortal (mortality is a consequence of the Fall, or
   # inherent to her humanity depending on interpretation).
@@ -142,7 +144,7 @@ citations:
   - property: being.interiority
     text: "The woman saw that the tree was good for food, a delight to the eyes, and desired to make one wise"
     location: "Genesis 3:6 (RSV)"
-    note: "Eve perceives, evaluates, desires — full narrated interiority. Supports I-NAR."
+    note: "Eve perceives, evaluates, desires — demonstrated interiority through third-person narration. Supports I-DEM."
 
   - property: creator.motivation
     text: "It is not good that the man should be alone; I will make him a helper fit for him"

@@ -188,7 +188,7 @@ citations:
     location: "Blade Runner (1982), Roy Batty's death speech (written by Rutger Hauer/David Peoples)"
     note: "Roy's improvised final speech. Performs knowledge of mortality, loss, and shared human experience. Supports Q-TEL, ER-PER, and the fundamental undecidability of replicant interiority."
 
-  - property: creation_morality
+  - property: creator.creation_morality
     text: "The electric things have their lives, too. Paltry as those lives are."
     location: "Philip K. Dick, Do Androids Dream of Electric Sheep?, Ch. 16"
     note: "Deckard's late-novel reflection. The moral status of created beings remains unresolved — 'paltry' concedes life while diminishing it. Supports CM-AMB."
