@@ -1,0 +1,141 @@
+# Constructed Beings Ontology — R2-D2 (Star Wars)
+# Source: George Lucas, Star Wars, 1977
+# Coded: 2026-04-03
+#
+# NOTE: R2-D2 is the counterpoint to C-3PO — where C-3PO is anxious and
+# verbal, R2-D2 is brave and nonverbal. He communicates only through beeps
+# and whistles, yet displays more agency and initiative than almost any
+# other droid in the franchise.
+
+id: r2-d2
+name: "R2-D2"
+aliases:
+  - "Artoo"
+  - "Artoo-Detoo"
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "George Lucas"
+  title: "Star Wars"
+  year: 1977
+  medium: film
+  tradition: American
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# R2-D2 is a manufactured astromech droid — a standard Industrial
+# Automaton R2-series unit.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  name: "Industrial Automaton (manufacturer)"
+
+  # M-SRV: Astromech droids are built for starship maintenance, repair,
+  # and navigation assistance. R2-D2 is a utility tool.
+  motivation:
+    - M-SRV
+
+  creation_morality: CM-AMO
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-MEC: Cylindrical mechanical body with retractable tools and sensors.
+  # S-ELE: Computational systems for navigation and data processing.
+  substrate:
+    - S-MEC
+    - S-ELE
+
+  # A-EMR: R2-D2 consistently exceeds his programming. He makes independent
+  # decisions — escaping the Jawa sandcrawler to find Obi-Wan, refusing to
+  # follow restraining bolts, choosing to deliver Leia's message. His
+  # initiative is not designed; it emerges from accumulated experience
+  # and loyalty. Notably, R2-D2 never has his memory wiped (unlike C-3PO),
+  # which may explain his greater autonomy.
+  autonomy: A-EMR
+
+  # I-DEM: R2-D2 demonstrates courage, loyalty, determination, mischief,
+  # and affection through action rather than words. His emotional states
+  # are conveyed through movement, sound, and behavior. Characters respond
+  # to him as a person — Luke speaks to him, Leia trusts him with critical
+  # missions. His interiority is demonstrated, not narrated.
+  interiority: I-DEM
+
+  # L-RES: R2-D2 is damaged multiple times (shot by fighters, electrocuted,
+  # powered down) but always repaired and restored. He persists across
+  # the entire saga.
+  mortality: L-RES
+
+  # MU-MAN: R2-series astromech droids are mass-produced.
+  multiplicity: MU-MAN
+
+  # P-CON: Critically, R2-D2 retains continuous memory across the entire
+  # saga. He is never wiped (unlike C-3PO). He remembers Anakin, Padmé,
+  # the Clone Wars — everything. He is the saga's most persistent memory.
+  memory_persistence: P-CON
+
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-EXC: R2-D2 consistently exceeds expectations — he is "just" an
+  # astromech droid but repeatedly saves the day through initiative and
+  # resourcefulness that go far beyond his designed function.
+  failure_mode:
+    - F-EXC
+
+  question:
+    - Q-OBY
+    - Q-FEL
+
+  # Q-OBY: Like C-3PO, the primary framework is obedience/service. But
+  # R2-D2 complicates this — he selectively obeys, prioritizing his own
+  # judgment about what his principals need over their explicit commands.
+  question_primary: Q-OBY
+
+  # ER-BEH: R2-D2 demonstrates sophisticated behavioral understanding
+  # of his companions — he knows what they need, often before they do.
+  # But this is shown through action, not data.
+  epistemic_reach: ER-BEH
+
+  # QK-ABS: As with C-3PO, the Star Wars franchise does not thematize
+  # droid consciousness or the question of whether droids truly know
+  # their companions.
+  q_kno_status: QK-ABS
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-MAJ: R2-D2 is a major character throughout the saga. He drives
+# key plot points (carrying the Death Star plans, delivering Leia's
+# message, carrying Luke's lightsaber) but is not the narrative subject.
+narrative_role: NR-MAJ
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: being.autonomy
+    text: "That malfunctioning little twerp. This is all his fault."
+    location: "Star Wars: A New Hope (1977), C-3PO about R2-D2, lost in the Dune Sea"
+    note: "C-3PO interprets R2-D2's independent mission (finding Obi-Wan) as malfunction. The droid's purposeful autonomy is misread as error by his own companion — even another droid cannot recognize R2-D2's agency."
+
+  - property: being.memory_persistence
+    text: "Have the protocol droid's memory erased."
+    location: "Star Wars: Revenge of the Sith (2005), Bail Organa"
+    note: "C-3PO is wiped but R2-D2 is not. This asymmetry is never explained in-universe but has enormous consequences — R2-D2 carries the saga's complete memory while C-3PO is reset to a blank slate."
+
+  - property: being.interiority
+    text: "[mournful beeping]"
+    location: "Star Wars: The Force Awakens (2015), R2-D2 in low-power mode after Luke's disappearance"
+    note: "R2-D2 enters a depressive low-power state after Luke vanishes — coded by the narrative as grief. A nonverbal being demonstrating interiority through absence of function."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  R2-D2 is a fascinating ontological case: a nonverbal constructed being
+  whose interiority is demonstrated entirely through action and sound.
+  The audience reads courage, loyalty, humor, and grief into beeps and
+  whistles — a testament to how powerfully behavior can communicate
+  personhood even without language. His continuous memory across the
+  entire saga makes him uniquely positioned as a witness to all events,
+  yet the narrative never explores what it means for a machine to carry
+  this burden of memory. The contrast with C-3PO is instructive: C-3PO
+  speaks fluently but has his memory wiped; R2-D2 cannot speak human
+  language but remembers everything. The franchise grants fuller
+  personhood to the nonverbal droid through the simple device of
+  letting him keep his memories.

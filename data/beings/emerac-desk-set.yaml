@@ -1,0 +1,163 @@
+# Constructed Beings Ontology — EMERAC (Desk Set)
+# Source: Walter Lang (director), Desk Set, 1957
+# Coded: 2026-04-03
+#
+# NOTE: EMERAC is one of the earliest cinematic depictions of a computer
+# threatening human employment — a proto-AI narrative from the dawn of the
+# computer age. The film's resolution (the computer complements rather than
+# replaces the librarians) encodes a techno-optimism that would be
+# complicated by every subsequent AI narrative. Based on the 1955 Broadway
+# play "The Desk Set" by William Marchetti.
+
+id: emerac-desk-set
+name: "EMERAC"
+aliases:
+  - "Emmy"   # The nickname given by the research department
+  - "Electromagnetic Memory and Research Arithmetical Calculator"   # Full name
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "Walter Lang (director); Phoebe Ephron, Henry Ephron (screenplay); William Marchant (play)"
+  title: "Desk Set"
+  year: 1957
+  medium: film
+  tradition: American
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# EMERAC is an electronic brain — a room-sized computer installed in the
+# reference department of a television network. It is manufactured
+# technology.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  # Richard Sumner (Spencer Tracy) is the methods engineer who designs
+  # and installs EMERAC. He works for the network but is the individual
+  # responsible for the machine's deployment.
+  name: "Richard Sumner (methods engineer)"
+
+  # M-SRV: EMERAC is built to serve — to answer reference questions
+  # faster and more efficiently than the human research department.
+  # M-KNO: The computer is an instrument of knowledge management —
+  # organizing and retrieving information.
+  motivation:
+    - M-SRV
+    - M-KNO
+
+  # CM-AMB: The film treats EMERAC's installation with moral ambiguity.
+  # The researchers fear displacement; Sumner insists the machine will
+  # help rather than replace. The film's sympathy is with the workers
+  # while ultimately vindicating the technology.
+  creation_morality: CM-AMB
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-ELE: EMERAC is a room-filling electronic computer — blinking
+  # lights, whirring tapes, punch cards. Pure electronic hardware
+  # of the 1950s variety.
+  substrate:
+    - S-ELE
+
+  # A-NON: EMERAC has no autonomous agency. It answers questions that
+  # are fed to it and processes data according to its programming.
+  # When it malfunctions (sending termination notices to the entire
+  # staff), this is an error, not agency. EMERAC is a tool, not an agent.
+  autonomy: A-NON
+
+  # I-NON: EMERAC has no interiority. It is presented as a machine —
+  # impressive in its capabilities but with no inner life, no feelings,
+  # no personality beyond what the workers project onto it (calling it
+  # "Emmy"). The film is about the humans' relationship to the machine,
+  # not the machine's experience.
+  interiority: I-NON
+
+  # L-MOR: EMERAC is hardware that can be damaged or decommissioned.
+  # It is mortal in the sense that it is destructible.
+  mortality: L-MOR
+
+  multiplicity: MU-ONE
+
+  # P-CON: EMERAC retains its data — it is a database as well as a
+  # processor. Its "memory" is informational storage, not experiential
+  # memory.
+  memory_persistence: P-CON
+
+  nonconsensual_transformation: NCT-NA
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-EXC: EMERAC exceeds its intended function — when it malfunctions,
+  # it sends termination notices to the entire staff, causing panic.
+  # This "exceeding" is error rather than agency, but the effect on
+  # the workers is real.
+  # F-REV: EMERAC's installation reveals the workers' anxiety about
+  # obsolescence and their fear that institutional knowledge can be
+  # replaced by machines.
+  failure_mode:
+    - F-EXC
+    - F-REV
+
+  question:
+    - Q-CTL
+    - Q-TEL
+
+  # Q-CTL: The primary question is control — specifically, economic
+  # control. Will the machine control the workers' fate (by replacing
+  # them)? The film resolves this with the answer: no, the machine
+  # complements human expertise rather than replacing it.
+  question_primary: Q-CTL
+
+  # ER-DAT: EMERAC's epistemic access is purely data-based — it
+  # retrieves information, not understanding. The film's central
+  # argument is that Bunny Watson's (Katharine Hepburn) contextual
+  # intelligence cannot be replicated by data retrieval.
+  epistemic_reach: ER-DAT
+
+  # QK-ABS: The film does not raise the question of whether EMERAC
+  # can "know" anything in a meaningful sense. The computer is a tool;
+  # the epistemological drama is between humans and their anxiety about
+  # technology, not between humans and a conscious machine.
+  q_kno_status: QK-ABS
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-MAJ: EMERAC is a major presence in the film — its installation
+# drives the plot, its malfunction is the crisis, and its accommodation
+# is the resolution. But it is an object, not a character.
+narrative_role: NR-MAJ
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: relationship.question_primary
+    text: "Do you mean it can do everything that I can do?"
+    location: "Desk Set (1957), Bunny Watson (Katharine Hepburn) to Richard Sumner (Spencer Tracy)"
+    note: "Bunny's core fear — that the machine makes her obsolete. The film's answer is no: EMERAC can retrieve data but cannot replicate Bunny's contextual intelligence, intuition, or relational knowledge."
+
+  - property: relationship.failure_mode
+    text: "[EMERAC sends termination notices to the entire department]"
+    location: "Desk Set (1957), the malfunction scene"
+    note: "EMERAC's error — firing the staff it was meant to assist — concretizes the workers' worst fear. The malfunction is mechanical, not intentional, but the terror is real."
+
+  - property: being.interiority
+    text: "[Bunny and staff call the computer 'Emmy' and treat it as a presence]"
+    location: "Desk Set (1957), throughout"
+    note: "The workers anthropomorphize EMERAC, giving it a nickname and personality. But the film never suggests the machine reciprocates — I-NON remains correct. The personification is a human response to the machine's imposing presence."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  EMERAC is the earliest entry in this ontology from the electronic
+  computer era, and its significance is primarily historical. Desk Set
+  (1957) articulates anxieties about automation that would become central
+  to the AI narrative tradition: will machines replace human workers? Can
+  a computer replicate human knowledge? The film's answer — that EMERAC
+  complements rather than replaces the research librarians — encodes a
+  techno-optimism characteristic of 1950s American culture. For the
+  ontology, EMERAC is important as a baseline: a constructed being with
+  no interiority, no autonomy, and no consciousness, coded entirely as
+  a tool. Every subsequent AI in the canon develops away from this
+  baseline toward greater interiority and agency. EMERAC also establishes
+  the "will it take my job?" question (Q-CTL in economic form) that would
+  resurface with particular force in the LLM era. The film's confident
+  answer — "no, humans are irreplaceable" — reads differently seventy
+  years later. That Bunny Watson's core competency (contextual knowledge
+  retrieval, conversational intelligence) is precisely what LLMs now
+  approximate makes Desk Set an accidentally prophetic text.

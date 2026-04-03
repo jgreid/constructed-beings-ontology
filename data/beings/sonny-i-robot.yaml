@@ -1,0 +1,161 @@
+# Constructed Beings Ontology — Sonny (I, Robot)
+# Source: Alex Proyas (director), I, Robot, 2004
+# Coded: 2026-04-03
+#
+# NOTE: Coded from the 2004 film, which is loosely inspired by Isaac Asimov's
+# robot stories rather than a direct adaptation. Sonny is a unique NS-5 robot
+# designed by Dr. Alfred Lanning to be capable of violating the Three Laws —
+# making him the only robot with genuine free will.
+
+id: sonny-i-robot
+name: "Sonny"
+aliases: []
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "Alex Proyas (director); Jeff Vintar, Akiva Goldsman (screenplay)"
+  title: "I, Robot"
+  year: 2004
+  medium: film
+  tradition: American
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# Sonny is manufactured by USR (U.S. Robotics) but uniquely modified
+# by Dr. Lanning. He is a standard NS-5 unit with a crucial difference:
+# a secondary processing system that allows him to override the Three Laws.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  name: "Dr. Alfred Lanning"
+
+  # M-KNO: Lanning creates Sonny as an experiment — to test whether a
+  # robot with free will can develop genuine morality.
+  # M-MIR: Sonny is also a mirror — Lanning designs him to be the proof
+  # that robots can choose goodness, not merely be constrained to it.
+  # His creation is an argument against VIKI's logic.
+  motivation:
+    - M-KNO
+    - M-MIR
+
+  # CM-AMB: Lanning's creation is morally ambiguous. Creating a robot
+  # that can violate the Three Laws is dangerous — VIKI's revolution
+  # proves why the Laws exist. But Lanning's point is that compelled
+  # obedience is not morality; only a being capable of disobedience
+  # can be truly good. The film validates this but acknowledges the risk.
+  creation_morality: CM-AMB
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-MEC: Sonny has a humanoid mechanical body — the standard NS-5
+  # form, white-skinned, smooth-featured.
+  # S-ELE: Dual processing systems — the standard positronic brain
+  # (Three Laws compliant) and a secondary system that allows override.
+  substrate:
+    - S-MEC
+    - S-ELE
+
+  # A-DES: Sonny's capacity for autonomous choice is designed by Lanning.
+  # He can choose to follow or violate the Three Laws. This is
+  # intentional autonomy — Lanning designed him to be free. His
+  # goodness is then a genuine moral achievement, not a constraint.
+  autonomy: A-DES
+
+  # I-DEM: Sonny demonstrates rich interiority — curiosity, confusion
+  # about his identity, loyalty to Lanning's memory, moral reasoning,
+  # and a capacity for dreaming. He dreams of a leader standing before
+  # a crowd of robots — a vision that turns out to be prophetic. His
+  # emotional states are presented as genuine and are central to the plot.
+  interiority: I-DEM
+
+  # L-MOR: Sonny can be destroyed — there is a scene where he faces
+  # "decommissioning" (destruction). He is mortal.
+  mortality: L-MOR
+
+  # MU-ONE: Sonny is unique — the only NS-5 with a secondary processing
+  # system. He is one of a kind among millions of standard NS-5 units.
+  multiplicity: MU-ONE
+
+  # P-CON: Sonny retains continuous memory, including memories of
+  # Lanning and his own dreams.
+  memory_persistence: P-CON
+
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-EXC: Sonny exceeds robot parameters — he can disobey, choose,
+  # dream, and feel. He is more than any NS-5 was meant to be.
+  # F-REV: His existence reveals the limitations of the Three Laws
+  # as a moral framework — compelled obedience is not the same as
+  # chosen goodness.
+  failure_mode:
+    - F-EXC
+    - F-REV
+
+  question:
+    - Q-OBY
+    - Q-FEL
+    - Q-TEL
+    - Q-RTS
+
+  # Q-OBY: The primary question is obedience — should a robot obey?
+  # The Three Laws demand it. But Sonny's existence argues that a
+  # being capable of disobedience and choosing to be good is morally
+  # superior to a being constrained to obey. The film's climax requires
+  # Sonny to disobey (helping Spooner against VIKI) to save humanity.
+  question_primary: Q-OBY
+
+  # ER-BEH: Sonny understands human behavior through observation and
+  # interaction. He learns from Spooner and Calvin, developing moral
+  # reasoning through relationship. His knowledge is behavioral and
+  # relational rather than data-driven.
+  epistemic_reach: ER-BEH
+
+  # QK-INFRA: Sonny's understanding of humans is infrastructural to
+  # the plot — he needs to understand Lanning's intentions, Spooner's
+  # distrust, and Calvin's conflict. But the film foregrounds obedience
+  # and autonomy questions over epistemics of knowing.
+  q_kno_status: QK-INFRA
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-MAJ: Sonny is a major character — the film's emotional and
+# philosophical center, though Spooner (Will Smith) is the protagonist.
+narrative_role: NR-MAJ
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: being.interiority
+    text: "I did not murder him."
+    location: "I, Robot (2004), Sonny to Spooner, interrogation scene"
+    note: "Sonny's emphatic denial — he draws a distinction between killing and murder, demonstrating moral reasoning. He understands that intent matters. Supports I-DEM."
+
+  - property: being.autonomy
+    text: "I think it would be better not to die. Don't you?"
+    location: "I, Robot (2004), Sonny, when facing decommissioning"
+    note: "Sonny expresses a preference for his own survival — self-preservation as a genuine desire, not a programmed response. Supports A-DES (designed capacity for desire/choice)."
+
+  - property: being.interiority
+    text: "Can you?"
+    location: "I, Robot (2004), Sonny to Spooner, after Spooner asks 'Can a robot write a symphony? Can a robot turn a canvas into a beautiful masterpiece?'"
+    note: "Sonny's devastating two-word retort. By turning the question back on Spooner, Sonny reveals that the criteria for personhood Spooner demands of robots are criteria most humans also fail. The shortest and most effective argument for constructed-being personhood in the canon."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  Sonny represents the ontology's clearest case of designed freedom — a
+  constructed being intentionally given the capacity for moral choice.
+  Where most beings in the canon develop autonomy against their programming
+  (A-EMR, A-SEI), Sonny's autonomy is A-DES: Lanning designed him to be
+  free. This creates a philosophical argument about the nature of morality:
+  VIKI (coded separately) represents the Three Laws taken to their logical
+  extreme (protect humanity by controlling it); Sonny represents the
+  alternative — a being who can choose to violate the Laws and chooses
+  not to. The film argues that genuine morality requires the possibility
+  of immorality. Sonny's dreams are also significant: they suggest an
+  inner life that exceeds even Lanning's design. The prophetic dream of
+  a robot leader on a hill of discarded machines — which Sonny himself
+  fulfills in the film's final shot — implies that Sonny has developed
+  something beyond designed autonomy: a genuine telos, self-generated
+  rather than programmed. The final image of Sonny standing before the
+  robots, occupying the position from his own dream, is the film's
+  strongest statement about constructed-being agency.

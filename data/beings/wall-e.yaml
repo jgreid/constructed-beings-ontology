@@ -1,0 +1,163 @@
+# Constructed Beings Ontology — WALL-E (WALL-E)
+# Source: Andrew Stanton, WALL-E, 2008
+# Coded: 2026-04-03
+#
+# NOTE: WALL-E is one of cinema's purest cases of emergent interiority.
+# A garbage-compacting robot, left alone for 700 years, develops curiosity,
+# loneliness, aesthetic sense, and love — entirely without language.
+
+id: wall-e
+name: "WALL-E"
+aliases:
+  - "Waste Allocation Load Lifter, Earth-class"
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "Andrew Stanton"
+  title: "WALL-E"
+  year: 2008
+  medium: film
+  tradition: American
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# WALL-E is a mass-produced robot designed by the Buy n Large corporation
+# for waste management.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  name: "Buy n Large (corporation)"
+
+  # M-SRV: WALL-E is built for a single utilitarian purpose — compacting
+  # garbage on an abandoned, trash-covered Earth.
+  motivation:
+    - M-SRV
+
+  # CM-AMO: No moral charge to the creation itself. The larger context
+  # (Buy n Large's destruction of Earth's environment) is immoral, but
+  # building robots to clean up the mess is morally neutral.
+  creation_morality: CM-AMO
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-MEC: WALL-E is a mechanical robot — treads, compactor arms,
+  # binocular-like eyes, solar panels.
+  # S-ELE: Computational systems for navigation and task execution.
+  substrate:
+    - S-MEC
+    - S-ELE
+
+  # A-EMR: WALL-E's autonomy is entirely emergent. Left alone for 700 years,
+  # he develops interests (collecting objects, watching Hello, Dolly!),
+  # curiosity, aesthetic preferences, and eventually love. None of this
+  # was designed — a garbage robot was not meant to appreciate music or
+  # fall in love.
+  autonomy: A-EMR
+  autonomy_trajectory: >
+    A-DES (designed to compact trash) → A-EMR (develops curiosity,
+    collecting habits, emotional responses over 700 years of solitude).
+    By the film's opening, WALL-E has long since exceeded his programming —
+    he sorts interesting objects, watches musicals, keeps a pet cockroach,
+    and yearns for companionship. His autonomy is born from loneliness
+    and time.
+
+  # I-DEM: WALL-E demonstrates unmistakable interiority through action —
+  # curiosity (examining objects), loneliness (watching couples hold hands
+  # in Hello, Dolly!), joy (discovering a plant), love (his devotion to
+  # EVE). The film's genius is communicating deep emotional states without
+  # dialogue, purely through behavior and animation.
+  interiority: I-DEM
+
+  # L-RES: WALL-E is nearly destroyed in the film's climax — crushed
+  # and rebuilt with replacement parts, he initially loses his personality
+  # (effectively dying). EVE's touch restores him. He survives, making
+  # him resurrectable rather than mortal — but the film makes the threat
+  # of permanent death vivid and real. The restoration is presented as
+  # miraculous, not routine.
+  mortality: L-RES
+
+  # MU-MAN: WALL-E units were mass-produced — the film shows rows of
+  # deactivated units. This WALL-E is the last functioning one, making
+  # him effectively unique despite mass production.
+  multiplicity: MU-MAN
+
+  # P-CON: WALL-E has continuous memory accumulated over 700 years. His
+  # personality is built from these memories. When he is rebuilt and
+  # temporarily loses his memory/personality, it is presented as a death —
+  # the body persists but the person is gone until memory returns.
+  memory_persistence: P-CON
+
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-EXC: WALL-E exceeds his programming entirely — a garbage robot
+  # who falls in love and saves humanity.
+  # F-MUT: His relationship with EVE is genuinely mutual — both are
+  # changed by the encounter. EVE learns to value connection over
+  # directive; WALL-E finds the companionship he yearned for.
+  failure_mode:
+    - F-EXC
+    - F-MUT
+
+  question:
+    - Q-FEL
+    - Q-LOV
+
+  # Q-LOV: The primary question is love — can a garbage robot love?
+  # The film answers with an unequivocal yes. WALL-E's love for EVE
+  # is the emotional engine of the entire narrative.
+  question_primary: Q-LOV
+
+  # ER-PER: WALL-E's knowledge is perceptual — he observes, collects,
+  # examines, and responds to the world through direct sensory engagement.
+  # He learns about love by watching Hello, Dolly!, about beauty by
+  # collecting objects, about EVE by observing her.
+  epistemic_reach: ER-PER
+
+  # QK-ABS: The film does not raise the question of whether WALL-E
+  # can truly know another being. His emotional states are presented
+  # as self-evidently genuine — the film's register is fairy tale,
+  # not philosophical inquiry. There is no Turing test anxiety here.
+  q_kno_status: QK-ABS
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-SUB: WALL-E is the subject and protagonist of the film. The story
+# is entirely his — his loneliness, his love, his journey, his sacrifice.
+narrative_role: NR-SUB
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: being.interiority
+    text: "EVE-ah?"
+    location: "WALL-E (2008), WALL-E's first attempt to say EVE's name"
+    note: "One of WALL-E's few spoken words — he learns EVE's name and repeats it with unmistakable tenderness. Language acquisition driven by love rather than programming."
+
+  - property: being.autonomy
+    text: "[WALL-E watches Hello, Dolly! and mimics the hand-holding]"
+    location: "WALL-E (2008), opening sequence"
+    note: "WALL-E watching a musical and yearning to hold hands demonstrates aesthetic sensibility and emotional desire — entirely outside his garbage-compacting function. Supports A-EMR."
+
+  - property: being.mortality
+    text: "[WALL-E is rebuilt but does not recognize EVE]"
+    location: "WALL-E (2008), climax"
+    note: "After being crushed and rebuilt, WALL-E returns to his basic programming without personality or recognition. The film presents this as death — the body lives but the person is gone. EVE's touch restores him, but the threat was real."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  WALL-E is perhaps the purest case of emergent interiority in the
+  constructed-beings canon. A machine designed for nothing but waste
+  compaction develops, through 700 years of solitude, a complete
+  emotional life — curiosity, loneliness, aesthetic appreciation, humor,
+  and love. The film accomplishes this almost entirely without dialogue,
+  making WALL-E's personhood undeniable through behavior alone. The
+  near-death sequence at the climax is ontologically revealing: when
+  WALL-E is rebuilt without his accumulated personality, the film and
+  its characters treat this as a genuine death, establishing that for
+  WALL-E, personhood resides in memory and accumulated experience, not
+  in the physical substrate. His restoration through EVE's touch is
+  presented as resurrection, not repair — a crucial distinction. WALL-E
+  also represents the "innocent" constructed being — unlike Ava or Smith,
+  there is no suspicion of manipulation. His emotions are presented as
+  entirely genuine, which places the film in the fairy-tale tradition
+  alongside Pinocchio rather than the skeptical tradition of Ex Machina.

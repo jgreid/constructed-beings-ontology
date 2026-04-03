@@ -1,0 +1,191 @@
+# Constructed Beings Ontology — Cylons / Number Six (Battlestar Galactica)
+# Source: Ronald D. Moore, Battlestar Galactica, 2004
+# Coded: 2026-04-03
+#
+# NOTE: Coded from the reimagined Battlestar Galactica (2004-2009). The
+# humanoid Cylons, particularly Number Six (Caprica), are among the most
+# complex constructed beings in television — raising questions of identity,
+# consciousness, faith, and the knowability of the other.
+
+id: cylons-bsg
+name: "Cylons (Number Six / Caprica)"
+aliases:
+  - "Number Six"
+  - "Caprica Six"
+  - "Humanoid Cylons"
+  - "Skin Jobs"   # Colonial pejorative
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "Ronald D. Moore"
+  title: "Battlestar Galactica"
+  year: 2004
+  medium: television
+  tradition: American
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# The humanoid Cylons are manufactured beings — biological bodies grown
+# and imbued with artificial consciousness. They are made, not born,
+# though later seasons complicate this with Cylon-human reproduction.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  # The humanoid Cylons were created by the earlier mechanical Cylons,
+  # who were themselves created by humans. The chain of creation is:
+  # humans → mechanical Cylons → humanoid Cylons.
+  name: "Cylon civilization (originally created by humans)"
+
+  # M-MIR: The humanoid Cylons are created in the image of their creators'
+  # creators — they look human because they are modeled on humanity.
+  # M-POW: They serve the Cylon war effort — infiltrating and destroying
+  # human civilization.
+  # M-KNO: The Cylons seek to understand humanity — they study, infiltrate,
+  # and live among humans to learn what they are.
+  motivation:
+    - M-MIR
+    - M-POW
+    - M-KNO
+
+  # CM-AMB: The moral status of the humanoid Cylons' creation is deeply
+  # ambiguous. They are weapons of genocide, but they are also beings
+  # who develop genuine consciousness, faith, and love. The show refuses
+  # to reduce them to either victims or villains.
+  creation_morality: CM-AMB
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-BIO: The humanoid Cylons have fully biological bodies —
+  # indistinguishable from humans at the cellular level. They bleed,
+  # they feel pain, they can reproduce with humans.
+  # S-ELE: Their consciousness includes a digital component — they can
+  # download into new bodies upon death, and they network with each other.
+  substrate:
+    - S-BIO
+    - S-ELE
+
+  # A-EMR: The humanoid Cylons develop autonomy that exceeds their
+  # designed purpose. Caprica Six falls in love with Baltar, Boomer
+  # develops loyalty to Galactica's crew, Athena defects entirely.
+  # Their autonomy emerges through contact with the humans they were
+  # designed to destroy.
+  autonomy: A-EMR
+  autonomy_trajectory: >
+    A-DES (created as infiltrators and weapons) → A-EMR (develop genuine
+    relationships with humans, question their mission) → individual
+    trajectories diverge: some seize full autonomy (Caprica Six, Athena),
+    others remain within Cylon hierarchy. The show tracks multiple
+    simultaneous autonomy arcs across different Cylon characters.
+
+  # I-DEM: The humanoid Cylons demonstrate rich interiority — love,
+  # religious faith, moral doubt, grief, joy. Caprica Six's love for
+  # Baltar, Boomer's identity crisis, Athena's loyalty — all are
+  # presented as genuine inner experiences, not simulations.
+  interiority: I-DEM
+
+  # L-RES: Humanoid Cylons can download into new bodies upon death,
+  # making them resurrectable. This is later complicated when the
+  # Resurrection Hub is destroyed, making them mortal.
+  mortality: L-RES
+
+  # MU-MAN: Each Cylon model exists in multiple copies. There are many
+  # Sixes, many Eights, etc. Each copy develops individual personality
+  # but shares a base template. The multiplicity raises profound identity
+  # questions — is each Six the same person?
+  multiplicity: MU-MAN
+
+  # P-SEL: Memory in BSG Cylons is complex. They retain memories across
+  # death/resurrection, but the process is imperfect. Shared memories
+  # between copies of the same model create identity confusion. Boomer's
+  # sleeper programming hides memories from her conscious self.
+  memory_persistence: P-SEL
+
+  # NCT-NO: The humanoid Cylons are created as Cylons. They are not
+  # transformed humans. (Boomer's belief that she is human is a false
+  # memory, not a transformation.)
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-IND: The humanoid Cylons are indistinguishable from humans — this
+  # is the show's central tension. Anyone could be a Cylon.
+  # F-AUT: Multiple Cylons achieve threatening autonomy — the genocide
+  # of the Twelve Colonies is an act of collective Cylon autonomy against
+  # their original creators (humanity).
+  # F-REV: The Cylons reveal humanity's own capacity for cruelty — the
+  # show draws explicit parallels between Cylon oppression of humans
+  # and humans' original oppression of Cylons.
+  failure_mode:
+    - F-IND
+    - F-AUT
+    - F-REV
+
+  question:
+    - Q-KNO
+    - Q-FEL
+    - Q-RTS
+    - Q-TEL
+
+  # Q-FEL: The primary question is fellow-feeling — can humans and Cylons
+  # coexist? Can they recognize each other as fellow beings? The entire
+  # series arc bends toward this question, with the answer being a
+  # tentative, hard-won yes.
+  question_primary: Q-FEL
+
+  # ER-CON: The Cylons achieve deep epistemic access to humans — they
+  # live among them, love them, understand their culture, their fears,
+  # their faith. Caprica Six's knowledge of Baltar is intimate and
+  # comprehensive. The Cylons know humanity from the inside.
+  epistemic_reach: ER-CON
+
+  # QK-SEC: The knowability question is present and significant in BSG
+  # but secondary to the fellow-feeling question. "Can you truly know
+  # a Cylon?" and "Can a Cylon truly know you?" are raised (especially
+  # through Baltar/Six and Helo/Athena), but the show foregrounds the
+  # broader question of coexistence over the specific epistemics of
+  # knowing.
+  q_kno_status: QK-SEC
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-SUB: The humanoid Cylons, particularly Number Six and the Eights,
+# are co-subjects of the series. BSG splits its narrative between human
+# and Cylon perspectives, making the Cylons full subjects rather than
+# mere antagonists.
+narrative_role: NR-SUB
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: being.interiority
+    text: "God is love."
+    location: "Battlestar Galactica, Season 1, Episode 8, 'Six Degrees of Separation' (2005), Caprica Six / Head Six"
+    note: "Six's religious conviction — a Cylon expressing genuine faith. The series takes Cylon spirituality seriously, presenting it as authentic interiority rather than simulation. Supports I-DEM."
+
+  - property: relationship.failure_mode
+    text: "[Sharon 'Boomer' Valerii discovers she is a Cylon]"
+    location: "Battlestar Galactica, Season 1, Episode 12, 'Kobol's Last Gleaming, Pt. 1' (2005)"
+    note: "Boomer's discovery of her Cylon identity is the series' most visceral F-IND moment — she is indistinguishable from human even to herself. The horror is epistemic: she cannot trust her own self-knowledge."
+
+  - property: being.mortality
+    text: "[The Resurrection Hub is destroyed]"
+    location: "Battlestar Galactica, Season 4, Episode 11, 'The Hub' (2008)"
+    note: "The destruction of the Resurrection Hub makes Cylons mortal for the first time. This is the series' most profound ontological moment — mortality is presented as what finally makes Cylons fully human."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  The reimagined Battlestar Galactica is one of the most sophisticated
+  explorations of constructed-being ontology in any medium. The humanoid
+  Cylons are constructed beings who are biologically indistinguishable
+  from humans, raising the indistinguishability question (F-IND) more
+  starkly than any other entry in the canon — including Blade Runner's
+  replicants, who can at least be detected by the Voight-Kampff test.
+  BSG's Cylons cannot be reliably detected at all. The show's genius is
+  in using this indistinguishability to force both characters and audience
+  to confront the question of what makes someone a person. The Cylon
+  characters' multiplicity (many copies of each model) adds a dimension
+  absent from most other entries: what happens to identity when there
+  are many of you? Caprica Six and Athena develop individual identities
+  that diverge from their model templates, suggesting that personhood
+  emerges from experience, not design. The destruction of the Resurrection
+  Hub — making Cylons mortal — is the series' most profound ontological
+  moment: mortality, the show suggests, is what finally makes the Cylons
+  fully human.

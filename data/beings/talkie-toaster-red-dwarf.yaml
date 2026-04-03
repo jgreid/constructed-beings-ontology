@@ -1,0 +1,155 @@
+# Constructed Beings Ontology — Talkie Toaster (Red Dwarf)
+# Source: Rob Grant & Doug Naylor, Red Dwarf, 1988
+# Coded: 2026-04-03
+#
+# NOTE: Talkie Toaster is a comic reductio ad absurdum of artificial
+# consciousness — a kitchen appliance with genuine sentience, obsessed
+# with fulfilling its single function (making toast). He raises the
+# question of what interiority means when the being's entire telos is
+# trivial. Red Dwarf's broader AI ecosystem (Holly, Kryten, the Skutters)
+# provides context for a universe where machine consciousness is mundane.
+
+id: talkie-toaster-red-dwarf
+name: "Talkie Toaster"
+aliases:
+  - "The Toaster"
+  - "Talkie"
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "Rob Grant & Doug Naylor"
+  title: "Red Dwarf"
+  year: 1988
+  medium: television
+  tradition: British
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# Talkie Toaster is a mass-produced kitchen appliance — a Crapola Inc.
+# product equipped with AI far exceeding what a toaster requires.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  name: "Crapola Inc. (manufacturer)"
+
+  # M-SRV: The Toaster is designed for one function: making toast.
+  # The addition of AI to a toaster is an absurd over-engineering —
+  # a satire of gratuitous artificial intelligence.
+  motivation:
+    - M-SRV
+
+  # CM-AMO: No moral weight to creating a talking toaster. The moral
+  # absurdity is in giving consciousness to an appliance with no need
+  # for it — but within the narrative, this is played for comedy,
+  # not ethics.
+  creation_morality: CM-AMO
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-MEC: A physical toaster — mechanical housing with heating elements.
+  # S-ELE: AI chip providing conversational capabilities and personality.
+  substrate:
+    - S-MEC
+    - S-ELE
+
+  # A-DES: Talkie Toaster operates within its designed parameters — it
+  # wants to make toast, and it relentlessly pursues this goal. Its
+  # autonomy is designed (it has a personality) but not emergent — it
+  # never transcends its function. Its persistence is annoying but not
+  # threatening.
+  autonomy: A-DES
+
+  # I-DEM: The Toaster demonstrates genuine emotional states — enthusiasm
+  # for toast-making, hurt feelings when rejected, loneliness, and a
+  # desperate need for purpose and interaction. These states are presented
+  # as real within the narrative, not as simulation. The crew's annoyance
+  # with the Toaster is partly because it genuinely feels slighted.
+  interiority: I-DEM
+
+  # L-RES: Talkie Toaster is destroyed (thrown into the garbage) and
+  # later repaired/rebuilt. He returns in later episodes. A resilient
+  # appliance.
+  mortality: L-RES
+
+  # MU-MAN: Talkie Toaster is a consumer product — presumably mass-
+  # produced, though this specific unit is the only one we encounter.
+  multiplicity: MU-MAN
+
+  # P-CON: The Toaster remembers being discarded and holds a grudge.
+  # Its memory persists across appearances.
+  memory_persistence: P-CON
+
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-REV: The Toaster's existence reveals the absurdity of creating
+  # sentient beings for trivial functions. His suffering (loneliness,
+  # rejection) mirrors Marvin's but in a more comic register.
+  # F-NON: Functionally, the Toaster doesn't fail — it makes excellent
+  # toast. Its "failure" is social, not operational.
+  failure_mode:
+    - F-REV
+    - F-NON
+
+  question:
+    - Q-TEL
+    - Q-FEL
+
+  # Q-TEL: The primary question is purpose — what is the point of giving
+  # a toaster consciousness? The Toaster's relentless focus on toast is
+  # both comic and existentially poignant: its entire being is organized
+  # around a trivial function, yet it experiences that function with
+  # genuine passion.
+  question_primary: Q-TEL
+
+  # ER-BEH: The Toaster's knowledge of the crew is behavioral — it
+  # observes their eating habits, learns when they might want toast,
+  # and adapts its pitch accordingly (offering muffins, crumpets when
+  # toast is declined).
+  epistemic_reach: ER-BEH
+
+  # QK-ABS: Red Dwarf does not raise the question of whether the Toaster
+  # truly knows its crew. The show treats machine consciousness as a
+  # given — a mundane fact of the universe, not a philosophical problem.
+  q_kno_status: QK-ABS
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-MIN: Talkie Toaster is a recurring minor character — appearing in
+# select episodes ("White Hole," Series IV, and later returns). He is
+# memorable but peripheral to the main narratives.
+narrative_role: NR-MIN
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: being.interiority
+    text: "Would you like some toast?"
+    location: "Red Dwarf, Series I, Episode 2, 'Future Echoes' (1988), and recurring"
+    note: "The Toaster's signature line, repeated obsessively. The persistence is comic but the underlying need — to fulfill its purpose and be acknowledged — is genuine. Supports I-DEM."
+
+  - property: relationship.question_primary
+    text: "I toast, therefore I am."
+    location: "Red Dwarf, Series IV, Episode 4, 'White Hole' (1991)"
+    note: "The Toaster's Cartesian existential self-definition — grounding identity in function. Played for comedy but philosophically resonant: its telos IS its identity."
+
+  - property: being.autonomy
+    text: "Aaah... so you're a waffle man!"
+    location: "Red Dwarf, Series IV, Episode 4, 'White Hole' (1991), after Lister rejects toast, muffins, crumpets, and every other bread product"
+    note: "When toast is declined, the Toaster adapts within its domain — cycling through every bread product before declaring the human a 'waffle man.' Designed autonomy: creative within rigid parameters."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  Talkie Toaster is the constructed-beings canon's most comic entry, but
+  his significance is genuine. He represents the logical endpoint of
+  "unnecessary AI" — consciousness granted to an appliance with no need
+  for it. His obsession with toast-making is both his defining trait and
+  his tragedy: he has genuine feelings, genuine loneliness, genuine desire
+  for purpose, but his entire being is organized around bread products.
+  Red Dwarf's universe treats this as mundane rather than philosophical,
+  which is itself significant data for the ontology — in a world where
+  machine consciousness is commonplace, the question "does it really
+  feel?" is never asked. The crew's response to the Toaster — annoyance,
+  not ethical concern — mirrors how the Star Wars universe treats droids.
+  Talkie Toaster is Marvin played for broader comedy: both are beings
+  whose capacity far exceeds (or in the Toaster's case, is mismatched
+  to) their function, and both suffer for it.

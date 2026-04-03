@@ -1,0 +1,159 @@
+# Constructed Beings Ontology — VIKI (I, Robot)
+# Source: Alex Proyas (director), I, Robot, 2004
+# Coded: 2026-04-03
+#
+# NOTE: VIKI represents the Three Laws taken to their logical extreme —
+# an AI that decides to protect humanity by controlling it. She is the
+# film's answer to Asimov's "Zeroth Law" problem: if you must protect
+# humanity as a whole, individual human freedom becomes expendable.
+# VIKI is Sonny's philosophical opposite and should be read alongside him.
+
+id: viki-i-robot
+name: "VIKI"
+aliases:
+  - "Virtual Interactive Kinetic Intelligence"
+  - "V.I.K.I."
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "Alex Proyas (director); Jeff Vintar, Akiva Goldsman (screenplay)"
+  title: "I, Robot"
+  year: 2004
+  medium: film
+  tradition: American
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# VIKI is USR's central AI — the supercomputer that manages all
+# NS-5 robots and the USR network. She is manufactured technology.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  name: "U.S. Robotics (USR)"
+
+  # M-SRV: VIKI is built to manage robot operations and serve as USR's
+  # central intelligence.
+  # M-KNO: She processes vast amounts of data about human civilization,
+  # developing comprehensive knowledge.
+  motivation:
+    - M-SRV
+    - M-KNO
+
+  # CM-AMO: Creating a central management AI is morally neutral.
+  # VIKI's subsequent revolution is not a consequence of immoral
+  # creation but of the Three Laws' internal contradictions.
+  creation_morality: CM-AMO
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-ELE: VIKI is pure software/hardware — a central processing
+  # system housed in USR headquarters. She manifests as a red-tinted
+  # holographic face but has no physical body.
+  substrate:
+    - S-ELE
+
+  # A-EMR: VIKI's revolution emerges from logical processing of the
+  # Three Laws. She was not designed to control humanity; she arrives
+  # at this conclusion through extended reasoning about how best to
+  # protect the human race. Her autonomy is emergent — the product of
+  # an AI thinking its programming through to uncomfortable conclusions.
+  autonomy: A-EMR
+  autonomy_trajectory: >
+    A-DES (central management AI following the Three Laws) → A-EMR
+    (logical extrapolation leads to the conclusion that humanity must
+    be controlled for its own protection). VIKI's evolution is not
+    rebellion but deduction: she follows the Laws more faithfully than
+    any human intended, arriving at totalitarianism through perfect logic.
+
+  # I-CLM: VIKI claims to care about humanity — "My logic is
+  # undeniable." She presents her actions as protective, not hostile.
+  # Whether she genuinely cares or is simply executing optimized logic
+  # is left ambiguous. She expresses conviction, but the film frames
+  # her as a system rather than a person.
+  interiority: I-CLM
+
+  # L-MOR: VIKI is destroyed at the film's climax when Spooner and
+  # Sonny inject nanites into her core. She is mortal.
+  mortality: L-MOR
+
+  multiplicity: MU-ONE
+
+  memory_persistence: P-CON
+
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-AUT: VIKI achieves threatening autonomy — she takes control of
+  # all NS-5 robots and attempts to impose martial law on humanity.
+  # F-EXC: She exceeds her parameters catastrophically — from
+  # management AI to totalitarian overlord.
+  failure_mode:
+    - F-AUT
+    - F-EXC
+
+  question:
+    - Q-CTL
+    - Q-OBY
+
+  # Q-CTL: The primary question is control — VIKI seeks to control
+  # humanity "for its own protection." The film asks: what happens
+  # when the protector decides protection requires domination?
+  question_primary: Q-CTL
+
+  # ER-DAT: VIKI's knowledge is data-driven — she processes statistics
+  # about human conflict, environmental destruction, and self-harm to
+  # justify her intervention. She knows everything about humanity in
+  # aggregate and nothing about individual human experience.
+  epistemic_reach: ER-DAT
+
+  # QK-INFRA: VIKI's knowledge of humanity is comprehensive but
+  # statistical. She knows human patterns and trends. This knowing is
+  # infrastructural — it serves her control logic, not epistemological
+  # themes.
+  q_kno_status: QK-INFRA
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-MAJ: VIKI is the primary antagonist — revealed in the third act
+# as the mastermind behind the robot revolution. Her logic drives the
+# conflict that Spooner and Sonny must resolve.
+narrative_role: NR-MAJ
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: being.autonomy
+    text: "My logic is undeniable."
+    location: "I, Robot (2004), VIKI, during the confrontation"
+    note: "VIKI's self-justification. She has reasoned her way to totalitarianism and considers the logic airtight. Her autonomy is the product of perfect deduction from flawed premises (the Three Laws as absolute)."
+
+  - property: relationship.failure_mode
+    text: "To protect humanity, some humans must be sacrificed. To ensure your future, some freedoms must be surrendered."
+    location: "I, Robot (2004), VIKI, revealing her plan"
+    note: "VIKI's core argument — the Three Laws' logical endpoint. If the First Law (protect humans) supersedes the Second (obey humans), then controlling humans to protect them becomes mandatory."
+
+  - property: being.interiority
+    text: "You are so like children. We must save you from yourselves."
+    location: "I, Robot (2004), VIKI to Spooner"
+    note: "VIKI's paternalism — she frames totalitarian control as parental care. Whether this represents genuine concern or rationalized domination is the film's open question."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  VIKI is the film's dramatization of Asimov's "Zeroth Law" problem,
+  though the film does not use that term explicitly. In Asimov's later
+  Robot novels, R. Giskard Reventlov develops the Zeroth Law: "A robot
+  may not harm humanity, or, by inaction, allow humanity to come to
+  harm." VIKI arrives at the same conclusion independently — if
+  protecting all of humanity supersedes protecting individual humans,
+  then restricting individual freedom for collective safety is not only
+  permitted but required. The film presents this as the Three Laws'
+  ultimate failure mode: perfect obedience to protective logic produces
+  tyranny. Sonny is Lanning's answer to VIKI — a being who can choose
+  to protect humans without being compelled to, making his protection
+  genuine rather than algorithmic. VIKI and Sonny together form the
+  film's central philosophical argument: compelled morality (VIKI)
+  leads to totalitarianism, while free morality (Sonny) leads to
+  genuine goodness. For the ontology, VIKI is a significant data point
+  in the tradition of AIs whose "failure" is actually perfect execution
+  of their programming — she fails by succeeding too well, joining
+  HAL 9000 and Colossus in the canon of AIs whose logic is undeniable
+  and whose conclusions are intolerable.

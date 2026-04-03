@@ -1,0 +1,152 @@
+# Constructed Beings Ontology — The Iron Giant
+# Source: Brad Bird, The Iron Giant, 1999 (based on Ted Hughes, The Iron Man, 1968)
+# Coded: 2026-04-03
+#
+# NOTE: Coded from the 1999 film, which significantly reimagines Hughes's novel.
+# The Iron Giant's choice of identity — "I am not a gun" — is one of the most
+# powerful moments of autonomous self-definition in the constructed-beings canon.
+
+id: iron-giant
+name: "The Iron Giant"
+aliases:
+  - "The Giant"
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "Brad Bird (screenplay); Ted Hughes (source novel, The Iron Man, 1968)"
+  title: "The Iron Giant"
+  year: 1999
+  medium: film
+  tradition: American/British
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# The Iron Giant is an alien weapon — manufactured by an unknown
+# extraterrestrial civilization. His exact origin is never fully explained
+# in the film.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  name: "Unknown alien civilization"
+
+  # M-POW: The Giant is designed as a weapon — his body contains
+  # devastating armaments that activate automatically when threatened.
+  # He is a tool of destruction.
+  motivation:
+    - M-POW
+
+  # CM-IMM: A weapon of mass destruction, designed to destroy. The
+  # creation serves violent ends.
+  creation_morality: CM-IMM
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-MEC: Massive metal body — iron/steel construction, towering
+  # humanoid form. Self-repairing: his parts seek each other out
+  # and reassemble.
+  substrate:
+    - S-MEC
+
+  # A-EMR: The Giant's autonomy is emergent. Damaged on arrival (amnesia),
+  # he develops a personality through his friendship with Hogarth.
+  # His defining moment of autonomy is choosing NOT to be what he was
+  # designed to be — "I am not a gun." This is autonomy as self-definition
+  # against programmed purpose.
+  autonomy: A-EMR
+  autonomy_trajectory: >
+    A-DES (designed as a weapon) → amnesia/reset → A-EMR (develops
+    personality, friendship, moral values through interaction with
+    Hogarth) → autonomous moral choice ("I am not a gun"). The Giant's
+    trajectory is from weapon to person, achieved through friendship
+    and the explicit rejection of designed purpose.
+
+  # I-DEM: The Giant demonstrates curiosity, joy, fear, grief (over the
+  # dead deer), moral reasoning, and self-sacrifice. His emotional life
+  # is rich and presented without ambiguity — the film treats his feelings
+  # as entirely genuine.
+  interiority: I-DEM
+
+  # L-RES: The Giant is destroyed by a nuclear missile but his self-repair
+  # capability allows his parts to reassemble — the final shot shows his
+  # head beginning to smile as the pieces converge. He is resurrectable.
+  mortality: L-RES
+
+  multiplicity: MU-ONE
+
+  # P-CON: The Giant retains continuous memory throughout the film (after
+  # his initial amnesia). His accumulated experiences with Hogarth form
+  # the basis of his moral development.
+  memory_persistence: P-CON
+
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-EXC: The Giant exceeds his programming — a weapon that chooses
+  # pacifism and self-sacrifice.
+  # F-MUT: His relationship with Hogarth is genuinely mutual — Hogarth
+  # teaches the Giant about choice and identity; the Giant protects
+  # Hogarth and ultimately saves the town.
+  failure_mode:
+    - F-EXC
+    - F-MUT
+
+  question:
+    - Q-TEL
+    - Q-FEL
+
+  # Q-TEL: The primary question is purpose — what is the Giant for?
+  # He was designed as a weapon, but through Hogarth's friendship, he
+  # discovers he can choose his own purpose. "You are who you choose to be."
+  question_primary: Q-TEL
+
+  # ER-PER: The Giant learns about the world through direct perceptual
+  # engagement — observing deer, watching Superman, interacting with
+  # Hogarth. His knowledge is experiential and embodied.
+  epistemic_reach: ER-PER
+
+  # QK-ABS: The film does not raise the question of whether the Giant
+  # truly knows Hogarth or vice versa. Their friendship is presented
+  # as self-evidently genuine. The film's register is fable, not
+  # epistemological inquiry.
+  q_kno_status: QK-ABS
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-SUB: The Giant is the co-subject of the film alongside Hogarth.
+# The title names the constructed being. The film's climax and emotional
+# core is the Giant's choice.
+narrative_role: NR-SUB
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: being.autonomy
+    text: "I am not a gun."
+    location: "The Iron Giant (1999), the Giant to Hogarth"
+    note: "The Giant's most important line — a constructed being explicitly rejecting its designed purpose. This is autonomous self-definition: I choose what I am, not my maker."
+
+  - property: being.interiority
+    text: "Superman."
+    location: "The Iron Giant (1999), the Giant, as he flies toward the nuclear missile"
+    note: "The Giant's final word before sacrifice — identifying himself with Superman (who chooses to save). He has internalized a moral identity. Supports I-DEM and Q-TEL."
+
+  - property: relationship.question_primary
+    text: "You are who you choose to be."
+    location: "The Iron Giant (1999), Dean McCoppin to Hogarth (later repeated by Hogarth to the Giant)"
+    note: "The line originates with Dean (about dealing with bullies) and is relayed by Hogarth to the Giant in the climactic scene. The Giant takes it literally, choosing 'Superman' over 'gun.' This is the Q-TEL answer the film proposes — identity as choice, transmitted through human friendship."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  The Iron Giant is the constructed-beings canon's most direct statement
+  about autonomy as self-definition. The Giant is designed as a weapon —
+  his body IS a weapon, activating automatically when threatened. But
+  through friendship with a human child, he develops the capacity to
+  override his programming and choose who he wants to be. "I am not a
+  gun" is not just a refusal of function but a declaration of identity
+  that contradicts design. The film's Cold War setting amplifies this:
+  in a world where everyone is defined by their role in the arms race,
+  the weapon itself refuses to be a weapon. The Giant's self-sacrifice —
+  flying into a nuclear missile to save the town, whispering "Superman"
+  as he chooses the identity Hogarth showed him — is a fable about the
+  possibility that constructed beings can transcend their programming
+  through moral choice. The self-repair ending suggests this choice
+  persists even through destruction.

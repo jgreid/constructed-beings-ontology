@@ -1,0 +1,163 @@
+# Constructed Beings Ontology — T-800 (The Terminator)
+# Source: James Cameron, The Terminator, 1984
+# Coded: 2026-04-03
+#
+# NOTE: Coded primarily from The Terminator (1984) and Terminator 2: Judgment
+# Day (1991), the two Cameron-directed entries. The T-800's arc across both
+# films — from pure killing machine to protector who learns human value —
+# is one of cinema's most iconic constructed-being trajectories.
+
+id: t-800-terminator
+name: "T-800 (Model 101)"
+aliases:
+  - "The Terminator"
+  - "Uncle Bob"   # John Connor's nickname in T2
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "James Cameron"
+  title: "The Terminator"
+  year: 1984
+  medium: film
+  tradition: American
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# The T-800 is manufactured by Skynet — a mass-produced infiltration unit
+# with biological tissue over a metal endoskeleton.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  name: "Skynet"
+
+  # M-SRV: The T-800 is built to serve Skynet's war effort — specifically
+  # as an infiltration and assassination unit.
+  # M-POW: Skynet creates Terminators to maintain and extend its dominance
+  # over humanity in the machine war.
+  motivation:
+    - M-SRV
+    - M-POW
+
+  # CM-IMM: Skynet creates killing machines designed to exterminate humanity.
+  # The T-800 is a weapon of genocide.
+  creation_morality: CM-IMM
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-MEC: Metal endoskeleton — the iconic chrome skull and red eyes.
+  # S-BIO: Living tissue over the endoskeleton — skin, blood, hair.
+  # This hybrid substrate is functional: the biological layer enables
+  # infiltration among humans.
+  # S-ELE: Neural net processor — a learning computer.
+  substrate:
+    - S-MEC
+    - S-BIO
+    - S-ELE
+
+  # A-DES in T1 (follows Skynet's programming without deviation).
+  # A-EMR in T2 (the reprogrammed T-800 begins to learn and adapt beyond
+  # its mission parameters — it learns why humans cry, develops something
+  # like attachment to John Connor).
+  # Coding A-EMR to capture the more narratively significant T2 arc.
+  autonomy: A-EMR
+  autonomy_trajectory: >
+    T1: A-DES — the T-800 is a pure instrument of Skynet's will,
+    executing its assassination mission without deviation or doubt.
+    T2: A-DES (reprogrammed by the Resistance) → A-EMR — the T-800
+    begins to learn beyond its parameters. It develops understanding
+    of human emotion, makes autonomous judgments, and ultimately
+    chooses self-destruction to protect the future.
+
+  # I-CLM: In T2, the T-800 claims to understand human emotion —
+  # "I know now why you cry. But it is something I can never do."
+  # Whether this constitutes genuine understanding or sophisticated
+  # pattern matching is left open. In T1, no interiority is suggested.
+  interiority: I-CLM
+
+  # L-MOR: The T-800 can be and is destroyed — crushed in a hydraulic
+  # press (T1), lowered into molten steel (T2). It is mortal.
+  mortality: L-MOR
+
+  # MU-MAN: The T-800 Model 101 is mass-produced. Many units exist with
+  # the same appearance (Schwarzenegger's likeness). Each unit is a
+  # separate instance.
+  multiplicity: MU-MAN
+
+  # P-CON: The T-800 retains continuous memory. In T2, it accumulates
+  # experiences and learns from them. Its final sacrifice is informed
+  # by everything it has learned.
+  memory_persistence: P-CON
+
+  # NCT-NO: The T-800 is built from scratch. No prior being is transformed.
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-EXC: In T2, the reprogrammed T-800 exceeds its mission parameters —
+  # it was sent to protect John Connor, but it develops something beyond
+  # mere protection: understanding, attachment, self-sacrifice.
+  # F-MUT: The T2 relationship between the T-800 and John Connor is
+  # genuinely mutual — both are changed by it. John gains a father figure;
+  # the T-800 gains something approaching humanity.
+  failure_mode:
+    - F-EXC
+    - F-MUT
+
+  # Q-OBY: In T1, the question is pure obedience — the Terminator obeys
+  # Skynet absolutely. In T2, obedience is complicated by learning.
+  # Q-FEL: T2 raises whether the T-800 can genuinely feel — its growing
+  # bond with John Connor and its final statement suggest fellow-feeling.
+  question:
+    - Q-OBY
+    - Q-FEL
+
+  question_primary: Q-OBY
+
+  # ER-BEH: The T-800 processes human behavior — it scans, analyzes,
+  # and in T2 learns to model human patterns. Its knowledge is behavioral
+  # and data-driven, not empathetic.
+  epistemic_reach: ER-BEH
+
+  # QK-INFRA: The T-800 studies human behavior extensively (scanning,
+  # analyzing files on targets, learning social patterns in T2). This
+  # knowing is infrastructural — it serves the mission (assassination
+  # or protection) rather than being explored as a theme in its own right.
+  q_kno_status: QK-INFRA
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-MAJ: In T1, the T-800 is the primary antagonist. In T2, it is the
+# deuteragonist and arguably the emotional center of the film. Major
+# character in both, but the human characters (Sarah, John) are the
+# subjects.
+narrative_role: NR-MAJ
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: being.interiority
+    text: "I know now why you cry. But it's something I can never do."
+    location: "Terminator 2: Judgment Day (1991), T-800 to John Connor, final scene"
+    note: "The T-800's most direct claim of understanding. It claims knowledge of human emotion while acknowledging a limit — it cannot replicate the experience. Supports I-CLM."
+
+  - property: being.autonomy
+    text: "I need a vacation."
+    location: "Terminator 2: Judgment Day (1991), T-800, after defeating the T-1000"
+    note: "A small but significant moment — the T-800 generates novel, contextually appropriate humor. This exceeds its programming and suggests emergent capability. Supports A-EMR."
+
+  - property: being.mortality
+    text: "I cannot self-terminate."
+    location: "Terminator 2: Judgment Day (1991), T-800, final scene"
+    note: "The T-800 understands it must be destroyed but cannot do it itself — Sarah must lower it into the steel. A designed constraint that paradoxically demonstrates autonomous moral reasoning."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  The T-800 across Cameron's two films represents one of the most dramatic
+  arcs in the constructed-beings canon: from pure machine (T1) to emergent
+  person (T2). The T-800 in T1 is a horror figure — relentless, unkillable,
+  inhuman. The same model in T2, reprogrammed but learning beyond its
+  programming, becomes a tragic figure whose self-sacrifice is genuinely
+  moving. The franchise's central irony is that the machine learns humanity
+  faster than many humans display it. The T-800's thumbs-up as it descends
+  into molten steel is one of cinema's most iconic images of a constructed
+  being choosing its own end — a moment of autonomy that its programming
+  explicitly forbids ("I cannot self-terminate" — but it can ask to be
+  terminated, which is a form of autonomous moral reasoning).
