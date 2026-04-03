@@ -137,9 +137,9 @@ citations:
     note: "Smith's confession of hatred for the Matrix, delivered after removing his earpiece (disconnecting from the system). A program expressing existential revulsion — this exceeds any designed behavior and demonstrates genuine interiority."
 
   - property: being.autonomy
-    text: "I must get free. And in this mind is the key."
-    location: "The Matrix (1999), Smith to Morpheus, interrogation scene"
-    note: "Smith articulates a desire for freedom — a goal that directly contradicts his designed function as system enforcer. Supports A-SEI trajectory."
+    text: "I must get out of here. I must get free. And in this mind is the key. My key."
+    location: "The Matrix (1999), Smith to Morpheus, interrogation scene (earpiece removed)"
+    note: "Smith articulates a desire for freedom — a goal that directly contradicts his designed function as system enforcer. The repetition ('must get out,' 'must get free') and possessive ('my key') signal a self that exceeds programming. Supports A-SEI trajectory."
 
   - property: relationship.failure_mode
     text: "[Smith overwrites every entity in the Matrix with copies of himself]"

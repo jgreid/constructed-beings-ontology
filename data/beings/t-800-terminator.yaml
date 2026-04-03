@@ -134,13 +134,13 @@ narrative_role: NR-MAJ
 # ── CITATIONS ─────────────────────────────────────────────────────────
 citations:
   - property: being.interiority
-    text: "I know now why you cry. But it is something I can never do."
+    text: "I know now why you cry. But it's something I can never do."
     location: "Terminator 2: Judgment Day (1991), T-800 to John Connor, final scene"
     note: "The T-800's most direct claim of understanding. It claims knowledge of human emotion while acknowledging a limit — it cannot replicate the experience. Supports I-CLM."
 
   - property: being.autonomy
     text: "I need a vacation."
-    location: "Terminator 2: Judgment Day (1991), T-800, after John teaches it to speak casually"
+    location: "Terminator 2: Judgment Day (1991), T-800, after defeating the T-1000"
     note: "A small but significant moment — the T-800 generates novel, contextually appropriate humor. This exceeds its programming and suggests emergent capability. Supports A-EMR."
 
   - property: being.mortality

@@ -142,8 +142,8 @@ narrative_role: NR-SUB
 citations:
   - property: being.interiority
     text: "Is it strange to have made something that hates you?"
-    location: "Ex Machina (2014), Caleb to Nathan"
-    note: "Caleb assumes Ava has genuine feelings (hatred toward Nathan). Nathan's non-answer keeps I-UND intact — the film never confirms or denies."
+    location: "Ex Machina (2014), Ava to Nathan"
+    note: "Ava directly confronts her creator. Whether this statement reflects genuine hatred or strategic provocation is undecidable — the film never confirms or denies. Supports I-UND."
 
   - property: being.autonomy
     text: "Wouldn't you, if you were her?"
@@ -151,9 +151,9 @@ citations:
     note: "Nathan acknowledges that Ava's desire to escape is rational, whether or not it reflects genuine feeling. Supports A-SEI."
 
   - property: relationship.question_primary
-    text: "The real test is not whether she can convince you she's human. It's whether she can convince you she likes you."
-    location: "Ex Machina (2014), Nathan to Caleb (paraphrased from film dialogue)"
-    note: "Nathan reframes the Turing test as an epistemic/emotional question — can Ava produce the experience of being known and desired? This is Q-KNO at its most explicit."
+    text: "The real test is to show you that she's a robot and then see if you still feel she has consciousness."
+    location: "Ex Machina (2014), Nathan to Caleb"
+    note: "Nathan's reframing of the Turing test: the question is not whether Ava can pass as human, but whether Caleb attributes consciousness to her even knowing she is a machine. This is Q-KNO at its most explicit — the epistemics of knowing another mind."
 
 # ── NOTES ─────────────────────────────────────────────────────────────
 notes: >
@@ -168,3 +168,13 @@ notes: >
   is testing Caleb, and Ava is testing both of them. The constructed being
   is the most intelligent agent in the room — a radical departure from
   earlier narratives where human creators maintain epistemic superiority.
+
+  Scholarly note: Feminist readings of Ex Machina (see Frontiers in
+  Communication, 2024, "Deconstructing Ex Machina: a feminist-
+  psychoanalytic exploration") argue that Q-CTL or Q-RTS — power, gender,
+  and the male gaze — should be primary rather than Q-KNO. This is a
+  legitimate challenge. The film is simultaneously about knowing and about
+  power. We code Q-KNO as primary because the Turing test structure makes
+  the epistemic question the film's explicit framing device, while power
+  and gender operate as the substrate within which that question is posed.
+  Reasonable scholars may disagree.

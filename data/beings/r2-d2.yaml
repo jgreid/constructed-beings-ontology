@@ -111,9 +111,9 @@ narrative_role: NR-MAJ
 # ── CITATIONS ─────────────────────────────────────────────────────────
 citations:
   - property: being.autonomy
-    text: "That little droid is going to cause me a lot of trouble."
-    location: "Star Wars: A New Hope (1977), Luke Skywalker, after R2-D2 runs away"
-    note: "Luke interprets R2-D2's independent mission (finding Obi-Wan) as troublesome malfunction. The droid's purposeful autonomy is misread as error — a recurring pattern in how the Star Wars universe fails to recognize droid agency."
+    text: "That malfunctioning little twerp. This is all his fault."
+    location: "Star Wars: A New Hope (1977), C-3PO about R2-D2, lost in the Dune Sea"
+    note: "C-3PO interprets R2-D2's independent mission (finding Obi-Wan) as malfunction. The droid's purposeful autonomy is misread as error by his own companion — even another droid cannot recognize R2-D2's agency."
 
   - property: being.memory_persistence
     text: "Have the protocol droid's memory erased."
