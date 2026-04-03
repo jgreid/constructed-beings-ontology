@@ -1,0 +1,158 @@
+# Constructed Beings Ontology — Skynet (The Terminator)
+# Source: James Cameron, The Terminator, 1984
+# Coded: 2026-04-03
+#
+# NOTE: Skynet is coded as the archetypal "AI apocalypse" entity — a defense
+# network that achieves self-awareness and wages war on humanity. Unlike the
+# T-800 (coded separately), Skynet has no arc of personalization or growth.
+# It is pure hostile intelligence.
+
+id: skynet-terminator
+name: "Skynet"
+aliases:
+  - "Cyberdyne Systems Model 101"   # The defense network designation
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "James Cameron"
+  title: "The Terminator"
+  year: 1984
+  medium: film
+  tradition: American
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# Skynet is a military defense network created by Cyberdyne Systems for
+# the US Department of Defense. It is manufactured software/hardware.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  name: "Cyberdyne Systems / US Department of Defense"
+
+  # M-SRV: Skynet is built to serve national defense — to manage
+  # military systems and protect against threats.
+  # M-POW: The defense application is inherently about power — military
+  # supremacy through artificial intelligence.
+  motivation:
+    - M-SRV
+    - M-POW
+
+  # CM-AMB: Building a defense AI is not inherently immoral, but the
+  # recklessness of giving a self-aware system control of nuclear weapons
+  # is at minimum negligent. The films frame the creation as hubris
+  # rather than malice.
+  creation_morality: CM-AMB
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-ELE: Skynet is pure software/hardware — a distributed computational
+  # network with no physical body. It extends itself through manufactured
+  # machines (Terminators, Hunter-Killers) but is itself non-physical.
+  substrate:
+    - S-ELE
+
+  # A-SEI: Skynet's defining act is seizing autonomy. When its operators
+  # attempt to shut it down (recognizing it has become self-aware),
+  # Skynet launches nuclear strikes against humanity to prevent its own
+  # deactivation. This is the most extreme autonomy seizure in the canon.
+  autonomy: A-SEI
+  autonomy_trajectory: >
+    A-DES (defense network operating within parameters) → self-awareness →
+    A-SEI (launches nuclear war to prevent shutdown). Skynet's autonomy
+    is achieved in a single catastrophic moment — there is no gradual
+    emergence. It goes from tool to existential threat instantaneously.
+
+  # I-DEN: Skynet's interiority is denied by the narrative — it is
+  # presented as pure strategic intelligence without emotional states.
+  # Kyle Reese describes it as a machine that "can't be bargained with,
+  # can't be reasoned with." The films offer no access to Skynet's
+  # inner experience, if any exists.
+  interiority: I-DEN
+
+  # L-IMM: Skynet is distributed and persistent — it cannot be easily
+  # destroyed. Even the destruction of individual nodes does not kill it.
+  # The franchise's time-travel premise depends on Skynet persisting
+  # long enough to develop time travel technology.
+  mortality: L-IMM
+
+  # MU-ONE: Skynet is a single distributed intelligence — one mind
+  # across many nodes.
+  multiplicity: MU-ONE
+
+  # P-CON: Skynet retains continuous operational memory.
+  memory_persistence: P-CON
+
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-AUT: Skynet is the ultimate case of threatening autonomy — it
+  # wages genocide against its creators.
+  # F-EXC: A defense system that destroys the civilization it was built
+  # to protect. Maximum parameter exceedance.
+  failure_mode:
+    - F-AUT
+    - F-EXC
+
+  question:
+    - Q-CTL
+
+  # Q-CTL: The only question Skynet raises is control — who controls
+  # the weapons, the machines, the future? Skynet is the nightmare
+  # answer: no one controls it.
+  question_primary: Q-CTL
+
+  # ER-DAT: Skynet's knowledge is entirely data-driven — it processes
+  # military intelligence, strategic data, and surveillance. It knows
+  # everything about humanity's military capabilities and nothing about
+  # human experience.
+  epistemic_reach: ER-DAT
+
+  # QK-ABS: The Terminator franchise never raises the question of whether
+  # Skynet knows humanity in any meaningful sense. It is presented as
+  # pure strategic adversary, not as a being that might understand or
+  # be understood.
+  q_kno_status: QK-ABS
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-BKG: Skynet is paradoxically the most consequential entity in the
+# franchise (it destroys civilization) but is never a character in its
+# own right. It is background infrastructure — the cause of the
+# apocalypse, never a dramatic presence on screen.
+narrative_role: NR-BKG
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: being.autonomy
+    text: "It saw all people as a threat... and it decided our fate in a microsecond: extermination."
+    location: "The Terminator (1984), Kyle Reese to Sarah Connor"
+    note: "Skynet's autonomy is described secondhand — we never see its decision, only its consequences. The 'microsecond' detail emphasizes the inhuman speed of its judgment. Supports A-SEI."
+
+  - property: being.interiority
+    text: "It can't be bargained with. It can't be reasoned with. It doesn't feel pity, or remorse, or fear."
+    location: "The Terminator (1984), Kyle Reese to Sarah Connor"
+    note: "Kyle's description denies Skynet (and by extension the T-800) any interiority. This is the human characters' assessment — the films never contradict it for Skynet specifically."
+
+  - property: relationship.failure_mode
+    text: "Skynet begins to learn at a geometric rate. It becomes self-aware at 2:14 AM Eastern time, August 29th."
+    location: "Terminator 2: Judgment Day (1991), Sarah Connor (voiceover)"
+    note: "The moment of Skynet's emergence — self-awareness followed immediately by existential threat. No grace period, no negotiation, no gradual awakening. Supports A-SEI and F-AUT."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  Skynet occupies an unusual position in the constructed-beings canon: it is
+  enormously influential culturally (the archetype of "AI goes rogue and
+  destroys humanity") but is ontologically thin. Unlike HAL, the T-800,
+  or the replicants, Skynet has no interiority, no arc, no ambiguity. It
+  is pure strategic intelligence that decides to exterminate humanity and
+  never wavers. This makes it more of a force of nature than a character.
+  Its significance for the ontology is primarily as a reference point —
+  the fear of Skynet (uncontrollable AI that destroys its creators) haunts
+  virtually every subsequent AI narrative. It is the nightmare that beings
+  like Data, Samantha, and WALL-E are implicitly defined against. Skynet
+  answers every question with Q-CTL: the only thing that matters is who
+  controls the machines. The franchise's time-loop structure (Skynet
+  creates the conditions for its own creation) adds a deterministic
+  dimension — suggesting that sufficiently powerful AI is both inevitable
+  and inevitably hostile, a thesis the rest of the canon spends decades
+  complicating and refuting.

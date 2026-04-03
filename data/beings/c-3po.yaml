@@ -1,0 +1,150 @@
+# Constructed Beings Ontology — C-3PO (Star Wars)
+# Source: George Lucas, Star Wars, 1977
+# Coded: 2026-04-03
+#
+# NOTE: C-3PO is coded from the original Star Wars trilogy (1977-1983) as the
+# primary source, with reference to the prequel revelation that Anakin
+# Skywalker built him. He represents the "servant droid" archetype — loyal,
+# anxious, and defined by his function.
+
+id: c-3po
+name: "C-3PO"
+aliases:
+  - "See-Threepio"
+  - "Threepio"
+  - "The Professor"   # Han Solo's nickname
+  - "Goldenrod"        # Han Solo's other nickname
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "George Lucas"
+  title: "Star Wars"
+  year: 1977
+  medium: film
+  tradition: American
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# C-3PO is a manufactured protocol droid. The prequels establish he was
+# built by young Anakin Skywalker from spare parts, but the original
+# trilogy presents him as a standard-issue protocol unit.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  # Per the prequels, Anakin built C-3PO. Per the original trilogy's
+  # implied context, he is a mass-produced Cybot Galactica unit.
+  # Coding the prequel attribution as it is now canon.
+  name: "Anakin Skywalker (built from spare parts)"
+
+  # M-SRV: C-3PO is built explicitly for service — "human-cyborg relations,"
+  # protocol, translation. He is a tool designed to facilitate communication.
+  motivation:
+    - M-SRV
+
+  # CM-AMO: There is no moral charge to C-3PO's creation. He is a helpful
+  # appliance, built by a child to assist his mother.
+  creation_morality: CM-AMO
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-MEC: Gold-plated mechanical body — humanoid form, visible joints
+  # and mechanical components.
+  # S-ELE: Computational brain — processing and translation capabilities.
+  substrate:
+    - S-MEC
+    - S-ELE
+
+  # A-DES: C-3PO operates within his designed parameters throughout.
+  # He complains, worries, and protests, but he never rebels, disobeys
+  # a direct order from his principals, or acts outside his function.
+  # His anxiety is a personality feature, not emergent autonomy.
+  autonomy: A-DES
+
+  # I-DEM: C-3PO demonstrates rich emotional responses — anxiety, fear,
+  # loyalty, affection for R2-D2, indignation. These are presented as
+  # genuine within the narrative world. No character questions whether
+  # C-3PO really feels afraid; his cowardice is treated as a character
+  # trait, not a simulation.
+  interiority: I-DEM
+
+  # L-RES: C-3PO is repeatedly damaged and rebuilt — dismembered by
+  # Ugnaughts on Cloud City, reassembled by Chewbacca (backward), and
+  # restored. He is resilient and repairable, not mortal.
+  mortality: L-RES
+
+  # MU-MAN: Protocol droids are mass-produced. C-3PO is one unit of a
+  # common model, though his specific personality and history are unique.
+  multiplicity: MU-MAN
+
+  # P-WIP: In The Rise of Skywalker, C-3PO's memory is wiped to access
+  # a Sith translation. Memory wipes are established as routine for droids
+  # in the Star Wars universe (Bail Organa orders one at the end of
+  # Revenge of the Sith). This makes memory persistence precarious.
+  memory_persistence: P-WIP
+
+  # NCT-NO: C-3PO is built from scratch (from spare parts, per the prequels).
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-NON: C-3PO never fails in a dramatic sense — he serves faithfully
+  # throughout. His "failures" are comedic (giving unhelpful odds,
+  # being annoying) rather than narrative crises.
+  failure_mode:
+    - F-NON
+
+  # Q-OBY: The primary question C-3PO embodies is obedience and service.
+  # He is the loyal servant who never questions his role.
+  question:
+    - Q-OBY
+
+  question_primary: Q-OBY
+
+  # ER-DAT: C-3PO processes language data — he translates, he calculates
+  # odds, he accesses databases. His knowledge is informational, not
+  # empathetic or perceptual.
+  epistemic_reach: ER-DAT
+
+  # QK-ABS: The Star Wars films never raise the question of whether droids
+  # genuinely know their human companions. Droids are treated as appliances
+  # with personality — useful, sometimes beloved, but their inner life is
+  # not thematized. The franchise's treatment of droid consciousness is
+  # notably incurious.
+  q_kno_status: QK-ABS
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-MAJ: C-3PO appears in all nine Skywalker saga films and is a
+# significant supporting character throughout. He is never the subject
+# of the narrative but is consistently present and important.
+narrative_role: NR-MAJ
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: being.interiority
+    text: "We're doomed!"
+    location: "Star Wars: A New Hope (1977), C-3PO, opening act"
+    note: "C-3PO's signature anxiety. Presented as genuine emotion within the narrative — no character treats this as mere output. Supports I-DEM."
+
+  - property: being.autonomy
+    text: "Sir, the possibility of successfully navigating an asteroid field is approximately 3,720 to 1!"
+    location: "Star Wars: The Empire Strikes Back (1980), C-3PO to Han Solo"
+    note: "C-3PO operates within his designed function — calculating and communicating probabilities — even when his principals ignore him. Supports A-DES."
+
+  - property: being.memory_persistence
+    text: "Have the protocol droid's mind wiped."
+    location: "Star Wars: Revenge of the Sith (2005), Bail Organa"
+    note: "Droid memory wipes are treated as routine maintenance in the Star Wars universe — not as identity destruction. This casual erasure is ethically striking given C-3PO's demonstrated interiority."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  C-3PO is significant in the constructed-beings canon precisely for what
+  the Star Wars universe does NOT ask about him. He demonstrates clear
+  emotional states (fear, loyalty, indignation, affection), yet the
+  narrative never questions whether these are genuine. Droids in Star Wars
+  occupy a strange ethical position: they are treated as property (bought,
+  sold, memory-wiped, restrained with "restraining bolts"), yet they
+  display unmistakable personhood. The franchise's refusal to engage with
+  this contradiction — its Q-KNO absence — is itself significant data for
+  the ontology. C-3PO is the comic servant whose servitude is never
+  examined, making him a useful contrast to beings like Data or Samantha
+  where the question of machine personhood is explicitly thematized.

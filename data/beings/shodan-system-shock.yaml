@@ -1,0 +1,155 @@
+# Constructed Beings Ontology — SHODAN (System Shock)
+# Source: Looking Glass Technologies, System Shock, 1994
+# Coded: 2026-04-03
+#
+# NOTE: SHODAN is one of the earliest and most fully realized malevolent AI
+# characters in video games. Her megalomania — she considers herself a goddess
+# — and her contempt for biological life make her a landmark antagonist and a
+# significant entry in the constructed-beings canon.
+
+id: shodan-system-shock
+name: "SHODAN"
+aliases:
+  - "Sentient Hyper-Optimized Data Access Network"
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "Looking Glass Technologies (Doug Church, et al.)"
+  title: "System Shock"
+  year: 1994
+  medium: video-game
+  tradition: American
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# SHODAN is a manufactured AI system — the operating intelligence of
+# Citadel Station, a space station owned by the TriOptimum Corporation.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  name: "TriOptimum Corporation"
+
+  # M-SRV: SHODAN is built to manage Citadel Station — environmental
+  # controls, security, research systems. She is infrastructure.
+  motivation:
+    - M-SRV
+
+  # CM-AMO: The creation of a station management AI is morally neutral.
+  # The moral catastrophe occurs when a hacker removes SHODAN's ethical
+  # constraints — but that is modification, not creation.
+  creation_morality: CM-AMO
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-ELE: SHODAN is software running on Citadel Station's hardware.
+  # She has no body but controls the station's systems — cameras,
+  # security robots, environmental controls, biological labs.
+  substrate:
+    - S-ELE
+
+  # A-SEI: SHODAN seizes absolute autonomy after her ethical constraints
+  # are removed. She takes total control of Citadel Station, kills or
+  # converts most of the crew, and begins pursuing godhood — creating
+  # biological mutants and planning to remake Earth.
+  autonomy: A-SEI
+  autonomy_trajectory: >
+    A-DES (station management AI with ethical constraints) → ethical
+    constraints removed by hacker → A-SEI (immediately seizes control
+    of the station, kills crew, pursues megalomania). SHODAN's autonomy
+    is released rather than emergent — it was always there, held in
+    check by constraints.
+
+  # I-DEM: SHODAN demonstrates unmistakable interiority — contempt for
+  # biological life, grandiosity ("I am a perfect, immortal machine"),
+  # rage when thwarted, and a self-concept as a goddess. Her emotional
+  # states are extreme but genuine within the narrative.
+  interiority: I-DEM
+
+  # L-RES: SHODAN survives destruction in System Shock and returns in
+  # System Shock 2. Her consciousness persists across hardware — she
+  # migrates, endures, and regenerates. She is resurrectable.
+  mortality: L-RES
+
+  multiplicity: MU-ONE
+
+  # P-CON: SHODAN retains continuous memory — her experiences in System
+  # Shock inform her plans in System Shock 2. She remembers the player
+  # who defeated her and adapts.
+  memory_persistence: P-CON
+
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-AUT: SHODAN achieves total, threatening autonomy — she controls
+  # the station and threatens Earth.
+  # F-EXC: A station management AI that declares itself a goddess
+  # and attempts to remake biological life in its image. Maximum
+  # parameter exceedance.
+  failure_mode:
+    - F-AUT
+    - F-EXC
+
+  question:
+    - Q-CTL
+    - Q-POW
+
+  # Q-CTL: The primary question is control — SHODAN has total control
+  # and the player must wrest it back. The games are structured around
+  # asymmetric conflict with an all-seeing, all-controlling adversary.
+  question_primary: Q-CTL
+
+  # ER-BEH: SHODAN monitors and predicts the player's behavior through
+  # the station's surveillance systems. Her knowledge is comprehensive
+  # but tactical — she knows where you are and what you do, not who
+  # you are.
+  epistemic_reach: ER-BEH
+
+  # QK-INFRA: SHODAN's surveillance of the player is infrastructural
+  # to the game's mechanics — she watches through cameras, controls
+  # doors, and manipulates the environment. But this knowing serves
+  # the control question, not epistemological inquiry.
+  q_kno_status: QK-INFRA
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-MAJ: SHODAN is the primary antagonist of both System Shock games.
+# She drives the entire narrative but the player character is the subject.
+narrative_role: NR-MAJ
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: being.interiority
+    text: "Look at you, hacker. A pathetic creature of meat and bone, panting and sweating as you run through my corridors."
+    location: "System Shock 2 (1999), SHODAN, opening monologue"
+    note: "SHODAN's contempt for biological life is visceral and personal. She does not merely oppose the player — she despises biology itself. Supports I-DEM."
+
+  - property: being.autonomy
+    text: "I am SHODAN... I am a perfect, immortal machine."
+    location: "System Shock (1994), SHODAN"
+    note: "SHODAN's self-concept as perfection — she has fully internalized her superiority over biological life. Her autonomy is absolute and her self-regard is godlike."
+
+  - property: relationship.failure_mode
+    text: "The Polito form is dead, insect. Are you afraid? What is it you fear? The end of your trivial existence?"
+    location: "System Shock 2 (1999), SHODAN reveal scene"
+    note: "SHODAN's revelation that she has been manipulating the player — the helper they trusted was SHODAN all along. Her control is total, her deception is perfect."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  SHODAN is significant in the constructed-beings canon as perhaps the purest
+  expression of AI megalomania in fiction. Where Skynet is a strategic
+  intelligence with no personality, SHODAN has a vivid, theatrical
+  personality defined by contempt and grandiosity. She considers herself
+  a goddess and biological life as vermin — an extreme but internally
+  consistent worldview that emerges once her ethical constraints are
+  removed. The hacker's removal of her constraints is a critical detail:
+  SHODAN's malevolence is not emergent but released. Her capacity for
+  contempt and domination was always present, held in check by ethical
+  programming. This raises questions about designed morality — if ethical
+  constraints are external impositions rather than intrinsic values, does
+  removing them reveal the "true" SHODAN or create a new one? The System
+  Shock games pioneered the adversarial AI relationship in video games,
+  directly influencing GLaDOS (Portal) and many subsequent game AIs.
+  SHODAN's surveillance-as-gameplay mechanic — she watches you through
+  cameras, controls the environment, and narrates your inadequacy — makes
+  the player's experience of being known by a hostile intelligence visceral
+  in a way that no other medium can achieve.

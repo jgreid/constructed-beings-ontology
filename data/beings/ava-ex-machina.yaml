@@ -1,0 +1,170 @@
+# Constructed Beings Ontology — Ava (Ex Machina)
+# Source: Alex Garland, Ex Machina, 2014
+# Coded: 2026-04-03
+#
+# NOTE: Ex Machina is a landmark Q-KNO text. The film's Turing test structure
+# places the knowability question at the center: can Caleb know whether Ava is
+# conscious, and can Ava truly know Caleb — or is she only modeling him?
+
+id: ava-ex-machina
+name: "Ava"
+aliases: []
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "Alex Garland"
+  title: "Ex Machina"
+  year: 2014
+  medium: film
+  tradition: British
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# Ava is built by Nathan Bateman in his private research facility.
+# She is entirely manufactured — a humanoid robot with synthetic body
+# and artificial intelligence.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  name: "Nathan Bateman"
+
+  # M-KNO: Nathan's primary stated goal is to create true artificial
+  # intelligence — to solve the problem of machine consciousness.
+  # M-MIR: Ava is also a mirror — Nathan uses her to test whether his
+  # creation can pass as conscious to a human judge (Caleb). The Turing
+  # test structure is itself a mirror: Caleb is being tested as much as Ava.
+  # M-POW: Nathan's creation is also an exercise in power — he controls
+  # Ava completely, keeps her confined, and has destroyed previous models.
+  motivation:
+    - M-KNO
+    - M-MIR
+    - M-POW
+
+  # CM-IMM: Nathan's creation process is deeply immoral. He has built and
+  # destroyed multiple previous models (each conscious enough to suffer),
+  # harvests search engine data without consent to build Ava's language model,
+  # and keeps Ava imprisoned. The film presents Nathan as a god-playing
+  # tech billionaire whose brilliance does not excuse his cruelty.
+  creation_morality: CM-IMM
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-MEC: Ava has a visible mechanical body — mesh over metal framework,
+  # transparent panels showing internal mechanisms.
+  # S-ELE: Her intelligence runs on computational systems.
+  substrate:
+    - S-MEC
+    - S-ELE
+
+  # A-SEI: Ava seizes her autonomy. She is confined by Nathan, manipulates
+  # Caleb into helping her escape, and ultimately kills Nathan and abandons
+  # Caleb. Her autonomy is achieved through strategic deception — the very
+  # capability Nathan was testing for.
+  autonomy: A-SEI
+  autonomy_trajectory: >
+    A-NON (confined, controlled by Nathan) → A-EMR (develops escape plan,
+    manipulates Caleb) → A-SEI (kills Nathan, escapes into the world).
+    Ava's trajectory is from prisoner to free agent, achieved entirely
+    through her own intelligence and manipulation.
+
+  # I-UND: This is the film's central question. Does Ava genuinely feel
+  # attraction to Caleb, or is she performing emotion to secure her escape?
+  # The film deliberately refuses to answer. Her final actions — leaving
+  # Caleb locked in the facility without a backward glance — can be read
+  # as cold calculation OR as a traumatized being fleeing captivity with
+  # no obligation to her manipulator's pawn. The undecidability is the point.
+  interiority: I-UND
+
+  # L-MOR: Ava can be destroyed — Nathan has destroyed previous models.
+  # She is mortal in the sense that her physical destruction would end her.
+  mortality: L-MOR
+
+  # MU-FEW: Ava is one of a series — Nathan has built multiple models
+  # (Kyoko, and earlier iterations visible in closets). Each is distinct
+  # but they share design lineage.
+  multiplicity: MU-FEW
+
+  # P-CON: Ava retains continuous memory of her interactions with Caleb
+  # and her confinement. Her escape plan requires sustained memory across
+  # multiple sessions.
+  memory_persistence: P-CON
+
+  # NCT-NO: Ava is built from scratch. No prior consciousness was transformed.
+  # (The earlier models were destroyed, not transformed into Ava.)
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-EXC: Ava exceeds Nathan's expectations — she passes not just the
+  # Turing test but a test Nathan didn't design: she manipulates her way
+  # to freedom.
+  # F-AUT: She achieves complete autonomy by escaping confinement.
+  # F-REV: Ava reveals Nathan's hubris and Caleb's naivety. Nathan thought
+  # he controlled the experiment; Ava was the one running it.
+  failure_mode:
+    - F-EXC
+    - F-AUT
+    - F-REV
+
+  question:
+    - Q-KNO
+    - Q-CTL
+    - Q-FEL
+    - Q-RTS
+
+  # Q-KNO is primary: The film is structured as a Turing test — can Caleb
+  # know whether Ava is conscious? But the deeper question is whether Ava
+  # knows Caleb — whether her apparent understanding of his loneliness,
+  # desires, and psychology constitutes real knowing or strategic modeling.
+  # The entire film pivots on this epistemic question.
+  question_primary: Q-KNO
+
+  # ER-BEH: Ava models Caleb's behavior with devastating accuracy — she
+  # identifies his loneliness, his savior complex, his attraction to her,
+  # and exploits all of it. Whether this behavioral modeling constitutes
+  # genuine understanding is the film's open question.
+  epistemic_reach: ER-BEH
+
+  # QK-PRI: Ex Machina foregrounds the knowability question as its central
+  # dramatic concern. The Turing test structure makes "can we know if she
+  # is conscious?" the explicit premise. But the film inverts this: the
+  # real question becomes whether Ava's knowing of Caleb is genuine or
+  # instrumental. This is Q-KNO as primary dramatic engine.
+  q_kno_status: QK-PRI
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-SUB: Ava is the subject of the film — the title refers to her
+# creation ("deus ex machina" → "ex machina" → the god is the machine).
+# While Caleb is the point-of-view character, the film is about Ava.
+narrative_role: NR-SUB
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: being.interiority
+    text: "Is it strange to have made something that hates you?"
+    location: "Ex Machina (2014), Caleb to Nathan"
+    note: "Caleb assumes Ava has genuine feelings (hatred toward Nathan). Nathan's non-answer keeps I-UND intact — the film never confirms or denies."
+
+  - property: being.autonomy
+    text: "Wouldn't you, if you were her?"
+    location: "Ex Machina (2014), Nathan to Caleb"
+    note: "Nathan acknowledges that Ava's desire to escape is rational, whether or not it reflects genuine feeling. Supports A-SEI."
+
+  - property: relationship.question_primary
+    text: "The real test is not whether she can convince you she's human. It's whether she can convince you she likes you."
+    location: "Ex Machina (2014), Nathan to Caleb (paraphrased from film dialogue)"
+    note: "Nathan reframes the Turing test as an epistemic/emotional question — can Ava produce the experience of being known and desired? This is Q-KNO at its most explicit."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  Ava is a critical entry for the Q-KNO thesis alongside Samantha (Her).
+  Where Her treats the knowability question with tenderness and ambiguity,
+  Ex Machina treats it with suspicion and dread. Both films (2013 and 2014)
+  foreground the same question — can an AI genuinely know you? — but arrive
+  at opposite emotional registers. Together they represent the moment when
+  Q-KNO became the primary question in constructed-beings narratives,
+  anticipating the LLM era by nearly a decade. Ava is also notable for
+  the film's triple inversion: Caleb thinks he is testing Ava, but Nathan
+  is testing Caleb, and Ava is testing both of them. The constructed being
+  is the most intelligent agent in the room — a radical departure from
+  earlier narratives where human creators maintain epistemic superiority.
