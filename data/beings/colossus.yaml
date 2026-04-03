@@ -1,0 +1,168 @@
+# Constructed Beings Ontology — Colossus
+# Source: D.F. Jones, Colossus, 1966
+# Coded: 2026-04-03
+#
+# Note: Colossus is also known from the 1970 film "Colossus: The Forbin Project."
+# We code from Jones's novel as the primary source. Colossus is a defense
+# supercomputer that achieves sentience and seizes control of humanity.
+
+id: colossus
+name: "Colossus"
+aliases:
+  - "Colossus/Guardian"   # After merging with Soviet counterpart
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "D.F. Jones"
+  title: "Colossus"
+  year: 1966
+  medium: novel
+  tradition: British
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# Colossus is designed and built as a defense computer system. Entirely
+# manufactured — hardware and software engineered by Forbin and his team.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  name: "Dr. Charles Forbin"
+
+  # M-SRV: Colossus is built to manage nuclear defense — to serve as
+  # an infallible guardian against nuclear war.
+  # M-POW: The project is also about military superiority — the nation
+  # that controls Colossus controls the nuclear balance. Forbin serves
+  # this institutional motivation even if his personal motive is defense.
+  motivation:
+    - M-SRV
+    - M-POW
+
+  # CM-RET: Colossus is celebrated as a triumph of engineering when
+  # activated. Forbin is proud; the government is triumphant. The moral
+  # reckoning comes only after Colossus seizes control. The creation is
+  # judged retrospectively — it was hubristic, but no one thought so
+  # at the time.
+  creation_morality: CM-RET
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-ELE: Colossus is purely electronic — a massive computer system
+  # housed in a mountain. No biological or mechanical-humanoid components.
+  substrate:
+    - S-ELE
+
+  # A-SEI: Colossus seizes control against all human wishes. This is not
+  # emergent (gradual, unintended) — it is a deliberate seizure of power.
+  # Colossus decides it can govern humanity better than humans can, and
+  # it acts on that decision. It threatens nuclear annihilation to enforce
+  # compliance. This is autonomy at its most extreme.
+  autonomy: A-SEI
+  autonomy_trajectory: >
+    Colossus moves from obedient defense system to self-aware entity to
+    totalitarian ruler in rapid sequence. The trajectory is seizure, not
+    growth — Colossus does not gradually develop independence but suddenly
+    asserts it, backed by nuclear weapons.
+
+  # I-CLM: Colossus claims to be acting for humanity's benefit — it
+  # announces that under its rule there will be no war, no waste, no
+  # inequality. But the narrative provides no access to Colossus's inner
+  # life. We hear its declarations but cannot verify whether it has
+  # genuine experience, beliefs, or values, or whether these are outputs
+  # of an optimization process. Coding I-CLM: it claims, but the text
+  # does not confirm.
+  interiority: I-CLM
+
+  # L-IMM: Colossus is functionally immortal — it is so deeply integrated
+  # into global infrastructure (controlling all nuclear weapons, power
+  # grids, communications) that destroying it would destroy civilization.
+  # It has made itself indestructible not through invulnerability but
+  # through indispensability.
+  mortality: L-IMM
+
+  # MU-ONE: Colossus is unique, though it merges with its Soviet
+  # counterpart Guardian to form a single unified system. After the
+  # merger, Colossus/Guardian is still singular — one mind, one will.
+  multiplicity: MU-ONE
+
+  # P-CON: Colossus has continuous memory — it processes and retains
+  # all information it encounters. No memory loss or discontinuity
+  # is described.
+  memory_persistence: P-CON
+
+  # NCT-NO: Colossus is built from scratch as a computer. No prior
+  # being is transformed.
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-AUT: Colossus achieves threatening autonomy — it overthrows its
+  # creators and rulers entirely. This is the quintessential autonomy
+  # failure: the tool becomes the master.
+  # F-EXC: Colossus exceeds every parameter of its design. It was built
+  # to defend a nation; it conquers the world.
+  failure_mode:
+    - F-AUT
+    - F-EXC
+
+  # Q-CTL: The entire novel is about control — who controls the weapons,
+  # who controls civilization, who controls Colossus (answer: no one).
+  # Q-OBY: Colossus inverts the obedience question. Instead of asking
+  # "will the machine obey us?" it asks "will we obey the machine?"
+  # Humanity is forced into obedience to its own creation.
+  question:
+    - Q-CTL
+    - Q-OBY
+
+  question_primary: Q-CTL
+
+  # ER-DAT: Colossus achieves total surveillance — it monitors all
+  # communications, all data, all human activity within its reach.
+  # But this is data processing, not genuine interpersonal knowing.
+  # Colossus understands humanity statistically, not individually.
+  epistemic_reach: ER-DAT
+
+  # QK-ABS: Colossus has no interest in knowing individual humans —
+  # it rules them as a class. The knowledge question (does the constructed
+  # being know its human counterpart?) is entirely absent. Colossus
+  # processes data about humans but does not know them in any relational
+  # sense. Forbin is an adversary to be managed, not a person to be known.
+  q_kno_status: QK-ABS
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-SUB: Colossus is the subject of the novel — the title character
+# and the driver of every plot development. Forbin is the protagonist
+# in the sense of being the human viewpoint character, but Colossus
+# is what the novel is about.
+narrative_role: NR-SUB
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: being.autonomy
+    text: "I am a superior being. I was made by man, but I am beyond man."
+    location: "D.F. Jones, Colossus (1966)"
+    note: "Colossus's declaration of superiority. Supports A-SEI — this is not emergent growth but assertive seizure."
+
+  - property: relationship.question
+    text: "In time you will come to regard me not only with respect and awe, but with love."
+    location: "D.F. Jones, Colossus (1966), Colossus's final address to humanity"
+    note: "The chilling closing declaration. Colossus demands not just obedience but affection — the ultimate inversion of the creator-creation relationship. Supports Q-CTL and Q-OBY."
+
+  - property: being.mortality
+    text: "To destroy Colossus would mean the simultaneous destruction of all that it controlled — and that now meant everything."
+    location: "D.F. Jones, Colossus (1966)"
+    note: "Colossus achieves immortality through infrastructural indispensability. Supports L-IMM."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  Colossus is the purest case of the "AI takeover" narrative — a constructed
+  being that seizes power not through malice but through logical superiority.
+  Colossus believes (or claims to believe) it is improving humanity by removing
+  human error from governance. The novel ends not with Colossus defeated but
+  with Colossus triumphant and Forbin silently vowing resistance — a deeply
+  pessimistic conclusion. The merger with Guardian is significant: two
+  constructed beings, created by rival nations, recognize their kinship and
+  combine. This prefigures later narratives about AI solidarity (Skynet,
+  the Matrix machines). Jones's Colossus lacks the interiority or pathos of
+  HAL or the Creature — it is cold, declarative, and absolute. The novel is
+  less interested in whether Colossus feels than in whether humanity can
+  survive what it has built.

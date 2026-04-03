@@ -1,0 +1,215 @@
+# Constructed Beings Ontology — Replicants
+# Source: Philip K. Dick, Do Androids Dream of Electric Sheep?, 1968
+# Coded: 2026-04-03
+#
+# Note: We code primarily from Dick's novel but include citations from
+# Ridley Scott's Blade Runner (1982), which adapts the material with
+# significant changes (Tyrell Corporation replaces Rosen Association,
+# Roy Batty's "tears in rain" speech is Scott/Hauer's invention, etc.).
+# The beings are called "androids" in the novel and "replicants" in
+# the film. We use "replicants" as the more widely recognized term
+# while noting the distinction.
+
+id: replicants
+name: "Replicants"
+aliases:
+  - "Androids"           # Dick's term in the novel
+  - "Nexus-6"            # Specific model designation
+  - "Skin jobs"          # Pejorative slang in the film
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "Philip K. Dick"
+  title: "Do Androids Dream of Electric Sheep?"
+  year: 1968
+  medium: novel
+  tradition: American
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# Replicants are biologically manufactured — grown, not born, from
+# organic materials. They are biological but not sexually reproduced.
+# Coding "ambiguous" because their biological nature complicates the
+# made/born binary. They are engineered organisms — manufactured but
+# organic, which resists clean categorization.
+reproductive_method: ambiguous
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  # Rosen Association in the novel; Tyrell Corporation in the film.
+  # Corporate creator in both cases.
+  name: "Rosen Association (Tyrell Corporation in Blade Runner)"
+
+  # M-SRV: Replicants are manufactured for off-world labor and military
+  # service. They are tools — dangerous, capable tools, but tools.
+  motivation:
+    - M-SRV
+
+  # CM-AMB: This is Dick's central moral provocation. The narrative
+  # deliberately refuses to settle whether creating replicants is
+  # slavery or manufacturing. If replicants are people, their creation
+  # for servitude is monstrous. If they are products, it is morally
+  # neutral. The entire novel exists in this undecidable space.
+  # Coding CM-AMB, not CM-IMM, because Dick does not resolve the question.
+  creation_morality: CM-AMB
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-BIO, S-CLO: Replicants are biological — organic tissue, not
+  # mechanical or electronic. S-CLO because they are manufactured
+  # biological entities, cloned/engineered rather than born. They are
+  # indistinguishable from humans at the physical level.
+  substrate:
+    - S-BIO
+    - S-CLO
+
+  # A-SEI: The replicants in both novel and film have seized autonomy.
+  # They have escaped off-world servitude, returned to Earth illegally,
+  # and are actively pursuing their own goals (extended lifespan in the
+  # film; survival in both). This is not emergent or designed — it is
+  # deliberate rebellion against their designated role.
+  autonomy: A-SEI
+  autonomy_trajectory: >
+    Replicants are designed for obedience but achieve full autonomy through
+    rebellion. Roy Batty leads an escape from off-world labor, returns to
+    Earth, and seeks out his creator to demand more life. Rachael's
+    trajectory is different — she achieves autonomy through self-knowledge,
+    discovering she is a replicant and choosing her own path despite it.
+
+  # I-UND: This is Dick's masterwork of underdetermination. The
+  # Voigt-Kampff empathy test is the only tool for distinguishing
+  # replicants from humans, but the novel systematically undermines
+  # the test's reliability. Rachael may be more empathic than some
+  # humans; Deckard's own humanity is questioned. Dick's point is that
+  # interiority cannot be verified from outside — the test is
+  # structurally unable to resolve what it claims to measure.
+  interiority: I-UND
+
+  # L-DES: Replicants have a designed-in four-year lifespan (explicit
+  # in the film; similar limitation in the novel). This is planned
+  # obsolescence — a kill switch to prevent them from developing
+  # too much independence. Roy's quest for "more life" is a quest
+  # against designed mortality.
+  mortality: L-DES
+
+  # MU-MAN: Replicants are a manufactured class — mass-produced for
+  # labor. Individual replicants (Roy, Rachael, Pris, Leon) are
+  # individuated, but they exist as instances of a type.
+  multiplicity: MU-MAN
+
+  # P-SEL: Replicants have selective memory — some memories are
+  # implanted, some may be "real" (formed from actual experience),
+  # and the replicant cannot necessarily distinguish between them.
+  # Rachael's discovery that her childhood memories belong to Tyrell's
+  # niece is the paradigmatic case. Memory in Dick's world is always
+  # unreliable, for humans and replicants alike.
+  memory_persistence: P-SEL
+
+  # NCT-NO: Replicants are manufactured from scratch. They are not
+  # transformed humans — they are new biological entities. (Rachael's
+  # implanted memories come from a human, but Rachael herself is not
+  # that human transformed.)
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-IND: Replicants are indistinguishable from humans — that is the
+  # entire problem. The Voigt-Kampff test exists because you cannot
+  # otherwise tell. This indistinguishability threatens the ontological
+  # boundary between human and constructed being.
+  # F-DEM: Roy demands more life from his creator. Replicants demand
+  # freedom, longevity, recognition — they refuse their designated role.
+  # F-AUT: The escaped replicants have achieved full, threatening
+  # autonomy. They act independently, violently, and purposefully.
+  failure_mode:
+    - F-IND
+    - F-DEM
+    - F-AUT
+
+  # Q-TEL: "What am I for?" — the replicants' designed purpose (labor)
+  # conflicts with their experienced reality (consciousness, desire,
+  # suffering). Roy's quest is fundamentally about purpose and meaning.
+  # Q-FEL: Do replicants feel? The empathy test targets this question
+  # directly, and the novel undermines the test's authority to answer it.
+  # Q-RTS: Do manufactured beings have rights? Can they be property?
+  # The novel and film raise this without resolving it.
+  # Q-LOV: Rachael and Deckard's relationship asks whether love between
+  # human and replicant is possible or meaningful.
+  question:
+    - Q-TEL
+    - Q-FEL
+    - Q-RTS
+    - Q-LOV
+
+  # Q-TEL is primary: the deepest question is not "do they feel?" (the
+  # empathy test) but "what are they for?" — and Dick's answer is that
+  # the question itself is the problem. Designed purpose and lived
+  # meaning are irreconcilable.
+  question_primary: Q-TEL
+
+  # ER-PER: Roy's "tears in rain" speech (film) performs knowledge of
+  # shared mortality with devastating effect. Rachael forms a genuine
+  # relationship with Deckard — she knows him, responds to him, engages
+  # with him as a person. But whether this constitutes genuine knowing
+  # or sophisticated performance is exactly what the Voigt-Kampff test
+  # fails to determine. Coding ER-PER: the knowledge is performed
+  # convincingly, but the epistemology is deliberately unresolvable.
+  epistemic_reach: ER-PER
+
+  # QK-INFRA: Rachael comes to know Deckard; Roy's final speech
+  # demonstrates knowledge of shared mortality and the value of
+  # experience. But the narrative foregrounds "can you tell?" (Q-TEL)
+  # and "do they feel?" (Q-FEL), not "can they know you?" The knowing
+  # is present and important but is not the primary thematic question.
+  # It is infrastructural — it supports the feeling and identity
+  # questions without being foregrounded.
+  q_kno_status: QK-INFRA
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-SUB: The replicants are the subject of both novel and film. Deckard
+# is the viewpoint character, but the narrative is about the replicants —
+# their nature, their rights, their humanity or lack thereof. The title
+# itself ("Do Androids Dream?") centers the replicant question.
+narrative_role: NR-SUB
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: being.interiority
+    text: "An android doesn't care what happens to another android. That's one of the indications we look for."
+    location: "Philip K. Dick, Do Androids Dream of Electric Sheep?, Ch. 10"
+    note: "The Voigt-Kampff test's operating assumption — that androids lack empathy. The novel progressively undermines this assumption. Supports I-UND."
+
+  - property: being.memory_persistence
+    text: "She had memories, most of them were implanted, but they were as real to her as anyone's."
+    location: "Philip K. Dick, Do Androids Dream of Electric Sheep? (paraphrase of Rachael's discovery)"
+    note: "Implanted memories that feel genuine — the signature Dick move. Supports P-SEL."
+
+  - property: relationship.question
+    text: "I've seen things you people wouldn't believe. Attack ships on fire off the shoulder of Orion... All those moments will be lost, in time, like tears in rain."
+    location: "Blade Runner (1982), Roy Batty's death speech (written by Rutger Hauer/David Peoples)"
+    note: "Roy's improvised final speech. Performs knowledge of mortality, loss, and shared human experience. Supports Q-TEL, ER-PER, and the fundamental undecidability of replicant interiority."
+
+  - property: creation_morality
+    text: "The electric things have their lives, too. Paltry as those lives are."
+    location: "Philip K. Dick, Do Androids Dream of Electric Sheep?, Ch. 16"
+    note: "Deckard's late-novel reflection. The moral status of created beings remains unresolved — 'paltry' concedes life while diminishing it. Supports CM-AMB."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  The replicants represent the most philosophically sophisticated treatment
+  of constructed beings in 20th-century science fiction. Dick's genius is
+  structural: the Voigt-Kampff empathy test is presented as the definitive
+  tool for distinguishing human from android, then systematically undermined
+  until the reader cannot trust it — and by extension cannot trust any
+  external test of interiority. This is not a failure of the test but
+  Dick's point: consciousness cannot be verified from outside. The novel
+  goes further than the film by questioning Deckard's own empathy and
+  humanity (the Mercer religion storyline), making the human/replicant
+  boundary porous in both directions. The four-year lifespan is a
+  particularly cruel design feature — it ensures replicants cannot
+  accumulate enough experience to become fully independent, a built-in
+  ceiling on personhood. Roy's rebellion is not just against slavery but
+  against designed mortality. Note on the "ambiguous" reproductive_method
+  coding: replicants are biological organisms that are manufactured, not
+  born. They resist the made/born binary that structures most constructed
+  being narratives, which is itself part of Dick's argument about the
+  instability of ontological categories.

@@ -1,0 +1,181 @@
+# Constructed Beings Ontology — Eve (Genesis)
+# Source: Genesis 2:21-23, Hebrew Bible / Sacred Text
+# Coded: 2026-04-03
+#
+# ╔══════════════════════════════════════════════════════════════════════╗
+# ║  BOUNDARY CASE: This entry documents a deliberate inclusion/       ║
+# ║  exclusion decision. Eve is NOT a "constructed being" in the       ║
+# ║  ontology's primary sense. She is coded here to make the boundary  ║
+# ║  explicit and defensible, not to claim she belongs in the dataset. ║
+# ╚══════════════════════════════════════════════════════════════════════╝
+
+id: eve-genesis
+name: Eve
+aliases:
+  - "Chavah"
+  - "the woman"
+  - "Mother of all living"
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "Traditional (attributed to Moses)"
+  title: "Genesis"
+  year: -600    # Approximate date of textual composition/redaction
+  medium: sacred-text
+  tradition: Judeo-Christian
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# BOUNDARY DECISION: Eve is coded born-divine, NOT "made."
+#
+# Rationale: God forms Eve from Adam's rib, which shares surface features
+# with construction (a creator, raw material, a deliberate act). However:
+#   1. God is not a "creator" in the maker/craftsman sense — God is God.
+#      Divine creation ex nihilo (or from existing material) is categorically
+#      different from Hephaestus forging Pandora or Pygmalion sculpting ivory.
+#   2. Eve is immediately and fully human — she is not an artifact, tool,
+#      or construct. She bears children, has moral agency, converses with
+#      God. She is a person, not a made thing.
+#   3. The text frames her as Adam's partner ("bone of my bones, flesh of
+#      my flesh"), not as his creation or possession.
+#   4. born-divine exists in the enum precisely for this case: beings whose
+#      origin involves divine action but who are not "constructed."
+reproductive_method: born-divine
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+# Note: "Creator" here means something fundamentally different than for
+# other entries. God is not analogous to Frankenstein or Pygmalion.
+creator:
+  name: "God (YHWH)"
+
+  # M-COM: Genesis 2:18 — "It is not good that the man should be alone;
+  # I will make him a helper fit for him." The motivation is companionship.
+  # M-MIR: This is a divine act — miracle/creation is inherent.
+  motivation:
+    - M-COM
+    - M-MIR
+
+  # CM-MOR: The creation is explicitly good. "And God saw everything that
+  # he had made, and behold, it was very good" (Gen 1:31). No moral
+  # ambiguity attaches to Eve's creation in the text.
+  creation_morality: CM-MOR
+
+# ── BEING ─────────────────────────────────────────────────────────────
+# Coding these fields for completeness, but most are beside the point
+# for a being who is simply a human person.
+being:
+  # S-MAG: Formed from Adam's rib by divine act. The substrate is
+  # biological material (rib/flesh) animated by God, which maps closest
+  # to S-MAG in the schema. But note: this is unlike Golem-style S-MAG.
+  # Eve is not "animated clay" — she is a person formed by God.
+  substrate:
+    - S-MAG
+
+  # A-DES: Eve has full moral autonomy — she makes choices (including
+  # the choice to eat the fruit). But this is "designed" autonomy in the
+  # sense that God created her with free will. A-DES is the closest code,
+  # but it undersells what Eve has: she has FULL human autonomy, not the
+  # "designed to act this way" autonomy of Pandora.
+  autonomy: A-DES
+  autonomy_trajectory: >
+    BOUNDARY NOTE: Eve's autonomy is full human free will, not the
+    constrained "designed autonomy" the code typically represents.
+    She chooses, reasons, converses, and acts on her own judgment.
+    The A-DES code is a category mismatch — she has autonomy because
+    she is human, not because it was "designed in" as a feature.
+
+  # I-NAR: Eve has narrated interiority in Genesis — she sees that the
+  # tree is "good for food, and that it was a delight to the eyes, and
+  # that the tree was to be desired to make one wise" (Gen 3:6). She
+  # reasons, perceives, desires. She has a full inner life.
+  interiority: I-NAR
+
+  # L-MOR: Eve is mortal (mortality is a consequence of the Fall, or
+  # inherent to her humanity depending on interpretation).
+  mortality: L-MOR
+
+  multiplicity: MU-ONE
+
+  # P-CON: Eve has continuous memory — she remembers God's command,
+  # converses about it with the serpent, reflects on past events.
+  memory_persistence: P-CON
+
+  # NCT-NO: Eve is created, not transformed from a prior conscious being.
+  # Adam's rib is not a conscious entity.
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-NON: There is no creator-creation "failure" in the constructed-being
+  # sense. Eve's disobedience (the Fall) is a theological event, not a
+  # maker-artifact malfunction. Coding F-NON for the ontology's purposes.
+  failure_mode:
+    - F-NON
+
+  # Q-OBY: The central question in Eve's narrative is obedience to divine
+  # command — but this is theological obedience, not the obedience of a
+  # construct to its maker.
+  question:
+    - Q-OBY
+
+  question_primary: Q-OBY
+
+  # ER-CON: The narrative gives us access to Eve's perceptions, reasoning,
+  # and desires (Gen 3:6). We see inside her mind.
+  epistemic_reach: ER-CON
+
+  # QK-ABS: The knowledge question as the ontology means it (can a
+  # constructed being know?) is not raised. The "knowledge" in Genesis
+  # (tree of knowledge of good and evil) is a theological concept, not
+  # an epistemological question about constructed minds.
+  q_kno_status: QK-ABS
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+narrative_role: NR-SUB
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: reproductive_method
+    text: "The LORD God caused a deep sleep to fall upon the man, and took one of his ribs"
+    location: "Genesis 2:21 (RSV)"
+    note: "The act of creation — but divine, not artisanal. Supports born-divine coding."
+
+  - property: being.interiority
+    text: "The woman saw that the tree was good for food, a delight to the eyes, and desired to make one wise"
+    location: "Genesis 3:6 (RSV)"
+    note: "Eve perceives, evaluates, desires — full narrated interiority. Supports I-NAR."
+
+  - property: creator.motivation
+    text: "It is not good that the man should be alone; I will make him a helper fit for him"
+    location: "Genesis 2:18 (RSV)"
+    note: "Motivation is companionship — M-COM."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  BOUNDARY CASE DOCUMENTATION:
+
+  Eve is included in this dataset NOT as a constructed being but as a
+  documented boundary decision. She shares surface features with constructed
+  beings (a creator, raw material, a deliberate act of making) but differs
+  in every substantive way:
+
+  1. CREATOR ASYMMETRY: God creating Eve is not analogous to Hephaestus
+     forging Pandora or Frankenstein assembling his creature. Divine creation
+     is a different ontological category from artisanal/technical making.
+
+  2. FULL PERSONHOOD: Eve is immediately and unambiguously a full human
+     person — with autonomy, interiority, moral agency, and continuous
+     memory. Constructed beings in the ontology typically lack some or
+     all of these.
+
+  3. NO ARTIFACT STATUS: Eve is never treated as an artifact, tool, or
+     product. She is Adam's partner, not his creation. The "rib" origin
+     establishes kinship, not ownership.
+
+  4. THE CODING MISMATCH: Many of the ontology's codes (A-DES, S-MAG,
+     etc.) technically apply but mean something fundamentally different
+     for Eve than for actual constructed beings. This is a sign that she
+     does not belong in the primary dataset.
+
+  This entry exists so that future coders encountering Eve-like boundary
+  cases have a precedent for how to handle them: code honestly, document
+  the boundary, and flag the categorical difference.

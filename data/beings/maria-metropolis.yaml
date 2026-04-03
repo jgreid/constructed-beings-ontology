@@ -1,0 +1,159 @@
+# Constructed Beings Ontology — False Maria (Maschinenmensch)
+# Source: Fritz Lang, Metropolis, 1927
+# Coded: 2026-04-03
+#
+# Note: The "real" Maria is a human woman — a workers' prophet. The False Maria
+# is the constructed being: a Maschinenmensch built by Rotwang and given Maria's
+# likeness to manipulate the workers. All codings here refer to the False Maria.
+
+id: maria-metropolis
+name: "False Maria"
+aliases:
+  - "Maschinenmensch"
+  - "Machine-Man"
+  - "Robot Maria"
+  - "The Machine Human"
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "Fritz Lang"
+  title: "Metropolis"
+  year: 1927
+  medium: film
+  tradition: German
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# Rotwang constructs a mechanical being and then transfers Maria's likeness
+# onto it through a technological/alchemical process. Entirely manufactured.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  name: "Rotwang"
+
+  # M-POW: Joh Fredersen commissions the False Maria to control and
+  # mislead the workers — the immediate purpose is political manipulation.
+  # M-MIR: Rotwang's deeper motivation is personal — he originally built
+  # the Maschinenmensch to recreate Hel, the woman he loved and lost to
+  # Fredersen. The False Maria is a mirror of lost desire.
+  motivation:
+    - M-POW
+    - M-MIR
+
+  # CM-IMM: The creation is explicitly immoral in purpose. The False Maria
+  # is built to deceive workers, incite them to self-destructive action,
+  # and consolidate elite power. Rotwang's personal motive (recreating Hel)
+  # doesn't redeem this — he willingly serves the deception.
+  creation_morality: CM-IMM
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-MEC, S-ELE: The Maschinenmensch is a mechanical robot — metal body,
+  # articulated joints — with some form of electrical animation (the
+  # transformation scene involves electrical apparatus). She is then given
+  # a biological-seeming exterior, but the substrate remains mechanical.
+  substrate:
+    - S-MEC
+    - S-ELE
+
+  # A-DES: The False Maria is designed to perform a specific deceptive
+  # role — seduce the workers, incite chaos. She fulfills this role,
+  # though she exceeds it (the chaos becomes genuinely uncontrollable).
+  # Coding A-DES rather than A-EMR because her excesses read as
+  # designed behavior spiraling out of control, not as genuine emergent
+  # selfhood. She never reflects on her own condition.
+  autonomy: A-DES
+
+  # I-UND: The False Maria performs emotion with total conviction —
+  # seductive dances, inflammatory speeches — but the narrative never
+  # resolves whether she has genuine inner experience or is purely
+  # executing programming. The film doesn't ask the question; it leaves
+  # it underdetermined.
+  interiority: I-UND
+
+  # L-MOR: The False Maria is burned at the stake by the mob. The
+  # flames consume her human-seeming exterior, revealing the metal
+  # skeleton beneath. She is destroyed.
+  mortality: L-MOR
+
+  multiplicity: MU-ONE
+
+  # P-UNK: The film provides no information about whether the False Maria
+  # retains memories or has continuous experience between scenes.
+  memory_persistence: P-UNK
+
+  # NCT-NO: The False Maria is built from scratch. The real Maria is
+  # kidnapped to provide her likeness but is not herself transformed —
+  # she remains a separate, living person throughout.
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-EXC: The False Maria incites genuine revolution — the workers
+  # destroy the Heart Machine and flood the workers' city, threatening
+  # their own children. This massively exceeds the intended manipulation.
+  # F-IND: She is indistinguishable from the real Maria until unmasked
+  # by fire. The workers, Freder, and even the audience cannot tell them
+  # apart — which is the entire mechanism of the plot.
+  failure_mode:
+    - F-EXC
+    - F-IND
+
+  # Q-TEL: The core question is teleological — what is the False Maria
+  # for? She exists to serve a purpose (deception), but her existence
+  # raises questions about purpose, instrumentality, and whether tools
+  # can exceed their design.
+  # Q-CTL: Can the ruling class control the workers through a manufactured
+  # proxy? The film's answer: no — control through deception backfires.
+  question:
+    - Q-TEL
+    - Q-CTL
+
+  question_primary: Q-TEL
+
+  # ER-PER: The False Maria performs knowledge of the workers' grievances
+  # convincingly enough to lead them. Whether she genuinely understands
+  # their condition or merely performs understanding is unresolvable.
+  epistemic_reach: ER-PER
+
+  # QK-ABS: The knowledge question is entirely absent from Metropolis.
+  # The False Maria is never asked whether she knows or understands
+  # anything — she is a tool of deception, not a subject of epistemology.
+  q_kno_status: QK-ABS
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-MAJ: The False Maria is a major figure — she drives the second
+# half of the plot — but she is not the subject. Freder and the real
+# Maria are the subjects. The False Maria is an instrument of the plot,
+# not its center of consciousness.
+narrative_role: NR-MAJ
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: creator.motivation
+    text: "I have created a machine in the image of man, that never tires or makes a mistake... Now we have no further use for living workers."
+    location: "Metropolis (1927), Rotwang's laboratory scene"
+    note: "Rotwang presents the Maschinenmensch to Fredersen. Supports M-POW — the creation is framed as replacing and controlling labor."
+
+  - property: being.interiority
+    text: "The False Maria dances before the assembled men of Yoshiwara, driving them to frenzy."
+    location: "Metropolis (1927), Yoshiwara nightclub sequence"
+    note: "She performs seduction with total conviction. The film never indicates whether she experiences desire or merely performs it. Supports I-UND."
+
+  - property: being.mortality
+    text: "The flames consume the human likeness, revealing the metal form of the Maschinenmensch beneath."
+    location: "Metropolis (1927), stake-burning sequence"
+    note: "The destruction scene simultaneously confirms her mechanical nature and ends her existence. Supports L-MOR and S-MEC."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  The False Maria is one of the earliest and most influential constructed beings
+  in cinema. She establishes several enduring tropes: the female robot as object
+  of male desire and fear, the manufactured double, and the created being whose
+  destruction reveals its true (inhuman) nature. Notably, the film never asks
+  whether the False Maria has feelings or rights — she is purely instrumental,
+  a tool that malfunctions. The real Maria is the moral center; the False Maria
+  is a weapon. This instrumentality is itself significant for the ontology: some
+  constructed beings are never granted the dignity of interiority by their texts.
+  Lang's Maschinenmensch influenced the design of C-3PO, the Terminator, and
+  countless subsequent humanoid robots in film.

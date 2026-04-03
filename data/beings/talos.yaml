@@ -1,0 +1,128 @@
+# Constructed Beings Ontology — Talos
+# Source: Apollonius of Rhodes, Argonautica (~3rd century BC)
+# Coded: 2026-04-03
+
+id: talos
+name: Talos
+aliases:
+  - "Talos of Crete"
+  - "The Bronze Man"
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: Apollonius of Rhodes
+  title: "Argonautica"
+  year: -250
+  medium: epic
+  tradition: Greek
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# A bronze automaton forged by Hephaestus. Unambiguously made.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  name: "Hephaestus"
+
+  # M-SRV: Talos is created as a guardian — to patrol and protect Crete.
+  # He is a weapon/tool, not a companion or artwork.
+  motivation:
+    - M-SRV
+
+  # CM-MOR: His creation is sanctioned by the gods; he is a gift to
+  # Europa (or Minos, depending on the version). There is no transgression
+  # in his making — he serves a legitimate protective function.
+  creation_morality: CM-MOR
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-MEC: Talos is a bronze automaton — a mechanical construct. He has
+  # a single vein of ichor (divine fluid) sealed by a bronze nail at
+  # his ankle, but his primary substrate is forged metal.
+  substrate:
+    - S-MEC
+
+  # A-NON: Talos executes a fixed patrol pattern (circling Crete three
+  # times daily) and a fixed defensive response (hurling boulders at
+  # approaching ships). No decision-making, no adaptation, no deviation.
+  autonomy: A-NON
+  autonomy_trajectory: >
+    No trajectory. Talos performs the same function from creation to
+    destruction without variation or development.
+
+  # I-NON: The Argonautica gives Talos no inner life whatsoever. He is
+  # described entirely in terms of function and physical description.
+  interiority: I-NON
+
+  # L-MOR: Talos is destroyed when Medea (through magic or deception,
+  # depending on the version) causes the nail in his ankle to be dislodged,
+  # draining his ichor. He dies — he is mortal in the sense that he can be
+  # permanently destroyed.
+  mortality: L-MOR
+
+  multiplicity: MU-ONE
+
+  # P-UNK: No memory attributes are described or implied.
+  memory_persistence: P-UNK
+
+  # NCT-NO: Talos is built from bronze, not transformed from a prior being.
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-EXC: Talos does not exceed his purpose — he is defeated by Medea's
+  # magic/cunning. The "failure" is external: Medea exploits his single
+  # vulnerability. Coding F-EXC because from the Argonauts' perspective
+  # he is an obstacle that must be overcome, but he never malfunctions
+  # or rebels. He fails by being defeated, not by exceeding design.
+  failure_mode:
+    - F-EXC
+
+  # Q-CTL primary: The central question Talos raises is about control —
+  # who controls this immensely powerful guardian, and what happens when
+  # those who encounter him cannot control him? Q-OBY secondary: he
+  # obeys his original directive perfectly.
+  question:
+    - Q-OBY
+    - Q-CTL
+
+  question_primary: Q-CTL
+
+  # ER-NON: Zero epistemic access. Talos is pure external description.
+  epistemic_reach: ER-NON
+
+  # QK-ABS: Knowledge/epistemics is not a concern in the Talos episode.
+  # He does not know or learn; he patrols and throws boulders.
+  q_kno_status: QK-ABS
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-MIN: Talos appears only in the final episode of the Argonautica
+# (Book IV). He is an obstacle, not a developed character.
+narrative_role: NR-MIN
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: being.substrate
+    text: "Talos, the man of bronze, broke rocks from the cliff to hurl at them"
+    location: "Argonautica IV.1638-1641"
+    note: "Establishes bronze substrate and guardian function."
+
+  - property: being.mortality
+    text: "The ichor flowed from him like molten lead, and he tottered and fell"
+    location: "Argonautica IV.1679-1681"
+    note: "His destruction via ichor loss — confirms L-MOR."
+
+  - property: relationship.failure_mode
+    text: "Medea subdued him with her spells, casting the evil eye upon him"
+    location: "Argonautica IV.1670-1672"
+    note: "Defeat is external (Medea's magic), not internal malfunction."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  Talos is arguably the earliest automaton in Western literature — a purely
+  mechanical/functional constructed being with no interiority, no autonomy,
+  and no arc. He is useful as a baseline for the "guardian construct" archetype
+  that recurs through the tradition (cf. the Golem, Robocop, various AI
+  sentinels). His single point of failure (the ankle nail/ichor vein) is a
+  proto-example of the "kill switch" motif. Some versions attribute his
+  creation to Daedalus rather than Hephaestus; we follow Apollonius.

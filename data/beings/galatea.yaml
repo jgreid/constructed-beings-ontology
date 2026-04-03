@@ -1,0 +1,135 @@
+# Constructed Beings Ontology — Galatea
+# Source: Ovid, Metamorphoses Book X (~8 AD)
+# Coded: 2026-04-03
+#
+# Note: Ovid never names the statue "Galatea" — that name comes from later
+# tradition. In Ovid she is simply "the ivory maid." We use "Galatea" as the
+# conventional identifier.
+
+id: galatea
+name: Galatea
+aliases:
+  - "Pygmalion's statue"
+  - "The ivory maid"
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: Ovid
+  title: "Metamorphoses, Book X"
+  year: 8
+  medium: poem
+  tradition: Roman/Greek
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# Pygmalion sculpts her from ivory; Aphrodite (Venus) animates her.
+# She is made, not born.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  # Pygmalion sculpts the form; Venus provides the animation.
+  # Pygmalion is the primary creator in narrative terms.
+  name: "Pygmalion (animated by Venus/Aphrodite)"
+
+  # M-ART: He creates as a sculptor — the artistic impulse comes first.
+  # M-COM: He falls in love with his creation and prays for a bride "like"
+  # his statue (then Venus grants the statue itself life).
+  motivation:
+    - M-ART
+    - M-COM
+
+  # CM-MOR: The gods explicitly approve. Venus answers Pygmalion's prayer
+  # with a sign (the altar flame leaps). There is no transgression here —
+  # this is divine wish fulfillment.
+  creation_morality: CM-MOR
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-MAG: Ivory substrate animated by divine power. Not mechanical,
+  # not biological — it is magical transformation of material into flesh.
+  substrate:
+    - S-MAG
+
+  # A-NON: Galatea performs no autonomous action in Ovid's text. She
+  # responds to Pygmalion's touch (the ivory softens, she blushes) but
+  # initiates nothing. She has no described will or choice.
+  autonomy: A-NON
+  autonomy_trajectory: >
+    No trajectory. Galatea transitions from object to responsive being
+    but never to autonomous agent. Her first and only described actions
+    are perceiving Pygmalion and blushing.
+
+  # I-NON: Ovid gives her no inner life. She is described entirely through
+  # Pygmalion's perception and touch. The one moment that approaches
+  # interiority — "she felt the kisses and blushed" — is still external
+  # observation, not narrated consciousness.
+  interiority: I-NON
+
+  # L-UNK: Once animated she is presumably mortal (she becomes human,
+  # bears a child), but Ovid does not address her death.
+  mortality: L-UNK
+
+  multiplicity: MU-ONE
+
+  # P-UNK: No information. Does she remember being ivory? Ovid does not say.
+  memory_persistence: P-UNK
+
+  # NCT-NO: She is created from scratch (sculpted ivory), not transformed
+  # from an existing conscious being. The ivory had no prior selfhood.
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-NON: There is no failure in this narrative. Pygmalion gets exactly
+  # what he wants. The statue becomes a woman, they marry, they have a child.
+  # This is pure wish fulfillment — the relationship "works."
+  failure_mode:
+    - F-NON
+
+  # Q-LOV: The entire episode is about love — specifically, whether
+  # a created being can be a valid object/recipient of love.
+  question:
+    - Q-LOV
+
+  question_primary: Q-LOV
+
+  # ER-NON: We have no access to Galatea's mind. Everything is filtered
+  # through Pygmalion's perception and desire.
+  epistemic_reach: ER-NON
+
+  # QK-ABS: The knowledge question is entirely absent. Neither Galatea's
+  # capacity for knowledge nor epistemics more broadly is at stake.
+  q_kno_status: QK-ABS
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-SUB: She is the central subject of the Pygmalion episode,
+# though she is subject-as-object — the narrative revolves around her
+# but she is not an agent within it.
+narrative_role: NR-SUB
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: being.substrate
+    text: "With wondrous art he carved a snowy ivory form"
+    location: "Metamorphoses X.247-248"
+    note: "Establishes ivory as the substrate material."
+
+  - property: being.interiority
+    text: "She felt the kisses, blushed, and lifting her timid eyes saw sky and lover both"
+    location: "Metamorphoses X.293-294"
+    note: "The closest approach to interiority — but still external description. Supports I-NON."
+
+  - property: creator.motivation
+    text: "Grant that my wife may be — he dared not say 'my ivory maid' — one like my ivory maid"
+    location: "Metamorphoses X.274-276"
+    note: "Pygmalion's prayer to Venus. Motivation is companionship (M-COM) rooted in artistic creation (M-ART)."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  Galatea is the paradigmatic case of a constructed being with zero autonomy
+  and zero interiority — she exists entirely as a projection of her creator's
+  desire. Modern feminist readings rightly critique this, but the ontology
+  codes what the text says, not what it should say. The Pygmalion myth
+  becomes the template for countless later "created woman" narratives
+  (My Fair Lady, Ex Machina, etc.), many of which grant the created being
+  the agency Ovid withheld.

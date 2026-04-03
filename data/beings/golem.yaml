@@ -1,0 +1,145 @@
+# Constructed Beings Ontology — The Golem of Prague
+# Source: Jewish folklore, Loew tradition (~16th century)
+# Coded: 2026-04-03
+#
+# Note: The Golem tradition is vast and varied. We code primarily from the
+# Maharal/Loew cycle as consolidated in the 16th-19th century Prague tradition.
+# Earlier Talmudic references (Sanhedrin 65b) and the Sefer Yetzirah tradition
+# inform the coding but are not the primary source.
+
+id: golem
+name: "The Golem of Prague"
+aliases:
+  - "Golem"
+  - "Joseph Golem"
+  - "Yossele"
+
+# ── SOURCE ────────────────────────────────────────────────────────────
+source:
+  author: "Rabbi Judah Loew ben Bezalel (Maharal) tradition"
+  title: "Golem of Prague folklore cycle"
+  year: 1580
+  medium: folklore
+  tradition: Jewish
+
+# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
+# Formed from clay and animated by inscription of the divine name.
+reproductive_method: made
+
+# ── CREATOR ───────────────────────────────────────────────────────────
+creator:
+  name: "Rabbi Judah Loew ben Bezalel (the Maharal of Prague)"
+
+  # M-SRV: The Golem is created to protect the Jewish community of Prague
+  # from antisemitic violence, particularly blood libel accusations.
+  motivation:
+    - M-SRV
+
+  # CM-AMB: The moral status of Golem-creation varies across tellings.
+  # In some, Rabbi Loew acts with divine sanction and the creation is
+  # righteous defense. In others, it borders on hubris — imitating
+  # God's creation of Adam. The tradition itself is ambivalent.
+  creation_morality: CM-AMB
+
+# ── BEING ─────────────────────────────────────────────────────────────
+being:
+  # S-MAG: Clay animated by the divine name (Shem HaMephorash).
+  # The inscription of "emet" (truth) on the forehead is the animating
+  # principle. This is magical/theurgic, not mechanical.
+  substrate:
+    - S-MAG
+
+  # A-EMR: In many versions, the Golem develops beyond its intended scope.
+  # It grows physically larger, becomes harder to control, and in some
+  # tellings begins to act on its own interpretation of its mandate.
+  # This emergent autonomy is the central dramatic tension.
+  autonomy: A-EMR
+  autonomy_trajectory: >
+    Begins as a perfectly obedient servant executing literal commands.
+    Over time, grows in size and power. In key versions, begins to
+    interpret commands too broadly or act without specific instruction.
+    Rabbi Loew must deactivate it before it becomes uncontrollable.
+
+  # I-NON: The Golem has no inner life in the traditional tellings.
+  # It does not speak (in most versions), does not express emotion,
+  # and does not reflect. It is a tool that executes commands.
+  interiority: I-NON
+
+  # L-RES: The Golem can be deactivated by erasing the aleph from "emet"
+  # (truth) to leave "met" (death), or by removing the shem from its mouth.
+  # It can be reactivated by reversing the process. It is not destroyed
+  # but put into dormancy — tradition holds it rests in the attic of the
+  # Old-New Synagogue, ready to be reawakened.
+  mortality: L-RES
+
+  multiplicity: MU-ONE
+
+  # P-UNK: No memory attributes are described. When deactivated and
+  # reactivated, it is unclear whether it "remembers."
+  memory_persistence: P-UNK
+
+  # NCT-NO: The Golem is created from raw clay, not from a prior being.
+  nonconsensual_transformation: NCT-NO
+
+# ── RELATIONSHIP ──────────────────────────────────────────────────────
+relationship:
+  # F-EXC + F-AUT: The Golem exceeds its intended purpose (grows too
+  # powerful, interprets commands too broadly) and achieves a form of
+  # unwanted autonomy. These two failure modes are deeply linked in
+  # the tradition — the servant that outgrows its servitude.
+  failure_mode:
+    - F-EXC
+    - F-AUT
+
+  # Q-CTL primary: The central question is whether the creator can
+  # maintain control over a being that grows beyond intended scope.
+  # Q-OBY secondary: the Golem's literal obedience itself becomes
+  # the problem (it obeys too well, too broadly).
+  question:
+    - Q-CTL
+    - Q-OBY
+
+  question_primary: Q-CTL
+
+  # ER-NON: We have no access to whatever the Golem experiences.
+  # It does not speak or express. It is pure external function.
+  epistemic_reach: ER-NON
+
+  # QK-ABS: The knowledge/epistemics question is not raised in the
+  # traditional Golem narratives. The Golem does not know or seek
+  # to know — it acts.
+  q_kno_status: QK-ABS
+
+# ── NARRATIVE ROLE ────────────────────────────────────────────────────
+# NR-SUB: The Golem is the central subject of the narrative cycle,
+# even though it lacks voice and interiority. The stories are about it.
+narrative_role: NR-SUB
+
+# ── CITATIONS ─────────────────────────────────────────────────────────
+citations:
+  - property: being.substrate
+    text: "He formed a figure from clay and inscribed emet upon its forehead"
+    location: "Nifla'ot Maharal (Wonders of the Maharal), traditional account"
+    note: "Establishes clay substrate animated by divine name — S-MAG."
+
+  - property: being.autonomy
+    text: "The Golem grew in size and strength until the Rabbi feared it"
+    location: "Nifla'ot Maharal, variant traditions"
+    note: "Emergent autonomy — the Golem exceeds its designed scope. Supports A-EMR."
+
+  - property: being.mortality
+    text: "He erased the aleph, and the Golem crumbled to lifeless clay"
+    location: "Traditional account of deactivation"
+    note: "Deactivation by altering the inscription. Supports L-RES (reversible)."
+
+# ── NOTES ─────────────────────────────────────────────────────────────
+notes: >
+  The Golem is the foundational "servant that outgrows servitude" narrative
+  in Western tradition — a direct ancestor of Frankenstein's creature, HAL 9000,
+  and modern AI alignment concerns. The emet/met mechanism (truth/death) is
+  a striking early example of the "kill switch" concept. The tradition's
+  ambivalence about creation morality (CM-AMB) reflects a genuine theological
+  tension: creating life imitates God, which is both the highest form of
+  worship and the deepest form of hubris, depending on the teller. The Golem
+  cycle is folklore, not a single authored text, so citations reference the
+  consolidated Maharal tradition rather than a specific edition.
