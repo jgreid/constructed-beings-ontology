@@ -13,11 +13,11 @@ id: emerac-desk-set
 name: "EMERAC"
 aliases:
   - "Emmy"   # The nickname given by the research department
-  - "EMMARAC"   # Alternate name sometimes used in reference materials
+  - "Electromagnetic Memory and Research Arithmetical Calculator"   # Full name
 
 # ── SOURCE ────────────────────────────────────────────────────────────
 source:
-  author: "Walter Lang (director); Phoebe Ephron, Henry Ephron (screenplay); William Marchetti (play)"
+  author: "Walter Lang (director); Phoebe Ephron, Henry Ephron (screenplay); William Marchant (play)"
   title: "Desk Set"
   year: 1957
   medium: film

@@ -124,18 +124,18 @@ narrative_role: NR-MIN
 citations:
   - property: being.interiority
     text: "Would you like some toast?"
-    location: "Red Dwarf, Series I, Episode 4, 'Waiting for God' (1988), and recurring"
+    location: "Red Dwarf, Series I, Episode 2, 'Future Echoes' (1988), and recurring"
     note: "The Toaster's signature line, repeated obsessively. The persistence is comic but the underlying need — to fulfill its purpose and be acknowledged — is genuine. Supports I-DEM."
 
   - property: relationship.question_primary
-    text: "I'm a toaster. It's my raison d'etre. I toast, therefore I am."
+    text: "I toast, therefore I am."
     location: "Red Dwarf, Series IV, Episode 4, 'White Hole' (1991)"
-    note: "The Toaster's existential self-definition — a Cartesian statement grounding identity in function. Played for comedy but philosophically resonant: its telos IS its identity."
+    note: "The Toaster's Cartesian existential self-definition — grounding identity in function. Played for comedy but philosophically resonant: its telos IS its identity."
 
   - property: being.autonomy
-    text: "How about a muffin? A crumpet? Toast?"
-    location: "Red Dwarf, recurring bit across multiple episodes"
-    note: "When toast is declined, the Toaster adapts within its domain — offering alternatives, all bread-related. Designed autonomy: creative within rigid parameters."
+    text: "Aaah... so you're a waffle man!"
+    location: "Red Dwarf, Series IV, Episode 4, 'White Hole' (1991), after Lister rejects toast, muffins, crumpets, and every other bread product"
+    note: "When toast is declined, the Toaster adapts within its domain — cycling through every bread product before declaring the human a 'waffle man.' Designed autonomy: creative within rigid parameters."
 
 # ── NOTES ─────────────────────────────────────────────────────────────
 notes: >
