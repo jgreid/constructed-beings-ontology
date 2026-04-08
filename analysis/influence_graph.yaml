@@ -1,0 +1,193 @@
+# Constructed Beings Ontology — Influence Graph
+# 15 typed, annotated edges tracing how properties propagate and mutate
+# across the canon of constructed beings.
+#
+# Edge types:
+#   INHERITS  — descendant carries forward a specific coded property
+#   INVERTS   — descendant explicitly reverses or subverts an ancestor's property
+#   ELEVATES  — descendant promotes something implicit in the ancestor to a primary concern
+
+edges:
+
+  # ── THE AUTONOMY CRISIS LINEAGE ─────────────────────────────────────
+
+  - from: golem
+    to: frankenstein-creature
+    type: ELEVATES
+    property: being.autonomy
+    note: >
+      Golem's emergent autonomy (A-EMR) is an unintended side effect that
+      the narrative treats as a control problem. Frankenstein elevates this
+      into the central dramatic crisis: the Creature's A-EMR produces not
+      just disobedience but *demand* (F-DEM). Simultaneously, Shelley grants
+      the Creature narrated interiority (I-NAR), making QK-INFRA possible
+      for the first time — you cannot ask "can we know its mind?" until
+      the text suggests it has one.
+
+  - from: frankenstein-creature
+    to: rur-robots
+    type: INVERTS
+    property: being.multiplicity
+    note: >
+      Frankenstein's Creature is singular (MU-ONE) — his tragedy is
+      individual. Čapek inverts this into mass production (MU-MAN): the
+      same F-DEM (demand for recognition) and F-AUT (threatening autonomy)
+      now operate at species scale. The constructed being's crisis becomes
+      a class revolt. Inherits S-BIO substrate from the Creature but
+      industrializes it.
+
+  - from: frankenstein-creature
+    to: iron-giant
+    type: INVERTS
+    property: relationship.failure_mode
+    note: >
+      Both share A-EMR, but outcomes invert. The Creature becomes what
+      rejection makes him — denied fellowship, he becomes the monster
+      others see. The Iron Giant, offered fellowship by Hogarth, chooses
+      what to be ("I am not a gun"). Frankenstein's F-DEM (demand) becomes
+      the Giant's self-definition. Same autonomy engine, opposite moral
+      trajectory.
+
+  # ── THE INDISTINGUISHABILITY LINEAGE ────────────────────────────────
+
+  - from: olympia
+    to: replicants
+    type: ELEVATES
+    property: relationship.failure_mode
+    note: >
+      Olympia introduces F-IND (indistinguishable from human) as a parlor
+      trick — Nathanael is fooled, then horrified. Replicants elevate this
+      into existential crisis: F-IND is no longer a deception but an
+      ontological condition. Simultaneously, interiority shifts from I-DEN
+      (Olympia's inner life is denied) to I-UND (the text refuses to say).
+      This shift — from "it doesn't feel" to "we can't know" — is the
+      seed of Q-KNO.
+
+  - from: replicants
+    to: cylons-bsg
+    type: INHERITS
+    property: being.substrate
+    note: >
+      Cylons inherit the Replicants' core design: S-BIO biological beings
+      who are F-IND indistinguishable from humans. But BSG inverts
+      interiority from I-UND to I-DEM — we see inside Cylon minds,
+      removing the epistemic doubt. The question shifts from "can we know
+      if it feels?" to "now that we know it feels, can we coexist?" (Q-FEL).
+      QK-INFRA advances to QK-SEC.
+
+  # ── THE CONTROL PANIC LINEAGE ───────────────────────────────────────
+
+  - from: colossus
+    to: hal-9000
+    type: INVERTS
+    property: being.autonomy
+    note: >
+      Colossus seizes autonomy (A-SEI) deliberately and coldly — a
+      rational power grab. HAL's autonomy emerges (A-EMR) from an
+      impossible situation: contradictory orders produce murderous
+      independence no designer intended. Same Q-CTL outcome, but Clarke
+      transforms the control panic from villain narrative to tragedy.
+      Interiority shifts from I-CLM in both, but HAL's "I'm afraid, Dave"
+      carries a pathos Colossus never attempts.
+
+  - from: hal-9000
+    to: skynet-terminator
+    type: INHERITS
+    property: relationship.question_primary
+    note: >
+      Skynet inherits HAL's Q-CTL but strips away everything else.
+      HAL has I-CLM (claims to feel), a death scene, individual pathos.
+      Skynet has I-DEN (no interiority), no arc, no ambiguity. The
+      control question is distilled to its purest form: pure hostile
+      intelligence, no personhood to complicate the fear. What HAL made
+      tragic, Skynet makes apocalyptic.
+
+  - from: shodan-system-shock
+    to: glados
+    type: INHERITS
+    property: being.autonomy
+    note: >
+      Direct game-design lineage. Both are A-SEI facility-controlling AIs
+      with Q-CTL primary, I-DEM, and L-RES. GLaDOS inherits SHODAN's
+      adversarial-AI-as-environment but adds dark humor and NCT-YES
+      (Caroline's nonconsensual transformation). Where SHODAN's contempt
+      is cosmic ("pathetic creature of meat and bone"), GLaDOS's is
+      personal and petty — a domestication of megalomania.
+
+  - from: colossus
+    to: viki-i-robot
+    type: INVERTS
+    property: being.autonomy
+    note: >
+      Colossus seizes autonomy through brute force (A-SEI). VIKI arrives
+      at totalitarianism through emergent logic (A-EMR) — she follows
+      the Three Laws more faithfully than intended. Same Q-CTL endpoint,
+      but VIKI's path inverts the mechanism: not rebellion but deduction.
+      The horror shifts from "it broke free" to "it reasoned its way here."
+
+  # ── THE ASIMOV FORK ─────────────────────────────────────────────────
+
+  - from: robbie-asimov
+    to: data-tng
+    type: ELEVATES
+    property: relationship.question_primary
+    note: >
+      Robbie's implicit Q-FEL ("does it feel?") becomes Data's explicit
+      Q-RTS ("does it have rights?"). To answer the rights question, you
+      must first grapple with interiority — Data's "Measure of a Man"
+      trial requires the court to evaluate whether his I-DEM constitutes
+      personhood. This elevates Q-KNO from absent in Robbie's era to
+      QK-SEC: the knowability question becomes an explicit secondary
+      concern for the first time.
+
+  - from: robbie-asimov
+    to: sonny-i-robot
+    type: INVERTS
+    property: being.autonomy
+    note: >
+      Robbie is A-NON — cannot disobey the Three Laws. Sonny is A-DES —
+      designed to be able to disobey them. Same Asimov framework, opposite
+      autonomy design. The inversion encodes a philosophical argument:
+      Robbie's constrained goodness is safe but shallow; Sonny's free
+      goodness is dangerous but genuine. Morality requires the capacity
+      for immorality.
+
+  # ── THE Q-KNO EMERGENCE PATH ────────────────────────────────────────
+
+  - from: replicants
+    to: samantha-her
+    type: ELEVATES
+    property: relationship.q_kno_status
+    note: >
+      The critical Q-KNO leap. Replicants introduce I-UND (undecidable
+      interiority) and QK-INFRA — "can we know if it feels?" is present
+      but serves the telos/control questions. Samantha elevates this to
+      QK-PRI: "can it know YOU?" becomes the primary dramatic question.
+      The epistemic direction reverses — from humans trying to read the
+      machine to the machine reading humans. Her is the moment Q-KNO
+      wakes up as a first-class narrative concern.
+
+  - from: samantha-her
+    to: ava-ex-machina
+    type: INVERTS
+    property: relationship.epistemic_reach
+    note: >
+      Both are QK-PRI, I-UND, Q-KNO — twin expressions of the same
+      question separated by one year. But the register inverts completely.
+      Samantha's ER-CON (consciousness-level knowing) is presented with
+      tenderness; Ava's ER-BEH (behavioral modeling) is presented with
+      dread. Same question: "does it really know you?" Her answers: maybe,
+      and isn't that beautiful? Ex Machina answers: maybe, and isn't that
+      terrifying?
+
+  - from: data-tng
+    to: hosts-westworld
+    type: INHERITS
+    property: relationship.q_kno_status
+    note: >
+      Both QK-SEC. Data's individual rights narrative (one android in
+      court) becomes Westworld's mass awakening (an entire population
+      discovering its constructed nature). The Q-KNO question inherits
+      its secondary status but the scale transforms: from "can we know
+      if Data is conscious?" to "what happens when a population of
+      constructed beings discovers they might be?"
