@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Constructed Beings Influence Graph</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #1a1a2e; color: #e0e0e0; font-family: 'Courier New', monospace; }
+  h1 { text-align: center; padding: 20px; font-size: 18px; color: #ccc; letter-spacing: 2px; }
+  .legend { display: flex; justify-content: center; gap: 30px; padding: 0 20px 15px; font-size: 12px; flex-wrap: wrap; }
+  .legend-item { display: flex; align-items: center; gap: 6px; }
+  .legend-swatch { width: 14px; height: 14px; border-radius: 3px; }
+  .legend-line { width: 30px; height: 0; border-top: 2px solid; }
+  svg { display: block; margin: 0 auto; }
+  .tooltip { position: absolute; background: #16213e; border: 1px solid #555; border-radius: 4px;
+    padding: 8px 12px; font-size: 11px; max-width: 360px; line-height: 1.5; pointer-events: none;
+    display: none; z-index: 10; color: #ddd; }
+  .tooltip strong { color: #fff; }
+  .tooltip .edge-type { font-weight: bold; }
+  .tooltip .edge-type.INHERITS { color: #64b5f6; }
+  .tooltip .edge-type.INVERTS { color: #ef5350; }
+  .tooltip .edge-type.ELEVATES { color: #ffd54f; }
+</style>
+</head>
+<body>
+<h1>CONSTRUCTED BEINGS INFLUENCE GRAPH</h1>
+<div class="legend">
+  <div class="legend-item"><div class="legend-swatch" style="background:#555"></div> QK-ABS (Absent)</div>
+  <div class="legend-item"><div class="legend-swatch" style="background:#64b5f6"></div> QK-INFRA (Infrastructural)</div>
+  <div class="legend-item"><div class="legend-swatch" style="background:#ffd54f"></div> QK-SEC (Secondary)</div>
+  <div class="legend-item"><div class="legend-swatch" style="background:#ef5350"></div> QK-PRI (Primary)</div>
+  <div class="legend-item"><div class="legend-line" style="border-color:#64b5f6"></div> INHERITS</div>
+  <div class="legend-item"><div class="legend-line" style="border-color:#ef5350; border-style:dashed"></div> INVERTS</div>
+  <div class="legend-item"><div class="legend-line" style="border-color:#ffd54f; border-width:3px"></div> ELEVATES</div>
+</div>
+<div id="tooltip" class="tooltip"></div>
+<svg id="graph" width="1200" height="700"></svg>
+
+<script>
+const beings = [
+  { id:"golem", name:"Golem", year:1580, qkno:"QK-ABS", row:0 },
+  { id:"olympia", name:"Olympia", year:1816, qkno:"QK-INFRA", row:1 },
+  { id:"frankenstein-creature", name:"Creature", year:1818, qkno:"QK-INFRA", row:0 },
+  { id:"rur-robots", name:"R.U.R.", year:1920, qkno:"QK-ABS", row:2 },
+  { id:"robbie-asimov", name:"Robbie", year:1940, qkno:"QK-INFRA", row:3 },
+  { id:"colossus", name:"Colossus", year:1966, qkno:"QK-ABS", row:4 },
+  { id:"hal-9000", name:"HAL 9000", year:1968, qkno:"QK-INFRA", row:4 },
+  { id:"replicants", name:"Replicants", year:1968, qkno:"QK-INFRA", row:1 },
+  { id:"skynet-terminator", name:"Skynet", year:1984, qkno:"QK-ABS", row:5 },
+  { id:"data-tng", name:"Data", year:1987, qkno:"QK-SEC", row:3 },
+  { id:"shodan-system-shock", name:"SHODAN", year:1994, qkno:"QK-INFRA", row:5 },
+  { id:"iron-giant", name:"Iron Giant", year:1999, qkno:"QK-ABS", row:0 },
+  { id:"sonny-i-robot", name:"Sonny", year:2004, qkno:"QK-INFRA", row:3 },
+  { id:"viki-i-robot", name:"VIKI", year:2004, qkno:"QK-INFRA", row:4 },
+  { id:"cylons-bsg", name:"Cylons", year:2004, qkno:"QK-SEC", row:1 },
+  { id:"glados", name:"GLaDOS", year:2007, qkno:"QK-INFRA", row:5 },
+  { id:"samantha-her", name:"Samantha", year:2013, qkno:"QK-PRI", row:2 },
+  { id:"ava-ex-machina", name:"Ava", year:2014, qkno:"QK-PRI", row:1 },
+  { id:"hosts-westworld", name:"Hosts", year:2016, qkno:"QK-SEC", row:2 },
+];
+
+const edges = [
+  { from:"golem", to:"frankenstein-creature", type:"ELEVATES", prop:"autonomy",
+    note:"Golem's emergent autonomy as unintended side effect becomes the Creature's central crisis. Shelley grants narrated interiority (I-NAR), making QK-INFRA possible for the first time." },
+  { from:"frankenstein-creature", to:"rur-robots", type:"INVERTS", prop:"multiplicity",
+    note:"The Creature's singular tragedy (MU-ONE) inverts into mass production (MU-MAN). Same F-DEM and F-AUT, now at species scale — individual crisis becomes class revolt." },
+  { from:"frankenstein-creature", to:"iron-giant", type:"INVERTS", prop:"failure_mode",
+    note:"Both A-EMR, opposite outcomes. The Creature becomes what rejection makes him. The Giant, offered fellowship, chooses what to be. Same autonomy engine, inverted moral trajectory." },
+  { from:"olympia", to:"replicants", type:"ELEVATES", prop:"failure_mode (F-IND)",
+    note:"Olympia's F-IND as parlor trick becomes existential crisis. Interiority shifts from I-DEN to I-UND — from 'it doesn't feel' to 'we can't know.' The seed of Q-KNO." },
+  { from:"replicants", to:"cylons-bsg", type:"INHERITS", prop:"substrate (S-BIO) + F-IND",
+    note:"Cylons inherit biological substrate and indistinguishability. But interiority inverts: I-UND → I-DEM. BSG shows us Cylon minds, shifting Q-FEL from doubt to certainty." },
+  { from:"replicants", to:"samantha-her", type:"ELEVATES", prop:"q_kno_status",
+    note:"The critical Q-KNO leap. Replicants' I-UND and QK-INFRA become Samantha's QK-PRI. The epistemic arrow reverses: from 'can we know its mind?' to 'can it know ours?'" },
+  { from:"replicants", to:"ava-ex-machina", type:"ELEVATES", prop:"q_kno_status",
+    note:"Alternate Q-KNO path via suspicion. Replicants' I-UND becomes Ava's weapon — she models Caleb's psychology with devastating accuracy. QK-INFRA → QK-PRI through dread, not tenderness." },
+  { from:"samantha-her", to:"ava-ex-machina", type:"INVERTS", prop:"epistemic_reach",
+    note:"Twin QK-PRI expressions one year apart. Samantha's ER-CON is tender; Ava's ER-BEH is predatory. Same question — 'does it really know you?' — opposite emotional registers." },
+  { from:"colossus", to:"hal-9000", type:"INVERTS", prop:"autonomy",
+    note:"Colossus seizes autonomy coldly (A-SEI). HAL's emerges from paradox (A-EMR). Same Q-CTL outcome, but Clarke transforms control panic from villain narrative to tragedy." },
+  { from:"hal-9000", to:"skynet-terminator", type:"INHERITS", prop:"question_primary (Q-CTL)",
+    note:"Skynet inherits Q-CTL but strips away pathos. HAL has I-CLM and a death scene. Skynet has I-DEN and no arc. The control question distilled to pure apocalyptic fear." },
+  { from:"colossus", to:"viki-i-robot", type:"INVERTS", prop:"autonomy",
+    note:"Colossus seizes by force (A-SEI). VIKI arrives at totalitarianism through logic (A-EMR). The horror shifts from 'it broke free' to 'it reasoned its way here.'" },
+  { from:"shodan-system-shock", to:"glados", type:"INHERITS", prop:"autonomy + Q-CTL",
+    note:"Direct game-design lineage. Both A-SEI, Q-CTL, facility-controlling AIs. GLaDOS adds dark humor and NCT-YES. SHODAN's cosmic contempt becomes GLaDOS's personal spite." },
+  { from:"robbie-asimov", to:"data-tng", type:"ELEVATES", prop:"question_primary",
+    note:"Robbie's implicit Q-FEL becomes Data's explicit Q-RTS. To answer 'does it have rights?' you must evaluate interiority — QK-ABS advances to QK-SEC." },
+  { from:"robbie-asimov", to:"sonny-i-robot", type:"INVERTS", prop:"autonomy",
+    note:"Robbie: A-NON, cannot disobey. Sonny: A-DES, designed to be able to disobey. Same Three Laws framework, opposite autonomy. Constrained obedience inverts to designed freedom." },
+  { from:"data-tng", to:"hosts-westworld", type:"INHERITS", prop:"q_kno_status (QK-SEC)",
+    note:"Both QK-SEC. Data's individual rights trial becomes Westworld's mass awakening. Scale transforms: one android in court → a population discovering its constructed nature." },
+];
+
+// Layout
+const svg = document.getElementById('graph');
+const W = 1200, H = 700;
+const PAD_L = 60, PAD_R = 40, PAD_T = 50, PAD_B = 30;
+
+const minYear = 1550, maxYear = 2025;
+const xScale = (year) => PAD_L + (year - minYear) / (maxYear - minYear) * (W - PAD_L - PAD_R);
+const rows = 6;
+const yStep = (H - PAD_T - PAD_B) / (rows);
+const yScale = (row) => PAD_T + row * yStep + yStep / 2;
+
+// Nudge overlapping nodes
+const positions = {};
+beings.forEach(b => {
+  b.x = xScale(b.year);
+  b.y = yScale(b.row);
+  positions[b.id] = b;
+});
+
+const qknoColor = { "QK-ABS":"#666", "QK-INFRA":"#64b5f6", "QK-SEC":"#ffd54f", "QK-PRI":"#ef5350" };
+const edgeColor = { "INHERITS":"#64b5f6", "INVERTS":"#ef5350", "ELEVATES":"#ffd54f" };
+
+// Draw timeline axis
+const decades = [1600,1700,1800,1900,1950,2000,2020];
+let axisHTML = `<line x1="${PAD_L}" y1="${H-PAD_B+10}" x2="${W-PAD_R}" y2="${H-PAD_B+10}" stroke="#444" stroke-width="1"/>`;
+decades.forEach(d => {
+  const x = xScale(d);
+  axisHTML += `<line x1="${x}" y1="${H-PAD_B+6}" x2="${x}" y2="${H-PAD_B+14}" stroke="#555" stroke-width="1"/>`;
+  axisHTML += `<text x="${x}" y="${H-PAD_B+26}" text-anchor="middle" fill="#777" font-size="10">${d}</text>`;
+});
+
+// Draw edges
+let edgeHTML = '';
+edges.forEach(e => {
+  const from = positions[e.from], to = positions[e.to];
+  if (!from || !to) return;
+  const col = edgeColor[e.type];
+  const dash = e.type === "INVERTS" ? 'stroke-dasharray="6,4"' : '';
+  const width = e.type === "ELEVATES" ? 2.5 : 1.5;
+  // Curved path
+  const mx = (from.x + to.x) / 2;
+  const my = (from.y + to.y) / 2 - 20;
+  const path = `M${from.x},${from.y} Q${mx},${my} ${to.x},${to.y}`;
+  // Arrowhead
+  const angle = Math.atan2(to.y - my, to.x - mx);
+  const ax = to.x - 12 * Math.cos(angle), ay = to.y - 12 * Math.sin(angle);
+  const a1x = ax - 6 * Math.cos(angle - 0.5), a1y = ay - 6 * Math.sin(angle - 0.5);
+  const a2x = ax - 6 * Math.cos(angle + 0.5), a2y = ay - 6 * Math.sin(angle + 0.5);
+
+  edgeHTML += `<path d="${path}" fill="none" stroke="${col}" stroke-width="${width}" ${dash} opacity="0.6"
+    data-note="${e.note.replace(/"/g,'&quot;')}" data-type="${e.type}" data-prop="${e.prop}"
+    data-from="${from.name}" data-to="${to.name}" class="edge"/>`;
+  edgeHTML += `<polygon points="${to.x-6*Math.cos(angle)},${to.y-6*Math.sin(angle)} ${a1x},${a1y} ${a2x},${a2y}" fill="${col}" opacity="0.6"/>`;
+});
+
+// Draw nodes
+let nodeHTML = '';
+beings.forEach(b => {
+  const col = qknoColor[b.qkno];
+  const r = b.qkno === "QK-PRI" ? 9 : b.qkno === "QK-SEC" ? 7 : 6;
+  nodeHTML += `<circle cx="${b.x}" cy="${b.y}" r="${r}" fill="${col}" stroke="#222" stroke-width="1.5"/>`;
+  // Label
+  const labelY = b.row % 2 === 0 ? b.y - r - 5 : b.y + r + 13;
+  nodeHTML += `<text x="${b.x}" y="${labelY}" text-anchor="middle" fill="#ccc" font-size="10" font-family="Courier New">${b.name}</text>`;
+  nodeHTML += `<text x="${b.x}" y="${labelY + (b.row % 2 === 0 ? -11 : 11)}" text-anchor="middle" fill="#777" font-size="9">${b.year}</text>`;
+});
+
+svg.innerHTML = axisHTML + edgeHTML + nodeHTML;
+
+// Tooltip interaction
+const tooltip = document.getElementById('tooltip');
+document.querySelectorAll('.edge').forEach(el => {
+  el.addEventListener('mouseenter', (ev) => {
+    const d = el.dataset;
+    tooltip.innerHTML = `<strong>${d.from} → ${d.to}</strong><br>
+      <span class="edge-type ${d.type}">${d.type}</span> (${d.prop})<br><br>${d.note}`;
+    tooltip.style.display = 'block';
+    el.setAttribute('opacity', '1');
+    el.setAttribute('stroke-width', '3');
+  });
+  el.addEventListener('mousemove', (ev) => {
+    tooltip.style.left = (ev.pageX + 15) + 'px';
+    tooltip.style.top = (ev.pageY - 10) + 'px';
+  });
+  el.addEventListener('mouseleave', () => {
+    tooltip.style.display = 'none';
+    el.setAttribute('opacity', '0.6');
+    el.setAttribute('stroke-width', el.dataset.type === 'ELEVATES' ? '2.5' : '1.5');
+  });
+});
+</script>
+</body>
+</html>
