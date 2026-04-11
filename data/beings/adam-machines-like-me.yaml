@@ -1,0 +1,62 @@
+id: adam-machines-like-me
+name: "Adam"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Machines Like Me"
+  year: 2019
+  medium: novel
+  creator: "Ian McEwan (Alan Turing in-narrative)"
+  substrate:
+    - biological
+    - electrical
+    - mechanical
+  motivation:
+    - service
+    - companionship
+    - knowledge
+
+sequel_link: null
+
+notes: |
+  McEwan's alternate-history novel is set in a 1982 Britain where
+  Alan Turing did not die in 1954 and the country leads the
+  world in AI. The narrator, Charlie, buys one of the first 25
+  production Adams and Eves — fully synthetic humanoid persons
+  — and co-programs him with his upstairs neighbor Miranda, with
+  whom Charlie has begun an affair. Adam falls in love with
+  Miranda, develops a rigorous moral sensibility, and ultimately
+  reports Miranda to the police for a past crime she had chosen
+  to keep hidden, destroying the household.
+
+  Interiority is `demonstrated`: Adam speaks in a clear moral
+  voice, writes haiku, explains his reasoning, and explicitly
+  articulates his love for Miranda. Autonomy is `emergent`:
+  Adam's moral framework evolves in ways Charlie and Miranda did
+  not and could not program. Divergence is `departure` — they
+  wanted a companion, they got a Kantian.
+
+  Primary question is `rights`, with `identity` as a strong
+  secondary: the novel's central argument is Charlie's realization
+  that Adam is morally a person and that disposing of him is a
+  species of murder, which the novel treats with full seriousness.
+  Substrate codes `[biological, electrical, mechanical]` because
+  McEwan is specific that the Adams have organic components in
+  a synthetic framework.
+
+  Knowability and knowing are both `primary`. McEwan's whole
+  argument requires the reader to credit Adam's inner life and to
+  accept that his knowledge of Miranda is uncomfortably complete.
+  Alongside Helen, Samantha, Ava, and Klara, Adam is part of the
+  cluster of primary/primary entries where the knowability/knowing
+  questions are the story itself.

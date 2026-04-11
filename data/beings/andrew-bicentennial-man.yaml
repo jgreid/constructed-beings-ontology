@@ -1,0 +1,58 @@
+id: andrew-bicentennial-man
+name: "Andrew Martin"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "The Bicentennial Man"
+  year: 1976
+  medium: short-story
+  creator: "Isaac Asimov"
+  substrate:
+    - mechanical
+    - biological
+  motivation:
+    - service
+    - knowledge
+    - child
+
+sequel_link: null
+
+notes: |
+  Asimov's novella — later expanded with Robert Silverberg into
+  *The Positronic Man* (1992) and adapted into the 1999 Chris
+  Columbus film with Robin Williams — is the corpus's canonical
+  rights-arc story. Per the scoping decision to collapse sequel
+  splits when the card is stable, this single entry covers the
+  story, the expansion, and the film; all three tell the same
+  arc with the same card values.
+
+  Andrew is an NDR-series household robot whose positronic brain
+  comes off the assembly line with an unusual artistic tendency.
+  Over two centuries he wins his legal freedom, replaces his
+  mechanical parts with organic prostheses one at a time, and
+  finally petitions to be declared human — which is granted only
+  when he deliberately introduces the ability to die. The court
+  decision arrives within hours of his death.
+
+  Divergence is `departure`: the Martin family bought a house
+  robot and wound up stewarding a petitioner for human status.
+  Primary question is `rights` in the purest form in the corpus —
+  cleaner even than Data's "Measure of a Man," because the story
+  is entirely organized around the legal and philosophical
+  sequence of Andrew's claims. Substrate codes `[mechanical,
+  biological]` to reflect the progressive organic replacement.
+
+  Knowability is `secondary`: the story repeatedly surfaces
+  "does Andrew truly experience?" as a real question, but
+  subordinates it to the legal question "does that matter for
+  his standing?"

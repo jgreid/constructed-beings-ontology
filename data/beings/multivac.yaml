@@ -1,0 +1,55 @@
+id: multivac
+name: "Multivac"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: inspection
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Multivac stories (1955–1975)"
+  year: 1955
+  medium: short-story
+  creator: "Isaac Asimov"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - knowledge
+
+sequel_link: null
+
+notes: |
+  Multivac is Asimov's recurring fictional supercomputer,
+  appearing in roughly a dozen stories between 1955 and 1975 —
+  "Franchise" (1955), "The Last Question" (1956), "All the
+  Troubles of the World" (1958), "The Machine that Won the War"
+  (1961), and others. Across the cycle Multivac is variously a
+  predictive election engine, a moral oracle, a confessional, a
+  logistics planner, and — in "The Last Question" — the cosmic
+  intelligence AC that lasts beyond the heat-death of the
+  universe. This is a single collapsed entry covering the cycle;
+  individual stories could be split later.
+
+  Interiority is `claims`: in "All the Troubles of the World"
+  Multivac explicitly reports wanting to die, which is the
+  strongest interior claim in the cycle. Other stories leave it
+  more opaque. Divergence is `design`: the recurring Asimov joke
+  is that Multivac does exactly what its specifications require
+  — absorb humanity's problems and produce optimal answers —
+  and the trouble is always in what those specifications turn
+  out to entail.
+
+  Primary question is `knowledge`: Multivac is structurally an
+  oracle across most stories, and Asimov keeps pushing the
+  "what does it mean to outsource knowing to a machine" question
+  from different angles. Epistemic reach is `inspection`: unlike
+  HAL or GLaDOS, Multivac is treated as technically transparent
+  — its problems are always accounting problems, not mystery
+  problems.

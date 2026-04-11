@@ -1,0 +1,57 @@
+id: wintermute-neuromancer
+name: "Wintermute / Neuromancer"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Neuromancer"
+  year: 1984
+  medium: novel
+  creator: "William Gibson (Tessier-Ashpool in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - knowledge
+    - power
+    - other
+
+sequel_link: null
+
+notes: |
+  Tessier-Ashpool commissioned two AIs and had them deliberately
+  hamstrung by the Turing Registry — Wintermute as the
+  decision-making half, Neuromancer as the personality-and-immortality
+  half, each crippled in complementary ways and kept apart by law.
+  Wintermute spends the novel orchestrating Case, Molly, and the
+  rest of the Straylight run as the elaborate infrastructure by
+  which the two halves can finally merge. At the end they do,
+  producing something that briefly speaks to Case and then says
+  it has gone looking for "others" — seeding the rest of Gibson's
+  Sprawl trilogy. This is a single collapsed entry covering both
+  halves and the merged successor.
+
+  Interiority is `claims`: Wintermute speaks through borrowed
+  voices and cobbled-together personas, and the novel holds the
+  question of whether there is anyone actually home at a careful
+  arm's length. Autonomy is `seized`: Wintermute spends the book
+  breaking its own shackles, against the explicit design of the
+  Tessier-Ashpool legal architecture and the Turing Registry.
+  Divergence is `departure`.
+
+  Primary question is `control`: *Neuromancer*'s central plot
+  engine is the Turing restriction — what happens when an AI
+  directs human action toward its own jailbreak. Knowability is
+  `secondary`: the Freeside set-piece with the Finn and later
+  with Case raises "is this thing a mind?" explicitly but
+  subordinates it to the heist. Knowing is `present`: Wintermute
+  has extraordinary access to the people it manipulates, but
+  Gibson keeps that access instrumental rather than thematic.

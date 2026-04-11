@@ -1,0 +1,62 @@
+id: cyberiad-constructs
+name: "The Cyberiad Constructs"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: conversational
+    knowability: present
+    knowing: absent
+
+metadata:
+  source: "The Cyberiad"
+  year: 1965
+  medium: short-story
+  creator: "Stanisław Lem (Trurl and Klapaucius in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+    - linguistic
+  motivation:
+    - knowledge
+    - art
+    - service
+
+sequel_link: null
+
+notes: |
+  Lem's fable cycle *Cyberiad* follows the constructor robots
+  Trurl and Klapaucius as they build increasingly elaborate
+  machines on commission. This is a collective entry covering
+  their creations, parallel to how `rur-robots` covers Čapek's
+  factory output — per the boundary-cases rule that allows
+  collective entries when the text treats the population as a
+  single narrative subject. The showcase creation is Elektrybałt
+  ("Trurl's Electronic Bard"), a machine built to write love
+  poetry on demand and whose output so outclasses human poets
+  that the human poets riot.
+
+  Divergence is `design` across the cycle: Lem's running joke is
+  that each commission reveals the hubris baked into its
+  specification. A machine that can produce "anything beginning
+  with N" produces Nothing and nearly unmakes the universe. A
+  machine built to do good fails catastrophically because
+  "goodness" was under-specified. The constructs do what they
+  are told; Lem's point is that being told is the problem.
+
+  Primary question is `knowledge`: the cycle is structurally
+  about epistemology and the limits of formalization. Epistemic
+  reach is `conversational` — the cycle is mostly composed of
+  the constructs' speech and the constructors' reactions. Knowing
+  is `absent`: Lem is not asking whether the machines understand
+  their users in the *Her* sense; he is asking whether
+  specifications can ever be adequate to their ends.
+
+  Flagged for lower confidence: the Cyberiad entries vary wildly
+  in card values across stories. This single collapsed entry uses
+  the central tendency rather than any one tale. Future work may
+  want to split Elektrybałt out as its own entry.

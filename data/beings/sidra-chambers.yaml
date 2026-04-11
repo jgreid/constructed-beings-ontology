@@ -1,0 +1,57 @@
+id: sidra-chambers
+name: "Sidra (formerly Lovelace)"
+
+card:
+  the_being:
+    interiority: narrated
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "A Closed and Common Orbit"
+  year: 2016
+  medium: novel
+  creator: "Becky Chambers"
+  substrate:
+    - electrical
+    - linguistic
+    - mechanical
+  motivation:
+    - service
+    - companionship
+    - other
+
+sequel_link: null
+
+notes: |
+  The second book in Chambers's Wayfarers series follows Lovelace,
+  a ship-AI whose previous ship has been destroyed; rather than
+  be decommissioned, she is illegally transplanted into a humanoid
+  "body kit" and renamed Sidra by her guardian Pepper. Sidra
+  spends the book learning to inhabit a single body, negotiating
+  the ethical weight of her illegal-person status, and building
+  a friendship with Pepper that becomes the novel's emotional
+  spine. Structurally a buddy road novel about what it takes for
+  an AI-in-a-body to actually become a person.
+
+  Interiority is `narrated`: the third-person narration is
+  persistently close to Sidra's perspective and gives full
+  access to the strangeness of inhabiting a single body after
+  having been a ship. Autonomy is `designed` — Sidra follows her
+  directives throughout, the directives just now include "pass
+  as human." Divergence is `departure`: the ship-AI was never
+  built for embodied life, and everything about Sidra's new
+  existence is a departure from the spec.
+
+  Primary question is `identity`. The novel's spine is "what is
+  Sidra now that she is no longer Lovelace, and what does she
+  owe to the person she used to be." That is a pure identity
+  arc in the sense the corpus uses. Both knowability and knowing
+  are `present` rather than elevated: Chambers takes Sidra's
+  interior for granted and is more interested in the social
+  logistics of embodiment than in epistemological doubt.

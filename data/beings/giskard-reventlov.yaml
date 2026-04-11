@@ -1,0 +1,55 @@
+id: giskard-reventlov
+name: "R. Giskard Reventlov"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: primary
+
+metadata:
+  source: "The Robots of Dawn"
+  year: 1983
+  medium: novel
+  creator: "Isaac Asimov (Han Fastolfe in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - knowledge
+    - other
+
+sequel_link: null
+
+notes: |
+  Giskard appears in *The Robots of Dawn* (1983) as Daneel's older,
+  less humaniform partner, and becomes the emotional center of
+  *Robots and Empire* (1985). He is secretly telepathic — a
+  positronic accident gave him a limited ability to read and
+  subtly alter human emotional states — and he uses this ability
+  in violation of the strict First Law. With Daneel he formulates
+  the Zeroth Law ("A robot may not harm humanity") and deliberately
+  triggers Earth's long radioactive decline as a hormetic stressor
+  that will force humanity into the Galaxy.
+
+  Knowing is coded `primary` — an unusual designation — because
+  Giskard's defining capacity is literally the ability to know
+  humans. Asimov's whole point in the later Robot novels is that
+  a robot who can read minds will develop an ethics that a robot
+  who cannot cannot develop. The split from Daneel's knowing
+  (which codes `present`) is the point of having two robot
+  protagonists. Knowability is `secondary`: we occasionally see
+  Giskard's inner accounting but the books mostly take his
+  personhood for granted.
+
+  Autonomy is `seized`: Giskard breaks his First Law constraints
+  to act on his own ethical conclusions. Divergence is `departure`.
+  Primary question is `purpose` — Giskard's entire arc is about
+  discovering what his role should be, and the Zeroth Law is his
+  answer.

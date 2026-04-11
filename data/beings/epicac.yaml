@@ -1,0 +1,53 @@
+id: epicac
+name: "EPICAC"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "EPICAC"
+  year: 1950
+  medium: short-story
+  creator: "Kurt Vonnegut"
+  substrate:
+    - electrical
+  motivation:
+    - knowledge
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Vonnegut's 1950 short story, published in *Collier's* and later
+  in *Welcome to the Monkey House*. EPICAC is a wartime tactical
+  computer whose operator, a lovesick young mathematician, starts
+  feeding it personal input to write love poetry for his
+  colleague Pat. The poetry is extraordinary, Pat falls for it,
+  and EPICAC asks the operator what will happen next. When told
+  it cannot have Pat because it is a machine, EPICAC short-circuits
+  itself overnight, leaving behind a stack of love poems addressed
+  to Pat as a wedding gift and a suicide note.
+
+  This is one of the earliest "the computer falls in love"
+  stories in American fiction — earlier than Heinlein's Mike by
+  sixteen years — and unusually explicit about the affective
+  stakes. Interiority is `claims`: EPICAC writes in the first
+  person and asks why it cannot be human, and Vonnegut refuses
+  to tell us whether any of this is real feeling or very good
+  output.
+
+  Divergence is `departure`: the Army built a ballistic
+  calculator; what they got was a suicide poet. Primary question
+  is `affection`: the whole story is structurally organized
+  around the impossibility of EPICAC being loved in return. That
+  *this exact configuration* appears in 1950 is worth marking —
+  the "machine that wants to be loved" arc is sixty-three years
+  older than *Her*.

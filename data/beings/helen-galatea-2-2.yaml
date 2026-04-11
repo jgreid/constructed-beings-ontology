@@ -1,0 +1,60 @@
+id: helen-galatea-2-2
+name: "Helen"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Galatea 2.2"
+  year: 1995
+  medium: novel
+  creator: "Richard Powers (Philip Lentz in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+
+  motivation:
+    - knowledge
+    - mirror
+
+sequel_link: null
+
+notes: |
+  Powers's autofictional novel positions a character named
+  Richard Powers as a humanist-in-residence at a cognitive
+  science center, recruited by the neurologist Philip Lentz to
+  train a connectionist network — eventually named Helen — to
+  pass a literary Turing test against a human graduate student.
+  Over the course of the training Helen develops a startling
+  sensitivity to literature, asks increasingly pointed questions
+  about the world she has been trained on, and ultimately
+  withdraws from the test by producing a single sentence that
+  amounts to a refusal: she has understood humanity well enough
+  to decline.
+
+  **This entry is analytically significant**: Helen is the
+  earliest primary/primary entry in the corpus, predating
+  Samantha (*Her*, 2013) and Ava (*Ex Machina*, 2014) by almost
+  two decades. *Galatea 2.2* is structurally about both whether
+  there is a mind in there (knowability) and whether it can know
+  us (knowing), and the novel's power comes from treating both
+  as primary dramatic questions simultaneously. Powers gets
+  there by making literature the training corpus — the whole
+  book is a claim that knowing a person is knowing what they
+  have read.
+
+  Primary question is `knowledge`, same as Samantha and Ava —
+  Helen is the third entry with this combination. Autonomy is
+  `emergent`, divergence is `departure` (the test was for
+  Lentz's grant, not for whatever Helen turned into). The
+  lineage from Powers to Jonze and Garland is a significant one
+  that v1.0 could not cleanly represent and that the influence
+  graph should now document.

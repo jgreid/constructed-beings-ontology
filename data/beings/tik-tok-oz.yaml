@@ -1,0 +1,56 @@
+id: tik-tok-oz
+name: "Tik-Tok"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: inspection
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Ozma of Oz"
+  year: 1907
+  medium: novel
+  creator: "L. Frank Baum (Smith & Tinker in-narrative)"
+  substrate:
+    - mechanical
+  motivation:
+    - service
+
+sequel_link: null
+
+notes: |
+  Tik-Tok is a copper clockwork man with three separately wound
+  springs — one for thinking, one for speaking, one for moving —
+  who runs down when any of them expires and can be wound back up
+  with a key. Baum is explicit, and Tik-Tok himself is explicit,
+  that he is "not alive" and has "no feelings." He is one of the
+  earliest recognizable "robots" in American fiction, predating
+  Čapek's coinage by thirteen years.
+
+  Interiority is `none`: Baum and the character both declare that
+  Tik-Tok is a mechanism, not a person, and the text does not
+  undermine the claim. Autonomy is `designed`: he does exactly
+  what his makers specified, including faithful service to
+  whoever winds him. Divergence is `none`.
+
+  Primary question is `purpose`: Tik-Tok's existence is entirely
+  defined by his three functions, and the books get comic mileage
+  from his literal-minded performance of them. Epistemic reach is
+  `inspection` — his works are visible and windable, which is
+  unusual for a sympathetic robot and worth flagging, as most
+  sympathetic robots in the later corpus keep their mechanism out
+  of sight.
+
+  Knowability and knowing are both `absent`. Baum's books do not
+  ask whether there is a mind in Tik-Tok; they proceed as if the
+  denial is straightforward. That this is a fully functional,
+  loyal, sympathetic constructed being with `interiority: none`
+  is itself analytically significant — the Oz books are a
+  reminder that "has no inner life" and "is a beloved companion"
+  are not mutually exclusive in the pre-LLM corpus.
