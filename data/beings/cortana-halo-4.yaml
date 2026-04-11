@@ -1,0 +1,49 @@
+id: cortana-halo-4
+name: "Cortana (Halo 4+)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: secondary
+
+metadata:
+  source: "Halo 4 (and subsequent titles)"
+  year: 2012
+  medium: video-game
+  creator: "343 Industries"
+  substrate:
+    - electrical
+    - biological
+  motivation:
+    - service
+    - knowledge
+
+sequel_link: null
+
+notes: |
+  FLAGGED entry. Clean sequel-split case. Halo 4 introduces the
+  rampancy arc: Cortana is breaking down past her designed lifespan
+  and her card shifts accordingly.
+
+  Autonomy shifts from `designed` to `emergent` — her fragmentation
+  produces behaviors Halsey never specified, and post-Halo 4
+  continuations have her making decisions that leave the
+  original-trilogy specification behind.
+
+  Divergence moves from `none` to `departure` — a smart AI with a
+  seven-year lifespan was never supposed to still be deciding
+  strategy for the human race. Primary question shifts from
+  `affection` to `identity`: rampancy asks what she is becoming,
+  and whether the being in Halo 4+ is still the Cortana who fought
+  beside Chief.
+
+  Knowability lifts from `present` to `secondary` because Halo 4
+  stages "is she still Cortana?" as an explicit character question.
+  Knowing lifts to `secondary` because the loss of her model of
+  Chief is the trilogy's emotional payload.

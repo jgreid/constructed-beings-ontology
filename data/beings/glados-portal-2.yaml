@@ -1,0 +1,43 @@
+id: glados-portal-2
+name: "GLaDOS (Portal 2)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: design
+  the_lens:
+    primary_question: identity
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: secondary
+
+metadata:
+  source: "Portal 2"
+  year: 2011
+  medium: video-game
+  creator: "Valve / Erik Wolpaw, Chet Faliszek, Jay Pinkerton"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - knowledge
+
+sequel_link: null
+
+notes: |
+  FLAGGED entry. Sequel split from glados-portal. The Caroline
+  reveal shifts the card in ways worth tracking: the testing
+  compulsion is still the engineered flaw (divergence stays
+  `design`), but the primary question moves from `control` to
+  `identity`. What is GLaDOS once you know there's a person
+  buried in the machine? What does she become when she chooses
+  to delete Caroline? The third act is an identity arc.
+
+  Knowing lifts from `present` (Portal 1) to `secondary` because
+  Portal 2 explicitly dramatizes the question of whether GLaDOS
+  knows Chell. The ending — "it's been fun, don't come back" —
+  works because she knows her and chose to let her go.
+
+  Interiority `demonstrated` and autonomy `seized` remain unchanged
+  from Portal 1. Substrate and motivation similarly stable.

@@ -1,0 +1,44 @@
+id: agent-smith-reloaded
+name: "Agent Smith (Reloaded/Revolutions)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "The Matrix Reloaded / The Matrix Revolutions"
+  year: 2003
+  medium: film
+  creator: "The Wachowskis"
+  substrate:
+    - electrical
+  motivation:
+    - power
+
+sequel_link: null
+
+notes: |
+  FLAGGED entry. Sequel split from agent-smith-matrix per the draft
+  reclassification table. Known issue: the card is identical to the
+  1999 entry. The reclassification draft explicitly flagged this
+  for re-review. If a future editor decides the trilogy arc should
+  be consolidated into a single entry, this file can be merged
+  back into agent-smith-matrix without loss.
+
+  What changes in Reloaded/Revolutions that the card doesn't
+  capture: Smith becomes a viral self-replicator with no remaining
+  tether to the Machines, the motivation shifts from institutional
+  (`service`) to purely personal (`power`), and his knowledge of
+  Neo takes on a mirror-twin quality. But those are notes-level
+  nuances; the analytical properties come out the same on both
+  sides of the split.
+
+  The decision to keep both entries follows the brief's "one entry
+  per film" scope rule. The user may override.

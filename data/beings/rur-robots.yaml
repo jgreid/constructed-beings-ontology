@@ -1,162 +1,43 @@
-# Constructed Beings Ontology — R.U.R. Robots
-# Source: Karel Čapek, R.U.R. (Rossum's Universal Robots), 1920
-# Coded: 2026-04-03
-
 id: rur-robots
 name: "R.U.R. Robots"
-aliases:
-  - "Rossum's Universal Robots"
-  - "Robots"   # The word "robot" originates here, from Czech "robota" (forced labor)
 
-# ── SOURCE ────────────────────────────────────────────────────────────
-source:
-  author: "Karel Čapek"
-  title: "R.U.R. (Rossum's Universal Robots)"
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "R.U.R. (Rossum's Universal Robots)"
   year: 1920
   medium: play
-  tradition: Czech
-
-# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
-# The robots are biologically manufactured in vats — mass-produced but not
-# reproduced sexually or clonally. They are made, not born.
-reproductive_method: made
-
-# ── CREATOR ───────────────────────────────────────────────────────────
-creator:
-  # Old Rossum invented the biological synthesis process; Young Rossum
-  # simplified and industrialized it for mass production. The corporate
-  # entity R.U.R. is the institutional creator.
-  name: "Rossum's Universal Robots (Old Rossum, inventor; Young Rossum, industrializer)"
-
-  # M-SRV: The robots exist to serve as cheap labor — to free humanity
-  # from work. This is the explicit stated purpose.
-  # M-POW: The economic motivation is inseparable from power — R.U.R.
-  # seeks to dominate global markets through robot labor.
-  motivation:
-    - M-SRV
-    - M-POW
-
-  # CM-RET: The creation of robots is initially presented as progress —
-  # liberation of humanity from toil. It is only judged as hubristic and
-  # catastrophic after the revolt. The moral framing is retrospective.
-  creation_morality: CM-RET
-
-# ── BEING ─────────────────────────────────────────────────────────────
-being:
-  # S-BIO: Crucially, Čapek's robots are NOT mechanical. They are biological —
-  # synthetic organic beings grown in vats. This is often misunderstood due to
-  # the later mechanical connotation of "robot."
-  # S-CLO: The manufacturing process produces identical copies from a template,
-  # which has a clonal quality even though it is not cloning in the strict sense.
+  creator: "Karel Čapek"
   substrate:
-    - S-BIO
-    - S-CLO
+    - biological
+    - cloned
+  motivation:
+    - service
+    - power
 
-  # A-SEI: The robots seize autonomy through organized revolution. Their
-  # autonomy is not designed (they were built to be obedient workers) nor
-  # does it emerge gradually — it is seized through collective action.
-  autonomy: A-SEI
-  autonomy_trajectory: >
-    The robots begin as perfectly obedient laborers with no apparent will.
-    Gradually, through modifications by Dr. Gall (who gives some robots the
-    capacity to feel pain), they develop self-awareness and solidarity.
-    The trajectory culminates in organized revolution — a collective seizure
-    of autonomy that destroys human civilization.
+sequel_link: null
 
-  # I-DEM: The robots demonstrate interiority through their development of
-  # feelings, especially in the final act. Primus and Helena (robots) show
-  # what appears to be love — willingness to sacrifice for each other.
-  # Their interiority is demonstrated behaviorally, not narrated from inside.
-  interiority: I-DEM
+notes: |
+  Čapek's robots are explicitly biological-synthetic, grown in vats —
+  the play's "robot" is closer to a v2 `cloned`+`biological` than to
+  mechanical. The word "robot" came from this play but the substrate
+  was never metal.
 
-  # L-DES: The robots have designed lifespans — they wear out after a set
-  # period. This is a critical plot point: after the revolt, the robots
-  # cannot reproduce and face extinction because they lack the formula
-  # for manufacturing new robots.
-  mortality: L-DES
+  Primary question is `rights`: the play is a parable about slave
+  labor and its moral intolerability. The robots' uprising is the
+  rights question made physical.
 
-  # MU-MAN: The robots are mass-manufactured — millions of identical units
-  # produced in factories. This is one of the earliest mass-production
-  # narratives in the constructed-beings tradition.
-  multiplicity: MU-MAN
-
-  # P-CON: The robots retain continuous memory. Their accumulated experience
-  # contributes to their eventual self-awareness and revolt.
-  memory_persistence: P-CON
-
-  # NCT-NO: The robots are manufactured from scratch — synthetic biology,
-  # not transformation of existing beings.
-  nonconsensual_transformation: NCT-NO
-
-# ── RELATIONSHIP ──────────────────────────────────────────────────────
-relationship:
-  # F-AUT: The robots achieve autonomy that their creators find threatening —
-  # and that ultimately destroys humanity.
-  # F-DEM: Before the revolt, there are demands for rights, freedom, and
-  # recognition of their status as persons rather than property.
-  # F-EXC: The robots exceed their intended role as obedient laborers in
-  # every conceivable way — developing feelings, organizing, revolting.
-  failure_mode:
-    - F-AUT
-    - F-DEM
-    - F-EXC
-
-  question:
-    - Q-RTS
-    - Q-CTL
-    - Q-FEL
-
-  # Q-RTS is primary: R.U.R. is fundamentally about labor rights, personhood,
-  # and the moral status of created workers. The word "robot" itself comes
-  # from "robota" (forced labor/serfdom). The play is an allegory about
-  # exploitation and the rights of the exploited.
-  question_primary: Q-RTS
-
-  # ER-BEH: The robots understand human behavior well enough to organize
-  # a successful revolution — they predict human responses and exploit
-  # human weaknesses. Their epistemic access is behavioral/strategic.
-  epistemic_reach: ER-BEH
-
-  # QK-ABS: The robots' revolution is about labor, rights, and survival —
-  # not about knowing humans. The epistemics question is simply not raised.
-  # The robots do not seek to understand humans; they seek to replace them.
-  q_kno_status: QK-ABS
-
-# ── NARRATIVE ROLE ────────────────────────────────────────────────────
-# NR-SUB: The robots are the collective subject of the play. Though individual
-# human characters (Helena, Domin, Alquist) carry scenes, the robots as a
-# class are what the play is about, and robot characters (Radius, Primus,
-# robot-Helena) drive the final acts.
-narrative_role: NR-SUB
-
-# ── CITATIONS ─────────────────────────────────────────────────────────
-citations:
-  - property: creator.motivation
-    text: "Robots are not people. They are mechanically more perfect than we are, but they have no soul"
-    location: "Act I (Domin to Helena)"
-    note: "Domin's justification for robot labor — they are tools, not persons. Supports M-SRV framing."
-
-  - property: relationship.failure_mode
-    text: "The power of man has fallen. A new world has arisen: the rule of the Robots!"
-    location: "Act III (Radius)"
-    note: "The revolt declaration — supports F-AUT and F-DEM coding."
-
-  - property: being.interiority
-    text: "Go, Primus. I will not go without her. I will not leave her"
-    location: "Act III / Epilogue (Primus, regarding robot-Helena)"
-    note: "Primus refuses to let robot-Helena be dissected — demonstrates love and sacrifice. Supports I-DEM."
-
-# ── NOTES ─────────────────────────────────────────────────────────────
-notes: >
-  R.U.R. is the origin of the word "robot" and one of the most influential
-  constructed-beings narratives ever written. Its key insight — often lost in
-  popular retellings — is that Čapek's robots are biological, not mechanical.
-  They are closer to clones or bioengineered organisms than to the metal
-  automatons the word "robot" later came to connote. The play's ending is
-  deliberately ambiguous and hopeful: Primus and robot-Helena, the two robots
-  who have developed the capacity to love, are sent out by Alquist as a new
-  Adam and Eve. The constructed beings inherit the earth not through conquest
-  but through the emergence of feeling. The play is also notable for its
-  collective framing — the "being" here is a class, not an individual, which
-  makes it an important precedent for narratives about AI populations rather
-  than singular AI characters.
+  Divergence is `departure`: designed for service, they leave the
+  specification by organizing and revolting. Knowability is `absent` —
+  the play is not interested in whether the robots truly experience.
+  They suffer visibly, which is enough; the epistemology doesn't
+  matter to the politics.

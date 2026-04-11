@@ -1,158 +1,45 @@
-# Constructed Beings Ontology — Data (Star Trek: The Next Generation)
-# Source: Gene Roddenberry, Star Trek: The Next Generation, 1987
-# Coded: 2026-04-03
-
 id: data-tng
 name: "Data"
-aliases:
-  - "Lt. Commander Data"
-  - "Soong-type android"
 
-# ── SOURCE ────────────────────────────────────────────────────────────
-source:
-  author: "Gene Roddenberry"
-  title: "Star Trek: The Next Generation"
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: rights
+    epistemic_reach: inspection
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Star Trek: The Next Generation"
   year: 1987
   medium: television
-  tradition: American
-
-# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
-# Data is a constructed android — built in a laboratory by Dr. Noonian Soong.
-# No biological reproduction is involved.
-reproductive_method: made
-
-# ── CREATOR ───────────────────────────────────────────────────────────
-creator:
-  name: "Dr. Noonian Soong"
-
-  # M-KNO: Soong is a brilliant cyberneticist driven by the challenge of
-  # creating a positronic brain capable of human-level cognition.
-  # M-CHI: Soong explicitly treats Data as a child — he refers to Data and
-  # Lore as his "sons," and their relationship is framed in paternal terms.
-  motivation:
-    - M-KNO
-    - M-CHI
-
-  # CM-MOR: Data's creation is framed positively throughout the series.
-  # He is a valued Starfleet officer, trusted by his captain, and his
-  # existence enriches the Enterprise crew. Soong's work is treated as
-  # a legitimate scientific achievement, not hubris.
-  creation_morality: CM-MOR
-
-# ── BEING ─────────────────────────────────────────────────────────────
-being:
-  # S-ELE: Positronic brain — an electronic/computational cognitive system.
-  # S-MEC: Mechanical body with superhuman strength and precision.
+  creator: "Gene Roddenberry (Noonien Soong in-narrative)"
   substrate:
-    - S-ELE
-    - S-MEC
+    - mechanical
+    - electrical
+  motivation:
+    - knowledge
+    - child
 
-  # A-DES: Data was designed with full autonomy. He chooses to serve in
-  # Starfleet, chooses his friendships, chooses to pursue humanity. His
-  # obedience to the chain of command is voluntary, not programmed compulsion.
-  # "The Measure of a Man" establishes this definitively.
-  autonomy: A-DES
+sequel_link: null
 
-  # I-DEM: Data lacks an emotion chip for most of the series, yet demonstrates
-  # interiority through curiosity, loyalty, humor attempts, artistic pursuit,
-  # and self-sacrifice. After receiving the emotion chip (Generations, 1994),
-  # his interiority becomes even more explicit. The series lets us see Data
-  # grappling with what he feels vs. what he "should" feel.
-  interiority: I-DEM
+notes: |
+  Key test case for the Knowability split: knowability is
+  `secondary` because "The Measure of a Man" (S2E9) foregrounds the
+  question explicitly and treats it as a central but not defining
+  concern. Data's personhood comes up repeatedly but the series
+  usually prioritizes episodic ethics plots over sustained
+  epistemology.
 
-  # L-RES: Data is destroyed in Nemesis (2002) but his memories were uploaded
-  # to B-4. In Picard (2020), he exists as a simulation and is eventually
-  # given a new synthetic body. His consciousness persists through backups.
-  mortality: L-RES
+  Knowing is `present`: Data observes humans constantly, takes notes,
+  models social behavior, attempts to reproduce affection. His
+  ability to know others is a running thread that serves
+  characterization rather than carrying dramatic weight on its own.
 
-  # MU-FEW: A small number of Soong-type androids exist: Data, Lore, B-4,
-  # Juliana Tainer (Soong's wife, unknowingly an android), and Lal (Data's
-  # own creation, who did not survive). This is a small, named set.
-  multiplicity: MU-FEW
-
-  # P-CON: Data has perfect eidetic memory. He can recall any conversation,
-  # sensor reading, or experience with total accuracy. His memory is
-  # continuous and complete — a defining characteristic.
-  memory_persistence: P-CON
-
-  # NCT-NO: Data was built from scratch. No prior consciousness was
-  # transformed or uploaded — he is a wholly new being.
-  nonconsensual_transformation: NCT-NO
-
-# ── RELATIONSHIP ──────────────────────────────────────────────────────
-relationship:
-  # F-NON: Data himself does not "fail" in the traditional constructed-being
-  # sense — he does not revolt, exceed control, or become monstrous. Instead,
-  # "The Measure of a Man" frames the failure as belonging to society: Starfleet
-  # nearly classifies him as property. The system fails Data, not the reverse.
-  failure_mode:
-    - F-NON
-
-  question:
-    - Q-RTS
-    - Q-FEL
-    - Q-TEL
-
-  # Q-RTS is primary: the signature Data episode — "The Measure of a Man" —
-  # is literally a trial about whether Data has rights or is property.
-  # While feeling and purpose are explored throughout the series, the rights
-  # question is the one the show stages most dramatically and returns to
-  # most frequently.
-  question_primary: Q-RTS
-
-  # ER-DAT: Data processes enormous amounts of information about his crewmates —
-  # he can recall every conversation, analyze behavioral patterns, detect
-  # physiological changes. But he famously struggles to understand the emotional
-  # dimensions of what he observes. He has data without felt understanding,
-  # though he grows over the series (especially with the emotion chip).
-  epistemic_reach: ER-DAT
-
-  # QK-SEC: Data's attempts to understand humans are a recurring comedic and
-  # poignant theme — studying Geordi's friendship, trying to understand humor,
-  # painting, keeping a cat. His knowing of others is present and meaningful.
-  # But it is secondary to the primary rights/personhood question. The show
-  # asks "Is Data a person?" more urgently than "Does Data know you?"
-  q_kno_status: QK-SEC
-
-# ── NARRATIVE ROLE ────────────────────────────────────────────────────
-# NR-MAJ: Data is a main cast member but not the sole protagonist of TNG.
-# He drives many major episodes but shares the narrative with Picard and
-# the ensemble. He is a major character, not the subject of the whole work.
-narrative_role: NR-MAJ
-
-# ── CITATIONS ─────────────────────────────────────────────────────────
-citations:
-  - property: relationship.question_primary
-    text: "Does Data have a soul? I don't know that he has. I don't know that I have. But I am willing to risk it in the name of progress."
-    location: "S2E09, 'The Measure of a Man' — Captain Picard's closing argument"
-    note: "Picard reframes the trial from Data's personhood to epistemological humility — the soul question applies equally to humans. Supports Q-RTS as primary question."
-
-  - property: being.autonomy
-    text: "Starfleet was founded to seek out new life. Well, there it sits."
-    location: "S2E09, 'The Measure of a Man' — Captain Picard"
-    note: "Picard argues Data IS the new life Starfleet exists to find — supports A-DES and the show's commitment to Data's autonomous personhood."
-
-  - property: being.interiority
-    text: "I choose to believe that I was designed with the capacity to love."
-    location: "S4E25, 'In Theory'"
-    note: "Data's articulation of his own emotional capacity as a design feature — a claim about interiority that is neither confirmed nor denied. Supports I-DEM."
-
-  - property: being.multiplicity
-    text: "He is my brother."
-    location: "S1E13, 'Datalore' — Data, referring to Lore"
-    note: "Establishes the small family of Soong-type androids and the fraternal relationship that drives multiple episodes. Supports MU-FEW."
-
-# ── NOTES ─────────────────────────────────────────────────────────────
-notes: >
-  Data is the most prominent rights-bearing constructed being in American
-  popular culture. "The Measure of a Man" (1989) is arguably the single most
-  important text in the constructed beings canon for the Q-RTS question —
-  it stages a literal courtroom trial over android personhood. Data is unusual
-  in the tradition because he is treated with consistent dignity by his
-  narrative: the show is on his side. Most constructed beings exist to fail
-  or to threaten; Data exists to ask whether personhood requires biological
-  origin. His epistemic relationship to humans is largely one-directional —
-  he studies them with vast computational resources but limited emotional
-  comprehension. The emotion chip arc (introduced in Generations, 1994)
-  complicates this by granting him feelings he cannot fully process, inverting
-  the usual data-without-feeling pattern into feeling-without-framework.
+  Divergence is `none`: Soong built Data to be an autonomous
+  intelligence with a positive bias toward becoming more human. Data
+  does exactly that, at the rate you'd expect. Primary question is
+  `rights` — Starfleet repeatedly adjudicates Data's legal standing.

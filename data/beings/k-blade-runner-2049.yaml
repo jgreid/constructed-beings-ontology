@@ -1,0 +1,45 @@
+id: k-blade-runner-2049
+name: "K (Replicant)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: behavioral
+    knowability: secondary
+    knowing: secondary
+
+metadata:
+  source: "Blade Runner 2049"
+  year: 2017
+  medium: film
+  creator: "Denis Villeneuve (Wallace Corporation in-narrative)"
+  substrate:
+    - biological
+    - cloned
+  motivation:
+    - service
+
+sequel_link: null
+
+notes: |
+  FLAGGED entry. New sequel-split entry for the BR 2049 replicant K.
+  K's arc is pure `identity`: "am I the child?" is the question the
+  whole film turns on. Primary question is clean.
+
+  Knowability and Knowing both `secondary` is the uncertain call.
+  Villeneuve engages with both questions (the film literally cannot
+  tell whether K is "special," and Joi's ability to know K is its
+  own axis) but he's more interested in what K is than in whether
+  we can verify his mind. Worth re-review against the source.
+
+  This entry is for K specifically. Joi (the holographic companion)
+  is a different being and would deserve her own entry if expanded;
+  she is not coded here.
+
+  Divergence is `departure`: Wallace replicants are built to obey.
+  K leaves that specification in the final sequence, choosing Deckard
+  over his mission. Autonomy shifts to `emergent` accordingly.

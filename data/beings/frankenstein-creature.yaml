@@ -1,162 +1,41 @@
-# Constructed Beings Ontology — Frankenstein's Creature
-# Source: Mary Shelley, Frankenstein; or, The Modern Prometheus, 1818
-# Coded: 2026-04-03
-
 id: frankenstein-creature
 name: "The Creature"
-aliases:
-  - "Frankenstein's Monster"
-  - "The Wretch"
-  - "The Daemon"
-  - "Adam"   # The Creature's own self-identification via Paradise Lost
 
-# ── SOURCE ────────────────────────────────────────────────────────────
-source:
-  author: "Mary Shelley"
-  title: "Frankenstein; or, The Modern Prometheus"
+card:
+  the_being:
+    interiority: narrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Frankenstein; or, The Modern Prometheus"
   year: 1818
   medium: novel
-  tradition: British
-
-# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
-# Victor assembles the Creature from collected body parts and animates it
-# through an unspecified process (galvanism implied). Entirely manufactured.
-reproductive_method: made
-
-# ── CREATOR ───────────────────────────────────────────────────────────
-creator:
-  name: "Victor Frankenstein"
-
-  # M-KNO: Victor is driven by scientific ambition — "I will pioneer a new way,
-  # explore unknown powers, and unfold to the world the deepest mysteries of creation."
-  # M-CHI: He also speaks of creating a new species that would "bless me as its
-  # creator and source" — a godlike desire for legacy and filial gratitude.
-  # M-POW: The desire to conquer death itself is a power motivation.
-  motivation:
-    - M-KNO
-    - M-CHI
-    - M-POW
-
-  # CM-RET: The creation is not initially framed as transgressive — Victor
-  # pursues it with enthusiasm and the text treats his ambition as understandable.
-  # It is judged as hubristic only after the consequences unfold. The moral
-  # framing is retrospective, not predetermined.
-  creation_morality: CM-RET
-
-# ── BEING ─────────────────────────────────────────────────────────────
-being:
-  # S-BIO: The Creature is made from biological material — dead human
-  # (and possibly animal) tissue, assembled and reanimated. He is organic,
-  # not mechanical or magical.
+  creator: "Mary Shelley (Victor Frankenstein in-narrative)"
   substrate:
-    - S-BIO
+    - biological
+  motivation:
+    - knowledge
+    - child
+    - power
 
-  # A-EMR: The Creature's autonomy is entirely emergent. Victor designs
-  # nothing about his behavior or personality. The Creature develops
-  # independence, language, moral reasoning, and eventually deliberate
-  # rebellion through lived experience — none of it was intended.
-  autonomy: A-EMR
-  autonomy_trajectory: >
-    The Creature progresses from helpless newborn-like confusion to independent
-    language-learner to moral philosopher to deliberate antagonist. Each stage
-    is shaped by experience (especially rejection), not by design. His autonomy
-    grows in direct proportion to Victor's abandonment.
+sequel_link: null
 
-  # I-NAR: Shelley gives the Creature his own first-person narrative voice
-  # in the novel's nested structure (Walton > Victor > Creature). He narrates
-  # his experiences, feelings, and reasoning directly. This is full interiority.
-  interiority: I-NAR
+notes: |
+  Interiority is `narrated`: Shelley gives the Creature his own
+  first-person chapters inside the frame narrative. He speaks in his
+  own voice, quoting Paradise Lost, articulating his desires.
 
-  # L-MOR: The Creature is mortal. He states his intention to die on a
-  # funeral pyre at the novel's end. His biological body is destructible.
-  mortality: L-MOR
+  Divergence is `departure`: Victor wanted a "new species" to bless
+  him; what he got was a moral philosopher with his own demands. The
+  gap is in where the Creature went, not in the specification.
 
-  multiplicity: MU-ONE
-
-  # P-CON: The Creature has continuous memory. He narrates his entire life
-  # history in sequence, from first confused sensations to present. His
-  # memory of rejection, of the De Lacey family, of reading Paradise Lost —
-  # all persist and accumulate to form his identity.
-  memory_persistence: P-CON
-
-  # NCT-NO: The Creature is assembled from dead tissue. The source individuals
-  # are already dead — there is no living being transformed without consent.
-  nonconsensual_transformation: NCT-NO
-
-# ── RELATIONSHIP ──────────────────────────────────────────────────────
-relationship:
-  # F-DEM: The Creature's central demand — for a female companion — is the
-  # pivotal crisis. He demands reciprocity, recognition, and relationship.
-  # F-REV: The Creature reveals Victor's irresponsibility. His existence and
-  # suffering are a standing indictment of Victor's failure as creator/parent.
-  # F-AUT: The Creature achieves an autonomy that Victor finds threatening —
-  # he cannot be controlled, contained, or unmade.
-  failure_mode:
-    - F-DEM
-    - F-REV
-    - F-AUT
-
-  question:
-    - Q-FEL
-    - Q-RTS
-    - Q-LOV
-
-  # Q-FEL is primary: the deepest question the novel asks is whether the
-  # Creature has real feelings — and if so, what obligations that creates.
-  # His eloquent suffering is the engine of the plot. Rights and love are
-  # important but subordinate to this core question of fellow-feeling.
-  question_primary: Q-FEL
-
-  # ER-BEH: The Creature learns to predict and manipulate Victor's behavior.
-  # He understands Victor's fears, guilt patterns, and weaknesses through
-  # observation. His epistemic access is behavioral — he reads Victor's
-  # actions, not his mind.
-  epistemic_reach: ER-BEH
-
-  # QK-INFRA: The Creature knows Victor deeply — perhaps better than anyone.
-  # He understands Victor's cowardice, his guilt, his inability to take
-  # responsibility. But the narrative foregrounds feeling and rights, not
-  # the knowing itself. The epistemics are infrastructural, not thematic.
-  q_kno_status: QK-INFRA
-
-# ── NARRATIVE ROLE ────────────────────────────────────────────────────
-# NR-SUB: The Creature is arguably the true subject of the novel. He gets
-# his own narrative voice, drives the plot, and raises every major question.
-# Victor is the nominal protagonist, but the Creature is the subject.
-narrative_role: NR-SUB
-
-# ── CITATIONS ─────────────────────────────────────────────────────────
-citations:
-  - property: creator.motivation
-    text: "A new species would bless me as its creator and source"
-    location: "Volume I, Chapter 4"
-    note: "Victor's godlike ambition — supports M-CHI and M-POW coding."
-
-  - property: being.interiority
-    text: "I am malicious because I am miserable"
-    location: "Volume II, Chapter 9 (Creature's narrative)"
-    note: "Direct first-person articulation of inner state — supports I-NAR."
-
-  - property: relationship.failure_mode
-    text: "I will be with you on your wedding-night"
-    location: "Volume II, Chapter 9"
-    note: "The Creature's threat demonstrates his power over Victor — supports F-AUT, F-REV."
-
-  - property: being.autonomy
-    text: "I ought to be thy Adam, but I am rather the fallen angel"
-    location: "Volume II, Chapter 7 (Creature's narrative)"
-    note: "Self-identification via Paradise Lost shows emergent moral reasoning — supports A-EMR."
-
-# ── NOTES ─────────────────────────────────────────────────────────────
-notes: >
-  The Creature is the foundational case for the constructed being who demands
-  recognition. Shelley's nested narrative structure is itself an argument about
-  interiority — by giving the Creature his own voice, she forces the reader to
-  confront his personhood before returning to Victor's dehumanizing perspective.
-  The novel is unusual in that the creator (Victor) is less sympathetic than
-  the creation. The Creature's self-education through Paradise Lost, Plutarch,
-  and Sorrows of Young Werther establishes a tradition of constructed beings
-  who learn what it means to be human by reading human texts — a motif that
-  recurs through the entire tradition. Note: "Frankenstein" is the creator,
-  not the creature. The popular conflation of the two names is itself a
-  commentary on creator-creation entanglement.
+  Primary question is `affection` (merging v1's fellow-feeling and
+  love): the Creature's central demand is to be loved, to have a
+  companion, to not be alone. The refusal of that demand is what
+  drives the rest of the plot.

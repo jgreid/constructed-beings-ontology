@@ -1,0 +1,44 @@
+id: olympia-sandmann
+name: "Olympia"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: none
+    divergence: observer
+  the_lens:
+    primary_question: identity
+    epistemic_reach: none
+    knowability: present
+    knowing: absent
+
+metadata:
+  source: "Der Sandmann"
+  year: 1816
+  medium: short-story
+  creator: "E.T.A. Hoffmann (Spalanzani and Coppola in-narrative)"
+  substrate:
+    - mechanical
+  motivation:
+    - knowledge
+    - art
+
+sequel_link: null
+
+notes: |
+  Reclassified from v1: interiority `denied` → `undecidable`. The
+  whole story is about Nathanael not being able to tell — the text
+  refuses to settle whether Olympia has inner life. That is
+  `undecidable`, not `denied`. Primary question reclassified from
+  v1 `purpose` to `identity`: the story asks what she is, not what
+  she is for. Identity is the correct framing because the horror is
+  Nathanael's misrecognition.
+
+  Divergence is `observer`: the gap is entirely in perception.
+  Olympia is doing what she was designed to do (be an automaton).
+  Nathanael sees something she isn't. That's the observer gap —
+  the being was never what the characters thought it was.
+
+  Knowability is `present` — the question of whether Olympia has
+  interiority generates the story's tension — but it serves the
+  broader theme of Nathanael's paranoia rather than being foregrounded.

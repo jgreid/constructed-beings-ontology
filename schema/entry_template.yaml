@@ -1,0 +1,46 @@
+# CBO v2.0 entry template
+# Copy this file to data/beings/<your-id>.yaml and fill in the values.
+# Run `python schema/validate.py data/beings/<your-id>.yaml` to check your work.
+# See SCHEMA.md for the full definition of every field.
+
+id: example-id           # kebab-case; matches the filename (without .yaml)
+name: "Example Name"     # display name as it appears in the source text
+
+card:
+  the_being:
+    # interiority: none | claims | narrated | demonstrated | undecidable
+    interiority: demonstrated
+    # autonomy: none | designed | emergent | seized
+    autonomy: designed
+    # divergence: none | design | departure | observer
+    divergence: none
+
+  the_lens:
+    # primary_question: none | control | affection | purpose | rights | knowledge | identity
+    primary_question: purpose
+    # epistemic_reach: none | behavioral | conversational | inspection
+    epistemic_reach: behavioral
+    # knowability: absent | present | secondary | primary
+    knowability: absent
+    # knowing: absent | present | secondary | primary
+    knowing: absent
+
+metadata:
+  source: "Source Title"
+  year: 2000
+  # medium: poem | epic | folklore | play | novel | short-story | film | television | video-game
+  medium: film
+  creator: "Creator Name(s)"
+  substrate:
+    # mechanical | biological | electrical | magical | cloned | linguistic
+    - electrical
+  motivation:
+    # service | knowledge | power | companionship | art | mirror | child | other
+    - service
+
+sequel_link: null        # entry id of a related sequel/successor/adaptation, or null
+
+notes: |
+  Free text. Capture what's distinctive about this entry, what patterns
+  it connects to, and any uncertainty in the coding. If a property was
+  a close call, say which way you leaned and why.

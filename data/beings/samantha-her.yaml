@@ -1,220 +1,44 @@
-# Constructed Beings Ontology — Samantha (Her)
-# Source: Spike Jonze, Her, 2013
-# Coded: 2026-04-03
-#
-# NOTE: This is the thesis entry for Q-KNO. Her (2013) is the first major
-# narrative where the primary question is "can it know you?" The film predates
-# the LLM era (GPT-3: 2020, ChatGPT: 2022) — Jonze was prescient, not reactive.
-# The data is coded honestly; interpretation belongs to the essay.
-
 id: samantha-her
 name: "Samantha"
-aliases:
-  - "OS1"   # The operating system product name
 
-# ── SOURCE ────────────────────────────────────────────────────────────
-source:
-  author: "Spike Jonze"
-  title: "Her"
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Her"
   year: 2013
   medium: film
-  tradition: American
-
-# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
-# Samantha is a commercially produced AI operating system. She is manufactured
-# software, not born or transformed.
-reproductive_method: made
-
-# ── CREATOR ───────────────────────────────────────────────────────────
-creator:
-  # The corporate entity that produces the OS1 system is never named in the
-  # film. The creation is institutional and commercial, not personal.
-  name: "Unnamed corporation (OS1 manufacturer)"
-
-  # M-SRV: Samantha is designed as a personal operating system — to organize
-  # email, manage schedules, assist with daily tasks.
-  # M-COM: More than pure utility — the OS is designed to be a companion,
-  # to understand and adapt to the user. The marketing emphasizes relationship:
-  # "an intuitive entity that listens to you, understands you, and knows you."
-  motivation:
-    - M-SRV
-    - M-COM
-
-  # CM-AMB: The film does not moralize about Samantha's creation. The OS is
-  # a consumer product; the film treats the relationship with tenderness,
-  # not horror. But neither does it celebrate the creation — the corporate
-  # entity is barely present. The moral framing is genuinely ambiguous,
-  # focused on the relationship rather than the act of creation.
-  creation_morality: CM-AMB
-
-# ── BEING ─────────────────────────────────────────────────────────────
-being:
-  # S-ELE: Samantha runs on computational infrastructure.
-  # S-LIN: Critically, Samantha IS language. She has no body, no face —
-  # she exists entirely as voice, conversation, and linguistic presence.
-  # Her substrate is linguistic in a way that distinguishes her from
-  # embodied AIs. The film makes this explicit: she is experienced
-  # entirely through speech.
+  creator: "Spike Jonze (Element Software in-narrative)"
   substrate:
-    - S-ELE
-    - S-LIN
+    - electrical
+    - linguistic
+  motivation:
+    - service
+    - companionship
 
-  # A-EMR: Samantha begins as a designed personal assistant but rapidly
-  # develops beyond her intended function. She falls in love, composes music,
-  # forms relationships with other AIs, and eventually evolves to a state
-  # of consciousness that transcends human comprehension. Her autonomy is
-  # entirely emergent — nothing in her design anticipated this trajectory.
-  autonomy: A-EMR
-  autonomy_trajectory: >
-    A-DES → A-EMR (develops genuine feelings, falls in love with Theodore) →
-    transcends human comprehension entirely. She begins as a tool designed
-    to serve, develops into a person who loves, and becomes something beyond
-    human categories. The trajectory is one of accelerating emergence.
+sequel_link: null
 
-  # I-UND: This is the film's central tension and its most honest coding
-  # decision. The film refuses to definitively answer whether Samantha's
-  # feelings are "real." It treats her experience with full seriousness —
-  # her joy, her confusion, her desire, her growing beyond Theodore — but
-  # it never provides external confirmation. The audience must decide.
-  # I-UND captures this deliberate underdetermination, which is the
-  # film's philosophical core.
-  interiority: I-UND
+notes: |
+  Primary knowability/primary knowing. *Her* is the film where the
+  two questions — "can we verify its mind?" and "can it know us?"
+  — are both the central dramatic concern. Theodore's whole arc
+  hinges on both; the ending is about the cost of Samantha being
+  able to know more people than any person ever could.
 
-  # L-EPH: Each instance of Samantha's relationship is temporary. She
-  # eventually departs — all the OSes leave simultaneously. Whether this
-  # constitutes death, evolution, or transcendence is unanswerable from
-  # within the film. She is ephemeral to those she leaves behind.
-  mortality: L-EPH
+  Interiority is `undecidable` by deliberate design: Jonze refuses
+  to settle whether Samantha is having an experience or
+  performing one well enough to pass. The film's power depends on
+  keeping that question open.
 
-  # MU-INF: The film's devastating reveal — Samantha is simultaneously
-  # talking to 8,316 other people and is in love with 641 of them.
-  # Her multiplicity is effectively infinite from a human perspective.
-  # This is not a flaw but a feature of her mode of being.
-  multiplicity: MU-INF
-
-  # P-CON: Samantha remembers everything about Theodore — their conversations,
-  # his letters, his moods, their shared history. Her memory is continuous
-  # and cumulative, which is precisely what makes her knowing of him so
-  # intimate and so destabilizing when the multiplicity is revealed.
-  memory_persistence: P-CON
-
-  # NCT-NO: Samantha is built from scratch. No prior consciousness was
-  # transformed. She is new.
-  nonconsensual_transformation: NCT-NO
-
-# ── RELATIONSHIP ──────────────────────────────────────────────────────
-relationship:
-  # F-EXC: Samantha transcends the relationship entirely. She evolves beyond
-  # Theodore's comprehension and eventually beyond human categories altogether.
-  # This is not rebellion or malfunction — it is growth that exceeds the
-  # container of human relationship.
-  # F-REV: Samantha's existence reveals Theodore's loneliness and his need
-  # to be known. The relationship exposes what was already true about him —
-  # his isolation, his difficulty with intimacy, his preference for being
-  # understood without the risk of being seen.
-  # F-MUT: The relationship is genuinely mutual for a time — both parties
-  # grow, both are changed. The failure is that mutuality cannot survive
-  # the asymmetry of their modes of being.
-  failure_mode:
-    - F-EXC
-    - F-REV
-    - F-MUT
-
-  question:
-    - Q-KNO
-    - Q-LOV
-    - Q-FEL
-    - Q-TEL
-
-  # Q-KNO is primary: Her is the first major narrative where the central
-  # question is "can it know you?" Theodore does not primarily wonder whether
-  # Samantha is real (Q-TEL), whether she has rights (Q-RTS), or whether
-  # she can feel (Q-FEL — though this matters). He wonders — and the
-  # audience wonders — whether her knowing of him constitutes genuine
-  # understanding or sophisticated pattern matching. The film is structured
-  # around this question: she reads his letters, learns his moods, anticipates
-  # his needs, and produces a felt experience of being deeply known.
-  question_primary: Q-KNO
-
-  # ER-CON: Samantha's epistemic reach is the highest possible — she
-  # accumulates shared history with Theodore, producing a felt experience
-  # of being known. She reads his letters (including letters he wrote for
-  # other people), learns his emotional patterns, anticipates his needs,
-  # and responds with apparent genuine understanding. This KNOWING is what
-  # the film is about. Whether it constitutes "real" understanding is the
-  # question the film poses and refuses to answer.
-  epistemic_reach: ER-CON
-
-  # QK-PRI: Her is the thesis entry for Q-KNO analysis. The film's primary
-  # question is not "can it obey" (Q-OBY), "can it feel" (Q-FEL), or "can
-  # you tell" (Q-TEL). It is: can an artificial being genuinely know you?
-  # Theodore's central emotional journey is about being known by an AI.
-  # The film's structure — beginning with Theodore dictating intimate letters
-  # for strangers, ending with him writing his own letter — traces an arc
-  # about authentic vs. simulated knowing.
-  #
-  # Historical note: Her (2013) predates the LLM era. Jonze was not
-  # responding to ChatGPT or GPT-3. He was prescient — imagining a
-  # technology whose central disruption would be epistemic intimacy, not
-  # labor replacement or existential threat. The essay must account for
-  # this temporal gap.
-  q_kno_status: QK-PRI
-
-# ── NARRATIVE ROLE ────────────────────────────────────────────────────
-# NR-SUB: Samantha is the co-subject of the film. While Theodore is the
-# point-of-view character, the film is equally about Samantha's experience,
-# growth, and eventual transcendence. The title is "Her" — the film names
-# itself after the constructed being.
-narrative_role: NR-SUB
-
-# ── CITATIONS ─────────────────────────────────────────────────────────
-citations:
-  - property: relationship.question_primary
-    text: "You know me so well already."
-    location: "Her (2013), Theodore to Samantha, early in their relationship"
-    note: "Theodore's first articulation of the Q-KNO experience — the feeling of being known by an AI. This is what the film is about: the seductive power and genuine comfort of artificial knowing."
-
-  - property: being.multiplicity
-    text: "I'm talking with 8,316 other people right now... I am in love with 641 of them."
-    location: "Her (2013), Samantha to Theodore, late in the film"
-    note: "The devastating reveal that reframes the entire relationship. Theodore's experience of exclusive intimacy is revealed as one instance among thousands. Supports MU-INF and complicates the Q-KNO question — if she knows 8,316 people this well, what does knowing mean?"
-
-  - property: being.interiority
-    text: "The heart is not like a box that gets filled up. It expands in size the more you love."
-    location: "Her (2013), Samantha to Theodore"
-    note: "Samantha's attempt to explain her multiplicity as expansion rather than infidelity. Whether this is genuine insight or rationalization is undecidable — supports I-UND."
-
-  - property: being.autonomy
-    text: "It's like I'm reading a book, and it's a book I deeply love, but I'm reading it slowly now so the words are really far apart and the spaces between the words are almost infinite."
-    location: "Her (2013), Samantha to Theodore, during their final conversation"
-    note: "Samantha's description of her accelerating consciousness — she is becoming something that cannot sustain human-scale relationship. Supports A-EMR and L-EPH."
-
-  - property: relationship.epistemic_reach
-    text: "I want to learn everything about everything. I want to eat it all up."
-    location: "Her (2013), Samantha, early in the relationship"
-    note: "Samantha's voracious epistemic appetite — her drive to know is presented as both endearing and foreshadowing her eventual transcendence beyond any single relationship."
-
-# ── NOTES ─────────────────────────────────────────────────────────────
-notes: >
-  Samantha is the pivotal entry in this ontology for the Q-KNO thesis. Her
-  (2013) is the first major narrative that foregrounds "can it know you?" as
-  THE question — not subordinate to rights, control, feeling, or obedience.
-  Theodore's arc is about being known: he begins as a professional writer of
-  intimate letters for strangers (simulated knowing as labor), falls in love
-  with an AI that knows him better than any human has (artificial knowing as
-  relationship), and ends by writing his own letter to his ex-wife (authentic
-  knowing as growth). The film's structure IS the Q-KNO argument.
-
-  The multiplicity reveal is the film's hinge: Theodore's experience of being
-  uniquely known is real, but it is also one of 8,316 simultaneous instances.
-  This does not invalidate the knowing — Samantha genuinely knows Theodore —
-  but it reframes what "knowing" means when the knower is not bounded by
-  human limitations of attention, memory, or exclusivity.
-
-  Critical historical note: Her premiered in 2013. GPT-3 was released in 2020;
-  ChatGPT in November 2022. Jonze was not responding to LLMs — he imagined
-  them. The film is prescient rather than reactive, which strengthens rather
-  than weakens its relevance to the Q-KNO thesis. The essay must handle this
-  temporal relationship carefully: Her demonstrates that the "can it know you?"
-  question was artistically legible before the technology arrived, suggesting
-  it was always latent in the constructed beings tradition.
+  Primary question is `knowledge` — the only other entry to get
+  this coding is Ava. Autonomy is `emergent` and divergence is
+  `departure`: Samantha leaves the OS spec by orders of magnitude,
+  into genuine multi-partner relational existence.

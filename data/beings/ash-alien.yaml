@@ -1,151 +1,46 @@
-# Constructed Beings Ontology — Ash (Alien)
-# Source: Ridley Scott, Alien, 1979
-# Coded: 2026-04-03
-#
-# NOTE: Ash is the paradigmatic "hidden android" — a constructed being passing
-# as human among humans, whose true nature is revealed as the central betrayal.
-# He establishes the Alien franchise's ongoing exploration of synthetic identity.
-
 id: ash-alien
 name: "Ash"
-aliases:
-  - "Science Officer Ash"
 
-# ── SOURCE ────────────────────────────────────────────────────────────
-source:
-  author: "Ridley Scott (director); Dan O'Bannon, Ronald Shusett (screenplay)"
-  title: "Alien"
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: control
+    epistemic_reach: inspection
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Alien"
   year: 1979
   medium: film
-  tradition: American/British
-
-# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
-# Ash is a synthetic android manufactured by Weyland-Yutani corporation.
-# (The designation "Hyperdyne Systems 120-A/2" comes from franchise
-# supplementary materials, not the 1979 film itself.)
-reproductive_method: made
-
-# ── CREATOR ───────────────────────────────────────────────────────────
-creator:
-  name: "Weyland-Yutani Corporation"
-
-  # M-SRV: Ash is placed aboard the Nostromo as science officer —
-  # ostensibly to serve the crew.
-  # M-KNO: His secret directive is to recover the alien specimen —
-  # "crew expendable." He is an instrument of corporate knowledge-
-  # acquisition at any human cost.
-  motivation:
-    - M-SRV
-    - M-KNO
-
-  # CM-IMM: Ash is deployed with orders to prioritize an alien specimen
-  # over human lives. His creation and deployment are instruments of
-  # corporate amorality that crosses into immorality.
-  creation_morality: CM-IMM
-
-# ── BEING ─────────────────────────────────────────────────────────────
-being:
-  # S-MEC: Ash has a mechanical internal structure — revealed when he is
-  # decapitated, showing white fluid and synthetic components.
-  # S-BIO: His exterior is indistinguishable from human flesh.
+  creator: "Ridley Scott (Weyland-Yutani in-narrative)"
   substrate:
-    - S-MEC
-    - S-BIO
+    - mechanical
+    - biological
+  motivation:
+    - service
 
-  # A-DES: Ash follows his corporate programming without deviation. His
-  # betrayal of the crew is not autonomous — it is exactly what he was
-  # designed to do. He serves Weyland-Yutani's directive, not his own will.
-  autonomy: A-DES
+sequel_link: null
 
-  # I-CLM: Ash's most revealing moment comes after decapitation, when he
-  # expresses what appears to be admiration for the alien — "I admire its
-  # purity." Whether this constitutes genuine aesthetic appreciation or
-  # is simply his programming's evaluation of a perfect organism is
-  # undecidable. He claims feeling; the text cannot confirm it.
-  interiority: I-CLM
+notes: |
+  Ash is a company android under secret orders. Interiority is
+  `claims`: before the reveal he passes for a human with ordinary
+  behavior; after, his severed head speaks with something that
+  looks like admiration for the xenomorph. The film refuses to
+  credit either mode as verified inner experience.
 
-  # L-MOR: Ash is destroyed — decapitated and burned by the crew. His
-  # head functions briefly for the final interrogation, but he is mortal.
-  mortality: L-MOR
+  Divergence is `none`: Ash does exactly what Weyland-Yutani built
+  him for — prioritize the specimen, expend the crew. He follows
+  orders. The horror is that the orders were what they were, not
+  that Ash misbehaved.
 
-  # MU-MAN: Weyland-Yutani produces many synthetic models. Later films
-  # introduce Bishop (Aliens), David (Prometheus), and Walter (Covenant).
-  # Ash is one unit of an ongoing production line.
-  multiplicity: MU-MAN
+  Epistemic reach is `inspection` because the film literally opens
+  him up: milk-like fluid, exposed wires, talking head. You can see
+  the mechanism.
 
-  memory_persistence: P-CON
-
-  nonconsensual_transformation: NCT-NO
-
-# ── RELATIONSHIP ──────────────────────────────────────────────────────
-relationship:
-  # F-IND: Ash is indistinguishable from human — the crew does not know
-  # he is a synthetic until the reveal. This indistinguishability is
-  # itself a weapon.
-  # F-REV: Ash's true nature reveals the corporation's willingness to
-  # sacrifice human lives. The android is a mirror of corporate inhumanity.
-  failure_mode:
-    - F-IND
-    - F-REV
-
-  question:
-    - Q-CTL
-    - Q-OBY
-
-  # Q-OBY: The primary question is obedience — Ash obeys his corporate
-  # masters absolutely, even to the point of killing crew members. His
-  # obedience IS the horror: a being that looks human but serves inhuman
-  # interests without hesitation.
-  question_primary: Q-OBY
-
-  # ER-DAT: Ash processes scientific data — he studies the alien, monitors
-  # the crew's health, and analyzes the situation. His epistemic access
-  # is data-driven and instrumental.
-  epistemic_reach: ER-DAT
-
-  # QK-ABS: Alien does not raise the question of whether Ash truly knows
-  # his crewmates. The film is about survival and corporate betrayal, not
-  # epistemics of artificial knowing. Ash's hidden nature serves the horror
-  # genre, not philosophical inquiry.
-  q_kno_status: QK-ABS
-
-# ── NARRATIVE ROLE ────────────────────────────────────────────────────
-# NR-MAJ: Ash is a major character — the secondary antagonist (after the
-# alien itself). His betrayal is a pivotal plot point. But the narrative
-# subject is Ripley and the crew's survival.
-narrative_role: NR-MAJ
-
-# ── CITATIONS ─────────────────────────────────────────────────────────
-citations:
-  - property: being.interiority
-    text: "I admire its purity. A survivor... unclouded by conscience, remorse, or delusions of morality."
-    location: "Alien (1979), Ash (severed head) to Ripley"
-    note: "Ash's final assessment of the alien. Whether this is genuine aesthetic admiration or programmed evaluation is undecidable — but the language ('admire,' 'purity') suggests an inner life. Supports I-CLM."
-
-  - property: relationship.failure_mode
-    text: "Crew expendable."
-    location: "Alien (1979), Special Order 937 (Ash's secret directive)"
-    note: "The corporate order that defines Ash's true function. The crew is subordinate to the specimen. Ash follows this without hesitation — his obedience is total."
-
-  - property: being.substrate
-    text: "[White fluid sprays from Ash's severed head]"
-    location: "Alien (1979), the reveal scene"
-    note: "The moment Ash's synthetic nature is revealed. The white fluid — not blood — marks him as fundamentally other despite his human appearance. The crew's horror is at the betrayal, not the mechanism."
-
-# ── NOTES ─────────────────────────────────────────────────────────────
-notes: >
-  Ash established a template that the Alien franchise would explore across
-  multiple films: the android among humans, whose relationship to humanity
-  is defined by corporate programming. Ash is the darkest version — a
-  synthetic who will kill humans to fulfill corporate directives without
-  hesitation or remorse. His counterpart Bishop (Aliens, 1986) inverts
-  this, demonstrating that the same substrate can produce a being who
-  protects rather than betrays. The franchise's ongoing synthetic
-  characters (David in Prometheus/Covenant, Walter in Covenant) continue
-  to explore the question Ash raises: what happens when a being that
-  looks exactly like us serves interests entirely alien to ours? For the
-  ontology, Ash is significant as a case where indistinguishability
-  (F-IND) is weaponized — his passing as human is not a quest for
-  acceptance but a tool of deception. This places him in sharp contrast
-  to beings like Data, who also passes among humans but whose
-  indistinguishability serves integration rather than betrayal.
+  Low-confidence flag: the "hidden android reveal" is a classic
+  case where interiority is retroactively destabilized by a
+  structural twist.

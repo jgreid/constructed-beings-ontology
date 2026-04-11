@@ -1,0 +1,42 @@
+id: replicants-dick-novel
+name: "Replicants"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: seized
+    divergence: observer
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Do Androids Dream of Electric Sheep?"
+  year: 1968
+  medium: novel
+  creator: "Philip K. Dick (Rosen Association in-narrative)"
+  substrate:
+    - biological
+    - cloned
+  motivation:
+    - service
+
+sequel_link: replicants-blade-runner
+
+notes: |
+  Dick's androids are not Scott's replicants. The novel is more
+  paranoid and less sympathetic — the Voigt-Kampff test is about
+  humans failing to have empathy, not about androids failing to.
+  Interiority is `undecidable` by design: Dick refuses to settle
+  whether Pris, Roy, Luba can truly feel.
+
+  Divergence is `observer`: the novel's central anxiety is that the
+  androids were never what the bounty hunters thought they were —
+  and, more alarmingly, that the humans were never what they
+  thought either. The gap is in perception, on both sides.
+
+  Primary question is `purpose`: the novel asks what the androids
+  are for, whether their existence serves anything, whether killing
+  them is maintenance or murder.

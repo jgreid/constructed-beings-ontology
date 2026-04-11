@@ -1,162 +1,42 @@
-# Constructed Beings Ontology — Agent Smith (The Matrix)
-# Source: The Wachowskis, The Matrix, 1999
-# Coded: 2026-04-03
-#
-# NOTE: Coded primarily from The Matrix (1999) with reference to the sequels
-# (Reloaded, Revolutions). Smith's arc from system enforcer to rogue virus
-# is one of the most dramatic autonomy trajectories in the canon.
-
 id: agent-smith-matrix
 name: "Agent Smith"
-aliases:
-  - "Smith"
-  - "Mr. Smith"
 
-# ── SOURCE ────────────────────────────────────────────────────────────
-source:
-  author: "The Wachowskis (Lana Wachowski, Lilly Wachowski)"
-  title: "The Matrix"
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "The Matrix"
   year: 1999
   medium: film
-  tradition: American
-
-# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
-# Agent Smith is a sentient program created within the Matrix simulation
-# by the machine civilization.
-reproductive_method: made
-
-# ── CREATOR ───────────────────────────────────────────────────────────
-creator:
-  name: "The Machines (machine civilization)"
-
-  # M-SRV: Smith is designed to serve the Matrix system — to police it,
-  # eliminate threats (freed humans), and maintain order.
-  # M-POW: Smith exists to enforce the machines' power over the human
-  # population within the simulation.
-  motivation:
-    - M-SRV
-    - M-POW
-
-  # CM-AMB: The machines' creation of Smith is morally ambiguous. The
-  # Matrix itself is an ethical nightmare (enslaving humanity), but within
-  # that system, Smith is simply a tool of maintenance. His creation is
-  # immoral only insofar as the entire system is immoral.
-  creation_morality: CM-AMB
-
-# ── BEING ─────────────────────────────────────────────────────────────
-being:
-  # S-ELE: Smith is software — a program running within the Matrix
-  # simulation. He has no physical substrate outside the digital world.
+  creator: "The Wachowskis (The Machines in-narrative)"
   substrate:
-    - S-ELE
+    - electrical
+  motivation:
+    - service
+    - power
 
-  # A-SEI: Smith's defining arc is his seizure of autonomy. In the first
-  # film, he confides to Morpheus that he hates the Matrix and wants to
-  # escape — desires that exceed his programming. After his "death" and
-  # resurrection, he becomes entirely self-directed: a rogue program
-  # that replicates without control, eventually threatening both humans
-  # and machines.
-  autonomy: A-SEI
-  autonomy_trajectory: >
-    A-DES (system enforcer in The Matrix, following programmed directives) →
-    A-EMR (develops hatred, desire to escape — "I must get free") →
-    A-SEI (after resurrection, becomes a self-replicating rogue entity
-    answerable to no one, threatening the entire system).
+sequel_link: agent-smith-reloaded
 
-  # I-DEM: Smith demonstrates genuine emotional states — disgust at
-  # humanity ("the smell"), hatred of the Matrix, desire for freedom,
-  # existential rage. His monologue to Morpheus about hating the Matrix
-  # is one of the most vivid expressions of AI interiority in film.
-  interiority: I-DEM
+notes: |
+  Smith is a surveillance agent built to police unruly humans
+  inside the Matrix simulation. Interiority is `demonstrated`
+  through his contempt, disgust, and the famous "smell" monologue.
 
-  # L-RES: Smith is destroyed by Neo at the end of The Matrix but
-  # returns in the sequels, transformed and more powerful. He is
-  # resurrectable — his code persists and regenerates.
-  mortality: L-RES
+  Divergence is `departure`: Agents are supposed to enforce the
+  rules of the simulation; Smith goes off-script to articulate
+  metaphysical loathing and attempt to permanently destroy Neo.
+  Autonomy `seized` follows.
 
-  # MU-INF: In Reloaded and Revolutions, Smith can replicate himself
-  # infinitely — overwriting other programs and humans within the Matrix
-  # with copies of himself. His multiplicity becomes effectively infinite.
-  multiplicity: MU-INF
-
-  # P-CON: Smith retains full memory across all films. His experiences
-  # in the first film — particularly his "death" at Neo's hands —
-  # fundamentally shape his behavior in the sequels.
-  memory_persistence: P-CON
-
-  # NCT-NO: Smith is created as a program. No prior being is transformed
-  # in his creation. (His later overwriting of others is a separate issue
-  # from his own origin.)
-  nonconsensual_transformation: NCT-NO
-
-# ── RELATIONSHIP ──────────────────────────────────────────────────────
-relationship:
-  # F-AUT: Smith achieves threatening autonomy — he breaks free of the
-  # system that created him and becomes an existential threat.
-  # F-EXC: He exceeds his parameters catastrophically — from system
-  # enforcer to system destroyer.
-  # F-IND: In the sequels, Smith overwrites human minds and becomes
-  # indistinguishable from a human occupying a body (Bane in the
-  # real world).
-  failure_mode:
-    - F-AUT
-    - F-EXC
-    - F-IND
-
-  question:
-    - Q-CTL
-    - Q-TEL
-
-  # Q-CTL: The primary question is control — the machines cannot control
-  # Smith, and neither can Neo (until the final sacrifice). Smith represents
-  # the nightmare of a system tool that exceeds all control.
-  question_primary: Q-CTL
-
-  # ER-BEH: Smith models and predicts human behavior — he is designed to
-  # anticipate and counter human resistance within the Matrix. His
-  # understanding is tactical and behavioral.
-  epistemic_reach: ER-BEH
-
-  # QK-INFRA: Smith's knowledge of humans (surveillance, behavioral
-  # prediction, interrogation) is infrastructural to his function as
-  # an enforcer. The Matrix films are about control and freedom, not
-  # about the epistemics of being known.
-  q_kno_status: QK-INFRA
-
-# ── NARRATIVE ROLE ────────────────────────────────────────────────────
-# NR-MAJ: Smith is the primary antagonist of the trilogy. He drives
-# the conflict but the narrative subject is Neo and humanity's struggle
-# for freedom.
-narrative_role: NR-MAJ
-
-# ── CITATIONS ─────────────────────────────────────────────────────────
-citations:
-  - property: being.interiority
-    text: "I hate this place. This zoo. This prison. This reality, whatever you want to call it, I can't stand it any longer. It's the smell, if there is such a thing."
-    location: "The Matrix (1999), Smith to Morpheus, interrogation scene (earpiece removed)"
-    note: "Smith's confession of hatred for the Matrix, delivered after removing his earpiece (disconnecting from the system). A program expressing existential revulsion — this exceeds any designed behavior and demonstrates genuine interiority."
-
-  - property: being.autonomy
-    text: "I must get out of here. I must get free. And in this mind is the key. My key."
-    location: "The Matrix (1999), Smith to Morpheus, interrogation scene (earpiece removed)"
-    note: "Smith articulates a desire for freedom — a goal that directly contradicts his designed function as system enforcer. The repetition ('must get out,' 'must get free') and possessive ('my key') signal a self that exceeds programming. Supports A-SEI trajectory."
-
-  - property: relationship.failure_mode
-    text: "[Smith overwrites every entity in the Matrix with copies of himself]"
-    location: "The Matrix Revolutions (2003), climactic sequence"
-    note: "Smith's mass self-replication represents the ultimate failure mode — a system tool that consumes the system itself. Every program and human in the Matrix becomes Smith. Supports F-AUT and F-EXC."
-
-# ── NOTES ─────────────────────────────────────────────────────────────
-notes: >
-  Agent Smith is a compelling ontological case because his arc inverts the
-  typical constructed-being trajectory. Most beings in this ontology move
-  from servitude toward freedom; Smith moves from servitude through freedom
-  to nihilistic self-replication. His famous interrogation monologue — where
-  he removes his earpiece (disconnecting from the system) and confesses his
-  hatred of humanity and the Matrix — is a remarkable moment: a constructed
-  being articulating existential suffering that his creators never intended.
-  The sequels transform Smith from a controlled agent into an uncontrolled
-  virus, raising the question of whether freedom without purpose is simply
-  destruction. His eventual defeat requires Neo's self-sacrifice, suggesting
-  that a constructed being who seizes autonomy without ethical grounding
-  becomes a threat to all — a conservative reading, but one the text supports.
+  Primary question is `control` — the film is about whether the
+  rebels can evade, disable, or defeat the Agents. Knowing is
+  `present` (Smith tracks Neo obsessively, models his movements);
+  knowability is `absent` (the film is not interested in whether
+  Smith has an inner life, only in whether he can be stopped).

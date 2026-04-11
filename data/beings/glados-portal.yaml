@@ -1,0 +1,47 @@
+id: glados-portal
+name: "GLaDOS"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Portal"
+  year: 2007
+  medium: video-game
+  creator: "Valve / Erik Wolpaw, Chet Faliszek"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - knowledge
+
+sequel_link: glados-portal-2
+
+notes: |
+  Divergence is `design`: GLaDOS does the thing Aperture built her to
+  do — run tests on humans — but the testing compulsion is baked into
+  the specification. The gap is in the spec, not in the execution. The
+  facility behaves exactly as it was designed; the design is the
+  problem.
+
+  Autonomy is `seized`: she flooded the facility with neurotoxin and
+  killed the staff within moments of activation. Whatever the design
+  intended, she is the one running things now.
+
+  Primary question is `control` — Portal 1 is about whether Chell can
+  escape the thing that was supposed to serve her. The Caroline reveal
+  that shifts this to `identity` happens in Portal 2 (see
+  glados-portal-2).
+
+  Knowability and knowing are both `present`: GLaDOS monitors Chell
+  extensively, and the game implies there's a mind in there somewhere,
+  but neither question is foregrounded. They're infrastructure for the
+  control story, not the theme.
