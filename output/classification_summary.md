@@ -1,5 +1,15 @@
 # Classification Summary — CBO v2.0
 
+> **Note on this document**: This summary reflects the original v2.0 release
+> of 43 entries and has *not* been rewritten for the v2.1 expansion. The
+> v2.1 corpus now contains 133 entries after a 90-entry addition pass;
+> the raw analysis outputs (summary_table.md, property_coverage.md,
+> question_analysis.md) have been regenerated against the full corpus,
+> but this interpretive narrative still describes the v2.0 43-entry
+> baseline. The patterns discussed below remain visible in the expanded
+> corpus but their exact counts are out of date. A rewritten v2.1
+> classification summary is planned.
+
 **43 constructed beings** coded under the v2.0 schema across 2,800 years of Western fiction, from Hesiod's Pandora (~700 BCE) to Villeneuve's *Blade Runner 2049* (2017). The entry count is up from 37 in v1.0 because v2.0 introduces a sequel-split rule (one entry per source text) that separates beings appearing in more than one work. (v2.0.0 shipped with 44 entries; the post-release 2.0.1 maintenance collapsed a duplicate Agent Smith entry whose card values were identical across the Matrix trilogy.)
 
 For the machine-readable table and the raw analysis outputs, see:
