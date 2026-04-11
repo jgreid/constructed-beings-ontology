@@ -4,7 +4,7 @@
 
 This project is a formal ontology of **constructed beings** (CBs) in Western fiction and myth — entities that are *made*, not *born*. From Hesiod's Pandora to GPT-flavored AI companions in contemporary cinema, Western narrative has been building, animating, and arguing about artificial persons for nearly three millennia. This dataset catalogs those beings and codes them along seven analytical properties organized into two blocks: **The Being** (interiority, autonomy, divergence) and **The Lens** (primary question, epistemic reach, knowability, knowing).
 
-The ontology's central analytical move is the **knowability/knowing split**: v1.0 used a single axis (Q-KNO) to track how prominently a story engaged with the "can we know this mind?" question. v2.0 separates two distinct questions — *can we verify the being's inner experience?* (`knowability`) and *can the being know us?* (`knowing`) — because these behave differently across the corpus. 10 of 44 entries now have divergent values on the two axes, capturing distinctions v1.0 could not represent.
+The ontology's central analytical move is the **knowability/knowing split**: v1.0 used a single axis (Q-KNO) to track how prominently a story engaged with the "can we know this mind?" question. v2.0 separates two distinct questions — *can we verify the being's inner experience?* (`knowability`) and *can the being know us?* (`knowing`) — because these behave differently across the corpus. 9 of 43 entries have divergent values on the two axes, capturing distinctions v1.0 could not represent.
 
 The central finding is not that these questions are absent from pre-LLM texts; both surface as early as *Frankenstein* and thread through *Blade Runner*, *Ex Machina*, and dozens of other works. Rather, the questions function in most prior literature as **narrative infrastructure** — tension that supports other concerns — and are elevated to the **primary dramatic question** only in the post-LLM era (Samantha in *Her*, 2013; Ava in *Ex Machina*, 2014), when audiences can no longer treat the questions as safely hypothetical. That shift is the story this data tells.
 
@@ -22,7 +22,7 @@ A **constructed being** is an entity that satisfies all of:
 
 ### Scope
 
-v2.0 covers 44 entries across the **Western canon** broadly construed: Greco-Roman myth, Jewish folklore (the Golem tradition), European literature from the medieval period forward, and Anglophone fiction, film, television, and games through 2017. Non-Western traditions — which are rich, vital, and deserve their own careful treatment — are planned for a future release with appropriate cultural consultation (see [CONTRIBUTING.md](CONTRIBUTING.md)).
+v2.0 covers 43 entries across the **Western canon** broadly construed: Greco-Roman myth, Jewish folklore (the Golem tradition), European literature from the medieval period forward, and Anglophone fiction, film, television, and games through 2017. Non-Western traditions — which are rich, vital, and deserve their own careful treatment — are planned for a future release with appropriate cultural consultation (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 
 ### Exclusions
 

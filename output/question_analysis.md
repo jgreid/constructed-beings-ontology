@@ -1,6 +1,6 @@
 # Question Analysis — v2.0
 
-Total entries: **44**.
+Total entries: **43**.
 
 v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can we verify its mind?) and `knowing` (can it know us?). This report tracks both, plus the distribution of `primary_question`.
 
@@ -8,7 +8,7 @@ v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| control            |      12 |
+| control            |      11 |
 | identity           |      10 |
 | affection          |       8 |
 | purpose            |       6 |
@@ -58,7 +58,7 @@ v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can
 |:-------------------|--------:|
 | identity           |       6 |
 | affection          |       4 |
-| control            |       3 |
+| control            |       2 |
 | knowledge          |       2 |
 | none               |       1 |
 
@@ -66,7 +66,7 @@ v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can
 
 | Knowability   |   Count |
 |:--------------|--------:|
-| absent        |      23 |
+| absent        |      22 |
 | present       |      14 |
 | secondary     |       5 |
 | primary       |       2 |
@@ -76,7 +76,7 @@ v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can
 | Knowing   |   Count |
 |:----------|--------:|
 | absent    |      20 |
-| present   |      15 |
+| present   |      14 |
 | secondary |       7 |
 | primary   |       2 |
 
@@ -84,50 +84,48 @@ v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can
 
 Entries where knowability and knowing have different values. v1's single Q-KNO axis could not distinguish these cases.
 
-| Entity                             | Source                                       |   Year | Knowability   | Knowing   |
-|:-----------------------------------|:---------------------------------------------|-------:|:--------------|:----------|
-| Olympia                            | Der Sandmann                                 |   1816 | present       | absent    |
-| Robbie                             | I, Robot ("Robbie")                          |   1940 | absent        | present   |
-| Data                               | Star Trek: The Next Generation               |   1987 | secondary     | present   |
-| Vic Fontaine                       | Star Trek: Deep Space Nine                   |   1998 | absent        | secondary |
-| Agent Smith                        | The Matrix                                   |   1999 | absent        | present   |
-| Cortana                            | Halo: Combat Evolved / Halo 2 / Halo 3       |   2001 | present       | secondary |
-| Agent Smith (Reloaded/Revolutions) | The Matrix Reloaded / The Matrix Revolutions |   2003 | absent        | present   |
-| VIKI                               | I, Robot (film)                              |   2004 | present       | absent    |
-| JARVIS                             | Iron Man                                     |   2008 | absent        | present   |
-| GLaDOS (Portal 2)                  | Portal 2                                     |   2011 | present       | secondary |
+| Entity            | Source                                 |   Year | Knowability   | Knowing   |
+|:------------------|:---------------------------------------|-------:|:--------------|:----------|
+| Olympia           | Der Sandmann                           |   1816 | present       | absent    |
+| Robbie            | I, Robot ("Robbie")                    |   1940 | absent        | present   |
+| Data              | Star Trek: The Next Generation         |   1987 | secondary     | present   |
+| Vic Fontaine      | Star Trek: Deep Space Nine             |   1998 | absent        | secondary |
+| Agent Smith       | The Matrix trilogy                     |   1999 | absent        | present   |
+| Cortana           | Halo: Combat Evolved / Halo 2 / Halo 3 |   2001 | present       | secondary |
+| VIKI              | I, Robot (film)                        |   2004 | present       | absent    |
+| JARVIS            | Iron Man                               |   2008 | absent        | present   |
+| GLaDOS (Portal 2) | Portal 2                               |   2011 | present       | secondary |
 
-**10 of 44 entries diverge.**
+**9 of 43 entries diverge.**
 
 ## 6. Entries by Knowability (chronological)
 
 ### knowability = absent
 
-| Entity                             | Source                                       |   Year | Primary Q   |
-|:-----------------------------------|:---------------------------------------------|-------:|:------------|
-| Pandora                            | Works and Days / Theogony                    |   -700 | purpose     |
-| Talos                              | Argonautica                                  |   -250 | none        |
-| Galatea                            | Metamorphoses, Book X                        |      8 | affection   |
-| The Golem of Prague                | Golem of Prague folklore cycle               |   1580 | control     |
-| R.U.R. Robots                      | R.U.R. (Rossum's Universal Robots)           |   1920 | rights      |
-| False Maria                        | Metropolis                                   |   1927 | purpose     |
-| Robbie                             | I, Robot ("Robbie")                          |   1940 | affection   |
-| EMERAC                             | Desk Set                                     |   1957 | none        |
-| Colossus                           | Colossus                                     |   1966 | control     |
-| C-3PO                              | Star Wars                                    |   1977 | none        |
-| R2-D2                              | Star Wars                                    |   1977 | control     |
-| Ash                                | Alien                                        |   1979 | control     |
-| Skynet                             | The Terminator                               |   1984 | control     |
-| T-800                              | The Terminator                               |   1984 | control     |
-| Talkie Toaster                     | Red Dwarf                                    |   1988 | purpose     |
-| SHODAN                             | System Shock                                 |   1994 | control     |
-| Vic Fontaine                       | Star Trek: Deep Space Nine                   |   1998 | affection   |
-| Agent Smith                        | The Matrix                                   |   1999 | control     |
-| The Iron Giant                     | The Iron Giant                               |   1999 | identity    |
-| GIR                                | Invader Zim                                  |   2001 | none        |
-| Agent Smith (Reloaded/Revolutions) | The Matrix Reloaded / The Matrix Revolutions |   2003 | control     |
-| JARVIS                             | Iron Man                                     |   2008 | affection   |
-| WALL-E                             | WALL-E                                       |   2008 | affection   |
+| Entity              | Source                             |   Year | Primary Q   |
+|:--------------------|:-----------------------------------|-------:|:------------|
+| Pandora             | Works and Days / Theogony          |   -700 | purpose     |
+| Talos               | Argonautica                        |   -250 | none        |
+| Galatea             | Metamorphoses, Book X              |      8 | affection   |
+| The Golem of Prague | Golem of Prague folklore cycle     |   1580 | control     |
+| R.U.R. Robots       | R.U.R. (Rossum's Universal Robots) |   1920 | rights      |
+| False Maria         | Metropolis                         |   1927 | purpose     |
+| Robbie              | I, Robot ("Robbie")                |   1940 | affection   |
+| EMERAC              | Desk Set                           |   1957 | none        |
+| Colossus            | Colossus                           |   1966 | control     |
+| C-3PO               | Star Wars                          |   1977 | none        |
+| R2-D2               | Star Wars                          |   1977 | control     |
+| Ash                 | Alien                              |   1979 | control     |
+| Skynet              | The Terminator                     |   1984 | control     |
+| T-800               | The Terminator                     |   1984 | control     |
+| Talkie Toaster      | Red Dwarf                          |   1988 | purpose     |
+| SHODAN              | System Shock                       |   1994 | control     |
+| Vic Fontaine        | Star Trek: Deep Space Nine         |   1998 | affection   |
+| Agent Smith         | The Matrix trilogy                 |   1999 | control     |
+| The Iron Giant      | The Iron Giant                     |   1999 | identity    |
+| GIR                 | Invader Zim                        |   2001 | none        |
+| JARVIS              | Iron Man                           |   2008 | affection   |
+| WALL-E              | WALL-E                             |   2008 | affection   |
 
 ### knowability = present
 

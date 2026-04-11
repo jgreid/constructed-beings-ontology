@@ -4,6 +4,30 @@ All notable changes to the Constructed Beings Ontology are documented here.
 
 ---
 
+## [2.0.1] — 2026-04
+
+Post-release maintenance. No schema changes; two entry-level changes and an influence graph regeneration.
+
+### Changed
+
+- **Agent Smith collapsed into a single entry.** The v2.0.0 release shipped with two Agent Smith entries (`agent-smith-matrix` for *The Matrix* 1999 and `agent-smith-reloaded` for *Reloaded*/*Revolutions* 2003) that had identical card values — the only case in the corpus where the "one entry per film" scope rule produced a redundancy the analytical schema could not resolve. The two entries have been collapsed into a single `agent-smith-matrix` entry covering the trilogy. The Reloaded/Revolutions specifics (viral self-replication, institutional tether snap, multiplicity jump) that v1.0 could have tracked on its own axes are now documented in the entry's `notes` field. Corpus count: **44 → 43**.
+- **`output/classification_summary.md`** updated for the new count and to drop the "known redundancy" caveat.
+
+### New
+
+- **`analysis/influence_graph.yaml`** (regenerated for v2.0). 30 edges across 39 nodes tracing property propagation under the v2.0 schema. Edge types: `adapts`, `sequel`, `inherits`, `inverts`, `elevates`. This replaces the v1 influence graph which was retired in v2.0.0 as "hardwired to Q-KNO axis propagation." The v2 version is rebuilt from scratch against the new card axes.
+- **`analysis/influence_graph.html`** (regenerated). A vis.js-based interactive visualization of the influence graph, colored by edge type and grouped by medium.
+
+### Removed
+
+- **`data/beings/agent-smith-reloaded.yaml`.** Collapsed into `agent-smith-matrix` (see above).
+
+### Known issues updated
+
+- **Knowability/knowing divergence count drops from 10/44 to 9/43.** The v2.0.0 release flagged divergence at 10 of 44 — one above the draft spec's "flag for schema review" threshold of `<10`. The Agent Smith entry being collapsed was a divergent pair (`knowability: absent`, `knowing: present`), so removing it drops the count to 9 of 43 — one *below* the threshold. **No entries have been re-coded to pad the statistic.** The honest reading is: after the collapse, the divergence count is below the draft spec's re-review threshold, and the schema should be revisited if and when new entries are added or existing codings are challenged.
+
+---
+
 ## [2.0.0] — 2026-04
 
 **Breaking change release.** v2.0 is a ground-up restructure of the schema, the vocabulary, the analysis scripts, and the entry corpus. If you had tooling pinned to v1.0, it will not work against v2.0 without rewriting. See the migration notes below.
@@ -30,7 +54,7 @@ v1.0 grew organically to 14+ analytical axes, verbose nested YAML (`source`/`cre
   - `cortana-halo` + `cortana-halo-4`
   - `jarvis-iron-man` + `vision-age-of-ultron`
   - `replicants-dick-novel` + `replicants-blade-runner` + `k-blade-runner-2049`
-  - `agent-smith-matrix` + `agent-smith-reloaded`
+  - ~~`agent-smith-matrix` + `agent-smith-reloaded`~~ (collapsed back to a single entry in 2.0.1 — see above)
 
 ### Changed
 
@@ -104,8 +128,8 @@ Several entries had their codings change beyond a simple vocabulary translation.
 
 ### Known issues carried forward into v2.0
 
-- **Agent Smith duplication.** The Matrix (1999) and Matrix Reloaded/Revolutions (2003) entries have identical card values under v2.0. Both exist per the "one entry per film" scope rule, and the redundancy is noted in each entry's `notes` field. A future editor may collapse them.
-- **Knowability/knowing divergence is 10 of 44.** The draft spec expected ≥12 divergent entries. The current corpus codes 10, which is above the re-review threshold (<10) but below target. No individual entry has been re-coded for this reason; the pattern is documented in `output/classification_summary.md`.
+- ~~**Agent Smith duplication.**~~ Resolved in 2.0.1 — the two entries were collapsed into one.
+- ~~**Knowability/knowing divergence is 10 of 44.**~~ See 2.0.1: after the Agent Smith collapse the count drops to 9 of 43, which is below the draft spec's re-review threshold.
 - **Hosts (Dolores)** collapses a polyphonic ensemble into one entry. Maeve would code differently. A future release may split this.
 
 ---

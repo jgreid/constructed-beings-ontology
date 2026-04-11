@@ -1,12 +1,13 @@
 # Classification Summary — CBO v2.0
 
-**44 constructed beings** coded under the v2.0 schema across 2,800 years of Western fiction, from Hesiod's Pandora (~700 BCE) to Villeneuve's *Blade Runner 2049* (2017). The entry count is up from 37 in v1.0 because v2.0 introduces a sequel-split rule (one entry per source text) that separates beings that appear in more than one work.
+**43 constructed beings** coded under the v2.0 schema across 2,800 years of Western fiction, from Hesiod's Pandora (~700 BCE) to Villeneuve's *Blade Runner 2049* (2017). The entry count is up from 37 in v1.0 because v2.0 introduces a sequel-split rule (one entry per source text) that separates beings appearing in more than one work. (v2.0.0 shipped with 44 entries; the post-release 2.0.1 maintenance collapsed a duplicate Agent Smith entry whose card values were identical across the Matrix trilogy.)
 
 For the machine-readable table and the raw analysis outputs, see:
 
-- [summary_table.md](summary_table.md) — all 44 entries with full card properties
+- [summary_table.md](summary_table.md) — all 43 entries with full card properties
 - [property_coverage.md](property_coverage.md) — distribution of every v2.0 enum
 - [question_analysis.md](question_analysis.md) — detailed breakdown of the knowability/knowing split
+- [../analysis/influence_graph.html](../analysis/influence_graph.html) — interactive visualization of the 30 influence edges connecting the corpus
 
 This document is the hand-written interpretation: what the v2.0 numbers show, what patterns held up from v1.0, and what new patterns only became visible after the restructure.
 
@@ -25,7 +26,7 @@ v1.0 had one axis for the "knowability question" — Q-KNO, which tried to measu
 - **`knowability`** — can *we* (the audience, the other characters) verify the being's mind?
 - **`knowing`** — can *the being* know us? See, track, model, carry us around in its head?
 
-These are different questions and they behave differently across the corpus. **10 of 44 entries now have divergent values on the two axes** — configurations v1.0's single axis could not represent. The most striking cases:
+These are different questions and they behave differently across the corpus. **9 of 43 entries now have divergent values on the two axes** — configurations v1.0's single axis could not represent. The most striking cases:
 
 | Entity | Knowability | Knowing | Why they diverge |
 |---|---|---|---|
@@ -37,7 +38,9 @@ These are different questions and they behave differently across the corpus. **1
 | VIKI | present | absent | The film puts her reasoning on display but she doesn't care about any individual human. |
 | Olympia | present | absent | Whether she has a mind is the whole story; whether she knows Nathanael is never asked. |
 
-The divergence count (10) is slightly below the draft's expected ≥12. It is above the re-review threshold (<10). Two additional entries where the draft split them but coding ended up identical: Samantha and Ava (both `primary/primary`) — these are the modern limit cases, and the pattern is that once a story genuinely commits to the knowability question, the knowing question follows.
+**The divergence count is 9, which is slightly below the draft's re-review threshold of <10.** The v2.0.0 release shipped with 10 divergent entries across 44 total; the post-release Agent Smith collapse (2.0.1) removed one divergent pair (Smith was `absent/present`), bringing the count to 9 of 43. No entries were re-coded to pad the statistic — the honest reading is that the schema's divergence affordance finds 9 clear cases in the current corpus, and adding more entries or challenging existing codings is the only principled way to move the number. A note for future editors: if and when re-review happens, candidates whose divergence call is a close coin-flip in the current corpus include Robbie (knowability absent vs. present), Olympia (knowing absent vs. present), and VIKI (knowing absent vs. present).
+
+Samantha and Ava do not appear in the divergent-pair list because they both code `primary/primary` — these are the modern limit cases, and the pattern is that once a story genuinely commits to the knowability question, the knowing question follows.
 
 ### The Divergence axis is new
 
@@ -45,12 +48,12 @@ v1.0 had no axis for the gap between a being's design intent and its actual outc
 
 | Divergence | Count | Exemplars |
 |---|---:|---|
-| `departure` | 20 | Golem, Creature, R.U.R. Robots, Skynet, SHODAN, Agent Smith, Iron Giant, WALL-E, Samantha |
+| `departure` | 19 | Golem, Creature, R.U.R. Robots, Skynet, SHODAN, Agent Smith, Iron Giant, WALL-E, Samantha |
 | `none` | 15 | Pandora, Galatea, False Maria, Data, C-3PO, Ash, Vic Fontaine, Sonny, Robbie |
 | `design` | 6 | HAL, Marvin, VIKI, Talkie Toaster, GLaDOS (both entries) |
 | `observer` | 3 | Olympia, Replicants (Dick), Ava |
 
-`departure` is the dominant mode (45% of the corpus). That matches the shape of the genre — constructed-being stories are overwhelmingly about beings that leave their blueprint. The `design` cluster (the bureaucratic-hubris cluster: HAL, Marvin, VIKI, GLaDOS, Talkie Toaster) turns out to be surprisingly coherent as a category — these are the beings built stupidly rather than built well and then gone wrong. The `observer` cluster is small but thematically unified: Hoffmann → Dick → Garland, about 200 years of stories where the real gap is in the seeing, not the thing.
+`departure` remains the dominant mode (44% of the corpus). That matches the shape of the genre — constructed-being stories are overwhelmingly about beings that leave their blueprint. The `design` cluster (the bureaucratic-hubris cluster: HAL, Marvin, VIKI, GLaDOS, Talkie Toaster) turns out to be surprisingly coherent as a category — these are the beings built stupidly rather than built well and then gone wrong. The `observer` cluster is small but thematically unified: Hoffmann → Dick → Garland, about 200 years of stories where the real gap is in the seeing, not the thing.
 
 ---
 
@@ -84,11 +87,10 @@ v1.0 had no axis for the gap between a being's design intent and its actual outc
 | T-800 (T2) | *T2* | 1991 | claims | emergent | departure | identity | present | present |
 | SHODAN | *System Shock* | 1994 | demonstrated | seized | departure | control | absent | absent |
 | Vic Fontaine | *DS9* | 1998 | demonstrated | designed | none | affection | absent | secondary |
-| Agent Smith | *The Matrix* | 1999 | demonstrated | seized | departure | control | absent | present |
+| Agent Smith | *The Matrix trilogy* | 1999 | demonstrated | seized | departure | control | absent | present |
 | Iron Giant | *The Iron Giant* | 1999 | demonstrated | emergent | departure | identity | absent | absent |
 | Cortana | *Halo: CE-3* | 2001 | demonstrated | designed | none | affection | present | secondary |
 | GIR | *Invader Zim* | 2001 | demonstrated | designed | none | none | absent | absent |
-| Agent Smith (2003) | *Reloaded/Revolutions* | 2003 | demonstrated | seized | departure | control | absent | present |
 | Cylons | *BSG* | 2004 | demonstrated | emergent | departure | affection | secondary | secondary |
 | Sonny | *I, Robot* | 2004 | demonstrated | designed | none | identity | present | present |
 | VIKI | *I, Robot* | 2004 | claims | emergent | design | control | present | absent |
@@ -109,7 +111,7 @@ v1.0 had no axis for the gap between a being's design intent and its actual outc
 
 ### The Identity question is mostly a late-20th-century phenomenon
 
-v2.0 adds `identity` ("what am I? is it real? can it become something else?") as a primary-question option, merging what v1.0 had been splitting across `obedience`, `fellow-feeling`, and `purpose`. Once identity is its own option, it becomes the second-largest bucket (10 of 44), and the temporal clustering is striking:
+v2.0 adds `identity` ("what am I? is it real? can it become something else?") as a primary-question option, merging what v1.0 had been splitting across `obedience`, `fellow-feeling`, and `purpose`. Once identity is its own option, it becomes the second-largest bucket (10 of 43), and the temporal clustering is striking:
 
 - **Pre-1970 (2 entries):** Olympia (1816), Pinocchio (1883) — both reclassified per the draft's rationale. Olympia is `identity` because Hoffmann's horror is Nathanael's misrecognition; Pinocchio is `identity` because "can I become a real boy?" is an identity arc, not an affection arc.
 - **Post-1970 (8 entries):** T-800 T2 (1991), Iron Giant (1999), Sonny (2004), GLaDOS P2 (2011), Cortana H4 (2012), Vision (2015), Hosts/Dolores (2016), K (2017).
@@ -118,7 +120,7 @@ The pattern is that `identity` is what stories started asking about constructed 
 
 ### Demonstrated interiority is the post-1970 default
 
-Before 1970, interiority was heterogeneous: 5 `none`, 4 `undecidable`, 2 `demonstrated`, 2 `claims`, 1 `narrated`. After 1970, **demonstrated is 22 of 30 entries** (73%). The rise of demonstrated interiority tracks the rise of the sympathetic-other story, where we don't need the text to vouch for the being's inner life — we just watch it behave and believe it.
+Before 1970, interiority was heterogeneous: 5 `none`, 4 `undecidable`, 2 `demonstrated`, 2 `claims`, 1 `narrated`. After 1970, **demonstrated is 21 of 29 entries** (72%). The rise of demonstrated interiority tracks the rise of the sympathetic-other story, where we don't need the text to vouch for the being's inner life — we just watch it behave and believe it.
 
 The holdouts post-1970 are telling:
 - `claims` (3): Ash, T-800 T2, VIKI — all cases where the being says something about its state but the film holds the audience at performance distance.
@@ -146,6 +148,5 @@ Three patterns were invisible or muddled under v1.0:
 ## Methodology Notes
 
 - **No citations.** v2.0 deliberately drops the v1.0 `citations` array. Scholarly context now lives in the `notes` field. This is a real methodological concession — the dataset is less evidenced than it was — and the argument for it is that the v1 citations field was doing less analytical work than it claimed. See [CHANGELOG.md](../CHANGELOG.md) for the full argument.
-- **Flagged entries.** Five entries are explicitly flagged as lower-confidence: Agent Smith (Reloaded/Revolutions), Cortana (Halo 4+), GLaDOS (Portal 2), Vision (Age of Ultron), K (BR 2049). Each has its reasoning documented in the entry's `notes` field. Additional low-confidence flags (not in the original draft) are noted in: Colossus, EMERAC, Ash, Talkie Toaster, and Hosts/Dolores.
-- **Known redundancy.** Agent Smith has two entries (Matrix 1 and Reloaded/Revolutions) with identical card values. The draft table included both; both were written for completeness; the entries flag the redundancy in `notes` and invite a future editor to collapse them.
+- **Flagged entries.** Four entries are explicitly flagged as lower-confidence in their `notes` fields: Cortana (Halo 4+), GLaDOS (Portal 2), Vision (Age of Ultron), K (BR 2049). Additional low-confidence flags (not in the original draft) are noted in: Colossus, EMERAC, Ash, Talkie Toaster, and Hosts/Dolores. Agent Smith (Reloaded/Revolutions) was on this list in v2.0.0 but was resolved by the 2.0.1 collapse — see CHANGELOG.
 - **Hosts/Dolores is a simplification.** The Westworld Hosts are a population; Dolores is the anchor. Maeve in particular would code differently. Future work may split this entry.

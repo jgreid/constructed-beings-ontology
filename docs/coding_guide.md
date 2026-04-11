@@ -101,7 +101,7 @@ Note: language presence alone does not upgrade behavioral to conversational. The
 
 v2.0 uses a **one entry per source text** rule. The mechanical question is when to apply it.
 
-- **Films: always split.** *The Terminator* and *T2* are separate entries. *The Matrix* and *Matrix Reloaded* are separate entries (even if the card values come out the same — see Agent Smith). *Blade Runner* and *Blade Runner 2049* are separate entries.
+- **Films: always split** — with one exception. *The Terminator* and *T2* are separate entries. *Blade Runner* and *Blade Runner 2049* are separate entries. *The Matrix* and its sequels were originally split, but on review the card values were identical across all three films and the entries were collapsed (see the Agent Smith entry's notes and CHANGELOG 2.0.1). When two candidate entries for different films produce identical v2.0 cards, and the analytical axes genuinely have nothing different to say, collapse them into a single entry and document the within-trilogy arc in `notes`. This is the only time the "one entry per film" rule bends.
 - **Novels: always split.** Philip K. Dick's *Do Androids Dream* and Ridley Scott's *Blade Runner* (the film) are separate entries, linked via `sequel_link`, because they are different source texts.
 - **Games: one per game.** Portal 1 and Portal 2 are separate entries. Halo is the ambiguous case — the CE-through-3 trilogy is coherent enough to unify, and Halo 4+ (rampancy) is distinct enough to split.
 - **Television / serials / comics: one per series by default.** Split only if the character undergoes a transformation that changes the card's core properties. If two candidate entries produce identical cards, collapse them.
@@ -127,7 +127,6 @@ These entries are explicitly flagged in `notes` as lower-confidence. If you read
 
 And from the draft's own flag list:
 
-- **Agent Smith (Reloaded/Revolutions)** — the card is identical to the Matrix 1 entry; may warrant collapse.
 - **Cortana (Halo 4+)** — reasonably confident, but the specific Rampancy axis is a close call.
 - **GLaDOS (Portal 2)** — the knowing shift to `secondary` is the judgment call.
 - **Vision (Age of Ultron)** — substrate is genuinely hybrid in a way v2.0's list syntax handles but the coding question is what the film *foregrounds*.

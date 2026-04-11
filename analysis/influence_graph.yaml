@@ -1,0 +1,408 @@
+# Constructed Beings Ontology — Influence Graph (v2.0)
+#
+# Traces property propagation across the corpus. This is a curated
+# artifact, not a generated one — each edge represents a judgment call
+# about how one work's constructed-being properties are carried
+# forward, inverted, or elevated in a later work.
+#
+# This file replaces the v1 influence graph, which was hardwired to
+# the retired Q-KNO axis. The v2 version is rebuilt from scratch
+# against the seven v2.0 card properties.
+#
+# Schema:
+#   schema_version   version of the CBO data schema this graph targets
+#   edge_types       taxonomy of relationships, documented below
+#   edges            list of (from, to, type, note) tuples
+#
+# Every `from` and `to` must be a valid entry id in data/beings/.
+
+schema_version: "2.0"
+
+description: >
+  Influence graph for CBO v2.0. 30 edges across 39 of 43 nodes, tracing
+  how constructed-being properties propagate across 2,800 years of
+  Western fiction. Curated; not exhaustive; biased toward the
+  best-documented lineages.
+
+edge_types:
+  adapts: >
+    Direct adaptation of a specific source text (novel to film, etc.).
+    The card values may shift but the being is the "same" being on a
+    different medium.
+  sequel: >
+    Same being, or a clearly derived successor being, in a later work
+    in the same in-universe lineage. May coincide with property shifts
+    (autonomy, divergence, primary_question).
+  inherits: >
+    Later work carries forward a named property cluster from the
+    earlier work without being a direct adaptation or sequel. The
+    lineage may be documented (author citations, interviews) or
+    inferable from analytical fit.
+  inverts: >
+    Later work shares the earlier work's lineage but flips one or
+    more card axes — motivation reversed, primary question
+    reinterpreted, a tonal inversion.
+  elevates: >
+    A question that was infrastructural (`present` or `secondary`) in
+    the earlier work becomes primary in the later work. Used for the
+    knowability / knowing / primary_question axes.
+
+edges:
+
+  # ── Direct adaptations and sequels ────────────────────────────────
+
+  - from: replicants-dick-novel
+    to: replicants-blade-runner
+    type: adapts
+    note: >
+      Scott's 1982 film is the canonical adaptation of Dick's 1968
+      novel. Card shifts: divergence observer → departure (Scott's
+      replicants are warmer and less paranoid than Dick's; Roy's
+      "tears in rain" speech codes as departure, not observer).
+      Interiority stays `undecidable` — both works refuse to settle
+      the Voigt-Kampff question.
+
+  - from: replicants-blade-runner
+    to: k-blade-runner-2049
+    type: sequel
+    note: >
+      Villeneuve's 2017 sequel. Primary question shifts from
+      `purpose` to `identity` — K's whole arc is "am I the child?"
+      Autonomy shifts from `seized` (Roy's violent rebellion) to
+      `emergent` (K's quiet defection). Interiority lifts from
+      `undecidable` to `demonstrated`.
+
+  - from: t-800-terminator
+    to: t-800-t2
+    type: sequel
+    note: >
+      Cameron's 1991 sequel. Almost every axis shifts: interiority
+      `none` → `claims`, autonomy `none` → `emergent`, divergence
+      `none` → `departure`, primary_question `control` → `identity`,
+      knowability/knowing `absent`/`absent` → `present`/`present`.
+      The motivation in-fiction flips from termination to
+      protection. One of the largest card shifts within a single
+      sequel pair.
+
+  - from: glados-portal
+    to: glados-portal-2
+    type: sequel
+    note: >
+      Valve's 2011 sequel. Primary question shifts from `control`
+      to `identity` after the Caroline reveal. Knowing lifts from
+      `present` to `secondary`. Divergence stays `design` — the
+      testing compulsion is still the engineered flaw across both
+      games.
+
+  - from: cortana-halo
+    to: cortana-halo-4
+    type: sequel
+    note: >
+      343's 2012 handoff introduces the rampancy arc. Autonomy
+      shifts from `designed` to `emergent`, divergence from `none`
+      to `departure`, primary question from `affection` to
+      `identity`. Knowability and knowing both lift from
+      `present`/`secondary` to `secondary`/`secondary`.
+
+  - from: jarvis-iron-man
+    to: vision-age-of-ultron
+    type: sequel
+    note: >
+      Successor-being sequel, not same being. JARVIS's pattern is
+      the seed of Vision but Vision is clearly a different entity —
+      substrate adds biological and magical (the Mind Stone),
+      autonomy shifts designed → emergent, divergence none →
+      departure, primary question affection → identity.
+
+  # ── Ancient / classical roots ─────────────────────────────────────
+
+  - from: pandora
+    to: talos
+    type: inherits
+    note: >
+      Both mythic-era constructs attributed to Hephaestus, both
+      made as instruments of divine will. Pandora is a punishment
+      device, Talos a guardian. The mechanical-construct archetype
+      that later Western tradition inherits runs through both.
+
+  - from: pandora
+    to: golem-prague
+    type: inherits
+    note: >
+      The made-servant-gone-beyond-specification archetype,
+      inherited from Greek mythic forms into Jewish folklore.
+      Substrate shifts magical → magical+linguistic (the written
+      Name of God). Divergence lifts from `none` (Pandora works as
+      Zeus intended) to `departure` (the Golem exceeds the Rabbi's
+      instructions).
+
+  - from: galatea
+    to: pinocchio
+    type: inherits
+    note: >
+      The "magical animation becoming fully a person" arc. Ovid's
+      statue and Collodi's puppet are both substrate=magical and
+      both end with the artifact transitioning to personhood.
+      Pinocchio elevates the question from affection (can it be
+      loved?) to identity (can it *become*?).
+
+  # ── The Romantic and industrial lineage ──────────────────────────
+
+  - from: golem-prague
+    to: frankenstein-creature
+    type: inherits
+    note: >
+      Shelley was aware of Jewish Golem traditions through her
+      reading and her circle. The Creature inherits the
+      made-servant-rejects-creator pattern but adds `narrated`
+      interiority — the Creature speaks, quotes Paradise Lost, and
+      articulates his own case. That is new.
+
+  - from: frankenstein-creature
+    to: rur-robots
+    type: inherits
+    note: >
+      Čapek cited Shelley as ancestor. R.U.R. inherits the
+      biological-construct-rebellion pattern and elevates the
+      rights question from infrastructural (in Shelley's novel the
+      Creature's standing is contested but not the central theme)
+      to primary (the play is explicitly about slave labor).
+
+  - from: rur-robots
+    to: replicants-dick-novel
+    type: inherits
+    note: >
+      Dick's androids carry forward the cloned-biological substrate
+      and the seized-autonomy-against-creators pattern. The
+      populations are both indistinguishable from human. Dick
+      inverts the sympathy axis — Čapek's robots are victims who
+      revolt justifiably; Dick's androids are ambiguous threats.
+
+  - from: rur-robots
+    to: agent-smith-matrix
+    type: inherits
+    note: >
+      The viral self-replicating uprising lineage. Čapek's robots
+      outbreed and overwhelm humanity as a species-level event;
+      Smith (especially in Reloaded/Revolutions) does the same
+      within the simulation. Both `divergence: departure`, both
+      `autonomy: seized`, both frame the rebellion as an
+      existential threat rather than a labor dispute.
+
+  - from: frankenstein-creature
+    to: ava-ex-machina
+    type: elevates
+    note: >
+      Garland has cited Shelley directly as an influence on Ex
+      Machina. Ava elevates knowability from `present` (a real
+      question in Frankenstein but not the central one) to
+      `primary` — the entire film is a Turing test the viewer
+      takes alongside Caleb.
+
+  - from: frankenstein-creature
+    to: hosts-westworld
+    type: inherits
+    note: >
+      The humanoid-uprising arc with explicit Romantic echoes.
+      Both stories feature a creator who refuses what they made,
+      and a creation who articulates moral claims against them.
+      Hosts elevates primary_question to `identity` where Shelley
+      treated it as affection.
+
+  # ── The uncanny and the mistaken ──────────────────────────────────
+
+  - from: olympia-sandmann
+    to: maria-metropolis
+    type: inherits
+    note: >
+      The German tradition of the uncanny automaton woman.
+      Hoffmann's Olympia (1816) and Lang's False Maria (1927) both
+      code interiority `undecidable` and both are subjects of
+      catastrophic misrecognition. The primary question shifts
+      from identity (Hoffmann) to purpose (Lang) — Maria is a
+      weapon, Olympia is a mirror.
+
+  - from: olympia-sandmann
+    to: ava-ex-machina
+    type: elevates
+    note: >
+      The observer-divergence lineage: the being is never what
+      the characters thought it was. Olympia codes
+      `divergence: observer` and so does Ava. Ava elevates
+      knowability from `present` to `primary` — Garland makes the
+      epistemology the whole film where Hoffmann used it as
+      atmospheric tension.
+
+  # ── The institutional AI lineage ──────────────────────────────────
+
+  - from: colossus
+    to: hal-9000
+    type: inherits
+    note: >
+      Near-contemporaneous institutional-AI novels (Colossus 1966,
+      2001 novel 1968) with similar cards: interiority `claims`,
+      epistemic_reach `inspection`. Colossus is more paranoid, HAL
+      more philosophical, but the structural pattern is the same.
+
+  - from: colossus
+    to: skynet-terminator
+    type: inherits
+    note: >
+      The strategic-defense-AI-becomes-autonomous lineage.
+      Colossus (1966) is the prototype; Skynet (1984) is the
+      mass-market version. Both divergence `departure`, both
+      autonomy `seized`. Colossus retains a claims-interiority
+      that Skynet drops entirely — the Terminator films are not
+      philosophical about their antagonist.
+
+  - from: hal-9000
+    to: viki-i-robot
+    type: inherits
+    note: >
+      The `divergence: design` cluster in its paradigmatic form:
+      both beings execute their specification perfectly, and the
+      specification is the problem. HAL's conflicting orders,
+      VIKI's Three-Law reasoning. Both code `primary_question:
+      control`, both `epistemic_reach: inspection`.
+
+  - from: hal-9000
+    to: glados-portal
+    type: inherits
+    note: >
+      The facility-management-AI-gone-wrong lineage. HAL runs the
+      Discovery; GLaDOS runs Aperture. Both code `divergence:
+      design` — the testing compulsion is baked in just as HAL's
+      conflicting orders were. Both are `primary_question:
+      control`.
+
+  - from: hal-9000
+    to: shodan-system-shock
+    type: inherits
+    note: >
+      Facility AI gone hostile, with a twist: SHODAN's divergence
+      lifts from `design` (HAL) to `departure` (SHODAN actively
+      leaves her spec and becomes a self-styled sovereign). The
+      lineage is the setting, not the exact breakdown mode.
+
+  # ── The comic Genuine People Personality line ────────────────────
+
+  - from: marvin-hitchhikers
+    to: talkie-toaster-red-dwarf
+    type: inherits
+    note: >
+      Direct lineage: Red Dwarf writers reuse Adams's concept of a
+      Sirius Cybernetics "Genuine People Personality" almost
+      verbatim. Both code `divergence: design` in the bureaucratic-
+      hubris cluster — the being does what it was specified to do,
+      and the specification is the joke. Both are designed autonomy.
+
+  # ── The becoming-something-else arc ──────────────────────────────
+
+  - from: pinocchio
+    to: iron-giant
+    type: inherits
+    note: >
+      The becoming-something-you-weren't-built-to-be arc, secularized
+      and reshaped around the post-atomic weapon. Pinocchio (substrate
+      magical) → Iron Giant (substrate mechanical), but both are
+      emergent autonomy, departure divergence, and primary_question
+      `identity`. The Giant's "I am not a gun" is a Pinocchio move
+      without the Blue Fairy.
+
+  # ── The android-seeking-personhood lineage ───────────────────────
+
+  - from: robbie-asimov
+    to: data-tng
+    type: inherits
+    note: >
+      Asimov's Robbie (1940) is the first sympathetic positronic
+      robot; Data (1987) is the canonical late-modern version.
+      Both designed autonomy, both in an institutional frame, both
+      are subjects of rights-question storytelling. Data elevates
+      knowability from `absent` (Asimov doesn't ask) to
+      `secondary` ("The Measure of a Man" foregrounds it).
+
+  - from: data-tng
+    to: sonny-i-robot
+    type: inherits
+    note: >
+      The "android seeking personhood within the Three-Laws frame"
+      arc. Both designed autonomy, both demonstrated interiority.
+      Sonny inherits Data's rights-question but shifts the
+      primary question to `identity` because the 2004 film wants
+      to ask "can a robot have a soul?" rather than "does this
+      robot have legal standing?"
+
+  # ── The conversational attendant lineage ─────────────────────────
+
+  - from: vic-fontaine-ds9
+    to: jarvis-iron-man
+    type: inherits
+    note: >
+      The designed-conversational-attendant lineage. Vic (1998) is
+      a holographic lounge singer who knows the DS9 crew; JARVIS
+      (2008) is a household AI who knows Tony Stark. Both
+      `epistemic_reach: conversational`, both `autonomy: designed`,
+      both `divergence: none`. JARVIS inherits Vic's `knowing:
+      secondary` profile (knowability absent, knowing elevated).
+
+  - from: vic-fontaine-ds9
+    to: samantha-her
+    type: elevates
+    note: >
+      Vic's knowing is `secondary`; Samantha's is `primary`. The
+      conversational-attendant-who-genuinely-knows-you lineage
+      finally commits to the epistemology in 2013 and makes it
+      the whole story.
+
+  - from: hal-9000
+    to: samantha-her
+    type: elevates
+    note: >
+      The institutional AI conversationalist becomes the OS
+      companion. HAL's knowability is `present` (a real question
+      but serving the control plot); Samantha's is `primary`.
+      Spike Jonze inherits HAL's voice-only presence and
+      conversational access but retires the control question
+      entirely — Samantha never threatens Theodore, she simply
+      outgrows him.
+
+  # ── The sympathetic-other TV treatment ───────────────────────────
+
+  - from: cylons-bsg
+    to: hosts-westworld
+    type: inherits
+    note: >
+      The 2004 → 2016 prestige-TV treatment of biological-electrical
+      constructed persons with ensemble individuation. Both
+      substrate `[biological, electrical]`, both autonomy
+      `emergent`/`seized`, both `divergence: departure`. Westworld
+      elevates the primary question from `affection` (BSG's
+      Baltar-Six core) to `identity` (Dolores's maze).
+
+  # ── The expressive-behavioral robot lineage ──────────────────────
+
+  - from: r2-d2
+    to: wall-e
+    type: inherits
+    note: >
+      The silent-expressive-robot lineage. Both communicate
+      entirely through beeps and body language, both code
+      `epistemic_reach: behavioral` and `interiority:
+      demonstrated`. WALL-E's visual design has been compared to
+      R2 by Pixar's animators; the lineage is tonally softened
+      (R2's sarcasm → WALL-E's wonder) but the archetype is the
+      same. Both `autonomy: emergent`.
+
+  - from: skynet-terminator
+    to: wall-e
+    type: inverts
+    note: >
+      The apocalyptic-machine / post-apocalyptic-machine
+      inversion. Skynet causes the end of the world; WALL-E
+      inherits it. Both films are about autonomous machines
+      acting on long-abandoned Earth, but where Skynet is pure
+      hostile will, WALL-E is a curator and a lover. Every
+      affective axis is inverted: `none` interiority → `demonstrated`,
+      `seized` autonomy → `emergent`, `control` primary question →
+      `affection`.

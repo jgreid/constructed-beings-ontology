@@ -1,16 +1,16 @@
 # Property Coverage Report
 
-Total entries: **44**.
+Total entries: **43**.
 
 This report counts the distribution of values for each v2.0 property. List-valued properties (substrate, motivation) count every token separately — hybrids contribute to each of their substrates.
 
 ## Interiority
 
-- **Coded:** 44/44 entries
+- **Coded:** 43/43 entries
 
 | Interiority   |   Count |
 |:--------------|--------:|
-| demonstrated  |      24 |
+| demonstrated  |      23 |
 | none          |       7 |
 | undecidable   |       7 |
 | claims        |       5 |
@@ -18,33 +18,33 @@ This report counts the distribution of values for each v2.0 property. List-value
 
 ## Autonomy
 
-- **Coded:** 44/44 entries
+- **Coded:** 43/43 entries
 
 | Autonomy   |   Count |
 |:-----------|--------:|
 | emergent   |      14 |
 | designed   |      12 |
-| seized     |      12 |
+| seized     |      11 |
 | none       |       6 |
 
 ## Divergence
 
-- **Coded:** 44/44 entries
+- **Coded:** 43/43 entries
 
 | Divergence   |   Count |
 |:-------------|--------:|
-| departure    |      20 |
+| departure    |      19 |
 | none         |      15 |
 | design       |       6 |
 | observer     |       3 |
 
 ## Primary Question
 
-- **Coded:** 44/44 entries
+- **Coded:** 43/43 entries
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| control            |      12 |
+| control            |      11 |
 | identity           |      10 |
 | affection          |       8 |
 | purpose            |       6 |
@@ -54,44 +54,44 @@ This report counts the distribution of values for each v2.0 property. List-value
 
 ## Epistemic Reach
 
-- **Coded:** 44/44 entries
+- **Coded:** 43/43 entries
 
 | Epistemic Reach   |   Count |
 |:------------------|--------:|
-| behavioral        |      21 |
+| behavioral        |      20 |
 | conversational    |       8 |
 | none              |       8 |
 | inspection        |       7 |
 
 ## Knowability
 
-- **Coded:** 44/44 entries
+- **Coded:** 43/43 entries
 
 | Knowability   |   Count |
 |:--------------|--------:|
-| absent        |      23 |
+| absent        |      22 |
 | present       |      14 |
 | secondary     |       5 |
 | primary       |       2 |
 
 ## Knowing
 
-- **Coded:** 44/44 entries
+- **Coded:** 43/43 entries
 
 | Knowing   |   Count |
 |:----------|--------:|
 | absent    |      20 |
-| present   |      15 |
+| present   |      14 |
 | secondary |       7 |
 | primary   |       2 |
 
 ## Medium
 
-- **Coded:** 44/44 entries
+- **Coded:** 43/43 entries
 
 | Medium      |   Count |
 |:------------|--------:|
-| film        |      20 |
+| film        |      19 |
 | novel       |       6 |
 | television  |       6 |
 | video-game  |       5 |
@@ -103,11 +103,11 @@ This report counts the distribution of values for each v2.0 property. List-value
 
 ## Substrate
 
-- **Coded:** 44/44 entries
+- **Coded:** 43/43 entries
 
 | Substrate   |   Count |
 |:------------|--------:|
-| electrical  |      31 |
+| electrical  |      30 |
 | mechanical  |      17 |
 | biological  |      13 |
 | magical     |       5 |
@@ -116,13 +116,13 @@ This report counts the distribution of values for each v2.0 property. List-value
 
 ## Motivation
 
-- **Coded:** 44/44 entries
+- **Coded:** 43/43 entries
 
 | Motivation    |   Count |
 |:--------------|--------:|
 | service       |      30 |
 | knowledge     |      14 |
-| power         |      13 |
+| power         |      12 |
 | companionship |       6 |
 | mirror        |       5 |
 | art           |       4 |

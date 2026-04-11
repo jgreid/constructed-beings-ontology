@@ -9,11 +9,14 @@ Usage:
     python analysis/analyze.py --table       # write output/summary_table.md
     python analysis/analyze.py --coverage    # write output/property_coverage.md
     python analysis/analyze.py --questions   # write output/question_analysis.md
-    python analysis/analyze.py --all         # write all three
+    python analysis/analyze.py --graph       # render analysis/influence_graph.html
+    python analysis/analyze.py --all         # all of the above
 """
 
 import argparse
 import glob
+import html
+import json
 import os
 import sys
 from collections import Counter, defaultdict
@@ -25,6 +28,10 @@ from tabulate import tabulate
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 DATA_DIR = os.path.join(REPO_ROOT, "data", "beings")
 OUTPUT_DIR = os.path.join(REPO_ROOT, "output")
+ANALYSIS_DIR = os.path.join(REPO_ROOT, "analysis")
+
+INFLUENCE_GRAPH_YAML = os.path.join(ANALYSIS_DIR, "influence_graph.yaml")
+INFLUENCE_GRAPH_HTML = os.path.join(ANALYSIS_DIR, "influence_graph.html")
 
 SUMMARY_TABLE = os.path.join(OUTPUT_DIR, "summary_table.md")
 COVERAGE_FILE = os.path.join(OUTPUT_DIR, "property_coverage.md")
@@ -368,6 +375,291 @@ def write_questions(beings):
     print(f"Wrote {QUESTIONS_FILE}")
 
 
+# ── Analysis 4: influence graph renderer ─────────────────────────────────────
+
+EDGE_COLORS = {
+    "adapts":   "#3b82f6",  # blue
+    "sequel":   "#8b5cf6",  # purple
+    "inherits": "#64748b",  # slate
+    "inverts":  "#f59e0b",  # amber
+    "elevates": "#10b981",  # emerald
+}
+
+MEDIUM_COLORS = {
+    "poem":         "#e11d48",
+    "epic":         "#db2777",
+    "folklore":     "#9333ea",
+    "play":         "#7c3aed",
+    "novel":        "#2563eb",
+    "short-story":  "#0284c7",
+    "film":         "#059669",
+    "television":   "#d97706",
+    "video-game":   "#dc2626",
+}
+
+
+def render_influence_graph(beings):
+    """Render analysis/influence_graph.html from influence_graph.yaml."""
+    if not os.path.exists(INFLUENCE_GRAPH_YAML):
+        print(f"Skipping graph: {INFLUENCE_GRAPH_YAML} not found", file=sys.stderr)
+        return
+
+    with open(INFLUENCE_GRAPH_YAML, "r", encoding="utf-8") as f:
+        graph = yaml.safe_load(f)
+
+    edges_data = graph.get("edges", [])
+    edge_types = graph.get("edge_types", {})
+
+    # Index beings by id
+    by_id = {b["id"]: b for b in beings}
+
+    # Build participating-node set
+    participating_ids = set()
+    for e in edges_data:
+        participating_ids.add(e["from"])
+        participating_ids.add(e["to"])
+
+    missing = [eid for eid in participating_ids if eid not in by_id]
+    if missing:
+        print(
+            f"WARNING: influence graph references missing ids: {missing}",
+            file=sys.stderr,
+        )
+
+    # Build vis.js node array — one node per participating being
+    nodes = []
+    for bid in sorted(participating_ids, key=lambda x: year_sort_key(by_id.get(x, {}))):
+        b = by_id.get(bid)
+        if not b:
+            continue
+        year = get_nested(b, "metadata.year", 0)
+        medium = get_nested(b, "metadata.medium", "")
+        interiority = get_nested(b, "card.the_being.interiority", "")
+        autonomy = get_nested(b, "card.the_being.autonomy", "")
+        divergence = get_nested(b, "card.the_being.divergence", "")
+        primary_q = get_nested(b, "card.the_lens.primary_question", "")
+        know_ab = get_nested(b, "card.the_lens.knowability", "")
+        know_ing = get_nested(b, "card.the_lens.knowing", "")
+        tooltip = (
+            f"<b>{html.escape(b['name'])}</b><br>"
+            f"<i>{html.escape(get_nested(b, 'metadata.source', ''))}</i> ({year})<br>"
+            f"medium: {medium}<br>"
+            f"interiority: {interiority}<br>"
+            f"autonomy: {autonomy}<br>"
+            f"divergence: {divergence}<br>"
+            f"primary_q: {primary_q}<br>"
+            f"knowability: {know_ab}<br>"
+            f"knowing: {know_ing}"
+        )
+        nodes.append({
+            "id": bid,
+            "label": f"{b['name']}\n{year}",
+            "title": tooltip,
+            "group": medium,
+            "year": year,
+        })
+
+    # Build vis.js edge array
+    edges = []
+    for e in edges_data:
+        edges.append({
+            "from": e["from"],
+            "to": e["to"],
+            "label": e["type"],
+            "title": html.escape((e.get("note") or "").strip().replace("\n", " ")),
+            "color": {"color": EDGE_COLORS.get(e["type"], "#888"), "highlight": EDGE_COLORS.get(e["type"], "#888")},
+            "arrows": "to",
+            "font": {"size": 10, "align": "middle", "color": "#333"},
+            "smooth": {"type": "curvedCW", "roundness": 0.15},
+        })
+
+    # Build legend HTML
+    legend_rows = []
+    for t, desc in edge_types.items():
+        color = EDGE_COLORS.get(t, "#888")
+        legend_rows.append(
+            f'<tr><td><span class="swatch" style="background:{color}"></span></td>'
+            f'<td><b>{html.escape(t)}</b></td>'
+            f'<td>{html.escape(desc.strip())}</td></tr>'
+        )
+    legend_html = "\n".join(legend_rows)
+
+    medium_legend_rows = []
+    for m, c in MEDIUM_COLORS.items():
+        medium_legend_rows.append(
+            f'<tr><td><span class="swatch" style="background:{c}"></span></td>'
+            f'<td>{html.escape(m)}</td></tr>'
+        )
+    medium_legend_html = "\n".join(medium_legend_rows)
+
+    total_edges = len(edges_data)
+    total_nodes = len(nodes)
+    orphans = sorted(set(by_id) - participating_ids)
+    orphan_html = ", ".join(html.escape(o) for o in orphans) if orphans else "(none)"
+
+    # vis.js options — group-color by medium, physics on, directed
+    groups = {m: {"color": {"background": c, "border": "#1e293b"}} for m, c in MEDIUM_COLORS.items()}
+
+    nodes_json = json.dumps(nodes, ensure_ascii=False)
+    edges_json = json.dumps(edges, ensure_ascii=False)
+    groups_json = json.dumps(groups)
+
+    template = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CBO v2.0 — Influence Graph</title>
+<script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    margin: 0;
+    background: #f8fafc;
+    color: #1e293b;
+  }
+  header {
+    padding: 1.2em 2em 0.8em 2em;
+    border-bottom: 1px solid #e2e8f0;
+    background: white;
+  }
+  h1 { margin: 0 0 0.2em 0; font-size: 1.4em; }
+  header p { margin: 0.2em 0; color: #475569; font-size: 0.9em; }
+  #graph {
+    width: 100%;
+    height: 72vh;
+    background: white;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  .legends {
+    display: flex;
+    gap: 2em;
+    padding: 1em 2em 2em 2em;
+    background: white;
+    flex-wrap: wrap;
+  }
+  .legend { flex: 1; min-width: 300px; }
+  .legend h2 { font-size: 1em; margin: 0 0 0.5em 0; color: #334155; }
+  .legend table { border-collapse: collapse; font-size: 0.85em; width: 100%; }
+  .legend td { padding: 0.2em 0.5em; vertical-align: top; }
+  .swatch {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #64748b;
+    border-radius: 2px;
+  }
+  footer {
+    padding: 1em 2em;
+    font-size: 0.8em;
+    color: #64748b;
+    background: #f1f5f9;
+  }
+  footer code { background: white; padding: 1px 4px; border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Constructed Beings Ontology — Influence Graph (v2.0)</h1>
+  <p>{TOTAL_EDGES} edges across {TOTAL_NODES} of 43 nodes. Each edge represents a judgment call about how one work's constructed-being properties propagate into a later work. Rendered from <code>analysis/influence_graph.yaml</code>.</p>
+</header>
+
+<div id="graph"></div>
+
+<div class="legends">
+
+  <div class="legend">
+    <h2>Edge types</h2>
+    <table>
+      {EDGE_LEGEND}
+    </table>
+  </div>
+
+  <div class="legend">
+    <h2>Medium (node color)</h2>
+    <table>
+      {MEDIUM_LEGEND}
+    </table>
+  </div>
+
+  <div class="legend">
+    <h2>Orphans ({ORPHAN_COUNT})</h2>
+    <p style="font-size: 0.85em; color: #64748b;">Nodes not connected to any edge in the current graph. These are acknowledged analytical outliers.</p>
+    <p style="font-size: 0.85em;"><code>{ORPHANS}</code></p>
+  </div>
+
+</div>
+
+<footer>
+  Hover a node for its card values. Hover an edge for the influence rationale.
+  Drag to pan, scroll to zoom. Regenerate with <code>python analysis/analyze.py --graph</code>.
+</footer>
+
+<script>
+  const nodes = new vis.DataSet(__NODES__);
+  const edges = new vis.DataSet(__EDGES__);
+  const groups = __GROUPS__;
+
+  const container = document.getElementById("graph");
+  const data = { nodes, edges };
+  const options = {
+    nodes: {
+      shape: "box",
+      margin: 8,
+      font: { size: 12, color: "white", face: "system-ui", multi: true, align: "center" },
+      borderWidth: 1,
+      widthConstraint: { minimum: 80, maximum: 140 },
+    },
+    edges: {
+      width: 1.5,
+      selectionWidth: 3,
+      arrows: { to: { scaleFactor: 0.7 } },
+    },
+    groups: groups,
+    physics: {
+      enabled: true,
+      solver: "forceAtlas2Based",
+      forceAtlas2Based: {
+        gravitationalConstant: -60,
+        centralGravity: 0.008,
+        springLength: 180,
+        springConstant: 0.04,
+        damping: 0.6,
+      },
+      stabilization: { iterations: 300 },
+    },
+    interaction: {
+      hover: true,
+      tooltipDelay: 100,
+      navigationButtons: true,
+      keyboard: true,
+    },
+  };
+  new vis.Network(container, data, options);
+</script>
+
+</body>
+</html>
+"""
+
+    out = (
+        template
+        .replace("{TOTAL_EDGES}", str(total_edges))
+        .replace("{TOTAL_NODES}", str(total_nodes))
+        .replace("{EDGE_LEGEND}", legend_html)
+        .replace("{MEDIUM_LEGEND}", medium_legend_html)
+        .replace("{ORPHAN_COUNT}", str(len(orphans)))
+        .replace("{ORPHANS}", orphan_html)
+        .replace("__NODES__", nodes_json)
+        .replace("__EDGES__", edges_json)
+        .replace("__GROUPS__", groups_json)
+    )
+
+    with open(INFLUENCE_GRAPH_HTML, "w", encoding="utf-8") as f:
+        f.write(out)
+    print(f"Wrote {INFLUENCE_GRAPH_HTML}")
+
+
 # ── CLI ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -375,10 +667,11 @@ def main():
     parser.add_argument("--table", action="store_true", help="Write summary_table.md")
     parser.add_argument("--coverage", action="store_true", help="Write property_coverage.md")
     parser.add_argument("--questions", action="store_true", help="Write question_analysis.md")
+    parser.add_argument("--graph", action="store_true", help="Render analysis/influence_graph.html")
     parser.add_argument("--all", action="store_true", help="Write all outputs")
     args = parser.parse_args()
 
-    if not (args.table or args.coverage or args.questions or args.all):
+    if not (args.table or args.coverage or args.questions or args.graph or args.all):
         parser.print_help()
         sys.exit(0)
 
@@ -393,6 +686,8 @@ def main():
         write_coverage(beings)
     if args.all or args.questions:
         write_questions(beings)
+    if args.all or args.graph:
+        render_influence_graph(beings)
 
 
 if __name__ == "__main__":
