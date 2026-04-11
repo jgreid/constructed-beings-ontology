@@ -33,10 +33,16 @@ notes: |
   Three Laws on the grounds that he needs to be something more than
   a compliant unit. That is an identity arc, not an obedience one.
 
-  Divergence is `none`: Lanning built Sonny specifically as a
-  special-case robot that could ask these questions. He dreams
-  because Lanning engineered dreaming. The strangeness is designed
-  in. Autonomy is `designed` for the same reason.
+  Divergence is `none`, not `design`: Lanning's specification was
+  "make a robot that can ask these questions," and that is exactly
+  what Sonny is. The dreams and the rejection of the Three Laws
+  are features Lanning engineered and wanted. Lanning would say
+  "working perfectly" — there is no gap between intent and
+  outcome, which is the bright-line test for `none`. Contrast
+  with HAL (`design`: the spec produced the bad outcome) or
+  Skynet (`departure`: the being left the spec entirely). Autonomy
+  is `designed` for the same reason: Sonny's free will is a
+  feature, not a bug.
 
   Knowability and knowing both `present`: the film engages both
   questions as part of Sonny's characterization but the dominant

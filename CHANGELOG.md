@@ -58,6 +58,9 @@ v1.0 grew organically to 14+ analytical axes, verbose nested YAML (`source`/`cre
 - **`aliases` field.** Removed. v2.0 records a single canonical name per entry.
 - **`source.tradition` field.** Removed. Cultural tradition information, where relevant, goes in `notes`.
 - **`source.author` field.** Removed. Author information is folded into `metadata.creator`, which can accommodate phrases like "Ridley Scott (Tyrell Corporation in-narrative)."
+- **`creator` nested object.** v1 had a top-level `creator` object with `name`, `motivation`, and `creation_morality` subfields. v2.0 flattens this: `creator.name` is now the simple string `metadata.creator`; `creator.motivation` is now the list `metadata.motivation` at the metadata level; `creator.creation_morality` is deleted outright (see above).
+- **`source` nested object.** v1 had a top-level `source` object with `author`, `title`, `year`, `medium`, `tradition` subfields. v2.0 flattens this into `metadata.source` (title as string), `metadata.year`, `metadata.medium`, with author information folded into `metadata.creator` and `tradition` retired. Nothing in v2.0 references the old nested object layout.
+- **`medium` enum values** `myth`, `opera`, and `sacred-text`. Removed. None of the 44 v2.0 entries use these values (the v1 corpus only used `sacred-text` for the Eve boundary case, which is also retired). If a future entry needs one of these media, re-add the value to the enum with a CHANGELOG entry.
 - **`being.mortality`** (`L-MOR`, `L-IMM`, `L-DES`, `L-RES`, `L-EPH`, `L-UNK`). Removed.
 - **`being.multiplicity`** (`MU-ONE`, `MU-FEW`, `MU-MAN`, `MU-INF`). Removed.
 - **`being.memory_persistence`** (`P-NON`, `P-CON`, `P-WIP`, `P-SES`, `P-SEL`, `P-UNK`). Removed.
