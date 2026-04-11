@@ -15,8 +15,8 @@ Post-release maintenance. No schema changes; two entry-level changes and an infl
 
 ### New
 
-- **`analysis/influence_graph.yaml`** (regenerated for v2.0). 30 edges across 39 nodes tracing property propagation under the v2.0 schema. Edge types: `adapts`, `sequel`, `inherits`, `inverts`, `elevates`. This replaces the v1 influence graph which was retired in v2.0.0 as "hardwired to Q-KNO axis propagation." The v2 version is rebuilt from scratch against the new card axes.
-- **`analysis/influence_graph.html`** (regenerated). A vis.js-based interactive visualization of the influence graph, colored by edge type and grouped by medium.
+- **`analysis/influence_graph.yaml`** (regenerated for v2.0). 32 edges across 39 of 43 nodes, tracing property propagation under the v2.0 schema. Edge types: `adapts` (1), `sequel` (5), `inherits` (21), `inverts` (1), `elevates` (4). This replaces the v1 influence graph which was retired in v2.0.0 as "hardwired to Q-KNO axis propagation." The v2 version is rebuilt from scratch against the new card axes. Four orphan nodes (`ash-alien`, `c-3po`, `emerac-desk-set`, `gir-invader-zim`) are acknowledged analytical outliers.
+- **`analysis/influence_graph.html`** (regenerated). A vis.js-based interactive visualization of the influence graph, colored by edge type and grouped by medium. Generated from the YAML by a new `render_influence_graph()` function in `analysis/analyze.py` behind a `--graph` flag; `analyze.py --all` now includes the graph render.
 
 ### Removed
 
@@ -94,7 +94,7 @@ v1.0 grew organically to 14+ analytical axes, verbose nested YAML (`source`/`cre
 - **`relationship.question` list.** Removed. v2.0 keeps only `primary_question` and drops the multi-value list. The primary question was always doing most of the analytical work; the list was mostly documenting runners-up.
 - **`relationship.q_kno_status`**. Removed (see Changed → Knowability/Knowing split).
 - **`analysis/generate_table.py`, `analysis/property_coverage.py`, `analysis/question_analysis.py`.** Removed. Their functionality is merged into `analysis/analyze.py`.
-- **`analysis/influence_graph.yaml`, `analysis/influence_graph.html`.** Removed. These encoded v1-specific narrative-influence claims hardwired to Q-KNO axis propagation. Retired pending v2-native re-analysis.
+- **`analysis/influence_graph.yaml`, `analysis/influence_graph.html`.** Removed. These encoded v1-specific narrative-influence claims hardwired to Q-KNO axis propagation. Retired pending v2-native re-analysis. *(Reintroduced in 2.0.1 with a ground-up rebuild — see the 2.0.1 section above.)*
 - **`analysis/analysis_notes.md`, `analysis/qkno_paths.md`.** Removed. These were hypothesis documents for v1's single Q-KNO axis; the thesis survives into v2.0 (see `output/classification_summary.md`) but the specific hand-written documents are retired.
 - **`docs/property_definitions.md`.** Removed. [`SCHEMA.md`](SCHEMA.md) now subsumes it — the v2.0 property count is small enough that a separate reference doc added friction without adding clarity.
 - **`data/boundary_cases/eve-genesis.yaml`.** Removed. The v1 entry existed specifically to make the `born-divine` vs. `made` distinction visible. v2.0 has no `reproductive_method` axis, so Eve no longer has a schema reason to be a boundary case. See [`docs/boundary_cases.md`](docs/boundary_cases.md) for the new treatment.

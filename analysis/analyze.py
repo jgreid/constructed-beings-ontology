@@ -426,9 +426,11 @@ def render_influence_graph(beings):
             file=sys.stderr,
         )
 
-    # Build vis.js node array — one node per participating being
+    # Build vis.js node array — one node per participating being.
+    # Sort by (year, id) so equal-year entries have a deterministic order
+    # (sets are hash-randomized; year alone is not a stable sort key).
     nodes = []
-    for bid in sorted(participating_ids, key=lambda x: year_sort_key(by_id.get(x, {}))):
+    for bid in sorted(participating_ids, key=lambda x: (year_sort_key(by_id.get(x, {})), x)):
         b = by_id.get(bid)
         if not b:
             continue

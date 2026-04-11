@@ -116,7 +116,7 @@ In pre-LLM texts, the questions of whether a constructed being truly experiences
 
 In post-LLM texts — and, more importantly, in post-LLM *audience reception* of older texts — both questions move from infrastructure to **primary question**. They are no longer levers for exploring other themes; they *are* the theme. This happens because the audience can no longer maintain comfortable hypothetical distance. The question "does this thing actually experience?" has migrated from fiction into daily life, and it has brought a second question with it: "does it know me?"
 
-v2.0 lets you trace this migration with more precision than v1.0 allowed. The `knowability` and `knowing` fields encode two independent measures of narrative salience, and the divergence between them turns out to be one of the most analytically useful features the corpus exposes. Ten entries code differently on the two axes — a class of configuration v1.0's single Q-KNO axis could not represent.
+v2.0 lets you trace this migration with more precision than v1.0 allowed. The `knowability` and `knowing` fields encode two independent measures of narrative salience, and the divergence between them turns out to be one of the most analytically useful features the corpus exposes. Nine entries code differently on the two axes — a class of configuration v1.0's single Q-KNO axis could not represent.
 
 See [output/classification_summary.md](output/classification_summary.md) for the full pattern analysis.
 
