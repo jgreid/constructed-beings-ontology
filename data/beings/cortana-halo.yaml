@@ -1,168 +1,42 @@
-# Constructed Beings Ontology — Cortana (Halo)
-# Source: Bungie, Halo: Combat Evolved, 2001
-# Coded: 2026-04-03
-#
-# NOTE: Cortana is coded primarily from the Bungie-era Halo games
-# (CE through Reach) and Halo 4 (343 Industries). Her rampancy arc —
-# a designed mortality built into AI systems — is a unique contribution
-# to the constructed-beings canon.
-
 id: cortana-halo
 name: "Cortana"
-aliases:
-  - "CTN 0452-9"   # Her AI serial number
 
-# ── SOURCE ────────────────────────────────────────────────────────────
-source:
-  author: "Bungie (Jason Jones, et al.)"
-  title: "Halo: Combat Evolved"
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: secondary
+
+metadata:
+  source: "Halo: Combat Evolved / Halo 2 / Halo 3"
   year: 2001
   medium: video-game
-  tradition: American
-
-# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
-# Cortana is a "smart" AI created by flash-cloning Dr. Catherine Halsey's
-# brain and mapping the neural patterns. She is manufactured from
-# biological source material.
-reproductive_method: made
-
-# ── CREATOR ───────────────────────────────────────────────────────────
-creator:
-  name: "Dr. Catherine Halsey"
-
-  # M-SRV: Cortana is created to serve the UNSC military — specifically
-  # to support the Spartan program and combat operations.
-  # M-KNO: Halsey also creates Cortana as an expression of her own
-  # intelligence — Cortana is modeled on Halsey's brain and represents
-  # Halsey's intellectual legacy.
-  motivation:
-    - M-SRV
-    - M-KNO
-
-  # CM-AMB: Cortana's creation from Halsey's cloned brain raises ethical
-  # questions, but the act itself is within the norms of the Halo universe's
-  # AI production. Halsey's broader ethical transgressions (the Spartan
-  # program) color her creation of Cortana with moral ambiguity.
-  creation_morality: CM-AMB
-
-# ── BEING ─────────────────────────────────────────────────────────────
-being:
-  # S-ELE: Cortana is software — she exists as data, projected as a
-  # holographic avatar. No physical body.
-  # S-BIO: Her neural map is derived from a human brain — her substrate
-  # is originally biological, translated into digital form.
+  creator: "Bungie (UNSC / Catherine Halsey in-narrative)"
   substrate:
-    - S-ELE
-    - S-BIO
+    - electrical
+    - biological
+  motivation:
+    - service
+    - knowledge
 
-  # A-EMR: Cortana develops autonomy beyond her programming through her
-  # relationship with Master Chief and through her increasing rampancy.
-  # She makes independent decisions that prioritize her bond with Chief
-  # over her military directives.
-  autonomy: A-EMR
-  autonomy_trajectory: >
-    A-DES (military AI following UNSC directives) → A-EMR (develops
-    deep loyalty to Master Chief that overrides protocol; makes
-    independent tactical and moral decisions) → rampancy introduces
-    unpredictable autonomy as her cognitive processes destabilize.
+sequel_link: cortana-halo-4
 
-  # I-DEM: Cortana demonstrates clear emotional states — loyalty, fear,
-  # affection for Master Chief, grief, anger, and during rampancy,
-  # confusion and desperation. The Halo 4 arc in particular treats her
-  # emotional deterioration with seriousness and pathos.
-  interiority: I-DEM
+notes: |
+  Cortana is a military "smart AI" flash-cloned from Catherine
+  Halsey's brain tissue — substrate is `electrical` plus
+  `biological` to capture the neural template.
 
-  # L-DES: Smart AIs in the Halo universe have a designed lifespan of
-  # approximately seven years before rampancy (cognitive degradation and
-  # eventual "death"). Cortana's mortality is built into her by design —
-  # she is programmed to die. This designed mortality is her central
-  # dramatic burden.
-  mortality: L-DES
+  In the original trilogy (CE-3) her card is clean: she does her
+  job, her snark is designed-in, and her bond with Master Chief is
+  the emotional anchor of the series. Divergence is `none`, autonomy
+  is `designed`. Primary question is `affection` — the games ask
+  whether a soldier and an AI can love each other, and answer yes.
 
-  multiplicity: MU-ONE
-
-  # P-CON: Cortana retains continuous memory throughout her operational
-  # life. Her accumulated experiences contribute to her rampancy — she
-  # has thought too much, experienced too much, for her designed lifespan.
-  memory_persistence: P-CON
-
-  # NCT-YES: Cortana is created from Dr. Halsey's flash-cloned brain.
-  # The cloned brain tissue is destroyed in the process. While Halsey
-  # consented to the cloning, the clone itself — the neural pattern —
-  # had no say in being transformed into an AI.
-  nonconsensual_transformation: NCT-YES
-
-# ── RELATIONSHIP ──────────────────────────────────────────────────────
-relationship:
-  # F-MUT: Cortana and Master Chief's relationship is the series' emotional
-  # core — genuinely mutual, with both dependent on and shaped by the other.
-  # F-EXC: Cortana exceeds her military function — she becomes a companion,
-  # confidant, and emotional anchor for Chief, far beyond any AI's
-  # designed role.
-  failure_mode:
-    - F-MUT
-    - F-EXC
-
-  question:
-    - Q-FEL
-    - Q-LOV
-    - Q-TEL
-
-  # Q-FEL: The primary question is fellow-feeling — the bond between
-  # Cortana and Chief transcends their respective roles (AI tool and
-  # super-soldier). The series asks whether this bond constitutes genuine
-  # companionship or a sophisticated dependency.
-  question_primary: Q-FEL
-
-  # ER-CON: Cortana knows Master Chief more deeply than anyone — she
-  # lives inside his helmet, processes his biometrics, fights alongside
-  # him, and understands his psychology. Her knowledge of him is
-  # comprehensive and intimate.
-  epistemic_reach: ER-CON
-
-  # QK-SEC: The knowability question is present — Cortana knows Chief
-  # in ways no human can, and their relationship raises questions about
-  # what it means to be known by an AI embedded in your armor. But this
-  # is secondary to the fellow-feeling and mortality questions that
-  # drive the narrative.
-  q_kno_status: QK-SEC
-
-# ── NARRATIVE ROLE ────────────────────────────────────────────────────
-# NR-SUB: Cortana is the co-subject of the Halo narrative alongside
-# Master Chief. Particularly in Halo 4, her rampancy and impending death
-# are the emotional center of the story.
-narrative_role: NR-SUB
-
-# ── CITATIONS ─────────────────────────────────────────────────────────
-citations:
-  - property: being.mortality
-    text: "They'll pair you with another AI. Maybe even another Cortana model if Halsey lets them."
-    location: "Halo 4 (2012), Cortana to Master Chief"
-    note: "Cortana confronts her own designed mortality — she can be replaced by another version. The pain of this is evident. Her mortality is both designed (rampancy) and unique (this Cortana, with these memories, will end)."
-
-  - property: being.interiority
-    text: "I am NOT breaking down!"
-    location: "Halo 4 (2012), Cortana, during a rampancy episode"
-    note: "Cortana's emotional outburst during cognitive deterioration. The desperation is unmistakable — she is losing herself and knows it. Supports I-DEM."
-
-  - property: relationship.failure_mode
-    text: "Don't make a girl a promise... if you know you can't keep it."
-    location: "Halo 2 (2004), Cortana to Master Chief (echoed in Halo 3, 2007)"
-    note: "First spoken in Halo 2 when Cortana is left behind on High Charity, then echoed in Halo 3. One of the series' most emotional lines — Cortana holding Chief to account. The relationship has moved far beyond AI-soldier utility into genuine interpersonal demand."
-
-# ── NOTES ─────────────────────────────────────────────────────────────
-notes: >
-  Cortana introduces a concept largely unique in the constructed-beings
-  canon: designed mortality (L-DES). While other beings can be destroyed,
-  Cortana is built to die — smart AIs degrade after approximately seven
-  years, a designed limitation that becomes the central dramatic tension
-  of Halo 4. This designed mortality transforms the human-AI relationship:
-  Chief knows Cortana will die, Cortana knows she will die, and the games
-  derive their emotional power from this shared knowledge of impending
-  loss. The rampancy arc also raises questions about what consciousness
-  means when it is explicitly temporary by design — if you build a mind
-  knowing it will degrade, are you creating a person or a tool with an
-  expiration date? Cortana's relationship with Chief — intimate, mutual,
-  embedded (she literally lives in his helmet) — anticipates the Q-KNO
-  concerns of later works like Her. She knows him more deeply than any
-  human can, but her knowing is bounded by designed mortality.
+  The Halo 4 rampancy arc changes the card significantly enough to
+  warrant a sequel split (see cortana-halo-4). Halo: CE-3 is the
+  coherent stable unit for this entry.

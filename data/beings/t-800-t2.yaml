@@ -1,0 +1,46 @@
+id: t-800-t2
+name: "T-800 (T2)"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Terminator 2: Judgment Day"
+  year: 1991
+  medium: film
+  creator: "James Cameron (Future John Connor in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - service
+
+sequel_link: null
+
+notes: |
+  Sequel-split entry mandated by the v2.0 brief. T2's T-800 is the
+  same hardware as the 1984 original but a different card: the
+  motivation is protection rather than termination, the autonomy is
+  emergent (John teaches it thumbs-up), and the identity question
+  ("I know now why you cry, but it is something I can never do") is
+  foregrounded in a way the first film never contemplated.
+
+  Interiority shifts from `none` (T1) to `claims` (T2): the T-800
+  articulates things about learning and loss but the film frames
+  this as acquired behavior, not verified feeling. T2 is explicit
+  that the T-800 is still a machine — the ending is about its
+  acceptance of termination.
+
+  Primary question is `identity`: the film asks what this machine
+  can become when tasked with protection instead of destruction.
+  Divergence is `departure` — the learning, the thumbs-up, the
+  self-sacrifice are all moves beyond its original design envelope.

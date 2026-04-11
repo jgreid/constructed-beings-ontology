@@ -1,0 +1,41 @@
+id: golem-prague
+name: "The Golem of Prague"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: none
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Golem of Prague folklore cycle"
+  year: 1580
+  medium: folklore
+  creator: "Traditional (Rabbi Judah Loew ben Bezalel in-narrative)"
+  substrate:
+    - magical
+    - linguistic
+  motivation:
+    - service
+
+sequel_link: null
+
+notes: |
+  Substrate is a list `[magical, linguistic]`: animated by the
+  handwritten Name of God placed in its mouth. The linguistic element
+  is the mechanism of life — removing the Name deactivates it.
+
+  Divergence is `departure`: the folklore cycle repeatedly tells of
+  the golem exceeding its instructions, sometimes violently. The
+  canonical tale ends with Rabbi Loew reverently deactivating it
+  because it has grown beyond what it was made for. The departure is
+  consistent across variants even though the specifics shift.
+
+  Primary question is `control`: every version of the story is about
+  whether the golem can be stopped, shut down, reasoned with. The
+  control question is the engine of the tradition.

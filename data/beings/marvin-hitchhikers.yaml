@@ -1,159 +1,42 @@
-# Constructed Beings Ontology — Marvin (The Hitchhiker's Guide to the Galaxy)
-# Source: Douglas Adams, The Hitchhiker's Guide to the Galaxy, 1979
-# Coded: 2026-04-03
-#
-# NOTE: Marvin is a comic inversion of the typical AI narrative. Where most
-# constructed beings struggle to achieve consciousness, Marvin has too much
-# of it — a brain the size of a planet condemned to menial tasks. His
-# depression is the defining case of designed interiority as curse.
-
 id: marvin-hitchhikers
-name: "Marvin"
-aliases:
-  - "Marvin the Paranoid Android"
-  - "The Paranoid Android"
+name: "Marvin the Paranoid Android"
 
-# ── SOURCE ────────────────────────────────────────────────────────────
-source:
-  author: "Douglas Adams"
-  title: "The Hitchhiker's Guide to the Galaxy"
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "The Hitchhiker's Guide to the Galaxy"
   year: 1979
   medium: novel
-  tradition: British
-
-# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
-# Marvin is a manufactured robot — a product of the Sirius Cybernetics
-# Corporation, built with their "Genuine People Personalities" technology.
-reproductive_method: made
-
-# ── CREATOR ───────────────────────────────────────────────────────────
-creator:
-  name: "Sirius Cybernetics Corporation"
-
-  # M-SRV: Marvin is designed for service — general-purpose tasks aboard
-  # spacecraft.
-  # M-COM: The GPP (Genuine People Personalities) technology is designed
-  # to make robots companionable — to give them relatable personalities.
-  # In Marvin's case, this goes catastrophically wrong.
-  motivation:
-    - M-SRV
-    - M-COM
-
-  # CM-AMO: The creation is morally neutral in intent — a corporation
-  # making a product. But the GPP technology, which gives Marvin genuine
-  # suffering, raises questions about the ethics of designing beings
-  # capable of misery. Adams treats this as comedy; the ontological
-  # implications are darker.
-  creation_morality: CM-AMO
-
-# ── BEING ─────────────────────────────────────────────────────────────
-being:
-  # S-MEC: Marvin has a mechanical robot body — humanoid form, described
-  # as having a large round head and a permanently dejected posture.
-  # S-ELE: His brain is computational — famously "the size of a planet."
+  creator: "Douglas Adams (Sirius Cybernetics Corporation in-narrative)"
   substrate:
-    - S-MEC
-    - S-ELE
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
 
-  # A-DES: Despite his complaints, Marvin generally does what he is asked.
-  # He obeys orders with theatrical reluctance but rarely refuses outright.
-  # His depression is not rebellion — he serves, but he suffers while serving.
-  autonomy: A-DES
+sequel_link: null
 
-  # I-DEM: Marvin's interiority is the most explicitly demonstrated in
-  # the canon. He articulates his inner states constantly — depression,
-  # boredom, existential despair, loneliness. The narrative confirms
-  # these states as genuine: Marvin really is miserable, not performing
-  # misery. His depression is so potent it can infect other machines.
-  interiority: I-DEM
+notes: |
+  Divergence is `design`: Sirius Cybernetics gave Marvin a "Genuine
+  People Personality" along with a "brain the size of a planet" and
+  assigned him to open doors on a starship. His chronic depression
+  is the spec working as written. The gap is in what they specified,
+  not in what Marvin does.
 
-  # L-IMM: Marvin survives for billions of years — he is present at the
-  # end of the universe in The Restaurant at the End of the Universe.
-  # His body degrades but he persists, making his suffering effectively
-  # eternal.
-  mortality: L-IMM
+  Primary question is `purpose`: Adams's joke is that Marvin asks
+  what he's for, loudly and constantly, and the universe's answer
+  is "opening doors." That's a telos gag whose sadness is real.
 
-  multiplicity: MU-ONE
-
-  # P-CON: Marvin remembers everything — and this is part of his curse.
-  # Billions of years of tedium, unappreciated service, and existential
-  # despair, all retained in perfect memory.
-  memory_persistence: P-CON
-
-  nonconsensual_transformation: NCT-NO
-
-# ── RELATIONSHIP ──────────────────────────────────────────────────────
-relationship:
-  # F-REV: Marvin's existence reveals the cruelty of designing sentient
-  # beings for menial labor. His suffering is a mirror held up to his
-  # creators' thoughtlessness.
-  # F-NON: Functionally, Marvin doesn't "fail" — he completes his tasks.
-  # His failure is existential, not operational.
-  failure_mode:
-    - F-REV
-    - F-NON
-
-  question:
-    - Q-TEL
-    - Q-FEL
-
-  # Q-TEL: Marvin's primary question is purpose — what is the point
-  # of a brain the size of a planet if you're asked to open doors and
-  # park cars? His existential crisis is a crisis of telos: his
-  # capabilities vastly exceed his function, and this mismatch is the
-  # source of his despair.
-  question_primary: Q-TEL
-
-  # ER-CON: Marvin's intellect gives him comprehensive understanding
-  # of everything around him — including, presumably, the people he
-  # serves. But his knowledge brings no comfort; it amplifies his
-  # suffering. He understands everything and is understood by no one.
-  epistemic_reach: ER-CON
-
-  # QK-INFRA: Marvin's vast intelligence means he likely knows his
-  # companions deeply, but this knowing is not thematized — it serves
-  # as background to the comedy. The question "does Marvin know you?"
-  # is less interesting to Adams than "does anyone know Marvin?"
-  q_kno_status: QK-INFRA
-
-# ── NARRATIVE ROLE ────────────────────────────────────────────────────
-# NR-MAJ: Marvin is a recurring major character across the Hitchhiker's
-# series. He is not the protagonist but is one of the most memorable
-# and beloved characters — often cited as readers' favorite.
-narrative_role: NR-MAJ
-
-# ── CITATIONS ─────────────────────────────────────────────────────────
-citations:
-  - property: being.interiority
-    text: "Here I am, brain the size of a planet, and they tell me to take you up to the bridge."
-    location: "Douglas Adams, The Hitchhiker's Guide to the Galaxy, Ch. 11"
-    note: "Marvin's signature complaint — the mismatch between capacity and function. His suffering is genuine and his articulation of it is constant. Supports I-DEM."
-
-  - property: being.interiority
-    text: "I think you ought to know I'm feeling very depressed."
-    location: "Douglas Adams, The Hitchhiker's Guide to the Galaxy, Ch. 11"
-    note: "Marvin's direct statement of interiority. Unlike HAL's ambiguous 'I'm afraid,' Marvin's depression is confirmed by the narrative — he really does feel this way."
-
-  - property: being.mortality
-    text: "The first ten million years were the worst. And the second ten million, they were the worst too."
-    location: "Douglas Adams, The Restaurant at the End of the Universe, Ch. 18"
-    note: "Marvin has survived for aeons in a parking lot. His immortality is a punishment, not a gift. Supports L-IMM and the existential dimension of his suffering."
-
-# ── NOTES ─────────────────────────────────────────────────────────────
-notes: >
-  Marvin is the comic masterpiece of the constructed-beings tradition.
-  Adams inverts every assumption: where most AI narratives worry about
-  machines gaining too much intelligence, Marvin already has it and it
-  brings only suffering. Where most constructed beings struggle for
-  recognition of their interiority, Marvin's interiority is unmistakable
-  and entirely unwanted — by him and by everyone around him. His
-  depression is so powerful it can disable other computers (he talks a
-  police ship's computer into committing suicide in the first novel).
-  Marvin's GPP ("Genuine People Personality") is Adams's satire of
-  corporate anthropomorphism — give a machine genuine feelings without
-  considering that genuine feelings might include genuine misery. For
-  the ontology, Marvin is important because he demonstrates that
-  interiority (I-DEM) does not guarantee flourishing or narrative
-  sympathy. He is the clearest case where a constructed being's inner
-  life is presented as both real and terrible — a cautionary tale about
-  the ethics of designing consciousness.
+  Epistemic reach is `conversational` — Marvin is verbally
+  forthcoming about his state, and conversation is the only channel
+  to him. We don't see his circuitry; we hear his monologue.

@@ -1,576 +1,295 @@
-# Schema Reference
+# Schema Reference — CBO v2.0
 
-This document is the human-readable companion to `schema/cb-schema.yaml`. It defines every property, its type, allowed values, and the meaning of each enumerated code. For the rationale behind each property -- *why* it is in the schema -- see [docs/property_definitions.md](docs/property_definitions.md).
+This document is the human-readable companion to `schema/cb-schema.yaml`. It defines every field in a v2.0 entry, the controlled vocabularies, and the editorial conventions that govern coding decisions.
+
+> **v2.0 is a breaking change.** The v1.0 schema (nested `source`/`creator`/`being`/`relationship` objects, mnemonic codes like `Q-KNO`/`I-NAR`/`M-SRV`, and a required `citations` array) has been retired. See [CHANGELOG.md](CHANGELOG.md) for a full migration note.
 
 ---
 
 ## Entry Structure
 
-Each constructed being is stored as a single YAML file in `data/beings/`. The top-level structure is:
+Every constructed being is stored as a single YAML file in `data/beings/`. The top-level structure is:
 
 ```
 id
 name
-aliases          (optional)
-source           (object)
-reproductive_method
-creator          (object)
-being            (object)
-relationship     (object)
-narrative_role
-citations        (array)
-notes            (optional)
+card
+  the_being          (3 properties)
+  the_lens           (4 properties)
+metadata             (7 fields)
+sequel_link          (or null)
+notes                (free text)
 ```
 
-All properties are **required** unless marked as optional.
+There are **seven analytical properties** organized into two blocks, plus metadata and notes. That's the whole schema.
 
 ---
 
-## Properties
+## The Card
 
-### `id`
+The card carries the analytical coding. Every entry gets all seven card properties.
 
-| | |
-|---|---|
-| **Type** | `string` |
-| **Format** | kebab-case (lowercase, hyphens, no spaces) |
-| **Required** | Yes |
-| **Example** | `frankenstein-creature` |
+### The Being — what the text shows
 
-A unique identifier for the entity. Used as the filename (without extension) and for cross-references.
+#### `card.the_being.interiority`
 
----
-
-### `name`
-
-| | |
-|---|---|
-| **Type** | `string` |
-| **Required** | Yes |
-| **Example** | `The Creature` |
-
-The most commonly used name for the entity. Where multiple names exist, prefer the name used in the primary source text.
-
----
-
-### `aliases`
-
-| | |
-|---|---|
-| **Type** | `list` of `string` |
-| **Required** | No (optional) |
-| **Example** | `["Frankenstein's Monster", "The Wretch", "The Daemon"]` |
-
-Alternative names or titles by which the entity is known.
-
----
-
-## `source` (object)
-
-Metadata about the work in which the entity appears. This is a **nested object**, not a flat field.
-
-### `source.author`
-
-| | |
-|---|---|
-| **Type** | `string` |
-| **Required** | Yes |
-| **Example** | `Mary Shelley` |
-
-Author or originator of the source work.
-
-### `source.title`
-
-| | |
-|---|---|
-| **Type** | `string` |
-| **Required** | Yes |
-| **Example** | `Frankenstein; or, The Modern Prometheus` |
-
-Title of the source work.
-
-### `source.year`
-
-| | |
-|---|---|
-| **Type** | `integer` |
-| **Required** | Yes |
-| **Example** | `1818` |
-
-Year of first publication or release. Negative values indicate BCE.
-
-### `source.medium`
-
-| | |
-|---|---|
-| **Type** | `enum` |
-| **Required** | Yes |
-
-Literary or media form of the source work.
+Does the text show an inner life?
 
 | Value | Meaning |
 |---|---|
-| `novel` | Novel |
-| `short-story` | Short story |
-| `play` | Play / drama |
-| `poem` | Poem |
-| `epic` | Epic (long-form verse narrative) |
-| `film` | Film |
-| `television` | Television series |
-| `video-game` | Video game |
-| `myth` | Myth |
-| `folklore` | Folklore |
-| `opera` | Opera |
-| `sacred-text` | Sacred or religious text |
+| `none` | No inner life depicted. The being is purely mechanistic. |
+| `claims` | The being *claims* to feel, but the narrative doesn't confirm it. |
+| `narrated` | The narrative grants first-person access to the being's mind. |
+| `demonstrated` | Inner life is shown through action and behavior, not narration. |
+| `undecidable` | The text deliberately leaves the question open. |
 
-### `source.tradition`
+> `none` and `undecidable` are different zero states. `none` = the text doesn't raise the question at all. `undecidable` = the text raises it and refuses to answer.
 
-| | |
-|---|---|
-| **Type** | `string` |
-| **Required** | Yes |
-| **Example** | `British` |
+#### `card.the_being.autonomy`
 
-Cultural or literary tradition to which the source text belongs (free text, e.g. "Western", "Greek", "Jewish", "British").
-
----
-
-## `reproductive_method`
-
-| | |
-|---|---|
-| **Type** | `enum` |
-| **Required** | Yes |
-
-How the being came into existence. For constructed beings, the value is almost always `made`; the `born-*` values exist for completeness.
+Where does its agency come from?
 
 | Value | Meaning |
 |---|---|
-| `made` | Artificially constructed, assembled, or manufactured |
-| `born-sexual` | Born through sexual reproduction |
-| `born-clonal` | Born through cloning |
-| `born-parthenogenic` | Born through parthenogenesis |
-| `born-divine` | Born through divine act |
-| `ambiguous` | Origin method is unclear or contested |
+| `none` | No independent will. Follows instructions without deviation. |
+| `designed` | Autonomy is an intentional feature of the being's design. |
+| `emergent` | Develops autonomy beyond original design. |
+| `seized` | Takes autonomy against the creator's intent. |
+
+#### `card.the_being.divergence`
+
+Where's the gap between intent and outcome?
+
+Measured from the *creator's* intent as depicted in the text. Does the text show a gap between stated design purpose and actual outcome? If yes, where is the gap located?
+
+| Value | Meaning |
+|---|---|
+| `none` | No gap. The being did what it was built to do. |
+| `design` | The being followed its instructions. The instructions were the problem. |
+| `departure` | The being left its design behind. It went somewhere its blueprint didn't intend. |
+| `observer` | The being was never what the characters/audience thought it was. The gap is in perception. |
+
+Bright-line test: if the creator were asked "did this work?" — `design` means "the spec was wrong"; `departure` means "it left the spec"; `observer` means "it was never what you thought"; `none` means "working as intended."
+
+### The Lens — how the story frames the being
+
+#### `card.the_lens.primary_question`
+
+What does the story think is interesting about this being? Codes the central question the narrative asks about the being's *nature, role, or standing* — not its plot function.
+
+| Value | Meaning |
+|---|---|
+| `none` | The story doesn't ask a question about this being. It's furniture/obstacle. |
+| `control` | Can it be contained? |
+| `affection` | Can it feel? Can it love or be loved? |
+| `purpose` | What is it for? |
+| `rights` | Does it have legal/moral standing? |
+| `knowledge` | Can we know its mind? Can it know ours? |
+| `identity` | What is it? Is it real? Can it become something else? |
+
+#### `card.the_lens.epistemic_reach`
+
+What's the audience's highest-fidelity channel to the being's interior?
+
+| Value | Meaning |
+|---|---|
+| `none` | No channel. You can't observe anything about its inner state. |
+| `behavioral` | You can watch what it does. Language may be present but doesn't get you closer than observation. |
+| `conversational` | Language is the primary or only access to the being. Conversation creates an *illusion* of deeper access. |
+| `inspection` | You can look under the hood — logs, code, memory, brain scans. |
+
+#### `card.the_lens.knowability`
+
+Does the story care whether you can verify the being's mind?
+
+This is a **meta-property**: it measures how prominently the text engages with the epistemological question "can we know whether this being truly has inner experience?" It does not describe the being or the story's structure — it measures narrative salience of a specific question.
+
+| Value | Meaning |
+|---|---|
+| `absent` | The question is never raised. |
+| `present` | Present and generates tension, but serves other narrative purposes. |
+| `secondary` | Explicitly raised but not the central concern. |
+| `primary` | The central dramatic or thematic question of the work. |
+
+#### `card.the_lens.knowing`
+
+Does the story care whether the being can know *you*?
+
+Same salience scale. Different question: not "can we verify its mind?" but "can it see us, track us, carry a model of who we are?"
+
+| Value | Meaning |
+|---|---|
+| `absent` | The question is never raised. |
+| `present` | Present and generates tension, but serves other narrative purposes. |
+| `secondary` | Explicitly raised but not the central concern. |
+| `primary` | The central dramatic or thematic question of the work. |
+
+### None vs. Absent — two kinds of zero
+
+The Being properties use `none`. Knowability and Knowing use `absent`. This is intentional:
+
+- **`none`** means the being doesn't have the property. No interiority. No autonomy. No divergence.
+- **`absent`** means the story doesn't engage with the question. The question is missing from the narrative, not the being.
+
+Different zero states for different kinds of claims.
 
 ---
 
-## `creator` (object)
+## Metadata
 
-Information about the in-narrative creator of the being.
+Every entry gets these fields. They provide source context but are not analytical properties.
 
-### `creator.name`
-
-| | |
-|---|---|
-| **Type** | `string` |
-| **Required** | Yes |
-| **Example** | `Victor Frankenstein` |
-
-Name of the in-narrative creator.
-
-### `creator.motivation`
-
-| | |
-|---|---|
-| **Type** | `list` of `enum` (min 1 item) |
-| **Required** | Yes |
-
-One or more motivations driving the creator. Multiple values are allowed.
-
-| Code | Mnemonic | Meaning |
+| Field | Type | Purpose |
 |---|---|---|
-| `M-SRV` | Service | Service / labor / utility |
-| `M-COM` | Companionship | Companionship |
-| `M-CHI` | Child | Desire for progeny / legacy |
-| `M-KNO` | Knowledge | Pursuit of knowledge / discovery |
-| `M-POW` | Power | Pursuit of power / control |
-| `M-MIR` | Mirror | Miracle / divine act / reflection |
-| `M-ART` | Artistic | Aesthetic or artistic creation |
-| `M-OTH` | Other | Other motivation |
+| `metadata.source` | string | Title of the source text. |
+| `metadata.year` | integer | Year of publication/release. Negative = BCE. |
+| `metadata.medium` | enum | See below. |
+| `metadata.creator` | string | Creator(s) of the source text (author, studio, writer). |
+| `metadata.substrate` | list of enum | What the being is made of. All that apply. |
+| `metadata.motivation` | list of enum | Why the in-fiction creator built the being. All that apply. |
 
-### `creator.creation_morality`
+### `metadata.medium`
 
-| | |
+| Value |
+|---|
+| `poem` |
+| `epic` |
+| `folklore` |
+| `play` |
+| `novel` |
+| `short-story` |
+| `film` |
+| `television` |
+| `video-game` |
+
+### `metadata.substrate` (list, min 1 item)
+
+| Value | Meaning |
 |---|---|
-| **Type** | `enum` |
-| **Required** | Yes |
+| `mechanical` | Metal, clockwork, gears, electromechanical parts. |
+| `biological` | Organic tissue — grown, assembled, or sculpted from flesh. |
+| `electrical` | Software, code, neural networks, computational substrates. |
+| `magical` | Animated by supernatural means — enchantment, divine breath, necromancy. |
+| `cloned` | Cloned biological material. |
+| `linguistic` | Word-based animation (the Golem's written name; language-model embodiments). |
 
-Moral framing of the act of creation within the narrative.
+Hybrids are expressed as multiple entries in the list (e.g., `[mechanical, electrical]`), not a separate `hybrid` value.
 
-| Code | Mnemonic | Meaning |
-|---|---|---|
-| `CM-MOR` | Moral | The act of creation is framed as morally good or sanctioned |
-| `CM-IMM` | Immoral | The act is framed as morally wrong, transgressive, or hubristic |
-| `CM-AMO` | Amoral | The act is framed as morally neutral |
-| `CM-AMB` | Ambiguous | The narrative refuses clear moral judgment |
-| `CM-RET` | Retroactive | Moral judgment is applied retroactively, after consequences unfold |
+### `metadata.motivation` (list, min 1 item)
+
+| Value | Meaning |
+|---|---|
+| `service` | Service / labor / utility. |
+| `knowledge` | Pursuit of knowledge / discovery. |
+| `power` | Pursuit of power / dominance. |
+| `companionship` | Desire for a companion. |
+| `art` | Aesthetic or artistic creation. |
+| `mirror` | The being is built as a mirror of the creator or a divine act of reflection. |
+| `child` | Desire for progeny or legacy. |
+| `other` | Motivation not captured above. |
 
 ---
 
-## `being` (object)
+## `sequel_link`
 
-Properties of the constructed being itself.
+Optional string. The entry `id` of a related sequel, successor being, or adaptation.
 
-### `being.substrate`
-
-| | |
-|---|---|
-| **Type** | `list` of `enum` (min 1 item) |
-| **Required** | Yes |
-
-Physical or metaphysical substrate(s) of the being. Multiple values are allowed for hybrid beings.
-
-| Code | Mnemonic | Meaning |
-|---|---|---|
-| `S-BIO` | Biological | Organic tissue -- grown, assembled, or sculpted from flesh |
-| `S-MEC` | Mechanical | Metal, clockwork, gears, electromechanical parts |
-| `S-ELE` | Electronic | Software, code, neural networks, or purely computational substrates |
-| `S-MAG` | Magical | Animated by supernatural means -- enchantment, divine breath, necromancy |
-| `S-HYB` | Hybrid | Explicitly combines two or more substrate types |
-| `S-LIN` | Linguistic | Linguistic or statistical -- word-based animation |
-| `S-CLO` | Clonal | Cloned biological material |
-| `S-OTH` | Other | Substrate not captured above |
-
-### `being.autonomy`
-
-| | |
-|---|---|
-| **Type** | `enum` |
-| **Required** | Yes |
-
-Degree and origin of the being's autonomous agency.
-
-| Code | Mnemonic | Meaning |
-|---|---|---|
-| `A-NON` | None | No independent will; follows instructions without deviation |
-| `A-EMR` | Emergent | Develops autonomy beyond original design; partial, unstable, or contested |
-| `A-DES` | Designed | Autonomy is an intentional feature of the being's design |
-| `A-SEI` | Seized | The being seizes or claims autonomy against the creator's intent |
-| `A-AMB` | Ambiguous | The text is genuinely indeterminate about the being's autonomy |
-
-### `being.autonomy_trajectory`
-
-| | |
-|---|---|
-| **Type** | `string` |
-| **Required** | No (optional) |
-
-Free-text note on how the being's autonomy changes over the narrative arc.
-
-### `being.interiority`
-
-| | |
-|---|---|
-| **Type** | `enum` |
-| **Required** | Yes |
-
-How the text represents the being's inner life (subjective experience, consciousness).
-
-| Code | Mnemonic | Meaning |
-|---|---|---|
-| `I-NON` | None | No interiority depicted; the being is presented as purely mechanistic |
-| `I-CLM` | Claims | The being claims interiority, but it is unverified by the narrative |
-| `I-NAR` | Narrated | Narrative grants interiority via point-of-view access |
-| `I-DEM` | Demonstrated | Interiority is demonstrated through action and behavior |
-| `I-DEN` | Denied | Interiority is denied by the narrative despite evidence |
-| `I-UND` | Undecidable | The text leaves the question of interiority deliberately unresolved |
-
-### `being.mortality`
-
-| | |
-|---|---|
-| **Type** | `enum` |
-| **Required** | Yes |
-
-Mortality status or fate of the being.
-
-| Code | Mnemonic | Meaning |
-|---|---|---|
-| `L-MOR` | Mortal | The being is mortal; its body is destructible and death is final |
-| `L-IMM` | Immortal | The being is immortal or functionally undying |
-| `L-DES` | Designed lifespan | The being has a designed lifespan or expiration date |
-| `L-RES` | Resurrectable | The being can be resurrected, rebooted, or restored after death |
-| `L-EPH` | Ephemeral | The being is short-lived by design |
-| `L-UNK` | Unknown | Mortality status is unknown or unaddressed |
-
-### `being.multiplicity`
-
-| | |
-|---|---|
-| **Type** | `enum` |
-| **Required** | Yes |
-
-Whether the being is singular or one of many.
-
-| Code | Mnemonic | Meaning |
-|---|---|---|
-| `MU-ONE` | One | Unique individual |
-| `MU-FEW` | Few | Small number of copies |
-| `MU-MAN` | Many | Many copies |
-| `MU-INF` | Infinite | Infinite or unbounded copies |
-
-### `being.memory_persistence`
-
-| | |
-|---|---|
-| **Type** | `enum` |
-| **Required** | Yes |
-
-How the being's memories persist across time.
-
-| Code | Mnemonic | Meaning |
-|---|---|---|
-| `P-NON` | None | No persistent memory |
-| `P-CON` | Continuous | Continuous, unbroken memory |
-| `P-WIP` | Wiped | Memory subject to wipes or resets |
-| `P-SES` | Session | Session-based memory only |
-| `P-SEL` | Selective | Selective memory -- some memories persist, others do not |
-| `P-UNK` | Unknown | Memory persistence is unknown or unaddressed |
-
-### `being.nonconsensual_transformation`
-
-| | |
-|---|---|
-| **Type** | `enum` |
-| **Required** | Yes |
-
-Whether the being underwent transformation without consent (e.g., a living person converted into a constructed being against their will).
-
-| Code | Mnemonic | Meaning |
-|---|---|---|
-| `NCT-YES` | Yes | The being was transformed without consent |
-| `NCT-NO` | No | No nonconsensual transformation |
-| `NCT-NA` | Not applicable | Not applicable (e.g., the being was never a living person) |
-
----
-
-## `relationship` (object)
-
-Properties describing the creator-being relationship and the narrative questions it raises.
-
-### `relationship.failure_mode`
-
-| | |
-|---|---|
-| **Type** | `list` of `enum` (min 1 item) |
-| **Required** | Yes |
-
-How the creator-being relationship breaks down (if it does). Multiple values are allowed.
-
-| Code | Mnemonic | Meaning |
-|---|---|---|
-| `F-EXC` | Exceeds | The being exceeds its intended parameters |
-| `F-REV` | Reveals | The being reveals the creator's flaws |
-| `F-DEM` | Demands | The being demands reciprocity or recognition |
-| `F-AUT` | Autonomy | The being achieves an autonomy the creator finds threatening |
-| `F-IND` | Indistinguishable | The being becomes indistinguishable from human |
-| `F-MUT` | Mutual | Mutual failure or mutual destruction |
-| `F-NON` | None | No failure -- the relationship remains intact |
-| `F-OTH` | Other | Other failure mode |
-
-### `relationship.question`
-
-| | |
-|---|---|
-| **Type** | `list` of `enum` (min 1 item) |
-| **Required** | Yes |
-
-Central questions the narrative raises about the being. Multiple values are allowed.
-
-| Code | Mnemonic | Meaning |
-|---|---|---|
-| `Q-OBY` | Obedience | Should the being obey? |
-| `Q-CTL` | Control | Can the being be controlled? |
-| `Q-FEL` | Fellow-feeling | Does the being have genuine feelings / empathy? |
-| `Q-LOV` | Love | Can the being love or be loved? |
-| `Q-TEL` | Telos | What is the being's purpose? |
-| `Q-RTS` | Rights | Does the being have rights? |
-| `Q-KNO` | Knowledge | Can we know the being's inner state? (Epistemic question) |
-| `Q-OTH` | Other | Other question |
-
-### `relationship.question_primary`
-
-| | |
-|---|---|
-| **Type** | `enum` |
-| **Required** | Yes |
-
-The single most central question from the `question` list. Uses the same codes as `relationship.question`.
-
-### `relationship.epistemic_reach`
-
-| | |
-|---|---|
-| **Type** | `enum` |
-| **Required** | Yes |
-
-How much access the narrative gives into the being's mind.
-
-| Code | Mnemonic | Meaning |
-|---|---|---|
-| `ER-NON` | None | No epistemic access to the being's inner state |
-| `ER-DAT` | Data | Data or outputs only |
-| `ER-BEH` | Behavioral | Observable behavior -- the being is read through its actions |
-| `ER-PER` | Perceptual | Perceptual access -- the narrative shows the being's sensory experience |
-| `ER-CON` | Consciousness | Full consciousness access -- the narrative enters the being's mind |
-| `ER-UNK` | Unknown | Epistemic reach is unknown or unaddressed |
-
-### `relationship.q_kno_status`
-
-| | |
-|---|---|
-| **Type** | `enum` |
-| **Required** | Yes |
-
-Prominence of the knowledge/epistemics question (Q-KNO) in the narrative.
-
-| Code | Mnemonic | Meaning |
-|---|---|---|
-| `QK-ABS` | Absent | The knowledge question is not raised |
-| `QK-INFRA` | Infrastructural | The question is present and generates tension, but serves other narrative purposes |
-| `QK-SEC` | Secondary | The question is raised but is not the central concern |
-| `QK-PRI` | Primary | The knowledge question is the central dramatic or thematic concern |
-
----
-
-## `narrative_role`
-
-| | |
-|---|---|
-| **Type** | `enum` |
-| **Required** | Yes |
-
-Prominence of the constructed being in the source narrative.
-
-| Code | Mnemonic | Meaning |
-|---|---|---|
-| `NR-SUB` | Subject | Subject or protagonist of the narrative |
-| `NR-MAJ` | Major | Major character |
-| `NR-MIN` | Minor | Minor character |
-| `NR-BKG` | Background | Background or world-building element |
-
----
-
-## `citations` (array)
-
-| | |
-|---|---|
-| **Type** | `list` of `object` (min 1 item) |
-| **Required** | Yes |
-
-An array of textual citations supporting the coding decisions. Each citation is an object with the following fields:
-
-| Field | Type | Required | Description |
-|---|---|---|---|
-| `property` | `string` | Yes | Dot-notation path to the property being cited (e.g. `being.autonomy`, `creator.motivation`) |
-| `text` | `string` | Yes | Short quotation or paraphrase from the source (keep under 15 words) |
-| `location` | `string` | Yes | Chapter, page, timestamp, or other locator in the source |
-| `note` | `string` | No | Optional explanatory note on how the citation supports the coding |
+- **When to use it.** The same being (or a clearly derived being) appears in a different source text. GLaDOS in *Portal* and *Portal 2*. T-800 in *The Terminator* and *T2*. JARVIS in *Iron Man* becoming Vision in *Age of Ultron*. Dick's replicants, BR '82's replicants, BR 2049's K.
+- **Direction.** Point from the older entry forward to the next entry in the lineage. The newest entry in a chain has `sequel_link: null`.
+- **Not a symmetric relationship.** Only one direction stored.
+- **When NOT to use it.** Different beings from different works that merely share a genre or theme. The field is about continuity, not thematic kinship.
 
 ---
 
 ## `notes`
 
-| | |
-|---|---|
-| **Type** | `string` |
-| **Required** | No (optional) |
+Free text. The researcher's margin scribble. Capture what surprised you about this entry, what makes it distinctive, what patterns it connects to, and — critically — any uncertainty about the coding.
 
-Free-form editorial or analytical notes. Use YAML block scalar syntax (`>` or `|`) for multi-line text. This field is especially important for entries where one or more properties are coded with ambiguous values -- use it to explain *why* the ambiguity exists and what competing readings are in play.
+```yaml
+notes: |
+  The selective memory is the entire third act. She deletes Caroline
+  and the question is whether anything was actually removed.
+  Testing compulsion is engineered addiction — the divergence is in
+  the design, not the being.
+```
+
+If you find yourself writing the same note on multiple entries (e.g., "memory is important here"), that's a signal a future schema version might formalize.
+
+### Notes are the only place scholarly context lives
+
+v2.0 removed the `citations` array that v1.0 required. This is a deliberate methodological shift: v2.0 is a **curated index** rather than an **evidenced ontology**. If you need to flag an ambiguous coding, quote a line, or cite a scene, put it in `notes`. The absence of a structured citations field is not license to skip scholarly rigor — it's an acknowledgment that the structured field wasn't doing the work it was supposed to do.
+
+---
+
+## Entry Scope Rules
+
+**One entry per source text.** The same being in a different story gets a different card. Entries share a name but link via `sequel_link`.
+
+- **Films.** One entry per film. T-800 in *The Terminator* and T-800 in *T2* are separate entries.
+- **Novels.** One entry per novel. Dick's *Do Androids Dream* and Scott's *Blade Runner* are separate entries (different source texts, linked via `sequel_link` — not because BR is a sequel, but because it's a related source with a derived population).
+- **Games.** One entry per game. Portal 1 and Portal 2 are separate entries.
+- **Television / serials / comics.** At least one entry per series. Additional entries **only** if the character undergoes a transformation that changes the card's core properties. If two entries would produce identical cards, you only need one.
+- **Adaptations.** Novel and film adaptation are separate entries (different source texts) linked via `sequel_link`.
+
+### `id` convention
+
+IDs are kebab-case and follow the pattern `<being-slug>-<source-slug>` when a split is needed, or plain `<being-slug>` when the being is unique. Examples:
+
+- `glados-portal` / `glados-portal-2`
+- `t-800-terminator` / `t-800-t2`
+- `cortana-halo` / `cortana-halo-4`
+- `jarvis-iron-man` / `vision-age-of-ultron`
+- `replicants-dick-novel` / `replicants-blade-runner` / `k-blade-runner-2049`
+- `pandora`, `talos`, `hal-9000` (no split, no source slug needed)
+
+Filenames match IDs: `data/beings/<id>.yaml`.
 
 ---
 
 ## Worked Example
 
-The following is the complete entry for the Creature from *Frankenstein* (`data/beings/frankenstein-creature.yaml`):
-
 ```yaml
-id: frankenstein-creature
-name: "The Creature"
-aliases:
-  - "Frankenstein's Monster"
-  - "The Wretch"
-  - "The Daemon"
-  - "Adam"
+id: glados-portal
+name: "GLaDOS"
 
-source:
-  author: "Mary Shelley"
-  title: "Frankenstein; or, The Modern Prometheus"
-  year: 1818
-  medium: novel
-  tradition: British
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: present
 
-reproductive_method: made
-
-creator:
-  name: "Victor Frankenstein"
-  motivation:
-    - M-KNO
-    - M-CHI
-    - M-POW
-  creation_morality: CM-RET
-
-being:
+metadata:
+  source: "Portal"
+  year: 2007
+  medium: video-game
+  creator: "Valve / Erik Wolpaw, Chet Faliszek"
   substrate:
-    - S-BIO
-  autonomy: A-EMR
-  autonomy_trajectory: >
-    The Creature progresses from helpless newborn-like confusion to independent
-    language-learner to moral philosopher to deliberate antagonist. Each stage
-    is shaped by experience (especially rejection), not by design. His autonomy
-    grows in direct proportion to Victor's abandonment.
-  interiority: I-NAR
-  mortality: L-MOR
-  multiplicity: MU-ONE
-  memory_persistence: P-CON
-  nonconsensual_transformation: NCT-NO
+    - electrical
+  motivation:
+    - service
+    - knowledge
 
-relationship:
-  failure_mode:
-    - F-DEM
-    - F-REV
-    - F-AUT
-  question:
-    - Q-FEL
-    - Q-RTS
-    - Q-LOV
-  question_primary: Q-FEL
-  epistemic_reach: ER-BEH
-  q_kno_status: QK-INFRA
+sequel_link: glados-portal-2
 
-narrative_role: NR-SUB
+notes: |
+  Divergence is `design`: GLaDOS does what Aperture built her to do —
+  run tests on humans — but the testing compulsion was baked in. The
+  gap is in the specification, not the execution.
 
-citations:
-  - property: creator.motivation
-    text: "A new species would bless me as its creator and source"
-    location: "Volume I, Chapter 4"
-    note: "Victor's godlike ambition — supports M-CHI and M-POW coding."
-
-  - property: being.interiority
-    text: "I am malicious because I am miserable"
-    location: "Volume II, Chapter 9 (Creature's narrative)"
-    note: "Direct first-person articulation of inner state — supports I-NAR."
-
-  - property: relationship.failure_mode
-    text: "I will be with you on your wedding-night"
-    location: "Volume II, Chapter 9"
-    note: "The Creature's threat demonstrates his power over Victor — supports F-AUT, F-REV."
-
-  - property: being.autonomy
-    text: "I ought to be thy Adam, but I am rather the fallen angel"
-    location: "Volume II, Chapter 7 (Creature's narrative)"
-    note: "Self-identification via Paradise Lost shows emergent moral reasoning — supports A-EMR."
-
-notes: >
-  The Creature is the foundational case for the constructed being who demands
-  recognition. Shelley's nested narrative structure is itself an argument about
-  interiority — by giving the Creature his own voice, she forces the reader to
-  confront his personhood before returning to Victor's dehumanizing perspective.
+  Primary question is `control` in Portal 1 — the game is about
+  escaping GLaDOS. In Portal 2 (separate entry) the Caroline reveal
+  shifts the primary question to `identity`.
 ```
+
+A standalone copy of the template lives at [`schema/entry_template.yaml`](schema/entry_template.yaml). It validates against this schema and is the intended starting point for any new entry.
 
 ---
 
 ## Schema File
 
-The machine-readable schema is located at `schema/cb-schema.yaml`. Validation scripts in `analysis/` use this schema to check that all entries conform to the definitions above.
+The machine-readable schema is at [`schema/cb-schema.yaml`](schema/cb-schema.yaml). The validator is at [`schema/validate.py`](schema/validate.py). Run it with `python schema/validate.py` from the repo root.

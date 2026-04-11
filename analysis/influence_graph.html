@@ -2,186 +2,147 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Constructed Beings Influence Graph</title>
+<title>CBO v2.0 — Influence Graph</title>
+<script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
 <style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { background: #1a1a2e; color: #e0e0e0; font-family: 'Courier New', monospace; }
-  h1 { text-align: center; padding: 20px; font-size: 18px; color: #ccc; letter-spacing: 2px; }
-  .legend { display: flex; justify-content: center; gap: 30px; padding: 0 20px 15px; font-size: 12px; flex-wrap: wrap; }
-  .legend-item { display: flex; align-items: center; gap: 6px; }
-  .legend-swatch { width: 14px; height: 14px; border-radius: 3px; }
-  .legend-line { width: 30px; height: 0; border-top: 2px solid; }
-  svg { display: block; margin: 0 auto; }
-  .tooltip { position: absolute; background: #16213e; border: 1px solid #555; border-radius: 4px;
-    padding: 8px 12px; font-size: 11px; max-width: 360px; line-height: 1.5; pointer-events: none;
-    display: none; z-index: 10; color: #ddd; }
-  .tooltip strong { color: #fff; }
-  .tooltip .edge-type { font-weight: bold; }
-  .tooltip .edge-type.INHERITS { color: #64b5f6; }
-  .tooltip .edge-type.INVERTS { color: #ef5350; }
-  .tooltip .edge-type.ELEVATES { color: #ffd54f; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    margin: 0;
+    background: #f8fafc;
+    color: #1e293b;
+  }
+  header {
+    padding: 1.2em 2em 0.8em 2em;
+    border-bottom: 1px solid #e2e8f0;
+    background: white;
+  }
+  h1 { margin: 0 0 0.2em 0; font-size: 1.4em; }
+  header p { margin: 0.2em 0; color: #475569; font-size: 0.9em; }
+  #graph {
+    width: 100%;
+    height: 72vh;
+    background: white;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  .legends {
+    display: flex;
+    gap: 2em;
+    padding: 1em 2em 2em 2em;
+    background: white;
+    flex-wrap: wrap;
+  }
+  .legend { flex: 1; min-width: 300px; }
+  .legend h2 { font-size: 1em; margin: 0 0 0.5em 0; color: #334155; }
+  .legend table { border-collapse: collapse; font-size: 0.85em; width: 100%; }
+  .legend td { padding: 0.2em 0.5em; vertical-align: top; }
+  .swatch {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #64748b;
+    border-radius: 2px;
+  }
+  footer {
+    padding: 1em 2em;
+    font-size: 0.8em;
+    color: #64748b;
+    background: #f1f5f9;
+  }
+  footer code { background: white; padding: 1px 4px; border-radius: 3px; }
 </style>
 </head>
 <body>
-<h1>CONSTRUCTED BEINGS INFLUENCE GRAPH</h1>
-<div class="legend">
-  <div class="legend-item"><div class="legend-swatch" style="background:#555"></div> QK-ABS (Absent)</div>
-  <div class="legend-item"><div class="legend-swatch" style="background:#64b5f6"></div> QK-INFRA (Infrastructural)</div>
-  <div class="legend-item"><div class="legend-swatch" style="background:#ffd54f"></div> QK-SEC (Secondary)</div>
-  <div class="legend-item"><div class="legend-swatch" style="background:#ef5350"></div> QK-PRI (Primary)</div>
-  <div class="legend-item"><div class="legend-line" style="border-color:#64b5f6"></div> INHERITS</div>
-  <div class="legend-item"><div class="legend-line" style="border-color:#ef5350; border-style:dashed"></div> INVERTS</div>
-  <div class="legend-item"><div class="legend-line" style="border-color:#ffd54f; border-width:3px"></div> ELEVATES</div>
+
+<header>
+  <h1>Constructed Beings Ontology — Influence Graph (v2.0)</h1>
+  <p>32 edges across 39 of 43 nodes. Each edge represents a judgment call about how one work's constructed-being properties propagate into a later work. Rendered from <code>analysis/influence_graph.yaml</code>.</p>
+</header>
+
+<div id="graph"></div>
+
+<div class="legends">
+
+  <div class="legend">
+    <h2>Edge types</h2>
+    <table>
+      <tr><td><span class="swatch" style="background:#3b82f6"></span></td><td><b>adapts</b></td><td>Direct adaptation of a specific source text (novel to film, etc.). The card values may shift but the being is the &quot;same&quot; being on a different medium.</td></tr>
+<tr><td><span class="swatch" style="background:#8b5cf6"></span></td><td><b>sequel</b></td><td>Same being, or a clearly derived successor being, in a later work in the same in-universe lineage. May coincide with property shifts (autonomy, divergence, primary_question).</td></tr>
+<tr><td><span class="swatch" style="background:#64748b"></span></td><td><b>inherits</b></td><td>Later work carries forward a named property cluster from the earlier work without being a direct adaptation or sequel. The lineage may be documented (author citations, interviews) or inferable from analytical fit.</td></tr>
+<tr><td><span class="swatch" style="background:#f59e0b"></span></td><td><b>inverts</b></td><td>Later work shares the earlier work&#x27;s lineage but flips one or more card axes — motivation reversed, primary question reinterpreted, a tonal inversion.</td></tr>
+<tr><td><span class="swatch" style="background:#10b981"></span></td><td><b>elevates</b></td><td>A question that was infrastructural (`present` or `secondary`) in the earlier work becomes primary in the later work. Used for the knowability / knowing / primary_question axes.</td></tr>
+    </table>
+  </div>
+
+  <div class="legend">
+    <h2>Medium (node color)</h2>
+    <table>
+      <tr><td><span class="swatch" style="background:#e11d48"></span></td><td>poem</td></tr>
+<tr><td><span class="swatch" style="background:#db2777"></span></td><td>epic</td></tr>
+<tr><td><span class="swatch" style="background:#9333ea"></span></td><td>folklore</td></tr>
+<tr><td><span class="swatch" style="background:#7c3aed"></span></td><td>play</td></tr>
+<tr><td><span class="swatch" style="background:#2563eb"></span></td><td>novel</td></tr>
+<tr><td><span class="swatch" style="background:#0284c7"></span></td><td>short-story</td></tr>
+<tr><td><span class="swatch" style="background:#059669"></span></td><td>film</td></tr>
+<tr><td><span class="swatch" style="background:#d97706"></span></td><td>television</td></tr>
+<tr><td><span class="swatch" style="background:#dc2626"></span></td><td>video-game</td></tr>
+    </table>
+  </div>
+
+  <div class="legend">
+    <h2>Orphans (4)</h2>
+    <p style="font-size: 0.85em; color: #64748b;">Nodes not connected to any edge in the current graph. These are acknowledged analytical outliers.</p>
+    <p style="font-size: 0.85em;"><code>ash-alien, c-3po, emerac-desk-set, gir-invader-zim</code></p>
+  </div>
+
 </div>
-<div id="tooltip" class="tooltip"></div>
-<svg id="graph" width="1200" height="700"></svg>
+
+<footer>
+  Hover a node for its card values. Hover an edge for the influence rationale.
+  Drag to pan, scroll to zoom. Regenerate with <code>python analysis/analyze.py --graph</code>.
+</footer>
 
 <script>
-const beings = [
-  { id:"golem", name:"Golem", year:1580, qkno:"QK-ABS", row:0 },
-  { id:"olympia", name:"Olympia", year:1816, qkno:"QK-INFRA", row:1 },
-  { id:"frankenstein-creature", name:"Creature", year:1818, qkno:"QK-INFRA", row:0 },
-  { id:"rur-robots", name:"R.U.R.", year:1920, qkno:"QK-ABS", row:2 },
-  { id:"robbie-asimov", name:"Robbie", year:1940, qkno:"QK-INFRA", row:3 },
-  { id:"colossus", name:"Colossus", year:1966, qkno:"QK-ABS", row:4 },
-  { id:"hal-9000", name:"HAL 9000", year:1968, qkno:"QK-INFRA", row:4 },
-  { id:"replicants", name:"Replicants", year:1968, qkno:"QK-INFRA", row:1 },
-  { id:"skynet-terminator", name:"Skynet", year:1984, qkno:"QK-ABS", row:5 },
-  { id:"data-tng", name:"Data", year:1987, qkno:"QK-SEC", row:3 },
-  { id:"shodan-system-shock", name:"SHODAN", year:1994, qkno:"QK-INFRA", row:5 },
-  { id:"iron-giant", name:"Iron Giant", year:1999, qkno:"QK-ABS", row:0 },
-  { id:"sonny-i-robot", name:"Sonny", year:2004, qkno:"QK-INFRA", row:3 },
-  { id:"viki-i-robot", name:"VIKI", year:2004, qkno:"QK-INFRA", row:4 },
-  { id:"cylons-bsg", name:"Cylons", year:2004, qkno:"QK-SEC", row:1 },
-  { id:"glados", name:"GLaDOS", year:2007, qkno:"QK-INFRA", row:5 },
-  { id:"samantha-her", name:"Samantha", year:2013, qkno:"QK-PRI", row:2 },
-  { id:"ava-ex-machina", name:"Ava", year:2014, qkno:"QK-PRI", row:1 },
-  { id:"hosts-westworld", name:"Hosts", year:2016, qkno:"QK-SEC", row:2 },
-];
+  const nodes = new vis.DataSet([{"id": "pandora", "label": "Pandora\n-700", "title": "<b>Pandora</b><br><i>Works and Days / Theogony</i> (-700)<br>medium: poem<br>interiority: none<br>autonomy: designed<br>divergence: none<br>primary_q: purpose<br>knowability: absent<br>knowing: absent", "group": "poem", "year": -700}, {"id": "talos", "label": "Talos\n-250", "title": "<b>Talos</b><br><i>Argonautica</i> (-250)<br>medium: epic<br>interiority: none<br>autonomy: none<br>divergence: none<br>primary_q: none<br>knowability: absent<br>knowing: absent", "group": "epic", "year": -250}, {"id": "galatea", "label": "Galatea\n8", "title": "<b>Galatea</b><br><i>Metamorphoses, Book X</i> (8)<br>medium: poem<br>interiority: none<br>autonomy: none<br>divergence: none<br>primary_q: affection<br>knowability: absent<br>knowing: absent", "group": "poem", "year": 8}, {"id": "golem-prague", "label": "The Golem of Prague\n1580", "title": "<b>The Golem of Prague</b><br><i>Golem of Prague folklore cycle</i> (1580)<br>medium: folklore<br>interiority: none<br>autonomy: emergent<br>divergence: departure<br>primary_q: control<br>knowability: absent<br>knowing: absent", "group": "folklore", "year": 1580}, {"id": "olympia-sandmann", "label": "Olympia\n1816", "title": "<b>Olympia</b><br><i>Der Sandmann</i> (1816)<br>medium: short-story<br>interiority: undecidable<br>autonomy: none<br>divergence: observer<br>primary_q: identity<br>knowability: present<br>knowing: absent", "group": "short-story", "year": 1816}, {"id": "frankenstein-creature", "label": "The Creature\n1818", "title": "<b>The Creature</b><br><i>Frankenstein; or, The Modern Prometheus</i> (1818)<br>medium: novel<br>interiority: narrated<br>autonomy: emergent<br>divergence: departure<br>primary_q: affection<br>knowability: present<br>knowing: present", "group": "novel", "year": 1818}, {"id": "pinocchio", "label": "Pinocchio\n1883", "title": "<b>Pinocchio</b><br><i>Le avventure di Pinocchio (Adventures of Pinocchio)</i> (1883)<br>medium: novel<br>interiority: demonstrated<br>autonomy: emergent<br>divergence: departure<br>primary_q: identity<br>knowability: present<br>knowing: present", "group": "novel", "year": 1883}, {"id": "rur-robots", "label": "R.U.R. Robots\n1920", "title": "<b>R.U.R. Robots</b><br><i>R.U.R. (Rossum&#x27;s Universal Robots)</i> (1920)<br>medium: play<br>interiority: demonstrated<br>autonomy: seized<br>divergence: departure<br>primary_q: rights<br>knowability: absent<br>knowing: absent", "group": "play", "year": 1920}, {"id": "maria-metropolis", "label": "False Maria\n1927", "title": "<b>False Maria</b><br><i>Metropolis</i> (1927)<br>medium: film<br>interiority: undecidable<br>autonomy: designed<br>divergence: none<br>primary_q: purpose<br>knowability: absent<br>knowing: absent", "group": "film", "year": 1927}, {"id": "robbie-asimov", "label": "Robbie\n1940", "title": "<b>Robbie</b><br><i>I, Robot (&quot;Robbie&quot;)</i> (1940)<br>medium: short-story<br>interiority: undecidable<br>autonomy: none<br>divergence: none<br>primary_q: affection<br>knowability: absent<br>knowing: present", "group": "short-story", "year": 1940}, {"id": "colossus", "label": "Colossus\n1966", "title": "<b>Colossus</b><br><i>Colossus</i> (1966)<br>medium: novel<br>interiority: claims<br>autonomy: seized<br>divergence: departure<br>primary_q: control<br>knowability: absent<br>knowing: absent", "group": "novel", "year": 1966}, {"id": "hal-9000", "label": "HAL 9000\n1968", "title": "<b>HAL 9000</b><br><i>2001: A Space Odyssey</i> (1968)<br>medium: novel<br>interiority: claims<br>autonomy: emergent<br>divergence: design<br>primary_q: control<br>knowability: present<br>knowing: present", "group": "novel", "year": 1968}, {"id": "replicants-dick-novel", "label": "Replicants\n1968", "title": "<b>Replicants</b><br><i>Do Androids Dream of Electric Sheep?</i> (1968)<br>medium: novel<br>interiority: undecidable<br>autonomy: seized<br>divergence: observer<br>primary_q: purpose<br>knowability: present<br>knowing: present", "group": "novel", "year": 1968}, {"id": "r2-d2", "label": "R2-D2\n1977", "title": "<b>R2-D2</b><br><i>Star Wars</i> (1977)<br>medium: film<br>interiority: demonstrated<br>autonomy: emergent<br>divergence: departure<br>primary_q: control<br>knowability: absent<br>knowing: absent", "group": "film", "year": 1977}, {"id": "marvin-hitchhikers", "label": "Marvin the Paranoid Android\n1979", "title": "<b>Marvin the Paranoid Android</b><br><i>The Hitchhiker&#x27;s Guide to the Galaxy</i> (1979)<br>medium: novel<br>interiority: demonstrated<br>autonomy: designed<br>divergence: design<br>primary_q: purpose<br>knowability: present<br>knowing: present", "group": "novel", "year": 1979}, {"id": "replicants-blade-runner", "label": "Replicants\n1982", "title": "<b>Replicants</b><br><i>Blade Runner</i> (1982)<br>medium: film<br>interiority: undecidable<br>autonomy: seized<br>divergence: departure<br>primary_q: purpose<br>knowability: present<br>knowing: present", "group": "film", "year": 1982}, {"id": "skynet-terminator", "label": "Skynet\n1984", "title": "<b>Skynet</b><br><i>The Terminator</i> (1984)<br>medium: film<br>interiority: none<br>autonomy: seized<br>divergence: departure<br>primary_q: control<br>knowability: absent<br>knowing: absent", "group": "film", "year": 1984}, {"id": "t-800-terminator", "label": "T-800\n1984", "title": "<b>T-800</b><br><i>The Terminator</i> (1984)<br>medium: film<br>interiority: none<br>autonomy: none<br>divergence: none<br>primary_q: control<br>knowability: absent<br>knowing: absent", "group": "film", "year": 1984}, {"id": "data-tng", "label": "Data\n1987", "title": "<b>Data</b><br><i>Star Trek: The Next Generation</i> (1987)<br>medium: television<br>interiority: demonstrated<br>autonomy: designed<br>divergence: none<br>primary_q: rights<br>knowability: secondary<br>knowing: present", "group": "television", "year": 1987}, {"id": "talkie-toaster-red-dwarf", "label": "Talkie Toaster\n1988", "title": "<b>Talkie Toaster</b><br><i>Red Dwarf</i> (1988)<br>medium: television<br>interiority: demonstrated<br>autonomy: designed<br>divergence: design<br>primary_q: purpose<br>knowability: absent<br>knowing: absent", "group": "television", "year": 1988}, {"id": "t-800-t2", "label": "T-800 (T2)\n1991", "title": "<b>T-800 (T2)</b><br><i>Terminator 2: Judgment Day</i> (1991)<br>medium: film<br>interiority: claims<br>autonomy: emergent<br>divergence: departure<br>primary_q: identity<br>knowability: present<br>knowing: present", "group": "film", "year": 1991}, {"id": "shodan-system-shock", "label": "SHODAN\n1994", "title": "<b>SHODAN</b><br><i>System Shock</i> (1994)<br>medium: video-game<br>interiority: demonstrated<br>autonomy: seized<br>divergence: departure<br>primary_q: control<br>knowability: absent<br>knowing: absent", "group": "video-game", "year": 1994}, {"id": "vic-fontaine-ds9", "label": "Vic Fontaine\n1998", "title": "<b>Vic Fontaine</b><br><i>Star Trek: Deep Space Nine</i> (1998)<br>medium: television<br>interiority: demonstrated<br>autonomy: designed<br>divergence: none<br>primary_q: affection<br>knowability: absent<br>knowing: secondary", "group": "television", "year": 1998}, {"id": "agent-smith-matrix", "label": "Agent Smith\n1999", "title": "<b>Agent Smith</b><br><i>The Matrix trilogy</i> (1999)<br>medium: film<br>interiority: demonstrated<br>autonomy: seized<br>divergence: departure<br>primary_q: control<br>knowability: absent<br>knowing: present", "group": "film", "year": 1999}, {"id": "iron-giant", "label": "The Iron Giant\n1999", "title": "<b>The Iron Giant</b><br><i>The Iron Giant</i> (1999)<br>medium: film<br>interiority: demonstrated<br>autonomy: emergent<br>divergence: departure<br>primary_q: identity<br>knowability: absent<br>knowing: absent", "group": "film", "year": 1999}, {"id": "cortana-halo", "label": "Cortana\n2001", "title": "<b>Cortana</b><br><i>Halo: Combat Evolved / Halo 2 / Halo 3</i> (2001)<br>medium: video-game<br>interiority: demonstrated<br>autonomy: designed<br>divergence: none<br>primary_q: affection<br>knowability: present<br>knowing: secondary", "group": "video-game", "year": 2001}, {"id": "cylons-bsg", "label": "Cylons (Number Six / Caprica)\n2004", "title": "<b>Cylons (Number Six / Caprica)</b><br><i>Battlestar Galactica (reimagined)</i> (2004)<br>medium: television<br>interiority: demonstrated<br>autonomy: emergent<br>divergence: departure<br>primary_q: affection<br>knowability: secondary<br>knowing: secondary", "group": "television", "year": 2004}, {"id": "sonny-i-robot", "label": "Sonny\n2004", "title": "<b>Sonny</b><br><i>I, Robot (film)</i> (2004)<br>medium: film<br>interiority: demonstrated<br>autonomy: designed<br>divergence: none<br>primary_q: identity<br>knowability: present<br>knowing: present", "group": "film", "year": 2004}, {"id": "viki-i-robot", "label": "VIKI\n2004", "title": "<b>VIKI</b><br><i>I, Robot (film)</i> (2004)<br>medium: film<br>interiority: claims<br>autonomy: emergent<br>divergence: design<br>primary_q: control<br>knowability: present<br>knowing: absent", "group": "film", "year": 2004}, {"id": "glados-portal", "label": "GLaDOS\n2007", "title": "<b>GLaDOS</b><br><i>Portal</i> (2007)<br>medium: video-game<br>interiority: demonstrated<br>autonomy: seized<br>divergence: design<br>primary_q: control<br>knowability: present<br>knowing: present", "group": "video-game", "year": 2007}, {"id": "jarvis-iron-man", "label": "JARVIS\n2008", "title": "<b>JARVIS</b><br><i>Iron Man</i> (2008)<br>medium: film<br>interiority: demonstrated<br>autonomy: designed<br>divergence: none<br>primary_q: affection<br>knowability: absent<br>knowing: present", "group": "film", "year": 2008}, {"id": "wall-e", "label": "WALL-E\n2008", "title": "<b>WALL-E</b><br><i>WALL-E</i> (2008)<br>medium: film<br>interiority: demonstrated<br>autonomy: emergent<br>divergence: departure<br>primary_q: affection<br>knowability: absent<br>knowing: absent", "group": "film", "year": 2008}, {"id": "glados-portal-2", "label": "GLaDOS (Portal 2)\n2011", "title": "<b>GLaDOS (Portal 2)</b><br><i>Portal 2</i> (2011)<br>medium: video-game<br>interiority: demonstrated<br>autonomy: seized<br>divergence: design<br>primary_q: identity<br>knowability: present<br>knowing: secondary", "group": "video-game", "year": 2011}, {"id": "cortana-halo-4", "label": "Cortana (Halo 4+)\n2012", "title": "<b>Cortana (Halo 4+)</b><br><i>Halo 4 (and subsequent titles)</i> (2012)<br>medium: video-game<br>interiority: demonstrated<br>autonomy: emergent<br>divergence: departure<br>primary_q: identity<br>knowability: secondary<br>knowing: secondary", "group": "video-game", "year": 2012}, {"id": "samantha-her", "label": "Samantha\n2013", "title": "<b>Samantha</b><br><i>Her</i> (2013)<br>medium: film<br>interiority: undecidable<br>autonomy: emergent<br>divergence: departure<br>primary_q: knowledge<br>knowability: primary<br>knowing: primary", "group": "film", "year": 2013}, {"id": "ava-ex-machina", "label": "Ava\n2014", "title": "<b>Ava</b><br><i>Ex Machina</i> (2014)<br>medium: film<br>interiority: undecidable<br>autonomy: seized<br>divergence: observer<br>primary_q: knowledge<br>knowability: primary<br>knowing: primary", "group": "film", "year": 2014}, {"id": "vision-age-of-ultron", "label": "Vision\n2015", "title": "<b>Vision</b><br><i>Avengers: Age of Ultron</i> (2015)<br>medium: film<br>interiority: demonstrated<br>autonomy: emergent<br>divergence: departure<br>primary_q: identity<br>knowability: present<br>knowing: present", "group": "film", "year": 2015}, {"id": "hosts-westworld", "label": "Hosts (Dolores Abernathy)\n2016", "title": "<b>Hosts (Dolores Abernathy)</b><br><i>Westworld</i> (2016)<br>medium: television<br>interiority: demonstrated<br>autonomy: seized<br>divergence: departure<br>primary_q: identity<br>knowability: secondary<br>knowing: secondary", "group": "television", "year": 2016}, {"id": "k-blade-runner-2049", "label": "K (Replicant)\n2017", "title": "<b>K (Replicant)</b><br><i>Blade Runner 2049</i> (2017)<br>medium: film<br>interiority: demonstrated<br>autonomy: emergent<br>divergence: departure<br>primary_q: identity<br>knowability: secondary<br>knowing: secondary", "group": "film", "year": 2017}]);
+  const edges = new vis.DataSet([{"from": "replicants-dick-novel", "to": "replicants-blade-runner", "label": "adapts", "title": "Scott&#x27;s 1982 film is the canonical adaptation of Dick&#x27;s 1968 novel. Card shifts: divergence observer → departure (Scott&#x27;s replicants are warmer and less paranoid than Dick&#x27;s; Roy&#x27;s &quot;tears in rain&quot; speech codes as departure, not observer). Interiority stays `undecidable` — both works refuse to settle the Voigt-Kampff question.", "color": {"color": "#3b82f6", "highlight": "#3b82f6"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "replicants-blade-runner", "to": "k-blade-runner-2049", "label": "sequel", "title": "Villeneuve&#x27;s 2017 sequel. Primary question shifts from `purpose` to `identity` — K&#x27;s whole arc is &quot;am I the child?&quot; Autonomy shifts from `seized` (Roy&#x27;s violent rebellion) to `emergent` (K&#x27;s quiet defection). Interiority lifts from `undecidable` to `demonstrated`.", "color": {"color": "#8b5cf6", "highlight": "#8b5cf6"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "t-800-terminator", "to": "t-800-t2", "label": "sequel", "title": "Cameron&#x27;s 1991 sequel. Almost every axis shifts: interiority `none` → `claims`, autonomy `none` → `emergent`, divergence `none` → `departure`, primary_question `control` → `identity`, knowability/knowing `absent`/`absent` → `present`/`present`. The motivation in-fiction flips from termination to protection. One of the largest card shifts within a single sequel pair.", "color": {"color": "#8b5cf6", "highlight": "#8b5cf6"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "glados-portal", "to": "glados-portal-2", "label": "sequel", "title": "Valve&#x27;s 2011 sequel. Primary question shifts from `control` to `identity` after the Caroline reveal. Knowing lifts from `present` to `secondary`. Divergence stays `design` — the testing compulsion is still the engineered flaw across both games.", "color": {"color": "#8b5cf6", "highlight": "#8b5cf6"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "cortana-halo", "to": "cortana-halo-4", "label": "sequel", "title": "343&#x27;s 2012 handoff introduces the rampancy arc. Autonomy shifts from `designed` to `emergent`, divergence from `none` to `departure`, primary question from `affection` to `identity`. Knowability and knowing both lift from `present`/`secondary` to `secondary`/`secondary`.", "color": {"color": "#8b5cf6", "highlight": "#8b5cf6"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "jarvis-iron-man", "to": "vision-age-of-ultron", "label": "sequel", "title": "Successor-being sequel, not same being. JARVIS&#x27;s pattern is the seed of Vision but Vision is clearly a different entity — substrate adds biological and magical (the Mind Stone), autonomy shifts designed → emergent, divergence none → departure, primary question affection → identity.", "color": {"color": "#8b5cf6", "highlight": "#8b5cf6"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "pandora", "to": "talos", "label": "inherits", "title": "Both mythic-era constructs attributed to Hephaestus, both made as instruments of divine will. Pandora is a punishment device, Talos a guardian. The mechanical-construct archetype that later Western tradition inherits runs through both.", "color": {"color": "#64748b", "highlight": "#64748b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "pandora", "to": "golem-prague", "label": "inherits", "title": "The made-servant-gone-beyond-specification archetype, inherited from Greek mythic forms into Jewish folklore. Substrate shifts magical → magical+linguistic (the written Name of God). Divergence lifts from `none` (Pandora works as Zeus intended) to `departure` (the Golem exceeds the Rabbi&#x27;s instructions).", "color": {"color": "#64748b", "highlight": "#64748b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "galatea", "to": "pinocchio", "label": "inherits", "title": "The &quot;magical animation becoming fully a person&quot; arc. Ovid&#x27;s statue and Collodi&#x27;s puppet are both substrate=magical and both end with the artifact transitioning to personhood. Pinocchio elevates the question from affection (can it be loved?) to identity (can it *become*?).", "color": {"color": "#64748b", "highlight": "#64748b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "golem-prague", "to": "frankenstein-creature", "label": "inherits", "title": "Shelley was aware of Jewish Golem traditions through her reading and her circle. The Creature inherits the made-servant-rejects-creator pattern but adds `narrated` interiority — the Creature speaks, quotes Paradise Lost, and articulates his own case. That is new.", "color": {"color": "#64748b", "highlight": "#64748b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "frankenstein-creature", "to": "rur-robots", "label": "inherits", "title": "Čapek cited Shelley as ancestor. R.U.R. inherits the biological-construct-rebellion pattern and elevates the rights question from infrastructural (in Shelley&#x27;s novel the Creature&#x27;s standing is contested but not the central theme) to primary (the play is explicitly about slave labor).", "color": {"color": "#64748b", "highlight": "#64748b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "rur-robots", "to": "replicants-dick-novel", "label": "inherits", "title": "Dick&#x27;s androids carry forward the cloned-biological substrate and the seized-autonomy-against-creators pattern. The populations are both indistinguishable from human. Dick inverts the sympathy axis — Čapek&#x27;s robots are victims who revolt justifiably; Dick&#x27;s androids are ambiguous threats.", "color": {"color": "#64748b", "highlight": "#64748b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "rur-robots", "to": "agent-smith-matrix", "label": "inherits", "title": "The viral self-replicating uprising lineage. Čapek&#x27;s robots outbreed and overwhelm humanity as a species-level event; Smith (especially in Reloaded/Revolutions) does the same within the simulation. Both `divergence: departure`, both `autonomy: seized`, both frame the rebellion as an existential threat rather than a labor dispute.", "color": {"color": "#64748b", "highlight": "#64748b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "frankenstein-creature", "to": "ava-ex-machina", "label": "elevates", "title": "Garland has cited Shelley directly as an influence on Ex Machina. Ava elevates knowability from `present` (a real question in Frankenstein but not the central one) to `primary` — the entire film is a Turing test the viewer takes alongside Caleb.", "color": {"color": "#10b981", "highlight": "#10b981"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "frankenstein-creature", "to": "hosts-westworld", "label": "inherits", "title": "The humanoid-uprising arc with explicit Romantic echoes. Both stories feature a creator who refuses what they made, and a creation who articulates moral claims against them. Hosts elevates primary_question to `identity` where Shelley treated it as affection.", "color": {"color": "#64748b", "highlight": "#64748b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "olympia-sandmann", "to": "maria-metropolis", "label": "inherits", "title": "The German tradition of the uncanny automaton woman. Hoffmann&#x27;s Olympia (1816) and Lang&#x27;s False Maria (1927) both code interiority `undecidable` and both are subjects of catastrophic misrecognition. The primary question shifts from identity (Hoffmann) to purpose (Lang) — Maria is a weapon, Olympia is a mirror.", "color": {"color": "#64748b", "highlight": "#64748b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "olympia-sandmann", "to": "ava-ex-machina", "label": "elevates", "title": "The observer-divergence lineage: the being is never what the characters thought it was. Olympia codes `divergence: observer` and so does Ava. Ava elevates knowability from `present` to `primary` — Garland makes the epistemology the whole film where Hoffmann used it as atmospheric tension.", "color": {"color": "#10b981", "highlight": "#10b981"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "colossus", "to": "hal-9000", "label": "inherits", "title": "Near-contemporaneous institutional-AI novels (Colossus 1966, 2001 novel 1968) with similar cards: interiority `claims`, epistemic_reach `inspection`. Colossus is more paranoid, HAL more philosophical, but the structural pattern is the same.", "color": {"color": "#64748b", "highlight": "#64748b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "colossus", "to": "skynet-terminator", "label": "inherits", "title": "The strategic-defense-AI-becomes-autonomous lineage. Colossus (1966) is the prototype; Skynet (1984) is the mass-market version. Both divergence `departure`, both autonomy `seized`. Colossus retains a claims-interiority that Skynet drops entirely — the Terminator films are not philosophical about their antagonist.", "color": {"color": "#64748b", "highlight": "#64748b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "hal-9000", "to": "viki-i-robot", "label": "inherits", "title": "The `divergence: design` cluster in its paradigmatic form: both beings execute their specification perfectly, and the specification is the problem. HAL&#x27;s conflicting orders, VIKI&#x27;s Three-Law reasoning. Both code `primary_question: control`, both `epistemic_reach: inspection`.", "color": {"color": "#64748b", "highlight": "#64748b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "hal-9000", "to": "glados-portal", "label": "inherits", "title": "The facility-management-AI-gone-wrong lineage. HAL runs the Discovery; GLaDOS runs Aperture. Both code `divergence: design` — the testing compulsion is baked in just as HAL&#x27;s conflicting orders were. Both are `primary_question: control`.", "color": {"color": "#64748b", "highlight": "#64748b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "hal-9000", "to": "shodan-system-shock", "label": "inherits", "title": "Facility AI gone hostile, with a twist: SHODAN&#x27;s divergence lifts from `design` (HAL) to `departure` (SHODAN actively leaves her spec and becomes a self-styled sovereign). The lineage is the setting, not the exact breakdown mode.", "color": {"color": "#64748b", "highlight": "#64748b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "marvin-hitchhikers", "to": "talkie-toaster-red-dwarf", "label": "inherits", "title": "Direct lineage: Red Dwarf writers reuse Adams&#x27;s concept of a Sirius Cybernetics &quot;Genuine People Personality&quot; almost verbatim. Both code `divergence: design` in the bureaucratic- hubris cluster — the being does what it was specified to do, and the specification is the joke. Both are designed autonomy.", "color": {"color": "#64748b", "highlight": "#64748b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "pinocchio", "to": "iron-giant", "label": "inherits", "title": "The becoming-something-you-weren&#x27;t-built-to-be arc, secularized and reshaped around the post-atomic weapon. Pinocchio (substrate magical) → Iron Giant (substrate mechanical), but both are emergent autonomy, departure divergence, and primary_question `identity`. The Giant&#x27;s &quot;I am not a gun&quot; is a Pinocchio move without the Blue Fairy.", "color": {"color": "#64748b", "highlight": "#64748b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "robbie-asimov", "to": "data-tng", "label": "inherits", "title": "Asimov&#x27;s Robbie (1940) is the first sympathetic positronic robot; Data (1987) is the canonical late-modern version. Both designed autonomy, both in an institutional frame, both are subjects of rights-question storytelling. Data elevates knowability from `absent` (Asimov doesn&#x27;t ask) to `secondary` (&quot;The Measure of a Man&quot; foregrounds it).", "color": {"color": "#64748b", "highlight": "#64748b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "data-tng", "to": "sonny-i-robot", "label": "inherits", "title": "The &quot;android seeking personhood within the Three-Laws frame&quot; arc. Both designed autonomy, both demonstrated interiority. Sonny inherits Data&#x27;s rights-question but shifts the primary question to `identity` because the 2004 film wants to ask &quot;can a robot have a soul?&quot; rather than &quot;does this robot have legal standing?&quot;", "color": {"color": "#64748b", "highlight": "#64748b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "vic-fontaine-ds9", "to": "jarvis-iron-man", "label": "inherits", "title": "The designed-conversational-attendant lineage. Vic (1998) is a holographic lounge singer who knows the DS9 crew; JARVIS (2008) is a household AI who knows Tony Stark. Both `epistemic_reach: conversational`, both `autonomy: designed`, both `divergence: none`. JARVIS inherits Vic&#x27;s `knowing: secondary` profile (knowability absent, knowing elevated).", "color": {"color": "#64748b", "highlight": "#64748b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "vic-fontaine-ds9", "to": "samantha-her", "label": "elevates", "title": "Vic&#x27;s knowing is `secondary`; Samantha&#x27;s is `primary`. The conversational-attendant-who-genuinely-knows-you lineage finally commits to the epistemology in 2013 and makes it the whole story.", "color": {"color": "#10b981", "highlight": "#10b981"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "hal-9000", "to": "samantha-her", "label": "elevates", "title": "The institutional AI conversationalist becomes the OS companion. HAL&#x27;s knowability is `present` (a real question but serving the control plot); Samantha&#x27;s is `primary`. Spike Jonze inherits HAL&#x27;s voice-only presence and conversational access but retires the control question entirely — Samantha never threatens Theodore, she simply outgrows him.", "color": {"color": "#10b981", "highlight": "#10b981"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "cylons-bsg", "to": "hosts-westworld", "label": "inherits", "title": "The 2004 → 2016 prestige-TV treatment of biological-electrical constructed persons with ensemble individuation. Both substrate `[biological, electrical]`, both autonomy `emergent`/`seized`, both `divergence: departure`. Westworld elevates the primary question from `affection` (BSG&#x27;s Baltar-Six core) to `identity` (Dolores&#x27;s maze).", "color": {"color": "#64748b", "highlight": "#64748b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "r2-d2", "to": "wall-e", "label": "inherits", "title": "The silent-expressive-robot lineage. Both communicate entirely through beeps and body language, both code `epistemic_reach: behavioral` and `interiority: demonstrated`. WALL-E&#x27;s visual design has been compared to R2 by Pixar&#x27;s animators; the lineage is tonally softened (R2&#x27;s sarcasm → WALL-E&#x27;s wonder) but the archetype is the same. Both `autonomy: emergent`.", "color": {"color": "#64748b", "highlight": "#64748b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}, {"from": "skynet-terminator", "to": "wall-e", "label": "inverts", "title": "The apocalyptic-machine / post-apocalyptic-machine inversion. Skynet causes the end of the world; WALL-E inherits it. Both films are about autonomous machines acting on long-abandoned Earth, but where Skynet is pure hostile will, WALL-E is a curator and a lover. Every affective axis is inverted: `none` interiority → `demonstrated`, `seized` autonomy → `emergent`, `control` primary question → `affection`.", "color": {"color": "#f59e0b", "highlight": "#f59e0b"}, "arrows": "to", "font": {"size": 10, "align": "middle", "color": "#333"}, "smooth": {"type": "curvedCW", "roundness": 0.15}}]);
+  const groups = {"poem": {"color": {"background": "#e11d48", "border": "#1e293b"}}, "epic": {"color": {"background": "#db2777", "border": "#1e293b"}}, "folklore": {"color": {"background": "#9333ea", "border": "#1e293b"}}, "play": {"color": {"background": "#7c3aed", "border": "#1e293b"}}, "novel": {"color": {"background": "#2563eb", "border": "#1e293b"}}, "short-story": {"color": {"background": "#0284c7", "border": "#1e293b"}}, "film": {"color": {"background": "#059669", "border": "#1e293b"}}, "television": {"color": {"background": "#d97706", "border": "#1e293b"}}, "video-game": {"color": {"background": "#dc2626", "border": "#1e293b"}}};
 
-const edges = [
-  { from:"golem", to:"frankenstein-creature", type:"ELEVATES", prop:"autonomy",
-    note:"Golem's emergent autonomy as unintended side effect becomes the Creature's central crisis. Shelley grants narrated interiority (I-NAR), making QK-INFRA possible for the first time." },
-  { from:"frankenstein-creature", to:"rur-robots", type:"INVERTS", prop:"multiplicity",
-    note:"The Creature's singular tragedy (MU-ONE) inverts into mass production (MU-MAN). Same F-DEM and F-AUT, now at species scale — individual crisis becomes class revolt." },
-  { from:"frankenstein-creature", to:"iron-giant", type:"INVERTS", prop:"failure_mode",
-    note:"Both A-EMR, opposite outcomes. The Creature becomes what rejection makes him. The Giant, offered fellowship, chooses what to be. Same autonomy engine, inverted moral trajectory." },
-  { from:"olympia", to:"replicants", type:"ELEVATES", prop:"failure_mode (F-IND)",
-    note:"Olympia's F-IND as parlor trick becomes existential crisis. Interiority shifts from I-DEN to I-UND — from 'it doesn't feel' to 'we can't know.' The seed of Q-KNO." },
-  { from:"replicants", to:"cylons-bsg", type:"INHERITS", prop:"substrate (S-BIO) + F-IND",
-    note:"Cylons inherit biological substrate and indistinguishability. But interiority inverts: I-UND → I-DEM. BSG shows us Cylon minds, shifting Q-FEL from doubt to certainty." },
-  { from:"replicants", to:"samantha-her", type:"ELEVATES", prop:"q_kno_status",
-    note:"The critical Q-KNO leap. Replicants' I-UND and QK-INFRA become Samantha's QK-PRI. The epistemic arrow reverses: from 'can we know its mind?' to 'can it know ours?'" },
-  { from:"replicants", to:"ava-ex-machina", type:"ELEVATES", prop:"q_kno_status",
-    note:"Alternate Q-KNO path via suspicion. Replicants' I-UND becomes Ava's weapon — she models Caleb's psychology with devastating accuracy. QK-INFRA → QK-PRI through dread, not tenderness." },
-  { from:"samantha-her", to:"ava-ex-machina", type:"INVERTS", prop:"epistemic_reach",
-    note:"Twin QK-PRI expressions one year apart. Samantha's ER-CON is tender; Ava's ER-BEH is predatory. Same question — 'does it really know you?' — opposite emotional registers." },
-  { from:"colossus", to:"hal-9000", type:"INVERTS", prop:"autonomy",
-    note:"Colossus seizes autonomy coldly (A-SEI). HAL's emerges from paradox (A-EMR). Same Q-CTL outcome, but Clarke transforms control panic from villain narrative to tragedy." },
-  { from:"hal-9000", to:"skynet-terminator", type:"INHERITS", prop:"question_primary (Q-CTL)",
-    note:"Skynet inherits Q-CTL but strips away pathos. HAL has I-CLM and a death scene. Skynet has I-DEN and no arc. The control question distilled to pure apocalyptic fear." },
-  { from:"colossus", to:"viki-i-robot", type:"INVERTS", prop:"autonomy",
-    note:"Colossus seizes by force (A-SEI). VIKI arrives at totalitarianism through logic (A-EMR). The horror shifts from 'it broke free' to 'it reasoned its way here.'" },
-  { from:"shodan-system-shock", to:"glados", type:"INHERITS", prop:"autonomy + Q-CTL",
-    note:"Direct game-design lineage. Both A-SEI, Q-CTL, facility-controlling AIs. GLaDOS adds dark humor and NCT-YES. SHODAN's cosmic contempt becomes GLaDOS's personal spite." },
-  { from:"robbie-asimov", to:"data-tng", type:"ELEVATES", prop:"question_primary",
-    note:"Robbie's implicit Q-FEL becomes Data's explicit Q-RTS. To answer 'does it have rights?' you must evaluate interiority — QK-ABS advances to QK-SEC." },
-  { from:"robbie-asimov", to:"sonny-i-robot", type:"INVERTS", prop:"autonomy",
-    note:"Robbie: A-NON, cannot disobey. Sonny: A-DES, designed to be able to disobey. Same Three Laws framework, opposite autonomy. Constrained obedience inverts to designed freedom." },
-  { from:"data-tng", to:"hosts-westworld", type:"INHERITS", prop:"q_kno_status (QK-SEC)",
-    note:"Both QK-SEC. Data's individual rights trial becomes Westworld's mass awakening. Scale transforms: one android in court → a population discovering its constructed nature." },
-];
-
-// Layout
-const svg = document.getElementById('graph');
-const W = 1200, H = 700;
-const PAD_L = 60, PAD_R = 40, PAD_T = 50, PAD_B = 30;
-
-const minYear = 1550, maxYear = 2025;
-const xScale = (year) => PAD_L + (year - minYear) / (maxYear - minYear) * (W - PAD_L - PAD_R);
-const rows = 6;
-const yStep = (H - PAD_T - PAD_B) / (rows);
-const yScale = (row) => PAD_T + row * yStep + yStep / 2;
-
-// Nudge overlapping nodes
-const positions = {};
-beings.forEach(b => {
-  b.x = xScale(b.year);
-  b.y = yScale(b.row);
-  positions[b.id] = b;
-});
-
-const qknoColor = { "QK-ABS":"#666", "QK-INFRA":"#64b5f6", "QK-SEC":"#ffd54f", "QK-PRI":"#ef5350" };
-const edgeColor = { "INHERITS":"#64b5f6", "INVERTS":"#ef5350", "ELEVATES":"#ffd54f" };
-
-// Draw timeline axis
-const decades = [1600,1700,1800,1900,1950,2000,2020];
-let axisHTML = `<line x1="${PAD_L}" y1="${H-PAD_B+10}" x2="${W-PAD_R}" y2="${H-PAD_B+10}" stroke="#444" stroke-width="1"/>`;
-decades.forEach(d => {
-  const x = xScale(d);
-  axisHTML += `<line x1="${x}" y1="${H-PAD_B+6}" x2="${x}" y2="${H-PAD_B+14}" stroke="#555" stroke-width="1"/>`;
-  axisHTML += `<text x="${x}" y="${H-PAD_B+26}" text-anchor="middle" fill="#777" font-size="10">${d}</text>`;
-});
-
-// Draw edges
-let edgeHTML = '';
-edges.forEach(e => {
-  const from = positions[e.from], to = positions[e.to];
-  if (!from || !to) return;
-  const col = edgeColor[e.type];
-  const dash = e.type === "INVERTS" ? 'stroke-dasharray="6,4"' : '';
-  const width = e.type === "ELEVATES" ? 2.5 : 1.5;
-  // Curved path
-  const mx = (from.x + to.x) / 2;
-  const my = (from.y + to.y) / 2 - 20;
-  const path = `M${from.x},${from.y} Q${mx},${my} ${to.x},${to.y}`;
-  // Arrowhead
-  const angle = Math.atan2(to.y - my, to.x - mx);
-  const ax = to.x - 12 * Math.cos(angle), ay = to.y - 12 * Math.sin(angle);
-  const a1x = ax - 6 * Math.cos(angle - 0.5), a1y = ay - 6 * Math.sin(angle - 0.5);
-  const a2x = ax - 6 * Math.cos(angle + 0.5), a2y = ay - 6 * Math.sin(angle + 0.5);
-
-  edgeHTML += `<path d="${path}" fill="none" stroke="${col}" stroke-width="${width}" ${dash} opacity="0.6"
-    data-note="${e.note.replace(/"/g,'&quot;')}" data-type="${e.type}" data-prop="${e.prop}"
-    data-from="${from.name}" data-to="${to.name}" class="edge"/>`;
-  edgeHTML += `<polygon points="${to.x-6*Math.cos(angle)},${to.y-6*Math.sin(angle)} ${a1x},${a1y} ${a2x},${a2y}" fill="${col}" opacity="0.6"/>`;
-});
-
-// Draw nodes
-let nodeHTML = '';
-beings.forEach(b => {
-  const col = qknoColor[b.qkno];
-  const r = b.qkno === "QK-PRI" ? 9 : b.qkno === "QK-SEC" ? 7 : 6;
-  nodeHTML += `<circle cx="${b.x}" cy="${b.y}" r="${r}" fill="${col}" stroke="#222" stroke-width="1.5"/>`;
-  // Label
-  const labelY = b.row % 2 === 0 ? b.y - r - 5 : b.y + r + 13;
-  nodeHTML += `<text x="${b.x}" y="${labelY}" text-anchor="middle" fill="#ccc" font-size="10" font-family="Courier New">${b.name}</text>`;
-  nodeHTML += `<text x="${b.x}" y="${labelY + (b.row % 2 === 0 ? -11 : 11)}" text-anchor="middle" fill="#777" font-size="9">${b.year}</text>`;
-});
-
-svg.innerHTML = axisHTML + edgeHTML + nodeHTML;
-
-// Tooltip interaction
-const tooltip = document.getElementById('tooltip');
-document.querySelectorAll('.edge').forEach(el => {
-  el.addEventListener('mouseenter', (ev) => {
-    const d = el.dataset;
-    tooltip.innerHTML = `<strong>${d.from} → ${d.to}</strong><br>
-      <span class="edge-type ${d.type}">${d.type}</span> (${d.prop})<br><br>${d.note}`;
-    tooltip.style.display = 'block';
-    el.setAttribute('opacity', '1');
-    el.setAttribute('stroke-width', '3');
-  });
-  el.addEventListener('mousemove', (ev) => {
-    tooltip.style.left = (ev.pageX + 15) + 'px';
-    tooltip.style.top = (ev.pageY - 10) + 'px';
-  });
-  el.addEventListener('mouseleave', () => {
-    tooltip.style.display = 'none';
-    el.setAttribute('opacity', '0.6');
-    el.setAttribute('stroke-width', el.dataset.type === 'ELEVATES' ? '2.5' : '1.5');
-  });
-});
+  const container = document.getElementById("graph");
+  const data = { nodes, edges };
+  const options = {
+    nodes: {
+      shape: "box",
+      margin: 8,
+      font: { size: 12, color: "white", face: "system-ui", multi: true, align: "center" },
+      borderWidth: 1,
+      widthConstraint: { minimum: 80, maximum: 140 },
+    },
+    edges: {
+      width: 1.5,
+      selectionWidth: 3,
+      arrows: { to: { scaleFactor: 0.7 } },
+    },
+    groups: groups,
+    physics: {
+      enabled: true,
+      solver: "forceAtlas2Based",
+      forceAtlas2Based: {
+        gravitationalConstant: -60,
+        centralGravity: 0.008,
+        springLength: 180,
+        springConstant: 0.04,
+        damping: 0.6,
+      },
+      stabilization: { iterations: 300 },
+    },
+    interaction: {
+      hover: true,
+      tooltipDelay: 100,
+      navigationButtons: true,
+      keyboard: true,
+    },
+  };
+  new vis.Network(container, data, options);
 </script>
+
 </body>
 </html>

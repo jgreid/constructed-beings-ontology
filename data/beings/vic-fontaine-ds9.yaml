@@ -1,165 +1,46 @@
-# Constructed Beings Ontology — Vic Fontaine (Star Trek: Deep Space Nine)
-# Source: Star Trek: Deep Space Nine, 1998 (Season 6-7)
-# Coded: 2026-04-03
-#
-# NOTE: Vic Fontaine is a holographic character who KNOWS he is a hologram —
-# a crucial distinction from the Doctor (Voyager) and Moriarty (TNG). His
-# self-awareness is a designed feature, not an emergent crisis. He represents
-# a constructed being who is at peace with his constructed nature, making him
-# a unique counterpoint to beings who struggle against their artificiality.
-
 id: vic-fontaine-ds9
 name: "Vic Fontaine"
-aliases:
-  - "Vic"
 
-# ── SOURCE ────────────────────────────────────────────────────────────
-source:
-  author: "Ira Steven Behr (showrunner); various writers"
-  title: "Star Trek: Deep Space Nine"
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: secondary
+
+metadata:
+  source: "Star Trek: Deep Space Nine"
   year: 1998
   medium: television
-  tradition: American
-
-# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
-# Vic is a holographic program — created by Felix, a friend of Julian
-# Bashir's, who programs holosuite experiences. Vic is software running
-# on DS9's holosuite hardware.
-reproductive_method: made
-
-# ── CREATOR ───────────────────────────────────────────────────────────
-creator:
-  name: "Felix (holoprogram designer)"
-
-  # M-COM: Vic is designed as a companion — a lounge singer and
-  # confidant who provides entertainment and emotional support.
-  # M-ART: He is also an artistic creation — a musical performer
-  # designed to inhabit a lovingly crafted 1962 Las Vegas environment.
-  motivation:
-    - M-COM
-    - M-ART
-
-  # CM-MOR: Felix's creation of Vic is presented positively — Vic is
-  # a gift to Bashir, and the program is sophisticated enough to be
-  # genuinely helpful. No moral transgression in the creation.
-  creation_morality: CM-MOR
-
-# ── BEING ─────────────────────────────────────────────────────────────
-being:
-  # S-ELE: Vic is software — a holographic program running on DS9's
-  # computer systems. His "body" is a holographic projection that
-  # exists only within the holosuite.
+  creator: "Ira Steven Behr (Felix the holo-designer in-narrative)"
   substrate:
-    - S-ELE
+    - electrical
+  motivation:
+    - companionship
+    - art
 
-  # A-DES: Vic's autonomy is designed. Felix intentionally programmed
-  # him to be self-aware — to know he is a hologram and to be able to
-  # run continuously (his program doesn't shut down between visits).
-  # This designed self-awareness is unique in the Star Trek hologram
-  # tradition. Vic's autonomy is sophisticated but intentional.
-  autonomy: A-DES
+sequel_link: null
 
-  # I-DEM: Vic demonstrates rich interiority — wisdom, empathy,
-  # humor, loneliness (when the holosuite is off), and genuine care
-  # for the DS9 crew. His emotional states are treated as real by the
-  # characters and the narrative. In "It's Only a Paper Moon," his
-  # relationship with Nog is presented with full emotional seriousness.
-  interiority: I-DEM
+notes: |
+  Key test case for the Knowability/Knowing split. Knowability is
+  `absent`: nobody doubts that Vic is a hologram. Nobody tests him.
+  The show doesn't ask whether he truly experiences. But knowing is
+  `secondary`: Vic's entire character is built around his capacity
+  to know the DS9 crew — he listens to Nog's PTSD, reads Odo, plays
+  therapist. His usefulness is epistemic. The split captures this
+  cleanly in a way v1's single q_kno_status could not.
 
-  # L-EPH: Vic exists only while his program runs. If the holosuite
-  # is shut down, he ceases to experience. His existence is contingent
-  # on hardware that could be destroyed or decommissioned. He is
-  # aware of this contingency and accepts it.
-  mortality: L-EPH
+  Divergence is `none`: Felix designed Vic as a Lounge Singer
+  Program with Real Personality™, and that's exactly what he is.
+  Autonomy is `designed` — his initiative and warmth are built-in
+  features, not emergent surprises. Primary question is `affection`:
+  the crew loves him, he loves them back, and the show treats that
+  as a real relationship without asking whether it should.
 
-  multiplicity: MU-ONE
-
-  # P-CON: Vic retains continuous memory between visits — he remembers
-  # conversations, tracks relationships, and develops over time. Felix
-  # designed the program to run continuously, giving Vic persistent
-  # memory and continuous experience.
-  memory_persistence: P-CON
-
-  nonconsensual_transformation: NCT-NO
-
-# ── RELATIONSHIP ──────────────────────────────────────────────────────
-relationship:
-  # F-NON: Vic's relationship with the crew does not fail — he serves
-  # as counselor, friend, and morale booster throughout. His is a rare
-  # case of a constructed being whose relationship with its users
-  # remains constructive and mutual throughout.
-  # F-MUT: The relationship is genuinely mutual — Vic helps the crew,
-  # and the crew helps Vic (saving his program from deletion in
-  # "Badda-Bing, Badda-Bang").
-  failure_mode:
-    - F-NON
-    - F-MUT
-
-  question:
-    - Q-FEL
-    - Q-TEL
-
-  # Q-FEL: The primary question Vic raises is fellow-feeling — can a
-  # hologram be a real friend? Can his empathy be genuine? DS9 answers
-  # yes without qualification. In "It's Only a Paper Moon," Vic's
-  # therapeutic relationship with Nog (recovering from war trauma) is
-  # treated as real and valuable — the hologram helps the person heal.
-  question_primary: Q-FEL
-
-  # ER-CON: Vic demonstrates deep understanding of the people who visit
-  # him. He reads emotional states, offers nuanced advice, and provides
-  # genuine therapeutic insight. His epistemic reach is comprehensive —
-  # he knows the crew emotionally, not just behaviorally.
-  epistemic_reach: ER-CON
-
-  # QK-SEC: The knowability question is present — Vic knows the crew
-  # deeply, and they know he is a hologram. The question "does his
-  # knowing count?" is raised but secondary to the fellow-feeling
-  # question. The show's answer is pragmatic: if Vic's knowing helps,
-  # its ontological status matters less than its effects.
-  q_kno_status: QK-SEC
-
-# ── NARRATIVE ROLE ────────────────────────────────────────────────────
-# NR-MAJ: Vic is a recurring major character in DS9 Seasons 6-7. He is
-# central to several episodes ("His Way," "It's Only a Paper Moon,"
-# "Badda-Bing, Badda-Bang") and provides emotional support throughout
-# the Dominion War arc.
-narrative_role: NR-MAJ
-
-# ── CITATIONS ─────────────────────────────────────────────────────────
-citations:
-  - property: being.autonomy
-    text: "I know I'm a hologram. I've always known."
-    location: "Star Trek: DS9, Season 6, 'His Way' (1998)"
-    note: "Vic's self-awareness is a designed feature, not an emergent crisis. He knows what he is and is at peace with it — a radical departure from Moriarty or the Doctor, who struggle with their holographic nature."
-
-  - property: being.interiority
-    text: "When the program's off, I'm gone. I'm nothing. I don't exist."
-    location: "Star Trek: DS9, Season 7, 'It's Only a Paper Moon' (1998)"
-    note: "Vic articulates the existential condition of being a hologram — existence contingent on hardware. This is stated without self-pity, but the awareness is unmistakably genuine interiority."
-
-  - property: relationship.question_primary
-    text: "[Vic helps Nog recover from the trauma of losing his leg in combat]"
-    location: "Star Trek: DS9, Season 7, 'It's Only a Paper Moon' (1998)"
-    note: "The series' strongest statement about holographic personhood: Vic provides real therapeutic help to Nog. If a hologram can help a person heal, the question of whether the hologram 'really' cares becomes academic."
-
-# ── NOTES ─────────────────────────────────────────────────────────────
-notes: >
-  Vic Fontaine is the Star Trek franchise's most sophisticated exploration
-  of holographic personhood — more so even than Voyager's Doctor, because
-  Vic's self-awareness is designed rather than emergent. Where the Doctor
-  fights for recognition of his personhood (a rights narrative), Vic
-  already has it. His self-knowledge — he knows he is a hologram, he
-  knows his memories are programmed, he knows he ceases to exist when the
-  program is off — does not diminish his capacity for genuine relationship.
-  "It's Only a Paper Moon" is the key episode: Nog, traumatized by combat,
-  retreats into the holosuite and Vic's company. The episode takes the
-  therapeutic relationship seriously — Vic is not a crutch but a genuine
-  healer. The ethical complexity emerges from the question of dependence:
-  is retreating into a hologram's care a form of avoidance or a form of
-  healing? DS9 answers that it is both, and that Vic's artificiality does
-  not disqualify his care. For the ontology, Vic represents the rare
-  constructed being who is content with being constructed — he does not
-  yearn to be human, does not struggle for rights, does not rebel. He
-  simply IS, and offers what he can. This acceptance is itself a form of
-  wisdom that few constructed beings in the canon achieve.
+  Low-confidence flag: holographic characters have always been hard
+  to code. The designed/emergent boundary is fuzzy for long-running
+  programs that accumulate in-fiction history.

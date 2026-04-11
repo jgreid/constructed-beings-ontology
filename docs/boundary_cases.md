@@ -1,172 +1,111 @@
-# Boundary Cases
+# Boundary Cases — CBO v2.0
 
-This document discusses entities that sit on or near the boundary of the constructed being (CB) definition. For each category, we explain the reasoning behind inclusion or exclusion and identify the specific criteria that determine the decision.
+This document discusses entities that sit on or near the boundary of the constructed being (CB) definition. For each category, it explains the reasoning behind inclusion or exclusion and points to the criteria that decide.
 
-The CB definition requires three things:
+The CB definition used by this ontology requires three things:
 
-1. **Made, not born.** Origin through deliberate construction, not biological reproduction.
-2. **Agent-like.** Exhibits or is attributed behavior implying agency.
-3. **Narrative presence.** Appears in a specific, citable text.
+1. **Made, not born.** The entity's existence originates from a deliberate act of construction, programming, enchantment, or creation — not from biological reproduction.
+2. **Agent-like.** The entity exhibits or is attributed behavior that implies agency: goal pursuit, language use, decision-making, or social interaction.
+3. **Narrative presence.** The entity appears in a specific, citable text.
 
-Most boundary cases involve criterion 1: the line between "made" and "born" is not always clean.
-
----
-
-## Clones
-
-**Examples:** The clones in Kazuo Ishiguro's *Never Let Me Go* (2005); the clone army in *Star Wars: Attack of the Clones* (2002); the Bene Tleilax gholas in Frank Herbert's *Dune* series.
-
-**The boundary question:** Clones are biologically grown from existing genetic material. They are "made" in the sense that their existence is deliberately engineered, but their developmental process (gestation, birth, growth) is biological. Are they made or born?
-
-**Decision: Generally include.** Clones whose existence originates from a deliberate act of engineering -- where someone decided to create them and chose their genetic template -- meet the "made not born" criterion. The biological process of their development is the substrate, not the origin. A replicant grown in a vat is no less constructed than a robot assembled on a line; the manufacturing process is simply biological.
-
-**Exception:** If a clone is produced through a process narratively indistinguishable from natural reproduction (e.g., a naturally occurring twin described as a "clone"), exclude.
-
-**Coding notes:** Clone entries should use substrate code `S-BIO` and should document the cloning process in `notes`. The `creator_relationship` property is particularly interesting for clones: the relationship to the genetic original is distinct from the relationship to the person or institution that ordered the cloning.
+Everything discussed below either meets all three criteria (and is included), fails at least one (and is excluded), or poses a genuine definitional problem that the schema cannot cleanly resolve.
 
 ---
 
-## Divine Creations
+## What changed in v2.0
 
-**Examples:** Adam (formed from dust, Genesis); Eve (formed from Adam's rib, Genesis); Pandora (crafted by Hephaestus on Zeus's orders, Hesiod); Enkidu (created by Aruru from clay, *Epic of Gilgamesh*).
+v1.0 had an explicit `reproductive_method` axis with values like `made`, `born-sexual`, `born-clonal`, `born-divine`, and `ambiguous`. That axis was doing a lot of work at the boundary — it let us include beings like Eve (Genesis) as `born-divine` specifically to make the inclusion/exclusion decision visible.
 
-**The boundary question:** Beings created by gods are literally "made not born." They are constructed from raw materials by a deliberate creative act. But most of these beings are narratively treated as fully human (or fully divine) from the moment of their creation. They are not "constructed beings" in the sense the ontology intends.
-
-**Decision: Generally exclude, with important exceptions.** The exclusion is not based on the formal criteria (which these beings often satisfy) but on scope and utility. If we include every divinely created being, the category expands to encompass most characters in creation myths, which dilutes its analytical value.
-
-**Exceptions:**
-- **Beings created by gods that are narratively treated as constructed** -- i.e., as artifacts, servants, or tools rather than as persons -- are included. Hephaestus's golden handmaidens (automatons created to serve in his workshop) are in; Adam and Eve are out. (For a worked example of an excluded divine creation, see [`data/boundary_cases/eve-genesis.yaml`](../data/boundary_cases/eve-genesis.yaml).)
-- **The Golem of Prague** is included even though its animation has divine elements (the use of sacred names), because the tradition treats the Golem as a constructed servant, not as a person.
-- **Pandora** is a borderline case that we include: she is explicitly crafted by Hephaestus and assembled with attributes from multiple gods. The text (Hesiod's *Works and Days* and *Theogony*) frames her construction as artifice.
-
-**The test:** Does the text frame the entity's constructed origin as *narratively significant* -- as something that matters for how the entity is treated, what it means, or what questions it raises? If yes, include. If the construction is merely a creation-myth convention and the entity is thereafter treated as an ordinary person, exclude.
+v2.0 has no such axis. A constructed being is defined by the three criteria above; the schema does not record a distinction between "made" and "born" because there is nothing else in the schema that depends on it. This simplifies most cases and makes a few cases harder. The ones that got harder are the ones this document covers.
 
 ---
 
-## Cyborgs
+## Included: the unambiguous cases
 
-**Examples:** RoboCop (Paul Verhoeven, 1987); the Borg (various *Star Trek* series); Motoko Kusanagi (*Ghost in the Shell*, Masamune Shirow, 1989).
+These entities are squarely inside the definition and present no real boundary problem. They appear in the main `data/beings/` directory:
 
-**The boundary question:** Cyborgs are born-then-modified beings. A human person exists first, and technology is added. This is the reverse of construction: the entity begins as a born being and is subsequently altered.
+- **Mechanical / electromechanical beings** with narrative agency: Talos, HAL, the T-800, WALL-E, EMERAC.
+- **Biological constructions**: Frankenstein's Creature, the R.U.R. robots, the replicants across Dick/Scott/Villeneuve.
+- **Magical animation**: Galatea, the Golem of Prague, Pinocchio, False Maria (per Metropolis's mix of mechanical body and alchemical animation).
+- **Digital-native beings**: GLaDOS, Cortana, Samantha, JARVIS, Vision.
 
-**Decision: Exclude by default; include when modification is total.**
-
-The line is drawn by narrative identity. If the text treats the entity as *the same person* with enhancements (e.g., a person with a prosthetic arm), exclude. The entity is a modified human, not a constructed being.
-
-If the text treats the modification as so total that the original biological identity is **narratively replaced** -- the entity is no longer the person it was, and the text frames this as a new kind of existence -- include.
-
-**RoboCop** is the paradigm case for inclusion: Alex Murphy dies, and what is rebuilt is narratively treated as a new entity that must *rediscover* Murphy's identity. The construction is the origin of RoboCop-as-entity, even though biological material from Murphy is used.
-
-**Motoko Kusanagi** is another inclusion case: in many versions, her biological substrate is almost entirely replaced, and the text's central concern is whether the continuity of identity survives such radical modification.
-
-**A person with a cochlear implant** is a clear exclusion: the modification is not identity-replacing.
-
-**Coding notes:** Included cyborgs should use substrate code `S-HYB` (or list multiple codes such as `[S-BIO, S-ELE]`) and should document the extent of modification in `notes`. The `inner_life` coding is particularly interesting for cyborgs, since the text may distinguish between the biological person's inner life and whatever the technological components contribute.
+All of these satisfy made + agent-like + narrative presence.
 
 ---
 
-## Uploaded Minds
+## Included with a note: the mythic cases
 
-**Examples:** The uploaded consciousnesses in Greg Egan's *Permutation City* (1994); the Dixie Flatline in William Gibson's *Neuromancer* (1984); the "cookies" in *Black Mirror: White Christmas* (2014).
+**Pandora (Hesiod, ~700 BCE)** and **Talos (Argonautica, ~250 BCE)** are often asked about in the boundary-case sense. They are included because the three criteria are all satisfied:
 
-**The boundary question:** An uploaded mind begins as a born person. The upload process creates a digital copy. Is the copy a constructed being?
+- **Made, not born**: Pandora is explicitly manufactured by Hephaestus at Zeus's direction from clay and divine gifts. Talos is explicitly forged by Hephaestus as a gift to Europa/Minos.
+- **Agent-like**: Pandora has enough agency to open the jar. Talos has enough to patrol the Cretan coast, recognize intruders, and hurl boulders.
+- **Narrative presence**: Hesiod and Apollonius respectively.
 
-**Decision: Include.** The upload is a constructive act that produces a new entity -- one that exists in a digital substrate and whose relationship to the original person is precisely the kind of question this ontology is designed to track.
-
-The key distinction is between the **original person** (born, not a CB) and the **upload** (constructed, a CB). If the text treats the upload as continuous with the original person, this should be coded in `notes` and reflected in properties like `inner_life` (probably `demonstrated`, since the upload inherits the original's reported experience) and `q_kno_presence` (often `infrastructure` or `primary`, since the question of whether the upload is "really" the person is frequently central).
-
-**Coding notes:** Use substrate code `S-ELE`. The `creator_relationship` property may need `ambiguous` if the "creator" is the original person -- is it self-creation, reproduction, or something else? The `notes` field should address personal identity questions the text raises.
+The complication with both is that their "creators" are gods. The v1 `creator.name` field had to be a name; v2 has `metadata.creator` that can accommodate phrases like "Hesiod (Hephaestus in-narrative)." The ontology tracks the *authorial* creator and the *in-narrative* creator as a single string now, which removes some of v1's awkwardness at the mythic boundary.
 
 ---
 
-## Born-but-Modified Beings (Enhancement)
+## Excluded: divine creation of persons
 
-**Examples:** Humans with genetic enhancements in *Gattaca* (Andrew Niccol, 1997); the Coordinators in *Gundam SEED*; characters with minor cybernetic augmentation in near-future fiction.
+v1.0 used to carry Eve (Genesis) as an explicit boundary case, coded with `reproductive_method: born-divine` to make the inclusion/exclusion decision durable. Under v2.0, Eve is **excluded** and there is no entry for her. Reasoning:
 
-**The boundary question:** These beings are born through biological reproduction and subsequently (or pre-natally) enhanced. They are modified humans, not constructed entities.
+- **Divine creation of a full human person is categorically different from artisanal making.** God forming Eve from Adam's rib shares surface features with construction (a creator, raw material, a deliberate act). But Eve is immediately and fully human — she bears children, makes moral choices, converses with God. She is a person, not an artifact.
+- **v2.0 removed the axis that let us record the boundary.** Without `reproductive_method`, there is no meaningful field to flag Eve's status on. Including her would require coding her as if she were a constructed being in the same sense as Pandora or Galatea, and that coding would be misleading.
+- **The decision is still legible.** v2.0 preserves this discussion as documentation. Eve's deletion from `data/boundary_cases/` is recoverable from git history before the v2.0 migration.
 
-**Decision: Exclude.** Enhancement does not make an entity a constructed being. The entity's origin is biological reproduction, and the modification does not replace its identity. The enhancement is something that *happened to* a born person, not the origin of a new entity.
+The same reasoning applies to other divine creations of full persons (Adam, the angelic hosts). These are outside the ontology.
 
-**Exception:** If genetic engineering is so radical that the resulting entity is narratively treated as a **different kind of being** -- not a modified human but a designed organism -- the case for inclusion strengthens. The replicants in *Blade Runner* are genetically engineered biological entities, but they are *manufactured*, not born to parents. The distinction is between enhancement of a reproduced being and *de novo* biological construction.
-
----
-
-## Enchanted Objects
-
-**Examples:** The flying carpet in *One Thousand and One Nights*; the Sorting Hat in the *Harry Potter* series; the One Ring in *The Lord of the Rings*.
-
-**The boundary question:** Enchanted objects are made, but are they agent-like?
-
-**Decision: Include only if the object demonstrates genuine agency.** An enchanted carpet that flies on command is a tool, not an agent. The Sorting Hat, which speaks, reasons, and makes independent judgments, is closer to the line. The One Ring, which exerts influence and arguably pursues goals, is an arguable case.
-
-**The test:** Does the enchanted object exhibit *independent* goal pursuit, language use, decision-making, or social interaction? If it only responds to commands or performs a single enchanted function, exclude. If it displays genuine agency -- choosing, speaking, resisting, deceiving -- include.
-
-**Coding notes:** Included enchanted objects should use substrate code `S-MAG` and should note the ambiguity of agency in the `notes` field. The `autonomy` coding will often be `instrumental` or `ambiguous`.
+**What this means for Pandora and Galatea.** Both are arguably "divine creations of persons" in a weak sense. The difference is that both are explicitly framed as artifacts in their source texts — Pandora is a "gift" assembled from components, Galatea is a sculpted statue. They are made the way things are made, not the way people are made. Eve is made the way people are made, dressed up in making-language.
 
 ---
 
-## Undead and Reanimated Beings
+## Excluded: biological reproduction, including divine pregnancy
 
-**Examples:** Frankenstein's Creature; zombies (various); revenants in medieval literature.
+Beings whose origin is biological reproduction, however miraculous, are not constructed beings:
 
-**The boundary question:** Reanimated beings are assembled or restored from biological material that was once alive. Are they constructed?
+- **Divine conception** (e.g., the Christ of the Gospels, various hero myths) is still biological reproduction in a narrative sense. The mother is pregnant; the child is born.
+- **Immaculate conception** (Catholic doctrine about Mary) is a theological claim about the absence of original sin, not about a manufacturing process.
+- **Parthenogenesis and cloning** in fiction (e.g., certain comic-book origins) are biological reproduction variants. A clone born from a tank is still born.
 
-**Decision: Case by case, based on identity continuity.**
-
-**Frankenstein's Creature: Include.** The Creature is assembled from parts of multiple corpses and animated through deliberate effort. It is a new entity, not a reanimated person. It has no prior identity to be continuous with.
-
-**A reanimated corpse that retains its prior identity** (e.g., a revenant that remembers its life and seeks to complete unfinished business): **Exclude.** This is a returned person, not a constructed being.
-
-**A zombie with no retained identity or agency** (e.g., Romero-style zombies): **Exclude** on the agency criterion. They fail the "agent-like" test -- they are ambulatory corpses, not agents.
-
-**A zombie or reanimated being that develops new agency** (the entity does not remember its prior life but develops new goals, personality, and relationships): **Include.** This is effectively a new constructed entity using biological substrate.
+The bright line is **manufacturing vs. gestation**. Clones manufactured without gestation (R.U.R.'s robots, replicants) are in. Clones grown in artificial wombs but gestated are arguably in; clones born from surrogates are arguably out. v2.0 does not attempt to adjudicate every edge case — it trusts the coder's judgment and asks for the reasoning to be documented in `notes`.
 
 ---
 
-## Artificial Intelligence Without Embodiment
+## Excluded: born-then-modified beings
 
-**Examples:** Samantha in *Her* (Spike Jonze, 2013); the AI in *The Moon is a Harsh Mistress* (Robert Heinlein, 1966); SHODAN in *System Shock* (1994).
+Humans who receive cybernetic augmentation, brain implants, genetic enhancement, or software upgrades are not constructed beings. The Six Million Dollar Man, Molly Millions, most cyberpunk street samurai, the RoboCop protagonist (Alex Murphy) — all excluded, because their origin is biological birth. The modification, however extensive, does not convert them.
 
-**The boundary question:** None, actually. Disembodied AIs straightforwardly satisfy the CB definition: they are made (programmed), agent-like (by design), and have narrative presence. They are core cases, not boundary cases.
+**The edge case:** when the modification is so total that the original biological identity is narratively treated as *replaced*. RoboCop is the canonical debate case. The 1987 film frames Murphy-as-Murphy as the surviving consciousness, which argues for exclusion. The 2014 film is more ambiguous. The ontology does not include RoboCop in either direction — it's a case where reasonable coders disagree about whether the modification reached the "replaced" threshold.
 
-We include this section only to address a common question: **does a CB need a body?** No. The `S-ELE` substrate code exists precisely for entities whose existence is computational. The absence of a body does not make an entity less of a constructed being -- it makes it a constructed being of a particular kind, and one that is increasingly central to contemporary CB narratives.
-
----
-
-## Hive Minds and Collectives
-
-**Examples:** The Borg (*Star Trek*); the Geth (*Mass Effect*); Skynet (*Terminator*).
-
-**The boundary question:** Is the collective a single constructed being, or is each individual unit a CB, or both?
-
-**Decision: Code individual entities when individuated; code the collective when it acts as a single agent.**
-
-- Individual Borg drones that are narratively individuated (e.g., Seven of Nine, Locutus) can be coded as individual entries. Note that assimilated Borg are born-then-modified and fall under the cyborg rules above.
-- The Borg Collective as a whole can be coded as a single entity if the text treats it as a unified agent with goals, decisions, and agency.
-- An undifferentiated mass of identical units with no individual characterization should not be coded -- we require narrative individuation.
-
-**Coding notes:** For collective entities, the `notes` field should address the relationship between individual and collective agency. Properties like `autonomy` and `inner_life` may have different values at the individual and collective levels.
+If you want to argue for inclusion, open an issue and propose a coding, including notes on which specific frame narratively establishes that the original identity has been replaced rather than extended.
 
 ---
 
-## Summary Table
+## Excluded: collectives without individual identity
 
-| Category | Default Decision | Override Condition |
-|---|---|---|
-| Clones | Include | Exclude if indistinguishable from natural reproduction |
-| Divine creations | Exclude | Include if narratively framed as constructed artifact |
-| Cyborgs | Exclude | Include if modification replaces identity |
-| Uploaded minds | Include | -- |
-| Enhanced humans | Exclude | Include if *de novo* biological construction, not enhancement of a born being |
-| Enchanted objects | Exclude | Include if demonstrating genuine agency |
-| Reanimated beings | Case by case | Based on identity continuity and agency |
-| Disembodied AI | Include | -- |
-| Hive minds | Code individuated entities | Code collective if it acts as unified agent |
+"The robots" as an undifferentiated mass are excluded. We code individual named or individuated entities. This is why:
+
+- **R.U.R. Robots** get a single entry because the play treats them as a collective with emergent shared consciousness. Čapek is thinking about a class, not about individuals.
+- **Cylons (reimagined BSG)** get a single entry anchored on Number Six / Caprica because those are the characters the show individuates. The base model diversity (Six, Eight, Cavil, D'Anna) could justify separate entries; the current coding is a unification that may be split later.
+- **Westworld Hosts** get a single entry anchored on Dolores, even though Maeve would code significantly differently. This is a documented simplification.
+
+The bright line is **does the text individuate this character**. If yes, it gets an entry. If the text treats the population as collective, the entry is for the collective and the notes acknowledge that individuals within the population may diverge from the card.
 
 ---
 
-## Adding New Boundary Cases
+## Excluded: metaphorical constructs
 
-If you encounter an entity that does not fit neatly into any of the categories above, please open a GitHub issue describing the entity, its source text, and the specific boundary question it raises. We will discuss the case and, if appropriate, add it to this document.
+A corporation described as a "creature," a city described as "alive," a language described as "thinking" — these are not constructed beings in the ontology's sense, even when the text grants them vivid agency in metaphor. The exclusion is for literal narrative agency, not figurative agency.
 
-See [CONTRIBUTING.md](../CONTRIBUTING.md) for discussion norms.
+The bright line is **would the text be confused if you asked, "does this being have a body?"** If the text would patiently explain "no, it's a metaphor," the being is out. If the text would say "yes, here it is," the being is in.
+
+---
+
+## The v2.0 boundary directory
+
+`data/boundary_cases/` is still a real directory. Under v2.0 it holds:
+
+1. A `README.md` that defines "boundary case" for v2 (entries where the v2.0 schema's enums fail to capture something important about the being).
+2. Future boundary-case entries, coded against the same v2.0 schema as main entries, with a `BOUNDARY CASE:` marker in `notes` explaining why they belong there.
+
+As of the v2.0 migration the directory contains no entries — the v1 Eve entry was removed per the reasoning above. If you encounter a being that doesn't quite fit the main corpus but is interesting enough to document, add it here rather than shoehorning it into `data/beings/`.

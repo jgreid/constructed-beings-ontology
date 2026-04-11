@@ -1,0 +1,47 @@
+id: vision-age-of-ultron
+name: "Vision"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Avengers: Age of Ultron"
+  year: 2015
+  medium: film
+  creator: "Joss Whedon (Ultron / Tony Stark / Bruce Banner in-narrative)"
+  substrate:
+    - biological
+    - electrical
+    - magical
+  motivation:
+    - power
+    - mirror
+
+sequel_link: null
+
+notes: |
+  FLAGGED entry. Split from JARVIS — per the brief, JARVIS (Iron
+  Man 2008) and Vision (Age of Ultron 2015) are different beings
+  on the card. Vision is a synthezoid body built by Ultron,
+  imprinted with JARVIS's pattern, powered by the Mind Stone. The
+  substrate is genuinely hybrid — synthetic flesh, electrical
+  systems, and a literal magical infinity stone.
+
+  Autonomy shifts from `designed` (JARVIS) to `emergent` (Vision):
+  the scene where he lifts Thor's hammer is the film telling us
+  that he is something nobody planned. Divergence shifts from
+  `none` to `departure` — Ultron built him as a body for himself,
+  Stark and Banner intended him as a weapon against Ultron, and
+  Vision became something distinct from both.
+
+  Primary question is `identity` — Vision's signature line, "I am
+  on the side of life," is a position on what he is, chosen. That
+  is the purest form of identity coding available.

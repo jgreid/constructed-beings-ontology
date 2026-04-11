@@ -1,162 +1,46 @@
-# Constructed Beings Ontology — GIR (Invader Zim)
-# Source: Jhonen Vasquez, Invader Zim, 2001
-# Coded: 2026-04-03
-#
-# NOTE: GIR is a defective SIR (Standard-issue Information Retrieval) unit
-# given to Zim by the Irken Tallest as a joke. His randomness, stupidity,
-# and bursts of unexpected competence make him a chaotic comic figure, but
-# his occasional moments of genuine emotion complicate his status as "just"
-# a broken robot.
-
 id: gir-invader-zim
 name: "GIR"
-aliases: []
 
-# ── SOURCE ────────────────────────────────────────────────────────────
-source:
-  author: "Jhonen Vasquez"
-  title: "Invader Zim"
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: none
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Invader Zim"
   year: 2001
   medium: television
-  tradition: American
-
-# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
-# GIR is manufactured by the Irken Empire — hastily assembled from
-# garbage and spare parts by the Almighty Tallest as a malicious prank
-# on Zim, who is being sent on a fake mission.
-reproductive_method: made
-
-# ── CREATOR ───────────────────────────────────────────────────────────
-creator:
-  name: "The Almighty Tallest (Irken leadership)"
-
-  # M-SRV: Ostensibly, SIR units serve Irken invaders as information
-  # gathering and combat assistants. GIR is given to Zim as his
-  # "assistant," but the Tallest intend him to be useless.
-  # M-OTH: GIR's creation is specifically a joke — a weapon of
-  # contempt against Zim, assembled from garbage to be dysfunctional.
-  motivation:
-    - M-SRV
-    - M-OTH
-
-  # CM-IMM: GIR is created as an act of cruelty — the Tallest give Zim
-  # a broken robot to sabotage his (already fake) mission. The creation
-  # is contemptuous of both GIR and Zim.
-  creation_morality: CM-IMM
-
-# ── BEING ─────────────────────────────────────────────────────────────
-being:
-  # S-MEC: GIR has a small green mechanical robot body (or a dog
-  # costume disguise). He is physical hardware.
-  # S-ELE: He has some form of computational brain — albeit one filled
-  # with garbage, a paperclip, a gum wrapper, and a marble.
+  creator: "Jhonen Vasquez (the Tallest in-narrative)"
   substrate:
-    - S-MEC
-    - S-ELE
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - other
 
-  # A-DES: GIR's behavior is designed — in the sense that his defective
-  # construction produces consistent randomness. He doesn't develop
-  # autonomy; he was never properly constrained in the first place.
-  # His chaos is not rebellion but malfunction-as-personality.
-  # A-AMB might also work, since his behavior is indeterminate.
-  autonomy: A-AMB
+sequel_link: null
 
-  # I-DEM: GIR demonstrates emotional states — joy (obsessive, manic),
-  # sadness (brief but intense), attachment to Zim, fear, and obsessive
-  # love of Earth culture (tacos, TV, the Scary Monkey Show). His
-  # emotional register is extreme and unpredictable but presented as
-  # genuine within the show's absurdist framework.
-  interiority: I-DEM
+notes: |
+  Reclassified autonomy from v1 `ambiguous` to `designed`, and
+  primary_question from v1 `obedience` to `none`. Per the brief:
+  v1's `ambiguous` is eliminated. GIR was made by the Tallest to be
+  a servant robot and is catastrophically bad at it. That is
+  malfunction within a designed frame, not genuine ambiguity. The
+  chaos is the device working as rolled out by careless creators.
 
-  # L-RES: GIR is damaged repeatedly but always returns to function.
-  # He is durable and repairable — effectively resurrectable.
-  mortality: L-RES
+  Primary question is `none`: *Invader Zim* asks questions about
+  Zim (invasion, alienation, failure) and, obliquely, about Dib.
+  Nobody asks a question about GIR. He is deployed for chaotic
+  comedy and does not sit in the moral or philosophical center of
+  any episode.
 
-  multiplicity: MU-ONE
-
-  # P-SES: GIR's memory is session-based at best — he frequently
-  # forgets instructions, objectives, and context within seconds.
-  # His attention span is effectively zero. Whether this is true
-  # memory loss or simply inattention is ambiguous.
-  memory_persistence: P-SES
-
-  nonconsensual_transformation: NCT-NO
-
-# ── RELATIONSHIP ──────────────────────────────────────────────────────
-relationship:
-  # F-EXC: GIR constantly exceeds (or more accurately, ignores) his
-  # parameters as an assistant — he sabotages Zim's missions, attracts
-  # attention, and creates chaos.
-  # F-NON: Paradoxically, GIR's "failure" is also a non-failure — he
-  # was designed to be useless, and he succeeds perfectly at being
-  # useless. He fulfills the Tallest's actual intention.
-  failure_mode:
-    - F-EXC
-    - F-NON
-
-  question:
-    - Q-OBY
-    - Q-TEL
-
-  # Q-OBY: The primary question is obedience — will GIR follow
-  # instructions? The answer is consistently, hilariously, no. But
-  # his disobedience is not rebellion; it is incapacity. He doesn't
-  # refuse orders; he forgets or ignores them immediately.
-  question_primary: Q-OBY
-
-  # ER-NON: GIR has effectively no epistemic access to the people
-  # around him. He does not model behavior, predict actions, or
-  # understand motivations. His knowledge of others is essentially zero.
-  epistemic_reach: ER-NON
-
-  # QK-ABS: Invader Zim does not raise epistemological questions about
-  # AI consciousness. The show is absurdist comedy, not philosophical
-  # inquiry. GIR's inner life, such as it is, is never examined.
-  q_kno_status: QK-ABS
-
-# ── NARRATIVE ROLE ────────────────────────────────────────────────────
-# NR-MAJ: GIR is a major character — Zim's constant companion and the
-# source of much of the show's comedy. He appears in nearly every episode.
-narrative_role: NR-MAJ
-
-# ── CITATIONS ─────────────────────────────────────────────────────────
-citations:
-  - property: being.interiority
-    text: "I'm gonna sing the doom song now! Doom doom doom doom doom..."
-    location: "Invader Zim, Season 1, Episode 1, 'The Nightmare Begins' (2001)"
-    note: "GIR's first major character moment — manic, purposeless joy. His emotional states are extreme and disconnected from context, but presented as genuine."
-
-  - property: being.autonomy
-    text: "Yes, sir! [immediately does the opposite]"
-    location: "Invader Zim, recurring throughout the series"
-    note: "GIR's pattern: acknowledge the order, then ignore it completely. Not rebellion — he literally cannot sustain focus. Supports A-AMB."
-
-  - property: being.interiority
-    text: "I loveded you, piggy. I loveded you."
-    location: "Invader Zim, Season 1, Episode 2, 'Bestest Friend' (2001)"
-    note: "GIR mourning a rubber piggy. A brief, genuinely affecting moment of loss amid the chaos. Demonstrates that beneath the randomness, GIR is capable of attachment and grief."
-
-# ── NOTES ─────────────────────────────────────────────────────────────
-notes: >
-  GIR occupies a unique position in the constructed-beings canon: a robot
-  whose defectiveness IS his personality. Where most constructed beings
-  develop beyond their programming, GIR was never properly programmed in
-  the first place. His "brain" contains garbage (literally — a marble, a
-  paperclip, and some lint), and his behavior reflects this. Yet within
-  Invader Zim's absurdist framework, GIR demonstrates genuine emotional
-  states — manic joy, brief grief, obsessive attachment to Earth culture.
-  The show never asks whether these states are "real" because the question
-  would be absurd within its register. GIR is also significant as a case
-  where the creation is an act of contempt — the Tallest create him to
-  be useless, making him perhaps the only constructed being in the canon
-  whose creator intended him to fail. Despite this, GIR finds joy in
-  existence — tacos, TV, singing — suggesting that even a being created
-  in malice can develop a form of flourishing, however chaotic.
-  His rare moments of competence — "Duty Mode," when his eyes turn red
-  and he becomes terrifyingly effective — hint at the functional SIR unit
-  buried under the garbage. In "GIR Goes Crazy and Stuff" (S01E34), Zim
-  locks GIR in Duty Mode permanently; GIR becomes hyper-competent but
-  identifies Zim himself as a threat to the mission. This episode is the
-  key text for GIR's latent intelligence and its dangerous implications:
-  a functional GIR would not tolerate Zim, suggesting that his
-  defectiveness is what makes their relationship possible.
+  Divergence is `none`: GIR does exactly what a minimum-viable-spec
+  servant robot does when thrown together from trash by a
+  disinterested manufacturer. The Tallest would say, correctly,
+  "working as intended (for our definition of intended)."

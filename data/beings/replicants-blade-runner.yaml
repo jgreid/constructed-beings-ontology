@@ -1,0 +1,41 @@
+id: replicants-blade-runner
+name: "Replicants"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Blade Runner"
+  year: 1982
+  medium: film
+  creator: "Ridley Scott (Tyrell Corporation in-narrative)"
+  substrate:
+    - biological
+    - cloned
+  motivation:
+    - service
+
+sequel_link: k-blade-runner-2049
+
+notes: |
+  Scott's replicants are warmer than Dick's androids and the
+  divergence shifts accordingly: Scott codes it as `departure`, not
+  `observer`. Roy Batty leaves his design behind in a way Dick's
+  Roy never does. "I've seen things you people wouldn't believe…"
+  is a speech about departure.
+
+  Linked via sequel_link from the Dick novel because they are two
+  source texts featuring derived populations of the same kind of
+  being. K (in BR 2049) continues the chain. The three entries
+  capture the evolution of the replicant concept across 50 years.
+
+  Primary question stays `purpose` — the film's recurring motif is
+  the four-year lifespan and what you do with it. Tears in rain.

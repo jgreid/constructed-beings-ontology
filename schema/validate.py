@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Validate constructed-being YAML entries against the ontology schema.
+Validate constructed-being YAML entries against the v2.0 ontology schema.
 
 Usage:
-    python schema/validate.py          # from repo root
-    python schema/validate.py [path]   # validate a single file
+    python schema/validate.py                  # validate all entries in data/beings/
+    python schema/validate.py path/to/file.yaml  # validate a single file
 
 Exit codes:
     0  all entries pass
@@ -26,248 +26,197 @@ RESET = "\033[0m"
 
 # ── Allowed enum values ──────────────────────────────────────────────────────
 
-MEDIUM_VALUES = {
-    "novel", "short-story", "play", "poem", "epic", "film",
-    "television", "video-game", "myth", "folklore", "opera", "sacred-text",
-}
-
-REPRODUCTIVE_METHOD_VALUES = {
-    "made", "born-sexual", "born-clonal", "born-parthenogenic",
-    "born-divine", "ambiguous",
-}
-
-MOTIVATION_VALUES = {
-    "M-SRV", "M-COM", "M-CHI", "M-KNO", "M-POW", "M-MIR", "M-ART", "M-OTH",
-}
-
-CREATION_MORALITY_VALUES = {
-    "CM-MOR", "CM-IMM", "CM-AMO", "CM-AMB", "CM-RET",
-}
-
-SUBSTRATE_VALUES = {
-    "S-BIO", "S-MEC", "S-ELE", "S-MAG", "S-HYB", "S-LIN", "S-CLO", "S-OTH",
+INTERIORITY_VALUES = {
+    "none", "claims", "narrated", "demonstrated", "undecidable",
 }
 
 AUTONOMY_VALUES = {
-    "A-NON", "A-EMR", "A-DES", "A-SEI", "A-AMB",
+    "none", "designed", "emergent", "seized",
 }
 
-INTERIORITY_VALUES = {
-    "I-NON", "I-CLM", "I-NAR", "I-DEM", "I-DEN", "I-UND",
+DIVERGENCE_VALUES = {
+    "none", "design", "departure", "observer",
 }
 
-MORTALITY_VALUES = {
-    "L-MOR", "L-IMM", "L-DES", "L-RES", "L-EPH", "L-UNK",
-}
-
-MULTIPLICITY_VALUES = {
-    "MU-ONE", "MU-FEW", "MU-MAN", "MU-INF",
-}
-
-MEMORY_PERSISTENCE_VALUES = {
-    "P-NON", "P-CON", "P-WIP", "P-SES", "P-SEL", "P-UNK",
-}
-
-NCT_VALUES = {
-    "NCT-YES", "NCT-NO", "NCT-NA",
-}
-
-FAILURE_MODE_VALUES = {
-    "F-EXC", "F-REV", "F-DEM", "F-AUT", "F-IND", "F-MUT", "F-NON", "F-OTH",
-}
-
-QUESTION_VALUES = {
-    "Q-OBY", "Q-CTL", "Q-FEL", "Q-LOV", "Q-TEL", "Q-RTS", "Q-KNO", "Q-OTH",
+PRIMARY_QUESTION_VALUES = {
+    "none", "control", "affection", "purpose", "rights", "knowledge", "identity",
 }
 
 EPISTEMIC_REACH_VALUES = {
-    "ER-NON", "ER-DAT", "ER-BEH", "ER-PER", "ER-CON", "ER-UNK",
+    "none", "behavioral", "conversational", "inspection",
 }
 
-QK_STATUS_VALUES = {
-    "QK-ABS", "QK-INFRA", "QK-SEC", "QK-PRI",
+SALIENCE_VALUES = {
+    "absent", "present", "secondary", "primary",
 }
 
-NARRATIVE_ROLE_VALUES = {
-    "NR-SUB", "NR-MAJ", "NR-MIN", "NR-BKG",
+MEDIUM_VALUES = {
+    "poem", "epic", "folklore", "play", "novel", "short-story",
+    "film", "television", "video-game",
 }
+
+SUBSTRATE_VALUES = {
+    "mechanical", "biological", "electrical", "magical", "cloned", "linguistic",
+}
+
+MOTIVATION_VALUES = {
+    "service", "knowledge", "power", "companionship", "art", "mirror",
+    "child", "other",
+}
+
+ID_PATTERN = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
 def _get(data, dotpath, default=None):
     """Retrieve a nested value using dot-notation."""
-    keys = dotpath.split(".")
     current = data
-    for k in keys:
+    for key in dotpath.split("."):
         if isinstance(current, dict):
-            current = current.get(k, default)
+            current = current.get(key, default)
+            if current is default:
+                return default
         else:
             return default
     return current
 
 
-def _check_required_scalar(data, dotpath, errors, label=None):
-    """Ensure a required scalar field is present and non-empty."""
-    label = label or dotpath
+def _check_string(data, dotpath, errors):
     val = _get(data, dotpath)
-    if val is None or (isinstance(val, str) and val.strip() == ""):
-        errors.append(f"Missing required field: {label}")
+    if val is None or (isinstance(val, str) and not val.strip()):
+        errors.append(f"Missing required field: {dotpath}")
+    elif not isinstance(val, str):
+        errors.append(f"{dotpath} must be a string, got {type(val).__name__}")
 
 
-def _check_enum(data, dotpath, allowed, errors, label=None):
-    """Ensure a scalar field is one of the allowed enum values."""
-    label = label or dotpath
+def _check_enum(data, dotpath, allowed, errors):
     val = _get(data, dotpath)
     if val is None:
-        errors.append(f"Missing required enum field: {label}")
+        errors.append(f"Missing required enum field: {dotpath}")
     elif val not in allowed:
         errors.append(
-            f"Invalid value for {label}: '{val}'. "
+            f"Invalid value for {dotpath}: '{val}'. "
             f"Allowed: {sorted(allowed)}"
         )
 
 
-def _check_enum_list(data, dotpath, allowed, errors, label=None, min_items=1):
-    """Ensure a list field contains only allowed enum values."""
-    label = label or dotpath
+def _check_enum_list(data, dotpath, allowed, errors, min_items=1):
     val = _get(data, dotpath)
     if val is None:
-        errors.append(f"Missing required list field: {label}")
+        errors.append(f"Missing required list field: {dotpath}")
         return
     if not isinstance(val, list):
-        errors.append(f"{label} must be a list, got {type(val).__name__}")
+        errors.append(f"{dotpath} must be a list, got {type(val).__name__}")
         return
     if len(val) < min_items:
-        errors.append(f"{label} must have at least {min_items} item(s)")
+        errors.append(f"{dotpath} must have at least {min_items} item(s)")
         return
     for item in val:
         if item not in allowed:
             errors.append(
-                f"Invalid value in {label}: '{item}'. "
+                f"Invalid value in {dotpath}: '{item}'. "
                 f"Allowed: {sorted(allowed)}"
             )
 
 
-def _check_optional_warn(data, dotpath, warnings, label=None):
-    """Warn (don't error) if an optional field is missing."""
-    label = label or dotpath
-    val = _get(data, dotpath)
-    if val is None:
-        warnings.append(f"Optional field missing: {label}")
-
-
 # ── Main validation ──────────────────────────────────────────────────────────
 
-def validate_entry(data, filename):
-    """Validate a single entry dict. Returns (errors, warnings)."""
+def validate_entry(data):
+    """Validate a single entry dict. Returns a list of error strings."""
     errors = []
-    warnings = []
 
     # ── Identification ────────────────────────────────────────────────
-    _check_required_scalar(data, "id", errors)
+    _check_string(data, "id", errors)
     id_val = _get(data, "id")
-    if id_val and not isinstance(id_val, str):
-        errors.append(f"id must be a string, got {type(id_val).__name__}")
-    elif id_val and id_val != id_val.lower().replace(" ", "-"):
-        if not re.match(r'^[a-z0-9]+(-[a-z0-9]+)*$', id_val):
-            errors.append(
-                f"id '{id_val}' is not valid kebab-case "
-                "(lowercase alphanumeric separated by hyphens)"
-            )
-
-    _check_required_scalar(data, "name", errors)
-    _check_optional_warn(data, "aliases", warnings)
-
-    # ── Source ────────────────────────────────────────────────────────
-    _check_required_scalar(data, "source.author", errors)
-    _check_required_scalar(data, "source.title", errors)
-
-    year = _get(data, "source.year")
-    if year is None:
-        errors.append("Missing required field: source.year")
-    elif not isinstance(year, int):
-        errors.append(f"source.year must be an integer, got {type(year).__name__}")
-
-    _check_enum(data, "source.medium", MEDIUM_VALUES, errors)
-    _check_required_scalar(data, "source.tradition", errors)
-
-    # ── Reproductive method ───────────────────────────────────────────
-    _check_enum(data, "reproductive_method", REPRODUCTIVE_METHOD_VALUES, errors)
-    rm = _get(data, "reproductive_method")
-    if rm and isinstance(rm, str) and rm.startswith("born-"):
+    if isinstance(id_val, str) and not ID_PATTERN.match(id_val):
         errors.append(
-            f"reproductive_method '{rm}' is a born-* value. "
-            "Only 'made' or 'ambiguous' are accepted for constructed beings. "
-            "If this being was born rather than made, it may not belong in "
-            "this ontology."
+            f"id '{id_val}' is not valid kebab-case "
+            "(lowercase alphanumeric separated by hyphens)"
         )
 
-    # ── Creator ───────────────────────────────────────────────────────
-    _check_required_scalar(data, "creator.name", errors)
-    _check_enum_list(data, "creator.motivation", MOTIVATION_VALUES, errors)
-    _check_enum(data, "creator.creation_morality", CREATION_MORALITY_VALUES, errors)
+    _check_string(data, "name", errors)
 
-    # ── Being ─────────────────────────────────────────────────────────
-    _check_enum_list(data, "being.substrate", SUBSTRATE_VALUES, errors)
-    _check_enum(data, "being.autonomy", AUTONOMY_VALUES, errors)
-    _check_optional_warn(data, "being.autonomy_trajectory", warnings)
-    _check_enum(data, "being.interiority", INTERIORITY_VALUES, errors)
-    _check_enum(data, "being.mortality", MORTALITY_VALUES, errors)
-    _check_enum(data, "being.multiplicity", MULTIPLICITY_VALUES, errors)
-    _check_enum(data, "being.memory_persistence", MEMORY_PERSISTENCE_VALUES, errors)
-    _check_enum(data, "being.nonconsensual_transformation", NCT_VALUES, errors)
+    # ── Card: the_being ───────────────────────────────────────────────
+    _check_enum(data, "card.the_being.interiority", INTERIORITY_VALUES, errors)
+    _check_enum(data, "card.the_being.autonomy", AUTONOMY_VALUES, errors)
+    _check_enum(data, "card.the_being.divergence", DIVERGENCE_VALUES, errors)
 
-    # ── Relationship ──────────────────────────────────────────────────
-    _check_enum_list(data, "relationship.failure_mode", FAILURE_MODE_VALUES, errors)
-    _check_enum_list(data, "relationship.question", QUESTION_VALUES, errors)
-    _check_enum(data, "relationship.question_primary", QUESTION_VALUES, errors)
-    _check_enum(data, "relationship.epistemic_reach", EPISTEMIC_REACH_VALUES, errors)
-    _check_enum(data, "relationship.q_kno_status", QK_STATUS_VALUES, errors)
+    # ── Card: the_lens ────────────────────────────────────────────────
+    _check_enum(data, "card.the_lens.primary_question", PRIMARY_QUESTION_VALUES, errors)
+    _check_enum(data, "card.the_lens.epistemic_reach", EPISTEMIC_REACH_VALUES, errors)
+    _check_enum(data, "card.the_lens.knowability", SALIENCE_VALUES, errors)
+    _check_enum(data, "card.the_lens.knowing", SALIENCE_VALUES, errors)
 
-    # ── Citations ─────────────────────────────────────────────────────
-    citations = _get(data, "citations")
-    if citations is None:
-        errors.append("Missing required field: citations")
-    elif not isinstance(citations, list):
-        errors.append(f"citations must be a list, got {type(citations).__name__}")
-    elif len(citations) < 1:
-        errors.append("At least one citation is required")
+    # ── Metadata ──────────────────────────────────────────────────────
+    _check_string(data, "metadata.source", errors)
+
+    year = _get(data, "metadata.year")
+    if year is None:
+        errors.append("Missing required field: metadata.year")
+    elif not isinstance(year, int) or isinstance(year, bool):
+        errors.append(
+            f"metadata.year must be an integer, got {type(year).__name__}"
+        )
+
+    _check_enum(data, "metadata.medium", MEDIUM_VALUES, errors)
+    _check_string(data, "metadata.creator", errors)
+    _check_enum_list(data, "metadata.substrate", SUBSTRATE_VALUES, errors)
+    _check_enum_list(data, "metadata.motivation", MOTIVATION_VALUES, errors)
+
+    # ── sequel_link ───────────────────────────────────────────────────
+    if "sequel_link" not in data:
+        errors.append("Missing required field: sequel_link (use null if none)")
     else:
-        for i, cit in enumerate(citations):
-            prefix = f"citations[{i}]"
-            if not isinstance(cit, dict):
-                errors.append(f"{prefix} must be a mapping")
-                continue
-            for req in ("property", "text", "location"):
-                if req not in cit or not cit[req]:
-                    errors.append(f"Missing required field: {prefix}.{req}")
-            if "note" not in cit:
-                warnings.append(f"Optional field missing: {prefix}.note")
+        sl = data["sequel_link"]
+        if sl is not None and not isinstance(sl, str):
+            errors.append(
+                f"sequel_link must be a string id or null, "
+                f"got {type(sl).__name__}"
+            )
+        elif isinstance(sl, str) and not ID_PATTERN.match(sl):
+            errors.append(
+                f"sequel_link '{sl}' is not valid kebab-case"
+            )
 
-    # ── Notes (optional) ──────────────────────────────────────────────
-    _check_optional_warn(data, "notes", warnings)
+    # ── notes (optional) ──────────────────────────────────────────────
+    if "notes" in data and data["notes"] is not None:
+        if not isinstance(data["notes"], str):
+            errors.append(
+                f"notes must be a string, got {type(data['notes']).__name__}"
+            )
 
-    # ── Narrative role ────────────────────────────────────────────────
-    _check_enum(data, "narrative_role", NARRATIVE_ROLE_VALUES, errors)
+    return errors
 
-    return errors, warnings
+
+def validate_cross_refs(entries_by_id):
+    """Check that every sequel_link target exists. Returns list of errors."""
+    errors = []
+    for entry_id, data in entries_by_id.items():
+        target = data.get("sequel_link")
+        if target is None:
+            continue
+        if target not in entries_by_id:
+            errors.append(
+                f"{entry_id}: sequel_link '{target}' does not exist"
+            )
+    return errors
 
 
 # ── Runner ────────────────────────────────────────────────────────────────────
 
 def main():
-    # Determine files to validate
     if len(sys.argv) > 1:
         files = sys.argv[1:]
+        cross_ref_check = False
     else:
         beings_dir = os.path.join("data", "beings")
         if not os.path.isdir(beings_dir):
             print(f"{YELLOW}Warning: directory '{beings_dir}' not found.{RESET}")
-            print(f"{YELLOW}No entries to validate.{RESET}")
             sys.exit(0)
         files = sorted(glob.glob(os.path.join(beings_dir, "*.yaml")))
         files += sorted(glob.glob(os.path.join(beings_dir, "*.yml")))
+        cross_ref_check = True
 
     if not files:
         print(f"{YELLOW}No YAML files found to validate.{RESET}")
@@ -276,11 +225,11 @@ def main():
     total = 0
     passed = 0
     failed = 0
-    warned = 0
+    entries_by_id = {}
 
     print()
     print(f"{BOLD}{'=' * 60}{RESET}")
-    print(f"{BOLD}  Constructed Beings Ontology — Validation Report{RESET}")
+    print(f"{BOLD}  Constructed Beings Ontology v2.0 — Validation{RESET}")
     print(f"{BOLD}{'=' * 60}{RESET}")
     print()
 
@@ -308,24 +257,28 @@ def main():
             failed += 1
             continue
 
-        errors, warnings = validate_entry(data, basename)
+        errors = validate_entry(data)
 
         if errors:
             print(f"  {RED}FAIL{RESET}  {basename}")
             for e in errors:
                 print(f"        {RED}ERROR:{RESET} {e}")
-            for w in warnings:
-                print(f"        {YELLOW}WARN:{RESET}  {w}")
             failed += 1
-        elif warnings:
-            print(f"  {GREEN}PASS{RESET}  {basename}")
-            for w in warnings:
-                print(f"        {YELLOW}WARN:{RESET}  {w}")
-            passed += 1
-            warned += 1
         else:
             print(f"  {GREEN}PASS{RESET}  {basename}")
             passed += 1
+            if "id" in data:
+                entries_by_id[data["id"]] = data
+
+    # ── Cross-reference check ────────────────────────────────────────
+    if cross_ref_check and entries_by_id:
+        xref_errors = validate_cross_refs(entries_by_id)
+        if xref_errors:
+            print()
+            print(f"  {RED}Cross-reference errors:{RESET}")
+            for e in xref_errors:
+                print(f"    {RED}ERROR:{RESET} {e}")
+            failed += len(xref_errors)
 
     # ── Summary ───────────────────────────────────────────────────────
     print()
@@ -333,8 +286,7 @@ def main():
     print(
         f"  Total: {total}   "
         f"{GREEN}Passed: {passed}{RESET}   "
-        f"{RED}Failed: {failed}{RESET}   "
-        f"{YELLOW}Warnings: {warned}{RESET}"
+        f"{RED}Failed: {failed}{RESET}"
     )
     print(f"{BOLD}{'-' * 60}{RESET}")
     print()

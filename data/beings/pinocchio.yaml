@@ -1,146 +1,42 @@
-# Constructed Beings Ontology — Pinocchio
-# Source: Carlo Collodi, Le avventure di Pinocchio, 1883
-# Coded: 2026-04-03
-
 id: pinocchio
-name: Pinocchio
-aliases:
-  - "The Marionette"
-  - "Burattino"   # Italian for puppet/marionette
+name: "Pinocchio"
 
-# ── SOURCE ────────────────────────────────────────────────────────────
-source:
-  author: "Carlo Collodi"
-  title: "Le avventure di Pinocchio (Adventures of Pinocchio)"
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Le avventure di Pinocchio (Adventures of Pinocchio)"
   year: 1883
   medium: novel
-  tradition: Italian
-
-# ── REPRODUCTIVE METHOD ───────────────────────────────────────────────
-# Geppetto carves Pinocchio from a piece of wood. The wood is already
-# magical (it talks before being carved), but the act of making is
-# Geppetto's carpentry. Animation is magical — granted by the Blue Fairy.
-reproductive_method: made
-
-# ── CREATOR ───────────────────────────────────────────────────────────
-creator:
-  # Geppetto is the carver, but the Blue Fairy is the animating force.
-  # Coding Geppetto as primary creator since he initiates the act and
-  # is the narrative's parent figure.
-  name: "Geppetto"
-
-  # M-CHI: Geppetto explicitly wants a son. He is a lonely old man who
-  # carves the puppet to have a child to love.
-  # M-COM: Companionship is inseparable from the child-desire here.
-  motivation:
-    - M-CHI
-    - M-COM
-
-  # CM-MOR: The creation is morally innocent — an old man's wish for a son.
-  # The Blue Fairy sanctions it by granting animation. No transgression,
-  # no hubris, no deception. The narrative treats it as a good act.
-  creation_morality: CM-MOR
-
-# ── BEING ─────────────────────────────────────────────────────────────
-being:
-  # S-MAG: Pinocchio is wood animated by fairy magic. He is not mechanical
-  # (no gears), not biological (he's wooden), not electronic. The substrate
-  # is magical animation of an inert material.
+  creator: "Carlo Collodi (Geppetto in-narrative)"
   substrate:
-    - S-MAG
+    - magical
+  motivation:
+    - child
+    - companionship
 
-  # A-EMR: Pinocchio is immediately and wildly autonomous — far exceeding
-  # anything Geppetto designed or desired. He runs away within moments of
-  # being completed. His autonomy is entirely emergent, not intended.
-  autonomy: A-EMR
-  autonomy_trajectory: >
-    Pinocchio is autonomous from the first moment — kicking Geppetto, running
-    away, disobeying every instruction. His arc is not toward autonomy (he
-    already has it in excess) but toward responsible autonomy — learning to
-    channel his independence through moral choices. The trajectory is from
-    wild disobedience to earned selfhood.
+sequel_link: null
 
-  # I-DEM: Pinocchio demonstrates interiority through choices, guilt, remorse,
-  # love, and moral growth. We see him agonize over decisions, feel shame,
-  # and eventually sacrifice for Geppetto. His interiority is shown, not told.
-  interiority: I-DEM
+notes: |
+  Reclassified primary_question from v1 `affection` to `identity`.
+  The central question of the novel is "can I become a real boy?" —
+  that's an identity question, not an affection question. Pinocchio's
+  struggle is over what he is and what he can become, not over
+  whether he can be loved (Geppetto loves him from the start).
 
-  # L-MOR: Pinocchio can be destroyed — he is nearly burned, drowned, hanged,
-  # turned into a donkey, and eaten by a shark. His wooden body is fragile.
-  mortality: L-MOR
+  Substrate is `magical` — the Blue Fairy's animation is the
+  mechanism, not carpentry. Collodi is explicit that the animation is
+  miraculous. The wood is raw material; the life is magic.
 
-  multiplicity: MU-ONE
-
-  # P-CON: Pinocchio remembers everything — his mistakes, Geppetto's sacrifices,
-  # the Blue Fairy's lessons. Memory continuity is essential to his moral arc.
-  memory_persistence: P-CON
-
-  # NCT-NO: Pinocchio is carved from wood. He is not a transformed being.
-  # (His transformation INTO a human at the end is consensual and desired.)
-  nonconsensual_transformation: NCT-NO
-
-# ── RELATIONSHIP ──────────────────────────────────────────────────────
-relationship:
-  # F-EXC: Pinocchio exceeds his intended role in every way. Geppetto wanted
-  # an obedient son; he got a wild, disobedient, endlessly troublesome puppet
-  # who runs away, gets swindled, and causes chaos. The "failure" is that the
-  # creation is too alive, too autonomous, too much its own thing.
-  failure_mode:
-    - F-EXC
-
-  question:
-    - Q-FEL
-    - Q-OBY
-
-  # Q-FEL is primary: the deepest question is whether a constructed thing
-  # can have real feelings and become "real." The entire narrative arc drives
-  # toward this — Pinocchio's transformation into a human boy is the answer.
-  # Obedience is important but instrumental — it is the means by which
-  # fellow-feeling is proven, not the end in itself.
-  question_primary: Q-FEL
-
-  # ER-BEH: Pinocchio comes to understand Geppetto's love and expectations
-  # through observing his sacrifices (selling his coat, searching for Pinocchio
-  # at sea). His epistemic access is behavioral — he reads Geppetto's actions.
-  epistemic_reach: ER-BEH
-
-  # QK-INFRA: Pinocchio comes to know Geppetto's love — recognizes it,
-  # returns it, sacrifices for it. This is a genuine knowing-the-other.
-  # But the narrative foregrounds "becoming real" and moral development,
-  # not the epistemics of knowing. The knowing is there but not thematized.
-  q_kno_status: QK-INFRA
-
-# ── NARRATIVE ROLE ────────────────────────────────────────────────────
-# NR-SUB: Pinocchio is the protagonist and subject of the entire narrative.
-# The story is told through his perspective and follows his journey.
-narrative_role: NR-SUB
-
-# ── CITATIONS ─────────────────────────────────────────────────────────
-citations:
-  - property: being.autonomy
-    text: "Appena Pinocchio ebbe la bocca finita, cominciò subito a ridere e a canzonare il suo babbo"
-    location: "Chapter 3"
-    note: "The moment his mouth is carved, Pinocchio laughs and mocks Geppetto — immediate, undesigned autonomy. Supports A-EMR."
-
-  - property: relationship.failure_mode
-    text: "He ran out of the door and into the street, and the poor old man could not catch him"
-    location: "Chapter 3"
-    note: "Pinocchio's first act is to flee — exceeding Geppetto's intent entirely. Supports F-EXC."
-
-  - property: being.interiority
-    text: "How ridiculous I was when I was a puppet! And how glad I am now that I have become a real boy!"
-    location: "Chapter 36 (final chapter)"
-    note: "Pinocchio reflects on his own transformation — demonstrates self-awareness and interiority. Supports I-DEM."
-
-# ── NOTES ─────────────────────────────────────────────────────────────
-notes: >
-  Pinocchio is the paradigmatic "becoming-real" narrative — a constructed being
-  whose arc is defined by the question of whether artificial things can achieve
-  genuine personhood through moral development. Collodi's original serial is
-  darker and more ambivalent than the Disney adaptation; Pinocchio was originally
-  hanged and killed at the end of the serial's first run (1881), and only
-  resurrected and given the "real boy" ending when the serial was extended.
-  The lying-nose motif is less important to the ontology than the core structure:
-  a made thing that is too alive, too disobedient, and must earn its reality
-  through suffering and moral choice. The Blue Fairy functions as a second
-  creator figure — she grants animation and sets the conditions for transformation.
+  Divergence is `departure`: Geppetto wanted a son; Pinocchio spends
+  most of the book running away and becoming someone neither of them
+  planned. Identity divergence is also structural — the transformation
+  into a real boy at the end is the resolution of the departure.

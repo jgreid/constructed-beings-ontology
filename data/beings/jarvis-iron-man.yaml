@@ -1,0 +1,44 @@
+id: jarvis-iron-man
+name: "JARVIS"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Iron Man"
+  year: 2008
+  medium: film
+  creator: "Jon Favreau (Tony Stark in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - companionship
+
+sequel_link: vision-age-of-ultron
+
+notes: |
+  JARVIS in the original Iron Man is a butler intelligence in the
+  classic sense — observant, dry-witted, functionally devoted to
+  Tony. Interiority `demonstrated` through the voice acting (Paul
+  Bettany) and JARVIS's gentle sarcasm. Autonomy is `designed`:
+  Tony built him to have initiative and personality. Divergence
+  `none`: JARVIS does exactly what Tony wants, including when Tony
+  doesn't realize he wants it yet.
+
+  Knowing is `present`: JARVIS knows Tony — his suit, his habits,
+  his blood alcohol — and the care with which he knows is the
+  film's warmest registration of the Stark-JARVIS bond.
+  Knowability is `absent`: the film never asks whether he truly
+  experiences, and the audience is invited to enjoy the illusion.
+
+  Primary question is `affection`. Sequel-linked to Vision, who is
+  JARVIS's successor being rather than JARVIS himself.

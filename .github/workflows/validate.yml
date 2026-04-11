@@ -27,8 +27,15 @@ jobs:
       - name: Run validation
         run: python schema/validate.py
 
-      - name: Run analysis scripts
+      - name: Validate entry template
+        run: python schema/validate.py schema/entry_template.yaml
+
+      - name: Run analysis
+        run: python analysis/analyze.py --all
+
+      - name: Sanity-check outputs
         run: |
-          python analysis/generate_table.py
-          python analysis/property_coverage.py
-          python analysis/question_analysis.py
+          test -s output/summary_table.md
+          test -s output/property_coverage.md
+          test -s output/question_analysis.md
+          test -s analysis/influence_graph.html
