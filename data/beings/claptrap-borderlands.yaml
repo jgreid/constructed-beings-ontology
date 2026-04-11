@@ -1,0 +1,59 @@
+id: claptrap-borderlands
+name: "Claptrap (CL4P-TP)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Borderlands"
+  year: 2009
+  medium: video-game
+  creator: "Gearbox Software / Randy Pitchford (Hyperion Corporation in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+    - other
+
+sequel_link: null
+
+notes: |
+  The CL4P-TP ("Claptrap") is a line of single-wheeled
+  Hyperion steward bots originally deployed across Pandora
+  as customer-service units. Most Claptraps are indistinguish-
+  able and narratively disposable; the series' recurring
+  Claptrap (often called "Fragtrap" or just "the Claptrap
+  you already know") across multiple *Borderlands* entries
+  is a distinct sentient individual with an increasingly
+  serious backstory — the Claptrap Uprising DLC for the
+  first game reveals he once led a robot revolt, and later
+  entries reveal he is the last of his line after his
+  kindred were all destroyed. He is also deeply, comedically
+  annoying, and the games are sophisticated about making
+  his annoyingness the deliberate mask over real pathos.
+
+  Interiority is `demonstrated`: the sheer volume of
+  Claptrap dialogue across five main-series games and
+  multiple spinoffs produces a more detailed character
+  portrait than almost any other game robot. Autonomy is
+  `emergent` — his personhood is narratively treated as
+  an accumulation of accidents rather than a clean origin
+  moment. Divergence is `departure`: Hyperion built a
+  steward bot; Gearbox has spent fifteen years writing him
+  as a lonely, hurt individual.
+
+  Primary question is `affection` — the joke and the pathos
+  both run on Claptrap's compulsive desire to be liked by
+  the Vault Hunters who mostly find him intolerable.
+  Knowability `absent`; knowing `present` — Claptrap's
+  attention to the player is part of the running joke.

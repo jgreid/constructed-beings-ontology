@@ -1,0 +1,64 @@
+id: amazo-dc
+name: "Amazo"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "The Brave and the Bold (DC Comics)"
+  year: 1960
+  medium: short-story
+  creator: "Gardner Fox / Mike Sekowsky (Professor Anthony Ivo in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - power
+    - mirror
+    - service
+
+sequel_link: null
+
+notes: |
+  Amazo is an android built by Professor Anthony Ivo and
+  debuting in *The Brave and the Bold* #30 (1960) with the
+  unique ability to mimic the superpowers of any metahuman
+  he has encountered. The character's narrative function
+  across six decades of DC Comics continuity has been
+  consistent: an antagonist whose whole purpose is to match
+  or exceed the Justice League's collective capability,
+  usually as a test of how the League can defeat a being
+  designed as their collective mirror.
+
+  Medium coded `short-story` per the schema comics
+  mismatch. Flagged as a thin entry deliberately: Amazo is
+  rarely given interior characterization and usually functions
+  as a living puzzle-box for the League to solve.
+
+  Interiority is `claims`: Amazo speaks and states
+  objectives but the comics do not invest in his inner
+  life. Autonomy is `designed`; divergence `none` — Ivo
+  specified a power-mimic, Amazo is a power-mimic, and the
+  various stories work out the consequences of that
+  specification against various opponents. Primary question
+  is `purpose`: Amazo is defined by his function more
+  completely than almost any other entry in the corpus,
+  even in the sparse Silver-Age register. Motivation
+  includes `mirror` because the character's defining trait
+  is the ability to reflect the powers of whichever heroes
+  he is fighting.
+
+  Included for lineage completeness rather than for deep
+  engagement: Amazo is the prototype for the "robot that
+  matches the heroes" trope that echoes through later
+  comics robots and into video games (KOS-MOS, most
+  recently). A coder with direct familiarity with specific
+  Amazo arcs could refine this entry considerably.

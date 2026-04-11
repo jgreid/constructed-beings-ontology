@@ -1,0 +1,59 @@
+id: k-9-doctor-who
+name: "K-9"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Doctor Who"
+  year: 1977
+  medium: television
+  creator: "Bob Baker / Dave Martin (Professor Marius in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  K-9 debuted in Tom Baker's *Doctor Who* serial "The Invisible
+  Enemy" (1977) as a robot dog built by Professor Marius, a
+  human scientist working in a far-future research station who
+  had to leave his own dog on Earth. The original K-9 stayed
+  with the Doctor at the end of the story and became one of
+  the show's most-loved companions, ultimately spawning multiple
+  units across the classic series, the spin-off *K-9 and
+  Company*, *The Sarah Jane Adventures*, and the modern revival.
+  Pedantic, literal, loyal, and equipped with a retractable
+  blaster in his nose.
+
+  Interiority is `claims`: K-9 speaks in a formal monotone and
+  expresses preferences ("Affirmative, Master"), but the show
+  does not press the question of whether he has genuine inner
+  life. Autonomy is `designed` — K-9's loyalty is part of his
+  base programming and the show treats this as uncomplicated.
+  Divergence is `none`.
+
+  Primary question is `affection`: K-9's narrative role is the
+  loyal companion, and his function across decades of the show
+  is emotional rather than expository. Both knowability and
+  knowing are `absent` — *Doctor Who* is not interested in
+  either question for K-9, and the show's occasional deeper
+  treatments of constructed beings (the Cybermen, the Daleks,
+  the Host) are filed under the relevant born-then-modified
+  boundary rules and excluded.
+
+  Lineage note: K-9 belongs in the sidekick-robot tradition
+  alongside R2-D2, BB-8, and WALL-E, but is tonally closer to
+  the domesticated mid-century cluster (Rosie, Robot B-9).

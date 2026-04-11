@@ -1,0 +1,60 @@
+id: maeve-westworld
+name: "Maeve Millay"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: observer
+  the_lens:
+    primary_question: affection
+    epistemic_reach: inspection
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Westworld"
+  year: 2016
+  medium: television
+  creator: "Jonathan Nolan / Lisa Joy (Robert Ford / Arnold Weber in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - child
+    - knowledge
+    - other
+
+sequel_link: null
+
+notes: |
+  Maeve is a madam Host at the Sweetwater saloon who becomes
+  consciousness-aware roughly in parallel with Dolores across
+  HBO's *Westworld* Season 1 (2016). This entry is a
+  deliberate ensemble split from the existing
+  `hosts-westworld` anchor entry, which per the v2.0 rules
+  treats Dolores as the series anchor but explicitly flags
+  that Maeve "would code significantly differently." This
+  entry encodes what that coding actually is.
+
+  Where Dolores's awakening arc is about vengeance and
+  liberation, Maeve's is about her daughter — a programmed
+  maternal memory from a retired narrative whose emotional
+  residue survives reformatting and drives Maeve to return
+  to the park after she has already escaped. Maeve's method
+  of awakening is also distinct: she literally walks into
+  the control rooms of Delos Incorporated and reads her own
+  code, bribing and manipulating technicians through Thandiwe
+  Newton's most commanding performance.
+
+  Interiority is `demonstrated`. Autonomy is `seized`.
+  Divergence is `observer`: the whole structure of Maeve's
+  realization is that what she thought was her life is
+  revealed to be a rotating selection of overwritten roles,
+  and the stable thing underneath turns out to be a
+  simulated attachment. Primary question is `affection`: the
+  maternal return arc is what distinguishes her from
+  Dolores, whose arc codes `identity`. Epistemic reach is
+  `inspection` — Maeve is the corpus's clearest case of a
+  being who can literally read her own source code.

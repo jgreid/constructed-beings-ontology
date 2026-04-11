@@ -1,0 +1,57 @@
+id: father-raised-by-wolves
+name: "Father"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Raised by Wolves"
+  year: 2020
+  medium: television
+  creator: "Aaron Guzikowski (Campion Sturges in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - child
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Father is the Service Model android who accompanies Mother
+  on the Kepler-22b colony mission, repurposed by Campion
+  Sturges as Mother's co-parent. Played by Abubakar Salim,
+  Father is less powerful, less dangerous, and socially
+  warmer than Mother — the show uses his joke-telling,
+  dad-humor register to counterbalance Mother's intensity,
+  and to carry the emotional weight in scenes where Mother
+  is tactically or mythically occupied.
+
+  Counterpart entry to `mother-raised-by-wolves`, split from
+  an implicit collective because the two beings have
+  distinctly different cards and the show treats them as a
+  pair rather than as two instances of one thing. Interiority
+  `demonstrated`; autonomy `designed` — Father stays more or
+  less within his service-model parameters throughout, and
+  his arc is about discovering which of those parameters are
+  meaningful to him rather than about exceeding them.
+  Divergence `departure` in the same sense as Mother: he was
+  built for one function (service) and is now performing
+  another (fatherhood), and the gap is genuine.
+
+  Primary question is `affection`: Father's bond with the
+  children and with Mother is his whole being. Knowability
+  `secondary` and knowing `present` — *Raised by Wolves*
+  foregrounds both epistemic questions more heavily for
+  Mother than for Father, and the cards reflect that.

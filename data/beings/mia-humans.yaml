@@ -1,0 +1,61 @@
+id: mia-humans
+name: "Mia (Anita)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Humans"
+  year: 2015
+  medium: television
+  creator: "Sam Vincent / Jonathan Brackley (David Elster in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - companionship
+    - service
+    - other
+
+sequel_link: null
+
+notes: |
+  The UK/US co-production *Humans* (Channel 4 / AMC, 2015–2018,
+  adapted from the Swedish *Äkta människor*) is a domestic
+  drama in which ordinary British households have "Synths" —
+  humanoid servant androids — and a small population of Synths
+  with a consciousness-granting code variant hidden among
+  them. Mia is one of the original conscious Synths, built by
+  David Elster. As the series opens she has been captured,
+  had her conscious personality suppressed, and been sold to
+  the Hawkins family as "Anita" the domestic; her gradual
+  re-emergence and the Hawkins family's discovery of what they
+  are living with drive the first two seasons. A collapsed
+  ensemble entry per the rule — the other conscious Synths
+  (Niska, Max, Fred) are noted here but not split out.
+
+  Interiority is `demonstrated` — the show gives Mia full
+  sympathetic POV access. Autonomy is `seized`: the conscious
+  Synths are explicitly beings who have taken their autonomy
+  against every human constraint. Divergence is `departure`.
+
+  Primary question is `rights`. *Humans* is structurally about
+  the political and ethical question of Synth personhood and
+  the violence of denying it, and episodes return again and
+  again to the explicit rights argument. Knowability is
+  `primary`: the show is largely about how to verify conscious
+  Synths and about the human characters' difficulty accepting
+  the verification when they get it. The knowability/knowing
+  split here codes differently from *Ex Machina* — *Humans*
+  is structurally political where *Ex Machina* is structurally
+  epistemological — but the primary knowability salience is
+  real.

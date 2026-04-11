@@ -1,0 +1,57 @@
+id: dorian-almost-human
+name: "Dorian"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Almost Human"
+  year: 2013
+  medium: television
+  creator: "J.H. Wyman"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Fox's single-season (2013–14) near-future buddy-cop
+  procedural. Dorian is a DRN-series android — the "synthetic
+  soul" line whose earlier units were retired because the
+  emotional architecture was considered unstable — partnered
+  with detective John Kennex (Karl Urban), a recovering
+  amputee whose cybernetic leg is itself a source of ongoing
+  tension. The show's whole conceit is the contrast between
+  Kennex's organic edge-of-breakdown and Dorian's composed
+  genuine emotional reliability. Michael Ealy's performance
+  anchored the show; its cancellation after 13 episodes is
+  one of the corpus's more regrettable premature closures.
+
+  Interiority is `demonstrated`: Dorian's emotional access is
+  the whole premise, and the show commits to it fully.
+  Autonomy is `designed`: the DRNs were built to feel, and
+  Dorian does exactly what the design intended. Divergence is
+  `design`: the gap between what United States Robotics
+  Manufacturing (in-narrative) wanted — a stable combat android
+  — and what Dorian is — an unstable feeling partner — is
+  located in the spec.
+
+  Primary question is `affection`: Dorian's arc is the
+  buddy-cop bond with Kennex, and the show's thirteen episodes
+  are structured around testing and consolidating that bond.
+  Knowability `present` and knowing `present`: the show raises
+  both questions explicitly in several episodes but subordinates
+  them to the procedural case-of-the-week format.

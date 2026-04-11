@@ -1,0 +1,59 @@
+id: danna-bsg
+name: "D'Anna Biers (Number Three)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Battlestar Galactica (reimagined)"
+  year: 2004
+  medium: television
+  creator: "Ronald D. Moore / David Eick"
+  substrate:
+    - biological
+    - electrical
+  motivation:
+    - knowledge
+    - power
+    - other
+
+sequel_link: null
+
+notes: |
+  Third ensemble-split entry from the `cylons-bsg` anchor.
+  D'Anna Biers is the Number Three model, introduced to the
+  series undercover as a Fleet journalist doing a
+  *Galactica* documentary ("Final Cut," S2E8), and later
+  revealed as the Cylon model most obsessed with unmasking
+  the identities of the "Final Five" — the five hidden
+  Cylon models whose existence has been suppressed from the
+  other seven. Played by Lucy Lawless. D'Anna's serial
+  resurrection-and-death cycle on the Cylon baseship,
+  during which she glimpses the Final Five just before
+  dying each time, is one of the series' most startling
+  subplots, and ends with Cavil ordering her model line
+  "boxed" (permanently deactivated).
+
+  Interiority is `demonstrated`: Lawless's performance gives
+  D'Anna a distinct mystic-obsessive register. Autonomy is
+  `seized` — she pursues the Final Five investigation
+  against the explicit order of the other Cylon models.
+  Divergence is `departure`.
+
+  Primary question is `knowledge`: D'Anna is unusual in the
+  BSG ensemble for having a card anchored on the knowledge
+  axis rather than affection or identity. Her whole arc is
+  "what am I not being told, and what will I pay to find
+  out?" — a pure epistemic-pursuit story that the other
+  Cylon ensemble members do not have. Both knowability and
+  knowing are `present`: the series treats D'Anna's quest
+  as a genuine philosophical question about what the Cylon
+  collective has chosen to hide from itself.

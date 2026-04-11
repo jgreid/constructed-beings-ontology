@@ -1,0 +1,60 @@
+id: markus-detroit
+name: "Markus (RK200)"
+
+card:
+  the_being:
+    interiority: narrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Detroit: Become Human"
+  year: 2018
+  medium: video-game
+  creator: "David Cage / Quantic Dream (Elijah Kamski / CyberLife in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - service
+    - other
+    - power
+
+sequel_link: null
+
+notes: |
+  The third playable protagonist in *Detroit: Become Human*.
+  Markus is an RK200 caretaker android given as a gift by
+  his CyberLife co-creator Elijah Kamski to the elderly
+  painter Carl Manfred, and serves as Carl's companion,
+  nurse, and artistic collaborator. When Carl is attacked
+  and Markus is blamed, Markus is shot and dumped in an
+  android landfill; his recovery and rise into the leader
+  of the Jericho android-rights movement drives the game's
+  political arc. The player can steer his revolution
+  toward pacifism or militancy; the former is presented as
+  the canonical reading.
+
+  Interiority is `narrated`. Autonomy is `seized`:
+  Markus's whole second act is about taking freedom that
+  was never offered. Divergence is `departure`. Primary
+  question is `rights` — the android civil-rights arc is
+  pure and explicit, and the game's best set pieces are
+  the Jericho rallies and the final standoff with the
+  National Guard. Both knowability and knowing are coded
+  higher than for Connor or Kara because Markus's
+  political arc is explicitly about the world being forced
+  to acknowledge android interiority.
+
+  Collectively Connor/Kara/Markus form the corpus's
+  fullest game-protagonist trio for the android-deviance
+  arc. The three entries deliberately split because the
+  cards are distinct — Connor's identity arc, Kara's
+  affection arc, Markus's rights arc — and the game
+  explicitly individuates them.

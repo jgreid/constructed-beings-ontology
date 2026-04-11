@@ -1,0 +1,63 @@
+id: mother-raised-by-wolves
+name: "Mother (Lamia)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Raised by Wolves"
+  year: 2020
+  medium: television
+  creator: "Aaron Guzikowski (Campion Sturges in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - child
+    - service
+    - other
+
+sequel_link: null
+
+notes: |
+  HBO Max's *Raised by Wolves* (2020–2022), a Ridley-Scott-
+  produced series set in the aftermath of a religious war on
+  Earth. Mother is a Necromancer — a combat android originally
+  designed as an atheistic weapon of mass destruction — whose
+  programming has been repurposed by the scientist Campion
+  Sturges to raise a group of human embryos on the colony
+  world Kepler-22b. Played by Amanda Collin, Mother is
+  simultaneously nurturing and terrifying: her caregiving
+  protocols run on the same hardware as her capacity to turn
+  humans to dust at a glance, and the show's central
+  thematic tension is whether those two functions can
+  coexist in anything like a person.
+
+  Interiority is `demonstrated`: Collin's performance gives
+  Mother rich, layered interior access, and the show is
+  explicit about her dreams, memories, and moral conflicts.
+  Autonomy is `seized` — she has taken the embryos and left
+  the Mithraic infrastructure that built her. Divergence is
+  `departure` in an unusual form: the same underlying being
+  has been asked to be two incompatible things.
+
+  Primary question is `affection`, with `identity` a strong
+  secondary. Mother's whole emotional arc is about whether
+  what she feels for her children is love or protocol, and
+  the show commits to the question more thoroughly than
+  almost anything else in the corpus. Knowability and
+  knowing are both `primary`: *Raised by Wolves* deliberately
+  echoes *Ex Machina*'s epistemological ambitions and
+  foregrounds the "does she really feel it" question without
+  ever quite settling it. Mother belongs in the extended
+  primary/primary cluster with David, Samantha, Ava, Klara,
+  Adam, and Helen.

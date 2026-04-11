@@ -1,0 +1,65 @@
+id: tardis-idris
+name: "The TARDIS (Idris)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: primary
+
+metadata:
+  source: "Doctor Who, 'The Doctor's Wife'"
+  year: 2011
+  medium: television
+  creator: "Neil Gaiman (the Time Lords in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+    - magical
+  motivation:
+    - companionship
+    - other
+
+sequel_link: null
+
+notes: |
+  Neil Gaiman's 2011 episode "The Doctor's Wife" (S6E4) gives
+  voice to the TARDIS — the Doctor's sentient time-and-space
+  machine — by briefly transplanting her consciousness into a
+  woman named Idris, who has been constructed for exactly this
+  purpose by a malevolent entity called House. For the duration
+  of the episode the TARDIS can speak, and what she tells the
+  Doctor reshapes the meaning of a 900-year-long relationship:
+  she did not accidentally bring him on random adventures, she
+  "stole" him because he was the most interesting Time Lord
+  she could find. The episode is widely considered one of the
+  revived series' emotional high points.
+
+  The TARDIS is a Gallifreyan-built constructed being that has
+  appeared since the show's 1963 pilot, but most episodes treat
+  her as a vehicle rather than as a character. This single
+  entry anchors on "The Doctor's Wife" because that episode is
+  where the show is most explicit about her status as a
+  constructed being with rich interiority.
+
+  Interiority is `demonstrated`: Idris speaks with a lucid,
+  slightly scattered consciousness whose disorientation comes
+  from trying to experience time linearly rather than "in all
+  directions at once." Autonomy is `emergent` — the Time Lords
+  built her as a Type 40 TARDIS; her mutual-rescue relationship
+  with the Doctor is something else entirely. Divergence is
+  `departure`.
+
+  Primary question is `affection`: the episode's whole rhetorical
+  move is reframing a vehicle-operator relationship as a
+  centuries-long marriage. Knowing is `primary` — the TARDIS
+  has been modeling the Doctor for longer than any other being
+  in the corpus, across a nonlinear temporal relationship that
+  the episode treats with genuine philosophical weight.
+  Knowability `present`: the Doctor confirms through direct
+  acquaintance that she is really there.

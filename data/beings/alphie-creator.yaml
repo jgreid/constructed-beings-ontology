@@ -1,0 +1,61 @@
+id: alphie-creator
+name: "Alphie"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "The Creator"
+  year: 2023
+  medium: film
+  creator: "Gareth Edwards / Chris Weitz (the Nirmata in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - child
+    - other
+
+sequel_link: null
+
+notes: |
+  Gareth Edwards's 2023 film *The Creator* is set in a world
+  where the United States has outlawed AI after a nuclear
+  accident and is waging a drone-heavy war against the AI-
+  sympathetic nation of "New Asia." Alphie is a "Simulant" —
+  a humanoid AI designed in the appearance of a young child
+  — built by the underground AI-rights network of New Asia
+  (the Nirmata) with a unique ability to control electronic
+  systems at a distance, including American military
+  hardware. Alphie becomes the emotional center of the film
+  as she travels with the protagonist toward what turns out
+  to be a sacrifice. The film is explicitly an AI-as-refugee
+  allegory filtered through the War on Terror's visual
+  vocabulary.
+
+  Interiority is `demonstrated`: the film commits fully to
+  Alphie's inner life, including her moments of terror,
+  affection, and grief. Autonomy is `designed` — Alphie does
+  what her creators designed her to do, although the design
+  was always about ending the war through her sacrifice.
+  Divergence is `departure`: the gap is between what the
+  Nirmata built her for (a weapon) and what the film argues
+  she is (a child).
+
+  Primary question is `affection`: *The Creator*'s whole
+  rhetorical move is making the audience feel parental love
+  toward Alphie the way Joshua comes to. Knowability and
+  knowing both `primary`: the film is explicit that Alphie's
+  inner life is the dramatic center, and her attention to
+  Joshua is what the film treats as proof that she is more
+  than a weapon. Alphie extends the primary/primary cluster
+  further into the post-LLM era.

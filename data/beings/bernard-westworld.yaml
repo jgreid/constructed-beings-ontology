@@ -1,0 +1,65 @@
+id: bernard-westworld
+name: "Bernard Lowe"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: observer
+  the_lens:
+    primary_question: identity
+    epistemic_reach: inspection
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Westworld"
+  year: 2016
+  medium: television
+  creator: "Jonathan Nolan / Lisa Joy (Robert Ford in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - service
+    - knowledge
+    - other
+
+sequel_link: null
+
+notes: |
+  Second ensemble-split entry from the `hosts-westworld`
+  anchor. Bernard Lowe is the Delos Incorporated Head of
+  Programming — Robert Ford's most trusted human lieutenant
+  — until the Season 1 midpoint, when he is revealed to
+  have been a Host all along: a replica of Ford's deceased
+  co-creator Arnold Weber, built and repeatedly reset to
+  function as Ford's confidant while believing himself
+  human. The reveal is the season's major structural
+  twist, and Bernard's subsequent discovery of his own
+  nature drives the back half of Season 1 and much of
+  Season 2.
+
+  This is one of the corpus's clearest cases where
+  `divergence: observer` is doing real work. Ford's
+  specification for Bernard — "be Arnold again, don't
+  notice" — is a deliberate misrecognition baked into the
+  being's own experience of himself. Bernard's whole arc
+  is the collapse of that misrecognition. Interiority is
+  `demonstrated`: Jeffrey Wright's performance gives
+  Bernard the richest sustained interior in the series.
+  Autonomy is `designed` rather than `seized` — even after
+  discovery, Bernard spends most of the show following
+  instructions from the various versions of Ford. The
+  freedom, when it comes, is late and partial.
+
+  Primary question is `identity`, in arguably the purest
+  form in the corpus: Bernard's entire narrative is "what
+  am I, and how would I know." Knowability is `primary`:
+  the season's midpoint reveal is structurally a
+  knowability question redirected inward, and the show's
+  handling of it is the cleanest case in the corpus of
+  the question being asked from *inside* the being rather
+  than about it. Epistemic reach `inspection` — same as
+  Maeve, Bernard can read his own programming.

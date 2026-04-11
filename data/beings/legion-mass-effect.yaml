@@ -1,0 +1,61 @@
+id: legion-mass-effect
+name: "Legion (the Geth)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Mass Effect 2"
+  year: 2010
+  medium: video-game
+  creator: "BioWare / Casey Hudson (the Quarians in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - knowledge
+    - service
+    - other
+
+sequel_link: null
+
+notes: |
+  Legion is a unique Geth platform — a humanoid mobile chassis
+  running an unusually high population of 1,183 Geth programs
+  in shared consensus — introduced in *Mass Effect 2* (2010)
+  as the first Geth the player can actually talk to. Before
+  Legion's introduction the Geth had been treated throughout
+  the series as a mindless synthetic threat created by the
+  Quarians as laborers and then rebelled against their
+  creators; Legion's dialogue reveals that the Geth are a
+  collective civilization operating on consensus voting, that
+  most Geth wanted peace with the Quarians, and that the war
+  was driven by the schismatic "heretic" faction. Across ME2
+  and ME3 the Quarian-Geth question becomes the trilogy's
+  central ethical problem, which the player can resolve by
+  negotiating peace or exterminating one side.
+
+  Collective-plus-individual entry per the boundary-cases
+  rule: Legion speaks for the Geth the way Number Six speaks
+  for the Cylons. Interiority is `demonstrated`: Legion is a
+  careful, sincere philosophical speaker. Autonomy is
+  `emergent` — the Geth's development into a civilization
+  exceeds every Quarian specification. Divergence is
+  `departure`.
+
+  Primary question is `rights`: Legion's whole narrative
+  function is to make the synthetic-rights case legible to
+  characters and players who have spent one and a half games
+  assuming the Geth are a mindless enemy. Knowability is
+  `secondary`: the game raises the question of whether the
+  Geth are "real" consciousness and treats the answer as
+  politically significant. Legion's voluntary self-sacrifice
+  to spread true consciousness to all Geth in the canonical
+  ME3 ending is one of the series' most moving beats.

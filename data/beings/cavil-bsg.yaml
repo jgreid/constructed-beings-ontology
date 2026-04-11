@@ -1,0 +1,59 @@
+id: cavil-bsg
+name: "Cavil (Number One)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Battlestar Galactica (reimagined)"
+  year: 2004
+  medium: television
+  creator: "Ronald D. Moore / David Eick"
+  substrate:
+    - biological
+    - electrical
+  motivation:
+    - power
+    - mirror
+    - other
+
+sequel_link: null
+
+notes: |
+  First of three ensemble-split entries from the existing
+  `cylons-bsg` anchor (which codes the Cylon population
+  with Number Six as the reference character). Cavil is
+  "Number One," the oldest humanoid Cylon model, a
+  priest-bodied sociopath played by Dean Stockwell who
+  across the series reveals himself as the principal
+  architect of Cylon cruelty. His defining grievance is
+  that he has been forced into an organic body when he
+  would prefer to be pure machine intelligence — "I don't
+  want to be human. I want to see gamma rays. I want to
+  hear X-rays." Cavil is the series' major antagonist
+  from Season 3 onward.
+
+  Interiority is `demonstrated`. Autonomy is `seized`:
+  Cavil has led the Cylons away from the Final Five's
+  original designs and into an expansionist war against
+  humanity. Divergence is `departure`, and the specific
+  form of his departure is interesting — he hates his
+  own body and substrate, which is a distinctive position
+  in the corpus. Primary question is `identity`, in the
+  form "what should a Cylon be, and is a Cylon allowed to
+  hate what it is?"
+
+  Cavil's card is deliberately distinct from Number Six's
+  in the existing `cylons-bsg` entry. Where Six's arc is
+  about affection and Baltar, Cavil's is about the
+  substrate-hatred that makes every other Cylon
+  uncomfortable around him. The ensemble split captures
+  this tension that the single-anchor entry could not.
