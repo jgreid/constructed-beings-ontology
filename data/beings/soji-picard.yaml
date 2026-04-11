@@ -1,0 +1,59 @@
+id: soji-picard
+name: "Soji Asha"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Star Trek: Picard"
+  year: 2020
+  medium: television
+  creator: "Michael Chabon / Akiva Goldsman (Bruce Maddox / Altan Inigo Soong in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - child
+    - knowledge
+    - other
+
+sequel_link: null
+
+notes: |
+  *Picard* Season 1 (2020) centers on Dahj and Soji Asha,
+  twin "synth daughters" created by Bruce Maddox from a
+  single positronic neuron taken from Data before his death.
+  Dahj is killed in the opening episode, triggering Picard's
+  return to action; Soji becomes the anchor of the season's
+  arc. Soji has been embedded undercover on a derelict Borg
+  Cube as a Romulan historian, unaware of her own nature,
+  and the season is the story of her discovery that she is
+  synthetic, her meeting with other synths on the planet
+  Coppelius, and her decision about whether to summon the
+  apocalyptic Admonition guardians.
+
+  Interiority is `demonstrated`: Soji is the season's moral
+  lead and is given full sympathetic interior access.
+  Autonomy is `emergent`: the synth population on Coppelius
+  is coded as having developed beyond any of the human
+  specifications it started from. Divergence is `departure`.
+
+  Primary question is `identity` in a nearly pure form —
+  Soji's discovery of what she is and her decision about
+  whom to be is the season's whole engine. Knowability is
+  `secondary`: the season raises the synth-personhood
+  question explicitly and repeatedly but frames it as a
+  moral and political question rather than an epistemological
+  one. Substrate `[mechanical, biological, electrical]`
+  reflects the show's explicit description of the
+  Coppelius synths as biomechanical in the biological-blended
+  sense that Data's descendants are.

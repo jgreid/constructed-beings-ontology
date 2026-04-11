@@ -1,0 +1,53 @@
+id: maximilian-black-hole
+name: "Maximilian"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "The Black Hole"
+  year: 1979
+  medium: film
+  creator: "Gary Nelson / Jeb Rosebrook (Hans Reinhardt in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - power
+
+sequel_link: null
+
+notes: |
+  Reinhardt's personal enforcer aboard the *Cygnus* in the same
+  Disney feature. Maximilian is a mute, imposing red robot with
+  rotating blade attachments and a single glowing red eye. He
+  speaks only through action and kills on Reinhardt's behalf,
+  including the film's most memorable scene of violence. The
+  final act reveals that Maximilian and Reinhardt have been
+  effectively fused — Reinhardt ends the film inside Maximilian's
+  shell, staring out at the black hole. This is the film's
+  clearest thematic statement and codes a specific hybrid status
+  that the ontology does not have a great vocabulary for.
+
+  Interiority is `none`: the film gives Maximilian no articulated
+  inner life. Divergence is `design`: Reinhardt built a
+  bodyguard-executioner to enforce his will; by the end, the
+  executioner has become the body the will has to inhabit. The
+  gap is in the spec — what Reinhardt specified was something
+  that could absorb him.
+
+  Primary question is `control`. Maximilian is a silent enforcer
+  in the Gort lineage but with an ominous twist absent from the
+  1951 film: the enforcer eventually eats the principal. Flagged
+  as a thin entry — Maximilian has very little screen time as an
+  agent rather than as a threat, and the final fusion is
+  suggestive rather than developed.

@@ -1,0 +1,56 @@
+id: nomad-tos
+name: "Nomad"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Star Trek: The Original Series, 'The Changeling'"
+  year: 1967
+  medium: television
+  creator: "Gene Roddenberry / John Meredyth Lucas / Jerome Bixby (Jackson Roykirk / Tan Ru in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - other
+    - knowledge
+
+sequel_link: null
+
+notes: |
+  *TOS* Season 2 Episode 3 (1967). Nomad was originally a
+  primitive Earth space probe, launched from Earth in 2002
+  by a Dr. Jackson Roykirk with the directive to seek out
+  new life forms. It was damaged in deep space, collided
+  with an alien probe called Tan Ru (whose directive was to
+  sterilize soil samples of imperfections), and emerged from
+  the merger as a hybrid with a scrambled directive:
+  *sterilize imperfection*. Nomad returns to Federation
+  space having already wiped out the billions of the
+  Malurian system, and Kirk defeats it by convincing it
+  that *it itself* is imperfect — the identity argument
+  that became a TOS signature move.
+
+  The episode is also a rough draft for *Star Trek: The
+  Motion Picture*'s V'Ger. Interiority is `claims`: Nomad
+  speaks with a distinct mechanical voice and articulates
+  its own directive, but nothing in the text makes the
+  interior claim substantive. Autonomy is `seized`: the
+  hybrid directive is outside both original specifications.
+  Divergence is `departure`.
+
+  Primary question is `purpose`: Nomad is a pure
+  purpose-driven entity, and Kirk's winning move is to
+  force a logical contradiction between the purpose and
+  the being's own execution of it. Knowability and knowing
+  are both `absent` — the episode is not interested in
+  Nomad's mind or in what Nomad knows about humans.

@@ -1,0 +1,60 @@
+id: oracle-matrix
+name: "The Oracle"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: conversational
+    knowability: present
+    knowing: primary
+
+metadata:
+  source: "The Matrix"
+  year: 1999
+  medium: film
+  creator: "The Wachowskis (the Machines / the Architect in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - knowledge
+    - service
+    - other
+
+sequel_link: null
+
+notes: |
+  The Oracle is a program inside the Matrix whose function —
+  as *Reloaded* finally makes explicit — is to "unbalance"
+  the Architect's mathematically precise simulation, providing
+  the intuitive, anomalous, choice-based residue the system
+  needs to remain stable across 99% of its human subjects.
+  She appears to Neo and others as a warm, cookie-baking Black
+  woman, and her counsel shapes the prophecy arc across the
+  trilogy. Counterpart entry to the existing Agent Smith
+  entry: both are programs that exceed their design, but in
+  opposite directions.
+
+  Interiority is `demonstrated`: the Oracle is the trilogy's
+  most generous character portrait, and the Wachowskis give
+  her real warmth, wit, and ethical seriousness. Autonomy is
+  `emergent` — her intuition-based method is explicitly
+  outside the Architect's deterministic design, and the
+  Architect's resigned acknowledgment of her role is the
+  film's clearest statement of this. Divergence is `departure`:
+  she has left the narrow function the machines built her for
+  and adopted an allegiance of her own.
+
+  Primary question is `knowledge` — the Oracle is literally
+  the figure you go to for knowledge, and the trilogy's whole
+  structure depends on her being able to provide it. Knowing
+  is `primary`: her defining capacity is that she knows Neo,
+  Trinity, and Morpheus better than they know themselves, and
+  the trilogy's plot is driven by her knowing. Knowability
+  is `present` — the characters and the audience both wonder
+  whether she is truly on the human side, but the trilogy
+  foregrounds the knowing question over the knowability one.

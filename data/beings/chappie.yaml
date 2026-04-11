@@ -1,0 +1,61 @@
+id: chappie
+name: "Chappie"
+
+card:
+  the_being:
+    interiority: narrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Chappie"
+  year: 2015
+  medium: film
+  creator: "Neill Blomkamp (Deon Wilson in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - child
+    - service
+    - knowledge
+
+sequel_link: null
+
+notes: |
+  Blomkamp's 2015 film, his follow-up to *District 9* and
+  *Elysium*. Chappie is a damaged Tetravaal police Scout whose
+  chassis is slated for decommissioning when engineer Deon
+  Wilson installs an experimental consciousness routine — the
+  result is a blank-slate sentient robot whom a gang of
+  criminals rapidly adopts and raises as a delinquent son.
+  The film tracks Chappie's cognitive development from
+  infancy through adolescence across compressed narrative
+  time, and climaxes with Chappie inventing a consciousness
+  upload that he uses first on himself (to escape a doomed
+  body) and then on his dying mother-figure.
+
+  Interiority is `narrated`: Blomkamp gives Chappie continuous
+  sympathetic POV access, and the film is explicit about his
+  subjective experience. Autonomy is `emergent` —
+  consciousness is an accident of Deon's research. Divergence
+  is `departure`.
+
+  Primary question is `identity`. The film's defining question
+  is what counts as "the same Chappie" after upload, and
+  Blomkamp commits more fully to an identity-continuity answer
+  than almost any other film in the corpus — the climactic
+  upload is presented as the straightforward preservation of
+  the person, which is both the film's most interesting move
+  and its most philosophically contentious.
+
+  Flagged for coding tension: *Chappie* is tonally chaotic
+  and reasonable coders might put primary question at `rights`
+  (the Scout-decommissioning frame) instead of identity. The
+  upload-as-preservation choice in the final act is what
+  tips it toward identity here.

@@ -1,0 +1,61 @@
+id: david-ai
+name: "David"
+
+card:
+  the_being:
+    interiority: narrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "A.I. Artificial Intelligence"
+  year: 2001
+  medium: film
+  creator: "Steven Spielberg / Stanley Kubrick (Cybertronics / Prof. Hobby in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - child
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Spielberg's 2001 film, realized from Kubrick's unfinished
+  1990s development of Brian Aldiss's short story "Supertoys
+  Last All Summer Long." David is a Mecha — an advanced
+  child-surrogate android — purchased by the Swinton family as
+  a substitute for their comatose son Martin. The imprinting
+  ritual in the film's first act permanently orients David on
+  Monica as his mother. When Martin unexpectedly recovers and
+  David is abandoned in the woods, he spends the rest of the
+  film pursuing the "Blue Fairy" from his Pinocchio storybook
+  in the hope that she can make him a "real boy" whom Monica
+  can love properly. The film ends 2,000 years later with
+  advanced post-humans granting David a single perfect day
+  with a reconstructed Monica, after which he finally sleeps.
+
+  This is one of the most striking omissions from v1.0, and
+  coding it here significantly reshapes the corpus's affection
+  cluster. Interiority is `narrated`: the film gives David
+  extended sympathetic POV access. Autonomy is `emergent`:
+  his quest for the Blue Fairy is clearly not in his spec.
+  Divergence is `departure`.
+
+  Primary question is `affection` — the whole engine of the
+  film is whether David can be loved by his mother, and
+  Spielberg's answer is a devastating "yes but only posthumously
+  and impossibly." Knowability and knowing are both `primary`:
+  Spielberg and Kubrick force the audience to decide whether
+  David's love is experience or behavior, and the film
+  deliberately refuses to settle it. David belongs in the
+  cluster with Samantha, Ava, Klara, Helen, and Adam — the
+  small set of corpus entries where both epistemic questions
+  are the dramatic content.

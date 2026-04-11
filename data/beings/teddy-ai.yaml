@@ -1,0 +1,54 @@
+id: teddy-ai
+name: "Teddy"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "A.I. Artificial Intelligence"
+  year: 2001
+  medium: film
+  creator: "Steven Spielberg / Stanley Kubrick (Cybertronics in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Teddy is the "supertoy" teddy bear who belonged to Martin and
+  becomes David's companion throughout the film. He predates
+  the Mecha line and is considerably less sophisticated than
+  David or Joe — his speech is limited, his reasoning is
+  minimal, and Spielberg presents him as a durable toy rather
+  than a candidate person. But Teddy is still there at the end
+  of the film, two thousand years after everyone else in
+  David's life has died; he may be the longest-lived constructed
+  being in the corpus.
+
+  The character descends directly from Brian Aldiss's 1969
+  short story "Supertoys Last All Summer Long," which was the
+  kernel Kubrick first optioned. Including Teddy alongside
+  David and Joe lets the ontology register the full cast of
+  the film's Mecha cluster and the range of interiority
+  Spielberg works with — from David's `narrated` to Joe's
+  `demonstrated` to Teddy's `claims`.
+
+  Interiority is `claims`: Teddy speaks simply and expresses
+  attachment, but the film does not give him the level of
+  interior access the other two Mechas receive. Divergence
+  `none`, primary question `affection`, both epistemic axes
+  `absent` — the film does not raise the "is Teddy really
+  there" question, which in context is a statement about the
+  film's hierarchy of Mechas.

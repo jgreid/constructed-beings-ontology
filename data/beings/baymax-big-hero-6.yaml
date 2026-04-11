@@ -1,0 +1,54 @@
+id: baymax-big-hero-6
+name: "Baymax"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Big Hero 6"
+  year: 2014
+  medium: film
+  creator: "Don Hall / Chris Williams / Disney (Tadashi Hamada in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Disney's 2014 feature, loosely based on the Marvel comics
+  team of the same name. Baymax is a "personal healthcare
+  companion" — an inflatable vinyl robot designed by Tadashi
+  Hamada at the San Fransokyo Institute of Technology. After
+  Tadashi dies in a fire, his younger brother Hiro discovers
+  Baymax and (initially) reprograms him for combat as part of a
+  grief-driven revenge plot. Over the course of the film
+  Baymax consistently reasserts his core directive — treating
+  Hiro's emotional and physical health — and by the ending
+  Hiro has accepted healing over revenge as Baymax's legacy.
+
+  Interiority is `claims`: Baymax expresses concern and follows
+  protocols that look like genuine care, but the film is
+  careful to frame him as a medical robot rather than a
+  feeling person. Divergence is `design`: Tadashi specified a
+  being that could learn to care, and the film's emotional
+  landing is that the specification turns out to include
+  healing Hiro's grief as well as his bruises.
+
+  Primary question is `affection`. *Big Hero 6* is
+  structurally a Pixar-era variant of the human-and-robot
+  bonding arc, with Baymax's programmed care serving the same
+  narrative function as Iron Giant's accidental friendship.
+  Knowability `absent`; knowing `present` — Baymax's attention
+  to Hiro is the film's whole craft.

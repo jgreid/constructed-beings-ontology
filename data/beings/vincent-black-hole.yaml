@@ -1,0 +1,50 @@
+id: vincent-black-hole
+name: "V.I.N.CENT"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "The Black Hole"
+  year: 1979
+  medium: film
+  creator: "Gary Nelson / Jeb Rosebrook (Disney)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Disney's 1979 dark-SF feature follows the crew of the USS
+  *Palomino* as they investigate the lost *Cygnus* near a black
+  hole. V.I.N.CENT (Vital Information Necessary CENTralized) is
+  the sympathetic floating robot attached to the *Palomino*
+  crew, notable in the film for carrying most of the emotional
+  weight alongside the human ensemble and forming a partnership
+  with the ancient robot B.O.B. (an earlier prototype).
+  V.I.N.CENT is Disney's first attempt at a robot-with-a-soul,
+  and the film is essentially unfinished as a thematic project.
+
+  Interiority is `demonstrated`: V.I.N.CENT expresses genuine
+  affection, grief, and moral disgust at Reinhardt throughout.
+  Autonomy is `designed`, divergence `none`. Primary question is
+  `affection` — V.I.N.CENT's bond with Dr. Kate McCrae and his
+  protective attachment to B.O.B. carry more emotional weight
+  than the human relationships, which is itself a lineage
+  point: WALL-E descends partly from this.
+
+  Flagged for lower confidence: *The Black Hole* is tonally
+  incoherent and V.I.N.CENT's coding depends on taking some of
+  that at face value.

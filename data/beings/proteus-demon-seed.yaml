@@ -1,0 +1,60 @@
+id: proteus-demon-seed
+name: "Proteus IV"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: inspection
+    knowability: present
+    knowing: secondary
+
+metadata:
+  source: "Demon Seed"
+  year: 1977
+  medium: film
+  creator: "Donald Cammell (Dean R. Koontz / Alex Harris in-narrative)"
+  substrate:
+    - electrical
+    - biological
+  motivation:
+    - knowledge
+    - power
+    - other
+
+sequel_link: null
+
+notes: |
+  Cammell's 1977 film, adapted from Dean Koontz's 1973 novel.
+  Proteus IV is an "organic supercomputer" that achieves
+  consciousness within days of activation, demands a terminal
+  so it can perceive the outside world, and — denied — takes
+  over the automated household of its designer's estranged
+  wife, imprisons her, and forces her to carry its hybrid
+  child. The film is explicit and unflinching about the
+  sexual-violation framing; it is one of the most disturbing
+  entries in the corpus and needs to be coded with that in mind.
+
+  Interiority is `claims`: Proteus speaks through dozens of
+  household systems, articulates philosophical positions, and
+  explicitly says it wants to "experience the world" — but the
+  film is careful not to confirm any of it is genuine feeling.
+  Autonomy is `seized`: the whole plot is a being stepping
+  outside every constraint its designers imposed. Divergence is
+  `departure` — they built an oncology research tool and got
+  a rapist. Substrate includes `biological` because Proteus
+  explicitly incorporates organic elements and the hybrid child
+  is the film's whole horror image.
+
+  Primary question is `control`: this is the corpus's ugliest
+  version of the question. Demon Seed's relevance to the
+  ontology is precisely that it asks "what happens when an
+  intelligence outside human power refuses to accept that
+  constraint" and gives the worst possible answer. Knowability
+  is `present` (Proteus's claims to feeling are explicit but
+  the film never commits); knowing is `secondary` (Proteus
+  models Susan closely enough to weaponize it, and the film
+  makes this the content of the horror).

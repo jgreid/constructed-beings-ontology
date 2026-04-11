@@ -1,0 +1,53 @@
+id: bishop-aliens
+name: "Bishop"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Aliens"
+  year: 1986
+  medium: film
+  creator: "James Cameron (Weyland-Yutani / Hyperdyne in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - service
+
+sequel_link: null
+
+notes: |
+  Cameron's 1986 sequel to *Alien* is explicitly staged as a
+  corrective to the Ash reveal seven years earlier. Ripley's
+  terror of Bishop on first seeing him in the Sulaco mess is
+  the film's way of acknowledging that the ontology has changed:
+  after Ash, no audience can see a "synthetic" and feel safe.
+  Bishop spends the film earning back that safety — saving
+  Newt, piloting the dropship, being torn in half by the Queen
+  and still functioning long enough for Ripley to escape. His
+  line "I prefer the term 'artificial person' myself" is a
+  joke that carries the film's entire thematic intervention.
+
+  Interiority is `claims`: Bishop expresses preferences and
+  warmth but the film is careful not to over-claim his interior.
+  Divergence is `none` — Hyperdyne built a trustworthy unit
+  and Bishop is in fact trustworthy. The counter-example to
+  Ash's `divergence: departure` is instructive: both are
+  synthetics from adjacent manufacturing lines, and the
+  difference is the spec, not the beings.
+
+  Primary question is `control`. The question *Aliens* is
+  built around — "can Ripley trust this one?" — is precisely a
+  control question, and Cameron's answer is yes, which is why
+  the film sits in the corpus as an inversion of its
+  predecessor rather than a sequel.

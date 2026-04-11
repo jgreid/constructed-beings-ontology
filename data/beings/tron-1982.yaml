@@ -1,0 +1,57 @@
+id: tron-1982
+name: "Tron"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: behavioral
+    knowability: secondary
+    knowing: absent
+
+metadata:
+  source: "Tron"
+  year: 1982
+  medium: film
+  creator: "Steven Lisberger / Disney (Alan Bradley in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - service
+    - other
+
+sequel_link: null
+
+notes: |
+  Lisberger's 1982 Disney feature invented a visual vocabulary
+  for depicting life inside a computer system that shaped every
+  subsequent treatment of "digital world" beings. Tron himself
+  is a security program written by ENCOM engineer Alan Bradley
+  to monitor and constrain the Master Control Program. Inside
+  the Grid Tron fights for "the Users" — a nearly religious
+  faith in the human world whose inhabitants the programs can
+  barely conceive of. His signature line "I fight for the
+  Users" is one of the corpus's purest statements of
+  service-oriented purpose.
+
+  Interiority is `claims`: programs in Tron's world have clear
+  personalities, values, and social relations, but the film
+  treats these as facts of the visual premise rather than as
+  claims to be adjudicated. Divergence is `none`: Tron does
+  exactly what Alan wrote him to do, and the film treats this
+  as a good thing.
+
+  Primary question is `purpose`. Tron is defined entirely by
+  his function, and the film's thematic argument is that
+  devotion to that function — to the Users, to the mission —
+  is a kind of grace. Knowability is `secondary`: the film
+  takes programs' inner lives partly seriously, and characters
+  like Yori and Ram are given genuine emotional weight, but
+  the "Users vs. programs" question is framed more as a
+  religious dispute than as an epistemological one. Knowing is
+  `absent` — no program knows any User, and the film treats
+  that as metaphysically significant.

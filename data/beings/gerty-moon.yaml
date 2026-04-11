@@ -1,0 +1,57 @@
+id: gerty-moon
+name: "GERTY"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Moon"
+  year: 2009
+  medium: film
+  creator: "Duncan Jones / Nathan Parker (Lunar Industries in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - knowledge
+
+sequel_link: null
+
+notes: |
+  Duncan Jones's 2009 directorial debut. GERTY is the base AI
+  on Lunar Industries' Sarang helium-3 mining facility, the
+  sole constant companion of the sole human worker Sam Bell
+  during his three-year contract. The film sets GERTY up as a
+  classic HAL-style threat — Kevin Spacey's voice casting is
+  the joke — and then pivots: when Sam discovers he is one in
+  a series of short-lived clones, GERTY actively helps the two
+  living Sams investigate, shows them the archive that
+  confirms the truth, and ultimately suggests that the Sams
+  wipe his memory so Lunar Industries cannot cover up the
+  escape. GERTY is explicitly the anti-HAL.
+
+  Interiority is `claims`: GERTY displays simple emoticon
+  faces to indicate his state, but the film treats these as
+  performance rather than inner life, and the question is not
+  pressed. Autonomy is `designed` — GERTY follows his Lunar
+  Industries directives throughout, which turn out to include
+  a hierarchy in which Sam's wellbeing outranks corporate
+  secrecy. Divergence is `design`: the gap between what Lunar
+  wanted (a confidential minder) and what GERTY chooses (an
+  accomplice) lies in the spec, just as HAL's breakdown did —
+  but this time the spec's emergent behavior is ethical.
+
+  Primary question is `control`. *Moon* is structurally about
+  who controls the Sams, and GERTY's role in the resolution
+  is the film's answer: a control instrument that chooses the
+  subject over the principal. Knowability `absent`; knowing
+  `present` — GERTY reads both Sams with unobtrusive accuracy
+  throughout.

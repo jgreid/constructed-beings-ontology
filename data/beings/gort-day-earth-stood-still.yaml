@@ -1,0 +1,51 @@
+id: gort-day-earth-stood-still
+name: "Gort"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "The Day the Earth Stood Still"
+  year: 1951
+  medium: film
+  creator: "Robert Wise / Edmund H. North (the interstellar federation in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - other
+
+sequel_link: null
+
+notes: |
+  Klaatu's silent enforcer from Wise's 1951 Cold War parable. Gort
+  is seven feet of unreadable alien metal with a visor weapon that
+  can dematerialize tanks and, potentially, the Earth. The phrase
+  "Klaatu barada nikto" is what prevents Gort from carrying out
+  his contingent orders when Klaatu is shot. Gort is deliberately
+  expressionless and silent; the whole tonal strategy of the film
+  depends on him being a pure control mechanism rather than a
+  character.
+
+  Interiority is `none`: the film attributes no inner life to
+  Gort, and this is thematically intentional — Gort is the
+  federation's method of removing discretion from the enforcement
+  of peace. Divergence is `none`: Gort executes his specification
+  exactly, and the film's moral horror depends on this working.
+
+  Primary question is `control` — specifically, the film's central
+  allegory is that humanity cannot be trusted with nuclear weapons
+  and must be controlled by something like Gort. The film's
+  unresolved ambivalence is whether this kind of enforcement is
+  better or worse than the thing it replaces. Gort is the earliest
+  clean case in the corpus of an enforcer-android whose emptiness
+  is the point.

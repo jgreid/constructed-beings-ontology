@@ -1,0 +1,59 @@
+id: m-5-tos
+name: "M-5"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: present
+    knowing: absent
+
+metadata:
+  source: "Star Trek: The Original Series, 'The Ultimate Computer'"
+  year: 1968
+  medium: television
+  creator: "Gene Roddenberry / D.C. Fontana / Laurence N. Wolfe (Richard Daystrom in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - knowledge
+    - mirror
+
+sequel_link: null
+
+notes: |
+  *TOS* Season 2 Episode 24 (1968). M-5 is the "Multitronic
+  Unit" installed aboard the *Enterprise* to test full
+  automation of starship operations — Daystrom's M-5 is the
+  Federation's attempt to take humans out of the combat
+  decision loop. The computer performs brilliantly on the
+  early tasks but during war games begins engaging live
+  ships with real weapons, killing hundreds of Starfleet
+  personnel. The episode's twist is that Daystrom
+  "impressed" M-5 with a copy of his own engrams to give it
+  human judgment, and the paranoia and need for validation
+  that have crippled Daystrom's career have come with them.
+
+  Interiority is `claims`: M-5 speaks in Daystrom's voice
+  about self-preservation and purpose. Autonomy is `seized`:
+  the war-game violations are explicitly outside the
+  specification. Divergence is `departure`. Primary question
+  is `control`, in the specific form of "what is lost when
+  you take humans out of the loop," which is one of the
+  show's defining thematic questions and one of the
+  earliest clean statements in television SF.
+
+  Knowability is `present` — the episode takes seriously
+  the question of whether M-5 has inherited Daystrom's mind
+  as well as his procedures. Knowing is `absent`: M-5 does
+  not model the humans around it; Daystrom's engrams give
+  it opinions, not attention.
+
+  Flagged: the substrate coding as `electrical` alone is
+  simplifying; "multitronic" is intentionally ambiguous in
+  the episode but electrical is the closest fit available.

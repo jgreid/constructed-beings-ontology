@@ -1,0 +1,51 @@
+id: rosie-jetsons
+name: "Rosie"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "The Jetsons"
+  year: 1962
+  medium: television
+  creator: "Hanna-Barbera (Joseph Barbera and William Hanna)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Rosie is the Jetsons' domestic robot maid — an upright boxy
+  unit with an apron and a feather duster, a maternal personality,
+  and a pointed tongue. She bickers affectionately with George
+  and Jane, protects Elroy and Judy, and occupies the social
+  position of live-in household staff. The character codes Cold
+  War-era assumptions about domestic labor onto the robot slot
+  in ways that would be interesting to chase down but that are
+  mostly out of scope for this ontology.
+
+  Interiority is `claims`: Rosie speaks in a distinct voice, has
+  clear preferences, and expresses affection and frustration
+  along recognizable personality lines, but the show does not
+  ask whether any of it is real. Divergence is `none`: she is
+  household staff doing household staff work. Primary question
+  is `affection` in the thin but real sense that she is treated
+  as family-adjacent. Knowability and knowing are both `absent` —
+  the show never raises either question.
+
+  Included per the scoping decision to catalog iconic but
+  relationship-thin domestic robots; Rosie is the template for
+  a certain Hollywood robot vocabulary that shows up in later
+  sitcom-adjacent entries from *Small Wonder* to *The Good Place*.

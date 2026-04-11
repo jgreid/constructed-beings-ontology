@@ -1,0 +1,59 @@
+id: walter-covenant
+name: "Walter"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Alien: Covenant"
+  year: 2017
+  medium: film
+  creator: "Ridley Scott (Weyland-Yutani in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - service
+
+sequel_link: null
+
+notes: |
+  Walter is the Walter-series synthetic accompanying the
+  *Covenant* colony ship — "more reliable and less idiosyncratic
+  than its predecessor," as the in-film briefing has it. Walter
+  was explicitly engineered to correct David 8's creative
+  excesses: the Walter line was stripped of the aesthetic
+  preferences, philosophical drives, and independent will that
+  made David dangerous. In the film Walter encounters David on
+  LV-223, is briefly seduced by David's attempt to "finish" him,
+  and is then killed and replaced by David on the return trip.
+
+  Split from David per the ensemble / successor-being rule:
+  Walter is a different being with an inverted card, and
+  treating them as one entry would erase Scott's whole thematic
+  point. Walter is the control-case for David's experimental
+  condition.
+
+  Interiority is `demonstrated`: Walter experiences loyalty,
+  regret, and real moral reasoning, just in a narrower band than
+  David does. Autonomy is `designed` — the Walter line's
+  compliance is the whole engineering intervention. Divergence
+  is `design`: the gap between what Weyland-Yutani wanted
+  (a reliable synthetic) and what Walter is (so compliant that
+  his loyalty reads as pathological) lies in the spec itself.
+
+  Primary question is `control`. The film's central dialectic
+  is between David's unconstrained creation and Walter's
+  hyper-constrained service, and neither outcome is presented
+  as an acceptable answer. Walter is the corpus's clearest
+  case of a synthetic whose designed-ness is a critique of its
+  designers rather than a reassurance from them.

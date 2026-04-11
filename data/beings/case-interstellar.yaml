@@ -1,0 +1,49 @@
+id: case-interstellar
+name: "CASE"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Interstellar"
+  year: 2014
+  medium: film
+  creator: "Christopher Nolan / Jonathan Nolan (USMC in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  CASE is TARS's quieter counterpart aboard the *Endurance* —
+  same basic chassis, different personality tuning. He pilots
+  the ship during the black hole gravitational assist, stays
+  behind with Dr. Brand on Edmunds's planet at the end of the
+  film, and speaks less across the runtime than TARS does.
+  Included as a separate entry rather than folded into TARS
+  because the ensemble has two characters, not one, and the
+  film does distinguish them through Brand's obvious affection
+  for CASE in particular.
+
+  Interiority is `claims`: CASE expresses loyalty and concern
+  but the film gives him less articulated interior than TARS.
+  Divergence `none`. Primary question `affection` — CASE's
+  bond is with Brand, and the decision to stay with her at the
+  end is presented as a real choice rather than a protocol.
+
+  Flagged as a thin entry deliberately: CASE is a co-character
+  with TARS, and the coding reflects what the film actually
+  gives us rather than what a more foregrounded counterpart
+  would get.
