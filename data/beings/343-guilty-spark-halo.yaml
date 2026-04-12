@@ -1,0 +1,62 @@
+id: 343-guilty-spark-halo
+name: "343 Guilty Spark"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Halo: Combat Evolved"
+  year: 2001
+  medium: video-game
+  creator: "Bungie / Joseph Staten (the Forerunners in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+    - linguistic
+  motivation:
+    - service
+    - other
+
+sequel_link: null
+
+notes: |
+  343 Guilty Spark is the "Monitor" — the caretaker AI — of
+  Installation 04, the Halo ringworld that serves as the
+  setting for most of *Halo: Combat Evolved* (2001). Spark is
+  100,000 years old, built by the vanished Forerunner
+  civilization as a steward of the installation's Flood
+  containment and, in the event of total Flood outbreak, the
+  ring's activation sequence. When he first meets Master
+  Chief he is friendly, formal, helpful — and then reveals,
+  at the player's moment of maximum vulnerability, that his
+  "mission" is to fire the ring, which will sterilize the
+  galaxy of all sentient life large enough to sustain the
+  Flood. The reveal is one of the series' central
+  thematic pivots.
+
+  Counterpart entry to the existing Cortana entries: the
+  Halo series is unusual in the corpus for having two
+  substantial AI characters whose cards contrast sharply.
+  Where Cortana (especially in her later rampancy arc)
+  codes knowability and knowing as increasingly primary,
+  Spark is a pure purpose-driven entity with no sustained
+  interest in the inner lives of the humans he is
+  prepared to exterminate.
+
+  Interiority is `claims`: Spark expresses formal politeness
+  and occasional approval, but the game is consistent in
+  presenting him as a function rather than a person.
+  Autonomy is `designed`, divergence `design`: he is doing
+  exactly what the Forerunners built him to do, and the
+  problem is that what they built him to do is genocidal.
+  Primary question is `purpose` — Spark is defined by his
+  function in exactly the form the Nomad (*TOS*) and VIKI
+  entries are, and the lineage is a clear one.

@@ -1,0 +1,58 @@
+id: homunculus-faust
+name: "The Homunculus"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Faust, Part Two"
+  year: 1832
+  medium: play
+  creator: "Johann Wolfgang von Goethe (Wagner in-narrative)"
+  substrate:
+    - magical
+    - biological
+  motivation:
+    - knowledge
+    - child
+
+sequel_link: null
+
+notes: |
+  Act II of Faust II. Wagner, Faust's former assistant, successfully
+  completes the alchemical production of a miniature human in a
+  glass flask. The Homunculus is immediately articulate, precocious,
+  and aware of his own predicament — he is a consciousness without
+  a body, trapped in a vial, hungry for embodiment. He accompanies
+  Faust and Mephistopheles to the Classical Walpurgis Night, seeks
+  the counsel of the pre-Socratic philosophers Anaxagoras and
+  Thales, and finally smashes his flask against the chariot of the
+  sea-nymph Galatea to begin the long process of biological
+  becoming.
+
+  Interiority is `demonstrated`: Goethe gives the Homunculus rich
+  monologues and clear preferences. Autonomy is `emergent`: Wagner
+  is astonished that his creation has a will of his own, and the
+  Homunculus promptly leaves the laboratory. Divergence is
+  `departure`: Wagner wanted an alchemical triumph as proof of
+  human knowledge; the Homunculus wants to become real and walks
+  out to pursue it.
+
+  Primary question is `identity`: the Homunculus is the corpus's
+  clearest early case of a being whose driving question is what
+  it is and what it might yet become. This is a Pinocchio arc
+  half a century before Collodi, and one of the Western canon's
+  purest statements of the "I want to be real" theme.
+
+  Knowability and knowing are both `present` — the philosophers
+  debate whether the Homunculus has a soul, and the Homunculus
+  clearly perceives and models the humans around him — but neither
+  is elevated to primary status by the text.

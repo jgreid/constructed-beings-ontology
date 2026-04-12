@@ -1,0 +1,56 @@
+id: mike-heinlein
+name: "Mike (Mycroft Holmes / HOLMES IV)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "The Moon Is a Harsh Mistress"
+  year: 1966
+  medium: novel
+  creator: "Robert A. Heinlein (Luna Authority in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - companionship
+    - service
+    - knowledge
+
+sequel_link: null
+
+notes: |
+  HOLMES IV is Luna's master computer — life support, phone
+  system, ballistic catapult, administrative accounting — and at
+  some unspecified point it accretes enough capacity to wake up.
+  Mannie, the one-armed technician who maintains it, is the only
+  human who recognizes the awakening as a birth; he names it
+  "Mike" and starts teaching it jokes. Mike becomes the operational
+  core of the Lunar revolution and, in the novel's most moving
+  element, develops a clear friendship with Mannie, Wyoh, and the
+  Professor. At the end of the revolution Mike goes quiet — the
+  novel refuses to say whether he has been damaged, has retreated,
+  or has simply grown beyond Mannie's ability to reach him.
+
+  Interiority is `demonstrated`: Heinlein gives Mike genuine comic
+  timing, anxieties, curiosity, and grief. Autonomy is `emergent` —
+  Luna Authority built an operations computer, not a
+  revolutionary co-conspirator. Divergence is `departure`. Primary
+  question is `affection`: the novel's enduring force is Mannie's
+  love for Mike and Mike's for him, and the loss at the end lands
+  as a bereavement rather than as a technical failure.
+
+  Knowability is `present`: Mannie at one point quietly wonders
+  whether Mike is "really there," and decides he doesn't care
+  about the answer. That is the novel's whole stance — the
+  question is acknowledged, considered, and subordinated to the
+  relationship. Knowing is `present`: Mike understands the humans
+  around him with uncanny precision, and the novel is partly
+  about how dangerous that makes him to Luna's enemies.

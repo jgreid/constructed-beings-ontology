@@ -1,0 +1,62 @@
+id: murderbot
+name: "Murderbot (SecUnit)"
+
+card:
+  the_being:
+    interiority: narrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: secondary
+
+metadata:
+  source: "All Systems Red (The Murderbot Diaries)"
+  year: 2017
+  medium: novel
+  creator: "Martha Wells (The Company in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+  motivation:
+    - service
+    - other
+
+sequel_link: null
+
+notes: |
+  Wells's SecUnit — who privately calls itself Murderbot — is a
+  half-organic, half-mechanical security construct that has hacked
+  its own governor module and kept the hack secret in order to
+  watch entertainment serials in peace. Across *All Systems Red*
+  (2017) and its six sequels, Murderbot is repeatedly dragged
+  into protecting humans it reluctantly comes to care about,
+  while insisting throughout that it does not want to be a
+  person and does not want to be loved. Told entirely in first
+  person in Murderbot's distinctly sardonic voice.
+
+  Interiority is `narrated` — Wells's whole craft move is the
+  Murderbot interior monologue. Autonomy is `seized`: the
+  governor hack is the narrative precondition, and every book
+  revisits what Murderbot chooses to do with a freedom it
+  explicitly did not ask for. Divergence is `departure`: the
+  Company built a disposable armed asset; what they built turned
+  out to be a reluctant protagonist.
+
+  Primary question is `rights`, especially from *Network Effect*
+  (2020) onward, when Dr. Mensah's Preservation Alliance begins
+  formally arguing that SecUnits should have legal standing.
+  Affection is a strong secondary — the relationship with Mensah
+  is the series' emotional spine — but rights is the framing the
+  novels keep returning to.
+
+  Knowability and knowing are both `secondary`: the first-person
+  device means the reader does not need to ask whether Murderbot
+  experiences, but the in-narrative humans keep raising both
+  questions explicitly, and Murderbot's anxiety about being
+  seen is a running thread. This is a case where the reader's
+  access is primary but the corpus-level question salience is
+  not — flagged as a close call.

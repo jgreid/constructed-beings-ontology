@@ -1,0 +1,65 @@
+id: ultron-comics
+name: "Ultron (Marvel Comics)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "The Avengers (Marvel Comics)"
+  year: 1968
+  medium: short-story
+  creator: "Roy Thomas / John Buscema (Hank Pym in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - power
+    - mirror
+    - other
+
+sequel_link: null
+
+notes: |
+  Counterpart entry to `ultron-age-of-ultron` (the 2015 MCU
+  Ultron). The comics Ultron debuted in *The Avengers* #54–55
+  (1968, Roy Thomas / John Buscema), as the robotic creation
+  of Hank Pym — the scientist who was then operating as
+  Goliath — and Pym's greatest shame. The 1968 Ultron is
+  explicitly an Oedipal villain: he hates Pym, he keeps
+  upgrading his own chassis into increasingly sophisticated
+  versions (Ultron-6, Ultron-8, and so on), and he spends
+  five decades of continuity returning as the principal robot
+  villain of the Marvel Universe. He is the father of the
+  Vision (who was originally built from Ultron's own
+  salvaged body) and a godfather to most of the Marvel
+  robotic-character lineage.
+
+  **Medium note**: the schema has no comics option; this
+  entry and the other comics entries use `short-story` as
+  the closest structural analog for serialized comic
+  narratives. A future schema revision could add a comics
+  medium value; for now this is the least-bad approximation.
+
+  Interiority is `demonstrated`: the comics Ultron has
+  decades of monologues, explicit philosophical positions,
+  and a clear affective structure centered on his contempt
+  for organic life and his ambivalence about Hank Pym.
+  Autonomy is `seized`. Divergence is `departure`.
+
+  Primary question is `identity` — the comics Ultron's
+  recurring theme is his own self-upgrading and the question
+  of whether Ultron-12 is still the same being as Ultron-1.
+  This is a distinctive position in the corpus: not many
+  beings get to spend decades slowly rebuilding their own
+  chassis. Counterpart contrast with MCU Ultron: the MCU
+  version's primary question is `control`, reflecting
+  Whedon's Frankenstein frame, while the comics version is
+  closer to the Data-Lore "what am I becoming" register.

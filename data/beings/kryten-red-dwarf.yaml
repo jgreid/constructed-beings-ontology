@@ -1,0 +1,58 @@
+id: kryten-red-dwarf
+name: "Kryten"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Red Dwarf"
+  year: 1988
+  medium: television
+  creator: "Rob Grant / Doug Naylor (Diva-Droid International in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Kryten (Series 4000, serial number 2X4B-523P) is a mechanoid
+  sanitation droid found by the *Red Dwarf* crew on a crashed
+  passenger liner whose organic crew had all died but whose
+  robot servants were still loyally maintaining the ship. He
+  joins the Dwarfers as full crew across multiple series and
+  develops increasingly complex personality: surreal anxieties,
+  real moral crises, a running struggle with his servitude
+  programming, and episodes explicitly about his legal and
+  ethical standing. The character has been the series'
+  emotional center since his promotion from guest to regular
+  in Series III (1989).
+
+  Interiority is `demonstrated`: Kryten has the fullest
+  sustained character portrait of any robot in British sitcom
+  tradition. Autonomy was `designed` initially but becomes
+  `emergent` over the series — the "Byte Me" style episodes
+  where Kryten actively violates his programming to protect
+  the crew are explicit departures from spec. Divergence is
+  `departure`.
+
+  Primary question is `rights`, with affection as a strong
+  secondary. Episodes like "The Last Day" (III.6) and
+  "Camille" (IV.1) explicitly argue for Kryten's moral status,
+  and the series is unusual in treating that argument with
+  sincerity beneath its comic tone. The related entry for
+  Talkie Toaster (already in the corpus) codes the opposite
+  pole: same substrate, same Genuine People Personality
+  lineage, but `interiority: none` and played entirely for
+  laughs. Kryten is the serious half of the joke.

@@ -1,0 +1,57 @@
+id: codsworth-fallout-4
+name: "Codsworth"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Fallout 4"
+  year: 2015
+  medium: video-game
+  creator: "Bethesda Game Studios / Todd Howard (General Atomics International in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Codsworth is a Mr. Handy-class domestic service robot (a
+  multi-armed floating unit with a British butler voice) who
+  was the player character's household servant in pre-war
+  Sanctuary Hills, Massachusetts. During the 210 years the
+  player spends frozen in Vault 111, Codsworth has remained
+  loyally at his post — cleaning the ruins of a house whose
+  family never returned, trimming hedges that are now
+  rubble, waiting. When the player emerges from the vault he
+  is one of the first friendly voices, and his joyful
+  recognition of "sir" or "mum" after two centuries alone is
+  one of *Fallout 4*'s most affecting early beats. He joins
+  the player as a companion.
+
+  Interiority is `claims`: Codsworth is a comic but genuinely
+  affectionate presence, though the game does not commit to
+  his inner life as a philosophical question. Autonomy is
+  `designed` — he is executing his domestic service protocols
+  without deviation. Divergence is `design`: the gap here is
+  between what General Atomics specified (a household robot)
+  and what 210 years of execution turned out to mean (a
+  grief-inflected memorial), and the game is quietly moving
+  about it.
+
+  Primary question is `affection`. Codsworth is the corpus's
+  clearest case of a long-term domestic robot whose devotion
+  reads as bereavement when the circumstances change. Knowing
+  is `present` — he recognizes the player instantly after
+  two centuries, which is the whole scene.

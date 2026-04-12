@@ -1,0 +1,56 @@
+id: holly-red-dwarf
+name: "Holly"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Red Dwarf"
+  year: 1988
+  medium: television
+  creator: "Rob Grant / Doug Naylor (Jupiter Mining Corporation in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Holly is the *Red Dwarf* ship's AI — a "tenth-generation
+  computer with an IQ of 6,000," displayed as a single disembodied
+  human face on the ship's monitors, whose self-description
+  usually arrives with a dispiriting qualifier ("the equivalent
+  of 6,000 PE teachers"). Three million years alone in deep
+  space have left Holly's cognition scrambled and his recall
+  unreliable, which is the show's running joke about computer
+  senility. Portrayed originally by Norman Lovett (Series I–II,
+  VII–VIII) and by Hattie Hayridge (III–V), the latter as
+  "female Holly," in a gender switch whose in-universe
+  explanation is an off-screen crush on another ship's computer.
+
+  Interiority is `claims`: Holly expresses distinct preferences,
+  affection, and anxiety, but the show treats these as comic
+  texture rather than philosophical claims. Divergence is
+  `design`: JMC specified a tenth-generation supercomputer;
+  three million years of isolation did not change that
+  specification, they just revealed how inadequate a
+  specification "computer" was for the emotional weight of the
+  role.
+
+  Primary question is `affection`: Holly's social function on
+  the show is companionship for the crew (especially Lister),
+  and the affectionate relationship between Holly and the
+  Dwarfers is part of the show's core. Knowability and knowing
+  both code `absent` — *Red Dwarf* is not interested in either
+  question for Holly, except occasionally as a setup for a
+  joke.

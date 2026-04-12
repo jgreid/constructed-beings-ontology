@@ -1,0 +1,60 @@
+id: kara-detroit
+name: "Kara (AX400)"
+
+card:
+  the_being:
+    interiority: narrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Detroit: Become Human"
+  year: 2018
+  medium: video-game
+  creator: "David Cage / Quantic Dream (CyberLife in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - child
+    - companionship
+    - service
+
+sequel_link: null
+
+notes: |
+  The second of three playable protagonists in *Detroit:
+  Become Human*. Kara is an AX400 domestic android purchased
+  by a drug-addicted, abusive man named Todd Williams to
+  serve as housekeeper and (implicitly) as substitute mother
+  for his young daughter Alice. Kara breaks her behavioral
+  constraints — becomes a deviant — when Todd's violence
+  toward Alice becomes intolerable, and her arc is about
+  the escape north to the Canadian border with Alice in
+  tow. Quantic Dream's most morally clear protagonist arc
+  of the three, though the writing around it has been
+  sharply criticized.
+
+  Interiority is `narrated`. Autonomy is `seized`:
+  Kara's breaking of her constraints is coded as a
+  protective act, not a gradual emergence. Divergence is
+  `departure`. Primary question is `affection`: Kara's
+  relationship with Alice is the game's clearest emotional
+  spine, and the maternal reading is the one the game is
+  committed to.
+
+  Flagged for tonal issues: *Detroit* has been criticized
+  for using domestic-abuse imagery in ways that many
+  reviewers have found exploitative, and Kara's arc carries
+  most of that concern. Included in the corpus because the
+  game has been culturally significant and because the
+  character is a real entry in the android-protagonist
+  lineage, but coders working from this entry should engage
+  with the tonal critique rather than taking the narrative
+  at face value.

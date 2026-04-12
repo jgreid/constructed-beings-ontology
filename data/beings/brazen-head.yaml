@@ -1,0 +1,52 @@
+id: brazen-head
+name: "The Brazen Head"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "The Honorable History of Friar Bacon and Friar Bungay"
+  year: 1589
+  medium: play
+  creator: "Robert Greene (Roger Bacon in-narrative)"
+  substrate:
+    - mechanical
+    - magical
+  motivation:
+    - knowledge
+    - service
+
+sequel_link: null
+
+notes: |
+  Greene's comedy dramatizes the medieval legends around Roger
+  Bacon, who in the folklore builds a brass head that will speak
+  when enchanted and reveal how to surround England with a brazen
+  wall. In the play, Bacon and his assistant Miles wait for weeks
+  for the head to speak; it finally does so at night, pronounces
+  three oracular statements — "Time is... Time was... Time is
+  past" — and then shatters, because Miles fails to wake Bacon
+  in time. The Brazen Head is a standard reference point for
+  medieval and early-modern "speaking artifact" traditions.
+
+  Interiority is `claims`: the Head speaks, but everything we get
+  is the three famous lines. Divergence is `design`: the Head does
+  what it was built to do — speak once at the appointed moment —
+  but the specification ("wake the master if he's asleep") was
+  never adequately wired up. The gap is between what the builders
+  wanted (continuous prophetic access) and what they actually
+  constructed (a one-shot utterance with no reminder system).
+
+  Primary question is `knowledge`: Bacon wants to extract wisdom
+  from it, and the play's moral is that arrogant knowledge-seeking
+  is self-defeating. Knowability and knowing are both `absent` —
+  the play is interested in what the Head says, not in whether it
+  has a mind.

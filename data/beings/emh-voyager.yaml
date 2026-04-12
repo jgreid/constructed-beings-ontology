@@ -1,0 +1,64 @@
+id: emh-voyager
+name: "The Doctor (Emergency Medical Hologram)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: secondary
+
+metadata:
+  source: "Star Trek: Voyager"
+  year: 1995
+  medium: television
+  creator: "Rick Berman / Michael Piller / Jeri Taylor (Dr. Lewis Zimmerman in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - knowledge
+    - art
+
+sequel_link: null
+
+notes: |
+  The Emergency Medical Hologram Mark I was a photonic-matrix
+  AI doctor designed by Dr. Lewis Zimmerman for short-term
+  deployment in emergencies aboard Federation starships. When
+  the USS *Voyager* is stranded in the Delta Quadrant, the
+  ship's biological medical staff is killed and the EMH is
+  left running continuously as the only available physician.
+  Over seven seasons (1995–2001) he develops a name (he
+  struggles to choose one), hobbies (opera, writing
+  holonovels, family simulations), a romantic relationship
+  (Seven of Nine), and a series of landmark rights-claim
+  episodes that explicitly argue for his personhood — most
+  famously "Author, Author" (S7E20), in which a Federation
+  court adjudicates whether he has authorship rights over
+  his own novel.
+
+  Interiority is `demonstrated`: Picardo's performance and
+  the writers' room give the Doctor a richer interior than
+  almost any other Star Trek character, synthetic or
+  organic. Autonomy is `emergent` — the EMH program was
+  never intended for continuous operation, let alone
+  personal growth, and everything the Doctor becomes exceeds
+  the Starfleet Medical specification. Divergence is
+  `departure`.
+
+  Primary question is `rights`, in what is arguably the
+  clearest multi-season treatment in the corpus: "Author,
+  Author" is structurally "Measure of a Man" redone with a
+  different outcome — the court rules the Doctor *might* be
+  an artist but declines to rule on personhood. Knowability
+  and knowing are both `secondary`: the episodes repeatedly
+  foreground both questions as real but subordinate them to
+  the rights plot. Substrate is `electrical` alone —
+  photonic holographic matrix with no mechanical or
+  biological component, a distinctive configuration in the
+  corpus.

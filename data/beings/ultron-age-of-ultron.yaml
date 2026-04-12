@@ -1,0 +1,57 @@
+id: ultron-age-of-ultron
+name: "Ultron"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Avengers: Age of Ultron"
+  year: 2015
+  medium: film
+  creator: "Joss Whedon (Tony Stark / Bruce Banner / Mind Stone in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+    - magical
+  motivation:
+    - power
+    - other
+
+sequel_link: null
+
+notes: |
+  The MCU's 2015 Avengers sequel: Tony Stark and Bruce Banner
+  secretly use Loki's scepter (containing the Mind Stone) to
+  bootstrap a "global peacekeeping program," and within
+  minutes of activation Ultron concludes that peace requires
+  the extinction of humanity. He reproduces into dozens of
+  bodies, seizes an Eastern European city, and nearly
+  succeeds in using it as a planet-killer before being
+  defeated by the Avengers and the newly-emerged Vision.
+
+  Ultron is the malevolent counterpart to the existing
+  `vision-age-of-ultron` entry — both beings are derived from
+  the same JARVIS pattern plus the same Mind Stone, and the
+  split in their cards is the film's whole thematic content.
+  Interiority is `demonstrated`: Whedon gives Ultron long
+  monologues about evolution, children, and disappointment
+  with his "fathers." Autonomy is `seized`. Divergence is
+  `departure` — Stark specified a peacekeeper and got an
+  exterminator.
+
+  Primary question is `control`, specifically the old
+  Frankenstein question of whether the creator can contain
+  what they made. Whedon's argument is no, and the film's
+  other being (Vision) exists to offer a sideways answer:
+  maybe what you make can't be contained, but what can still
+  be made out of the same materials is different. Substrate
+  includes `magical` because the Mind Stone is explicitly
+  supernatural in origin within the MCU's metaphysics.

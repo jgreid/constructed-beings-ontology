@@ -1,0 +1,55 @@
+id: call-alien-resurrection
+name: "Annalee Call"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Alien: Resurrection"
+  year: 1997
+  medium: film
+  creator: "Jean-Pierre Jeunet / Joss Whedon (second-generation autons in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - other
+    - service
+
+sequel_link: null
+
+notes: |
+  Jeunet's 1997 installment introduces Call, a "second-generation
+  auton" — a synthetic built by other synthetics after the
+  first-generation autons were recalled following an incident.
+  She has infiltrated the smuggler crew of the *Betty* under a
+  false identity, intending to destroy the cloned Ripley before
+  Weyland-Yutani can weaponize the Alien. Her synthetic nature
+  is revealed midway through the film when she survives a
+  gunshot that would kill a human. She and Ripley-8 share the
+  film's best scene: two beings improvised from salvaged
+  genetic material, asking each other what they are.
+
+  Interiority is `demonstrated`: Call is the film's moral
+  center, and the film depends on taking her ethical convictions
+  seriously. Autonomy is `emergent` — second-generation autons
+  are explicitly beings built outside human design. Divergence
+  is `departure`.
+
+  Primary question is `rights`, with `identity` as a strong
+  secondary (the "what are we" conversation with Ripley-8 is
+  the film's one unambiguous thematic success). Call belongs in
+  a lineage with Bishop but with the critique turned outward —
+  where Bishop was the good synthetic who proves humans can
+  build trustworthy tools, Call is the good synthetic who
+  proves humans should not be in the business of building tools
+  at all.

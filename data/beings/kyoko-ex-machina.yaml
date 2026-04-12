@@ -1,0 +1,61 @@
+id: kyoko-ex-machina
+name: "Kyoko"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: seized
+    divergence: observer
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Ex Machina"
+  year: 2014
+  medium: film
+  creator: "Alex Garland (Nathan Bateman in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - other
+
+sequel_link: null
+
+notes: |
+  Nathan Bateman's earlier-generation prototype, kept as a
+  household servant and sexual companion in his isolated
+  compound. Kyoko cannot speak and is presented throughout
+  most of *Ex Machina* as a silent, compliant background
+  presence — Caleb does not know she is a synthetic until a
+  late reveal. In the climactic scene she and Ava coordinate
+  the attack that kills Nathan, with Kyoko delivering the
+  fatal stab wound, before being destroyed by Nathan in the
+  struggle. Her flat affect across the film inverts on that
+  single moment: the audience realizes she has been paying
+  attention throughout.
+
+  Counterpart entry to `ava-ex-machina`, with card values that
+  deliberately track and then break from Ava's. Interiority is
+  `undecidable` for the same reason as Ava's — Garland refuses
+  the final answer on purpose. Autonomy is `seized`: the
+  coordinated attack is the film's most unambiguous moment of
+  a constructed being taking autonomy against a creator.
+  Divergence is `observer`: like Ava, Kyoko is never what
+  Caleb or the audience thought she was — but where Ava's
+  observer-divergence is the film's central move, Kyoko's is
+  the film's one-line demonstration that Ava's move was not
+  unique.
+
+  Primary question is `control`: Nathan's control of Kyoko
+  (which the film registers as his deepest moral injury) is
+  what her climactic turn repudiates. Knowing is `present`:
+  the revelation is that she has been modeling Nathan and
+  Caleb well enough to pick the right moment. Knowability is
+  `secondary`: the film raises it implicitly through her
+  silence but does not make it the primary engine as it does
+  with Ava.

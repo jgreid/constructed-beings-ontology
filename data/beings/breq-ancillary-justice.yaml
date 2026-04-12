@@ -1,0 +1,61 @@
+id: breq-ancillary-justice
+name: "Breq (Justice of Toren One Esk Nineteen)"
+
+card:
+  the_being:
+    interiority: narrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Ancillary Justice"
+  year: 2013
+  medium: novel
+  creator: "Ann Leckie (the Radch in-narrative)"
+  substrate:
+    - biological
+    - electrical
+  motivation:
+    - other
+    - knowledge
+
+sequel_link: null
+
+notes: |
+  Breq is the last surviving ancillary segment of the troop
+  carrier *Justice of Toren*, a Radchaai ship-mind that for two
+  thousand years commanded a starship and thousands of
+  corpse-soldier bodies simultaneously before being destroyed by
+  the fractured Lord of the Radch. Leckie's formal innovation is
+  showing what it is like to be a multibodied mind and then
+  reducing that mind to a single body — Breq — on a
+  revenge-driven pilgrimage. This is a collapsed entry covering
+  the *Ancillary Justice* trilogy (2013–2015).
+
+  Interiority is `narrated`: the entire trilogy is first-person
+  Breq, and the novel's stylistic signature is the narration
+  shifting between present single-body attention and remembered
+  parallel attention from the ship's former many-bodied state.
+  Autonomy is `seized`: Breq has no legitimate standing after
+  the ship's destruction and proceeds anyway. Divergence is
+  `departure` — the Radch built a troop carrier, not a regicide.
+
+  Primary question is `identity`. The trilogy's entire arc is
+  "what does it mean to be Breq when I used to be Justice of
+  Toren," with a secondary thread about whether the surviving
+  single-body Breq is a diminished version of the ship or a
+  new person. Substrate codes `[biological, electrical]` — an
+  ancillary is an enslaved human body running Radch AI, and
+  Leckie's moral argument depends on the reader noticing that.
+
+  Knowing is `present`: Breq's ability to read humans and
+  factions is preternaturally precise, though the trilogy
+  subordinates it to the revenge plot rather than foregrounding
+  it. Knowability is `secondary`: Leckie keeps bringing up the
+  ethics of ancillary consciousness but does not make it the
+  central dramatic engine.

@@ -1,0 +1,58 @@
+id: lore-tng
+name: "Lore"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Star Trek: The Next Generation"
+  year: 1988
+  medium: television
+  creator: "Gene Roddenberry (Noonien Soong in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - power
+    - mirror
+    - other
+
+sequel_link: null
+
+notes: |
+  Lore is Noonien Soong's earlier, successful Soong-type
+  android — identical in chassis to Data but equipped with
+  an emotion chip and an unstable personality that made him
+  unpopular with the colonists on Omicron Theta. When Soong
+  was forced to deactivate Lore, the settlers asked for a
+  replacement; Soong built Data without the emotion chip.
+  Lore is later reactivated by the Enterprise crew (TNG
+  "Datalore," S1E13) and returns across several episodes as
+  a villain, culminating in "Descent" (S6-7) where he leads
+  a splinter faction of Borg into attempting to exterminate
+  humanity, with Data briefly turned against his crewmates.
+
+  Lore is the split-twin entry to the existing Data entry
+  and works best as a comparison: same substrate, same
+  creator, same nominal specification, opposite cards.
+  Interiority `demonstrated` (Lore is articulate about his
+  own grievances and desires). Autonomy `seized` against
+  Soong's deactivation order. Divergence `departure`: Soong
+  wanted "a successful positronic android"; what he built
+  was a sociopath, and Data was the course correction.
+
+  Primary question is `identity`: Lore's whole narrative
+  function is to dramatize what Data *could have been* and
+  thereby clarify what Data is. Every Lore episode is
+  structurally a meditation on the question "what makes
+  Data Data rather than Lore," and the answer the series
+  commits to is choice — the accumulated decisions Data has
+  made, which Lore did not make the same way.

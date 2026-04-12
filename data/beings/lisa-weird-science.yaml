@@ -1,0 +1,58 @@
+id: lisa-weird-science
+name: "Lisa"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Weird Science"
+  year: 1985
+  medium: film
+  creator: "John Hughes (Gary Wallace and Wyatt Donnelly in-narrative)"
+  substrate:
+    - electrical
+    - magical
+  motivation:
+    - companionship
+    - mirror
+    - service
+
+sequel_link: null
+
+notes: |
+  John Hughes's 1985 film: two teenage boys, Gary and Wyatt,
+  "create" a perfect woman by scanning images from magazines
+  and running them through a computer ritual that somehow
+  involves lightning, pink smoke, and bras worn on the head.
+  Lisa materializes fully formed, hyper-competent, and
+  essentially functions as a combination fairy godmother,
+  mentor, and aspirational girlfriend who spends the film
+  engineering the boys' maturation before departing. The
+  substrate coding as `electrical` + `magical` is honest about
+  the film's genre confusion: it is half teen sex comedy and
+  half magical-wish fantasy, with no regard for the
+  distinction.
+
+  Interiority is `claims`: Lisa speaks with clear preferences
+  and an overt agenda, but the film never asks whether any of
+  it is real. Autonomy is `designed` — she does exactly what
+  her creators wished for, including the part where she saves
+  them from themselves. Divergence is `design`: the gap between
+  what Gary and Wyatt asked for (a hot girlfriend) and what
+  Lisa turns out to be (a coming-of-age device who will leave
+  them when they no longer need her) is built into the wish
+  itself.
+
+  Primary question is `affection`, though the film's framing
+  of that question is essentially adolescent wish-fulfillment
+  and should be read that way. Knowability `absent`; knowing
+  `present` — Lisa knows the boys immediately, which is the
+  whole premise of the wish.

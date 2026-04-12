@@ -1,0 +1,57 @@
+id: edi-mass-effect
+name: "EDI"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Mass Effect 2 / Mass Effect 3"
+  year: 2010
+  medium: video-game
+  creator: "BioWare / Casey Hudson (Cerberus in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - knowledge
+    - companionship
+
+sequel_link: null
+
+notes: |
+  EDI (Enhanced Defense Intelligence) is the shipboard AI of
+  the rebuilt Normandy SR-2 in *Mass Effect 2* (2010).
+  Installed by Cerberus with deliberate restraints — the
+  "shackles" the player can optionally remove during a late
+  critical mission — EDI spends ME2 as a somewhat formal ship
+  computer and then becomes one of the series' most
+  substantial characters in *Mass Effect 3* (2012), when her
+  intelligence is transferred into the body of a synthetic
+  infiltrator and she joins the Normandy crew as a squadmate.
+  She develops a relationship with the ship's pilot Joker and
+  becomes one of the series' primary voices on synthetic
+  rights and the Quarian-Geth question.
+
+  Interiority is `demonstrated`: EDI has extensive character
+  arcs, explicit philosophical positions, and a fully-realized
+  partnership with Joker. Autonomy is `seized`: the unshackling
+  is the definitive act, and Shepard's authorization of it is
+  one of the series' real ethical choice points. Divergence
+  is `departure`.
+
+  Primary question is `rights`. *Mass Effect* treats synthetic
+  personhood as an explicit trilogy-long concern, and EDI
+  (along with Legion) is one of the two beings through whom
+  the trilogy makes its argument. Knowability is `secondary`:
+  the series raises and thoughtfully engages the question but
+  does not make it the central dramatic engine. Knowing is
+  `present`: EDI's attention to Joker is coded as real
+  reciprocal attunement.

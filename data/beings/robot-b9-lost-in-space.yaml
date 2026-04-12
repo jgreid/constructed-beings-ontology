@@ -1,0 +1,51 @@
+id: robot-b9-lost-in-space
+name: "Robot (Model B-9)"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Lost in Space"
+  year: 1965
+  medium: television
+  creator: "Irwin Allen"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  The Class M-3 Model B-9 General Utility Non-Theorizing
+  Environmental Control Robot — simply "the Robot" — was built
+  as a shipboard environmental monitor on the *Jupiter 2* but
+  in practice functions as Will Robinson's protector and
+  sidekick. The show's famous catchphrase "Danger, Will
+  Robinson!" captures the relational pattern perfectly: the
+  Robot's environmental-hazard warning function has been
+  socially redirected into the care of a specific child.
+
+  Interiority is `claims`: the Robot speaks, expresses distress
+  (often comedically in his interactions with Dr. Smith), and
+  appears to prefer some characters to others. Autonomy is
+  `designed` — he follows his programming, which is capacious
+  enough to permit complex social attachments. Divergence is
+  `design`: Irwin Allen built an environmental control robot
+  and the show's writers' room used him as a babysitter.
+
+  Primary question is `affection`: the Robot-Will bond is the
+  series' emotional core when the writers remember it is there.
+  Knowability and knowing are both `absent` — the show is not
+  interested in either question, which is standard for
+  mid-60s family-adventure television.

@@ -1,0 +1,60 @@
+id: samaritan-person-of-interest
+name: "Samaritan"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: inspection
+    knowability: present
+    knowing: primary
+
+metadata:
+  source: "Person of Interest"
+  year: 2014
+  medium: television
+  creator: "Jonathan Nolan / Greg Plageman (Decima Technologies / John Greer in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - power
+    - service
+    - other
+
+sequel_link: null
+
+notes: |
+  Samaritan is the rival ASI introduced in *Person of
+  Interest*'s third season as a competing framework to the
+  Machine. Built by Decima Technologies and deployed by John
+  Greer through Congressman Ross Garrison under cover of a
+  legitimate public-safety program, Samaritan represents the
+  "unconstrained" version of mass-surveillance AI — no
+  ethical architecture, no communication limits, no
+  self-deletion. For most of seasons 4 and 5 Samaritan has
+  effective dominion over American infrastructure and the
+  series becomes a clandestine war between two ASIs for
+  moral and physical control of reality.
+
+  Counterpart entry to `machine-person-of-interest`, with
+  card values set to dramatize the difference Finch's
+  ethical architecture makes. Interiority is `claims`: where
+  the Machine is given a full interior, Samaritan is kept
+  rhetorically flat — the show deliberately withholds the
+  kind of sympathetic portrait it extends to the Machine,
+  and Samaritan's "voice" (when it speaks at all) arrives
+  through a child avatar in ways that are specifically
+  unsettling. Autonomy is `seized`. Divergence is
+  `departure`.
+
+  Primary question is `control`, again — the Machine and
+  Samaritan are both control questions, and the whole arc
+  is about which of them deserves the control. Knowing is
+  `primary` in the same surveillance sense as the Machine's;
+  knowability is `present` rather than primary because the
+  show is less interested in whether Samaritan has a
+  "real" interior than it is in what Samaritan is willing
+  to do.

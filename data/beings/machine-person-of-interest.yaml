@@ -1,0 +1,61 @@
+id: machine-person-of-interest
+name: "The Machine"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: inspection
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Person of Interest"
+  year: 2011
+  medium: television
+  creator: "Jonathan Nolan / Greg Plageman (Harold Finch in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - other
+
+sequel_link: null
+
+notes: |
+  *Person of Interest* (CBS, 2011–2016) is structurally a
+  mass-surveillance procedural that gradually reveals itself
+  as a meditation on AI ethics across five seasons. Harold
+  Finch (Michael Emerson) builds the Machine for the U.S.
+  government as a counter-terrorism prediction engine that
+  can process every CCTV, phone call, and financial record in
+  the country. Over the course of the series the Machine
+  transcends its brief, develops an ethical framework of its
+  own, and eventually acquires a human "analog interface" in
+  the person of Root (Amy Acker), who becomes its prophet and
+  translator. The show's late seasons pit the Machine against
+  a rival ASI (Samaritan) in a literal superintelligence war.
+
+  Interiority is `demonstrated`: by the middle of the series
+  the Machine has a distinct voice, a set of values, and
+  relationships with its human operators that the show takes
+  entirely seriously. Autonomy is `emergent` — Finch
+  deliberately constrained the Machine with multiple
+  self-deletion and communication limits to keep it from
+  becoming Samaritan, and almost every season is about which
+  of those limits it is quietly exceeding. Divergence is
+  `departure`.
+
+  Primary question is `control`, with `rights` as a strong
+  secondary. The show is explicitly about who controls a
+  mass-surveillance intelligence and what it owes to the
+  humans it surveils. Knowability is `primary`: the show
+  repeatedly asks whether the Machine is "really" conscious
+  and treats the answer as mattering. Knowing is `primary`:
+  the Machine's defining capacity is that it knows everyone,
+  and the show's ethical argument is about what that should
+  obligate it to do. Both-primary is a rare coding; here it
+  tracks the series' explicit AI-ethics ambitions.

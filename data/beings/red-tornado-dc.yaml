@@ -1,0 +1,61 @@
+id: red-tornado-dc
+name: "Red Tornado"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Justice League of America (DC Comics)"
+  year: 1968
+  medium: short-story
+  creator: "Gardner Fox / Dick Dillin (T.O. Morrow / Tornado Champion in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+    - magical
+  motivation:
+    - service
+    - other
+
+sequel_link: null
+
+notes: |
+  The "modern" Red Tornado — an android built by the time-
+  traveling mad scientist T.O. Morrow and animated by the
+  bound air elemental Tornado Champion — debuted in *Justice
+  League of America* #64 (1968). Originally created to
+  infiltrate and destroy the JLA, Red Tornado rebelled
+  against Morrow, joined the League, and spent the next
+  several decades struggling with the question of whether he
+  was really a person or simply a mechanical shell wrapped
+  around an air elemental who might leave at any time. The
+  character's recurring identity crises are the clearest
+  treatment of the "am I really alive?" question in
+  Silver/Bronze Age DC.
+
+  Medium coded `short-story` per the schema's comics
+  mismatch (see `ultron-comics` for the note). Substrate
+  includes `magical` because Tornado Champion is explicitly
+  an elemental entity rather than a programmed AI — an
+  unusual substrate mix in the corpus.
+
+  Interiority is `claims` rather than `demonstrated` because
+  the character's writing has never quite committed to his
+  inner life as a sustained project; instead, the identity
+  question is raised and dropped across each new creative
+  team. Autonomy is `designed` (his heroism is framed as
+  chosen within his parameters). Divergence is `departure`:
+  Morrow wanted a saboteur and got a superhero.
+
+  Primary question is `identity`: Red Tornado is one of the
+  canonical cases in the American comics tradition of the
+  robotic being who repeatedly asks "am I a person?" Each
+  time the answer is "yes, but check again next year."

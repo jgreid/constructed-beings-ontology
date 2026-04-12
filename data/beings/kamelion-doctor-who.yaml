@@ -1,0 +1,58 @@
+id: kamelion-doctor-who
+name: "Kamelion"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Doctor Who"
+  year: 1983
+  medium: television
+  creator: "Terence Dudley (unknown alien engineers in-narrative)"
+  substrate:
+    - mechanical
+    - magical
+  motivation:
+    - service
+
+sequel_link: null
+
+notes: |
+  The Fifth Doctor's other robot companion — less
+  well-remembered than K-9 because the physical prop was so
+  unreliable that the character appeared in only two stories:
+  "The King's Demons" (1983) and "Planet of Fire" (1984).
+  Kamelion is a shapeshifting android of unknown origin,
+  originally controlled by the Master as an impostor in
+  medieval England, and later taken aboard the TARDIS. The
+  character's defining vulnerability is that whoever has the
+  strongest will at any given moment can control his form,
+  which makes him chronically subject to coercion.
+
+  Interiority is `claims`: Kamelion expresses preferences and
+  confusion but the episodes do not develop them, and much of
+  what he "shows" is whatever personality his current
+  controller is forcing on him. Divergence is `none`:
+  Kamelion does what his designers built him to do, which is
+  exactly the problem — the spec is "obey the strongest will
+  in range," and that spec is the entire engine of his tragedy.
+
+  Primary question is `control`: Kamelion is an unusual case
+  where the control question is located *in the being himself*
+  rather than between the being and his creator. His final
+  appearance ends with him asking the Fifth Doctor to kill
+  him, which the Doctor reluctantly does — one of the darkest
+  endings in the classic series.
+
+  Included per the scoping decision to catalog iconic and
+  historically important sidekick robots even when thin. Flagged
+  for low screen time; a coder with more direct familiarity
+  with the two surviving stories might refine the card.

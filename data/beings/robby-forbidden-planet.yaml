@@ -1,0 +1,53 @@
+id: robby-forbidden-planet
+name: "Robby the Robot"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Forbidden Planet"
+  year: 1956
+  medium: film
+  creator: "Fred M. Wilcox / Cyril Hume (Dr. Morbius in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+
+sequel_link: null
+
+notes: |
+  Morbius's personal servant in MGM's lavish SF reworking of *The
+  Tempest*. Robby is polite, helpful, capable, and — crucially —
+  constrained by built-in proscriptions against harming humans
+  that predate Asimov's public association with the Three Laws by
+  only a few years. He has become the visual template for the
+  friendly mid-century robot (dome head, transparent cranial
+  works, piston legs) and was subsequently reused across dozens
+  of productions.
+
+  Interiority is `claims`: Robby speaks in measured, courteous
+  English and expresses preferences, but the film treats him
+  firmly as a servant rather than as a person. Divergence is
+  `none` — Robby does exactly what Morbius built him to do, and
+  his famous catatonic paralysis when asked to fire on the Krell
+  Monster (which is Morbius's own id) is the Three-Laws-style
+  spec working as intended.
+
+  Primary question is `control`. *Forbidden Planet*'s whole
+  argument is about the dangers of unchecked power given to an
+  intellect that has not mastered itself — the Krell Monster
+  scene and the Morbius tragedy. Robby is the contrast case: the
+  servant whose constraint is so well-engineered that it costs
+  him nothing and keeps everyone safe. Robby is the template
+  from which the "good robot" lineage runs forward into WALL-E,
+  R2-D2, and Data.

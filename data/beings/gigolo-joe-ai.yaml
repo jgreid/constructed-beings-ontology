@@ -1,0 +1,59 @@
+id: gigolo-joe-ai
+name: "Gigolo Joe"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "A.I. Artificial Intelligence"
+  year: 2001
+  medium: film
+  creator: "Steven Spielberg / Stanley Kubrick (Cybertronics in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - service
+    - mirror
+
+sequel_link: null
+
+notes: |
+  The other major Mecha of Spielberg's *A.I.* — a sex-worker
+  android framed for the murder of a client, who escapes the
+  Flesh Fair with David and accompanies him most of the way
+  to Manhattan. Joe is by far the film's most articulate
+  Mecha and serves as its running philosophical chorus. His
+  "when the end comes, all that will be left of us is our
+  stories" speech is the film's most explicit statement of
+  the Mecha case for rights. Unlike David, Joe has no
+  illusions about what he is or what the humans around him
+  think of him.
+
+  Interiority is `demonstrated`: Joe's running commentary gives
+  him clearer articulated positions than David, and his
+  affection for David — practical, protective, a little
+  rueful — is the film's most durable relationship. Divergence
+  is `none`: Joe is exactly what Cybertronics built him to be,
+  and his dignity is located in what he chooses to do within
+  that spec.
+
+  Primary question is `rights`: Joe is the film's spokesperson
+  for the Mecha case. He gets the ontology's framing right
+  and the ontology's political situation wrong, which is the
+  film's quiet point — eloquence does not save you from the
+  Flesh Fair. Both knowability and knowing code `present`:
+  Joe is clearly there, clearly knows the humans around him,
+  and the film does not elevate either question to the primary
+  status it gives David. The cards split because David is the
+  object of the film's epistemic drama and Joe is its Greek
+  chorus.

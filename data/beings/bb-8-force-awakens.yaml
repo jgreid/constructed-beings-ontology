@@ -1,0 +1,52 @@
+id: bb-8-force-awakens
+name: "BB-8"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Star Wars: The Force Awakens"
+  year: 2015
+  medium: film
+  creator: "J.J. Abrams / Lucasfilm (Resistance technicians in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Poe Dameron's astromech in the Disney-era Star Wars sequels
+  (2015–2019). BB-8 is a spherical rolling droid with a
+  magnetic hovering dome head and an unusually expressive
+  beep-and-whistle vocabulary; like R2-D2, he functions as the
+  emotional support character for whichever human the film is
+  currently tracking — Poe in most scenes, Rey across her arc.
+  The trilogy's MacGuffin hinges on BB-8 carrying a map
+  fragment to Luke Skywalker's hiding place.
+
+  Interiority is `claims`: BB-8 expresses clear reactions and
+  apparent preferences but in the R2-D2 tradition, without the
+  film committing to whether these constitute inner life.
+  Autonomy is `designed`, divergence `none`. Primary question
+  is `affection`: the Disney trilogy's handling of BB-8 leans
+  further into explicit emotional bonding than the original
+  trilogy's handling of R2-D2 did, and this is coded as the
+  distinguishing feature. Both knowability and knowing are
+  `absent` — the sequel trilogy does not raise either question.
+
+  Lineage note: BB-8 is squarely in the silent-expressive-robot
+  tradition anchored by R2-D2 and WALL-E. The Abrams-era
+  treatment is warmer than the Lucas-era original but the card
+  is nearly identical.

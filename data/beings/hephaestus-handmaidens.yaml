@@ -1,0 +1,51 @@
+id: hephaestus-handmaidens
+name: "The Golden Handmaidens of Hephaestus"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Iliad"
+  year: -750
+  medium: epic
+  creator: "Homer (Hephaestus in-narrative)"
+  substrate:
+    - mechanical
+    - magical
+  motivation:
+    - service
+
+sequel_link: null
+
+notes: |
+  Iliad XVIII.417–421, in the scene where Thetis visits Hephaestus
+  to commission new armor for Achilles. Homer's description is
+  explicit: the golden handmaidens "have intelligence in their
+  hearts, and speech in them and strength, and from the immortal
+  gods they have learned how to do things." This is the earliest
+  unambiguous attribution of mind and language to a constructed
+  being in the Western canon — earlier than Pandora or Talos in
+  the internal timeline of Greek myth, and earlier than both in
+  the chronology of surviving texts.
+
+  Interiority is `claims` rather than `demonstrated` or `narrated`:
+  Homer tells us they have interior states but shows us almost
+  nothing — they support Hephaestus as he walks and that is the
+  extent of the narrative attention. Autonomy is `designed`; there
+  is no gap between what Hephaestus made them for and what they do.
+  Divergence is `none`.
+
+  Primary question is `none`. Homer is not making an argument
+  about constructed beings here; he is describing the lame god's
+  workshop. The handmaidens are offered almost in passing as one
+  of the wonders of the divine smithy. That they are attributed
+  full mentalistic vocabulary with no argument attached is exactly
+  what makes the passage significant for the corpus.

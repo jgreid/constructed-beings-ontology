@@ -1,0 +1,55 @@
+id: daneel-olivaw
+name: "R. Daneel Olivaw"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "The Caves of Steel and sequels"
+  year: 1953
+  medium: novel
+  creator: "Isaac Asimov (Dr. Han Fastolfe in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - knowledge
+
+sequel_link: null
+
+notes: |
+  Daneel debuts in *The Caves of Steel* (1953) as a humaniform
+  detective partner for the Earth plainclothesman Elijah Baley,
+  and recurs through *The Naked Sun* (1957), *The Robots of
+  Dawn* (1983), *Robots and Empire* (1985), and — millennia
+  later in internal chronology — the late Foundation novels.
+  Per the scoping decision to collapse sequel splits when the
+  card is stable, this is a single entry covering the Baley-era
+  Daneel; the late-Foundation Daneel would code differently and
+  can be split later if needed.
+
+  Interiority is `demonstrated`: Asimov gives Daneel clear
+  preferences, philosophical views, and expressed concern for
+  Baley over multiple books. Autonomy is `emergent` — Daneel
+  develops his own interpretive stance on the Three Laws across
+  the series, eventually co-formulating the Zeroth Law with
+  Giskard. Divergence is `departure`: Fastolfe built Daneel as
+  a detective partner to ease human-robot relations; Daneel
+  becomes a millennia-long steward of humanity. That is not in
+  the spec.
+
+  Primary question is `rights`. *Caves of Steel* is structurally
+  about whether Baley can accept Daneel as a colleague, and the
+  trilogy after it extends that question outward into Spacer
+  society. Daneel is the canonical counterpoint to Frankenstein's
+  Creature — the sympathetic constructed being that achieves and
+  holds moral standing rather than being denied it.

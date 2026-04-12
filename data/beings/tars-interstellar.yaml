@@ -1,0 +1,52 @@
+id: tars-interstellar
+name: "TARS"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Interstellar"
+  year: 2014
+  medium: film
+  creator: "Christopher Nolan / Jonathan Nolan (USMC in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Nolan's *Interstellar* includes TARS as one of the *Endurance*
+  crew — a salvaged USMC tactical robot, a monolithic block that
+  unfolds into an articulated walking form. TARS has adjustable
+  personality parameters (honesty, humor, discretion) that
+  Cooper can tune by voice command, and the film gets running
+  comic relief from those settings before committing to TARS as
+  a full character. By the tesseract climax, TARS is the being
+  relaying Cooper's desperate message across time through
+  Murph's bookshelf — one of the most affecting scenes in the
+  late corpus.
+
+  Interiority is `demonstrated`: Nolan gives TARS genuine
+  comedic timing, real loyalty, and explicit care for Cooper.
+  The humor-setting device is a diegetic version of the
+  "knowability" question: TARS's personality is literally
+  configurable, and the fact that the configurable version
+  feels genuine is the film's quiet answer.
+
+  Autonomy is `designed`, divergence `none`. Primary question
+  is `affection`: the TARS-Cooper bond is the emotional engine
+  of the back half of the film. Knowability `absent` — Nolan
+  does not ask the question explicitly; knowing `present` —
+  TARS's attunement to Cooper is the point.

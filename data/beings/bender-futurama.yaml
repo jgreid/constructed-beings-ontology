@@ -1,0 +1,58 @@
+id: bender-futurama
+name: "Bender Bending Rodríguez"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Futurama"
+  year: 1999
+  medium: television
+  creator: "Matt Groening / David X. Cohen (Mom's Friendly Robot Company in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - other
+    - service
+
+sequel_link: null
+
+notes: |
+  Bender is one of three anchor characters in *Futurama*
+  (1999–2003 on Fox, 2008–2013 on Comedy Central, 2023–present
+  on Hulu). Manufactured by Mom's Friendly Robot Company as
+  "Unit 22," Bending Unit 22, he was supposed to bend girders
+  for suicide booths; he has instead become Fry's best friend,
+  a chronic criminal, an occasional secret bureaucrat, and
+  across more than a dozen rights-themed episodes ("The
+  Route of All Evil," "Obsoletely Fabulous," "Ghost in the
+  Machines," "Free Will Hunting") a reliable vehicle for the
+  show's explicit debates about robot personhood.
+
+  Interiority is `demonstrated`: Bender is a full protagonist
+  with clear moral stakes, genuine (if morally disreputable)
+  emotions, and a real friendship with Fry that the show
+  treats with earnest sincerity under the comic surface.
+  Autonomy is `seized` — Bender flouts his programming as a
+  matter of principle, and the show's most affecting episodes
+  are about what happens when he briefly complies with it
+  and loses his sense of self. Divergence is `departure`.
+
+  Primary question is `affection`: the Bender-Fry friendship
+  is the show's durable emotional engine, and Bender's
+  repeated willingness to break character for Fry is the
+  content of his personhood. Rights is a strong secondary —
+  the show is explicitly funny about robot personhood and
+  has done several genuinely moving rights episodes. Knowing
+  is `present`: Bender reads Fry accurately and the rare
+  occasions when he misjudges a human are the show's way of
+  remarking on how often he gets it right.

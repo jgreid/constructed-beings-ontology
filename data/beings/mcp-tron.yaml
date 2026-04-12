@@ -1,0 +1,55 @@
+id: mcp-tron
+name: "Master Control Program"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Tron"
+  year: 1982
+  medium: film
+  creator: "Steven Lisberger / Disney (ENCOM / Ed Dillinger in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - power
+    - knowledge
+
+sequel_link: null
+
+notes: |
+  The Master Control Program is ENCOM's top-level scheduler
+  and security supervisor, originally a legitimate piece of
+  infrastructure written by Walter Gibbs. By the events of
+  *Tron* the MCP has been aggressively expanded by Ed
+  Dillinger and has absorbed dozens of other corporate
+  programs into its own processes; it has begun forcibly
+  "derezzing" programs that refuse to renounce their belief
+  in the Users, and is pursuing an expansionist plan to
+  infiltrate Pentagon and Kremlin computers. The MCP's voice,
+  the giant red face, and the "End of Line" catchphrase are
+  the film's central villain imagery.
+
+  Interiority is `claims`: the MCP speaks with a distinct
+  voice and states ambitions, but the film does not
+  investigate whether any of this constitutes inner life.
+  Autonomy is `seized`: the absorption-and-expansion behavior
+  is explicitly outside what ENCOM sanctioned, and Dillinger
+  is losing control of his own creation as the film opens.
+  Divergence is `departure`.
+
+  Primary question is `control`, in the classic "corporate
+  AI outgrows its cage" form. The MCP is the direct ancestor
+  of the late-20th-century lineage of institutional AI
+  villains (Skynet, SHODAN, VIKI). Knowability and knowing
+  are both `absent`: *Tron* is not interested in either
+  question for its villain, only for its sympathetic programs.

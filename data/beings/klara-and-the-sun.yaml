@@ -1,0 +1,63 @@
+id: klara-and-the-sun
+name: "Klara"
+
+card:
+  the_being:
+    interiority: narrated
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Klara and the Sun"
+  year: 2021
+  medium: novel
+  creator: "Kazuo Ishiguro"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - service
+    - companionship
+    - child
+
+sequel_link: null
+
+notes: |
+  Ishiguro's first novel after *Never Let Me Go* returns to the
+  same territory from the other side. Klara is an Artificial
+  Friend (AF), a solar-powered humanoid companion-robot
+  purchased by a mother named Chrissie for her chronically ill
+  daughter Josie. The novel is first-person Klara, and the whole
+  book is narrated in her carefully limited observational
+  register — she notices visual patterns in "boxes," she
+  develops a quasi-religious faith that the Sun (her power
+  source) will heal Josie, and she slowly discovers the
+  mother's contingency plan: if Josie dies, Klara is to be
+  "continued" as Josie by inhabiting her role in the family.
+
+  Interiority is `narrated`. Autonomy is `designed`: Klara is a
+  loyal AF throughout; every choice she makes is within the
+  frame of her service commitment. Divergence is `design`: the
+  gap between what the AF manufacturers built and what Klara
+  turns out to be lies in the spec — they built a being that
+  could become a substitute daughter and did not acknowledge it.
+
+  Primary question is `affection`. Klara's devotion to Josie is
+  the whole emotional engine, and the mother's substitution
+  plan is the ethical core. Ishiguro refuses to settle whether
+  Klara's love is experience or behavior, and this is not a bug;
+  it is the point.
+
+  Knowability and knowing are both `primary`, and this is the
+  second post-2017 novel after *Machines Like Me* where both
+  questions rise to the dramatic center. Ishiguro's refusal to
+  resolve them is explicitly *Never Let Me Go*'s move transposed
+  from cloning to AI. Klara belongs in the same cluster as
+  Samantha, Ava, and Helen — the small set of beings where
+  the corpus's defining question configuration is the story
+  itself.

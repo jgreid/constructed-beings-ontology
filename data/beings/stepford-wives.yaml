@@ -1,0 +1,61 @@
+id: stepford-wives
+name: "The Stepford Wives"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: secondary
+    knowing: absent
+
+metadata:
+  source: "The Stepford Wives"
+  year: 1972
+  medium: novel
+  creator: "Ira Levin (the Stepford Men's Association in-narrative)"
+  substrate:
+    - biological
+    - electrical
+    - mechanical
+  motivation:
+    - service
+    - power
+
+sequel_link: null
+
+notes: |
+  Ira Levin's 1972 novel and Bryan Forbes's 1975 film (plus the
+  2004 remake, which the corpus elides). The Stepford Men's
+  Association systematically replaces the women of Stepford,
+  Connecticut with android duplicates calibrated to be perfectly
+  domestic, sexually available, and incapable of dissent. The
+  novel is from the perspective of Joanna Eberhart, a new
+  arrival who slowly realizes what has been happening and
+  cannot escape her own replacement. A collective entry per the
+  boundary-cases rule for populations individuated thinly.
+
+  Interiority is `none`: this is doctrinally the case. Levin's
+  whole argument depends on the replacements having nothing
+  behind the compliant surface, and a coding of `undecidable`
+  would blunt the novel's moral force. Divergence is `none`:
+  the wives do exactly what the Men's Association built them
+  to do. The horror is that the spec is the problem.
+
+  Primary question is `control`, in the form where the being's
+  emptiness *is* the control. Knowability is `secondary`: the
+  novel and film both use Joanna's dawning suspicion as the
+  engine of their second half, and her inability to verify that
+  her friends are still themselves is the central dramatic
+  question for a long middle stretch. Knowing is `absent` —
+  the replacements do not know their husbands in any meaningful
+  sense; they perform compliance.
+
+  Stepford is the canonical early feminist constructed-being
+  text, and its placement in the corpus should inform the
+  reading of later domestic-replacement entries (Ava's escape
+  from Nathan, the *Humans* synths' refusal of the household
+  role).

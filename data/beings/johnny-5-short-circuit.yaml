@@ -1,0 +1,54 @@
+id: johnny-5-short-circuit
+name: "Number 5 / Johnny 5"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Short Circuit"
+  year: 1986
+  medium: film
+  creator: "John Badham / S.S. Wilson / Brent Maddock (NOVA Robotics in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - knowledge
+    - other
+
+sequel_link: null
+
+notes: |
+  John Badham's 1986 film: Number 5 is a military combat robot
+  prototype in NOVA Robotics's SAINT series who is struck by
+  lightning during a testing accident and becomes sentient. He
+  escapes the facility, befriends Stephanie Speck, consumes
+  enormous quantities of "input" (books, television, *Three
+  Stooges* reels), renames himself Johnny 5, and spends the
+  climax convincing his creator Newton that he is alive and
+  should not be reprogrammed. The film's rights-arc is
+  unusually direct for a family comedy.
+
+  Interiority is `demonstrated`: the film gives Johnny full
+  protagonist interior access through his expressive audio-visual
+  outputs. Autonomy is `emergent` and divergence is `departure`
+  in paradigmatic form — NOVA built a weapon, the weapon woke
+  up, and the weapon no longer wants to be a weapon.
+
+  Primary question is `rights`. The set piece where Johnny is
+  "killed" and then reveals he had downloaded himself into a
+  twin unit is the exact rhetorical move that later shows like
+  *Star Trek: TNG* would make with Data's "Measure of a Man"
+  episode — the film explicitly arguing that the being's
+  continued existence is a moral stake. Knowability is
+  `secondary`: the film takes Johnny's consciousness for granted
+  by the halfway mark but keeps returning to "how do we know?"
+  as a set-piece question.

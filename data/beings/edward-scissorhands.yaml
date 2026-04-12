@@ -1,0 +1,58 @@
+id: edward-scissorhands
+name: "Edward"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Edward Scissorhands"
+  year: 1990
+  medium: film
+  creator: "Tim Burton (the Inventor in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - magical
+  motivation:
+    - companionship
+    - child
+    - art
+
+sequel_link: null
+
+notes: |
+  Burton's 1990 fairy-tale Frankenstein riff. Edward was
+  assembled in an isolated gothic mansion by an elderly
+  inventor (Vincent Price) who died before he could replace
+  the shears he had given Edward in place of finished hands.
+  Edward is discovered decades later by the Avon lady Peg
+  Boggs and brought down into suburbia, where he falls in love
+  with Peg's daughter Kim, becomes briefly celebrated as a
+  topiary artist, and is finally driven back to his castle
+  when the community turns against him. The film's card is
+  essentially *Frankenstein*'s with the temperature lowered.
+
+  Interiority is `demonstrated`: Edward speaks haltingly but
+  the film gives him full sympathetic interior access through
+  his eyes, his gentleness, and his grief. Autonomy is
+  `designed` — Edward carries out his maker's gentle values as
+  faithfully as he can, and his violence is always accidental
+  or defensive. Divergence is `departure`: the Inventor wanted
+  a son; Burton's whole move is that "the son was almost done."
+
+  Primary question is `affection`. Kim's late narration frames
+  the entire film as a love story from the future she lived
+  because of a week with Edward. Knowability and knowing are
+  both `present`: the film asks the audience to credit
+  Edward's inner life without argument and to believe that his
+  understanding of Kim is genuine. Substrate includes `magical`
+  because Burton's mode is explicitly fairy-tale rather than
+  science-fictional.

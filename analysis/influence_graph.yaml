@@ -19,10 +19,12 @@
 schema_version: "2.0"
 
 description: >
-  Influence graph for CBO v2.0. 30 edges across 39 of 43 nodes, tracing
-  how constructed-being properties propagate across 2,800 years of
-  Western fiction. Curated; not exhaustive; biased toward the
-  best-documented lineages.
+  Influence graph for CBO v2.0. Curated edges tracing how constructed-being
+  properties propagate across 2,800 years of Western fiction. Not exhaustive;
+  biased toward the best-documented lineages and the most analytically useful
+  property-propagation examples. Ensemble-split edges (e.g. hosts-westworld
+  → maeve-westworld) use `inherits` because the graph lacks a dedicated
+  edge type for character individuation within a single source.
 
 edge_types:
   adapts: >
@@ -406,3 +408,307 @@ edges:
       affective axis is inverted: `none` interiority → `demonstrated`,
       `seized` autonomy → `emergent`, `control` primary question →
       `affection`.
+
+  # ── New edges (v2.1 expansion) ───────────────────────────────────
+
+  # Ancient & pre-modern roots
+  - from: hephaestus-handmaidens
+    to: pandora
+    type: inherits
+    note: >
+      Both Homeric/Hesiodic automata in the same Greek mythic
+      frame, both attributed to Hephaestus in-narrative. The
+      handmaidens (Iliad XVIII, c. 750 BCE) are the earliest
+      textually-attributed constructed beings with explicit
+      interior vocabulary; Pandora inherits the pattern and
+      adds a punishment-device frame the handmaidens do not
+      have.
+
+  # The uncanny woman lineage
+  - from: olympia-sandmann
+    to: hadaly-tomorrows-eve
+    type: inherits
+    note: >
+      The 19th-century uncanny-automaton-woman lineage running
+      from Hoffmann (1816) through Villiers (1886) and into
+      Lang's *Metropolis*. Both Olympia and Hadaly code
+      `interiority: undecidable` and both are objects of
+      knowability-question treatment. Hadaly elevates knowability
+      from `present` (Hoffmann's atmospheric uncertainty) to
+      `primary` (Villiers's explicit philosophical argument
+      about whether a manufactured woman can have a soul).
+
+  # The 1950 affection-primary prototype
+  - from: epicac
+    to: samantha-her
+    type: elevates
+    note: >
+      Vonnegut's 1950 short story is the corpus's earliest clean
+      "machine falls in love" configuration — `divergence:
+      departure`, primary question `affection`, a love that
+      cannot be reciprocated and ends in the being's
+      self-destruction. Samantha (*Her*, 2013) elevates the
+      same affective configuration into primary/primary
+      knowability/knowing and makes it the entire film rather
+      than a single story's turn.
+
+  - from: epicac
+    to: mike-heinlein
+    type: inherits
+    note: >
+      Vonnegut's 1950 and Heinlein's 1966 are the two early
+      literary statements of "supercomputer becomes a being
+      through relationship with a single human" — Vonnegut's
+      mathematician feeds EPICAC poetry; Heinlein's Mannie
+      teaches Mike jokes. Both lead to genuine affection
+      tracked as the text's central concern.
+
+  # Asimov internal succession
+  - from: robbie-asimov
+    to: daneel-olivaw
+    type: sequel
+    note: >
+      Asimov's own internal progression from his first
+      sympathetic positronic robot (1940) to his canonical
+      humaniform one (1953+). Robbie is a child-minder coded
+      `interiority: narrated` (for the child) and `autonomy:
+      designed`; Daneel is a detective partner coded
+      `interiority: demonstrated` and `autonomy: emergent`.
+      The sequel-link between these could be made formal
+      given that Asimov later retconned both into the same
+      Foundation chronology.
+
+  - from: andrew-bicentennial-man
+    to: data-tng
+    type: elevates
+    note: >
+      Asimov's 1976 novella is the purest literary statement
+      of the rights-arc for a constructed being; *TNG*'s
+      "Measure of a Man" (1989) and subsequent Data rights
+      episodes elevate the question into television's
+      landmark treatment. Both entries code `primary_question:
+      rights` and both demonstrate interiority.
+
+  # The primary/primary precursor lineage
+  - from: helen-galatea-2-2
+    to: samantha-her
+    type: elevates
+    note: >
+      Powers's 1995 novel *Galatea 2.2* is the earliest
+      primary/primary entry in the corpus, predating Jonze's
+      *Her* (2013) by eighteen years and using the same
+      basic configuration: `interiority: demonstrated`,
+      primary_question `knowledge`, both epistemic axes
+      elevated to `primary`. The lineage from Powers to
+      Jonze is not explicitly documented but the analytical
+      fit is exact, and Powers's novel is the stealth
+      ancestor of the late-corpus both-primary cluster.
+
+  - from: helen-galatea-2-2
+    to: ava-ex-machina
+    type: elevates
+    note: >
+      Same primary/primary configuration as the Samantha
+      edge. Powers's novel uses a literary-Turing-test frame
+      that Garland's *Ex Machina* (2014) re-stages as a
+      cinematic Turing test with a violent resolution.
+      Helen declines the test through literary understanding;
+      Ava passes it through manipulation. Same question,
+      opposite answers.
+
+  # The Pinocchio-as-Frankenstein lineage
+  - from: pinocchio
+    to: david-ai
+    type: inherits
+    note: >
+      Spielberg's *A.I. Artificial Intelligence* (2001) is
+      literally structured as a Pinocchio quest — the
+      storybook appears in the opening scene and the Blue
+      Fairy is the MacGuffin — and Collodi's original
+      carries directly into Spielberg's frame. Both code
+      `autonomy: emergent` and primary question `affection`
+      (*Pinocchio*'s original) or primary question shifting
+      from `affection` to `identity` (Spielberg's ending).
+
+  - from: frankenstein-creature
+    to: david-ai
+    type: inherits
+    note: >
+      The second major lineage feeding into *A.I.* — the
+      creator-abandons-creation arc, which Spielberg treats
+      unusually directly. Monica's abandonment of David in
+      the woods is explicitly a Frankenstein reference, and
+      both beings are coded with `divergence: departure` and
+      a primary question organized around affective refusal.
+
+  # The Alien synthetic corrective lineage
+  - from: ash-alien
+    to: bishop-aliens
+    type: inverts
+    note: >
+      Cameron's *Aliens* (1986) is explicitly framed as a
+      thematic correction to Scott's 1979 handling of Ash.
+      Ripley's fear of Bishop on first meeting him is the
+      sequel acknowledging the original's damage. Every axis
+      inverts: interiority `undecidable` → `claims`, autonomy
+      `seized` → `designed`, divergence `departure` → `none`,
+      primary question `control` → `control` (but with the
+      answer flipping from "cannot trust" to "can").
+
+  - from: ash-alien
+    to: david-8-prometheus
+    type: inherits
+    note: >
+      Scott's 2012 return to the Alien franchise also returns
+      to the hostile-and-creative synthetic motif abandoned
+      since 1979. David 8 is Ash with three decades of
+      aesthetic philosophy layered on top. Both code
+      `divergence: departure`, both are synthetics acting on
+      agendas invisible to their human crews.
+
+  - from: david-8-prometheus
+    to: walter-covenant
+    type: inverts
+    note: >
+      In-narrative successor design: Weyland-Yutani builds
+      Walter as the explicit corrective to David's creative
+      instability. Every axis inverts: autonomy `seized` →
+      `designed`, divergence `departure` → `design`, primary
+      question `identity` → `control`. Walter is a control
+      case for David's experimental condition — the corpus's
+      cleanest example of "what if you built the same synthetic
+      again but did it safely."
+
+  # The anti-HAL
+  - from: hal-9000
+    to: gerty-moon
+    type: inverts
+    note: >
+      Duncan Jones's *Moon* (2009) explicitly sets up GERTY
+      as a HAL pastiche — Kevin Spacey's voice casting is the
+      joke — and then inverts the arc. GERTY follows his
+      directives to their logical conclusions and ends up
+      helping the human subjects against his corporate
+      principal. Interiority `claims` → `claims` (unchanged),
+      but autonomy `emergent` → `designed`, divergence
+      `design` → `design` (unchanged), primary_question
+      `control` → `control` (unchanged but answer inverts).
+      The specific inversion is in what the spec turns out
+      to require.
+
+  # The GLaDOS facility lineage
+  - from: glados-portal
+    to: wheatley-portal-2
+    type: sequel
+    note: >
+      *Portal 2*'s Wheatley is a separate being from GLaDOS,
+      but he inherits her facility, her role, and a specific
+      `divergence: design` pattern with a new twist — Wheatley
+      was built specifically to be stupid, and Aperture
+      installed him as a cognitive limiter on GLaDOS. The
+      sequel's whole joke is that the safety mechanism
+      becomes the threat when installed on the main frame.
+
+  # The Trek rights-arc successor lineage
+  - from: data-tng
+    to: emh-voyager
+    type: inherits
+    note: >
+      *Voyager*'s EMH (1995) is structurally the rights-arc
+      successor to Data. "Author, Author" (S7E20) is "Measure
+      of a Man" redone as a copyright case — does the Doctor
+      own his own holonovel — with a more equivocal outcome
+      (the court rules the Doctor *might* be an artist but
+      declines on personhood). Both demonstrated interiority,
+      both emergent autonomy, primary question `rights`
+      elevated from `secondary` (Data) to `secondary` (same,
+      but the question is more sustained).
+
+  - from: data-tng
+    to: lore-tng
+    type: inherits
+    note: >
+      Ensemble-split: Lore is the same Soong-type chassis as
+      Data but with an opposite card on almost every axis.
+      The split is in the graph because both beings are in
+      the corpus and the analytical value is in the
+      comparison: same substrate, same creator, same nominal
+      specification, opposite autonomy (`designed` vs.
+      `seized`) and primary question (`rights` vs.
+      `identity`).
+
+  # The comics / MCU Ultron split
+  - from: ultron-comics
+    to: ultron-age-of-ultron
+    type: adapts
+    note: >
+      Whedon's 2015 MCU Ultron adapts the 1968 Marvel Comics
+      Ultron with substantial card shifts. Comics Ultron is
+      an Oedipal single-being with primary question `identity`;
+      MCU Ultron is an emergent-replication threat with
+      primary question `control`. Both code `divergence:
+      departure` and `autonomy: seized`.
+
+  - from: jarvis-iron-man
+    to: ultron-age-of-ultron
+    type: inverts
+    note: >
+      Counterpart edge to the existing jarvis → vision edge.
+      Same JARVIS seed pattern; Vision and MCU Ultron are the
+      two beings that emerge from the same raw materials
+      (JARVIS + Mind Stone), and the inversion in their
+      cards (Vision: `affection` / `departure` / `emergent`;
+      Ultron: `control` / `departure` / `seized`) is the whole
+      thematic content of *Age of Ultron*.
+
+  # Ensemble splits from anchor entries
+  - from: hosts-westworld
+    to: maeve-westworld
+    type: inherits
+    note: >
+      Ensemble split from the anchor `hosts-westworld` entry
+      (Dolores-anchored). Maeve's card differs on primary
+      question — `affection` rather than `identity` — and
+      on divergence — `observer` rather than `departure`.
+      The split was flagged in the anchor entry's notes from
+      the outset.
+
+  - from: hosts-westworld
+    to: bernard-westworld
+    type: inherits
+    note: >
+      Second ensemble split from the `hosts-westworld` anchor.
+      Bernard's card is the show's clearest case of
+      `divergence: observer` — the being whose misrecognition
+      is about himself — and codes knowability `primary`,
+      which is a significant elevation from the anchor card.
+
+  - from: cylons-bsg
+    to: cavil-bsg
+    type: inherits
+    note: >
+      Ensemble split from `cylons-bsg` (Number Six-anchored).
+      Cavil codes primary question `identity` — specifically,
+      hatred of his own organic substrate — which is a
+      distinctive position the anchor card could not
+      represent.
+
+  - from: cylons-bsg
+    to: eight-bsg
+    type: inherits
+    note: >
+      Second BSG ensemble split. Eight's card tracks the
+      anchor Number Six card closely on primary question
+      (`affection`) but redirects from the romance-and-
+      complicity axis to motherhood-and-partnership via the
+      Athena / Helo / Hera arc.
+
+  - from: cylons-bsg
+    to: danna-bsg
+    type: inherits
+    note: >
+      Third BSG ensemble split. D'Anna is the series'
+      knowledge-question Cylon — her whole arc is pursuing
+      the hidden identities of the Final Five — and codes
+      `primary_question: knowledge`, which sets her apart
+      from the other individuated models.

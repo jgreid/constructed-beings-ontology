@@ -1,0 +1,59 @@
+id: hadaly-tomorrows-eve
+name: "Hadaly"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: designed
+    divergence: observer
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "L'Ève future (Tomorrow's Eve)"
+  year: 1886
+  medium: novel
+  creator: "Auguste Villiers de l'Isle-Adam (Thomas Edison in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+    - magical
+  motivation:
+    - companionship
+    - mirror
+
+sequel_link: null
+
+notes: |
+  Villiers's novel is where the word "android" enters its modern
+  sense. A fictionalized Edison builds Hadaly at the request of
+  Lord Ewald, whose fiancée Alicia is physically perfect but
+  spiritually unbearable. Hadaly is an electromechanical
+  simulacrum designed to have Alicia's exact face and body but
+  Ewald's idealized soul: gold skeleton, phonographs for speech,
+  pneumatic musculature, electromagnetic nerves. She is also,
+  ambiguously, inhabited or animated by a disembodied female
+  spirit named Sowana, whose relationship to the machinery the
+  novel refuses to resolve.
+
+  Interiority is `undecidable` by deliberate authorial design.
+  Villiers is the 19th century's clearest case of an author who
+  wants the reader stuck between reading Hadaly as a very
+  sophisticated recorder and reading her as a genuine interior
+  presence. Divergence is `observer`: the novel's structure
+  repeatedly destabilizes what Hadaly actually is — mechanism,
+  medium, or something else — and the characters keep
+  misrecognizing her.
+
+  Knowability is `primary`: this is the first novel in the corpus
+  where "is there really a mind in there?" is the explicit central
+  question around which the philosophy is organized. That it
+  arrives more than a century before *Her* and *Ex Machina* is
+  one of the corpus's more startling findings. Primary question
+  is `affection` — can a manufactured woman be loved, and if so,
+  what does that say about love itself? Ewald's answer is yes,
+  and the novel treats that answer as both liberating and
+  damning.

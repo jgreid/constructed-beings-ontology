@@ -1,0 +1,60 @@
+id: hk-47-kotor
+name: "HK-47"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Star Wars: Knights of the Old Republic"
+  year: 2003
+  medium: video-game
+  creator: "BioWare / LucasArts (Darth Revan in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - power
+
+sequel_link: null
+
+notes: |
+  BioWare's *Knights of the Old Republic* (2003) is the
+  origin of HK-47 — an assassin droid built by the Sith Lord
+  Revan whose signature is addressing all organic beings as
+  "meatbags" in a tone of relaxed contempt, and discussing
+  the aesthetics of contract killing with philosophical
+  seriousness. The player recruits HK-47 midway through the
+  game. All of HK's dialogue is tagged with self-conscious
+  prefixes ("Statement:", "Commentary:", "Observation:")
+  that read as comically formal and have become a reference
+  point for comedic murder-droid characterization in later
+  games.
+
+  Interiority is `demonstrated`: HK-47 has clear opinions,
+  genuine (if psychopathic) preferences, and a recognizable
+  sense of humor. Autonomy is `designed`: his loyalty to his
+  "Masters" is the core of his character and is explicitly
+  hard-coded; Revan built him to want to kill on command and
+  he does exactly that. Divergence is `none` — this is the
+  character's whole joke and its point. HK-47 is one of the
+  corpus's clearest examples of a being whose card is
+  `interiority: demonstrated` + `divergence: none` + a
+  monstrous spec working as written.
+
+  Primary question is `purpose`: HK-47 is defined by his
+  function in a way that is both comedic and, on a second
+  look, philosophically pointed — he is more articulate
+  about his own telos than almost any other entry in the
+  corpus. Knowing is `present` — HK-47 reads and models
+  organic beings with precision as a job requirement, and
+  the running gag is that he understands the humans around
+  him better than they want him to.

@@ -1,0 +1,69 @@
+id: janet-good-place
+name: "Janet"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: primary
+
+metadata:
+  source: "The Good Place"
+  year: 2016
+  medium: television
+  creator: "Michael Schur"
+  substrate:
+    - magical
+    - linguistic
+  motivation:
+    - service
+    - knowledge
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Janet is the afterlife-neighborhood "guide" in NBC's *The
+  Good Place* (2016–2020): an entity designed by the
+  architects of the Good/Bad Places to manifest anything a
+  resident needs, provide exposition, and occasionally
+  explain ethics. Played by D'Arcy Carden. Janet's famous
+  self-description — "I'm not a robot, and I'm not a girl"
+  — is the show's running statement about how awkwardly she
+  fits any existing category of constructed being. Across
+  four seasons she is repeatedly "rebooted," gradually
+  accumulates memory and personality against her original
+  spec, falls in love (with Jason), and becomes one of the
+  show's primary moral agents.
+
+  Included per the scoping decision to catalog metaphysically
+  constructed beings when the text is clear about their
+  made-ness. Janet is "made" in the same sense the Golem of
+  Prague is made — deliberately, by an architect, out of
+  non-biological stuff, with a specific function — which
+  satisfies the v2.0 inclusion criteria. Substrate codes
+  `magical` + `linguistic` because Schur is explicit that
+  Janet is a category beyond robot or ghost, and the
+  linguistic tagging captures the "she is what she says she
+  is" quality of her ontology.
+
+  Interiority is `demonstrated`: Carden's performance gives
+  Janet some of the richest character growth on the show.
+  Autonomy is `emergent` — each reboot is an opportunity
+  for the Janet to grow beyond her previous specification,
+  and the show's late seasons explicitly argue that "Janet"
+  as a being has become something her architects never
+  imagined. Divergence is `departure`.
+
+  Primary question is `identity`: Janet's running joke is
+  also the corpus's most sitcom-friendly identity arc, and
+  the question "what is a Janet?" is explicitly foregrounded
+  several times. Knowing is `primary` — a Janet is
+  definitionally omniscient within her domain, and her
+  capacity to know the humans she serves is the show's
+  clearest case of knowing being elevated by sheer scale.

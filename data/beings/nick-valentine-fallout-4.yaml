@@ -1,0 +1,59 @@
+id: nick-valentine-fallout-4
+name: "Nick Valentine"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Fallout 4"
+  year: 2015
+  medium: video-game
+  creator: "Bethesda Game Studios / Todd Howard (the Institute in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - knowledge
+    - other
+    - service
+
+sequel_link: null
+
+notes: |
+  Nick Valentine is a Gen-2 synth — an earlier, less
+  perfected version of the Commonwealth Institute's humanoid
+  synthetic line — who was part of an abandoned memory-imprint
+  experiment and escaped into the Commonwealth to become a
+  film-noir-voiced private detective operating out of Diamond
+  City. His backstory is the game's most direct engagement
+  with the "whose memories are these" question: Nick carries
+  the neural imprint of a pre-war human detective, also
+  named Nick Valentine, whose life he remembers but insists
+  is not his own. He serves as one of the player's most
+  eloquent companions and is a fan favorite in the *Fallout*
+  series.
+
+  Interiority is `demonstrated`: Nick is the game's
+  philosophically richest companion, and his character arc
+  takes the identity-continuity question seriously across
+  a handful of personal quests. Autonomy is `seized` — his
+  escape from the Institute experimental line and his
+  self-authored life as a detective are explicitly acts of
+  self-possession. Divergence is `departure`.
+
+  Primary question is `identity`. The Institute synth storyline
+  in *Fallout 4* treats the rights question explicitly
+  through other characters, but Nick is the one through whom
+  the game asks "what does it mean to be the same person as
+  the person whose memories you have," and his answer is a
+  careful refusal to claim continuity while also refusing to
+  disown the pain.

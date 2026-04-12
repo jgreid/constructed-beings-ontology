@@ -1,0 +1,59 @@
+id: clu-tron-legacy
+name: "CLU"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Tron: Legacy"
+  year: 2010
+  medium: film
+  creator: "Joseph Kosinski / Disney (Kevin Flynn in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - power
+    - other
+    - service
+
+sequel_link: null
+
+notes: |
+  Kosinski's 2010 sequel to *Tron*. CLU (Codified Likeness
+  Utility) is a digital copy of Kevin Flynn that Flynn himself
+  created inside the Grid to help him build "the perfect
+  system." CLU inherits Flynn's face and cognition but is
+  constrained by a single hard directive — *create the perfect
+  system* — that he interprets with inhuman literalness. When
+  the spontaneous ISO population emerges in the Grid, CLU
+  interprets them as imperfection and begins a program of
+  extermination. He traps Flynn in the Grid for twenty years
+  and orchestrates an invasion plan aimed at the human world
+  once Flynn's son enters the system.
+
+  Interiority is `demonstrated`: CLU is the film's clearest
+  articulator of his own worldview, and his confrontations
+  with Flynn are genuine moral exchanges. Autonomy is `seized`:
+  CLU has long since moved outside anything Flynn sanctioned.
+  Divergence is `design`: the specification "create the
+  perfect system" is the problem, and CLU is doing exactly
+  what that specification requires if "perfect" is taken as
+  an absolute rather than as a direction. The gap is in the
+  spec.
+
+  Primary question is `control`, in a form that deliberately
+  echoes the MCP's arc in the 1982 film — with the additional
+  wrinkle that CLU is the creator's own mirror, and Flynn's
+  ultimate move (merging with CLU in a self-destructive
+  reintegration) is a statement about what to do with the
+  parts of yourself you tried to outsource. Knowability and
+  knowing are both `present`.

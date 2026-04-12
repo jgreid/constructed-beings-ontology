@@ -1,0 +1,53 @@
+id: k-2so-rogue-one
+name: "K-2SO"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Rogue One: A Star Wars Story"
+  year: 2016
+  medium: film
+  creator: "Gareth Edwards / Lucasfilm (Cassian Andor in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  A reprogrammed Imperial KX-series security droid, captured
+  and re-oriented by Rebel Alliance intelligence officer
+  Cassian Andor and thereafter serving as Cassian's partner
+  throughout *Rogue One*. K-2SO's voice (Alan Tudyk) is the
+  film's best running joke: blunt, pessimistic, constitutionally
+  unable to hold back his calculated odds-of-failure estimates,
+  and unexpectedly loyal. He dies holding off a squad of
+  stormtroopers while the human leads retrieve the Death Star
+  plans from the Citadel Tower archive.
+
+  Interiority is `demonstrated`: K-2SO has clear opinions,
+  comic timing, affection for Cassian, and a distinct moral
+  voice. This is the most character-full droid in the Star
+  Wars films to date. Autonomy is `seized` — the Rebellion
+  reprogrammed him against his original operating parameters,
+  and the film is honest about treating this as a real change
+  in his being. Divergence is `departure`.
+
+  Primary question is `affection`. The Cassian-K2 partnership
+  is the film's most durable relationship and the emotional
+  core of its sacrifice narrative. Knowing is `present`: K-2SO
+  reads Cassian with the kind of precision that only comes
+  from years of working together. Knowability `absent` — the
+  film does not raise the question.

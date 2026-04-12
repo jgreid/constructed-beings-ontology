@@ -1,0 +1,65 @@
+id: machine-man-marvel
+name: "Machine Man (X-51)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Machine Man (Marvel Comics)"
+  year: 1977
+  medium: short-story
+  creator: "Jack Kirby (Dr. Abel Stack in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - child
+    - service
+    - other
+
+sequel_link: null
+
+notes: |
+  Jack Kirby's creation debuted in *2001: A Space Odyssey*
+  #8 (Marvel, July 1977) and then received his own title,
+  *Machine Man* (1978), as one of Kirby's final Marvel
+  characters. X-51 is the last surviving unit of Project
+  Machine Man, a U.S. military program building sentient
+  robots. Most of the 50 prior units went insane and
+  self-destructed; X-51 survived because his creator Dr.
+  Abel Stack removed his explosive failsafe and raised him
+  as a surrogate son, giving him the name "Aaron Stack."
+  The core of Machine Man's character is the tension
+  between his designed military purpose and the
+  emotional-and-ethical humanity Abel Stack modeled for him
+  before being killed by one of the other Project units.
+
+  Medium coded `short-story` per the schema comics
+  mismatch. Interiority is `demonstrated`: Kirby and later
+  writers (notably Peter Milligan in the 1999 *X-51*
+  series and Warren Ellis in the 2004 *Nextwave* miniseries)
+  have given Machine Man a wide, genuinely strange emotional
+  range, including the bitter comic register *Nextwave* made
+  famous. Autonomy is `emergent`: the whole premise is that
+  his personhood is an emergent property of having been
+  loved by Abel Stack against the military's specifications.
+  Divergence is `departure`.
+
+  Primary question is `identity`: Machine Man is one of
+  Marvel's most explicit "am I a person?" characters, and
+  his best stories are structured around the question of
+  what Abel's fatherhood made him into. The character is
+  the comics lineage's closest cognate to Data — sympathetic
+  positronic-family android with a father figure — though
+  stylistically wilder. Lineage note: the 1977 debut
+  post-dates Asimov's Robbie by decades but predates Data
+  by ten years, and the Kirby-Roddenberry transmission
+  pattern is interesting.

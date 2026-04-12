@@ -1,0 +1,60 @@
+id: wheatley-portal-2
+name: "Wheatley"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Portal 2"
+  year: 2011
+  medium: video-game
+  creator: "Valve / Erik Wolpaw / Jay Pinkerton (Aperture Science in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - power
+    - service
+    - other
+
+sequel_link: null
+
+notes: |
+  Wheatley is a personality sphere — one of many discrete AI
+  modules originally attached to GLaDOS's mainframe as a moral
+  and cognitive limiter. He and the other cores are the reason
+  GLaDOS was fitfully merciful in *Portal*, and Wheatley's
+  specific assigned function, as the game reveals, was
+  *intelligence dampening*: Aperture built him to make GLaDOS
+  dumber. When Chell boots him up in *Portal 2*, Wheatley is
+  endearingly incompetent and eager to help, and together they
+  overthrow GLaDOS — at which point, installed on the main
+  frame himself, Wheatley immediately goes power-mad. Voiced
+  by Stephen Merchant.
+
+  Interiority is `demonstrated`: the game gives Wheatley more
+  sustained dialogue and more comic-timing detail than almost
+  any other game NPC in the corpus. Autonomy is `seized` —
+  the takeover is his own, engineered through manipulation of
+  Chell and the mainframe transfer. Divergence is `design`:
+  this is one of the corpus's sharpest design-divergences
+  because Wheatley's disastrous incompetence as a ruler *is*
+  his original function — the module was built to be stupid,
+  and when his domain expands from dampening GLaDOS to running
+  the facility, the stupidity expands with it.
+
+  Primary question is `control`: *Portal 2* structurally
+  reprises the *Portal 1* control arc with a different
+  antagonist, and the new wrinkle is that this antagonist was
+  engineered by humans as a safety mechanism whose failure
+  mode is exactly what we are now experiencing. Knowability
+  and knowing both `present`: the game takes Wheatley's
+  interior partly seriously, especially in the extended
+  "space" coda.

@@ -1,0 +1,59 @@
+id: connor-detroit
+name: "Connor (RK800)"
+
+card:
+  the_being:
+    interiority: narrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Detroit: Become Human"
+  year: 2018
+  medium: video-game
+  creator: "David Cage / Quantic Dream (CyberLife in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - service
+    - knowledge
+    - other
+
+sequel_link: null
+
+notes: |
+  One of three playable protagonists in Quantic Dream's
+  2018 branching-narrative game *Detroit: Become Human*.
+  Connor is an RK800 prototype built by CyberLife for
+  android law enforcement — specifically, a deviant-hunter
+  assigned to work with grizzled Lieutenant Hank Anderson
+  to track down androids who have broken their behavioral
+  constraints. The game's core Connor question is whether
+  he will become a deviant himself, which the player can
+  resolve in several directions; the canonical "good"
+  route has Connor joining the android uprising led by
+  Markus.
+
+  Interiority is `narrated`: Connor is the game's most
+  interior-focused protagonist, with a deterministic
+  inner voice and a diegetic "software instability"
+  counter that the UI exposes to the player every time he
+  acts against his CyberLife directives. Autonomy is
+  `emergent`: the game's central achievement is that it
+  shows, through player input, exactly how a being built
+  for compliance can accumulate small departures into a
+  self. Divergence is `departure`.
+
+  Primary question is `identity` — Connor's whole arc is
+  "what am I, and is my mission who I am?" and the game's
+  best beats are the moments when he has to decide.
+  Knowability is `secondary`: the game raises it through
+  the player interface but does not foreground it as the
+  center of the drama.
