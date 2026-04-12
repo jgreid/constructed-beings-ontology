@@ -1,6 +1,6 @@
 # Question Analysis — v2.0
 
-Total entries: **163**.
+Total entries: **170**.
 
 v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can we verify its mind?) and `knowing` (can it know us?). This report tracks both, plus the distribution of `primary_question`.
 
@@ -8,10 +8,10 @@ v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| affection          |      45 |
-| control            |      35 |
+| affection          |      49 |
+| control            |      37 |
 | identity           |      33 |
-| rights             |      20 |
+| rights             |      21 |
 | purpose            |      17 |
 | knowledge          |       8 |
 | none               |       5 |
@@ -37,17 +37,18 @@ v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
+| affection          |       5 |
 | identity           |       4 |
-| affection          |       3 |
 | purpose            |       2 |
-| rights             |       1 |
+| rights             |       2 |
+| control            |       1 |
 
 ### Late Modern
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
 | control            |      21 |
-| affection          |      13 |
+| affection          |      14 |
 | identity           |      12 |
 | purpose            |      11 |
 | rights             |       8 |
@@ -58,9 +59,9 @@ v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| affection          |      28 |
+| affection          |      29 |
 | identity           |      17 |
-| control            |      13 |
+| control            |      14 |
 | rights             |      11 |
 | knowledge          |       3 |
 | purpose            |       3 |
@@ -70,19 +71,19 @@ v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can
 
 | Knowability   |   Count |
 |:--------------|--------:|
-| absent        |      58 |
-| present       |      53 |
-| secondary     |      31 |
+| absent        |      60 |
+| present       |      57 |
+| secondary     |      32 |
 | primary       |      21 |
 
 ## 4. Knowing Distribution
 
 | Knowing   |   Count |
 |:----------|--------:|
-| absent    |      47 |
-| present   |      86 |
+| absent    |      48 |
+| present   |      91 |
 | secondary |      10 |
-| primary   |      20 |
+| primary   |      21 |
 
 ## 5. Knowability vs. Knowing Divergence
 
@@ -92,8 +93,11 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 |:-----------------------------------------|:--------------------------------------------------------|-------:|:--------------|:----------|
 | Olympia                                  | Der Sandmann                                            |   1816 | present       | absent    |
 | Hadaly                                   | L'Ève future (Tomorrow's Eve)                           |   1886 | primary       | present   |
+| Moxon's Master                           | Moxon's Master                                          |   1899 | present       | absent    |
+| Adam Link                                | I, Robot (Adam Link series)                             |   1939 | secondary     | present   |
 | Robbie                                   | I, Robot ("Robbie")                                     |   1940 | absent        | present   |
 | The Cyberiad Constructs                  | The Cyberiad                                            |   1965 | present       | absent    |
+| Herbie                                   | The Love Bug                                            |   1968 | absent        | present   |
 | M-5                                      | Star Trek: The Original Series, 'The Ultimate Computer' |   1968 | present       | absent    |
 | The Stepford Wives                       | The Stepford Wives                                      |   1972 | secondary     | absent    |
 | Andrew Martin                            | The Bicentennial Man                                    |   1976 | secondary     | present   |
@@ -123,6 +127,7 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 | JARVIS                                   | Iron Man                                                |   2008 | absent        | present   |
 | Claptrap (CL4P-TP)                       | Borderlands                                             |   2009 | absent        | present   |
 | GERTY                                    | Moon                                                    |   2009 | absent        | present   |
+| BMO                                      | Adventure Time                                          |   2010 | absent        | present   |
 | EDI                                      | Mass Effect 2 / Mass Effect 3                           |   2010 | secondary     | present   |
 | Legion (the Geth)                        | Mass Effect 2                                           |   2010 | secondary     | present   |
 | GLaDOS (Portal 2)                        | Portal 2                                                |   2011 | present       | secondary |
@@ -149,11 +154,12 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 | Connor (RK800)                           | Detroit: Become Human                                   |   2018 | secondary     | present   |
 | Markus (RK200)                           | Detroit: Become Human                                   |   2018 | primary       | present   |
 | Father                                   | Raised by Wolves                                        |   2020 | secondary     | present   |
+| Rehoboam                                 | Westworld (Season 3)                                    |   2020 | present       | primary   |
 | Soji Asha                                | Star Trek: Picard                                       |   2020 | secondary     | present   |
 | M3GAN                                    | M3GAN                                                   |   2022 | secondary     | primary   |
 | Andy                                     | Alien: Romulus                                          |   2024 | secondary     | present   |
 
-**62 of 163 entries diverge.**
+**67 of 170 entries diverge.**
 
 ## 6. Entries by Knowability (chronological)
 
@@ -179,6 +185,7 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 | Robot (Model B-9)                     | Lost in Space                                         |   1965 | affection   |
 | Colossus                              | Colossus                                              |   1966 | control     |
 | Nomad                                 | Star Trek: The Original Series, 'The Changeling'      |   1967 | purpose     |
+| Herbie                                | The Love Bug                                          |   1968 | affection   |
 | C-3PO                                 | Star Wars                                             |   1977 | none        |
 | K-9                                   | Doctor Who                                            |   1977 | affection   |
 | R2-D2                                 | Star Wars                                             |   1977 | control     |
@@ -212,6 +219,7 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 | WALL-E                                | WALL-E                                                |   2008 | affection   |
 | Claptrap (CL4P-TP)                    | Borderlands                                           |   2009 | affection   |
 | GERTY                                 | Moon                                                  |   2009 | control     |
+| BMO                                   | Adventure Time                                        |   2010 | affection   |
 | Atlas and P-body                      | Portal 2 (co-op campaign)                             |   2011 | purpose     |
 | Baymax                                | Big Hero 6                                            |   2014 | affection   |
 | CASE                                  | Interstellar                                          |   2014 | affection   |
@@ -228,7 +236,10 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 | The Creature                             | Frankenstein; or, The Modern Prometheus                             |   1818 | affection   |
 | The Homunculus                           | Faust, Part Two                                                     |   1832 | identity    |
 | Pinocchio                                | Le avventure di Pinocchio (Adventures of Pinocchio)                 |   1883 | identity    |
+| Moxon's Master                           | Moxon's Master                                                      |   1899 | control     |
+| Helen O'Loy                              | Helen O'Loy                                                         |   1938 | affection   |
 | Jim Hammond (The Original Human Torch)   | Marvel Comics #1                                                    |   1939 | identity    |
+| Jenkins                                  | City                                                                |   1944 | affection   |
 | EPICAC                                   | EPICAC                                                              |   1950 | affection   |
 | R. Daneel Olivaw                         | The Caves of Steel and sequels                                      |   1953 | rights      |
 | Multivac                                 | Multivac stories (1955–1975)                                        |   1955 | knowledge   |
@@ -277,11 +288,13 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 | Kara (AX400)                             | Detroit: Become Human                                               |   2018 | affection   |
 | L3-37                                    | Solo: A Star Wars Story                                             |   2018 | rights      |
 | IG-11                                    | The Mandalorian                                                     |   2019 | affection   |
+| Rehoboam                                 | Westworld (Season 3)                                                |   2020 | control     |
 
 ### knowability = secondary
 
 | Entity                                   | Source                                                 |   Year | Primary Q   |
 |:-----------------------------------------|:-------------------------------------------------------|-------:|:------------|
+| Adam Link                                | I, Robot (Adam Link series)                            |   1939 | rights      |
 | The Stepford Wives                       | The Stepford Wives                                     |   1972 | control     |
 | Andrew Martin                            | The Bicentennial Man                                   |   1976 | rights      |
 | Tron                                     | Tron                                                   |   1982 | purpose     |
@@ -350,7 +363,7 @@ For knowability and knowing, tracking the earliest year each level appears.
 |:----------|-------------:|:-------------------------------------|
 | absent    |         -750 | The Golden Handmaidens of Hephaestus |
 | present   |         1816 | Olympia                              |
-| secondary |         1972 | The Stepford Wives                   |
+| secondary |         1939 | Adam Link                            |
 | primary   |         1886 | Hadaly                               |
 
 ### Knowing

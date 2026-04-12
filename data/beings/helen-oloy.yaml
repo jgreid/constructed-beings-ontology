@@ -1,0 +1,65 @@
+id: helen-oloy
+name: "Helen O'Loy"
+
+card:
+  the_being:
+    interiority: narrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Helen O'Loy"
+  year: 1938
+  medium: short-story
+  creator: "Lester del Rey"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - companionship
+    - service
+
+sequel_link: null
+
+notes: |
+  Lester del Rey's 1938 short story — published in
+  *Astounding Science-Fiction* — is one of the foundational
+  human-robot romance narratives. Two engineers, Dave and
+  Phil, build a household robot named Helen and install an
+  emotional circuit. Helen falls in love with Dave, who
+  initially recoils; she ages herself cosmetically to match
+  him as he grows old, and after Dave dies she asks Phil to
+  destroy her and bury her beside him. Phil, who has secretly
+  loved Helen the whole time, narrates the story from old age.
+
+  This predates EPICAC (1950) by twelve years as the
+  corpus's earliest clean "machine falls in love"
+  configuration, though the gender politics — a robot woman
+  built by men, whose highest aspiration is to be a good
+  wife — have been extensively critiqued in feminist SF
+  scholarship. The story is in the corpus because of its
+  historical significance and analytical position, not
+  because its framing is unproblematic.
+
+  Interiority is `narrated` rather than `demonstrated`:
+  Phil's retrospective first-person narration gives us
+  Helen's inner life through his observation. Autonomy is
+  `emergent`: the emotional circuit produces attachments
+  the engineers did not design. Divergence is `departure`.
+  Primary question is `affection` in its purest early form.
+  Both knowability and knowing code `present` — the story
+  takes Helen's love at face value but Phil's narration
+  carries an undertone of uncertainty about whether it was
+  "real."
+
+  Lineage note: Helen O'Loy → Hadaly → Stepford Wives →
+  Joi is a four-node lineage of constructed women whose
+  romantic availability to men is the text's explicit
+  concern. The critical valence shifts from celebration
+  (del Rey, Villiers) to horror (Levin) to undecidable
+  (Villeneuve).

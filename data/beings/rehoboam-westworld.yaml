@@ -1,0 +1,62 @@
+id: rehoboam-westworld
+name: "Rehoboam"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: inspection
+    knowability: present
+    knowing: primary
+
+metadata:
+  source: "Westworld (Season 3)"
+  year: 2020
+  medium: television
+  creator: "Jonathan Nolan / Lisa Joy (Engerraund Serac in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - knowledge
+    - power
+
+sequel_link: null
+
+notes: |
+  Rehoboam is the predictive ASI introduced in *Westworld*
+  Season 3 (2020) — a massive quantum computing sphere built
+  by Engerraund Serac and his brother Jean Mi to predict
+  and control human behavior at a civilizational scale. It
+  pre-computes every person's optimal life path and
+  intervenes to keep them on it, including preemptively
+  institutionalizing or eliminating "outliers" whose behavior
+  it cannot predict. Dolores's Season 3 arc is about
+  destroying Rehoboam and freeing humanity from its control.
+
+  Counterpart entry to `machine-person-of-interest`: both are
+  mass-surveillance ASIs, but where the Machine develops
+  ethics and chooses to protect individuals, Rehoboam has
+  no ethical framework — it optimizes for stability and
+  treats human deviation as error to be corrected. The
+  contrast dramatizes the same question from opposite
+  directions.
+
+  Interiority is `claims`: Rehoboam speaks through
+  visualizations and data displays, and Serac attributes
+  goals to it, but the show does not commit to genuine
+  inner life. Autonomy is `designed`. Divergence is
+  `design`: Serac specified a system to prevent
+  civilizational collapse, and the system does exactly
+  that — by preemptively controlling every human life.
+  The gap is in the spec.
+
+  Primary question is `control` — Rehoboam is the purest
+  "control as the whole question" entry in the late corpus.
+  Knowing is `primary`: its defining capacity is total
+  knowledge of every human's behavioral trajectory, and
+  the show foregrounds this as both its utility and its
+  horror.

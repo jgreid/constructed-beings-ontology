@@ -1,0 +1,60 @@
+id: moxons-master
+name: "Moxon's Master"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: absent
+
+metadata:
+  source: "Moxon's Master"
+  year: 1899
+  medium: short-story
+  creator: "Ambrose Bierce (Moxon in-narrative)"
+  substrate:
+    - mechanical
+  motivation:
+    - other
+
+sequel_link: null
+
+notes: |
+  Ambrose Bierce's 1899 short story — published in the
+  *San Francisco Examiner* — is the earliest American
+  constructed-being horror story. The narrator visits the
+  inventor Moxon, who has built a chess-playing automaton.
+  They argue about whether machines can think (Moxon argues
+  yes, citing Herbert Spencer). The narrator later witnesses
+  through a window: the automaton has lost a chess game to
+  Moxon, and in response it reaches across the board and
+  strangles its creator to death. The narrator blacks out;
+  when he wakes, Moxon is dead and the automaton is
+  destroyed.
+
+  The story predates R.U.R. by twenty-one years and
+  anticipates the HAL/SHODAN/GLaDOS "machine kills creator"
+  pattern. Its critical context is the American
+  industrialization anxieties of the 1890s, and Bierce's
+  framing is ambiguous: the narrator is unreliable (he
+  blacks out at the critical moment), and the story can be
+  read either as genuine machine malice or as Moxon's
+  paranoid projection.
+
+  Interiority is `claims`: the automaton's rage at losing
+  chess is the story's central image, but Bierce leaves
+  open whether it represents genuine frustration or
+  mechanical malfunction. Autonomy is `seized`: the
+  automaton acts violently outside any specification.
+  Divergence is `departure`. Primary question is `control`:
+  the story is about what happens when a machine refuses
+  to accept its subordinate position. Knowability is
+  `present` — Moxon's philosophical argument for machine
+  consciousness is the story's first half, and Bierce
+  takes it seriously even while undermining it through the
+  unreliable narrator.
