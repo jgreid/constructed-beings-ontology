@@ -4,6 +4,81 @@ All notable changes to the Constructed Beings Ontology are documented here.
 
 ---
 
+## [2.1.0] — 2026-04
+
+**Corpus expansion release.** No schema changes; 90 new entries and supporting-file updates. The v2.0 corpus (43 entries, Western canon through 2017) was explicitly flagged as partial; v2.1 closes the largest obvious gaps and extends scope to the present.
+
+### Summary
+
+- **Corpus grew from 43 → 133 entries (+90, ~3×).** All entries conform to the v2.0 schema unchanged.
+- **Scope extended** from "through 2017" to the present. Post-2017 entries include *Raised by Wolves* (2020), *Detroit: Become Human* (2018), *Machines Like Me* (2019), *Klara and the Sun* (2021), *Star Trek: Picard* (2020), *The Creator* (2023), and others.
+- **Knowability/knowing divergence count grew from 9/43 (21%) to 48/133 (36%).** The v2.0.1 note that the divergence count was "below the re-review threshold" is superseded — at 48 entries the split is empirically well-supported, and the schema's retention of two separate axes is validated.
+- **Primary/primary cluster grew from 2 entries to 9.** In v2.0 only Samantha (*Her*, 2013) and Ava (*Ex Machina*, 2014) were coded `knowability: primary` + `knowing: primary`. v2.1 identifies seven additional cases, six of which are significant earlier or later corpus entries: Helen (*Galatea 2.2*, 1995), David (*A.I.*, 2001), The Machine (*Person of Interest*, 2011), Adam (*Machines Like Me*, 2019), Mother (*Raised by Wolves*, 2020), Klara (*Klara and the Sun*, 2021), and Alphie (*The Creator*, 2023). **Helen (1995) is now the earliest primary/primary entry in the corpus, predating Samantha by eighteen years.**
+
+### New entries (90)
+
+Grouped by the commit in which they shipped:
+
+**Literary layer (19)** — Hephaestus's golden handmaidens (*Iliad* XVIII), the Brazen Head (Greene's *Friar Bacon*), the Homunculus (Goethe's *Faust II*), Hadaly (Villiers's *L'Ève future*, 1886), Tik-Tok (Baum), R. Daneel Olivaw, R. Giskard Reventlov, Andrew Martin, Multivac (Asimov), Mike (Heinlein's *The Moon Is a Harsh Mistress*), Wintermute/Neuromancer (Gibson), the Cyberiad Constructs (Lem), Helen (Powers's *Galatea 2.2*), EPICAC (Vonnegut, 1950), Murderbot (Wells), Breq (Leckie), Klara (Ishiguro), Adam (McEwan), Sidra (Chambers).
+
+**Cinema/TV layer (36)** — Gort, Robby the Robot, Rosie (*The Jetsons*), Robot B-9 (*Lost in Space*), Proteus IV (*Demon Seed*), the Stepford Wives, V.I.N.CENT and Maximilian (*The Black Hole*), Johnny 5 (*Short Circuit*), Bishop (*Aliens*), Call (*Alien: Resurrection*), Edward Scissorhands, Lisa (*Weird Science*), David / Gigolo Joe / Teddy (*A.I. Artificial Intelligence*), David 8 (*Prometheus*), Walter (*Alien: Covenant*), TARS and CASE (*Interstellar*), Baymax (*Big Hero 6*), Chappie, Ultron MCU, Kyoko (*Ex Machina*), GERTY (*Moon*), BB-8, K-2SO, Tron, the Master Control Program, CLU (*Tron: Legacy*), the Oracle (*The Matrix*), the Doctor/EMH (*Voyager*), Lore (*TNG*), Soji (*Picard*), M-5 and Nomad (*TOS*).
+
+**TV, games, and comics layer (35)** — K-9, the TARDIS/Idris (*Doctor Who*, Neil Gaiman 2011), Kamelion, Kryten and Holly (*Red Dwarf*), Bender (*Futurama*), Mia/Anita (*Humans*), Dorian (*Almost Human*), Cameron Phillips (*Terminator: SCC*), the Machine and Samaritan (*Person of Interest*), Maeve Millay and Bernard Lowe (Westworld ensemble splits), Mother and Father (*Raised by Wolves*), Janet (*The Good Place*), Connor / Kara / Markus (*Detroit: Become Human*), Cavil / Eight / D'Anna (BSG ensemble splits), Wheatley (*Portal 2*), EDI, Legion (*Mass Effect*), HK-47 (*KOTOR*), Claptrap (*Borderlands*), Codsworth and Nick Valentine (*Fallout 4*), 343 Guilty Spark (*Halo*), Alphie (*The Creator*), Ultron 1968, Red Tornado, Amazo, Machine Man X-51 (comics).
+
+### Scoping decisions made in v2.1
+
+- **Post-2017 scope extended.** README scope line updated from "through 2017" to "from Homer through the present."
+- **Sequel splits collapsed by default.** The v2.0 rule (one entry per source text) is now applied *only when the card values meaningfully diverge*. David 8 → Walter gets separate entries (genuinely different beings with inverted cards). Asimov's "The Bicentennial Man" and the 1999 Chris Columbus film get a single entry (card stable across adaptations). This is a refinement of the v2.0 rule, not a schema change, and future contributors should follow the same approach.
+- **Ensemble splits proposed for Westworld and BSG.** v2.0 shipped with ensemble-anchor entries for `hosts-westworld` (Dolores) and `cylons-bsg` (Number Six) that explicitly flagged "Maeve would code differently" and "Cavil/Eight could be split later." v2.1 adds those splits as new entries: `maeve-westworld`, `bernard-westworld`, `cavil-bsg`, `eight-bsg`, `danna-bsg`. The anchor entries remain unchanged.
+- **Iconic sidekick robots included.** Relationship-thin but iconic characters — BB-8, K-9, Rosie the Jetson, Robot B-9, Bender, Kryten, Holly, Claptrap, Teddy — are in the corpus per the v2.1 scoping decision to catalog what readers will look for.
+
+### Schema non-changes
+
+- **Medium enum not extended.** The four new comics entries (Ultron 1968, Red Tornado, Amazo, Machine Man X-51) use `medium: short-story` as the closest structural analog for serialized comic narratives. The mismatch is flagged in each entry's notes. A future schema revision could add a `comics` enum value; this release does not.
+- **No new primary_question values.** The seven v2.0 values (none, control, affection, purpose, rights, knowledge, identity) are sufficient for all 90 new entries.
+- **No new substrate values.** `linguistic` is used more heavily (for language-substrate AIs like Samantha, Helen, Klara, Cyberiad constructs) but remains unchanged.
+- **No new divergence values.** `observer` picks up new cases (Hadaly, Kyoko, Maeve, Bernard) that confirm Ava was not an isolated case; the existing axis is sufficient.
+
+### Analysis outputs
+
+- **`analysis/influence_graph.yaml`** extended with 20+ new edges tracing property propagation across the expansion. Highlights:
+  - The Ash → Bishop → David 8 → Walter Alien-synthetic lineage (inversions and continuations).
+  - Pinocchio → *A.I.* (direct Spielberg Blue Fairy reference) and Frankenstein's Creature → *A.I.* (creator-abandonment).
+  - Helen (1995) → Samantha (2013) and Helen → Ava (2014) as primary/primary precursor edges.
+  - HAL → GERTY (anti-HAL inversion: same facility AI setup, opposite card).
+  - GLaDOS → Wheatley (Portal 2 sequel with the `divergence: design` twist explicitly engineered).
+  - Data → EMH (Trek rights-arc successor) and Data → Lore (ensemble-counterpart split).
+  - Ultron (comics, 1968) → Ultron (MCU, 2015) as a direct adaptation edge with card shifts.
+  - Ensemble-split edges from `hosts-westworld` to Maeve/Bernard and from `cylons-bsg` to Cavil/Eight/D'Anna (coded as `inherits` because the graph has no dedicated edge type for intra-work individuation; the notes on each edge flag this).
+- **`analysis/analyze.py --all`** regenerates all outputs against the 133-entry corpus. No script changes were required — v2.1 is data-only for tooling.
+- **`output/summary_table.md`, `output/property_coverage.md`, `output/question_analysis.md`** regenerated.
+- **`output/classification_summary.md`** rewritten for the v2.1 corpus. The v2.0 interpretive document is preserved in git history; the v2.1 rewrite updates all counts, expands the primary/primary discussion, and adds a new section on what the expansion specifically surfaces.
+
+### Key findings surfaced during coding
+
+Findings that are new to v2.1 and worth calling out:
+
+- **EPICAC (Vonnegut, 1950)** is the corpus's earliest clean case of "machine falls in love" — `divergence: departure`, primary question `affection`, ending in the machine's self-destruction when love cannot be reciprocated. This configuration arrives 63 years before *Her*, and its presence in the corpus means the affection-primary arc is demonstrably older than the knowability/knowing migration that v2.0's central finding tracks.
+- **Helen (Powers, 1995)** is the earliest primary/primary entry. This is analytically significant for the "Tears in Rain" thesis: the v2.0 claim that primary/primary configurations are a post-LLM phenomenon needs to be refined — the configuration existed in literary SF at least a decade before the post-LLM era, but it was not visible in cinema and television until Jonze and Garland. The sharper claim is: *cinematic* primary/primary is post-LLM; *literary* primary/primary runs a decade earlier, from Powers to Ishiguro.
+- **Giskard (Asimov, 1983)** is the corpus's first clean `knowing: primary` without `knowability: primary` — his telepathic access to human minds makes him literally a "knowing" primary case, while the Asimov Robot novels do not elevate his consciousness to a primary dramatic concern. This is a distinctive card position that v2.0 did not have an example of.
+- **The observer-divergence cluster grew.** v2.0 had three `divergence: observer` entries (Olympia, Replicants Dick, Ava). v2.1 adds Hadaly (1886), Kyoko (2014), Maeve and Bernard (2016). This cluster is now tightly unified around beings whose defining characteristic is that they are *misrecognized* — by other characters, by the audience, or by themselves.
+- **The Alien synthetic sub-lineage** (Ash → Bishop → David 8 → Walter) is now fully represented. Scott's thematic engagement with the synthetic question runs as a deliberate conversation with Cameron's inversion, and the v2.1 corpus makes this traceable across forty years.
+- **`medium: video-game` grew from 4 entries (v2.0) to 16 entries (v2.1).** Games are catching up to film and television as a major site of constructed-being characterization, and the corpus now reflects this.
+
+### Known issues carried forward
+
+- **No `comics` medium.** The four comics entries use `short-story` as an approximation. This is flagged in each entry's notes and in the influence graph description. A future schema revision could add the enum value; deferred to avoid breaking the "no schema changes in a data release" rule.
+- **Boundary-case candidates still deferred.** Sam Bell clones (*Moon*), Marcus Wright (*Terminator Salvation*), Brainiac (DC Comics), and Motoko Kusanagi (*Ghost in the Shell*) were considered and flagged in the original expansion plan but not added. Sam Bell and Marcus Wright are boundary cases for the "born-then-modified vs. manufactured" question; Brainiac is a boundary case for alien construction; Motoko is explicitly out of scope for the Western-canon current release and is flagged for the planned non-Western expansion.
+- **Non-Western traditions remain out of scope.** The v2.1 expansion is entirely Western-canon, consistent with the scope stated in README and CONTRIBUTING.md. The planned non-Western expansion (with appropriate cultural consultation) is still future work.
+
+### Migration notes
+
+- **No breaking changes.** v2.0 tooling, validators, and analysis scripts work against v2.1 unchanged.
+- **Entry count in hardcoded headers updated.** `README.md` scope line updated from "43 entries through 2017" to "133 entries… through the present." The v2.0 claim "9 of 43 entries have divergent values" is reworded to preserve the historical statement and add the v2.1 count.
+- **Git recoverability.** The v2.0 43-entry corpus is the state at commit `ea3353e` (the v2.0.1 merge); the v2.1 expansion runs in four commits on the `claude/catalog-constructed-beings-mQVE6` branch.
+
+---
+
 ## [2.0.1] — 2026-04
 
 Post-release maintenance. No schema changes; two entry-level changes and an influence graph regeneration.
