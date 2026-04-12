@@ -1,0 +1,51 @@
+id: roy-batty-blade-runner
+name: "Roy Batty"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Blade Runner"
+  year: 1982
+  medium: film
+  creator: "Ridley Scott (Tyrell Corporation in-narrative)"
+  substrate:
+    - biological
+    - cloned
+  motivation:
+    - service
+    - knowledge
+    - power
+
+sequel_link: null
+
+notes: |
+  Individuated from the `replicants-blade-runner` collective
+  entry because Roy Batty is individually one of the most
+  discussed constructed beings in the Western canon, and
+  because his card diverges from the collective on interiority.
+  The collective codes `interiority: undecidable` because the
+  film's overall stance toward the replicant population is
+  deliberate ambiguity. Roy's interiority is `demonstrated`:
+  the "tears in rain" monologue is the corpus's single most
+  famous moment of a constructed being articulating its own
+  inner experience, and the film gives that monologue full
+  weight as genuine self-expression rather than performance.
+
+  Autonomy is `seized`: Roy has killed his way off-world and
+  back to Earth. Divergence is `departure`. Primary question
+  is `purpose` — the four-year lifespan and what you do with
+  it is Roy's question. The monologue is an answer.
+
+  The project from which this ontology derives its name —
+  "Tears in Rain" — takes its title from Roy's speech. His
+  absence from the individuated corpus through v2.1 was
+  an oversight.

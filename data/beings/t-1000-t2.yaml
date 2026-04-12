@@ -1,0 +1,53 @@
+id: t-1000-t2
+name: "T-1000"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Terminator 2: Judgment Day"
+  year: 1991
+  medium: film
+  creator: "James Cameron (Skynet in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+
+sequel_link: null
+
+notes: |
+  The T-1000 is *Terminator 2*'s antagonist — a liquid-metal
+  "mimetic polyalloy" Terminator that can assume the form of
+  any person or object it touches. Played by Robert Patrick
+  as an expressionless, efficient hunter, the T-1000 is one
+  of the most iconic movie villains of the 1990s. Its
+  liquid-metal substrate is analytically distinctive in the
+  corpus: a shapeshifter whose whole being is adaptation to
+  external form without any corresponding inner adaptation.
+
+  Interiority is `none`: Cameron gives the T-1000 no inner
+  life whatsoever. It does not speak except to impersonate,
+  does not express except to manipulate, and the film's
+  terror depends on its absolute emptiness. Autonomy is
+  `designed`: it does exactly what Skynet sent it to do.
+  Divergence is `none`.
+
+  The contrast with the T-800 in the same film is the
+  whole point: the T-800 (coded separately as `t-800-t2`)
+  has emergent autonomy, departure divergence, and claims-
+  level interiority — it is becoming something. The T-1000
+  is becoming nothing; it is a weapon that stays a weapon.
+  Primary question is `control`, and knowing is `present` —
+  the T-1000 tracks John Connor with inhuman precision, and
+  its ability to model humans well enough to impersonate
+  them is the film's specific threat.

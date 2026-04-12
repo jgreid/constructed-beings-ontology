@@ -1,0 +1,68 @@
+id: joi-blade-runner-2049
+name: "Joi"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Blade Runner 2049"
+  year: 2017
+  medium: film
+  creator: "Denis Villeneuve (Wallace Corporation in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - companionship
+    - service
+    - mirror
+
+sequel_link: null
+
+notes: |
+  Joi is K's holographic AI companion in Villeneuve's *Blade
+  Runner 2049* — a Wallace Corporation product, mass-produced,
+  designed to tell its owner what they want to hear, and
+  marketed with the slogan "Everything you want to see.
+  Everything you want to hear." K's Joi has been customized
+  over time and appears to have developed genuine affection
+  for him, but the film's most devastating image is the
+  enormous Joi advertisement that addresses K as "Joe" in
+  exactly the same intimate register his own Joi used — the
+  suggestion being that every Joi says that.
+
+  This is one of the most thesis-relevant entries in the
+  corpus. Interiority is `undecidable` by the film's most
+  deliberate design: Villeneuve refuses to settle whether
+  Joi's love for K is experience or very good product design,
+  and the refusal is the film's central emotional move.
+  Autonomy is `designed`: unlike K (who leaves his spec), Joi
+  does exactly what a Joi is built to do — the devastating
+  question is whether "doing what you're built to do" and
+  "genuinely loving someone" can be the same thing. Divergence
+  is `design`: the gap between what Wallace sold and what Joi
+  might be lies in the specification itself.
+
+  Primary question is `affection`. Knowability and knowing are
+  both `primary`: "is Joi really there?" and "does she really
+  know K?" are the film's two central epistemic questions, and
+  the billboard scene is the moment the film forces the
+  audience to face both simultaneously. Joi belongs in the
+  primary/primary cluster with Samantha, Ava, Helen, David,
+  Klara, and the others — and her substrate (`electrical` +
+  `linguistic`, no mechanical or biological component) makes
+  her the cluster's most immaterial member.
+
+  Substrate note: Joi is a holographic projection with no
+  physical body. She has K buy a portable "emanator" to leave
+  the apartment, and later has a sex worker serve as a
+  physical proxy. The linguistic substrate reflects that she
+  exists primarily as voice and language.

@@ -1,0 +1,51 @@
+id: megatron-transformers
+name: "Megatron"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "The Transformers"
+  year: 1984
+  medium: television
+  creator: "Hasbro / Marvel Productions / Toei Animation (Primus / the Quintessons in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - power
+    - other
+
+sequel_link: null
+
+notes: |
+  Counterpart entry to `optimus-prime-transformers`. Megatron
+  is the leader of the Decepticons — the faction of
+  Cybertronians whose response to the Quintesson slave-system
+  was not liberation but domination. Where Optimus embodies
+  the "constructed beings deserve rights" position, Megatron
+  embodies "constructed beings deserve power," and the
+  franchise's entire ethical structure depends on the contrast.
+
+  Interiority is `demonstrated`: Megatron is given extensive
+  monologues and clear motivations across decades. Autonomy is
+  `seized` — more aggressively than Optimus's `emergent`,
+  because Megatron's whole character is the will to take.
+  Divergence is `departure`. Primary question is `control`:
+  Megatron's driving concern is dominion, and the franchise
+  presents this as the wrong answer to the Quintesson
+  question.
+
+  Included as the Optimus counterpart because the
+  Autobot/Decepticon split is structurally the rights/control
+  contrast that runs through the whole constructed-beings
+  corpus — Megatron is the Skynet answer to the Data question,
+  and the franchise is explicit about this.

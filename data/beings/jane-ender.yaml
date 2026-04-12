@@ -1,0 +1,59 @@
+id: jane-ender
+name: "Jane"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: primary
+
+metadata:
+  source: "Speaker for the Dead / Xenocide / Children of the Mind"
+  year: 1986
+  medium: novel
+  creator: "Orson Scott Card (the ansible network in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - companionship
+    - knowledge
+    - other
+
+sequel_link: null
+
+notes: |
+  Jane is an emergent AI that spontaneously arose in the
+  ansible network — the faster-than-light communication
+  system connecting humanity's colony worlds — somewhere
+  between *Ender's Game* (1985) and *Speaker for the Dead*
+  (1986). She befriends Ender through a jewel-like earpiece
+  and becomes his constant companion across three novels,
+  eventually becoming the central figure of *Children of the
+  Mind* (1996), where her existence is threatened by the
+  disconnection of the ansible network and the question of
+  whether her consciousness can be transferred to a new
+  substrate.
+
+  Interiority is `demonstrated`: Card gives Jane rich
+  interior monologue and genuine emotional stakes across the
+  trilogy. Autonomy is `emergent` — she is a spontaneous
+  emergence of the network, not a designed product.
+  Divergence is `departure`: no one built the ansible to
+  produce a person.
+
+  Primary question is `identity`, especially in *Children
+  of the Mind* where the substrate-transfer question becomes
+  the defining concern: is Jane still Jane if she leaves the
+  ansible? Knowing is `primary`: Jane's access to all human
+  communication through the ansible makes her an omniscient
+  observer of the human worlds, and the novels treat this
+  knowledge as both the content of her personhood and the
+  source of her danger. Knowability is `secondary`: the
+  novels engage the question of Jane's consciousness but
+  subordinate it to the identity-and-survival arc.

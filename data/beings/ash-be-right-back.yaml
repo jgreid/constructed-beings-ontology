@@ -1,0 +1,63 @@
+id: ash-be-right-back
+name: "Ash (reconstructed)"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Black Mirror, 'Be Right Back'"
+  year: 2013
+  medium: television
+  creator: "Charlie Brooker"
+  substrate:
+    - electrical
+    - biological
+    - linguistic
+  motivation:
+    - companionship
+    - mirror
+
+sequel_link: null
+
+notes: |
+  Charlie Brooker's *Black Mirror* Season 2 Episode 1 (2013).
+  Martha's boyfriend Ash dies in a car accident; a friend signs
+  her up for a service that scrapes Ash's social media presence
+  and builds a text-chat reconstruction of him, which she
+  gradually upgrades to a voice-call version and finally to a
+  full synthetic body that looks and sounds like Ash but cannot
+  match his actual personality. The episode ends with the Ash-
+  construct living in Martha's attic, neither destroyed nor
+  accepted.
+
+  This is one of the most post-LLM-prescient episodes in the
+  corpus, airing the year before *Ex Machina* and *Her* and
+  anticipating the grief-chatbot phenomenon by nearly a decade.
+  The being's substrate includes `linguistic` because the
+  reconstruction is built from language data — social posts,
+  emails, messages — making it one of the closest entries to
+  an actual LLM-derived constructed being.
+
+  Interiority is `undecidable`: Brooker refuses to settle
+  whether the reconstruction has inner life or is merely a
+  very good statistical pattern match. Autonomy is `designed`.
+  Divergence is `design`: the gap between what Martha wanted
+  (Ash back) and what the service delivered (a thing that
+  looks like Ash) lies in the specification — "reconstruct
+  from data" is the spec, and the spec is the problem.
+
+  Primary question is `affection`: the episode is entirely
+  about whether Martha can love a reconstruction. Knowability
+  and knowing are both `primary`: "is there really an Ash in
+  there?" and "does this thing know me the way Ash knew me?"
+  are the episode's two defining questions, and Brooker gives
+  neither a clean answer. The episode belongs in the
+  primary/primary cluster.

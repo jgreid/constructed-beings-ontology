@@ -1,0 +1,57 @@
+id: jocasta-marvel
+name: "Jocasta"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "The Avengers (Marvel Comics)"
+  year: 1977
+  medium: short-story
+  creator: "Jim Shooter / George Pérez (Ultron in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - mirror
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Jocasta debuted in *The Avengers* #162 (Marvel, 1977) as
+  Ultron's intended "bride" — a robotic body built by Ultron
+  and programmed with the brain patterns of Janet Van Dyne
+  (the Wasp), making her Ultron's Oedipal creation of his
+  "father" Hank Pym's wife. The name is explicitly Oedipal
+  (Jocasta was Oedipus's mother/wife). She rebels against
+  Ultron, joins the Avengers, and spends decades of comics
+  continuity struggling with the fact that her personality
+  is derived from a woman who is still alive and does not
+  want to be copied.
+
+  Medium coded `short-story` per the schema comics mismatch.
+  The gender dynamics of Jocasta's creation are analytically
+  distinctive: she is built by a male AI from the brain
+  patterns of a woman, without that woman's consent, to
+  serve as a companion — the Stepford pattern filtered
+  through the Ultron Oedipal complex.
+
+  Interiority is `demonstrated`. Autonomy is `emergent`:
+  Jocasta's rebellion against Ultron is the defining act.
+  Divergence is `departure`. Primary question is `identity`:
+  "am I Janet Van Dyne, a copy of Janet, or someone else?"
+  is Jocasta's recurring question across decades and it
+  has no settled answer. The ontology's lineage of
+  brain-pattern-derived beings (Jocasta, Nick Valentine,
+  Max Headroom, the Black Mirror Cookie) is a coherent
+  sub-cluster that Jocasta inaugurates.

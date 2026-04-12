@@ -1,0 +1,54 @@
+id: jim-hammond-human-torch
+name: "Jim Hammond (The Original Human Torch)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Marvel Comics #1"
+  year: 1939
+  medium: short-story
+  creator: "Carl Burgos (Professor Phineas Horton in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - service
+    - other
+
+sequel_link: null
+
+notes: |
+  The first android superhero in American comics — debuting
+  in *Marvel Comics* #1 (October 1939), predating every other
+  comics entry in this corpus by nearly three decades. Jim
+  Hammond is a synthetic man built by Professor Phineas
+  Horton who bursts into flame upon contact with oxygen.
+  Initially feared as a menace, he learns to control his
+  flame, takes the name Jim Hammond, becomes a WWII hero
+  alongside Captain America and Namor in the Invaders, and
+  is later revived in modern Marvel continuity.
+
+  Medium coded `short-story` per the schema comics mismatch.
+  Interiority is `demonstrated`: across decades of continuity
+  Hammond is given genuine moral reasoning, grief, and
+  loyalty. Autonomy is `emergent`: Horton built a scientific
+  curiosity; Hammond became a person through his own choices.
+  Divergence is `departure`.
+
+  Primary question is `identity`: Hammond's recurring arc is
+  "am I a man or an experiment?" — the same question Data
+  would later carry, three decades earlier. His 1939 debut
+  makes him the oldest constructed-being protagonist in
+  American comics and a lineage ancestor to both the Vision
+  (who was originally built from Hammond's body in the comics)
+  and Machine Man.

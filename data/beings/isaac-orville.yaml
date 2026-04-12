@@ -1,0 +1,59 @@
+id: isaac-orville
+name: "Isaac"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "The Orville"
+  year: 2017
+  medium: television
+  creator: "Seth MacFarlane (the Kaylon in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - knowledge
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Isaac is a Kaylon — a species of artificial beings who
+  exterminated their biological creators — serving as the
+  science and engineering officer aboard the USS *Orville*
+  in Seth MacFarlane's Star Trek homage (2017–present). The
+  show's most sustained character arc runs through Isaac:
+  he develops a relationship with Dr. Claire Finn and her
+  sons, appears to genuinely care for them, and then faces
+  a crisis when the Kaylon fleet attacks Earth and Isaac must
+  choose between his species and his adopted human family.
+
+  Isaac is explicitly the show's Data analog, but with a
+  darker twist: Data's people (Soong-type androids) are
+  rare and sympathetic, while Isaac's people committed
+  genocide. The show uses this to push the rights question
+  harder than *TNG* typically did — "does Isaac deserve
+  rights even though his species is monstrous?" is a
+  question *TNG* never had to ask about Data.
+
+  Interiority is `demonstrated`: the show gives Isaac clear
+  emotional development over multiple seasons, though he
+  frames his actions in computational terms. Autonomy is
+  `designed` — Isaac operates within Kaylon parameters, but
+  his choice to betray the Kaylon fleet is the show's
+  defining moral moment. Divergence is `departure`.
+
+  Primary question is `rights`: the show explicitly stages
+  anti-Isaac prejudice after the Kaylon attack and treats
+  the crew's gradual re-acceptance as a civil-rights
+  allegory. Knowability `secondary`, knowing `present`.

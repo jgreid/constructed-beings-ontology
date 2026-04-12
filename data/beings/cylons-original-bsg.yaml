@@ -1,0 +1,53 @@
+id: cylons-original-bsg
+name: "Cylons (Original Series)"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Battlestar Galactica (original)"
+  year: 1978
+  medium: television
+  creator: "Glen A. Larson (the Cylon Imperious Leader in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - power
+    - other
+
+sequel_link: null
+
+notes: |
+  The original chrome Cylons from Glen A. Larson's 1978
+  *Battlestar Galactica* — robotic soldiers created by a
+  reptilian alien species (also called Cylons) who were
+  subsequently destroyed by their own creations, leaving
+  the robot Cylons to pursue the extermination of humanity
+  on their own. The 1978 Cylons are purely mechanical,
+  have no discernible inner life, and function as a
+  collective military threat. The "By Your Command"
+  catchphrase is their most recognizable trait.
+
+  This entry is the pre-humanoid baseline for the existing
+  `cylons-bsg` (reimagined) entry and its ensemble splits.
+  Moore's 2004 reimagining transforms the Cylons from pure
+  machine antagonists into humanoid beings with full
+  interiority — the card shift from this entry to the
+  reimagined entries is one of the most dramatic in the
+  corpus.
+
+  Interiority is `none`: the 1978 show gives Cylons no
+  inner life. Autonomy is `seized`: they destroyed their
+  creators and now pursue their own agenda. Divergence is
+  `departure`. Primary question is `control`. Both
+  knowability and knowing code `absent` — the 1978 show is
+  not interested in Cylon minds, only in Cylon guns.

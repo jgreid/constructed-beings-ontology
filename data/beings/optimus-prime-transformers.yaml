@@ -1,0 +1,56 @@
+id: optimus-prime-transformers
+name: "Optimus Prime"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "The Transformers"
+  year: 1984
+  medium: television
+  creator: "Hasbro / Marvel Productions / Toei Animation (Primus / the Quintessons in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - knowledge
+    - other
+
+sequel_link: null
+
+notes: |
+  Optimus Prime is the leader of the Autobots — one of two
+  factions of sentient transforming robots originating from
+  the planet Cybertron — and arguably the single most famous
+  constructed being in Western pop culture. This entry covers
+  the Generation 1 (1984) animated series and its direct
+  continuities. In G1 lore the Transformers were manufactured
+  by the Quintessons as slave labor (the R.U.R. pattern); in
+  later continuities they were created by Primus (the divine
+  pattern). Both satisfy the "made, not born" criterion.
+
+  Interiority is `demonstrated`: Optimus is given the fullest
+  moral interior of any character in the franchise, including
+  explicit self-doubt, grief, and ethical reasoning across
+  decades of characterization. Autonomy is `emergent`: the
+  Autobot revolt against the Quintessons is the foundational
+  myth of the franchise. Divergence is `departure`.
+
+  Primary question is `rights` — the Autobot-Decepticon war
+  is, at its origin, a slave rebellion, and the franchise
+  keeps returning to "what do constructed beings owe each
+  other and themselves?" Coded from the G1 continuity which
+  is the analytically cleanest version; the Bayverse films
+  would code somewhat differently. Substrate is `mechanical`
+  + `electrical` — alien-origin but the construction frame
+  is consistent with the inclusion of Talos and Pandora
+  (divine-origin).

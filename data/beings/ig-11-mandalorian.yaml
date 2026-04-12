@@ -1,0 +1,54 @@
+id: ig-11-mandalorian
+name: "IG-11"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "The Mandalorian"
+  year: 2019
+  medium: television
+  creator: "Jon Favreau (Kuiil in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - child
+
+sequel_link: null
+
+notes: |
+  IG-11 is introduced in *The Mandalorian* Season 1 (2019)
+  as a bounty hunter droid — an IG-series assassin unit sent
+  to kill the Child (Grogu) — who is destroyed by Din Djarin,
+  recovered by the Ugnaught farmer Kuiil, and painstakingly
+  reprogrammed as a nursemaid and protector. Voiced by Taika
+  Waititi. The reprogramming arc is one of the series' most
+  affecting subplots, and IG-11's self-destruction to protect
+  the Child in the Season 1 finale is one of the show's
+  emotional high points.
+
+  Interiority is `demonstrated`: the reprogrammed IG-11 has
+  clear protective concern, gentle humor, and a distinct
+  register that differs from his original assassin state.
+  Autonomy is `emergent` — the reprogramming is literal but
+  Kuiil's patient re-teaching reads as nurture rather than
+  programming, and the show presents the result as a being
+  rather than a tool. Divergence is `departure`.
+
+  Primary question is `affection`: IG-11's bond with the
+  Child and with Kuiil is the emotional content. The card
+  is close to the Johnny 5 / Bishop lineage — a weapon
+  reprogrammed into a protector — and the self-sacrifice
+  ending echoes the Iron Giant. Knowability `present`:
+  the show briefly raises whether the reprogrammed IG-11
+  is "really" different from the assassin version.

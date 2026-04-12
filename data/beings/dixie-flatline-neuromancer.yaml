@@ -1,0 +1,58 @@
+id: dixie-flatline-neuromancer
+name: "Dixie Flatline (McCoy Pauley construct)"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: observer
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Neuromancer"
+  year: 1984
+  medium: novel
+  creator: "William Gibson (Sense/Net in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - mirror
+    - service
+
+sequel_link: null
+
+notes: |
+  Companion entry to `wintermute-neuromancer`. Dixie
+  Flatline — the "McCoy Pauley construct" — is a ROM
+  recording of a dead console cowboy (hacker), stored in a
+  ROM cartridge and loaned to Case as a technical consultant
+  during the Straylight Run. Dixie speaks in his own voice,
+  cracks jokes, has his own style and memories, and
+  explicitly asks Case to erase him when the run is over —
+  "I'm not anything… I'm just a ROM recording."
+
+  The boundary question "is a recording of a dead person a
+  constructed being?" is answered yes: Dixie was made
+  (recorded and instantiated by Sense/Net), is agent-like
+  (goal pursuit, language, decision-making throughout the
+  run), and has narrative presence. Interiority is `claims`:
+  Dixie says he feels nothing and asks to be erased, but he
+  also makes choices and expresses preferences that go beyond
+  simple playback. Divergence is `observer`: Dixie thinks he
+  is (or was) McCoy Pauley, and the novel keeps open the
+  question of whether that identity claim is accurate or
+  whether the construct is something else wearing Pauley's
+  style.
+
+  Primary question is `identity`: "is this thing McCoy
+  Pauley?" is the novel's most direct identity question,
+  and Dixie's own answer — "I'm not anything" — is the
+  novel's only moment of a being disclaiming its own
+  personhood. That this comes from the same novel as
+  Wintermute's desperate quest for personhood is one of
+  Gibson's sharpest structural contrasts.

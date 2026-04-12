@@ -1,0 +1,54 @@
+id: atlas-p-body-portal-2
+name: "Atlas and P-body"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Portal 2 (co-op campaign)"
+  year: 2011
+  medium: video-game
+  creator: "Valve / Erik Wolpaw (GLaDOS in-narrative)"
+  substrate:
+    - electrical
+    - mechanical
+  motivation:
+    - service
+
+sequel_link: null
+
+notes: |
+  Atlas (the blue sphere) and P-body (the orange ovoid) are
+  the two cooperative testing robots GLaDOS builds in *Portal
+  2*'s co-op campaign after deciding that human test subjects
+  are too fragile and too slow. They can be destroyed and
+  rebuilt endlessly, which GLaDOS exploits with open relish.
+  Their whole function is to be disposable, and the co-op
+  campaign's running joke is GLaDOS's increasingly sadistic
+  encouragement as she sends them through lethal test
+  chambers.
+
+  Collective entry: Atlas and P-body function as a pair
+  rather than as individuals, and the co-op campaign does
+  not meaningfully distinguish their personalities. Interiority
+  is `claims`: they emote through gestures and beeps (a
+  high-five animation, a panic response) but the game does
+  not ask the player to credit these as genuine inner life.
+  Autonomy is `designed`, divergence `none`: they do exactly
+  what GLaDOS built them for.
+
+  Primary question is `purpose`: their whole existence is
+  defined by the testing function, and GLaDOS's commentary
+  makes this explicit. The analytical interest is in their
+  disposability — they are the corpus's clearest case of
+  constructed beings whose replaceability is the text's
+  deliberate point. Counterpart to the existing GLaDOS and
+  Wheatley entries.

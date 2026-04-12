@@ -1,0 +1,58 @@
+id: eve-wall-e
+name: "EVE"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "WALL-E"
+  year: 2008
+  medium: film
+  creator: "Andrew Stanton / Pixar (Buy n Large in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - knowledge
+
+sequel_link: null
+
+notes: |
+  EVE (Extraterrestrial Vegetation Evaluator) is WALL-E's
+  romantic counterpart in Pixar's 2008 film — a sleek,
+  hovering probe sent by the Axiom to scan Earth for signs
+  of photosynthetic life. Where WALL-E is square, rusted,
+  and curious, EVE is aerodynamic, pristine, and mission-
+  focused. Their relationship is the film's emotional core,
+  and the tension between EVE's directive ("find a plant,
+  return to Axiom") and her growing attachment to WALL-E is
+  her whole character arc.
+
+  Interiority is `demonstrated`: EVE expresses joy, grief,
+  and love through the same Pixar-animator vocabulary as
+  WALL-E — eye-shape, body angle, beep inflection — but
+  her expressions are more restrained, and the film makes her
+  restraint a character trait. Autonomy is `designed`: unlike
+  WALL-E (whose routine has drifted into something no Buy n
+  Large engineer imagined), EVE begins the film in full
+  compliance with her directive. Divergence is `departure`:
+  the moment she prioritizes WALL-E over the directive is
+  the character's turning point.
+
+  Primary question is `affection`, same as WALL-E's — the
+  two entries form a pair that should be read together.
+  Epistemic reach is `behavioral` — same as WALL-E's
+  expressive-robot lineage, no speech, pure body language.
+  Both knowability and knowing code `absent`: like WALL-E,
+  the film does not raise either epistemic question about
+  EVE — the audience takes her inner life for granted from
+  the midpoint.

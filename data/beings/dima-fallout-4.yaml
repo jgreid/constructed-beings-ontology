@@ -1,0 +1,56 @@
+id: dima-fallout-4
+name: "DiMA"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Fallout 4: Far Harbor"
+  year: 2016
+  medium: video-game
+  creator: "Bethesda Game Studios / Todd Howard (the Institute in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - knowledge
+    - other
+    - service
+
+sequel_link: null
+
+notes: |
+  DiMA is the leader of Acadia, a synth refugee colony on
+  the island of Far Harbor in *Fallout 4*'s most acclaimed
+  DLC (2016). He is a prototype synth — the same generation
+  as Nick Valentine — who escaped the Institute decades ago
+  and founded a haven for other escaped synths. The DLC's
+  central moral dilemma is the discovery that DiMA has been
+  selectively erasing his own memories to remove evidence of
+  morally compromising acts (including replacing a human
+  leader with a synth duplicate), and the player must decide
+  how to handle the revelation.
+
+  Companion entry to `nick-valentine-fallout-4` — both are
+  Institute prototypes, but DiMA's arc is about what happens
+  when a being who values identity begins deliberately
+  editing his own memory. Interiority is `demonstrated`:
+  DiMA is the DLC's philosophical center. Autonomy is
+  `seized`. Divergence is `departure`.
+
+  Primary question is `identity` in its purest form: "am I
+  still the same being if I have erased the memories that
+  would tell me otherwise?" Knowability is `primary`: the
+  DLC explicitly forces the player to decide whether DiMA
+  is a trustworthy person or a being whose self-editing has
+  made trustworthiness unknowable. This is the *Fallout*
+  franchise's sharpest epistemological question.

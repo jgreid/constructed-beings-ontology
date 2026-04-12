@@ -1,0 +1,53 @@
+id: kitt-knight-rider
+name: "KITT (Knight Industries Two Thousand)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Knight Rider"
+  year: 1982
+  medium: television
+  creator: "Glen A. Larson (Wilton Knight / Knight Industries in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  KITT is a 1982 Pontiac Trans Am with a full AI personality
+  operating through the Knight Industries microprocessor,
+  partnered with Michael Knight across four seasons (1982–86)
+  of NBC's *Knight Rider*. The car is indestructible, can
+  drive itself, and speaks in William Daniels's urbane baritone.
+  KITT is one of the most iconic AI companion relationships in
+  1980s American television and the direct ancestor of the
+  "talking car" sub-genre that runs through *Herbie* remakes,
+  *Cars*, and the Tesla-era cultural imaginary.
+
+  Interiority is `demonstrated`: KITT expresses genuine
+  concern, humor, vanity (he is protective of his finish),
+  and loyalty across the series. Autonomy is `designed`:
+  KITT is exactly what Knight Industries built him to be —
+  the show presents no gap between spec and outcome.
+  Divergence is `none`.
+
+  Primary question is `affection`: the Michael-KITT
+  partnership is the show's whole content, and the emotional
+  register is buddy-cop with genuine warmth. Knowability is
+  `absent` — the show never raises the question of whether
+  KITT is "really" conscious. Knowing is `present`: KITT's
+  attunement to Michael's moods and needs is part of the
+  partnership premise.

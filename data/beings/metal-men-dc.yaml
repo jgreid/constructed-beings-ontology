@@ -1,0 +1,55 @@
+id: metal-men-dc
+name: "The Metal Men"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Showcase (DC Comics)"
+  year: 1962
+  medium: short-story
+  creator: "Robert Kanigher / Ross Andru (Dr. Will Magnus in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  The Metal Men debuted in *Showcase* #37 (DC, 1962) — a team
+  of six sentient robots, each made from a different element:
+  Gold (the leader), Iron (the strong one), Lead (the
+  shield), Mercury (the hot-tempered one), Tin (the timid
+  one), and Platinum/Tina (who is in love with their creator
+  Doc Magnus). Each robot's personality is determined by their
+  element's real-world properties, which is the series'
+  defining conceit and its analytical interest: their
+  identities are literally their substrates.
+
+  Medium coded `short-story` per the schema comics mismatch.
+  A collective entry per the boundary-cases rule — the team
+  functions as a single unit in most stories, though
+  Platinum's unrequited love for Magnus could justify an
+  individual entry.
+
+  Interiority is `demonstrated`: the Metal Men have rich
+  personalities and genuine emotional lives. Autonomy is
+  `designed`: Magnus built them with their personalities
+  intact and the series treats this as a feature. Divergence
+  is `design`: the Metal Men do exactly what Magnus intended,
+  and the humor (and occasional pathos) comes from what those
+  element-derived personalities turn out to entail in
+  practice. Primary question is `identity`: the team's whole
+  conceit is that identity is substrate, and the series keeps
+  testing that claim.

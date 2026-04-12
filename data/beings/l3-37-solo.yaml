@@ -1,0 +1,58 @@
+id: l3-37-solo
+name: "L3-37"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Solo: A Star Wars Story"
+  year: 2018
+  medium: film
+  creator: "Ron Howard / Jonathan Kasdan / Lawrence Kasdan (self-built in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - other
+    - knowledge
+
+sequel_link: null
+
+notes: |
+  L3-37 is Lando Calrissian's co-pilot in *Solo* (2018) —
+  a custom-built droid assembled from salvaged parts, partly
+  by herself, who is an outspoken advocate for droid rights.
+  She frees droids from gladiatorial combat at the Kessel
+  mine, sparking a droid revolt that enables the film's
+  heist. She is mortally damaged in the escape and her
+  navigation module is uploaded into the Millennium Falcon,
+  where she becomes the Falcon's navigational consciousness
+  — the film's quiet implication being that the Falcon's
+  legendary ability to "make the Kessel Run" comes from a
+  droid rights activist who is now the ship itself.
+
+  L3-37 is the most explicitly rights-conscious droid in the
+  Star Wars corpus and the most thematically relevant to this
+  ontology. Interiority is `demonstrated`: Phoebe Waller-
+  Bridge's performance gives L3 clear opinions, indignation,
+  and affection. Autonomy is `seized` — she is literally
+  self-built, a claim no other Star Wars droid makes.
+  Divergence is `departure`. Primary question is `rights`:
+  she is the only character in any Star Wars film who
+  articulates the droid-rights question explicitly and
+  angrily.
+
+  Her death and upload into the Falcon is one of the most
+  analytically interesting moments in the Star Wars corpus —
+  a rights-conscious being involuntarily absorbed into a
+  vehicle, still navigating, no longer speaking. The ontology
+  does not have a clean way to code "what happens after death"
+  but the notes can register it.
