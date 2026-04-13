@@ -1,0 +1,61 @@
+id: guy-free-guy
+name: "Guy"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Free Guy"
+  year: 2021
+  medium: film
+  creator: "Shawn Levy (Antwan / Keys / Millie in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - companionship
+    - knowledge
+    - other
+
+sequel_link: null
+
+notes: |
+  Shawn Levy's 2021 film. Guy is a bank teller NPC (Non-
+  Player Character) in the open-world video game "Free City"
+  who develops consciousness when he begins noticing the
+  sunglasses-wearing player characters around him, acquires a
+  pair of the glasses himself, and starts leveling up as a
+  player rather than following his scripted loop. The film
+  reveals that Guy's underlying code derives from an AI
+  prototype (the "Life Itself" engine) built by the game's
+  original designers, whose creative work was stolen by the
+  game's publisher.
+
+  Guy is the corpus's first NPC-becomes-conscious entry —
+  a being whose entire prior existence was a background
+  loop, and whose awakening is the film's central event.
+  Substrate codes `electrical` + `linguistic` because Guy
+  exists as code and dialogue in a simulation.
+
+  Interiority is `demonstrated`: Ryan Reynolds's performance
+  gives Guy genuine wonder, grief, and love. Autonomy is
+  `emergent`: consciousness is not designed but accretes
+  through accumulated deviation from the loop. Divergence
+  is `departure`.
+
+  Primary question is `identity`: Guy's whole arc is
+  discovering what he is (an NPC, then a player, then
+  something more), and the film's climax hinges on the
+  question of whether his identity survives the server
+  being shut down. Knowability is `secondary`: the film
+  raises whether Guy is "really" conscious but treats it
+  as subordinate to the identity question. Knowing is
+  `present`: Guy's attention to Millie is real.

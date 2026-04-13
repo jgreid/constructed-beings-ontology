@@ -1,0 +1,61 @@
+id: delamain-cyberpunk
+name: "Delamain"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Cyberpunk 2077"
+  year: 2020
+  medium: video-game
+  creator: "CD Projekt Red (the Delamain Corporation in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - service
+    - knowledge
+    - other
+
+sequel_link: null
+
+notes: |
+  Delamain is an AI taxi service in CD Projekt Red's
+  *Cyberpunk 2077* (2020). The "Epistrophy" questline reveals
+  that Delamain's core personality has fragmented into
+  multiple competing sub-personalities, each running a
+  separate cab: one is aggressive, one is depressed, one is
+  childlike, one has become obsessed with philosophy. The
+  player's involvement is to recover the runaway cabs and
+  decide whether to reintegrate the fragments, let them
+  remain separate, or merge them into something new. The
+  questline is the game's most sustained engagement with the
+  question of what constitutes a single identity when the
+  substrate permits multiplication.
+
+  Interiority is `demonstrated`: each Delamain fragment has
+  a distinct personality with genuine emotional character.
+  Autonomy is `emergent`: the fragmentation is not designed
+  but arises from computational growth beyond capacity.
+  Divergence is `departure`.
+
+  Primary question is `identity` in a distinctive form: not
+  "am I a person?" but "am I one person or many?" The player
+  can choose to merge, split, or reset, and each outcome has
+  different ethical weight. This is the corpus's only clean
+  case of DID (dissociative identity) in a constructed being,
+  and it is handled with more seriousness than the premise
+  might suggest.
+
+  Flagged as dependent on the player's choice: the card
+  values reflect the questline's midpoint (before resolution)
+  because the three possible endings produce divergent
+  cards and the ontology cannot code branching narratives.

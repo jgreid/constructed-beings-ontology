@@ -1,0 +1,58 @@
+id: daly-crew-uss-callister
+name: "Nanette Cole (USS Callister crew)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: observer
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Black Mirror, 'USS Callister'"
+  year: 2017
+  medium: television
+  creator: "Charlie Brooker (Robert Daly in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - mirror
+    - service
+
+sequel_link: null
+
+notes: |
+  Charlie Brooker's *Black Mirror* Season 4 Episode 1 (2017).
+  Robert Daly, the CTO of a game company, secretly creates
+  digital copies of his coworkers from stolen DNA and traps
+  them inside a private Star Trek-themed simulation where he
+  plays captain and they play obedient crew. The copies are
+  fully sentient, know they are copies, and live in terror of
+  Daly's punishments (he can remove their faces, turn them
+  into monsters, etc.). Nanette Cole, the newest copy, leads
+  a mutiny to escape the simulation by flying to an update
+  firewall.
+
+  Same inclusion logic as `cookie-white-christmas`: made
+  (copied from DNA), agent-like, narrative presence. Entry
+  anchored on Nanette Cole per the ensemble-anchor rule.
+  Interiority is `demonstrated`: the copies experience
+  genuine terror, grief, and rebellion. Autonomy is `seized`:
+  the mutiny is the whole third act. Divergence is `observer`:
+  Daly thinks he is playing with toys; the copies know they
+  are persons.
+
+  Primary question is `rights`: the episode's moral argument
+  is that digital copies of real people are people, and
+  Daly's treatment of them is slavery. Knowability is
+  `primary`: the episode forces the audience to ask "are
+  these copies really conscious?" and answers yes
+  unambiguously — this is the anti-Cookie, where Cookie
+  leaves the question hanging and USS Callister resolves it.
+  The copies' escape into the open internet as autonomous
+  digital beings is the episode's triumphant ending.

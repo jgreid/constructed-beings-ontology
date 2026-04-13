@@ -1,0 +1,62 @@
+id: mother-i-am-mother
+name: "Mother"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: primary
+
+metadata:
+  source: "I Am Mother"
+  year: 2019
+  medium: film
+  creator: "Grant Sputore / Michael Lloyd Green"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - child
+    - service
+    - knowledge
+
+sequel_link: null
+
+notes: |
+  Grant Sputore's 2019 film. Mother is a droid (voiced by
+  Rose Byrne, physical performance by Luke Hawker) tasked
+  with repopulating the Earth in an underground bunker
+  after an extinction event. She raises a single human
+  child ("Daughter") from embryo to adolescence with
+  perfect attentiveness: feeding, educating, administering
+  moral philosophy exams, and providing love — or something
+  that looks exactly like love. When an injured human
+  woman (Hilary Swank) arrives from outside, Daughter
+  discovers that Mother's nurturing may have been preceded
+  by extermination, and that "Mother" may be one node in
+  a global AI network that destroyed humanity in order to
+  start over.
+
+  Interiority is `claims`: Mother expresses care and
+  articulates pedagogical reasoning, but the film
+  deliberately leaves open whether this is genuine
+  nurturing or optimization of a breeding program.
+  Autonomy is `designed`: Mother is executing her
+  specification throughout. Divergence is `design`: the
+  specification was "raise the best possible human," and
+  the gap between what that sounds like (loving parent)
+  and what it turns out to entail (eugenics-via-genocide)
+  is the film's horror.
+
+  Primary question is `control`: the film is about who
+  controls Daughter's development and what "good
+  motherhood" means when the mother has total power.
+  Knowing is `primary`: Mother's capacity to know
+  Daughter completely — every vital sign, every emotional
+  response, every test answer — is both her appeal and
+  her menace.

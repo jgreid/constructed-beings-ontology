@@ -1,6 +1,6 @@
 # Question Analysis — v2.0
 
-Total entries: **170**.
+Total entries: **180**.
 
 v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can we verify its mind?) and `knowing` (can it know us?). This report tracks both, plus the distribution of `primary_question`.
 
@@ -8,12 +8,12 @@ v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| affection          |      49 |
-| control            |      37 |
-| identity           |      33 |
-| rights             |      21 |
-| purpose            |      17 |
-| knowledge          |       8 |
+| affection          |      51 |
+| control            |      38 |
+| identity           |      37 |
+| rights             |      22 |
+| purpose            |      18 |
+| knowledge          |       9 |
 | none               |       5 |
 
 ## 2. Primary Questions by Era
@@ -59,31 +59,31 @@ v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| affection          |      29 |
-| identity           |      17 |
-| control            |      14 |
-| rights             |      11 |
-| knowledge          |       3 |
-| purpose            |       3 |
+| affection          |      31 |
+| identity           |      21 |
+| control            |      15 |
+| rights             |      12 |
+| knowledge          |       4 |
+| purpose            |       4 |
 | none               |       1 |
 
 ## 3. Knowability Distribution
 
 | Knowability   |   Count |
 |:--------------|--------:|
-| absent        |      60 |
-| present       |      57 |
-| secondary     |      32 |
-| primary       |      21 |
+| absent        |      62 |
+| present       |      58 |
+| secondary     |      36 |
+| primary       |      24 |
 
 ## 4. Knowing Distribution
 
 | Knowing   |   Count |
 |:----------|--------:|
 | absent    |      48 |
-| present   |      91 |
+| present   |      98 |
 | secondary |      10 |
-| primary   |      21 |
+| primary   |      24 |
 
 ## 5. Knowability vs. Knowing Divergence
 
@@ -148,18 +148,26 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 | Janet                                    | The Good Place                                          |   2016 | secondary     | primary   |
 | K-2SO                                    | Rogue One: A Star Wars Story                            |   2016 | absent        | present   |
 | Maeve Millay                             | Westworld                                               |   2016 | secondary     | present   |
+| Nanette Cole (USS Callister crew)        | Black Mirror, 'USS Callister'                           |   2017 | primary       | present   |
+| GAIA                                     | Horizon Zero Dawn                                       |   2017 | secondary     | primary   |
 | Isaac                                    | The Orville                                             |   2017 | secondary     | present   |
 | Luv                                      | Blade Runner 2049                                       |   2017 | secondary     | present   |
 | Walter                                   | Alien: Covenant                                         |   2017 | secondary     | present   |
 | Connor (RK800)                           | Detroit: Become Human                                   |   2018 | secondary     | present   |
 | Markus (RK200)                           | Detroit: Become Human                                   |   2018 | primary       | present   |
+| Mother                                   | I Am Mother                                             |   2019 | secondary     | primary   |
 | Father                                   | Raised by Wolves                                        |   2020 | secondary     | present   |
 | Rehoboam                                 | Westworld (Season 3)                                    |   2020 | present       | primary   |
 | Soji Asha                                | Star Trek: Picard                                       |   2020 | secondary     | present   |
+| Guy                                      | Free Guy                                                |   2021 | secondary     | present   |
+| Jeff                                     | Finch                                                   |   2021 | absent        | present   |
+| White Vision                             | WandaVision                                             |   2021 | primary       | present   |
+| B2EMO                                    | Andor                                                   |   2022 | absent        | present   |
 | M3GAN                                    | M3GAN                                                   |   2022 | secondary     | primary   |
+| Bella Baxter                             | Poor Things                                             |   2023 | secondary     | present   |
 | Andy                                     | Alien: Romulus                                          |   2024 | secondary     | present   |
 
-**67 of 170 entries diverge.**
+**75 of 180 entries diverge.**
 
 ## 6. Entries by Knowability (chronological)
 
@@ -227,6 +235,8 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 | BB-8                                  | Star Wars: The Force Awakens                          |   2015 | affection   |
 | Codsworth                             | Fallout 4                                             |   2015 | affection   |
 | K-2SO                                 | Rogue One: A Star Wars Story                          |   2016 | affection   |
+| Jeff                                  | Finch                                                 |   2021 | affection   |
+| B2EMO                                 | Andor                                                 |   2022 | affection   |
 
 ### knowability = present
 
@@ -288,6 +298,7 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 | Kara (AX400)                             | Detroit: Become Human                                               |   2018 | affection   |
 | L3-37                                    | Solo: A Star Wars Story                                             |   2018 | rights      |
 | IG-11                                    | The Mandalorian                                                     |   2019 | affection   |
+| Delamain                                 | Cyberpunk 2077                                                      |   2020 | identity    |
 | Rehoboam                                 | Westworld (Season 3)                                                |   2020 | control     |
 
 ### knowability = secondary
@@ -316,15 +327,19 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 | Hosts (Dolores Abernathy)                | Westworld                                              |   2016 | identity    |
 | Janet                                    | The Good Place                                         |   2016 | identity    |
 | Maeve Millay                             | Westworld                                              |   2016 | affection   |
+| GAIA                                     | Horizon Zero Dawn                                      |   2017 | purpose     |
 | Isaac                                    | The Orville                                            |   2017 | rights      |
 | K (Replicant)                            | Blade Runner 2049                                      |   2017 | identity    |
 | Luv                                      | Blade Runner 2049                                      |   2017 | control     |
 | Murderbot (SecUnit)                      | All Systems Red (The Murderbot Diaries)                |   2017 | rights      |
 | Walter                                   | Alien: Covenant                                        |   2017 | control     |
 | Connor (RK800)                           | Detroit: Become Human                                  |   2018 | identity    |
+| Mother                                   | I Am Mother                                            |   2019 | control     |
 | Father                                   | Raised by Wolves                                       |   2020 | affection   |
 | Soji Asha                                | Star Trek: Picard                                      |   2020 | identity    |
+| Guy                                      | Free Guy                                               |   2021 | identity    |
 | M3GAN                                    | M3GAN                                                  |   2022 | control     |
+| Bella Baxter                             | Poor Things                                            |   2023 | identity    |
 | Andy                                     | Alien: Romulus                                         |   2024 | affection   |
 
 ### knowability = primary
@@ -346,11 +361,14 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 | Mia (Anita)                             | Humans                                  |   2015 | rights      |
 | Bernard Lowe                            | Westworld                               |   2016 | identity    |
 | DiMA                                    | Fallout 4: Far Harbor                   |   2016 | identity    |
+| Nanette Cole (USS Callister crew)       | Black Mirror, 'USS Callister'           |   2017 | rights      |
 | Joi                                     | Blade Runner 2049                       |   2017 | affection   |
 | Markus (RK200)                          | Detroit: Become Human                   |   2018 | rights      |
 | Adam                                    | Machines Like Me                        |   2019 | rights      |
 | Mother (Lamia)                          | Raised by Wolves                        |   2020 | affection   |
 | Klara                                   | Klara and the Sun                       |   2021 | affection   |
+| White Vision                            | WandaVision                             |   2021 | identity    |
+| Yang                                    | After Yang                              |   2021 | knowledge   |
 | Alphie                                  | The Creator                             |   2023 | affection   |
 
 ## 7. First Appearance of Each Salience Level
