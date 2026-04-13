@@ -15,7 +15,7 @@ card:
 metadata:
   source: "X-Men (Marvel Comics)"
   year: 1965
-  medium: short-story
+  medium: comics
   creator: "Stan Lee, Jack Kirby (Bolivar Trask in-narrative)"
   substrate:
     - mechanical
@@ -51,8 +51,7 @@ notes: |
   whether mutants (and eventually all of humanity) can resist
   state-sanctioned robotic persecution.
 
-  The medium is coded `short-story` per the corpus convention for
-  comics. The Sentinels have appeared across decades of comics,
+  The Sentinels have appeared across decades of comics,
   animated series, and the X-Men film franchise (most notably
   *Days of Future Past*), but their foundational appearance is
   in Uncanny X-Men #14 (1965). They are treated as a class rather

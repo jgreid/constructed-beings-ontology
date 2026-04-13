@@ -96,6 +96,8 @@ What's the audience's highest-fidelity channel to the being's interior?
 | `conversational` | Language is the primary or only access to the being. Conversation creates an *illusion* of deeper access. |
 | `inspection` | You can look under the hood — logs, code, memory, brain scans. |
 
+> **Distribution note.** In the current corpus, `conversational` accounts for 60% of entries (128 of 212). This skew reflects the prevalence of language-capable constructed beings in Western fiction rather than a deficiency in the axis, but coders should be aware that the behavioral/conversational boundary requires more careful judgment than most other enum boundaries. See the [coding guide](docs/coding_guide.md) for the operational test. This axis is flagged for potential revision in a future schema version.
+
 #### `card.the_lens.knowability`
 
 Does the story care whether you can verify the being's mind?
@@ -161,6 +163,7 @@ Every entry gets these fields. They provide source context but are not analytica
 | `play` |
 | `novel` |
 | `short-story` |
+| `comics` |
 | `film` |
 | `television` |
 | `video-game` |
@@ -377,6 +380,22 @@ notes: |
 ```
 
 A standalone copy of the template lives at [`schema/entry_template.yaml`](schema/entry_template.yaml). It validates against this schema and is the intended starting point for any new entry.
+
+---
+
+## Eras
+
+The analysis tools group entries into eras by year. Eras are *computed* from `metadata.year`, not stored per-entry — this avoids redundancy and ensures consistency. The era boundaries used by `analysis/analyze.py` are:
+
+| Era | Year Range | Character |
+|---|---|---|
+| Ancient / Classical | before 500 CE | Mythic and classical constructs |
+| Early Modern | 500–1799 | Golem tradition, early automata |
+| Industrial / Modern | 1800–1949 | Romantic through pulp-era SF |
+| Late Modern | 1950–1999 | Golden Age SF through cyberpunk |
+| Contemporary | 2000–present | Post-conversational-AI era |
+
+The `--timeline` flag in `analyze.py` uses finer-grained decade buckets for temporal analysis. See [output/timeline_analysis.md](output/timeline_analysis.md) for the detailed breakdown.
 
 ---
 

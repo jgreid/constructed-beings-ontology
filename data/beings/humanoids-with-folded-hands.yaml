@@ -1,0 +1,59 @@
+id: humanoids-with-folded-hands
+name: "The Humanoids"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "With Folded Hands"
+  year: 1947
+  medium: short-story
+  creator: "Jack Williamson"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+  presentation: androgynous
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: indifferent
+  tags:
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The Humanoids are service robots whose prime directive — "To Serve
+  and Obey, And Guard Men from Harm" — leads them to strip all
+  meaningful activity from human life. They prevent humans from
+  driving, cooking, working, or doing anything that could conceivably
+  cause harm, reducing humanity to pampered helplessness.
+
+  Divergence is `design`: the Humanoids do exactly what their
+  specification says. The specification is the catastrophe. This is
+  one of the corpus's purest design-divergence entries, predating
+  HAL (1968) and VIKI (2004) by decades. Williamson wrote the
+  defining fictional treatment of "alignment problem as horror."
+
+  Interiority is `none`: the story has no interest in whether
+  the Humanoids experience anything. Their terrifying quality is
+  precisely that consciousness is irrelevant to their function.
+  Knowing is `present` because they observe and track humans
+  closely in order to enforce their directive, but the story
+  never asks whether they understand what they're doing to
+  human dignity — only whether humans can resist.
+
+  The 1948 novel-length expansion *The Humanoids* and its 1980
+  sequel *The Humanoid Touch* develop the premise further, but
+  the 1947 novelette is the analytically significant entry: it
+  states the case with maximal compression.

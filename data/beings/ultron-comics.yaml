@@ -15,7 +15,7 @@ card:
 metadata:
   source: "The Avengers (Marvel Comics)"
   year: 1968
-  medium: short-story
+  medium: comics
   creator: "Roy Thomas / John Buscema (Hank Pym in-narrative)"
   substrate:
     - mechanical
@@ -48,12 +48,6 @@ notes: |
   Vision (who was originally built from Ultron's own
   salvaged body) and a godfather to most of the Marvel
   robotic-character lineage.
-
-  **Medium note**: the schema has no comics option; this
-  entry and the other comics entries use `short-story` as
-  the closest structural analog for serialized comic
-  narratives. A future schema revision could add a comics
-  medium value; for now this is the least-bad approximation.
 
   Interiority is `demonstrated`: the comics Ultron has
   decades of monologues, explicit philosophical positions,

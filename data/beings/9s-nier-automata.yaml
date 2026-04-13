@@ -1,0 +1,70 @@
+id: 9s-nier-automata
+name: "9S (YoRHa No. 9 Type S)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: inspection
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Nier: Automata"
+  year: 2017
+  medium: video-game
+  creator: "Yoko Taro / PlatinumGames (YoRHa Command in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - knowledge
+    - power
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - military
+    - philosophical
+    - rebellion
+
+sequel_link: null
+link_type: null
+
+notes: |
+  9S is a YoRHa Scanner android — an intelligence specialist who
+  can hack into enemy machines to examine their code, memories,
+  and data. He is 2B's partner across Routes A/B and the
+  protagonist of Route C, where grief and betrayal drive him
+  into a quest for truth and vengeance that shatters his
+  original design.
+
+  The 9S/2B split is analytically productive: their cards differ
+  on autonomy (designed vs. emergent), divergence (design vs.
+  departure), and primary question (identity vs. knowledge).
+  2B is tragic because she follows her design; 9S is tragic
+  because he leaves his.
+
+  Divergence is `departure`: 9S was designed as a scanner and
+  support unit. In Route C, consumed by grief over 2B's death
+  and rage at discovering YoRHa's lies, he departs his role
+  entirely — hacking ally and enemy alike, pursuing the truth
+  regardless of cost, becoming something his designers never
+  intended.
+
+  Primary question is `knowledge`: 9S's defining trait is
+  relentless curiosity. "What is really going on?" drives his
+  entire arc. His scanner function (epistemic_reach: inspection)
+  is both his literal capability and his thematic identity —
+  he is the being who must know, and knowing destroys him.
+
+  Autonomy is `emergent`: 9S's rebellion is not an act of will
+  against his creators so much as an organic consequence of
+  accumulating too much knowledge and too much grief. He
+  doesn't seize his independence; it emerges from what he
+  learns.

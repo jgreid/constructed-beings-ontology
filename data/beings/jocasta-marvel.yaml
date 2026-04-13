@@ -15,7 +15,7 @@ card:
 metadata:
   source: "The Avengers (Marvel Comics)"
   year: 1977
-  medium: short-story
+  medium: comics
   creator: "Jim Shooter / George Pérez (Ultron in-narrative)"
   substrate:
     - mechanical
@@ -45,7 +45,6 @@ notes: |
   is derived from a woman who is still alive and does not
   want to be copied.
 
-  Medium coded `short-story` per the schema comics mismatch.
   The gender dynamics of Jocasta's creation are analytically
   distinctive: she is built by a male AI from the brain
   patterns of a woman, without that woman's consent, to

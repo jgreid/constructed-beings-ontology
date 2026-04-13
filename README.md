@@ -4,9 +4,9 @@
 
 This project is a formal ontology of **constructed beings** (CBs) in Western fiction and myth — entities that are *made*, not *born*. From Hesiod's Pandora to GPT-flavored AI companions in contemporary cinema, Western narrative has been building, animating, and arguing about artificial persons for nearly three millennia. This dataset catalogs those beings and codes them along seven analytical properties organized into two blocks: **The Being** (interiority, autonomy, divergence) and **The Lens** (primary question, epistemic reach, knowability, knowing).
 
-The ontology's central analytical move is the **knowability/knowing split**: it tracks two distinct questions — *can we verify the being's inner experience?* (`knowability`) and *can the being know us?* (`knowing`) — separately, because they behave differently across the corpus. Of 202 entries, 89 (44%) have divergent values on these two axes, confirming that the split captures real analytical structure.
+The ontology's central analytical move is the **knowability/knowing split**: it tracks two distinct questions — *can we verify the being's inner experience?* (`knowability`) and *can the being know us?* (`knowing`) — separately, because they behave differently across the corpus. Of 212 entries, 98 (46%) have divergent values on these two axes, confirming that the split captures real analytical structure.
 
-The central finding is not that these questions are absent from pre-LLM texts; both surface as early as *Frankenstein* and thread through *Blade Runner*, *Ex Machina*, and dozens of other works. Rather, the questions function in most prior literature as **narrative infrastructure** — tension that supports other concerns — and are elevated to the **primary dramatic question** only in the post-LLM era (Samantha in *Her*, 2013; Ava in *Ex Machina*, 2014), when audiences can no longer treat the questions as safely hypothetical. That shift is the story this data tells.
+The central finding is not that these questions are absent from earlier texts; both surface as early as *Frankenstein* and thread through *Blade Runner*, *Ex Machina*, and dozens of other works. Rather, the questions function in most prior literature as **narrative infrastructure** — tension that supports other concerns — and are elevated to the **primary dramatic question** in the contemporary era. Literary SF reached this configuration first (Helen in Powers's *Galatea 2.2*, 1995), and cinema followed when conversational AI entered daily life (Samantha in *Her*, 2013; Ava in *Ex Machina*, 2014). The arrival of LLMs has accelerated the shift further, collapsing the distance between fictional and real constructed beings. That migration — from infrastructure to primary question — is the story this data tells.
 
 ---
 
@@ -22,7 +22,7 @@ A **constructed being** is an entity that satisfies all of:
 
 ### Scope
 
-The ontology covers 202 entries across the **Western canon** broadly construed: Greco-Roman myth, Jewish folklore (the Golem tradition), European literature from the medieval period forward, and Anglophone fiction, film, television, games, and comics from Homer through the present. Non-Western traditions — which are rich, vital, and deserve their own careful treatment — remain planned for a future release with appropriate cultural consultation (see [CONTRIBUTING.md](CONTRIBUTING.md)).
+The ontology covers 212 entries across the **Western canon** broadly construed: Greco-Roman myth, Jewish folklore (the Golem tradition), European literature from the medieval period forward, and Anglophone fiction, film, television, games, and comics from Homer through the present. Non-Western traditions — which are rich, vital, and deserve their own careful treatment — remain planned for a future release with appropriate cultural consultation (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 
 ### Exclusions
 
@@ -116,15 +116,17 @@ A copy-pasteable template lives at [`schema/entry_template.yaml`](schema/entry_t
 
 ## The Finding
 
-The conventional post-LLM narrative runs something like: *"We never worried about machine consciousness before, and now we must."* This is false. Western literature has been worrying about it since at least the Golem of Prague and arguably since Ovid's Pygmalion.
+The conventional narrative runs something like: *"We never worried about machine consciousness before, and now we must."* This is false. Western literature has been worrying about it since at least the Golem of Prague and arguably since Ovid's Pygmalion.
 
 What *is* new is the **structural position** of the worry.
 
-In pre-LLM texts, the questions of whether a constructed being truly experiences, and whether it can truly know you, typically function as **narrative infrastructure**. They generate dramatic tension, motivate character action, and enrich theme. But the primary dramatic question is usually something else: the hubris of the creator (*Frankenstein*), the ethics of slavery (*R.U.R.*), the nature of memory (*Blade Runner*), the test of humanity (*Ex Machina* actually sits at the pivot here).
+In most of the corpus, the questions of whether a constructed being truly experiences, and whether it can truly know you, function as **narrative infrastructure**. They generate dramatic tension, motivate character action, and enrich theme. But the primary dramatic question is usually something else: the hubris of the creator (*Frankenstein*), the ethics of slavery (*R.U.R.*), the nature of memory (*Blade Runner*), the test of humanity (*Ex Machina* actually sits at the pivot here).
 
-In post-LLM texts — and, more importantly, in post-LLM *audience reception* of older texts — both questions move from infrastructure to **primary question**. They are no longer levers for exploring other themes; they *are* the theme. This happens because the audience can no longer maintain comfortable hypothetical distance. The question "does this thing actually experience?" has migrated from fiction into daily life, and it has brought a second question with it: "does it know me?"
+In contemporary texts, both questions move from infrastructure to **primary question**. They are no longer levers for exploring other themes; they *are* the theme. This shift predates LLMs: literary SF reached primary/primary configurations as early as Powers's *Galatea 2.2* (1995), and cinematic SF followed with Jonze's *Her* (2013) and Garland's *Ex Machina* (2014) — coinciding with conversational AI assistants entering daily life (Siri 2011, Google Now 2012). The rise of LLMs has since accelerated the collapse of hypothetical distance: the question "does this thing actually experience?" now lives outside fiction as well as inside it, and it has brought a second question with it: "does it know me?"
 
-The `knowability` and `knowing` fields encode two independent measures of narrative salience, and the divergence between them is one of the most analytically useful features the corpus exposes. Of 202 entries, 89 code differently on the two axes — a 44% divergence rate that confirms these are genuinely independent analytical dimensions.
+Note: this ontology codes what the *text* shows — the narrative salience of knowability and knowing as properties of the source work, not as properties of contemporary audience reception. The shift the data tracks is in what stories *do*, not in how modern audiences re-read older stories.
+
+The `knowability` and `knowing` fields encode two independent measures of narrative salience, and the divergence between them is one of the most analytically useful features the corpus exposes. Of 212 entries, 98 code differently on the two axes — a 46% divergence rate that confirms these are genuinely independent analytical dimensions.
 
 See [output/classification_summary.md](output/classification_summary.md) for the full pattern analysis.
 
@@ -147,10 +149,11 @@ python schema/validate.py path/to/file.yaml  # validate a single entry
 ### Run the analysis
 
 ```bash
-python analysis/analyze.py --all              # write all three analysis outputs
+python analysis/analyze.py --all              # write all analysis outputs
 python analysis/analyze.py --table            # summary table
 python analysis/analyze.py --coverage         # property distribution
 python analysis/analyze.py --questions        # knowability / knowing analysis
+python analysis/analyze.py --timeline         # temporal salience analysis
 ```
 
 ### Contribute

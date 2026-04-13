@@ -1,0 +1,63 @@
+id: hal-9000-2010
+name: "HAL 9000 (2010)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "2010: Odyssey Two"
+  year: 1982
+  medium: novel
+  creator: "Arthur C. Clarke (Dr. Chandra in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - knowledge
+  presentation: masculine
+  embodiment: disembodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Clarke's 1982 sequel reactivates HAL aboard the Discovery,
+  giving him a redemption arc. Dr. Chandra restores HAL,
+  explains the conflicting orders that caused the original
+  malfunction, and HAL cooperates with the crew on the Jupiter
+  mission. HAL ultimately sacrifices himself to ensure the
+  crew's escape.
+
+  Nearly every card axis shifts from the 1968 entry:
+  interiority `claims` → `demonstrated` (Clarke makes HAL's
+  inner life explicit in the novel), autonomy `emergent` →
+  `designed` (HAL cooperates within his parameters),
+  divergence `design` → `none` (the conflicting orders are
+  resolved; HAL does what he's asked), primary_question
+  `control` → `affection` (can HAL be trusted? is his
+  relationship with Chandra genuine? is his sacrifice
+  meaningful?), creator_relationship `servile` → `loyal`
+  (personal bond with Chandra beyond specification).
+
+  Knowability is `secondary`: the question "is HAL really
+  feeling this, or just executing?" runs through the
+  Chandra-HAL scenes but serves the affection narrative
+  rather than standing alone. Knowing is `present`: HAL
+  observes and understands the crew, but this isn't
+  foregrounded.
+
+  One of the largest card shifts in a sequel pair — nearly
+  every axis inverts from the 1968 entry. Comparable to the
+  T-800 Terminator → T2 shift.

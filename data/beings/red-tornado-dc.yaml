@@ -15,7 +15,7 @@ card:
 metadata:
   source: "Justice League of America (DC Comics)"
   year: 1968
-  medium: short-story
+  medium: comics
   creator: "Gardner Fox / Dick Dillin (T.O. Morrow / Tornado Champion in-narrative)"
   substrate:
     - mechanical
@@ -47,8 +47,7 @@ notes: |
   treatment of the "am I really alive?" question in
   Silver/Bronze Age DC.
 
-  Medium coded `short-story` per the schema's comics
-  mismatch (see `ultron-comics` for the note). Substrate
+  Substrate
   includes `magical` because Tornado Champion is explicitly
   an elemental entity rather than a programmed AI — an
   unusual substrate mix in the corpus.

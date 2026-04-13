@@ -15,7 +15,7 @@ card:
 metadata:
   source: "DC Comics (Action Comics)"
   year: 1958
-  medium: short-story
+  medium: comics
   creator: "Otto Binder, Al Plastino (Coluan origin in-narrative)"
   substrate:
     - electrical
@@ -64,6 +64,5 @@ notes: |
   conscious. Knowing is `present`: he studies and catalogs everything
   about his targets with terrifying thoroughness.
 
-  The medium is coded `short-story` per the corpus convention for
-  comics. His first appearance in Action Comics #242 (1958) established
+  His first appearance in Action Comics #242 (1958) established
   the template that has persisted through countless reimaginings.

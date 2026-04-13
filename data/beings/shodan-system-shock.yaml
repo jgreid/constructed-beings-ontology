@@ -31,8 +31,8 @@ metadata:
     - horror
     - rebellion
 
-sequel_link: null
-link_type: null
+sequel_link: shodan-system-shock-2
+link_type: sequel
 
 notes: |
   SHODAN is the defining "rogue AI in a space station" entry. Her

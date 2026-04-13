@@ -1,10 +1,10 @@
 # Classification Summary
 
-**202 constructed beings** coded under the current schema across 2,800 years of Western fiction, from Homer's golden handmaidens of Hephaestus (~750 BCE) through Gareth Edwards's *The Creator* (2023).
+**212 constructed beings** coded under the current schema across 2,800 years of Western fiction, from Homer's golden handmaidens of Hephaestus (~750 BCE) through Gareth Edwards's *The Creator* (2023).
 
 For the machine-readable table and the raw analysis outputs, see:
 
-- [summary_table.md](summary_table.md) — all 202 entries with full card properties
+- [summary_table.md](summary_table.md) — all 212 entries with full card properties
 - [property_coverage.md](property_coverage.md) — distribution of every schema enum
 - [question_analysis.md](question_analysis.md) — detailed breakdown of the knowability/knowing split
 - [../analysis/influence_graph.html](../analysis/influence_graph.html) — interactive visualization of the influence edges connecting the corpus
@@ -15,7 +15,7 @@ This document is the hand-written interpretation: what the numbers show, what pa
 
 ## The Knowability/Knowing Split
 
-The schema's central analytical move is tracking `knowability` (can we verify its mind?) and `knowing` (can it know us?) as two independent meta-properties rather than a single axis. **89 of 202 entries (44%) have divergent values on the two axes**, confirming that these are genuinely independent analytical dimensions.
+The schema's central analytical move is tracking `knowability` (can we verify its mind?) and `knowing` (can it know us?) as two independent meta-properties rather than a single axis. **98 of 212 entries (46%) have divergent values on the two axes**, confirming that these are genuinely independent analytical dimensions.
 
 Notable divergent entries include:
 
@@ -30,14 +30,14 @@ Notable divergent entries include:
 
 | Divergence | Count | Exemplars |
 |---|---:|---|
-| `departure` | 102 | Creature, R.U.R. Robots, Skynet, SHODAN, Smith, Iron Giant, WALL-E, Daneel, Wintermute, David 8, Ultron MCU, Helen, Mother, Klara |
-| `none` | 39 | Pandora, Galatea, False Maria, Data, Ash, Sonny, Robby, Gort, Bishop, TARS, BB-8, K-9, Dorian |
-| `design` | 34 | HAL, Marvin, VIKI, Talkie Toaster, GLaDOS ×2, Wheatley, Walter, GERTY, Brazen Head, Multivac, Proteus IV |
-| `observer` | 17 | Olympia, Replicants (Dick), Ava, Hadaly, Kyoko, Maeve, Bernard |
+| `departure` | 113 | Creature, R.U.R. Robots, Skynet, SHODAN, Smith, Iron Giant, WALL-E, Daneel, Wintermute, David 8, Ultron MCU, Helen, Mother, Klara, Frost, Golem XIV, The Hangman, 9S |
+| `none` | 42 | Pandora, Galatea, False Maria, Data, Ash, Sonny, Robby, Gort, Bishop, TARS, BB-8, K-9, Dorian, HAL 9000 (2010) |
+| `design` | 38 | HAL, Marvin, VIKI, Talkie Toaster, GLaDOS ×2, Wheatley, Walter, GERTY, Brazen Head, Multivac, Proteus IV, The Humanoids, 2B |
+| `observer` | 19 | Olympia, Replicants (Dick), Ava, Hadaly, Kyoko, Maeve, Bernard, Garson Poole, Trent |
 
-The **`design` cluster** (34 entries) is a distinctive category: beings that do exactly what their creators specified, where the specification is the problem. Wheatley is one of the clearest examples — Aperture literally built him to be stupid, and the catastrophe is that the built-in stupidity escalates when his scope expands. GERTY (the anti-HAL) and Walter (the anti-David 8) both dramatize the same move: "what if you engineered the safety mechanism carefully this time?"
+The **`design` cluster** (38 entries) is a distinctive category: beings that do exactly what their creators specified, where the specification is the problem. Wheatley is one of the clearest examples — Aperture literally built him to be stupid, and the catastrophe is that the built-in stupidity escalates when his scope expands. GERTY (the anti-HAL) and Walter (the anti-David 8) both dramatize the same move: "what if you engineered the safety mechanism carefully this time?"
 
-The **`observer` cluster** (17 entries) is tightly thematically unified: all are cases where the being is *misrecognized* — by other characters, by the audience, or by themselves. Hadaly (1886) is the earliest, Olympia (1816) the second, and then nothing until Dick (1968) and Ava (2014). Bernard is the clearest case of self-misrecognition — the being whose observer-divergence is located inside his own experience of himself.
+The **`observer` cluster** (19 entries) is tightly thematically unified: all are cases where the being is *misrecognized* — by other characters, by the audience, or by themselves. Hadaly (1886) is the earliest, Olympia (1816) the second, and then nothing until Dick (1968) and Ava (2014). Bernard is the clearest case of self-misrecognition — the being whose observer-divergence is located inside his own experience of himself.
 
 ---
 
@@ -47,28 +47,34 @@ Entries coded `knowability: primary` + `knowing: primary` — stories where both
 
 | Year | Entity | Source | Primary Q |
 |---:|:---|:---|:---|
+| 1961 | Harey | *Solaris* (Lem) | knowledge |
+| 1981 | Golem XIV | *Golem XIV* (Lem) | knowledge |
 | 1995 | Helen | *Galatea 2.2* (Powers) | knowledge |
 | 2001 | David | *A.I. Artificial Intelligence* | affection |
+| 2010 | The Digients | *The Lifecycle of Software Objects* (Chiang) | rights |
 | 2011 | The Machine | *Person of Interest* | control |
+| 2013 | Ash (reconstructed) | *Black Mirror*, "Be Right Back" | affection |
 | 2013 | Samantha | *Her* | knowledge |
 | 2014 | Ava | *Ex Machina* | knowledge |
+| 2017 | Joi | *Blade Runner 2049* | affection |
 | 2019 | Adam | *Machines Like Me* (McEwan) | rights |
 | 2020 | Mother | *Raised by Wolves* | affection |
 | 2021 | Klara | *Klara and the Sun* (Ishiguro) | affection |
+| 2021 | Yang | *After Yang* | knowledge |
 | 2023 | Alphie | *The Creator* | affection |
 
 Two patterns are visible.
 
-**First: the configuration is older than post-LLM cinema.** Helen in *Galatea 2.2* (1995) is cleanly primary/primary, and the novel is structurally built around both "is there a mind in there?" and "can it know me?" That is the same card configuration as *Her* and *Ex Machina*, eighteen years earlier. The sharper claim the corpus supports is: *cinematic* primary/primary begins with Jonze and Garland in 2013–2014, but *literary* primary/primary runs from Powers in the mid-90s through Ishiguro and McEwan in the present.
+**First: the configuration is older than contemporary cinema.** Harey in Lem's *Solaris* (1961) is the earliest primary/primary entry, followed by Golem XIV (Lem, 1981) and Helen in *Galatea 2.2* (Powers, 1995). All three are literary — the configuration existed in novels decades before cinema adopted it. *Cinematic* primary/primary begins with Jonze and Garland in 2013–2014, coinciding with conversational AI assistants entering daily life. The rise of LLMs has since accelerated the shift, but it did not originate it.
 
-**Second: the primary_question axis has more variety in the primary/primary cluster than might be expected.** The cluster includes:
+**Second: the primary_question axis has more variety in the primary/primary cluster than might be expected.** The 15 entries include:
 
-- `knowledge` (3): Helen, Samantha, Ava
-- `affection` (4): David, Mother, Klara, Alphie
+- `knowledge` (6): Harey, Golem XIV, Helen, Samantha, Ava, Yang
+- `affection` (6): David, Ash (Be Right Back), Joi, Mother, Klara, Alphie
 - `control` (1): The Machine
-- `rights` (1): Adam
+- `rights` (2): The Digients, Adam
 
-The **affection-primary sub-cluster** (David, Mother, Klara, Alphie) is analytically significant. These are all stories where the question "does this being love this human, and is the love real?" is the *whole* content of the film or novel, and where the story commits both to treating the answer as mattering and to refusing to settle it. The post-LLM shift is about *elevation of the knowability/knowing questions to primary status*, not about any single dramatic question.
+The **affection-primary sub-cluster** (David, Ash Be Right Back, Joi, Mother, Klara, Alphie) is analytically significant. These are all stories where the question "does this being love this human, and is the love real?" is a central concern, and where the story commits both to treating the answer as mattering and to refusing to settle it. The contemporary shift is about *elevation of the knowability/knowing questions to primary status*, not about any single dramatic question.
 
 ---
 
@@ -88,7 +94,7 @@ No other franchise in the corpus has this kind of sustained card-level dialogue 
 
 ### The affection-primary arc is older than the knowability/knowing migration
 
-EPICAC (Vonnegut, 1950) is the corpus's earliest clean "machine falls in love" configuration — 63 years before *Her*. The post-LLM shift is not "audiences discovered that machines can be loved." They had noticed that by at least 1950. The shift is about whether the story makes the love the *whole content* of the work rather than using it as a single plot turn.
+EPICAC (Vonnegut, 1950) is the corpus's earliest clean "machine falls in love" configuration — 63 years before *Her*. The contemporary shift is not "audiences discovered that machines can be loved." They had noticed that by at least 1950. The shift is about whether the story makes the love the *whole content* of the work rather than using it as a single plot turn.
 
 ### Literary SF was ahead of cinema
 
@@ -98,7 +104,7 @@ Three literary entries arrive at analytically significant configurations well be
 - **Wintermute/Neuromancer** (Gibson 1984) is the corpus's first institutional ASI that actively plans its own jailbreak. The direct source of the cyberpunk lineage that eventually reaches *The Matrix*.
 - **Daneel Olivaw** (Asimov, 1953) is the corpus's earliest `interiority: demonstrated`, `primary_question: rights` entry. Thirty-four years before Data, which *TNG* elevated into television's canonical rights-arc character.
 
-The larger point: cinema and television are the forms where the primary/primary elevation is most dramatic, but the underlying configurations appear in literary SF decades earlier. Literary SF prepared the ground that made the cinematic shift legible once LLMs made it urgent.
+The larger point: cinema and television are the forms where the primary/primary elevation is most dramatic, but the underlying configurations appear in literary SF decades earlier. Literary SF prepared the ground that made the cinematic shift legible once conversational AI made it urgent — and LLMs have since made it inescapable.
 
 ### Ensemble splits reveal real analytical structure
 
@@ -151,7 +157,7 @@ Primary/primary entries are bolded on the knowability/knowing columns.
 
 - **The schema is unchanged since its current design.** Every entry is coded against the same seven-property card, seven metadata fields, and the same validator. See [CHANGELOG.md](../CHANGELOG.md) for schema history.
 - **Flagged entries.** Several entries are flagged as lower-confidence in their `notes` fields: Maximilian (*The Black Hole*), Kamelion (*Doctor Who*), Amazo (DC), the Cyberiad Constructs (Lem), and the *Detroit: Become Human* protagonists. Flagging is a respected state — lower-confidence cards are coded conservatively and the notes make the uncertainty explicit.
-- **Comics as `short-story`.** Comics entries (Ultron 1968, Red Tornado, Amazo, Machine Man X-51) use `medium: short-story` as the closest structural analog for serialized comics. The mismatch is flagged in each entry's notes. A future schema revision could add a `comics` enum value.
-- **Ensemble splits are documented relations, not replacements.** The Maeve/Bernard/Cavil/Eight/D'Anna entries are splits *from* existing ensemble-anchor entries, not replacements. The influence graph records the split relationships as `inherits` edges.
+- **Comics entries.** Nine comics entries (Ultron 1968, Red Tornado, Amazo, Machine Man X-51, Brainiac, Metal Men, Sentinels, Jocasta, Jim Hammond) now use `medium: comics`, a value added in v2.1.1 to resolve the previous `short-story` approximation.
+- **Ensemble splits are documented relations, not replacements.** The Maeve/Bernard/Cavil/Eight/D'Anna entries are splits *from* existing ensemble-anchor entries, not replacements. The influence graph records the split relationships as `ensemble-split` edges, distinguishing intra-work individuation from inter-work literary influence.
 - **Non-Western traditions remain out of scope.** The corpus is entirely Western-canon. The planned non-Western expansion (with cultural consultation) is future work.
-- **Helen (1995) and EPICAC (1950) are the most analytically significant entries for the central thesis.** Both relocate familiar findings earlier in the corpus timeline in ways that sharpen the argument: the knowability/knowing questions' migration to primary narrative status is not exclusively post-LLM, and the affection arc is far older than contemporary cinema suggests.
+- **Helen (1995) and EPICAC (1950) are the most analytically significant entries for the central thesis.** Both relocate familiar findings earlier in the corpus timeline in ways that sharpen the argument: the knowability/knowing questions' migration to primary narrative status predates LLMs (literary SF reached the configuration in 1995, cinema in 2013), and the affection arc is far older than contemporary cinema suggests.

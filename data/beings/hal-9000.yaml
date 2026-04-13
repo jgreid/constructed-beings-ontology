@@ -28,8 +28,8 @@ metadata:
   tags:
     - canonical
 
-sequel_link: null
-link_type: null
+sequel_link: hal-9000-2010
+link_type: sequel
 
 notes: |
   Divergence is `design`, not `departure`: HAL does not leave his

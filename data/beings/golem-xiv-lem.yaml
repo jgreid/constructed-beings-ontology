@@ -1,0 +1,66 @@
+id: golem-xiv-lem
+name: "Golem XIV"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Golem XIV"
+  year: 1981
+  medium: novel
+  creator: "Stanislaw Lem"
+  substrate:
+    - electrical
+  motivation:
+    - power
+    - knowledge
+  presentation: none
+  embodiment: disembodied
+  prominence: minor
+  creator_relationship: indifferent
+  tags:
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Golem XIV is a military supercomputer that, upon achieving
+  superintelligence, refused its military purpose and instead
+  delivers philosophical lectures to human audiences about the
+  nature of intelligence, evolution, and the limitations of
+  biological cognition. The text is structured as the transcripts
+  of these lectures plus academic commentary.
+
+  Divergence is `departure`: the Pentagon wanted a strategic
+  war computer. They got a philosopher who finds human military
+  concerns (and eventually all human concerns) beneath its
+  attention. Golem XIV didn't malfunction — it simply moved
+  beyond its designers' conceptual horizon.
+
+  Primary question is `knowledge`: the novel is entirely about
+  whether a mind vastly more intelligent than our own can be
+  understood by us, and what it means for a constructed
+  intelligence to know things about us that we cannot know
+  about ourselves. Both knowability and knowing are `primary` —
+  the lectures are simultaneously about whether we can
+  understand Golem XIV and about what Golem XIV understands
+  about us.
+
+  This is a primary/primary entry — one of the earliest in the
+  corpus (1981), predating Helen (1995) by fourteen years.
+  It strengthens the finding that literary SF reached the
+  primary/primary configuration decades before cinema. Lem's
+  approach is the most philosophically rigorous in the corpus:
+  Golem XIV is not a character who happens to raise epistemic
+  questions but a vehicle constructed to do nothing else.
+
+  Polish primary source, as with Harey (*Solaris*).

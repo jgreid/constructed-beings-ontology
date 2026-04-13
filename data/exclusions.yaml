@@ -123,3 +123,49 @@ entries:
       Flora colossus species. Born, not made — Groot is a
       member of a naturally occurring alien species, not a
       constructed being.
+
+  - name: "Caliban"
+    source: "The Tempest"
+    year: 1611
+    reason: born-then-modified
+    note: >
+      Son of the witch Sycorax and the devil. Caliban is
+      born, not made — his origin is biological reproduction,
+      however monstrous. Prospero enslaves and educates him,
+      but the modification does not convert the origin.
+
+  - name: "Ariel"
+    source: "The Tempest"
+    year: 1611
+    reason: boundary-deferred
+    note: >
+      A pre-existing spirit bound by magic, first by Sycorax
+      and then by Prospero. Ariel is not constructed from
+      materials but is enslaved/commanded through enchantment.
+      The ontology's "made, not born" criterion arguably
+      covers "enchanted into service," but Ariel is a
+      natural being who is captured, not an artifact who is
+      created. Deferred for further analysis.
+
+  - name: "The Newts"
+    source: "War with the Newts (Válka s mloky)"
+    year: 1936
+    reason: collective-no-individual
+    note: >
+      Karel Capek's satirical novel features an alien amphibian
+      species discovered, exploited, and eventually rising
+      against humanity. The Newts are born, not made — they
+      are a naturally occurring species, despite being the
+      product of the same author who coined "robot." No
+      individual Newt is narratively individuated.
+
+  - name: "Elizabeth"
+    source: "BioShock Infinite"
+    year: 2013
+    reason: born-then-modified
+    note: >
+      Elizabeth (Anna DeWitt) is a born human whose abilities
+      derive from dimensional exposure, not construction.
+      Despite her virtual-world context, she is a biological
+      person with augmented capabilities, not a constructed
+      being.

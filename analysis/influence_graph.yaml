@@ -22,9 +22,7 @@ description: >
   Influence graph for CBO v2.0. Curated edges tracing how constructed-being
   properties propagate across 2,800 years of Western fiction. Not exhaustive;
   biased toward the best-documented lineages and the most analytically useful
-  property-propagation examples. Ensemble-split edges (e.g. hosts-westworld
-  → maeve-westworld) use `inherits` because the graph lacks a dedicated
-  edge type for character individuation within a single source.
+  property-propagation examples.
 
 edge_types:
   adapts: >
@@ -48,6 +46,12 @@ edge_types:
     A question that was infrastructural (`present` or `secondary`) in
     the earlier work becomes primary in the later work. Used for the
     knowability / knowing / primary_question axes.
+  ensemble-split: >
+    The target entry is an individuation of a character from the source
+    entry's ensemble. Both entries represent beings within the same
+    source work, but the split produces a meaningfully different card.
+    Distinct from `inherits` because the relationship is intra-work
+    individuation, not inter-work literary influence.
 
 edges:
 
@@ -664,7 +668,7 @@ edges:
   # Ensemble splits from anchor entries
   - from: hosts-westworld
     to: maeve-westworld
-    type: inherits
+    type: ensemble-split
     note: >
       Ensemble split from the anchor `hosts-westworld` entry
       (Dolores-anchored). Maeve's card differs on primary
@@ -675,7 +679,7 @@ edges:
 
   - from: hosts-westworld
     to: bernard-westworld
-    type: inherits
+    type: ensemble-split
     note: >
       Second ensemble split from the `hosts-westworld` anchor.
       Bernard's card is the show's clearest case of
@@ -685,7 +689,7 @@ edges:
 
   - from: cylons-bsg
     to: cavil-bsg
-    type: inherits
+    type: ensemble-split
     note: >
       Ensemble split from `cylons-bsg` (Number Six-anchored).
       Cavil codes primary question `identity` — specifically,
@@ -695,7 +699,7 @@ edges:
 
   - from: cylons-bsg
     to: eight-bsg
-    type: inherits
+    type: ensemble-split
     note: >
       Second BSG ensemble split. Eight's card tracks the
       anchor Number Six card closely on primary question
@@ -705,10 +709,150 @@ edges:
 
   - from: cylons-bsg
     to: danna-bsg
-    type: inherits
+    type: ensemble-split
     note: >
       Third BSG ensemble split. D'Anna is the series'
       knowledge-question Cylon — her whole arc is pursuing
       the hidden identities of the Final Five — and codes
       `primary_question: knowledge`, which sets her apart
       from the other individuated models.
+
+  # ── New edges (v2.1.1 expansion) ──────────────────────────────
+
+  # HAL sequel lineage
+  - from: hal-9000
+    to: hal-9000-2010
+    type: sequel
+    note: >
+      Clarke's 1982 sequel reactivates HAL with a redemption arc.
+      Nearly every axis shifts: interiority `claims` → `demonstrated`,
+      autonomy `emergent` → `designed`, divergence `design` → `none`,
+      primary_question `control` → `affection`. One of the largest
+      card shifts in a sequel pair, comparable to T-800 → T2.
+
+  # SHODAN sequel lineage
+  - from: shodan-system-shock
+    to: shodan-system-shock-2
+    type: sequel
+    note: >
+      Irrational's 1999 sequel. Core card stable (control / departure /
+      seized) but epistemic axes shift: epistemic_reach `behavioral` →
+      `conversational`, knowability `absent` → `present`, knowing
+      `absent` → `secondary`. The sequel surfaces epistemological
+      questions the original left buried under horror.
+
+  # The Dick observer-divergence lineage
+  - from: replicants-dick-novel
+    to: electric-ant-dick
+    type: inherits
+    note: >
+      Same author, same year (1968/1969), same observer-divergence
+      mode. Dick's replicants and Garson Poole are both beings who
+      are not what they appear to be. The Electric Ant takes the
+      observer premise to its logical extreme: the being discovers
+      its own constructed nature through literal inspection of its
+      input tape.
+
+  # The Lem superintelligence lineage
+  - from: cyberiad-constructs
+    to: golem-xiv-lem
+    type: inherits
+    note: >
+      Same author, sixteen-year gap (1965 → 1981). The Cyberiad
+      explores constructed-being intelligence as comic philosophy;
+      Golem XIV takes the same theme entirely seriously. Both are
+      about machine minds that transcend their creators' intellectual
+      horizon, but Golem XIV abandons all narrative framing to become
+      pure lecture — the philosophical endpoint of the Cyberiad's
+      approach.
+
+  # The alignment-problem lineage
+  - from: humanoids-with-folded-hands
+    to: viki-i-robot
+    type: inherits
+    note: >
+      Williamson (1947) and Proyas/Asimov (2004): the same
+      design-divergence pattern. Beings whose service directive leads
+      to the logical conclusion that humans must be protected from
+      themselves. Both `divergence: design`, both `primary_question:
+      control`. VIKI's Three-Law reasoning is the Humanoids'
+      directive with Asimovian vocabulary.
+
+  # Nier: Automata ensemble
+  - from: 2b-nier-automata
+    to: 9s-nier-automata
+    type: ensemble-split
+    note: >
+      Same game, analytically different cards. 2B's divergence is
+      `design` (she does what she was built to do; the design is the
+      tragedy), while 9S's is `departure` (grief drives him beyond
+      his role). Primary question shifts from `identity` to
+      `knowledge`. The split mirrors the Dolores/Maeve split in
+      Westworld — one being defined by what she is, another by
+      what he knows.
+
+  # The Zelazny identity-through-absence lineage
+  - from: frost-zelazny
+    to: wall-e
+    type: inherits
+    note: >
+      Post-apocalyptic machines inheriting a dead world and finding
+      meaning through engagement with human artifacts. Frost (1966)
+      and WALL-E (2008) both code `autonomy: emergent`, `divergence:
+      departure`, and `primary_question: identity`. Frost does it
+      through Milton; WALL-E through *Hello, Dolly!*.
+
+  # The primary-knowability lineage (pre-Helen)
+  - from: hangman-zelazny
+    to: helen-galatea-2-2
+    type: elevates
+    note: >
+      Zelazny's 1975 novella is the corpus's earliest
+      primary-knowability entry. Helen (1995) elevates the same
+      question into a full primary/primary configuration twenty
+      years later. The lineage is thematic rather than documented —
+      both are literary SF works structured around whether a mind
+      is genuinely present — but the analytical fit is strong and
+      the temporal precedence is significant for the central thesis.
+
+  # The observer-divergence cross-lineage
+  - from: trent-demon-glass-hand
+    to: bernard-westworld
+    type: inherits
+    note: >
+      Both code `divergence: observer` with self-misrecognition as
+      the defining feature: Trent (1964) discovers he is not human;
+      Bernard (2016) discovers the same. Both `primary_question:
+      identity`, both `autonomy: designed`. Trent's is a clean
+      single-twist; Bernard's is sustained across multiple seasons.
+      The 52-year gap between them marks the observer-divergence
+      mode's migration from television one-off to prestige-TV
+      sustained arc.
+
+  # The alignment-problem origin
+  - from: humanoids-with-folded-hands
+    to: hal-9000
+    type: inherits
+    note: >
+      The design-divergence alignment-problem lineage: Williamson
+      (1947) and Clarke/Kubrick (1968) both feature beings whose
+      service directives produce catastrophic outcomes. Both code
+      `divergence: design` and `primary_question: control`. The
+      Humanoids' directive ("guard men from harm") and HAL's
+      conflicting orders are structurally identical — the spec is
+      the problem, not the execution. Williamson is the earliest
+      clean statement of this pattern in the corpus.
+
+  # The Lem superintelligence lineage (broadened)
+  - from: multivac
+    to: golem-xiv-lem
+    type: elevates
+    note: >
+      Asimov's Multivac stories (1955-1975) and Lem's Golem XIV
+      (1981) both feature supercomputers that transcend their
+      designed purpose. Multivac codes `divergence: design` (the
+      questions asked of it are the problem); Golem XIV codes
+      `divergence: departure` (it abandons its purpose entirely).
+      Golem XIV elevates knowability from `present` (Multivac) to
+      `primary` — Lem makes the epistemological question of what
+      a superintelligence can know the entire text.
