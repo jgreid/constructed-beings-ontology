@@ -60,7 +60,7 @@ Each CB entry is a YAML file with seven analytical properties and seven metadata
 
 ### Metadata
 
-`source`, `year`, `medium`, `creator`, `substrate` (list), `motivation` (list), `sequel_link` (or null).
+`source`, `year`, `medium`, `creator`, `substrate` (list), `motivation` (list), `presentation`, `embodiment`, `prominence`, `creator_relationship`, `tags` (list), `sequel_link` (or null), `link_type` (or null).
 
 ### Notes
 
@@ -93,8 +93,16 @@ metadata:
   motivation:
     - service
     - knowledge
+  presentation: feminine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: patricidal
+  tags:
+    - canonical
+    - horror
 
 sequel_link: glados-portal-2
+link_type: sequel
 
 notes: |
   Divergence is `design`: GLaDOS does the thing Aperture built her to

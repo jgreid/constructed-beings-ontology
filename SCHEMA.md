@@ -355,8 +355,16 @@ metadata:
   motivation:
     - service
     - knowledge
+  presentation: feminine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: patricidal
+  tags:
+    - canonical
+    - horror
 
 sequel_link: glados-portal-2
+link_type: sequel
 
 notes: |
   Divergence is `design`: GLaDOS does what Aperture built her to do —
