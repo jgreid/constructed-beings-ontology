@@ -1,10 +1,10 @@
-# Toward a Post-LLM Ontology of Constructed Beings
+# Toward an Ontology of Constructed Beings
 
 ## Abstract
 
 This project is a formal ontology of **constructed beings** (CBs) in Western fiction and myth — entities that are *made*, not *born*. From Hesiod's Pandora to GPT-flavored AI companions in contemporary cinema, Western narrative has been building, animating, and arguing about artificial persons for nearly three millennia. This dataset catalogs those beings and codes them along seven analytical properties organized into two blocks: **The Being** (interiority, autonomy, divergence) and **The Lens** (primary question, epistemic reach, knowability, knowing).
 
-The ontology's central analytical move is the **knowability/knowing split**: it tracks two distinct questions — *can we verify the being's inner experience?* (`knowability`) and *can the being know us?* (`knowing`) — separately, because they behave differently across the corpus. Of 212 entries, 98 (46%) have divergent values on these two axes, confirming that the split captures real analytical structure.
+The ontology's central analytical move is the **knowability/knowing split**: it tracks two distinct questions — *can we verify the being's inner experience?* (`knowability`) and *can the being know us?* (`knowing`) — separately, because they behave differently across the corpus. Of 224 entries, 107 (47%) have divergent values on these two axes, confirming that the split captures real analytical structure.
 
 The central finding is not that these questions are absent from earlier texts; both surface as early as *Frankenstein* and thread through *Blade Runner*, *Ex Machina*, and dozens of other works. Rather, the questions function in most prior literature as **narrative infrastructure** — tension that supports other concerns — and are elevated to the **primary dramatic question** in the contemporary era. Literary SF reached this configuration first (Helen in Powers's *Galatea 2.2*, 1995), and cinema followed when conversational AI entered daily life (Samantha in *Her*, 2013; Ava in *Ex Machina*, 2014). The arrival of LLMs has accelerated the shift further, collapsing the distance between fictional and real constructed beings. That migration — from infrastructure to primary question — is the story this data tells.
 
@@ -22,7 +22,7 @@ A **constructed being** is an entity that satisfies all of:
 
 ### Scope
 
-The ontology covers 212 entries across the **Western canon** broadly construed: Greco-Roman myth, Jewish folklore (the Golem tradition), European literature from the medieval period forward, and Anglophone fiction, film, television, games, and comics from Homer through the present. Non-Western traditions — which are rich, vital, and deserve their own careful treatment — remain planned for a future release with appropriate cultural consultation (see [CONTRIBUTING.md](CONTRIBUTING.md)).
+The ontology's primary scope is the **Western canon** broadly construed: Greco-Roman myth, Jewish folklore (the Golem tradition), European literature from the medieval period forward, and Anglophone fiction, film, television, games, and comics from Homer through the present. As of v2.2, the corpus also includes **selected non-Western works** that have achieved wide recognition in Western pop culture — notably Japanese anime and manga (Astro Boy, Ghost in the Shell, Neon Genesis Evangelion). This pragmatic expansion uses the existing schema categories and does not replace the planned full non-Western expansion with appropriate cultural consultation (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 
 ### Exclusions
 
@@ -126,7 +126,7 @@ In contemporary texts, both questions move from infrastructure to **primary ques
 
 Note: this ontology codes what the *text* shows — the narrative salience of knowability and knowing as properties of the source work, not as properties of contemporary audience reception. The shift the data tracks is in what stories *do*, not in how modern audiences re-read older stories.
 
-The `knowability` and `knowing` fields encode two independent measures of narrative salience, and the divergence between them is one of the most analytically useful features the corpus exposes. Of 212 entries, 98 code differently on the two axes — a 46% divergence rate that confirms these are genuinely independent analytical dimensions.
+The `knowability` and `knowing` fields encode two independent measures of narrative salience, and the divergence between them is one of the most analytically useful features the corpus exposes. Of 224 entries, 107 code differently on the two axes — a 47% divergence rate that confirms these are genuinely independent analytical dimensions.
 
 See [output/classification_summary.md](output/classification_summary.md) for the full pattern analysis.
 
@@ -169,7 +169,7 @@ If you use this dataset in academic work, please cite:
 ```bibtex
 @misc{reid2026constructed,
   author       = {Reid, Jeffrey G.},
-  title        = {Toward a Post-LLM Ontology of Constructed Beings},
+  title        = {Toward an Ontology of Constructed Beings},
   year         = {2026},
   version      = {2.1},
   publisher    = {GitHub},

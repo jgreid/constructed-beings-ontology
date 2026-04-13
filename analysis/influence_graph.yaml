@@ -856,3 +856,103 @@ edges:
       Golem XIV elevates knowability from `present` (Multivac) to
       `primary` — Lem makes the epistemological question of what
       a superintelligence can know the entire text.
+
+  # ── New edges (v2.2 expansion) ────────────────────────────────
+
+  # The Pinocchio-to-Astro-Boy lineage
+  - from: pinocchio
+    to: astro-boy-tezuka
+    type: inherits
+    note: >
+      Tezuka cited Pinocchio as a direct influence on Astro Boy.
+      Both are child-arc constructed beings who depart their
+      creator's specification to forge their own identity. Both
+      code `divergence: departure`, `primary_question: identity`.
+      Pinocchio's magical animation becomes Tezuka's mechanical
+      engineering, but the "am I a real boy?" question is
+      structurally identical.
+
+  # The Astro Boy manga-to-anime adaptation
+  - from: astro-boy-tezuka
+    to: astro-boy-1963
+    type: adapts
+    note: >
+      Tezuka's own adaptation of his manga to television. Card
+      is stable across media. The anime launched the global anime
+      industry and introduced Japanese constructed-being
+      storytelling to Western audiences.
+
+  # The Ghost in the Shell cinematic lineage
+  - from: kusanagi-gits-1995
+    to: kusanagi-gits-2017
+    type: adapts
+    note: >
+      Sanders's 2017 Hollywood adaptation of Oshii's 1995 film.
+      Interiority shifts from `undecidable` to `demonstrated`
+      (the Hollywood version makes the Major's inner life
+      explicit). Epistemic reach shifts from `conversational`
+      to `inspection`. Knowability drops from `primary` to
+      `secondary`. The 2017 film simplifies the philosophical
+      complexity of the original.
+
+  # The Ghost in the Shell → Matrix lineage
+  - from: kusanagi-gits-1995
+    to: agent-smith-matrix
+    type: inherits
+    note: >
+      The Wachowskis cited Ghost in the Shell (1995) as a
+      primary influence on The Matrix. Both explore constructed
+      reality, identity dissolution, and the merger of organic
+      and digital consciousness. The visual vocabulary of the
+      Matrix's "digital rain" is a direct homage to Oshii's
+      opening sequence.
+
+  # The Roz novel-to-film adaptation
+  - from: roz-wild-robot-novel
+    to: roz-wild-robot
+    type: adapts
+    note: >
+      Sanders's 2024 DreamWorks adaptation of Brown's 2016 novel.
+      Interiority shifts from `narrated` (novel gives first-person
+      access) to `demonstrated` (film shows through action).
+      Knowability shifts from `present` to `secondary`. Core card
+      stable: departure divergence, affection primary question.
+
+  # The Daneel-to-Demerzel lineage
+  - from: daneel-olivaw
+    to: demerzel-foundation-tv
+    type: adapts
+    note: >
+      In the Asimov source novels, Eto Demerzel is an alias for
+      R. Daneel Olivaw. The Apple TV+ adaptation reimagines
+      Demerzel as a separate character with a female presentation
+      and a more complex relationship with religious faith.
+      Autonomy shifts from `emergent` to `designed`; primary
+      question shifts from `rights` to `control`.
+
+  # The Cherry knowability lineage
+  - from: cherry-artifice-girl
+    to: samantha-her
+    type: inherits
+    note: >
+      Both are language-based AIs whose personhood emerges
+      through conversation. Cherry (2022) and Samantha (2013)
+      both code `knowability: primary` and both use
+      `epistemic_reach: conversational`. Cherry's rights-focused
+      framing differs from Samantha's knowledge focus, but the
+      underlying structure — can we know whether this talking
+      thing has a mind? — is identical.
+
+  # The Tachikoma philosophical-machine lineage
+  - from: tachikoma-gits-sac
+    to: golem-xiv-lem
+    type: inherits
+    note: >
+      Both are constructed beings who philosophize about
+      consciousness and identity. The Tachikomas (2002)
+      philosophize about themselves; Golem XIV (1981)
+      philosophizes about humans. Despite the chronological
+      reversal (Lem is earlier), the thematic lineage runs
+      from the Japanese tradition's self-reflective machines
+      to Lem's human-reflective machines. Edge direction
+      follows thematic inheritance, not strict chronology.

@@ -54,9 +54,14 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **A Closed and Common Orbit** (2016) — Becky Chambers. *Being(s): Sidra*
 - **Golem XIV** (1981) — Stanislaw Lem. *Being(s): Golem XIV*
 - **2010: Odyssey Two** (1982) — Arthur C. Clarke. *Being(s): HAL 9000 (2010)*
+- **The Wild Robot** (2016) — Peter Brown. *Being(s): Roz*
 - **All Systems Red (The Murderbot Diaries)** (2017) — Martha Wells. *Being(s): Murderbot*
 - **Machines Like Me** (2019) — Ian McEwan. *Being(s): Adam*
 - **Klara and the Sun** (2021) — Kazuo Ishiguro. *Being(s): Klara*
+
+### Manga
+
+- **Tetsuwan Atom (Mighty Atom / Astro Boy)** (1952) — Osamu Tezuka. *Being(s): Astro Boy (Atom)*
 
 ### Short Stories
 
@@ -140,14 +145,21 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **After Yang** (2021) — Kogonada. *Being(s): Yang*
 - **Finch** (2021) — Miguel Sapochnik. *Being(s): Jeff*
 - **Free Guy** (2021) — Shawn Levy. *Being(s): Guy*
+- **Ghost in the Shell (Kōkaku Kidōtai)** (1995) — Mamoru Oshii. *Being(s): Major Kusanagi*
+- **Ghost in the Shell** (2017) — Rupert Sanders. *Being(s): Major / Mira Killian*
 - **M3GAN** (2022) — Gerard Johnstone. *Being(s): M3GAN*
+- **The Artifice Girl** (2022) — Franklin Ritch. *Being(s): Cherry*
 - **Poor Things** (2023) — Yorgos Lanthimos. *Being(s): Bella Baxter*
 - **The Creator** (2023) — Gareth Edwards. *Being(s): Alphie*
 - **Alien: Romulus** (2024) — Fede Alvarez. *Being(s): Andy*
+- **The Wild Robot** (2024) — Chris Sanders / DreamWorks. *Being(s): Roz*
+- **Companion** (2025) — Drew Hancock. *Being(s): Iris*
+- **M3GAN 2.0** (2025) — Gerard Johnstone. *Being(s): M3GAN 2.0*
 
 ### Television
 
 - **The Outer Limits, "Demon with a Glass Hand"** (1964) — Harlan Ellison. *Being(s): Trent*
+- **Tetsuwan Atom (Astro Boy)** (1963) — Osamu Tezuka / Mushi Production. *Being(s): Astro Boy*
 - **The Jetsons** (1962) — Hanna-Barbera. *Being(s): Rosie*
 - **Lost in Space** (1965) — Irwin Allen. *Being(s): Robot B-9*
 - **Star Trek: The Original Series** (1966-1968) — Gene Roddenberry. *Being(s): M-5, Nomad*
@@ -161,8 +173,10 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Red Dwarf** (1988) — Rob Grant / Doug Naylor. *Being(s): Holly, Kryten, Talkie Toaster*
 - **Star Trek: Voyager** (1995) — Rick Berman / Michael Piller. *Being(s): The Doctor (EMH)*
 - **Star Trek: Deep Space Nine** (1998) — Ira Steven Behr. *Being(s): Vic Fontaine*
+- **Neon Genesis Evangelion** (1995) — Hideaki Anno / Gainax. *Being(s): Rei Ayanami*
 - **Futurama** (1999) — Matt Groening / David X. Cohen. *Being(s): Bender*
 - **Invader Zim** (2001) — Jhonen Vasquez. *Being(s): GIR*
+- **Ghost in the Shell: Stand Alone Complex** (2002) — Kenji Kamiyama / Production I.G. *Being(s): Tachikomas*
 - **Battlestar Galactica (reimagined)** (2004) — Ronald D. Moore. *Being(s): Cavil, Cylons (Six), D'Anna, Eight*
 - **Terminator: The Sarah Connor Chronicles** (2008) — Josh Friedman. *Being(s): Cameron Phillips*
 - **Adventure Time** (2010) — Pendleton Ward. *Being(s): BMO*
@@ -178,6 +192,7 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Star Trek: Picard** (2020) — Michael Chabon / Akiva Goldsman. *Being(s): Soji*
 - **WandaVision** (2021) — Jac Schaeffer. *Being(s): White Vision*
 - **Andor** (2022) — Tony Gilroy. *Being(s): B2EMO*
+- **Foundation** (2023-2024) — David S. Goyer / Apple TV+. *Being(s): Eto Demerzel*
 
 ### Video Games
 

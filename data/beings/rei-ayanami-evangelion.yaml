@@ -1,0 +1,74 @@
+id: rei-ayanami-evangelion
+name: "Rei Ayanami"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: designed
+    divergence: observer
+  the_lens:
+    primary_question: identity
+    epistemic_reach: behavioral
+    knowability: secondary
+    knowing: absent
+
+metadata:
+  source: "Neon Genesis Evangelion (Shin Seiki Evangerion)"
+  year: 1995
+  medium: television
+  creator: "Hideaki Anno / Gainax (Gendo Ikari / GEHIRN in-narrative)"
+  substrate:
+    - biological
+    - cloned
+    - magical
+  motivation:
+    - mirror
+    - service
+    - other
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: servile
+  tags:
+    - passing
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Rei Ayanami is a manufactured being: a clone produced from
+  the genetic material of Yui Ikari (Shinji's mother) combined
+  with the flesh of the Angel Lilith. She is explicitly made,
+  not born — grown in a tank at GEHIRN/NERV and deployed as a
+  pilot for Evangelion Unit-00. Multiple copies of Rei exist
+  simultaneously, and she is replaced at least once during
+  the series when her body is destroyed.
+
+  Substrate includes `magical` because the Lilith-soul
+  component and the Human Instrumentality mechanism operate
+  outside any scientific framework the show establishes.
+  Motivation includes `other` because Gendo's purpose for Rei
+  — as an instrument of Human Instrumentality — does not map
+  cleanly to the existing motivation vocabulary.
+
+  Divergence is `observer`: other characters do not know Rei's
+  true nature (clone of Yui, vessel of Lilith's soul). Rei
+  herself barely grasps it until late in the series. The gap
+  is in perception — hers, the other pilots', and the audience's.
+  When the truth emerges in the final episodes and *End of
+  Evangelion*, everything the audience thought about Rei is
+  restructured.
+
+  Interiority is `undecidable`: Anno deliberately keeps Rei's
+  inner life opaque. She speaks rarely, emotes minimally, and
+  the show never confirms whether her apparent affect represents
+  genuine feeling or biological mechanism. The ambiguity is
+  essential to the character's unsettling quality.
+
+  Prominence is `major`: Rei Ayanami is one of the most
+  influential anime characters ever created. Her archetype
+  (the quiet, pale, emotionally opaque constructed girl)
+  spawned an entire character type in anime and adjacent media.
+  She has been discussed in academic contexts across psychology,
+  gender studies, and artificial intelligence.

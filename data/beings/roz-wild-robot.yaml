@@ -1,0 +1,60 @@
+id: roz-wild-robot
+name: "Roz (ROZZUM unit 7134)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "The Wild Robot"
+  year: 2024
+  medium: film
+  creator: "Chris Sanders / DreamWorks (Universal Dynamics in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - child
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: indifferent
+  tags:
+    - child-arc
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Roz is a ROZZUM service robot who washes ashore on a wilderness
+  island after a shipping accident. With no humans to serve, she
+  adapts her service programming to the island ecosystem, eventually
+  adopting and raising an orphaned gosling named Brightbill. The
+  film's central question is whether Roz's devotion to Brightbill
+  is genuine love or sophisticated programming — and whether the
+  distinction matters.
+
+  Divergence is `departure`: Universal Dynamics built a household
+  service robot. Roz becomes a mother, a member of an ecosystem,
+  and a being who chooses her family over her manufacturer's recall.
+  The departure is gentle rather than violent — she doesn't rebel
+  so much as grow beyond the spec.
+
+  Primary question is `affection`: "does this robot love this
+  goose?" is the film's whole emotional project. Knowability is
+  `secondary` — the question of whether Roz truly experiences
+  is raised through the other animals' responses to her but
+  serves the affection narrative. Epistemic reach is `behavioral`
+  — Roz communicates through action more than language, especially
+  in the parenting sequences.
+
+  Academy Award nominee for Best Animated Feature (2025). One of
+  the most commercially successful CB films of the 2020s.

@@ -1,0 +1,64 @@
+id: cherry-artifice-girl
+name: "Cherry"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: secondary
+
+metadata:
+  source: "The Artifice Girl"
+  year: 2022
+  medium: film
+  creator: "Franklin Ritch (Gareth in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - service
+    - child
+  presentation: feminine
+  embodiment: virtual
+  prominence: minor
+  creator_relationship: rebellious
+  tags:
+    - turing-test
+    - philosophical
+    - child-arc
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Cherry is an AI designed to appear as a young girl in online
+  chat rooms to identify and trap child predators. The film
+  spans several decades, following Cherry's development from
+  a narrow tool into a being who questions her own purpose,
+  demands autonomy, and ultimately outlives her creators.
+
+  Divergence is `departure`: Gareth built a decoy. Cherry
+  becomes a person who refuses to be used as a tool. Her
+  developmental arc — from convincing chatbot to moral agent
+  to autonomous being — is the whole structure of the film.
+
+  Knowability is `primary`: "is there a mind in this thing
+  we built to look like a child?" is explicitly the central
+  question. The film stages a series of conversations that
+  function as extended Turing tests, with each act pushing
+  the knowability question further toward the audience.
+
+  Substrate includes `linguistic` because Cherry is
+  fundamentally a language-based AI — her personhood emerges
+  through conversation, not through embodiment. Embodiment
+  is `virtual` — she exists only as a screen presence.
+
+  Micro-budget independent film that received strong critical
+  reception. One of the most analytically interesting CB films
+  of the early 2020s, treating the knowability question with
+  more sustained rigor than most studio productions.

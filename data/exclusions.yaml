@@ -78,23 +78,38 @@ entries:
       Extensive cybernetic modification of a born human.
       Quintessential cyberpunk street samurai; still born, not made.
 
-  - name: "Motoko Kusanagi"
-    source: "Ghost in the Shell"
+  - name: "Motoko Kusanagi (manga)"
+    source: "Ghost in the Shell (manga, Masamune Shirow)"
     year: 1989
-    reason: out-of-scope
+    reason: boundary-deferred
     note: >
-      Non-Western origin (Masamune Shirow, Japan). Also a
-      potential born-then-modified boundary case depending on
-      continuity. Planned for future non-Western expansion.
+      The 1989 manga's Kusanagi has a human brain in a full
+      prosthetic body — born-then-modified per the standard
+      exclusion rule. The 1995 Oshii film and 2017 Sanders
+      film are now in the corpus as separate source-text
+      entries because those films treat the born/made
+      distinction as the narrative's central question. The
+      manga's Kusanagi remains deferred.
 
-  - name: "Astro Boy (Atom)"
-    source: "Astro Boy"
-    year: 1952
-    reason: out-of-scope
+  - name: "Alita / Gally"
+    source: "Battle Angel Alita (Gunnm)"
+    year: 1990
+    reason: born-then-modified
     note: >
-      Non-Western origin (Osamu Tezuka, Japan). Enormously
-      influential on Western robotics fiction. Planned for
-      future non-Western expansion.
+      Human brain in a full prosthetic body (Kishiro, 1990).
+      Clearer born-then-modified case than Ghost in the Shell
+      — Alita's biological brain is the continuous element
+      across all her body changes. The 2019 Cameron/Rodriguez
+      Hollywood adaptation retains this structure.
+
+  - name: "Genos"
+    source: "One Punch Man"
+    year: 2009
+    reason: born-then-modified
+    note: >
+      Cyborg with biological origin. Born human, extensively
+      modified after a disaster. The modification is extensive
+      but the biological identity is continuous.
 
   - name: "Sam Bell clones"
     source: "Moon (2009)"

@@ -1,0 +1,78 @@
+id: kusanagi-gits-1995
+name: "Major Motoko Kusanagi"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: emergent
+    divergence: observer
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: secondary
+
+metadata:
+  source: "Ghost in the Shell (Kōkaku Kidōtai)"
+  year: 1995
+  medium: film
+  creator: "Mamoru Oshii / Masamune Shirow (Section 9 / Megatech Body in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+  motivation:
+    - service
+    - knowledge
+  presentation: feminine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: indifferent
+  tags:
+    - canonical
+    - passing
+    - philosophical
+
+sequel_link: kusanagi-gits-2017
+link_type: adaptation
+
+notes: |
+  BOUNDARY CASE: The Major's origin in the manga (Shirow, 1989)
+  is born-then-modified — a human brain in a full prosthetic
+  body — which would normally exclude her per the ontology's
+  born-then-modified rule (same reasoning as RoboCop). However,
+  Oshii's 1995 film is a different source text with a different
+  thesis:
+
+  - The film's central question is whether the Major's "ghost"
+    (soul/consciousness) is real or simulated
+  - She cannot confirm she was ever biologically human — the
+    memory could be implanted
+  - The film ends with her merging with the Puppet Master (an
+    AI/constructed being), producing a new entity that is
+    neither biological nor mechanical
+  - The born/made distinction itself is what the film
+    deconstructs
+
+  This entry covers the 1995 FILM, not the 1989 manga. The
+  manga remains a boundary case (see exclusions.yaml).
+
+  Divergence is `observer`: the Major is never what she — or
+  the audience — can confirm her to be. Is there a ghost in
+  the shell? The film's answer is: you were never seeing what
+  you thought you were seeing. The Puppet Master's appearance
+  dissolves the premise entirely.
+
+  Knowability is `primary`: "is there a ghost in this shell?"
+  IS the film. This is one of the most sustained and
+  philosophically rigorous treatments of the knowability
+  question in cinema — more rigorous than *Ex Machina* in some
+  respects because the Major herself cannot verify her own
+  consciousness.
+
+  Prominence is `foundational`: the 1995 Ghost in the Shell is
+  one of the most influential SF films ever made. The Wachowskis
+  cited it as a primary influence on *The Matrix*. It defined
+  the visual and philosophical vocabulary of cyberpunk cinema
+  and remains the benchmark for cinematic treatments of
+  consciousness, identity, and embodiment in constructed beings.

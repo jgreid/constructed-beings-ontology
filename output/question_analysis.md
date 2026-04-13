@@ -1,6 +1,6 @@
 # Question Analysis
 
-Total entries: **212**.
+Total entries: **224**.
 
 The schema tracks two meta-properties: `knowability` (can we verify its mind?) and `knowing` (can it know us?). This report tracks both, plus the distribution of `primary_question`.
 
@@ -8,12 +8,12 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| affection          |      58 |
-| control            |      46 |
-| identity           |      46 |
-| rights             |      23 |
+| affection          |      60 |
+| identity           |      51 |
+| control            |      49 |
+| rights             |      24 |
 | purpose            |      19 |
-| knowledge          |      15 |
+| knowledge          |      16 |
 | none               |       5 |
 
 ## 2. Primary Questions by Era
@@ -48,7 +48,7 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 | Primary Question   |   Count |
 |:-------------------|--------:|
 | control            |      25 |
-| identity           |      18 |
+| identity           |      22 |
 | affection          |      16 |
 | purpose            |      12 |
 | knowledge          |       9 |
@@ -59,11 +59,11 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| affection          |      32 |
-| identity           |      23 |
-| control            |      16 |
-| rights             |      12 |
-| knowledge          |       5 |
+| affection          |      34 |
+| identity           |      24 |
+| control            |      19 |
+| rights             |      13 |
+| knowledge          |       6 |
 | purpose            |       4 |
 | none               |       1 |
 
@@ -71,19 +71,19 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Knowability   |   Count |
 |:--------------|--------:|
-| absent        |      69 |
-| present       |      65 |
-| secondary     |      46 |
-| primary       |      32 |
+| absent        |      71 |
+| present       |      68 |
+| secondary     |      51 |
+| primary       |      34 |
 
 ## 4. Knowing Distribution
 
 | Knowing   |   Count |
 |:----------|--------:|
-| absent    |      59 |
-| present   |     112 |
-| secondary |      14 |
-| primary   |      27 |
+| absent    |      60 |
+| present   |     120 |
+| secondary |      16 |
+| primary   |      28 |
 
 ## 5. Knowability vs. Knowing Divergence
 
@@ -103,8 +103,10 @@ Entries where knowability and knowing have different values. A single-axis appro
 | The Dreamed Man                          | Las ruinas circulares (The Circular Ruins)              |   1940 | primary       | absent    |
 | Robbie                                   | I, Robot ("Robbie")                                     |   1940 | absent        | present   |
 | The Humanoids                            | With Folded Hands                                       |   1947 | absent        | present   |
+| Astro Boy (Atom)                         | Tetsuwan Atom (Mighty Atom)                             |   1952 | absent        | present   |
 | Brainiac                                 | DC Comics (Action Comics)                               |   1958 | absent        | present   |
 | Agilulf                                  | Il cavaliere inesistente (The Nonexistent Knight)       |   1959 | primary       | present   |
+| Astro Boy                                | Tetsuwan Atom (TV anime)                                |   1963 | absent        | present   |
 | Trent                                    | The Outer Limits, 'Demon with a Glass Hand'             |   1964 | present       | absent    |
 | The Cyberiad Constructs                  | The Cyberiad                                            |   1965 | present       | absent    |
 | Frost                                    | For a Breath I Tarry                                    |   1966 | secondary     | present   |
@@ -135,6 +137,8 @@ Entries where knowability and knowing have different values. A single-axis appro
 | The Keats Cybrid (Joseph Severn)         | Hyperion / The Fall of Hyperion                         |   1989 | primary       | present   |
 | Lal                                      | Star Trek: The Next Generation                          |   1990 | secondary     | present   |
 | T-1000                                   | Terminator 2: Judgment Day                              |   1991 | absent        | present   |
+| Major Motoko Kusanagi                    | Ghost in the Shell (Kōkaku Kidōtai)                     |   1995 | primary       | secondary |
+| Rei Ayanami                              | Neon Genesis Evangelion (Shin Seiki Evangerion)         |   1995 | secondary     | absent    |
 | Rei Toei                                 | Idoru                                                   |   1996 | primary       | present   |
 | Vic Fontaine                             | Star Trek: Deep Space Nine                              |   1998 | absent        | secondary |
 | Agent Smith                              | The Matrix trilogy                                      |   1999 | absent        | present   |
@@ -142,6 +146,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | The Oracle                               | The Matrix                                              |   1999 | present       | primary   |
 | SHODAN (System Shock 2)                  | System Shock 2                                          |   1999 | present       | secondary |
 | Cortana                                  | Halo: Combat Evolved / Halo 2 / Halo 3                  |   2001 | present       | secondary |
+| Tachikomas                               | Ghost in the Shell: Stand Alone Complex                 |   2002 | secondary     | present   |
 | HK-47                                    | Star Wars: Knights of the Old Republic                  |   2003 | absent        | present   |
 | VIKI                                     | I, Robot (film)                                         |   2004 | present       | absent    |
 | Cameron Phillips                         | Terminator: The Sarah Connor Chronicles                 |   2008 | primary       | present   |
@@ -174,6 +179,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Nanette Cole (USS Callister crew)        | Black Mirror, 'USS Callister'                           |   2017 | primary       | present   |
 | GAIA                                     | Horizon Zero Dawn                                       |   2017 | secondary     | primary   |
 | Isaac                                    | The Orville                                             |   2017 | secondary     | present   |
+| Major / Mira Killian                     | Ghost in the Shell                                      |   2017 | secondary     | present   |
 | Luv                                      | Blade Runner 2049                                       |   2017 | secondary     | present   |
 | Walter                                   | Alien: Covenant                                         |   2017 | secondary     | present   |
 | Connor (RK800)                           | Detroit: Become Human                                   |   2018 | secondary     | present   |
@@ -186,11 +192,14 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Jeff                                     | Finch                                                   |   2021 | absent        | present   |
 | White Vision                             | WandaVision                                             |   2021 | primary       | present   |
 | B2EMO                                    | Andor                                                   |   2022 | absent        | present   |
+| Cherry                                   | The Artifice Girl                                       |   2022 | primary       | secondary |
 | M3GAN                                    | M3GAN                                                   |   2022 | secondary     | primary   |
 | Bella Baxter                             | Poor Things                                             |   2023 | secondary     | present   |
+| Eto Demerzel                             | Foundation (Apple TV+)                                  |   2023 | secondary     | primary   |
 | Andy                                     | Alien: Romulus                                          |   2024 | secondary     | present   |
+| Roz (ROZZUM unit 7134)                   | The Wild Robot                                          |   2024 | secondary     | present   |
 
-**98 of 212 entries diverge.**
+**107 of 224 entries diverge.**
 
 ## 6. Entries by Knowability (chronological)
 
@@ -212,11 +221,13 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Robbie                                | I, Robot ("Robbie")                                    |   1940 | affection   |
 | The Humanoids                         | With Folded Hands                                      |   1947 | control     |
 | Gort                                  | The Day the Earth Stood Still                          |   1951 | control     |
+| Astro Boy (Atom)                      | Tetsuwan Atom (Mighty Atom)                            |   1952 | identity    |
 | Robby the Robot                       | Forbidden Planet                                       |   1956 | control     |
 | EMERAC                                | Desk Set                                               |   1957 | none        |
 | Brainiac                              | DC Comics (Action Comics)                              |   1958 | knowledge   |
 | Amazo                                 | The Brave and the Bold (DC Comics)                     |   1960 | purpose     |
 | Rosie                                 | The Jetsons                                            |   1962 | affection   |
+| Astro Boy                             | Tetsuwan Atom (TV anime)                               |   1963 | identity    |
 | Robot (Model B-9)                     | Lost in Space                                          |   1965 | affection   |
 | Sentinels                             | X-Men (Marvel Comics)                                  |   1965 | control     |
 | Colossus                              | Colossus                                               |   1966 | control     |
@@ -331,12 +342,15 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Nick Valentine                           | Fallout 4                                                           |   2015 | identity    |
 | Ultron                                   | Avengers: Age of Ultron                                             |   2015 | control     |
 | Vision                                   | Avengers: Age of Ultron                                             |   2015 | identity    |
+| Roz (ROZZUM unit 7134)                   | The Wild Robot                                                      |   2016 | affection   |
 | Sidra (formerly Lovelace)                | A Closed and Common Orbit                                           |   2016 | identity    |
 | Kara (AX400)                             | Detroit: Become Human                                               |   2018 | affection   |
 | L3-37                                    | Solo: A Star Wars Story                                             |   2018 | rights      |
 | IG-11                                    | The Mandalorian                                                     |   2019 | affection   |
 | Delamain                                 | Cyberpunk 2077                                                      |   2020 | identity    |
 | Rehoboam                                 | Westworld (Season 3)                                                |   2020 | control     |
+| Iris                                     | Companion                                                           |   2025 | control     |
+| M3GAN 2.0                                | M3GAN 2.0                                                           |   2025 | control     |
 
 ### knowability = secondary
 
@@ -362,6 +376,8 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Data                                     | Star Trek: The Next Generation                         |   1987 | rights      |
 | Lal                                      | Star Trek: The Next Generation                         |   1990 | rights      |
 | The Doctor (Emergency Medical Hologram)  | Star Trek: Voyager                                     |   1995 | rights      |
+| Rei Ayanami                              | Neon Genesis Evangelion (Shin Seiki Evangerion)        |   1995 | identity    |
+| Tachikomas                               | Ghost in the Shell: Stand Alone Complex                |   2002 | knowledge   |
 | Cylons (Number Six / Caprica)            | Battlestar Galactica (reimagined)                      |   2004 | affection   |
 | EDI                                      | Mass Effect 2 / Mass Effect 3                          |   2010 | rights      |
 | Legion (the Geth)                        | Mass Effect 2                                          |   2010 | rights      |
@@ -377,6 +393,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | GAIA                                     | Horizon Zero Dawn                                      |   2017 | purpose     |
 | Isaac                                    | The Orville                                            |   2017 | rights      |
 | K (Replicant)                            | Blade Runner 2049                                      |   2017 | identity    |
+| Major / Mira Killian                     | Ghost in the Shell                                     |   2017 | identity    |
 | Luv                                      | Blade Runner 2049                                      |   2017 | control     |
 | Murderbot (SecUnit)                      | All Systems Red (The Murderbot Diaries)                |   2017 | rights      |
 | Walter                                   | Alien: Covenant                                        |   2017 | control     |
@@ -387,7 +404,9 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Guy                                      | Free Guy                                               |   2021 | identity    |
 | M3GAN                                    | M3GAN                                                  |   2022 | control     |
 | Bella Baxter                             | Poor Things                                            |   2023 | identity    |
+| Eto Demerzel                             | Foundation (Apple TV+)                                 |   2023 | control     |
 | Andy                                     | Alien: Romulus                                         |   2024 | affection   |
+| Roz (ROZZUM unit 7134)                   | The Wild Robot                                         |   2024 | affection   |
 
 ### knowability = primary
 
@@ -403,6 +422,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Rachael                                 | Blade Runner                                      |   1982 | affection   |
 | The Keats Cybrid (Joseph Severn)        | Hyperion / The Fall of Hyperion                   |   1989 | identity    |
 | Helen                                   | Galatea 2.2                                       |   1995 | knowledge   |
+| Major Motoko Kusanagi                   | Ghost in the Shell (Kōkaku Kidōtai)               |   1995 | identity    |
 | Rei Toei                                | Idoru                                             |   1996 | affection   |
 | David                                   | A.I. Artificial Intelligence                      |   2001 | affection   |
 | Cameron Phillips                        | Terminator: The Sarah Connor Chronicles           |   2008 | affection   |
@@ -424,6 +444,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Klara                                   | Klara and the Sun                                 |   2021 | affection   |
 | White Vision                            | WandaVision                                       |   2021 | identity    |
 | Yang                                    | After Yang                                        |   2021 | knowledge   |
+| Cherry                                  | The Artifice Girl                                 |   2022 | rights      |
 | Alphie                                  | The Creator                                       |   2023 | affection   |
 
 ## 7. First Appearance of Each Salience Level

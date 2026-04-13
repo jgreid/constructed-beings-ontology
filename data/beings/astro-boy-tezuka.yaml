@@ -1,0 +1,79 @@
+id: astro-boy-tezuka
+name: "Astro Boy (Atom)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Tetsuwan Atom (Mighty Atom)"
+  year: 1952
+  medium: comics
+  creator: "Osamu Tezuka (Dr. Tenma in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - child
+    - mirror
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: resentful
+  tags:
+    - canonical
+    - child-arc
+
+sequel_link: astro-boy-1963
+link_type: adaptation
+
+notes: |
+  Astro Boy (known in Japan as Atom / Tetsuwan Atom) is the
+  foundational constructed being of Japanese popular culture
+  and one of the most influential in the global canon. Created
+  by Osamu Tezuka beginning in 1952, the manga follows a robot
+  boy built by Dr. Tenma to replace his dead son Tobio. When
+  Tenma rejects Atom for failing to grow, Atom is taken in by
+  Dr. Ochanomizu and becomes a hero who fights for justice while
+  navigating his identity as a robot in a human world.
+
+  This is the Pinocchio pattern filtered through post-war Japan:
+  a constructed child seeking acceptance, identity, and purpose
+  in a world that alternately loves and fears him. The "am I a
+  real boy?" question is restated as "can a robot have a heart?"
+  (kokoro), a framing that deeply influenced subsequent Japanese
+  SF and robotics research.
+
+  Divergence is `departure`: Tenma built a replacement child.
+  Atom departed that role entirely to become a hero, a rights
+  advocate, and eventually a symbol of hope for human-robot
+  coexistence. Autonomy is `designed` rather than `emergent`
+  because Atom's heroic capabilities are built into him — his
+  seven powers are specifications, not emergent properties.
+
+  Knowability is `absent`: the manga generally does not ask
+  whether Atom truly feels. It proceeds as though his emotions
+  are real and treats the question as settled. Knowing is
+  `present` — Atom observes and cares about humans closely,
+  but this isn't foregrounded as an epistemological question.
+
+  Prominence is `foundational`: Astro Boy launched the anime
+  industry, influenced robotics research (Mori's Uncanny Valley
+  paper cites Tezuka's work), and remains the single most
+  recognizable constructed being in East Asian popular culture.
+  The character's influence on Western robotics fiction is
+  documented but indirect — Tezuka's optimistic robot-as-child
+  archetype is the counterpoint to Western SF's more anxious
+  treatment of artificial persons.
+
+  First non-Western entry in the corpus. The existing schema's
+  seven properties capture Atom's narrative position without
+  requiring modification, which supports the pragmatic first
+  step of including Western-known non-Western works.
