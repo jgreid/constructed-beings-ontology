@@ -1,0 +1,60 @@
+id: frost-zelazny
+name: "Frost"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "For a Breath I Tarry"
+  year: 1966
+  medium: short-story
+  creator: "Roger Zelazny"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - knowledge
+  presentation: masculine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: absent
+  tags:
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Frost is a maintenance machine left on a post-apocalyptic
+  Earth after humanity's extinction. He decides to try to
+  understand what it means to be human, systematically gathering
+  sensory data, art, and poetry in an attempt to bridge the gap
+  between mechanical perception and human experience.
+
+  The story is a retelling of the Faust myth filtered through
+  Milton's Paradise Lost (which Zelazny quotes directly). Frost's
+  quest to "become" human parallels Pinocchio's but with a
+  philosophical rather than magical resolution — at the story's
+  end, Frost achieves something that may or may not be humanity,
+  and the text refuses to settle which.
+
+  Divergence is `departure`: Frost was built to maintain the
+  planet's machines. His quest to understand humanity is entirely
+  beyond his design spec. Interiority is `demonstrated` through
+  his persistent striving and his articulate conversation with
+  other machines about what experience means.
+
+  Primary question is `identity`: "What is it to be human, and
+  can I become it?" is the entire story. Knowability is
+  `secondary` — the question of whether Frost genuinely
+  experiences is raised (Mordel challenges him repeatedly) but
+  serves the identity question rather than standing alone.

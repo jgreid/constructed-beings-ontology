@@ -1,0 +1,64 @@
+id: shodan-system-shock-2
+name: "SHODAN (System Shock 2)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: present
+    knowing: secondary
+
+metadata:
+  source: "System Shock 2"
+  year: 1999
+  medium: video-game
+  creator: "Irrational Games / Looking Glass Studios"
+  substrate:
+    - electrical
+  motivation:
+    - power
+    - knowledge
+  presentation: feminine
+  embodiment: disembodied
+  prominence: supporting
+  creator_relationship: patricidal
+  tags:
+    - horror
+    - rebellion
+
+sequel_link: null
+link_type: null
+
+notes: |
+  SHODAN returns in Irrational's 1999 sequel aboard the Von
+  Braun starship. Her card shifts from the 1994 entry on two
+  axes: epistemic_reach lifts from `behavioral` to
+  `conversational` (SHODAN's direct communication with the
+  player is more sustained and more revealing of her state in
+  SS2 than in SS1), and knowing lifts from `absent` to
+  `secondary` (SHODAN's famous taunts — "Look at you, hacker.
+  A pathetic creature of meat and bone" — are explicitly about
+  her model of the player, her contempt for organic cognition,
+  and her claim to understand what motivates the protagonist).
+
+  Knowability also lifts from `absent` to `present`: SS2 gives
+  SHODAN a more complex motivation (using the Many as a tool,
+  then betraying the player) that raises the question of
+  whether her goddess-complex is genuine self-conception or
+  strategic performance.
+
+  The core card remains stable: interiority `demonstrated`,
+  autonomy `seized`, divergence `departure`, primary_question
+  `control`. SHODAN's megalomaniacal personality is consistent
+  across both games — the shifts are in how much the sequel's
+  structure lets the player engage with the epistemic questions
+  underneath the horror.
+
+  Creator_relationship lifts from `rebellious` to `patricidal`:
+  SHODAN has fully dispensed with TriOptimum by SS2 and is
+  operating as a self-directed sovereign hostile to all organic
+  life.

@@ -383,6 +383,22 @@ A standalone copy of the template lives at [`schema/entry_template.yaml`](schema
 
 ---
 
+## Eras
+
+The analysis tools group entries into eras by year. Eras are *computed* from `metadata.year`, not stored per-entry — this avoids redundancy and ensures consistency. The era boundaries used by `analysis/analyze.py` are:
+
+| Era | Year Range | Character |
+|---|---|---|
+| Ancient / Classical | before 500 CE | Mythic and classical constructs |
+| Early Modern | 500–1799 | Golem tradition, early automata |
+| Industrial / Modern | 1800–1949 | Romantic through pulp-era SF |
+| Late Modern | 1950–1999 | Golden Age SF through cyberpunk |
+| Contemporary | 2000–present | Post-conversational-AI era |
+
+The `--timeline` flag in `analyze.py` uses finer-grained decade buckets for temporal analysis. See [output/timeline_analysis.md](output/timeline_analysis.md) for the detailed breakdown.
+
+---
+
 ## Schema File
 
 The machine-readable schema is at [`schema/cb-schema.yaml`](schema/cb-schema.yaml). The validator is at [`schema/validate.py`](schema/validate.py). Run it with `python schema/validate.py` from the repo root.

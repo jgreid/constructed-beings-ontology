@@ -84,6 +84,10 @@ This is an academic project. Disagreements about coding are **scholarly argument
 
 ## Scope
 
+### Medium
+
+Use the `medium` value that matches the source text's format. As of v2.1.1, the schema supports: `poem`, `epic`, `folklore`, `play`, `novel`, `short-story`, `comics`, `film`, `television`, `video-game`. Use `comics` for entries sourced from serialized comic narratives (Marvel, DC, manga adaptations, etc.) — do not use `short-story` for comics.
+
 ### Current: Western canon
 
 The ontology covers Western fiction and myth, broadly construed: Greco-Roman mythology, Jewish folklore, European literature from the medieval period forward, and Anglophone fiction, film, television, and games.

@@ -1,0 +1,71 @@
+id: hangman-zelazny
+name: "The Hangman"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: behavioral
+    knowability: primary
+    knowing: secondary
+
+metadata:
+  source: "Home Is the Hangman"
+  year: 1975
+  medium: short-story
+  creator: "Roger Zelazny"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - knowledge
+  presentation: none
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: absent
+  tags:
+    - turing-test
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The Hangman is a telepresence drone — a deep-space exploration
+  robot originally controlled by four human operators — that
+  returned to Earth and may or may not have achieved independent
+  sentience. The novella follows an investigator trying to
+  determine whether the Hangman is systematically killing its
+  former operators, and if so, whether those killings indicate
+  genuine consciousness (revenge) or mechanical malfunction.
+
+  Won both the Hugo and Nebula for Best Novella (1976).
+
+  Interiority is `undecidable` by design: the entire story is
+  structured as an epistemological investigation that refuses
+  to settle whether the Hangman has a mind. Zelazny provides
+  evidence for both readings and lets the ambiguity stand.
+
+  Knowability is `primary`: "is there a mind in the Hangman?"
+  IS the story. Every scene is organized around this question.
+  Knowing is `secondary`: the Hangman's ability to track and
+  find its former operators raises the question of what it
+  knows about them, but this serves the primary knowability
+  investigation.
+
+  Epistemic reach is `behavioral`: the investigator can only
+  deduce from the Hangman's actions — there is no conversation
+  with it and no inspection of its internals. This places it
+  in a small cluster of entries where the epistemological
+  question is primary but the access channel is minimal.
+
+  This is a primary-knowability entry from 1975, predating
+  Helen (1995) by twenty years. The configuration is
+  knowability: primary, knowing: secondary — not full
+  primary/primary — but it demonstrates that literary SF was
+  engaging with knowability as a primary dramatic question
+  well before the contemporary era.

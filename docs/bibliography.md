@@ -52,6 +52,8 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **The Lifecycle of Software Objects** (2010) — Ted Chiang. *Being(s): The Digients*
 - **Ancillary Justice** (2013) — Ann Leckie. *Being(s): Breq*
 - **A Closed and Common Orbit** (2016) — Becky Chambers. *Being(s): Sidra*
+- **Golem XIV** (1981) — Stanislaw Lem. *Being(s): Golem XIV*
+- **2010: Odyssey Two** (1982) — Arthur C. Clarke. *Being(s): HAL 9000 (2010)*
 - **All Systems Red (The Murderbot Diaries)** (2017) — Martha Wells. *Being(s): Murderbot*
 - **Machines Like Me** (2019) — Ian McEwan. *Being(s): Adam*
 - **Klara and the Sun** (2021) — Kazuo Ishiguro. *Being(s): Klara*
@@ -67,10 +69,14 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **I, Robot ("Robbie")** (1940) — Isaac Asimov. *Being(s): Robbie*
 - **Las ruinas circulares (The Circular Ruins)** (1940) — Jorge Luis Borges. *Being(s): The Dreamed Man*
 - **City** (1944) — Clifford D. Simak. *Being(s): Jenkins*
+- **With Folded Hands** (1947) — Jack Williamson. *Being(s): The Humanoids*
 - **EPICAC** (1950) — Kurt Vonnegut. *Being(s): EPICAC*
 - **Multivac stories** (1955-1975) — Isaac Asimov. *Being(s): Multivac*
 - **The Cyberiad** (1965) — Stanislaw Lem. *Being(s): The Cyberiad Constructs*
+- **For a Breath I Tarry** (1966) — Roger Zelazny. *Being(s): Frost*
 - **I Have No Mouth, and I Must Scream** (1967) — Harlan Ellison. *Being(s): AM*
+- **The Electric Ant** (1969) — Philip K. Dick. *Being(s): Garson Poole*
+- **Home Is the Hangman** (1975) — Roger Zelazny. *Being(s): The Hangman*
 
 ### Comics
 
@@ -141,6 +147,7 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 
 ### Television
 
+- **The Outer Limits, "Demon with a Glass Hand"** (1964) — Harlan Ellison. *Being(s): Trent*
 - **The Jetsons** (1962) — Hanna-Barbera. *Being(s): Rosie*
 - **Lost in Space** (1965) — Irwin Allen. *Being(s): Robot B-9*
 - **Star Trek: The Original Series** (1966-1968) — Gene Roddenberry. *Being(s): M-5, Nomad*
@@ -175,6 +182,7 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 ### Video Games
 
 - **System Shock** (1994) — Looking Glass Studios. *Being(s): SHODAN*
+- **System Shock 2** (1999) — Irrational Games / Looking Glass Studios. *Being(s): SHODAN*
 - **Halo** (2001-2012) — Bungie / 343 Industries. *Being(s): 343 Guilty Spark, Cortana*
 - **Star Wars: Knights of the Old Republic** (2003) — BioWare. *Being(s): HK-47*
 - **Portal** (2007) — Valve. *Being(s): GLaDOS*
@@ -182,6 +190,7 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Mass Effect 2 / 3** (2010-2012) — BioWare. *Being(s): EDI, Legion*
 - **Portal 2** (2011) — Valve. *Being(s): Atlas/P-body, GLaDOS, Wheatley*
 - **Fallout 4** (2015-2016) — Bethesda Game Studios. *Being(s): Codsworth, DiMA, Nick Valentine*
+- **Nier: Automata** (2017) — Yoko Taro / PlatinumGames. *Being(s): 2B, 9S*
 - **Horizon Zero Dawn** (2017) — Guerrilla Games. *Being(s): GAIA*
 - **Detroit: Become Human** (2018) — Quantic Dream. *Being(s): Connor, Kara, Markus*
 - **Cyberpunk 2077** (2020) — CD Projekt Red. *Being(s): Delamain*

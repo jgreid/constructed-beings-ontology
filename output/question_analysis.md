@@ -1,6 +1,6 @@
 # Question Analysis
 
-Total entries: **202**.
+Total entries: **212**.
 
 The schema tracks two meta-properties: `knowability` (can we verify its mind?) and `knowing` (can it know us?). This report tracks both, plus the distribution of `primary_question`.
 
@@ -8,12 +8,12 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| affection          |      57 |
-| control            |      44 |
-| identity           |      42 |
+| affection          |      58 |
+| control            |      46 |
+| identity           |      46 |
 | rights             |      23 |
 | purpose            |      19 |
-| knowledge          |      12 |
+| knowledge          |      15 |
 | none               |       5 |
 
 ## 2. Primary Questions by Era
@@ -39,7 +39,7 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 |:-------------------|--------:|
 | affection          |       9 |
 | identity           |       5 |
-| control            |       3 |
+| control            |       4 |
 | purpose            |       2 |
 | rights             |       2 |
 
@@ -47,12 +47,12 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| control            |      24 |
-| affection          |      15 |
-| identity           |      15 |
+| control            |      25 |
+| identity           |      18 |
+| affection          |      16 |
 | purpose            |      12 |
+| knowledge          |       9 |
 | rights             |       9 |
-| knowledge          |       7 |
 | none               |       2 |
 
 ### Contemporary
@@ -60,10 +60,10 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 | Primary Question   |   Count |
 |:-------------------|--------:|
 | affection          |      32 |
-| identity           |      22 |
+| identity           |      23 |
 | control            |      16 |
 | rights             |      12 |
-| knowledge          |       4 |
+| knowledge          |       5 |
 | purpose            |       4 |
 | none               |       1 |
 
@@ -71,19 +71,19 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Knowability   |   Count |
 |:--------------|--------:|
-| absent        |      68 |
-| present       |      63 |
-| secondary     |      42 |
-| primary       |      29 |
+| absent        |      69 |
+| present       |      65 |
+| secondary     |      46 |
+| primary       |      32 |
 
 ## 4. Knowing Distribution
 
 | Knowing   |   Count |
 |:----------|--------:|
-| absent    |      58 |
-| present   |     107 |
-| secondary |      11 |
-| primary   |      26 |
+| absent    |      59 |
+| present   |     112 |
+| secondary |      14 |
+| primary   |      27 |
 
 ## 5. Knowability vs. Knowing Divergence
 
@@ -102,15 +102,21 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Adam Link                                | I, Robot (Adam Link series)                             |   1939 | secondary     | present   |
 | The Dreamed Man                          | Las ruinas circulares (The Circular Ruins)              |   1940 | primary       | absent    |
 | Robbie                                   | I, Robot ("Robbie")                                     |   1940 | absent        | present   |
+| The Humanoids                            | With Folded Hands                                       |   1947 | absent        | present   |
 | Brainiac                                 | DC Comics (Action Comics)                               |   1958 | absent        | present   |
 | Agilulf                                  | Il cavaliere inesistente (The Nonexistent Knight)       |   1959 | primary       | present   |
+| Trent                                    | The Outer Limits, 'Demon with a Glass Hand'             |   1964 | present       | absent    |
 | The Cyberiad Constructs                  | The Cyberiad                                            |   1965 | present       | absent    |
+| Frost                                    | For a Breath I Tarry                                    |   1966 | secondary     | present   |
 | AM                                       | I Have No Mouth, and I Must Scream                      |   1967 | secondary     | primary   |
 | Herbie                                   | The Love Bug                                            |   1968 | absent        | present   |
 | M-5                                      | Star Trek: The Original Series, 'The Ultimate Computer' |   1968 | present       | absent    |
+| Garson Poole                             | The Electric Ant                                        |   1969 | primary       | secondary |
 | The Stepford Wives                       | The Stepford Wives                                      |   1972 | secondary     | absent    |
+| The Hangman                              | Home Is the Hangman                                     |   1975 | primary       | secondary |
 | Andrew Martin                            | The Bicentennial Man                                    |   1976 | secondary     | present   |
 | Proteus IV                               | Demon Seed                                              |   1977 | present       | secondary |
+| HAL 9000 (2010)                          | 2010: Odyssey Two                                       |   1982 | secondary     | present   |
 | KITT (Knight Industries Two Thousand)    | Knight Rider                                            |   1982 | absent        | present   |
 | Rachael                                  | Blade Runner                                            |   1982 | primary       | present   |
 | Tron                                     | Tron                                                    |   1982 | secondary     | absent    |
@@ -134,6 +140,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Agent Smith                              | The Matrix trilogy                                      |   1999 | absent        | present   |
 | Bender Bending Rodríguez                 | Futurama                                                |   1999 | absent        | present   |
 | The Oracle                               | The Matrix                                              |   1999 | present       | primary   |
+| SHODAN (System Shock 2)                  | System Shock 2                                          |   1999 | present       | secondary |
 | Cortana                                  | Halo: Combat Evolved / Halo 2 / Halo 3                  |   2001 | present       | secondary |
 | HK-47                                    | Star Wars: Knights of the Old Republic                  |   2003 | absent        | present   |
 | VIKI                                     | I, Robot (film)                                         |   2004 | present       | absent    |
@@ -162,6 +169,8 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Janet                                    | The Good Place                                          |   2016 | secondary     | primary   |
 | K-2SO                                    | Rogue One: A Star Wars Story                            |   2016 | absent        | present   |
 | Maeve Millay                             | Westworld                                               |   2016 | secondary     | present   |
+| 2B (YoRHa No. 2 Type B)                  | Nier: Automata                                          |   2017 | secondary     | present   |
+| 9S (YoRHa No. 9 Type S)                  | Nier: Automata                                          |   2017 | secondary     | present   |
 | Nanette Cole (USS Callister crew)        | Black Mirror, 'USS Callister'                           |   2017 | primary       | present   |
 | GAIA                                     | Horizon Zero Dawn                                       |   2017 | secondary     | primary   |
 | Isaac                                    | The Orville                                             |   2017 | secondary     | present   |
@@ -181,7 +190,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Bella Baxter                             | Poor Things                                             |   2023 | secondary     | present   |
 | Andy                                     | Alien: Romulus                                          |   2024 | secondary     | present   |
 
-**89 of 202 entries diverge.**
+**98 of 212 entries diverge.**
 
 ## 6. Entries by Knowability (chronological)
 
@@ -201,6 +210,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | R.U.R. Robots                         | R.U.R. (Rossum's Universal Robots)                     |   1920 | rights      |
 | False Maria                           | Metropolis                                             |   1927 | purpose     |
 | Robbie                                | I, Robot ("Robbie")                                    |   1940 | affection   |
+| The Humanoids                         | With Folded Hands                                      |   1947 | control     |
 | Gort                                  | The Day the Earth Stood Still                          |   1951 | control     |
 | Robby the Robot                       | Forbidden Planet                                       |   1956 | control     |
 | EMERAC                                | Desk Set                                               |   1957 | none        |
@@ -276,6 +286,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | R. Daneel Olivaw                         | The Caves of Steel and sequels                                      |   1953 | rights      |
 | Multivac                                 | Multivac stories (1955–1975)                                        |   1955 | knowledge   |
 | The Metal Men                            | Showcase (DC Comics)                                                |   1962 | identity    |
+| Trent                                    | The Outer Limits, 'Demon with a Glass Hand'                         |   1964 | identity    |
 | The Cyberiad Constructs                  | The Cyberiad                                                        |   1965 | knowledge   |
 | Mike (Mycroft Holmes / HOLMES IV)        | The Moon Is a Harsh Mistress                                        |   1966 | affection   |
 | HAL 9000                                 | 2001: A Space Odyssey                                               |   1968 | control     |
@@ -300,6 +311,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | T-800 (T2)                               | Terminator 2: Judgment Day                                          |   1991 | identity    |
 | Annalee Call                             | Alien: Resurrection                                                 |   1997 | rights      |
 | The Oracle                               | The Matrix                                                          |   1999 | knowledge   |
+| SHODAN (System Shock 2)                  | System Shock 2                                                      |   1999 | control     |
 | Cortana                                  | Halo: Combat Evolved / Halo 2 / Halo 3                              |   2001 | affection   |
 | Gigolo Joe                               | A.I. Artificial Intelligence                                        |   2001 | rights      |
 | B-4                                      | Star Trek: Nemesis                                                  |   2002 | identity    |
@@ -333,10 +345,12 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Coppélia                                 | Coppélia, ou la Fille aux yeux d'émail                 |   1870 | affection   |
 | Olimpia (Tales of Hoffmann)              | Les contes d'Hoffmann (The Tales of Hoffmann)          |   1881 | affection   |
 | Adam Link                                | I, Robot (Adam Link series)                            |   1939 | rights      |
+| Frost                                    | For a Breath I Tarry                                   |   1966 | identity    |
 | AM                                       | I Have No Mouth, and I Must Scream                     |   1967 | control     |
 | The Stepford Wives                       | The Stepford Wives                                     |   1972 | control     |
 | Andrew Martin                            | The Bicentennial Man                                   |   1976 | rights      |
 | V'Ger                                    | Star Trek: The Motion Picture                          |   1979 | knowledge   |
+| HAL 9000 (2010)                          | 2010: Odyssey Two                                      |   1982 | affection   |
 | Tron                                     | Tron                                                   |   1982 | purpose     |
 | R. Giskard Reventlov                     | The Robots of Dawn                                     |   1983 | purpose     |
 | Wintermute / Neuromancer                 | Neuromancer                                            |   1984 | control     |
@@ -358,6 +372,8 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Hosts (Dolores Abernathy)                | Westworld                                              |   2016 | identity    |
 | Janet                                    | The Good Place                                         |   2016 | identity    |
 | Maeve Millay                             | Westworld                                              |   2016 | affection   |
+| 2B (YoRHa No. 2 Type B)                  | Nier: Automata                                         |   2017 | identity    |
+| 9S (YoRHa No. 9 Type S)                  | Nier: Automata                                         |   2017 | knowledge   |
 | GAIA                                     | Horizon Zero Dawn                                      |   2017 | purpose     |
 | Isaac                                    | The Orville                                            |   2017 | rights      |
 | K (Replicant)                            | Blade Runner 2049                                      |   2017 | identity    |
@@ -381,6 +397,9 @@ Entries where knowability and knowing have different values. A single-axis appro
 | The Dreamed Man                         | Las ruinas circulares (The Circular Ruins)        |   1940 | identity    |
 | Agilulf                                 | Il cavaliere inesistente (The Nonexistent Knight) |   1959 | identity    |
 | Harey (the Solaris visitor)             | Solaris                                           |   1961 | knowledge   |
+| Garson Poole                            | The Electric Ant                                  |   1969 | identity    |
+| The Hangman                             | Home Is the Hangman                               |   1975 | knowledge   |
+| Golem XIV                               | Golem XIV                                         |   1981 | knowledge   |
 | Rachael                                 | Blade Runner                                      |   1982 | affection   |
 | The Keats Cybrid (Joseph Severn)        | Hyperion / The Fall of Hyperion                   |   1989 | identity    |
 | Helen                                   | Galatea 2.2                                       |   1995 | knowledge   |
@@ -426,5 +445,5 @@ For knowability and knowing, tracking the earliest year each level appears.
 |:----------|-------------:|:-------------------------------------|
 | absent    |         -750 | The Golden Handmaidens of Hephaestus |
 | present   |         1818 | The Creature                         |
-| secondary |         1977 | Proteus IV                           |
+| secondary |         1969 | Garson Poole                         |
 | primary   |         1961 | Harey (the Solaris visitor)          |

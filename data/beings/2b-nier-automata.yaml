@@ -1,0 +1,67 @@
+id: 2b-nier-automata
+name: "2B (YoRHa No. 2 Type B)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: identity
+    epistemic_reach: behavioral
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Nier: Automata"
+  year: 2017
+  medium: video-game
+  creator: "Yoko Taro / PlatinumGames (YoRHa Command in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - power
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: servile
+  tags:
+    - military
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  2B is the primary protagonist of Nier: Automata's Route A/B.
+  She is a YoRHa combat android fighting a proxy war against
+  machine lifeforms on a post-apocalyptic Earth. Her true
+  designation is YoRHa No. 2 Type E (Executioner) — she is
+  secretly tasked with killing 9S every time he gets too close
+  to discovering the truth about YoRHa's purpose.
+
+  Divergence is `design`: 2B does exactly what her specification
+  requires. She kills 9S repeatedly, across dozens of memory-
+  wiped cycles, because that is her mission. The tragedy is
+  that the design forces her into repeated emotional intimacy
+  with someone she must destroy. The specification is the
+  catastrophe, not any departure from it.
+
+  Interiority is `demonstrated`: 2B's emotional responses — her
+  grief at killing 9S, her rage in combat, the way she softens
+  through Route A — are vividly shown through gameplay, animation,
+  and the rare moments when her composure breaks. Her stoicism
+  is itself characterization.
+
+  Primary question is `identity`: Nier: Automata's central
+  thematic project is "what does it mean to exist?" 2B's
+  specific version is: what does it mean to be a being designed
+  to love and destroy the same person? Knowability is `secondary`
+  — the philosophical endings explicitly ask whether android
+  consciousness is real, but this serves the identity theme.
+
+  Nier: Automata is one of the most philosophically significant
+  video game treatments of constructed beings. 9S has a separate
+  entry because his card differs substantially.

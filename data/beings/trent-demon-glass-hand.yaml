@@ -1,0 +1,69 @@
+id: trent-demon-glass-hand
+name: "Trent"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: designed
+    divergence: observer
+  the_lens:
+    primary_question: identity
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: absent
+
+metadata:
+  source: "The Outer Limits, 'Demon with a Glass Hand'"
+  year: 1964
+  medium: television
+  creator: "Harlan Ellison"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - mirror
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: absent
+  tags:
+    - passing
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Trent is a man fighting alien invaders who gradually discovers
+  — through a sentient glass computer embedded in his hand — that
+  he is not human. He is a construct built by future humans to
+  carry the encoded patterns of the entire human race through a
+  temporal crisis. He believes he is human throughout most of the
+  episode; the reveal is the climax.
+
+  Written by Harlan Ellison, who also wrote "I Have No Mouth, and
+  I Must Scream" (1967, also in the corpus). "Demon with a Glass
+  Hand" won the Writers Guild of America Award for Outstanding
+  Script and is widely considered one of the greatest SF
+  television episodes ever produced.
+
+  Divergence is `observer`: Trent was never what he thought he
+  was. He experienced himself as a confused amnesiac human; he
+  was a purpose-built construct all along. The gap is in his
+  own perception. This places him in the observer cluster with
+  Olympia, Ava, and Bernard.
+
+  Interiority is `undecidable`: the episode shows Trent
+  experiencing fear, determination, and grief, but once the
+  reveal occurs, the question of whether those emotions were
+  "real" or part of his programming is deliberately left
+  unresolved. The final shot — Trent sitting alone in the
+  building, immortal and purposeless now that his mission is
+  done — is haunting precisely because the interior question
+  is open.
+
+  Primary question is `identity`: "What am I?" is the reveal
+  and the episode's central concern. Knowability is `present`
+  — the question of what Trent is generates tension throughout
+  the mystery structure — but it's not the primary dramatic
+  question in the same way it is for Ava or the Hangman.
