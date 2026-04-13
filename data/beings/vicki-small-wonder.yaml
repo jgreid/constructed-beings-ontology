@@ -1,0 +1,55 @@
+id: vicki-small-wonder
+name: "V.I.C.I. (Vicki)"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: absent
+
+metadata:
+  source: "Small Wonder"
+  year: 1985
+  medium: television
+  creator: "Howard Leeds (Ted Lawson in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - child
+    - service
+
+sequel_link: null
+
+notes: |
+  *Small Wonder* (syndicated, 1985–89) is a family sitcom in
+  which robotics engineer Ted Lawson builds V.I.C.I. (Voice
+  Input Child Identicant) — an android girl designed to look
+  like a ten-year-old — and brings her home to live with his
+  family as their "daughter." The series' premise is that the
+  family must keep Vicki's nature secret from neighbors,
+  which generates four seasons of "the android almost gets
+  caught" comedy. The show is tonally light but structurally
+  a comedic prototype of Spielberg's *A.I.* — same "android
+  child passes as human" setup, played for laughs rather than
+  tears.
+
+  Interiority is `claims`: Vicki speaks in a flat monotone and
+  occasionally expresses preferences, but the show does not
+  commit to her inner life. Autonomy is `designed`, divergence
+  `none`. Primary question is `identity`: every episode is
+  structurally about whether Vicki can pass as a real girl,
+  and the comedy depends on the audience knowing the answer
+  (no, not quite). Knowability is `secondary`: the show
+  repeatedly stages the discovery-fear as a real dramatic
+  concern beneath the comedy.
+
+  Included as a lineage case: *Small Wonder* is the
+  missing link between Tik-Tok (the mechanical child who
+  openly declares its non-aliveness) and David (*A.I.*, the
+  android child whose passing is the tragedy).

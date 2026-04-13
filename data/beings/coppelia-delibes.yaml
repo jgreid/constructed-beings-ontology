@@ -1,0 +1,61 @@
+id: coppelia-delibes
+name: "Coppélia"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: none
+    divergence: observer
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: secondary
+    knowing: absent
+
+metadata:
+  source: "Coppélia, ou la Fille aux yeux d'émail"
+  year: 1870
+  medium: play
+  creator: "Léo Delibes / Arthur Saint-Léon / Charles Nuitter (Dr. Coppélius in-narrative)"
+  substrate:
+    - mechanical
+  motivation:
+    - mirror
+    - art
+
+sequel_link: null
+
+notes: |
+  The 1870 ballet by Léo Delibes (libretto by Charles
+  Nuitter after E.T.A. Hoffmann's "Der Sandmann") — one of
+  the most performed ballets in the classical repertoire.
+  Coppélia is a life-size dancing doll built by the old
+  toymaker Dr. Coppélius. The young man Franz falls in love
+  with her, believing she is real; his fiancée Swanilda
+  sneaks into Coppélius's workshop, discovers the truth, and
+  impersonates Coppélia to teach Franz a lesson. The ballet
+  ends happily with the lovers reunited and Coppélius alone
+  with his broken doll.
+
+  The ballet adapts Hoffmann's "Der Sandmann" (already in
+  the corpus as `olympia-sandmann`) but transforms the story
+  from Romantic horror into comedy. The Olympia → Coppélia
+  adaptation is one of the corpus's clearest examples of the
+  same constructed being reframed across genres: Hoffmann's
+  horror of misrecognition becomes Delibes's comedy of
+  mistaken identity, and the primary question shifts from
+  `identity` (Olympia) to `affection` (Coppélia — can a doll
+  be loved?).
+
+  Interiority is `none`: unlike Olympia, Coppélia is never
+  presented as possibly alive — the ballet is clear that she
+  is a doll and the comedy depends on Franz's error.
+  Autonomy is `none`: Coppélia does not act; she is posed.
+  Divergence is `observer`: the whole plot turns on
+  misrecognition.
+
+  French primary source (ballet). Medium coded as `play` —
+  the closest schema value for a performed stage work.
+  Coppélia is the most performed constructed-being stage
+  work in the Western canon and its absence was a gap in
+  the performing-arts coverage.

@@ -1,0 +1,65 @@
+id: keats-cybrid-hyperion
+name: "The Keats Cybrid (Joseph Severn)"
+
+card:
+  the_being:
+    interiority: narrated
+    autonomy: designed
+    divergence: observer
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Hyperion / The Fall of Hyperion"
+  year: 1989
+  medium: novel
+  creator: "Dan Simmons (the TechnoCore AIs in-narrative)"
+  substrate:
+    - biological
+    - electrical
+    - linguistic
+  motivation:
+    - mirror
+    - knowledge
+    - other
+
+sequel_link: null
+
+notes: |
+  Dan Simmons's *Hyperion* (1989) and *The Fall of Hyperion*
+  (1990): the Keats cybrid is a biological body constructed by
+  the TechnoCore — the vast network of AIs that secretly
+  manipulates the Hegemony of Man — and inhabited by a
+  personality reconstructed from John Keats's writings. In
+  *Hyperion* the cybrid appears as "Joseph Severn" (the name
+  of the real Keats's deathbed companion), narrating the
+  frame story; in *Fall of Hyperion* the cybrid acts as the
+  TechnoCore's reluctant agent while developing an
+  independent identity that draws on Keats's aesthetic values.
+
+  The cybrid is a distinctive position in the corpus: a body
+  built by AIs as a vessel for a human personality
+  reconstructed from text — the Dixie Flatline move done
+  with a Romantic poet rather than a hacker, and the Helen
+  (Galatea 2.2) move done a decade earlier with a different
+  authorial frame. Substrate includes `linguistic` because
+  the reconstruction is from language, same as Helen and
+  the Black Mirror Cookie.
+
+  Interiority is `narrated`: the cybrid narrates portions of
+  both novels. Autonomy is `designed` — the TechnoCore built
+  him with a purpose, and most of his actions serve it, even
+  as he begins to diverge. Divergence is `observer`: the
+  cybrid believes himself to be something (a reconstruction
+  of Keats) that the text keeps complicating — the TechnoCore
+  may have built him as a monitoring device, a weapon, or
+  something else entirely.
+
+  Primary question is `identity`: "am I John Keats?" is the
+  cybrid's explicit question, and Simmons's answer is
+  complex. Knowability is `primary`: the novels force the
+  reader to decide whether the cybrid has genuine Keatsian
+  aesthetic consciousness or is merely performing it.

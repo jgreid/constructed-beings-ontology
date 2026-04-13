@@ -1,0 +1,61 @@
+id: venus-dille
+name: "The Venus of Ille"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: absent
+
+metadata:
+  source: "La Vénus d'Ille"
+  year: 1837
+  medium: short-story
+  creator: "Prosper Mérimée"
+  substrate:
+    - mechanical
+    - magical
+  motivation:
+    - other
+
+sequel_link: null
+
+notes: |
+  Mérimée's 1837 novella — often called the finest French
+  supernatural short story of the 19th century. A Roman bronze
+  statue of Venus is unearthed in the south of France; the
+  son of the household playfully puts his wedding ring on
+  the statue's finger before his marriage, and that night the
+  Venus enters the bridal chamber and crushes him in her
+  embrace. The statue is later melted down and recast as a
+  church bell, but the vineyards it overlooks begin to fail.
+
+  The dark Galatea. Where Ovid's statue is animated by divine
+  love and Collodi's puppet by a fairy's grace, Mérimée's
+  Venus is animated by something closer to possession or
+  contractual claim — the ring was a binding, and the statue
+  enforces it. The story is one of the cornerstones of the
+  French fantastique tradition and a direct ancestor of the
+  "animated statue" horror lineage that runs through M.R.
+  James into modern horror.
+
+  Interiority is `none`: the statue expresses no inner life;
+  its agency is entirely physical and the story's horror
+  depends on its blankness. Autonomy is `seized`: the statue
+  acts outside any human specification or expectation.
+  Divergence is `departure`. Primary question is `control`:
+  the story is about the statue enforcing a claim the
+  bridegroom did not intend to make. Knowability is `present`
+  — the narrator spends the first half wondering whether the
+  statue is merely uncanny or actively malevolent, and the
+  question is foregrounded. Knowing is `absent`: the Venus
+  does not know or model the humans; she enforces.
+
+  Substrate codes `mechanical` + `magical`: the statue is
+  cast bronze (mechanical) animated by an unexplained force
+  (magical). French primary source.

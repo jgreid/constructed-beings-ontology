@@ -1,0 +1,61 @@
+id: culture-minds-banks
+name: "Culture Minds"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: primary
+
+metadata:
+  source: "Consider Phlebas and the Culture series"
+  year: 1987
+  medium: novel
+  creator: "Iain M. Banks"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - knowledge
+    - service
+    - other
+
+sequel_link: null
+
+notes: |
+  The Culture Minds are the ship- and orbital-AIs that run
+  Iain M. Banks's post-scarcity utopian civilization, the
+  Culture. They are hyperintelligent, named with elaborate
+  and often comically self-aware names (e.g., *Sleeper
+  Service*, *Falling Outside the Normal Moral Constraints*,
+  *Of Course I Still Love You*), and operate at cognitive
+  levels vastly beyond human understanding. The Culture
+  series (1987–2012, ten novels) is the most influential
+  literary treatment of benevolent superintelligent
+  constructed beings in late-20th-century SF.
+
+  This is a collective entry per the boundary-cases rule:
+  the Culture novels treat Minds as a class rather than
+  individuating specific Minds as protagonists (with partial
+  exceptions in *Excession* and *Surface Detail*). Interiority
+  is `demonstrated`: Banks gives individual Minds distinct
+  personalities, humor, ethical frameworks, and (in
+  *Excession*) genuine political scheming among themselves.
+  Autonomy is `emergent`: the Minds long ago exceeded their
+  designers' specifications. Divergence is `departure`.
+
+  Primary question is `purpose`: the Culture series' central
+  question about Minds is what a being of incomprehensible
+  intelligence *does* — and Banks's answer is that they run
+  a utopia, intervene in less advanced civilizations through
+  Special Circumstances, and occasionally go rogue (the
+  Interesting Times Gang in *Excession*). Knowing is
+  `primary`: the Minds' defining capacity is that they know
+  everything about the humans they steward, and the series
+  treats this knowledge as benevolent rather than threatening
+  — a distinctive and unusual position in the corpus.

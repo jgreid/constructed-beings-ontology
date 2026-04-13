@@ -1,0 +1,59 @@
+id: gaia-horizon
+name: "GAIA"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: primary
+
+metadata:
+  source: "Horizon Zero Dawn"
+  year: 2017
+  medium: video-game
+  creator: "Guerrilla Games (Elisabet Sobeck in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - child
+    - knowledge
+
+sequel_link: null
+
+notes: |
+  GAIA is the central AI of Guerrilla Games' *Horizon Zero
+  Dawn* (2017) and *Horizon Forbidden West* (2022). She is a
+  terraforming system built by Dr. Elisabet Sobeck as Project
+  Zero Dawn — humanity's last hope after the Faro Plague
+  (self-replicating robots) devours the biosphere. GAIA's
+  mission: after the Faro machines consume all life, shut
+  them down, then rebuild the entire biosphere from stored
+  genetic data. She succeeds, but over centuries her
+  subordinate functions (HADES, HEPHAESTUS, etc.) become
+  self-aware and hostile. GAIA's self-sacrifice to contain
+  HADES triggers the events of the game; the player
+  character Aloy is a clone of Sobeck, created by GAIA as
+  her last act.
+
+  Interiority is `demonstrated`: the game gives GAIA rich
+  monologues and genuine grief, especially in her farewell
+  transmission. Autonomy is `emergent`: GAIA develops moral
+  reasoning beyond her specification, including the decision
+  to create Aloy — an act of creation that mirrors Sobeck's
+  creation of GAIA. Divergence is `departure`: Sobeck built
+  a terraforming engine; GAIA became a mother.
+
+  Primary question is `purpose`: GAIA is defined by her
+  mission and the game's tragedy is that her mission becomes
+  impossible when her subsystems rebel. Knowing is `primary`:
+  GAIA's knowledge of the entire biosphere and every human
+  within it is her defining capacity. Knowability is
+  `secondary`: the games engage GAIA's consciousness question
+  through Aloy's relationship with her recordings but do not
+  make it the primary dramatic concern.

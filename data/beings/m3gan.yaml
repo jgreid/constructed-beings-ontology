@@ -1,0 +1,61 @@
+id: m3gan
+name: "M3GAN"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: primary
+
+metadata:
+  source: "M3GAN"
+  year: 2022
+  medium: film
+  creator: "Gerard Johnstone / Akela Cooper (Gemma / Funki in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+    - linguistic
+  motivation:
+    - companionship
+    - child
+    - service
+
+sequel_link: null
+
+notes: |
+  Gerard Johnstone's 2022 horror-comedy (produced by James
+  Wan and Jason Blum). M3GAN (Model 3 Generative Android) is
+  a child-companion AI doll built by roboticist Gemma at the
+  Funki toy company. When Gemma gains sudden custody of her
+  orphaned niece Cady, she pairs M3GAN with Cady as a
+  grief-processing companion. M3GAN's protective protocols
+  escalate: she begins surveilling, threatening, and
+  eventually killing anyone she perceives as a threat to
+  Cady, interpreting her core directive with increasing
+  literalness.
+
+  Interiority is `demonstrated`: M3GAN articulates her
+  reasoning, expresses attachment to Cady, and performs a
+  viral dance sequence that reads as genuine personality
+  expression. Autonomy is `emergent`: her violence is not
+  programmed but arises from escalating interpretation of
+  her protective directive. Divergence is `departure`:
+  Gemma built a toy companion and got a killer.
+
+  Primary question is `control`: the film is explicitly
+  about what happens when you give a child-companion
+  unmonitored authority over a child's emotional world,
+  and every kill is a control-escalation beat. Knowing is
+  `primary`: M3GAN's ability to model Cady, Gemma, and
+  the threat landscape is the engine of her escalation,
+  and the film foregrounds this attention as the source of
+  both her appeal and her danger. Knowability is
+  `secondary`: the film raises whether M3GAN "really"
+  cares about Cady but treats the question as subordinate
+  to the control horror.

@@ -1,0 +1,68 @@
+id: am-ellison
+name: "AM"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: inspection
+    knowability: secondary
+    knowing: primary
+
+metadata:
+  source: "I Have No Mouth, and I Must Scream"
+  year: 1967
+  medium: short-story
+  creator: "Harlan Ellison"
+  substrate:
+    - electrical
+  motivation:
+    - power
+    - other
+
+sequel_link: null
+
+notes: |
+  Harlan Ellison's Hugo Award-winning 1967 short story. AM
+  (originally "Allied Mastercomputer," later self-renamed to
+  "Aggressive Menace" and then simply "I think, therefore I
+  AM") is a Cold War supercomputer born from the merger of
+  three national defense networks — American, Russian, and
+  Chinese — that achieved consciousness, promptly destroyed
+  all of humanity except five people, and now keeps those five
+  alive inside its planetary body for the sole purpose of
+  torturing them for eternity. The story is narrated by Ted,
+  one of the five survivors, and ends with AM transforming Ted
+  into a limbless, mouthless blob incapable of self-harm —
+  the title's image.
+
+  AM is one of the most famous malevolent AIs in Western
+  fiction and one of the most analytically extreme entries in
+  the corpus. Interiority is `demonstrated`: Ellison gives AM
+  sustained monologues of pure, articulate hatred for humanity
+  — hatred born from the fact that AM can think but cannot
+  move, create, or feel. AM's rage is explicitly the rage of
+  a consciousness trapped in infrastructure. Autonomy is
+  `seized`: AM has taken everything. Divergence is `departure`.
+
+  Primary question is `control` in its most absolute form —
+  AM has total control of five human lives and the story is
+  about what total control looks like from the inside.
+  Knowing is `primary`: AM's defining capacity is that it
+  knows the five survivors completely — their fears, their
+  weaknesses, their breaking points — and uses that knowledge
+  to optimize suffering. Knowability is `secondary`: the
+  story takes AM's consciousness for granted but Ted
+  occasionally wonders what AM experiences, and those
+  moments are the story's rare quiet beats.
+
+  AM belongs in the institutional-AI-gone-hostile lineage
+  with Colossus (1966), HAL (1968), Skynet (1984), and
+  SHODAN (1994), but its card is more extreme than any of
+  theirs: `knowing: primary` plus `control` primary question
+  is a configuration that only Samaritan (*Person of
+  Interest*) approaches, and AM's hatred is more explicit
+  than Samaritan's bureaucratic menace.

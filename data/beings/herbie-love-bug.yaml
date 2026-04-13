@@ -1,0 +1,60 @@
+id: herbie-love-bug
+name: "Herbie"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "The Love Bug"
+  year: 1968
+  medium: film
+  creator: "Robert Stevenson / Disney (manufactured in-narrative)"
+  substrate:
+    - mechanical
+    - magical
+  motivation:
+    - companionship
+    - other
+
+sequel_link: null
+
+notes: |
+  Herbie is a 1963 Volkswagen Beetle — number 53 — who is
+  inexplicably alive, self-aware, and capable of driving
+  himself, expressing jealousy, sulking, and racing. The
+  character spans four Disney theatrical films (*The Love
+  Bug* 1968, *Herbie Rides Again* 1974, *Herbie Goes to
+  Monte Carlo* 1977, *Herbie Goes Bananas* 1980), a 1982
+  TV movie, a 1997 TV movie, and a 2005 Lindsay Lohan
+  reboot. Herbie is one of the most commercially successful
+  constructed beings in cinema history and almost certainly
+  more recognizable to a general audience than most of the
+  literary entries in this corpus.
+
+  The inclusion logic is the same as Galatea: a manufactured
+  object that is inexplicably alive. Herbie was made
+  (manufactured on a VW assembly line), is agent-like (drives
+  himself, makes decisions, pursues social goals), and has
+  clear narrative presence. Substrate codes `mechanical` +
+  `magical` because the films offer no scientific explanation
+  for his sentience — he is simply alive, in the way fairy-
+  tale objects are alive.
+
+  Interiority is `demonstrated`: the films give Herbie
+  rich emotional expression through headlight-eyes, hood
+  movements, horn sounds, and driving behavior. Autonomy is
+  `emergent`: no one designed him to be alive. Divergence
+  is `departure`: Volkswagen built a car. Primary question
+  is `affection`: every film is about Herbie's bond with
+  his current human driver, and the emotional engine is
+  always loyalty and love. Knowing is `present`: Herbie
+  reads his drivers' emotional states with uncanny
+  accuracy.

@@ -1,0 +1,68 @@
+id: dreamed-man-borges
+name: "The Dreamed Man"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: designed
+    divergence: observer
+  the_lens:
+    primary_question: identity
+    epistemic_reach: behavioral
+    knowability: primary
+    knowing: absent
+
+metadata:
+  source: "Las ruinas circulares (The Circular Ruins)"
+  year: 1940
+  medium: short-story
+  creator: "Jorge Luis Borges"
+  substrate:
+    - magical
+    - linguistic
+  motivation:
+    - child
+    - knowledge
+
+sequel_link: null
+
+notes: |
+  Jorge Luis Borges's 1940 short story — published in *Sur*
+  and collected in *El jardín de senderos que se bifurcan*
+  (1941) and *Ficciones* (1944). A man arrives at a circular
+  temple in ruins, determined to "dream a man" into existence
+  through sustained ritual dreaming. Over months he
+  incrementally dreams a complete human being, organ by organ,
+  then inserts him into reality via an arrangement with the
+  fire god: the dreamed man will be real in every way except
+  that fire cannot harm him. The dreamer sends his creation
+  into the world and later discovers, when fire does not harm
+  *him* either, that he too is someone else's dream.
+
+  This is the corpus's most metaphysical constructed-being
+  entry. The dreamed man is made (through deliberate ritual
+  dreaming), agent-like (he walks, enters a temple, lives a
+  life), and has narrative presence. The recursion — the
+  dreamer is also dreamed — is Borges's signature move and
+  the story's analytical interest: every constructed being
+  in the corpus is made by someone, and Borges asks what
+  happens when that someone is also made.
+
+  Interiority is `undecidable`: the dreamed man has a full
+  life but the story leaves open whether any of it is
+  experienced or merely performed in someone else's dream.
+  Autonomy is `designed`: the dreamer designed every organ
+  and every attribute. Divergence is `observer`: the dreamed
+  man does not know he is dreamed, and the dreamer does not
+  know he is dreamed either — the gap is in the perception
+  on both sides.
+
+  Primary question is `identity` in its most vertiginous
+  form: "am I real, or am I someone else's project?"
+  Knowability is `primary`: the whole story is organized
+  around the question of whether the dreamed man is "really"
+  there, and the ending reveals that the question applies
+  recursively. Argentine/Spanish-language primary source.
+  Borges is one of the most important writers of the 20th
+  century and this story's absence from the corpus through
+  v2.1 was a significant gap.

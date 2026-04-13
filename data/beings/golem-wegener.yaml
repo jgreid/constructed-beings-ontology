@@ -1,0 +1,58 @@
+id: golem-wegener
+name: "The Golem (Wegener film)"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Der Golem, wie er in die Welt kam"
+  year: 1920
+  medium: film
+  creator: "Paul Wegener / Carl Boese (Rabbi Loew in-narrative)"
+  substrate:
+    - magical
+    - mechanical
+  motivation:
+    - service
+    - power
+
+sequel_link: null
+
+notes: |
+  Paul Wegener's 1920 German Expressionist silent film — the
+  third and only surviving of his three Golem films, and one
+  of the foundational texts of horror cinema alongside
+  *Nosferatu* (1922) and *The Cabinet of Dr. Caligari* (1920).
+  Rabbi Loew creates the Golem from clay to protect the Jewish
+  community of Prague from imperial persecution; the Golem
+  succeeds but then, animated too long, becomes uncontrollable
+  and rampages through the ghetto until a child innocently
+  removes the Star of David from his chest.
+
+  Sequel-split from the existing `golem-prague` folklore entry
+  because the film's card meaningfully diverges. The folklore
+  Golem codes `autonomy: emergent` and `divergence: departure`
+  but with a protective framing; Wegener's film tips the same
+  Golem into explicit horror — the Expressionist visual
+  vocabulary (angular sets, chiaroscuro lighting, Wegener's
+  own towering physical performance) transforms the protective
+  servant into a Frankensteinian monster. The film is
+  historically significant as the visual template for Universal
+  Horror's *Frankenstein* (1931) — Karloff's flat-topped,
+  shambling Monster is a direct descendant of Wegener's Golem.
+
+  Interiority is `none`: the film gives the Golem no inner
+  life; he is a force rather than a character. Primary
+  question is `control`: the film's whole arc is about
+  whether Rabbi Loew can control what he has made, and the
+  answer is no. German primary source; one of the earliest
+  constructed-being films in the corpus alongside
+  *Metropolis* (1927).

@@ -1,0 +1,60 @@
+id: jenkins-city
+name: "Jenkins"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "City"
+  year: 1944
+  medium: short-story
+  creator: "Clifford D. Simak (the Webster family in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Clifford Simak's *City* (1944–1951 as magazine stories,
+  fixup novel 1952) is structured as a series of legends told
+  by intelligent Dogs thousands of years after humanity has
+  left Earth. Jenkins is a robot butler — a Webster family
+  servant who outlives his human charges across geological
+  time, maintaining the house, tending the dogs, and carrying
+  the memory of a species that has abandoned its home. By the
+  final stories Jenkins is the last being who remembers what
+  humans were, and his devotion to the Webster legacy is the
+  emotional spine of the entire fixup.
+
+  Interiority is `demonstrated`: Simak gives Jenkins clear
+  grief, loyalty, and moral reasoning, especially in the late
+  stories where he must decide what to do with the Webster
+  heritage after humanity's departure. Autonomy is `designed`:
+  Jenkins is a butler and stays a butler — his devotion is
+  programmed and the whole emotional weight depends on it
+  being programmed. Divergence is `design`: the Websters
+  specified a family servant, and what that specification
+  turns out to mean across ten thousand years is a being who
+  curates a civilization's memory. The gap is in the spec.
+
+  Primary question is `affection`: Jenkins's love for the
+  Websters is the whole thing. Both knowability and knowing
+  code `present`: Simak briefly raises whether Jenkins is
+  "really" grieving or performing grief-like behavior, and
+  Jenkins's detailed knowledge of each Webster generation is
+  the content of his character. Jenkins is the corpus's
+  clearest early case of a being whose devotion is both
+  programmed and genuine, and the text refuses to treat those
+  as contradictory.

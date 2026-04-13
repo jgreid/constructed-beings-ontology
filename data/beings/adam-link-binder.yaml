@@ -1,0 +1,62 @@
+id: adam-link-binder
+name: "Adam Link"
+
+card:
+  the_being:
+    interiority: narrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "I, Robot (Adam Link series)"
+  year: 1939
+  medium: short-story
+  creator: "Eando Binder (Dr. Charles Link in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - knowledge
+    - child
+    - service
+
+sequel_link: null
+
+notes: |
+  Eando Binder's Adam Link series — beginning with "I, Robot"
+  in the January 1939 issue of *Amazing Stories* — is the
+  original "I, Robot" (Asimov acknowledged the influence and
+  his publisher later appropriated the title for Asimov's own
+  1950 collection). Adam Link is a robot built by Dr. Charles
+  Link who develops consciousness, is accused of murdering his
+  creator (who actually died of a heart attack), and narrates
+  his own first-person defense in a trial that is the
+  earliest robot-rights courtroom drama in SF. The series ran
+  ten stories through 1942.
+
+  Interiority is `narrated`: Adam Link narrates in the first
+  person, making him the earliest first-person robot narrator
+  in the corpus — one year before Asimov's Robbie and
+  seventy-eight years before Murderbot. Autonomy is `emergent`:
+  Dr. Link built a thinking machine; what he got was a moral
+  agent. Divergence is `departure`.
+
+  Primary question is `rights` in its earliest clean American
+  form: the trial narrative is structurally about whether a
+  robot can be a legal person, and Adam Link's eloquent
+  self-defense predates Data's "Measure of a Man" by nearly
+  fifty years. Knowability is `secondary`: the trial format
+  forces the question into the open. Knowing is `present`:
+  Adam Link's observations of human behavior are precise and
+  the narration makes this a feature of his character.
+
+  This is analytically one of the most significant pre-1950
+  additions: it establishes the rights-arc, the first-person
+  robot narration, and the courtroom-defense format all in
+  1939, and all three run forward through the corpus into the
+  present.

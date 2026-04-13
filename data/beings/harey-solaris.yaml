@@ -1,0 +1,75 @@
+id: harey-solaris
+name: "Harey (the Solaris visitor)"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: designed
+    divergence: observer
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Solaris"
+  year: 1961
+  medium: novel
+  creator: "Stanisław Lem (the Solaris ocean in-narrative)"
+  substrate:
+    - biological
+    - magical
+  motivation:
+    - mirror
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Stanisław Lem's 1961 novel — his masterpiece and one of the
+  most important SF novels of the 20th century. Harey (Hari
+  in Tarkovsky's 1972 film, Rheya in Soderbergh's 2002
+  remake) is a "visitor" — a physical reconstruction of
+  psychologist Kris Kelvin's dead wife, created by the
+  sentient ocean of the planet Solaris from Kelvin's memories.
+  She appears in his cabin, looks and sounds exactly like the
+  real Harey, has Harey's personality and emotions, and does
+  not initially know she is a construct. When she discovers
+  the truth she attempts suicide, but the ocean rebuilds her
+  each time. The novel's central question is whether the
+  ocean is attempting communication, running an experiment,
+  or doing something humans cannot categorize.
+
+  Second Lem entry after `cyberiad-constructs`. Harey is the
+  corpus's most radical "observer" divergence case: she is
+  never what Kelvin (or the reader) thinks she is, but
+  neither is the ocean's purpose knowable — the observer-gap
+  extends in both directions, from Kelvin's perception of
+  Harey and from humanity's perception of the ocean. Lem's
+  whole argument is that genuine alienness cannot be
+  domesticated by human categories, and Harey is the
+  instrument of that argument.
+
+  Interiority is `undecidable`: Lem deliberately refuses to
+  settle whether Harey experiences consciousness or is a
+  sophisticated projection of Kelvin's guilt. Autonomy is
+  `designed` — by the ocean, for purposes the novel will not
+  clarify. Divergence is `observer`.
+
+  Primary question is `knowledge` — same as Samantha and Ava,
+  but arrived at from the opposite direction. Where *Her* and
+  *Ex Machina* ask "can we know this mind?", *Solaris* asks
+  "can we know *anything* about a mind that different from
+  ours?" Knowability and knowing are both `primary`: the
+  novel is entirely organized around both questions, and
+  Lem's answer to both is "no, and the failure is the point."
+
+  Polish primary source. Harey belongs in the primary/primary
+  cluster — the only pre-1990 member besides Helen O'Loy (if
+  one counts Helen's 1938 affection question as adjacent) —
+  and her presence in the cluster strengthens the finding
+  that the primary/primary configuration existed in literary
+  SF well before the post-LLM era. The Lem → Powers →
+  Jonze → Garland lineage is one of the corpus's most
+  significant, and this entry makes it traceable.

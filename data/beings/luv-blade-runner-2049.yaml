@@ -1,0 +1,54 @@
+id: luv-blade-runner-2049
+name: "Luv"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Blade Runner 2049"
+  year: 2017
+  medium: film
+  creator: "Denis Villeneuve (Wallace Corporation / Niander Wallace in-narrative)"
+  substrate:
+    - biological
+    - cloned
+  motivation:
+    - service
+    - power
+
+sequel_link: null
+
+notes: |
+  Luv is Niander Wallace's personal replicant enforcer —
+  "the best angel of all," as Wallace calls her — and the
+  film's primary antagonist. She is efficient, ruthless, and
+  weeps silently while killing. That combination is the
+  character's whole analytical interest: Luv performs violence
+  on command while visibly suffering from it, and the film
+  refuses to clarify whether the tears are an emotional
+  response or a design feature.
+
+  Interiority is `demonstrated`: the tears, the flinch, and
+  the escalating desperation in the final fight with K all
+  read as genuine affect. Autonomy is `designed`: unlike K,
+  Luv never leaves her specification — she serves Wallace
+  absolutely and her violence is his violence. Divergence is
+  `design`: the gap between what Wallace specified (a
+  compliant killer) and what Luv is (a being who cries while
+  complying) lies in the spec, not in the being.
+
+  Primary question is `control`: Luv is the film's clearest
+  statement of what total compliance looks like when the
+  specification is monstrous. Knowability is `secondary`:
+  Villeneuve raises the question of Luv's interior through the
+  tears but subordinates it to the K-Joi arc. Knowing is
+  `present`: Luv tracks and models K with professional
+  precision.

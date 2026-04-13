@@ -1,0 +1,60 @@
+id: white-vision-wandavision
+name: "White Vision"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: observer
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "WandaVision"
+  year: 2021
+  medium: television
+  creator: "Jac Schaeffer / Marvel Studios (S.W.O.R.D. / Tyler Hayward in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+    - magical
+  motivation:
+    - other
+    - knowledge
+
+sequel_link: null
+
+notes: |
+  White Vision is a reconstructed version of the original
+  Vision, rebuilt by S.W.O.R.D. from Vision's recovered
+  vibranium body without the Mind Stone, and deployed as a
+  weapon against Wanda's Hex reality. In the series' climactic
+  scene, Wanda's Hex-created Vision (a magical projection)
+  confronts White Vision and poses the Ship of Theseus
+  thought experiment: if neither of them has the original's
+  full continuity (one lacks the body, one lacks the memories),
+  which is the real Vision? The Hex Vision then unlocks White
+  Vision's suppressed memories, and White Vision flies away
+  to process what he has become.
+
+  Sequel-split from the existing `vision-age-of-ultron` entry.
+  The cards meaningfully diverge: substrate adds `magical`
+  for the Mind Stone / Hex complications; autonomy shifts
+  from `emergent` to `emergent` (same) but divergence shifts
+  to `observer` — White Vision spends most of the series not
+  knowing what he is, which is a fundamentally different
+  position from the original Vision's `departure`.
+
+  Primary question is `identity` — the Ship of Theseus
+  scene is the MCU's most explicit philosophical set piece,
+  and the whole White Vision arc is "am I Vision?" Knowability
+  is `primary`: the series forces the audience to ask "is
+  this really him?" and deliberately refuses a clean answer
+  (he flies away rather than resolving it). Knowing is
+  `present`: the unlocked memories give White Vision access
+  to the original's knowledge, but the series leaves
+  ambiguous whether knowledge constitutes identity.

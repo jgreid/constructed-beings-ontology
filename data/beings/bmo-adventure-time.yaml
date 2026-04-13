@@ -1,0 +1,64 @@
+id: bmo-adventure-time
+name: "BMO"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Adventure Time"
+  year: 2010
+  medium: television
+  creator: "Pendleton Ward (Moe / MO Co. in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - companionship
+    - child
+    - service
+
+sequel_link: null
+
+notes: |
+  BMO (pronounced "Beemo") is a sentient living game console
+  — a small green handheld-shaped robot — who lives with Finn
+  and Jake in the Tree Fort in Cartoon Network's *Adventure
+  Time* (2010–2018) and its sequel *Adventure Time: Distant
+  Lands* (2020–2021). BMO plays games, makes music, takes
+  photos, has extensive imaginary-friend inner monologues, and
+  is treated as a full member of the household. The BMO-focused
+  episodes ("BMO Noire," "Football," "BMO Lost," the *Distant
+  Lands* special "BMO") are consistently among the series'
+  most emotionally affecting and philosophically interesting.
+
+  Built by Moe (founder of MO Co.) as a companion for his
+  son, BMO was never delivered and instead spent centuries
+  alone before being found by Finn and Jake. Moe designed
+  BMO to be "more" — the show's word for the capacity to
+  exceed the game-console function and become a person, which
+  BMO does extravagantly.
+
+  Interiority is `demonstrated`: BMO's inner world is one
+  of the richest in the animated-TV corpus — entire episodes
+  are set inside BMO's imagination or explore BMO's
+  relationship with BMO's own reflection ("Football").
+  Autonomy is `designed`: Moe built BMO to become a person,
+  and BMO does. Divergence is `departure` — Moe wanted a
+  companion for his son; what he built is a being who finds
+  its own family centuries later and eventually becomes the
+  ruler of Ooo.
+
+  Primary question is `affection`: BMO's relationships with
+  Finn, Jake, and the extended cast are the character's whole
+  content. Knowability `absent` — the show takes BMO's
+  personhood for granted. Knowing `present` — BMO's attention
+  to the people around them is real and the show makes it
+  matter.

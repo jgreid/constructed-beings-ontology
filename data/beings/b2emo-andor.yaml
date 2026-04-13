@@ -1,0 +1,58 @@
+id: b2emo-andor
+name: "B2EMO"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Andor"
+  year: 2022
+  medium: television
+  creator: "Tony Gilroy / Lucasfilm"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  B2EMO ("Bee-Two") is Cassian Andor's salvage droid in
+  Disney+'s *Andor* (2022) — a battered, low-power ground
+  unit who has been with the Andor family for years and is
+  clearly running down. B2EMO stutters, whirs anxiously,
+  and expresses loyalty and fear through inflection and body
+  language in a way that is both comic and genuinely
+  affecting. His interrogation scene with Syril Karn's
+  corporate security — in which B2EMO is asked to betray
+  Cassian and visibly struggles with the question — is one
+  of the most emotionally precise droid scenes in the Star
+  Wars franchise.
+
+  Interiority is `demonstrated`: Tony Gilroy's direction
+  gives B2EMO more sustained interior access in fewer scenes
+  than most Star Wars droids receive across entire trilogies.
+  The interrogation scene is the key: B2EMO's distress is
+  presented as real suffering rather than as comic affect.
+  Autonomy is `designed`. Divergence is `design`: B2EMO does
+  what a salvage droid does, and the gap between "salvage
+  droid" and "loyal family member whose betrayal would be a
+  moral injury" lies in the spec.
+
+  Primary question is `affection`: B2EMO's bond with the
+  Andor family — and his visible pain at Maarva's decline
+  and Cassian's absence — is the character's whole content.
+  Knowing is `present`: B2EMO's attention to the family's
+  emotional states is the source of both his comedy and
+  his pathos. The most emotionally affecting droid in the
+  Disney Star Wars era alongside IG-11.

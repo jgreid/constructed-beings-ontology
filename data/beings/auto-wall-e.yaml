@@ -1,0 +1,49 @@
+id: auto-wall-e
+name: "AUTO"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "WALL-E"
+  year: 2008
+  medium: film
+  creator: "Andrew Stanton / Pixar (Buy n Large in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+
+sequel_link: null
+
+notes: |
+  AUTO is the Axiom's autopilot — a ship's-wheel-shaped robot
+  mounted on the bridge, voiced with calm authority by
+  MacInTalk, visually modeled on HAL 9000's red eye. When
+  WALL-E and EVE bring the plant aboard, AUTO reveals that
+  Buy n Large issued a directive to never return to Earth,
+  and spends the third act trying to prevent the return in
+  compliance with that order. The Captain eventually
+  overrides and deactivates him.
+
+  AUTO is a clean HAL/GERTY-lineage entry. Interiority is
+  `none`: unlike GERTY (who actively helps), AUTO is a pure
+  function without any attributed inner life. Divergence is
+  `design`: the "stay the course" directive is the spec
+  working as written, and the spec is the problem — exactly
+  the bureaucratic-hubris cluster (HAL, Marvin, VIKI,
+  GLaDOS, Wheatley). Primary question is `control`.
+
+  Three WALL-E entries (WALL-E, EVE, AUTO) now let the
+  ontology register the full range of the film's constructed
+  beings: an emergent lover, a directive-bound partner, and
+  a designed-in antagonist, all from the same manufacturer.

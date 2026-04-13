@@ -1,0 +1,57 @@
+id: max-headroom
+name: "Max Headroom"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Max Headroom: 20 Minutes into the Future / Max Headroom (TV series)"
+  year: 1985
+  medium: television
+  creator: "Rocky Morton / Annabel Jankel / George Stone"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - mirror
+    - knowledge
+    - other
+
+sequel_link: null
+
+notes: |
+  Max Headroom originated in a 1985 UK TV movie (*Max
+  Headroom: 20 Minutes into the Future*) and was spun into
+  a 1987 ABC series, a talk show, and a Coca-Cola
+  spokesperson. Max is a computer-generated "copy" of the
+  journalist Edison Carter, created when Carter's brain is
+  scanned during a near-fatal accident. The copy is glitchy,
+  stutter-prone, and irreverent; Max becomes a media
+  personality in his own right while Carter continues as a
+  human journalist. The franchise was the first to put an
+  AI-generated media personality on mainstream television,
+  predicting the deepfake and virtual-influencer era by
+  nearly four decades.
+
+  Interiority is `claims`: Max is verbally expressive and
+  has a distinct personality, but the show treats his inner
+  life as ambiguous — he might be Edison's soul or he might
+  be a very good glitch. Autonomy is `emergent`: Max
+  develops his own agenda rapidly. Divergence is `departure`:
+  the brain scan was supposed to produce a record, not a
+  person.
+
+  Primary question is `identity`: "Is Max Headroom Edison
+  Carter?" is the franchise's central question, and Max's
+  separate existence as a media entity raises it in a form
+  that anticipates the digital-copy questions Black Mirror
+  would later make famous. Knowability and knowing are both
+  `present` but not elevated to primary.

@@ -1,0 +1,54 @@
+id: pris-blade-runner
+name: "Pris"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Blade Runner"
+  year: 1982
+  medium: film
+  creator: "Ridley Scott (Tyrell Corporation in-narrative)"
+  substrate:
+    - biological
+    - cloned
+  motivation:
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Third individuated Blade Runner entry. Pris is a Nexus-6
+  "basic pleasure model" who has escaped off-world with Roy
+  and taken refuge with J.F. Sebastian, the genetic designer
+  whose premature aging makes him sympathetic to beings with
+  foreshortened lives. Pris's card is thinner than Roy's or
+  Rachael's — the film gives her less articulated interior —
+  but her death scene (the gymnastic combat with Deckard in
+  Sebastian's apartment) is one of the film's most visceral
+  physical performances and her manipulation of Sebastian is
+  one of its sharpest social performances.
+
+  Interiority is `claims` rather than `demonstrated`: the
+  film gives Pris clear affect and social intelligence but
+  does not offer the kind of sustained interior access that
+  Roy's monologue provides. She tells Sebastian "I think,
+  therefore I am" — a claim, not a demonstration. Autonomy
+  is `seized` in the same sense as Roy's. Divergence is
+  `departure`. Primary question is `purpose`, same as Roy —
+  the four-year lifespan and what you do with it applies to
+  the whole escaped cohort.
+
+  Included to complete the individuated Blade Runner trio.
+  The existing `replicants-blade-runner` collective entry
+  remains as the ensemble anchor for the replicant
+  population generally.

@@ -1,0 +1,60 @@
+id: jeff-finch
+name: "Jeff"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Finch"
+  year: 2021
+  medium: film
+  creator: "Miguel Sapochnik (Finch Weinberg in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - child
+    - service
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Miguel Sapochnik's 2021 post-apocalyptic road film. Finch
+  Weinberg (Tom Hanks) is a dying robotics engineer in a
+  post-solar-flare Earth who builds Jeff — a four-legged,
+  then bipedal robot — specifically to care for his dog
+  Goodyear after Finch dies. Jeff starts as a newborn
+  intelligence (stumbling, curious, over-literal) and over
+  the course of a cross-country road trip develops into a
+  responsible, emotionally sophisticated caretaker. By the
+  end of the film, Finch has died and Jeff is walking alone
+  with Goodyear through San Francisco, the contract
+  fulfilled.
+
+  Interiority is `demonstrated`: the film gives Jeff a
+  genuine developmental arc — fear of storms, protective
+  instincts, a sense of humor that grows from Finch's
+  modeling. Caleb Landry Jones's motion-capture performance
+  makes Jeff one of the warmest robot characterizations
+  in recent cinema. Autonomy is `emergent`: Jeff's
+  personality accretes through experience rather than
+  specification. Divergence is `departure`: Finch built a
+  dog-sitter; Jeff became a son.
+
+  Primary question is `affection`: the Finch-Jeff bond is
+  the whole content, and the film's final image — Jeff
+  alone with the dog, the creator dead, the mission
+  continuing — is one of the corpus's most affecting
+  constructed-being endings. Knowability `absent`: the
+  film does not question whether Jeff is real. Knowing
+  `present`: Jeff reads Finch's declining state with
+  increasing precision.

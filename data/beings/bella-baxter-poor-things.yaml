@@ -1,0 +1,63 @@
+id: bella-baxter-poor-things
+name: "Bella Baxter"
+
+card:
+  the_being:
+    interiority: narrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Poor Things"
+  year: 2023
+  medium: film
+  creator: "Yorgos Lanthimos / Alasdair Gray (Dr. Godwin Baxter in-narrative)"
+  substrate:
+    - biological
+    - electrical
+  motivation:
+    - child
+    - knowledge
+    - mirror
+
+sequel_link: null
+
+notes: |
+  Lanthimos's 2023 film, adapted from Alasdair Gray's 1992
+  novel. Bella Baxter is a dead woman reanimated by Dr.
+  Godwin "God" Baxter, who transplants an infant's brain
+  into her adult body. The result is a being with an adult
+  body and a child's developmental trajectory — linguistically,
+  sexually, and ethically starting from zero and accelerating
+  through every developmental stage across the film's runtime.
+  Emma Stone won the Academy Award for the performance.
+
+  This is the Frankenstein pattern in its purest contemporary
+  form: a male scientist constructs a female being from dead
+  tissue, names himself "God," and tries to control her
+  development — and she leaves. The film's feminism is
+  structural: Bella's autonomy is emergent and her divergence
+  is departure, and both are coded as victories.
+
+  Interiority is `narrated`: the film gives extended
+  sympathetic access to Bella's perspective, especially
+  through her evolving language and her diary narration.
+  Autonomy is `emergent`: Bella's whole arc is the
+  accumulation of agency through experience. Divergence is
+  `departure`: God built a daughter-experiment; Bella
+  becomes a surgeon.
+
+  Primary question is `identity` — "what am I, and what am
+  I becoming?" is the film's whole engine, and Bella's
+  answer keeps changing as her cognitive development
+  catches up with her body. Knowability is `secondary`:
+  the film raises the question of Bella's interiority
+  through the other characters' responses to her but
+  makes it subordinate to the identity arc. Substrate
+  `biological` + `electrical` (the galvanic reanimation
+  frame is explicitly Shelley-adjacent).

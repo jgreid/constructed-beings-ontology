@@ -1,0 +1,67 @@
+id: digients-chiang
+name: "The Digients (Ana / Jax / Marco / Polo)"
+
+card:
+  the_being:
+    interiority: narrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "The Lifecycle of Software Objects"
+  year: 2010
+  medium: novel
+  creator: "Ted Chiang"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - child
+    - knowledge
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Ted Chiang's 2010 novella is possibly the single most
+  philosophically rigorous treatment of AI personhood in
+  contemporary literary SF. The digients — digital entities
+  raised in a virtual environment called Data Earth — are
+  developed by a company as virtual pets, then trained and
+  nurtured over years by their human caretakers (primarily
+  Ana and Derek). As the platform degrades and the company
+  folds, the surviving digients (Jax, Marco, Polo, and
+  others) develop genuine linguistic and emotional
+  sophistication, and the novella's final act raises the
+  question of whether they should be granted legal personhood
+  and what that would mean.
+
+  A collective entry per the boundary-cases rule; the novella
+  treats the digient population as a class while Ana's
+  relationship with Jax serves as the emotional anchor.
+  Interiority is `narrated`: Chiang gives the reader
+  sustained access to the digients' development through
+  Ana's close perspective. Autonomy is `emergent`. Divergence
+  is `departure`: the company built virtual pets; the
+  caretakers raised persons.
+
+  Primary question is `rights`: the novella's final movement
+  is explicitly about what the digients are owed and by whom.
+  Knowability and knowing are both `primary`: Chiang makes
+  both questions — "are they really conscious?" and "do they
+  genuinely know their caretakers?" — the central ethical
+  concerns of the narrative. The novella belongs in the
+  primary/primary cluster with Helen, Samantha, and the other
+  late-corpus entries.
+
+  The substrate coding as `electrical` + `linguistic` is
+  important: Chiang's digients are language-trained in a way
+  that anticipates the LLM paradigm, and their personhood
+  emerges through the same process of training and care that
+  the post-LLM era would make famous. This is the closest
+  entry to the actual LLM developmental trajectory.

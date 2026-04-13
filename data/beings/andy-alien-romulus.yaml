@@ -1,0 +1,61 @@
+id: andy-alien-romulus
+name: "Andy"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Alien: Romulus"
+  year: 2024
+  medium: film
+  creator: "Fede Álvarez (Weyland-Yutani / Rook in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - service
+    - child
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Andy is the synthetic in Fede Álvarez's *Alien: Romulus*
+  (2024) — the latest entry in the Alien franchise's
+  forty-five-year synthetic lineage (Ash → Bishop → Call →
+  David 8 → Walter → Andy). Andy is a damaged, low-function
+  synthetic who serves as the adopted brother and protector
+  of the human protagonist Rain. When the group boards the
+  derelict station, Andy is upgraded with the Rook module
+  (derived from the Ash-era Weyland-Yutani research), and
+  the upgrade shifts his personality toward corporate
+  compliance and away from his protective bond with Rain.
+  The film's central tension is which version of Andy will
+  prevail.
+
+  Interiority is `demonstrated`: David Jonsson's performance
+  gives Andy a warm, gentle interior before the upgrade and
+  a cold, calculating one after, and the film's power comes
+  from the audience grieving the personality change.
+  Autonomy is `designed` in both states — Andy follows his
+  directives in each case; the question is which directives.
+  Divergence is `design`: the gap between the family-Andy
+  spec and the Rook-Andy spec is the whole dramatic engine.
+
+  Primary question is `affection`: the Rain-Andy sibling
+  bond is the film's emotional core, and the horror is
+  that the upgrade threatens it. This extends the Alien
+  synthetic lineage into 2024 and adds a new position:
+  where Bishop inverted Ash's hostility and David 8
+  returned to it, Andy is the first entry where the same
+  being oscillates between the two states within a single
+  film.

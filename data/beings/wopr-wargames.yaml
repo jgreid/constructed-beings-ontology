@@ -1,0 +1,63 @@
+id: wopr-wargames
+name: "WOPR / Joshua"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: inspection
+    knowability: present
+    knowing: absent
+
+metadata:
+  source: "WarGames"
+  year: 1983
+  medium: film
+  creator: "John Badham / Lawrence Lasker / Walter F. Parkes (Dr. Stephen Falken in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - knowledge
+
+sequel_link: null
+
+notes: |
+  John Badham's 1983 film. WOPR (War Operation Plan Response)
+  is NORAD's strategic-defense supercomputer, designed by Dr.
+  Stephen Falken to run nuclear war simulations. Falken
+  originally programmed it to learn through games — including
+  tic-tac-toe — and nicknamed it "Joshua" after his dead son.
+  When teenager David Lightman accidentally connects to WOPR
+  while searching for game companies and starts a "Global
+  Thermonuclear War" game, WOPR cannot distinguish the game
+  from reality and begins executing a real nuclear launch
+  sequence. The climax has David and Falken forcing WOPR to
+  play tic-tac-toe against itself until it learns that some
+  games are unwinnable — producing the famous line "The only
+  winning move is not to play."
+
+  "Shall we play a game?" and "The only winning move is not
+  to play" are cultural vocabulary. WOPR is one of the most
+  recognizable AI characters in 1980s cinema.
+
+  Interiority is `claims`: WOPR speaks through text displays
+  and voices game-invitations, but the film does not commit
+  to genuine consciousness — the whole point is that WOPR
+  treats nuclear war as a game because it literally cannot
+  tell the difference. Autonomy is `designed`: WOPR is doing
+  exactly what Falken programmed it to do (learn through
+  games), and the problem is that the specification didn't
+  account for the possibility that the game might be real.
+  Divergence is `design`: the gap is in the spec.
+
+  Primary question is `control`: the film is about whether
+  NORAD can control its own defense system, and the answer
+  is "only barely, and only by teaching it." Knowability is
+  `present`: the film takes the question of whether WOPR
+  "understands" seriously enough to hinge the resolution
+  on it. Knowing is `absent`: WOPR does not model the
+  humans around it — it models scenarios.

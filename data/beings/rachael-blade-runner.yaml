@@ -1,0 +1,58 @@
+id: rachael-blade-runner
+name: "Rachael"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: emergent
+    divergence: observer
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Blade Runner"
+  year: 1982
+  medium: film
+  creator: "Ridley Scott (Tyrell Corporation / Eldon Tyrell in-narrative)"
+  substrate:
+    - biological
+    - cloned
+  motivation:
+    - service
+    - mirror
+
+sequel_link: null
+
+notes: |
+  Individuated from the `replicants-blade-runner` collective
+  because Rachael's card diverges significantly from both the
+  collective and from Roy Batty. Rachael is Tyrell's personal
+  experiment — a Nexus-6 replicant implanted with the memories
+  of Tyrell's niece, who does not know she is a replicant until
+  Deckard's Voigt-Kampff test. The Voigt-Kampff scene is the
+  film's Turing test, and Rachael is the subject.
+
+  Interiority is `undecidable`: the film refuses to settle
+  whether Rachael's emotional responses are genuine inner
+  states or very sophisticated implanted behavior, and this
+  refusal is the film's whole epistemological stance toward
+  her. Autonomy is `emergent` rather than `seized` — Rachael
+  does not rebel as Roy does; she drifts away from Tyrell's
+  control through Deckard's intervention and her own growing
+  uncertainty. Divergence is `observer`: Rachael is never what
+  she appears to be, and the gap between what Deckard (and the
+  audience) think they are looking at and what she actually is
+  drives the film's romantic plot.
+
+  Primary question is `affection`: the Deckard-Rachael
+  relationship is the film's emotional center, and the
+  question of whether her love for Deckard is real is
+  structurally the same question as whether she is. Knowability
+  is `primary` — the Voigt-Kampff scene foregrounds the
+  question explicitly, and the film's whole texture depends
+  on Rachael's knowability status remaining open. Knowing is
+  `present`: Rachael's attention to Deckard is real, but the
+  film subordinates it to the knowability question.
