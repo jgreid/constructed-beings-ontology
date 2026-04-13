@@ -96,6 +96,8 @@ What's the audience's highest-fidelity channel to the being's interior?
 | `conversational` | Language is the primary or only access to the being. Conversation creates an *illusion* of deeper access. |
 | `inspection` | You can look under the hood — logs, code, memory, brain scans. |
 
+> **Distribution note.** In the current corpus, `conversational` accounts for 61% of entries (124 of 202). This skew reflects the prevalence of language-capable constructed beings in Western fiction rather than a deficiency in the axis, but coders should be aware that the behavioral/conversational boundary requires more careful judgment than most other enum boundaries. See the [coding guide](docs/coding_guide.md) for the operational test. This axis is flagged for potential revision in a future schema version.
+
 #### `card.the_lens.knowability`
 
 Does the story care whether you can verify the being's mind?
@@ -161,6 +163,7 @@ Every entry gets these fields. They provide source context but are not analytica
 | `play` |
 | `novel` |
 | `short-story` |
+| `comics` |
 | `film` |
 | `television` |
 | `video-game` |

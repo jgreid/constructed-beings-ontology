@@ -9,6 +9,7 @@ Usage:
     python analysis/analyze.py --coverage    # write output/property_coverage.md
     python analysis/analyze.py --questions   # write output/question_analysis.md
     python analysis/analyze.py --graph       # render analysis/influence_graph.html
+    python analysis/analyze.py --timeline    # write output/timeline_analysis.md
     python analysis/analyze.py --all         # all of the above
 """
 
@@ -377,11 +378,12 @@ def write_questions(beings):
 # ── Analysis 4: influence graph renderer ─────────────────────────────────────
 
 EDGE_COLORS = {
-    "adapts":   "#3b82f6",  # blue
-    "sequel":   "#8b5cf6",  # purple
-    "inherits": "#64748b",  # slate
-    "inverts":  "#f59e0b",  # amber
-    "elevates": "#10b981",  # emerald
+    "adapts":         "#3b82f6",  # blue
+    "sequel":         "#8b5cf6",  # purple
+    "inherits":       "#64748b",  # slate
+    "inverts":        "#f59e0b",  # amber
+    "elevates":       "#10b981",  # emerald
+    "ensemble-split": "#ec4899",  # pink
 }
 
 MEDIUM_COLORS = {
@@ -391,6 +393,7 @@ MEDIUM_COLORS = {
     "play":         "#7c3aed",
     "novel":        "#2563eb",
     "short-story":  "#0284c7",
+    "comics":       "#06b6d4",
     "film":         "#059669",
     "television":   "#d97706",
     "video-game":   "#dc2626",
@@ -661,6 +664,224 @@ def render_influence_graph(beings):
     print(f"Wrote {INFLUENCE_GRAPH_HTML}")
 
 
+# ── Analysis 5: temporal analysis ──────────────────────────────────────────
+
+TIMELINE_FILE = os.path.join(OUTPUT_DIR, "timeline_analysis.md")
+
+DECADES = [
+    ("Pre-1800",    None, 1800),
+    ("1800s",       1800, 1900),
+    ("1900–1929",   1900, 1930),
+    ("1930s",       1930, 1940),
+    ("1940s",       1940, 1950),
+    ("1950s",       1950, 1960),
+    ("1960s",       1960, 1970),
+    ("1970s",       1970, 1980),
+    ("1980s",       1980, 1990),
+    ("1990s",       1990, 2000),
+    ("2000s",       2000, 2010),
+    ("2010s",       2010, 2020),
+    ("2020s",       2020, 2030),
+]
+
+
+def _get_decade(year):
+    if year is None:
+        return None
+    for name, start, end in DECADES:
+        if (start is None or year >= start) and (end is None or year < end):
+            return name
+    return None
+
+
+def write_timeline(beings):
+    """Write a temporal analysis of knowability/knowing salience by decade."""
+    total = len(beings)
+    lines = ["# Temporal Analysis", ""]
+    lines.append(f"Total entries: **{total}**.")
+    lines.append("")
+    lines.append(
+        "Tracks the distribution of `knowability` and `knowing` salience "
+        "across time periods to illustrate the migration of epistemological "
+        "questions from narrative infrastructure to primary dramatic concern."
+    )
+    lines.append("")
+
+    # ── Section 1: entries per decade ──────────────────────────────
+    lines.append("## 1. Entries per Period")
+    lines.append("")
+    decade_counts = Counter()
+    for being in beings:
+        year = get_nested(being, "metadata.year")
+        dec = _get_decade(year)
+        if dec:
+            decade_counts[dec] += 1
+    rows = [[d[0], decade_counts.get(d[0], 0)] for d in DECADES]
+    lines.append(tabulate(rows, headers=["Period", "Entries"], tablefmt="pipe"))
+    lines.append("")
+
+    # ── Section 2: knowability salience by decade ─────────────────
+    lines.append("## 2. Knowability Salience by Period")
+    lines.append("")
+    lines.append(
+        "For each period, the percentage of entries at each salience level. "
+        "The migration from `absent`/`present` dominance toward "
+        "`secondary`/`primary` is the central thesis of the ontology."
+    )
+    lines.append("")
+
+    headers = ["Period", "n"] + SALIENCE_ORDER
+    rows = []
+    for dec_name, start, end in DECADES:
+        bucket = [
+            b for b in beings
+            if _get_decade(get_nested(b, "metadata.year")) == dec_name
+        ]
+        n = len(bucket)
+        if n == 0:
+            continue
+        counter = Counter()
+        for b in bucket:
+            v = get_nested(b, "card.the_lens.knowability")
+            if v:
+                counter[v] += 1
+        row = [dec_name, n]
+        for level in SALIENCE_ORDER:
+            count = counter.get(level, 0)
+            pct = f"{count}/{n} ({100 * count // n}%)" if n else "—"
+            row.append(pct)
+        rows.append(row)
+    lines.append(tabulate(rows, headers=headers, tablefmt="pipe"))
+    lines.append("")
+
+    # ── Section 3: knowing salience by decade ─────────────────────
+    lines.append("## 3. Knowing Salience by Period")
+    lines.append("")
+
+    rows = []
+    for dec_name, start, end in DECADES:
+        bucket = [
+            b for b in beings
+            if _get_decade(get_nested(b, "metadata.year")) == dec_name
+        ]
+        n = len(bucket)
+        if n == 0:
+            continue
+        counter = Counter()
+        for b in bucket:
+            v = get_nested(b, "card.the_lens.knowing")
+            if v:
+                counter[v] += 1
+        row = [dec_name, n]
+        for level in SALIENCE_ORDER:
+            count = counter.get(level, 0)
+            pct = f"{count}/{n} ({100 * count // n}%)" if n else "—"
+            row.append(pct)
+        rows.append(row)
+    lines.append(tabulate(rows, headers=headers, tablefmt="pipe"))
+    lines.append("")
+
+    # ── Section 4: primary/primary entries chronologically ────────
+    lines.append("## 4. Primary/Primary Entries (Chronological)")
+    lines.append("")
+    lines.append(
+        "Entries where both `knowability` and `knowing` are coded `primary` — "
+        "the configuration where both epistemological questions are the central "
+        "dramatic concern."
+    )
+    lines.append("")
+    pp_entries = []
+    for being in sorted(beings, key=year_sort_key):
+        kab = get_nested(being, "card.the_lens.knowability")
+        kin = get_nested(being, "card.the_lens.knowing")
+        if kab == "primary" and kin == "primary":
+            pp_entries.append([
+                get_nested(being, "metadata.year", ""),
+                get_nested(being, "name", ""),
+                get_nested(being, "metadata.source", ""),
+                get_nested(being, "metadata.medium", ""),
+                get_nested(being, "card.the_lens.primary_question", ""),
+            ])
+    if pp_entries:
+        lines.append(tabulate(
+            pp_entries,
+            headers=["Year", "Entity", "Source", "Medium", "Primary Q"],
+            tablefmt="pipe",
+        ))
+    else:
+        lines.append("(no primary/primary entries)")
+    lines.append("")
+
+    # ── Section 5: primary_question shift over time ──────────────
+    lines.append("## 5. Primary Question Distribution by Period")
+    lines.append("")
+
+    all_questions = sorted({
+        get_nested(b, "card.the_lens.primary_question")
+        for b in beings
+        if get_nested(b, "card.the_lens.primary_question")
+    })
+    q_headers = ["Period", "n"] + all_questions
+    rows = []
+    for dec_name, start, end in DECADES:
+        bucket = [
+            b for b in beings
+            if _get_decade(get_nested(b, "metadata.year")) == dec_name
+        ]
+        n = len(bucket)
+        if n == 0:
+            continue
+        counter = Counter()
+        for b in bucket:
+            q = get_nested(b, "card.the_lens.primary_question")
+            if q:
+                counter[q] += 1
+        row = [dec_name, n]
+        for q in all_questions:
+            count = counter.get(q, 0)
+            row.append(count if count else "")
+        rows.append(row)
+    lines.append(tabulate(rows, headers=q_headers, tablefmt="pipe"))
+    lines.append("")
+
+    # ── Section 6: medium distribution by period ─────────────────
+    lines.append("## 6. Medium Distribution by Period")
+    lines.append("")
+
+    all_media = sorted({
+        get_nested(b, "metadata.medium")
+        for b in beings
+        if get_nested(b, "metadata.medium")
+    })
+    m_headers = ["Period", "n"] + all_media
+    rows = []
+    for dec_name, start, end in DECADES:
+        bucket = [
+            b for b in beings
+            if _get_decade(get_nested(b, "metadata.year")) == dec_name
+        ]
+        n = len(bucket)
+        if n == 0:
+            continue
+        counter = Counter()
+        for b in bucket:
+            m = get_nested(b, "metadata.medium")
+            if m:
+                counter[m] += 1
+        row = [dec_name, n]
+        for m in all_media:
+            count = counter.get(m, 0)
+            row.append(count if count else "")
+        rows.append(row)
+    lines.append(tabulate(rows, headers=m_headers, tablefmt="pipe"))
+    lines.append("")
+
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    with open(TIMELINE_FILE, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+    print(f"Wrote {TIMELINE_FILE}")
+
+
 # ── CLI ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -669,10 +890,11 @@ def main():
     parser.add_argument("--coverage", action="store_true", help="Write property_coverage.md")
     parser.add_argument("--questions", action="store_true", help="Write question_analysis.md")
     parser.add_argument("--graph", action="store_true", help="Render analysis/influence_graph.html")
+    parser.add_argument("--timeline", action="store_true", help="Write timeline_analysis.md")
     parser.add_argument("--all", action="store_true", help="Write all outputs")
     args = parser.parse_args()
 
-    if not (args.table or args.coverage or args.questions or args.graph or args.all):
+    if not (args.table or args.coverage or args.questions or args.graph or args.timeline or args.all):
         parser.print_help()
         sys.exit(0)
 
@@ -689,6 +911,8 @@ def main():
         write_questions(beings)
     if args.all or args.graph:
         render_influence_graph(beings)
+    if args.all or args.timeline:
+        write_timeline(beings)
 
 
 if __name__ == "__main__":

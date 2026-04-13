@@ -22,9 +22,7 @@ description: >
   Influence graph for CBO v2.0. Curated edges tracing how constructed-being
   properties propagate across 2,800 years of Western fiction. Not exhaustive;
   biased toward the best-documented lineages and the most analytically useful
-  property-propagation examples. Ensemble-split edges (e.g. hosts-westworld
-  → maeve-westworld) use `inherits` because the graph lacks a dedicated
-  edge type for character individuation within a single source.
+  property-propagation examples.
 
 edge_types:
   adapts: >
@@ -48,6 +46,12 @@ edge_types:
     A question that was infrastructural (`present` or `secondary`) in
     the earlier work becomes primary in the later work. Used for the
     knowability / knowing / primary_question axes.
+  ensemble-split: >
+    The target entry is an individuation of a character from the source
+    entry's ensemble. Both entries represent beings within the same
+    source work, but the split produces a meaningfully different card.
+    Distinct from `inherits` because the relationship is intra-work
+    individuation, not inter-work literary influence.
 
 edges:
 
@@ -664,7 +668,7 @@ edges:
   # Ensemble splits from anchor entries
   - from: hosts-westworld
     to: maeve-westworld
-    type: inherits
+    type: ensemble-split
     note: >
       Ensemble split from the anchor `hosts-westworld` entry
       (Dolores-anchored). Maeve's card differs on primary
@@ -675,7 +679,7 @@ edges:
 
   - from: hosts-westworld
     to: bernard-westworld
-    type: inherits
+    type: ensemble-split
     note: >
       Second ensemble split from the `hosts-westworld` anchor.
       Bernard's card is the show's clearest case of
@@ -685,7 +689,7 @@ edges:
 
   - from: cylons-bsg
     to: cavil-bsg
-    type: inherits
+    type: ensemble-split
     note: >
       Ensemble split from `cylons-bsg` (Number Six-anchored).
       Cavil codes primary question `identity` — specifically,
@@ -695,7 +699,7 @@ edges:
 
   - from: cylons-bsg
     to: eight-bsg
-    type: inherits
+    type: ensemble-split
     note: >
       Second BSG ensemble split. Eight's card tracks the
       anchor Number Six card closely on primary question
@@ -705,7 +709,7 @@ edges:
 
   - from: cylons-bsg
     to: danna-bsg
-    type: inherits
+    type: ensemble-split
     note: >
       Third BSG ensemble split. D'Anna is the series'
       knowledge-question Cylon — her whole arc is pursuing

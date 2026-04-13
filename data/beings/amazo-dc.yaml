@@ -15,7 +15,7 @@ card:
 metadata:
   source: "The Brave and the Bold (DC Comics)"
   year: 1960
-  medium: short-story
+  medium: comics
   creator: "Gardner Fox / Mike Sekowsky (Professor Anthony Ivo in-narrative)"
   substrate:
     - mechanical
@@ -44,8 +44,7 @@ notes: |
   usually as a test of how the League can defeat a being
   designed as their collective mirror.
 
-  Medium coded `short-story` per the schema comics
-  mismatch. Flagged as a thin entry deliberately: Amazo is
+  Flagged as a thin entry deliberately: Amazo is
   rarely given interior characterization and usually functions
   as a living puzzle-box for the League to solve.
 

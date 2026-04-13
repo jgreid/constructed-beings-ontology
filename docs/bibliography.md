@@ -56,7 +56,7 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Machines Like Me** (2019) — Ian McEwan. *Being(s): Adam*
 - **Klara and the Sun** (2021) — Kazuo Ishiguro. *Being(s): Klara*
 
-### Short Stories and Comics
+### Short Stories
 
 - **Der Sandmann** (1816) — E.T.A. Hoffmann. *Being(s): Olympia*
 - **La Venus d'Ille** (1837) — Prosper Merimee. *Being(s): The Venus of Ille*
@@ -64,21 +64,25 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Moxon's Master** (1899) — Ambrose Bierce. *Being(s): Moxon's Master*
 - **Helen O'Loy** (1938) — Lester del Rey. *Being(s): Helen O'Loy*
 - **I, Robot (Adam Link series)** (1939) — Eando Binder. *Being(s): Adam Link*
-- **Marvel Comics #1** (1939) — Carl Burgos. *Being(s): Jim Hammond*
 - **I, Robot ("Robbie")** (1940) — Isaac Asimov. *Being(s): Robbie*
 - **Las ruinas circulares (The Circular Ruins)** (1940) — Jorge Luis Borges. *Being(s): The Dreamed Man*
 - **City** (1944) — Clifford D. Simak. *Being(s): Jenkins*
 - **EPICAC** (1950) — Kurt Vonnegut. *Being(s): EPICAC*
 - **Multivac stories** (1955-1975) — Isaac Asimov. *Being(s): Multivac*
+- **The Cyberiad** (1965) — Stanislaw Lem. *Being(s): The Cyberiad Constructs*
+- **I Have No Mouth, and I Must Scream** (1967) — Harlan Ellison. *Being(s): AM*
+
+### Comics
+
+- **Marvel Comics #1** (1939) — Carl Burgos. *Being(s): Jim Hammond*
 - **DC Comics (Action Comics)** (1958) — Otto Binder / Al Plastino. *Being(s): Brainiac*
 - **The Brave and the Bold (DC Comics)** (1960) — Gardner Fox / Mike Sekowsky. *Being(s): Amazo*
 - **Showcase (DC Comics)** (1962) — Robert Kanigher / Ross Andru. *Being(s): The Metal Men*
-- **The Cyberiad** (1965) — Stanislaw Lem. *Being(s): The Cyberiad Constructs*
 - **X-Men (Marvel Comics)** (1965) — Stan Lee / Jack Kirby. *Being(s): Sentinels*
-- **I Have No Mouth, and I Must Scream** (1967) — Harlan Ellison. *Being(s): AM*
 - **Justice League of America (DC Comics)** (1968) — Gardner Fox / Dick Dillin. *Being(s): Red Tornado*
+- **The Avengers (Marvel Comics)** (1968) — Roy Thomas / John Buscema. *Being(s): Ultron*
 - **Machine Man (Marvel Comics)** (1977) — Jack Kirby. *Being(s): Machine Man*
-- **The Avengers (Marvel Comics)** (1977) — Jim Shooter / George Perez. *Being(s): Jocasta, Ultron*
+- **The Avengers (Marvel Comics)** (1977) — Jim Shooter / George Perez. *Being(s): Jocasta*
 
 ### Film
 

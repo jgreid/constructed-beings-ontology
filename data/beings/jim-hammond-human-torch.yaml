@@ -15,7 +15,7 @@ card:
 metadata:
   source: "Marvel Comics #1"
   year: 1939
-  medium: short-story
+  medium: comics
   creator: "Carl Burgos (Professor Phineas Horton in-narrative)"
   substrate:
     - mechanical
@@ -45,7 +45,6 @@ notes: |
   alongside Captain America and Namor in the Invaders, and
   is later revived in modern Marvel continuity.
 
-  Medium coded `short-story` per the schema comics mismatch.
   Interiority is `demonstrated`: across decades of continuity
   Hammond is given genuine moral reasoning, grief, and
   loyalty. Autonomy is `emergent`: Horton built a scientific

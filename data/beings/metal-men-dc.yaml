@@ -15,7 +15,7 @@ card:
 metadata:
   source: "Showcase (DC Comics)"
   year: 1962
-  medium: short-story
+  medium: comics
   creator: "Robert Kanigher / Ross Andru (Dr. Will Magnus in-narrative)"
   substrate:
     - mechanical
@@ -43,7 +43,6 @@ notes: |
   defining conceit and its analytical interest: their
   identities are literally their substrates.
 
-  Medium coded `short-story` per the schema comics mismatch.
   A collective entry per the boundary-cases rule — the team
   functions as a single unit in most stories, though
   Platinum's unrequited love for Magnus could justify an

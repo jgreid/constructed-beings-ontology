@@ -59,7 +59,7 @@ Entries coded `knowability: primary` + `knowing: primary` — stories where both
 
 Two patterns are visible.
 
-**First: the configuration is older than post-LLM cinema.** Helen in *Galatea 2.2* (1995) is cleanly primary/primary, and the novel is structurally built around both "is there a mind in there?" and "can it know me?" That is the same card configuration as *Her* and *Ex Machina*, eighteen years earlier. The sharper claim the corpus supports is: *cinematic* primary/primary begins with Jonze and Garland in 2013–2014, but *literary* primary/primary runs from Powers in the mid-90s through Ishiguro and McEwan in the present.
+**First: the configuration is older than contemporary cinema.** Helen in *Galatea 2.2* (1995) is cleanly primary/primary, and the novel is structurally built around both "is there a mind in there?" and "can it know me?" That is the same card configuration as *Her* and *Ex Machina*, eighteen years earlier. The sharper claim the corpus supports is: *cinematic* primary/primary begins with Jonze and Garland in 2013–2014 — coinciding with conversational AI assistants entering daily life — but *literary* primary/primary runs from Powers in the mid-90s through Ishiguro and McEwan in the present. The rise of LLMs has since accelerated the shift, but it did not originate it.
 
 **Second: the primary_question axis has more variety in the primary/primary cluster than might be expected.** The cluster includes:
 
@@ -68,7 +68,7 @@ Two patterns are visible.
 - `control` (1): The Machine
 - `rights` (1): Adam
 
-The **affection-primary sub-cluster** (David, Mother, Klara, Alphie) is analytically significant. These are all stories where the question "does this being love this human, and is the love real?" is the *whole* content of the film or novel, and where the story commits both to treating the answer as mattering and to refusing to settle it. The post-LLM shift is about *elevation of the knowability/knowing questions to primary status*, not about any single dramatic question.
+The **affection-primary sub-cluster** (David, Mother, Klara, Alphie) is analytically significant. These are all stories where the question "does this being love this human, and is the love real?" is the *whole* content of the film or novel, and where the story commits both to treating the answer as mattering and to refusing to settle it. The contemporary shift is about *elevation of the knowability/knowing questions to primary status*, not about any single dramatic question.
 
 ---
 
@@ -88,7 +88,7 @@ No other franchise in the corpus has this kind of sustained card-level dialogue 
 
 ### The affection-primary arc is older than the knowability/knowing migration
 
-EPICAC (Vonnegut, 1950) is the corpus's earliest clean "machine falls in love" configuration — 63 years before *Her*. The post-LLM shift is not "audiences discovered that machines can be loved." They had noticed that by at least 1950. The shift is about whether the story makes the love the *whole content* of the work rather than using it as a single plot turn.
+EPICAC (Vonnegut, 1950) is the corpus's earliest clean "machine falls in love" configuration — 63 years before *Her*. The contemporary shift is not "audiences discovered that machines can be loved." They had noticed that by at least 1950. The shift is about whether the story makes the love the *whole content* of the work rather than using it as a single plot turn.
 
 ### Literary SF was ahead of cinema
 
@@ -98,7 +98,7 @@ Three literary entries arrive at analytically significant configurations well be
 - **Wintermute/Neuromancer** (Gibson 1984) is the corpus's first institutional ASI that actively plans its own jailbreak. The direct source of the cyberpunk lineage that eventually reaches *The Matrix*.
 - **Daneel Olivaw** (Asimov, 1953) is the corpus's earliest `interiority: demonstrated`, `primary_question: rights` entry. Thirty-four years before Data, which *TNG* elevated into television's canonical rights-arc character.
 
-The larger point: cinema and television are the forms where the primary/primary elevation is most dramatic, but the underlying configurations appear in literary SF decades earlier. Literary SF prepared the ground that made the cinematic shift legible once LLMs made it urgent.
+The larger point: cinema and television are the forms where the primary/primary elevation is most dramatic, but the underlying configurations appear in literary SF decades earlier. Literary SF prepared the ground that made the cinematic shift legible once conversational AI made it urgent — and LLMs have since made it inescapable.
 
 ### Ensemble splits reveal real analytical structure
 
@@ -151,7 +151,7 @@ Primary/primary entries are bolded on the knowability/knowing columns.
 
 - **The schema is unchanged since its current design.** Every entry is coded against the same seven-property card, seven metadata fields, and the same validator. See [CHANGELOG.md](../CHANGELOG.md) for schema history.
 - **Flagged entries.** Several entries are flagged as lower-confidence in their `notes` fields: Maximilian (*The Black Hole*), Kamelion (*Doctor Who*), Amazo (DC), the Cyberiad Constructs (Lem), and the *Detroit: Become Human* protagonists. Flagging is a respected state — lower-confidence cards are coded conservatively and the notes make the uncertainty explicit.
-- **Comics as `short-story`.** Comics entries (Ultron 1968, Red Tornado, Amazo, Machine Man X-51) use `medium: short-story` as the closest structural analog for serialized comics. The mismatch is flagged in each entry's notes. A future schema revision could add a `comics` enum value.
-- **Ensemble splits are documented relations, not replacements.** The Maeve/Bernard/Cavil/Eight/D'Anna entries are splits *from* existing ensemble-anchor entries, not replacements. The influence graph records the split relationships as `inherits` edges.
+- **Comics entries.** Nine comics entries (Ultron 1968, Red Tornado, Amazo, Machine Man X-51, Brainiac, Metal Men, Sentinels, Jocasta, Jim Hammond) now use `medium: comics`, a value added in v2.1.1 to resolve the previous `short-story` approximation.
+- **Ensemble splits are documented relations, not replacements.** The Maeve/Bernard/Cavil/Eight/D'Anna entries are splits *from* existing ensemble-anchor entries, not replacements. The influence graph records the split relationships as `ensemble-split` edges, distinguishing intra-work individuation from inter-work literary influence.
 - **Non-Western traditions remain out of scope.** The corpus is entirely Western-canon. The planned non-Western expansion (with cultural consultation) is future work.
-- **Helen (1995) and EPICAC (1950) are the most analytically significant entries for the central thesis.** Both relocate familiar findings earlier in the corpus timeline in ways that sharpen the argument: the knowability/knowing questions' migration to primary narrative status is not exclusively post-LLM, and the affection arc is far older than contemporary cinema suggests.
+- **Helen (1995) and EPICAC (1950) are the most analytically significant entries for the central thesis.** Both relocate familiar findings earlier in the corpus timeline in ways that sharpen the argument: the knowability/knowing questions' migration to primary narrative status predates LLMs (literary SF reached the configuration in 1995, cinema in 2013), and the affection arc is far older than contemporary cinema suggests.

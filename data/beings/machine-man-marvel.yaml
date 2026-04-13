@@ -15,7 +15,7 @@ card:
 metadata:
   source: "Machine Man (Marvel Comics)"
   year: 1977
-  medium: short-story
+  medium: comics
   creator: "Jack Kirby (Dr. Abel Stack in-narrative)"
   substrate:
     - mechanical
@@ -48,8 +48,7 @@ notes: |
   emotional-and-ethical humanity Abel Stack modeled for him
   before being killed by one of the other Project units.
 
-  Medium coded `short-story` per the schema comics
-  mismatch. Interiority is `demonstrated`: Kirby and later
+  Interiority is `demonstrated`: Kirby and later
   writers (notably Peter Milligan in the 1999 *X-51*
   series and Warren Ellis in the 2004 *Nextwave* miniseries)
   have given Machine Man a wide, genuinely strange emotional

@@ -94,8 +94,9 @@ This report counts the distribution of values for each property. List-valued pro
 | film        |      73 |
 | television  |      48 |
 | novel       |      28 |
-| short-story |      23 |
 | video-game  |      20 |
+| short-story |      14 |
+| comics      |       9 |
 | play        |       5 |
 | epic        |       2 |
 | poem        |       2 |
