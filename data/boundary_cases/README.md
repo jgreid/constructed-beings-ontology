@@ -1,24 +1,20 @@
-# Boundary Cases (v2.0)
+# Boundary Cases
 
-This directory is reserved for entries that sit on the edge of the v2.0 schema — beings whose coding raises a problem the schema doesn't cleanly handle, and where the problem is interesting enough to document separately from the main corpus in `data/beings/`.
+This directory is reserved for entries that sit on the edge of the schema — beings whose coding raises a problem the schema doesn't cleanly handle, and where the problem is interesting enough to document separately from the main corpus in `data/beings/`.
 
-## What counts as a boundary case under v2.0
+## What counts as a boundary case
 
 An entry belongs here if **at least one** of the following is true:
 
 1. **A required enum value doesn't quite fit.** The nearest option is clearly closer than the others, but the fit is bad enough that a future coder should know about it.
-2. **The entry is not a constructed being in the strict sense**, but is included to make an exclusion decision explicit and defensible. (v1.0's Eve entry was like this.)
+2. **The entry is not a constructed being in the strict sense**, but is included to make an exclusion decision explicit and defensible.
 3. **The scope rules give an ambiguous answer.** For example: a transmedia character whose canonical "source text" is unclear, or a being who genuinely predates the scope rule (folklore, pre-print traditions).
 
 An entry does **not** belong here merely because the coding was hard. Hard coding calls go in the `notes` field of the regular entry. Boundary cases are about structural mismatch between the schema and the being, not about analytical difficulty.
 
 ## Format
 
-Boundary-case files follow the same v2.0 schema as regular entries. Put the rationale for the boundary designation in `notes`, opened with a `BOUNDARY CASE:` marker so it's easy to find.
-
-## v1.0 holdover
-
-The v1.0 schema used this directory for one entry (Eve, from Genesis), coded specifically to distinguish `made` from `born-divine`. v2.0 has no `reproductive_method` axis, so that distinction no longer exists and Eve no longer has a v2.0 reason to be here. The file has been removed. If you want to recover that discussion, check git history before the v2.0 migration.
+Boundary-case files follow the same schema as regular entries. Put the rationale for the boundary designation in `notes`, opened with a `BOUNDARY CASE:` marker so it's easy to find.
 
 ## Adding a boundary case
 

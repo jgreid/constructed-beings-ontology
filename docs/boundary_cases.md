@@ -1,4 +1,4 @@
-# Boundary Cases — CBO v2.0
+# Boundary Cases
 
 This document discusses entities that sit on or near the boundary of the constructed being (CB) definition. For each category, it explains the reasoning behind inclusion or exclusion and points to the criteria that decide.
 
@@ -9,14 +9,6 @@ The CB definition used by this ontology requires three things:
 3. **Narrative presence.** The entity appears in a specific, citable text.
 
 Everything discussed below either meets all three criteria (and is included), fails at least one (and is excluded), or poses a genuine definitional problem that the schema cannot cleanly resolve.
-
----
-
-## What changed in v2.0
-
-v1.0 had an explicit `reproductive_method` axis with values like `made`, `born-sexual`, `born-clonal`, `born-divine`, and `ambiguous`. That axis was doing a lot of work at the boundary — it let us include beings like Eve (Genesis) as `born-divine` specifically to make the inclusion/exclusion decision visible.
-
-v2.0 has no such axis. A constructed being is defined by the three criteria above; the schema does not record a distinction between "made" and "born" because there is nothing else in the schema that depends on it. This simplifies most cases and makes a few cases harder. The ones that got harder are the ones this document covers.
 
 ---
 
@@ -41,17 +33,16 @@ All of these satisfy made + agent-like + narrative presence.
 - **Agent-like**: Pandora has enough agency to open the jar. Talos has enough to patrol the Cretan coast, recognize intruders, and hurl boulders.
 - **Narrative presence**: Hesiod and Apollonius respectively.
 
-The complication with both is that their "creators" are gods. The v1 `creator.name` field had to be a name; v2 has `metadata.creator` that can accommodate phrases like "Hesiod (Hephaestus in-narrative)." The ontology tracks the *authorial* creator and the *in-narrative* creator as a single string now, which removes some of v1's awkwardness at the mythic boundary.
+The complication with both is that their "creators" are gods. The `metadata.creator` field can accommodate phrases like "Hesiod (Hephaestus in-narrative)," tracking both the authorial and in-narrative creator as a single string.
 
 ---
 
 ## Excluded: divine creation of persons
 
-v1.0 used to carry Eve (Genesis) as an explicit boundary case, coded with `reproductive_method: born-divine` to make the inclusion/exclusion decision durable. Under v2.0, Eve is **excluded** and there is no entry for her. Reasoning:
+Eve (Genesis) is **excluded**. Reasoning:
 
 - **Divine creation of a full human person is categorically different from artisanal making.** God forming Eve from Adam's rib shares surface features with construction (a creator, raw material, a deliberate act). But Eve is immediately and fully human — she bears children, makes moral choices, converses with God. She is a person, not an artifact.
-- **v2.0 removed the axis that let us record the boundary.** Without `reproductive_method`, there is no meaningful field to flag Eve's status on. Including her would require coding her as if she were a constructed being in the same sense as Pandora or Galatea, and that coding would be misleading.
-- **The decision is still legible.** v2.0 preserves this discussion as documentation. Eve's deletion from `data/boundary_cases/` is recoverable from git history before the v2.0 migration.
+- **The schema has no field to distinguish this boundary.** Including Eve would require coding her as if she were a constructed being in the same sense as Pandora or Galatea, and that coding would be misleading.
 
 The same reasoning applies to other divine creations of full persons (Adam, the angelic hosts). These are outside the ontology.
 
@@ -67,7 +58,7 @@ Beings whose origin is biological reproduction, however miraculous, are not cons
 - **Immaculate conception** (Catholic doctrine about Mary) is a theological claim about the absence of original sin, not about a manufacturing process.
 - **Parthenogenesis and cloning** in fiction (e.g., certain comic-book origins) are biological reproduction variants. A clone born from a tank is still born.
 
-The bright line is **manufacturing vs. gestation**. Clones manufactured without gestation (R.U.R.'s robots, replicants) are in. Clones grown in artificial wombs but gestated are arguably in; clones born from surrogates are arguably out. v2.0 does not attempt to adjudicate every edge case — it trusts the coder's judgment and asks for the reasoning to be documented in `notes`.
+The bright line is **manufacturing vs. gestation**. Clones manufactured without gestation (R.U.R.'s robots, replicants) are in. Clones grown in artificial wombs but gestated are arguably in; clones born from surrogates are arguably out. The schema does not attempt to adjudicate every edge case — it trusts the coder's judgment and asks for the reasoning to be documented in `notes`.
 
 ---
 
@@ -101,11 +92,12 @@ The bright line is **would the text be confused if you asked, "does this being h
 
 ---
 
-## The v2.0 boundary directory
+## The boundary cases directory
 
-`data/boundary_cases/` is still a real directory. Under v2.0 it holds:
+`data/boundary_cases/` holds entries where the schema's enums fail to capture something important about the being. These are coded against the same schema as main entries, with a `BOUNDARY CASE:` marker in `notes` explaining why they belong there.
 
-1. A `README.md` that defines "boundary case" for v2 (entries where the v2.0 schema's enums fail to capture something important about the being).
-2. Future boundary-case entries, coded against the same v2.0 schema as main entries, with a `BOUNDARY CASE:` marker in `notes` explaining why they belong there.
+If you encounter a being that doesn't quite fit the main corpus but is interesting enough to document, add it here rather than shoehorning it into `data/beings/`.
 
-As of the v2.0 migration the directory contains no entries — the v1 Eve entry was removed per the reasoning above. If you encounter a being that doesn't quite fit the main corpus but is interesting enough to document, add it here rather than shoehorning it into `data/beings/`.
+## Excluded entities register
+
+For a structured register of entities that were considered and excluded, with standardized exclusion reasons, see [`data/exclusions.yaml`](../data/exclusions.yaml).

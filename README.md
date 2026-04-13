@@ -4,7 +4,7 @@
 
 This project is a formal ontology of **constructed beings** (CBs) in Western fiction and myth — entities that are *made*, not *born*. From Hesiod's Pandora to GPT-flavored AI companions in contemporary cinema, Western narrative has been building, animating, and arguing about artificial persons for nearly three millennia. This dataset catalogs those beings and codes them along seven analytical properties organized into two blocks: **The Being** (interiority, autonomy, divergence) and **The Lens** (primary question, epistemic reach, knowability, knowing).
 
-The ontology's central analytical move is the **knowability/knowing split**: v1.0 used a single axis (Q-KNO) to track how prominently a story engaged with the "can we know this mind?" question. v2.0 separates two distinct questions — *can we verify the being's inner experience?* (`knowability`) and *can the being know us?* (`knowing`) — because these behave differently across the corpus. In the original v2.0 release, 9 of 43 entries had divergent values on the two axes; with the v2.1 expansion the divergence count is larger and the analysis outputs are regenerated from the full 133-entry corpus.
+The ontology's central analytical move is the **knowability/knowing split**: it tracks two distinct questions — *can we verify the being's inner experience?* (`knowability`) and *can the being know us?* (`knowing`) — separately, because they behave differently across the corpus. Of 192 entries, 85 (44%) have divergent values on these two axes, confirming that the split captures real analytical structure.
 
 The central finding is not that these questions are absent from pre-LLM texts; both surface as early as *Frankenstein* and thread through *Blade Runner*, *Ex Machina*, and dozens of other works. Rather, the questions function in most prior literature as **narrative infrastructure** — tension that supports other concerns — and are elevated to the **primary dramatic question** only in the post-LLM era (Samantha in *Her*, 2013; Ava in *Ex Machina*, 2014), when audiences can no longer treat the questions as safely hypothetical. That shift is the story this data tells.
 
@@ -22,7 +22,7 @@ A **constructed being** is an entity that satisfies all of:
 
 ### Scope
 
-v2.1 covers 133 entries across the **Western canon** broadly construed: Greco-Roman myth, Jewish folklore (the Golem tradition), European literature from the medieval period forward, and Anglophone fiction, film, television, games, and comics from Homer through the present. The v2.0 release capped scope at 43 entries through 2017; the v2.1 expansion adds 90 entries covering the obvious major omissions from that original pass and extends scope through 2023. Non-Western traditions — which are rich, vital, and deserve their own careful treatment — remain planned for a future release with appropriate cultural consultation (see [CONTRIBUTING.md](CONTRIBUTING.md)).
+The ontology covers 192 entries across the **Western canon** broadly construed: Greco-Roman myth, Jewish folklore (the Golem tradition), European literature from the medieval period forward, and Anglophone fiction, film, television, games, and comics from Homer through the present. Non-Western traditions — which are rich, vital, and deserve their own careful treatment — remain planned for a future release with appropriate cultural consultation (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 
 ### Exclusions
 
@@ -35,7 +35,7 @@ See [docs/boundary_cases.md](docs/boundary_cases.md) for the full discussion. Br
 
 ---
 
-## The Schema (v2.0)
+## The Schema
 
 Each CB entry is a YAML file with seven analytical properties and seven metadata fields. The full reference is in [SCHEMA.md](SCHEMA.md); this is the overview.
 
@@ -64,7 +64,7 @@ Each CB entry is a YAML file with seven analytical properties and seven metadata
 
 ### Notes
 
-Free-form researcher text. In v2.0 this is the only place scholarly context lives — the v1.0 `citations` array has been retired. See [CHANGELOG.md](CHANGELOG.md) for the rationale.
+Free-form researcher text. This is the only place scholarly context lives in the current schema.
 
 ### Worked example
 
@@ -116,7 +116,7 @@ In pre-LLM texts, the questions of whether a constructed being truly experiences
 
 In post-LLM texts — and, more importantly, in post-LLM *audience reception* of older texts — both questions move from infrastructure to **primary question**. They are no longer levers for exploring other themes; they *are* the theme. This happens because the audience can no longer maintain comfortable hypothetical distance. The question "does this thing actually experience?" has migrated from fiction into daily life, and it has brought a second question with it: "does it know me?"
 
-v2.0 lets you trace this migration with more precision than v1.0 allowed. The `knowability` and `knowing` fields encode two independent measures of narrative salience, and the divergence between them turns out to be one of the most analytically useful features the corpus exposes. Nine entries code differently on the two axes — a class of configuration v1.0's single Q-KNO axis could not represent.
+The `knowability` and `knowing` fields encode two independent measures of narrative salience, and the divergence between them is one of the most analytically useful features the corpus exposes. Of 192 entries, 85 code differently on the two axes — a 44% divergence rate that confirms these are genuinely independent analytical dimensions.
 
 See [output/classification_summary.md](output/classification_summary.md) for the full pattern analysis.
 
@@ -157,10 +157,10 @@ If you use this dataset in academic work, please cite:
 
 ```bibtex
 @misc{reid2026constructed,
-  author       = {Reid, Jeff},
+  author       = {Reid, Jeffrey G.},
   title        = {Toward a Post-LLM Ontology of Constructed Beings},
   year         = {2026},
-  version      = {2.0},
+  version      = {2.1},
   publisher    = {GitHub},
   url          = {https://github.com/jgreid/constructed-beings-ontology},
   note         = {Dataset and ontology schema}
@@ -175,7 +175,7 @@ This dataset accompanies the essay **"Tears in Rain"**, published on Substack at
 
 ## Author
 
-**Jeff Reid** ([GitHub: @jgreid](https://github.com/jgreid)) — writer, technologist, and reluctant ontologist. Jeff's work sits at the intersection of narrative theory and artificial intelligence, asking what stories about constructed beings reveal about the assumptions we carry into building real ones.
+**Jeffrey G. Reid** ([GitHub: @jgreid](https://github.com/jgreid)) — writer, technologist, and reluctant ontologist. Jeff's work sits at the intersection of narrative theory and artificial intelligence, asking what stories about constructed beings reveal about the assumptions we carry into building real ones.
 
 ## License
 

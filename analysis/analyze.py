@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
-Analyze the v2.0 constructed beings corpus.
+Analyze the constructed beings corpus.
 
-Replaces the v1 scripts generate_table.py, property_coverage.py, and
-question_analysis.py with a single entry point.
+Single entry point for all analysis outputs.
 
 Usage:
     python analysis/analyze.py --table       # write output/summary_table.md
@@ -162,7 +161,7 @@ def write_coverage(beings):
     lines.append(f"Total entries: **{total}**.")
     lines.append("")
     lines.append(
-        "This report counts the distribution of values for each v2.0 property. "
+        "This report counts the distribution of values for each property. "
         "List-valued properties (substrate, motivation) count every token "
         "separately — hybrids contribute to each of their substrates."
     )
@@ -210,11 +209,11 @@ def _salience_rank(value):
 
 def write_questions(beings):
     total = len(beings)
-    lines = ["# Question Analysis — v2.0", ""]
+    lines = ["# Question Analysis", ""]
     lines.append(f"Total entries: **{total}**.")
     lines.append("")
     lines.append(
-        "v2.0 replaces the single Q-KNO axis with two meta-properties: "
+        "The schema tracks two meta-properties: "
         "`knowability` (can we verify its mind?) and `knowing` (can it "
         "know us?). This report tracks both, plus the distribution of "
         "`primary_question`."
@@ -284,7 +283,7 @@ def write_questions(beings):
     lines.append("")
     lines.append(
         "Entries where knowability and knowing have different values. "
-        "v1's single Q-KNO axis could not distinguish these cases."
+        "A single-axis approach could not distinguish these cases."
     )
     lines.append("")
     divergent = []
@@ -510,7 +509,7 @@ def render_influence_graph(beings):
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>CBO v2.0 — Influence Graph</title>
+<title>CBO — Influence Graph</title>
 <script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
 <style>
   body {
@@ -562,8 +561,8 @@ def render_influence_graph(beings):
 <body>
 
 <header>
-  <h1>Constructed Beings Ontology — Influence Graph (v2.0)</h1>
-  <p>{TOTAL_EDGES} edges across {TOTAL_NODES} of 43 nodes. Each edge represents a judgment call about how one work's constructed-being properties propagate into a later work. Rendered from <code>analysis/influence_graph.yaml</code>.</p>
+  <h1>Constructed Beings Ontology — Influence Graph</h1>
+  <p>{TOTAL_EDGES} edges across {TOTAL_NODES} nodes. Each edge represents a judgment call about how one work's constructed-being properties propagate into a later work. Rendered from <code>analysis/influence_graph.yaml</code>.</p>
 </header>
 
 <div id="graph"></div>
@@ -665,7 +664,7 @@ def render_influence_graph(beings):
 # ── CLI ──────────────────────────────────────────────────────────────────────
 
 def main():
-    parser = argparse.ArgumentParser(description="CBO v2.0 analysis tools.")
+    parser = argparse.ArgumentParser(description="CBO analysis tools.")
     parser.add_argument("--table", action="store_true", help="Write summary_table.md")
     parser.add_argument("--coverage", action="store_true", help="Write property_coverage.md")
     parser.add_argument("--questions", action="store_true", help="Write question_analysis.md")

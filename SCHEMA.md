@@ -1,8 +1,6 @@
-# Schema Reference — CBO v2.0
+# Schema Reference
 
-This document is the human-readable companion to `schema/cb-schema.yaml`. It defines every field in a v2.0 entry, the controlled vocabularies, and the editorial conventions that govern coding decisions.
-
-> **v2.0 is a breaking change.** The v1.0 schema (nested `source`/`creator`/`being`/`relationship` objects, mnemonic codes like `Q-KNO`/`I-NAR`/`M-SRV`, and a required `citations` array) has been retired. See [CHANGELOG.md](CHANGELOG.md) for a full migration note.
+This document is the human-readable companion to `schema/cb-schema.yaml`. It defines every field in an entry, the controlled vocabularies, and the editorial conventions that govern coding decisions.
 
 ---
 
@@ -217,7 +215,7 @@ If you find yourself writing the same note on multiple entries (e.g., "memory is
 
 ### Notes are the only place scholarly context lives
 
-v2.0 removed the `citations` array that v1.0 required. This is a deliberate methodological shift: v2.0 is a **curated index** rather than an **evidenced ontology**. If you need to flag an ambiguous coding, quote a line, or cite a scene, put it in `notes`. The absence of a structured citations field is not license to skip scholarly rigor — it's an acknowledgment that the structured field wasn't doing the work it was supposed to do.
+The schema is a **curated index** rather than an **evidenced ontology**. If you need to flag an ambiguous coding, quote a line, or cite a scene, put it in `notes`. The absence of a structured citations field is not license to skip scholarly rigor — it's an acknowledgment that prose notes do the work better than a rigid citations array.
 
 ---
 

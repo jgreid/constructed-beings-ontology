@@ -1,8 +1,8 @@
-# Question Analysis — v2.0
+# Question Analysis
 
 Total entries: **192**.
 
-v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can we verify its mind?) and `knowing` (can it know us?). This report tracks both, plus the distribution of `primary_question`.
+The schema tracks two meta-properties: `knowability` (can we verify its mind?) and `knowing` (can it know us?). This report tracks both, plus the distribution of `primary_question`.
 
 ## 1. Primary Question Frequency
 
@@ -87,7 +87,7 @@ v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can
 
 ## 5. Knowability vs. Knowing Divergence
 
-Entries where knowability and knowing have different values. v1's single Q-KNO axis could not distinguish these cases.
+Entries where knowability and knowing have different values. A single-axis approach could not distinguish these cases.
 
 | Entity                                   | Source                                                  |   Year | Knowability   | Knowing   |
 |:-----------------------------------------|:--------------------------------------------------------|-------:|:--------------|:----------|

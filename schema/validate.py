@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Validate constructed-being YAML entries against the v2.0 ontology schema.
+Validate constructed-being YAML entries against the ontology schema.
 
 Usage:
     python schema/validate.py                  # validate all entries in data/beings/
@@ -229,7 +229,7 @@ def main():
 
     print()
     print(f"{BOLD}{'=' * 60}{RESET}")
-    print(f"{BOLD}  Constructed Beings Ontology v2.0 — Validation{RESET}")
+    print(f"{BOLD}  Constructed Beings Ontology — Validation{RESET}")
     print(f"{BOLD}{'=' * 60}{RESET}")
     print()
 

@@ -2,7 +2,7 @@
 
 Total entries: **192**.
 
-This report counts the distribution of values for each v2.0 property. List-valued properties (substrate, motivation) count every token separately — hybrids contribute to each of their substrates.
+This report counts the distribution of values for each property. List-valued properties (substrate, motivation) count every token separately — hybrids contribute to each of their substrates.
 
 ## Interiority
 
@@ -58,8 +58,8 @@ This report counts the distribution of values for each v2.0 property. List-value
 
 | Epistemic Reach   |   Count |
 |:------------------|--------:|
-| conversational    |     120 |
-| behavioral        |      46 |
+| conversational    |     121 |
+| behavioral        |      45 |
 | inspection        |      18 |
 | none              |       8 |
 

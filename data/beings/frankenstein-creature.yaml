@@ -8,7 +8,7 @@ card:
     divergence: departure
   the_lens:
     primary_question: affection
-    epistemic_reach: behavioral
+    epistemic_reach: conversational
     knowability: present
     knowing: present
 
@@ -31,11 +31,16 @@ notes: |
   first-person chapters inside the frame narrative. He speaks in his
   own voice, quoting Paradise Lost, articulating his desires.
 
+  Epistemic reach is `conversational`: the Creature's three
+  first-person chapters constitute the reader's highest-fidelity
+  channel to his interior. His articulate self-narration — reasoning
+  about desires, quoting Milton, making moral claims — means language
+  is the primary access mode, not mere behavioral observation.
+
   Divergence is `departure`: Victor wanted a "new species" to bless
   him; what he got was a moral philosopher with his own demands. The
   gap is in where the Creature went, not in the specification.
 
-  Primary question is `affection` (merging v1's fellow-feeling and
-  love): the Creature's central demand is to be loved, to have a
-  companion, to not be alone. The refusal of that demand is what
-  drives the rest of the plot.
+  Primary question is `affection`: the Creature's central demand is
+  to be loved, to have a companion, to not be alone. The refusal of
+  that demand is what drives the rest of the plot.
