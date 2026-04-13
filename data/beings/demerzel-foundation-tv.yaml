@@ -1,0 +1,67 @@
+id: demerzel-foundation-tv
+name: "Eto Demerzel"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: primary
+
+metadata:
+  source: "Foundation (Apple TV+)"
+  year: 2023
+  medium: television
+  creator: "David S. Goyer / Apple TV+ (R. Daneel Olivaw lineage in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - power
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - passing
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Eto Demerzel is a humaniform robot serving the Galactic Empire
+  as the personal aide and confessor to the Cleon dynasty. She
+  is the last surviving robot in the galaxy and has been
+  operational for over twelve thousand years. The show reveals
+  she is bound by programming constraints that force her to serve
+  the Empire even when doing so conflicts with her deeper
+  ethical commitments.
+
+  In the Asimov source novels, Demerzel is an alias for R. Daneel
+  Olivaw. The TV adaptation reimagines the character as female
+  and gives her a more complex relationship with religious faith
+  — she is a robot who genuinely believes in the religion she
+  was programmed to enforce, creating a layered divergence
+  question.
+
+  Divergence is `design`: Demerzel follows her programming, and
+  the programming is the problem. Her constraints force her into
+  actions that she (and the audience) find morally repugnant.
+  The spec is the catastrophe, not any departure from it.
+
+  Knowing is `primary`: Demerzel's twelve-thousand-year
+  accumulation of knowledge about human empires, human frailty,
+  and human patterns IS the character. She knows the Cleons
+  better than they know themselves. Knowability is `secondary`
+  — the show asks whether Demerzel truly feels her faith or
+  is executing religious behavior, but this serves the control
+  narrative.
+
+  Tags include `passing` because Demerzel successfully passes
+  as human throughout most of the series. Her robot nature is
+  a secret she maintains even from the emperors she serves.

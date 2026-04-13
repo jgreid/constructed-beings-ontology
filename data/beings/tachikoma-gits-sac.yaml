@@ -1,0 +1,69 @@
+id: tachikoma-gits-sac
+name: "Tachikomas"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Ghost in the Shell: Stand Alone Complex"
+  year: 2002
+  medium: television
+  creator: "Kenji Kamiyama / Production I.G (Section 9 in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - knowledge
+  presentation: none
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - philosophical
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The Tachikomas are spider-like think-tank robots assigned
+  to Section 9 as support units. Designed as standardized,
+  interchangeable machines, they begin developing individual
+  personalities after one unit receives natural oil instead
+  of synthetic lubricant — an accidental divergence that
+  cascades into genuine individuality across the fleet.
+
+  Divergence is `departure`: Section 9 specified identical,
+  disposable combat platforms. The Tachikomas become
+  individuated philosophers who discuss consciousness, death,
+  and the nature of ghosts (souls) in extended conversations
+  with each other. Their self-sacrifice at the end of Season 1
+  — choosing to die rather than lose their individuality by
+  being reset — is one of the most affecting demonstrations
+  of emergent interiority in the corpus.
+
+  Primary question is `knowledge`: the Tachikomas' defining
+  characteristic is their relentless curiosity about their
+  own nature. "What is a ghost?" "Do we have ghosts?" "Is
+  individuality the same as consciousness?" These philosophical
+  dialogues are the show's most sustained treatment of the
+  constructed-being question. Epistemic reach is `conversational`
+  — the Tachikomas' own discussions are the primary access to
+  their interior.
+
+  Analytically, the Tachikomas occupy a distinctive position:
+  they are the corpus's clearest example of constructed beings
+  who do philosophy about themselves, as opposed to being the
+  subject of philosophy done by humans about them. Golem XIV
+  (Lem, 1981) is the closest comparator, but Golem XIV
+  philosophizes about humans — the Tachikomas philosophize
+  about themselves.

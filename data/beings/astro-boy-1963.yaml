@@ -1,0 +1,53 @@
+id: astro-boy-1963
+name: "Astro Boy"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Tetsuwan Atom (TV anime)"
+  year: 1963
+  medium: television
+  creator: "Osamu Tezuka / Mushi Production"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - child
+    - mirror
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: resentful
+  tags:
+    - canonical
+    - child-arc
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The 1963 anime adaptation of Tezuka's manga — the first
+  animated television series produced in Japan and broadcast
+  internationally. The card is stable from the manga: same
+  identity question, same departure divergence, same
+  demonstrated interiority. The anime adds `service` to the
+  motivation list because the episodic structure emphasizes
+  Atom's weekly heroic missions more than the manga's
+  longer-form identity arcs.
+
+  This entry is historically significant as the work that
+  launched the anime industry worldwide and introduced
+  Japanese constructed-being storytelling to Western audiences.
+  NBC broadcast a dubbed version in the United States in 1963,
+  making Astro Boy one of the first anime characters recognized
+  by American audiences.

@@ -1,0 +1,48 @@
+id: roz-wild-robot-novel
+name: "Roz (ROZZUM unit 7134)"
+
+card:
+  the_being:
+    interiority: narrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "The Wild Robot"
+  year: 2016
+  medium: novel
+  creator: "Peter Brown (Universal Dynamics in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - child
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: indifferent
+  tags:
+    - child-arc
+
+sequel_link: roz-wild-robot
+link_type: adaptation
+
+notes: |
+  Peter Brown's 2016 middle-grade novel — the source text for
+  the 2024 DreamWorks film. The novel gives Roz first-person
+  narrated access (interiority `narrated` rather than the film's
+  `demonstrated`) and treats the knowability question more gently
+  (`present` rather than `secondary` — the novel raises it without
+  foregrounding it).
+
+  The core card is stable across novel and film: departure
+  divergence, affection primary question, emergent autonomy.
+  The novel spawned two sequels (*The Wild Robot Escapes*, 2018
+  and *The Wild Robot Protects*, 2023) that develop the
+  relationship between Roz and Brightbill further.

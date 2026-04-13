@@ -4,6 +4,49 @@ All notable changes to the Constructed Beings Ontology are documented here.
 
 ---
 
+## [2.2.0] — 2026-04
+
+**Non-Western expansion, 2023-2025 coverage, title rename, and formal methodology.** 212 → 224 entries (+12). First non-Western entries added. Project title renamed.
+
+### Summary
+
+- **Project renamed** from "Toward a Post-LLM Ontology of Constructed Beings" to **"Toward an Ontology of Constructed Beings"**. The "Post-LLM" framing was anachronistic — the shift the ontology tracks predates LLMs by decades. Active documentation updated; CHANGELOG preserves historical usage.
+- **Non-Western scope expanded.** Six Japanese anime/manga entries added: Astro Boy manga (1952) and anime (1963), Major Kusanagi in Oshii's *Ghost in the Shell* (1995) and Sanders's Hollywood adaptation (2017), Rei Ayanami (*Neon Genesis Evangelion*, 1995), and the Tachikomas (*Ghost in the Shell: SAC*, 2002). Existing medium values used: manga → `comics`, anime TV → `television`, anime film → `film`. Scope language updated in README and CONTRIBUTING to reflect "Western canon plus selected non-Western works with wide Western recognition."
+- **2023-2025 coverage expanded.** Six entries: Roz (*The Wild Robot* novel 2016 and film 2024), Eto Demerzel (*Foundation* TV, 2023), Cherry (*The Artifice Girl*, 2022), Iris (*Companion*, 2025), M3GAN 2.0 (2025).
+- **Observer cluster grew from 19 to 23 entries.** Kusanagi (1995) and Rei Ayanami both code `divergence: observer`, plus Companion's Iris. Observer cluster now spans 1816–2025.
+- **Knowability/knowing divergence: 107 of 224 entries (47%).** Up from 98/212 (46%) in v2.1.1.
+- **Primary/primary cluster stable at 15 entries** — no new additions from this expansion.
+
+### New entries (12)
+
+**Non-Western (6):** Astro Boy (manga, 1952), Astro Boy (anime, 1963), Major Kusanagi (*Ghost in the Shell* 1995 film), Major/Mira Killian (*Ghost in the Shell* 2017 film), Rei Ayanami (*Neon Genesis Evangelion*, 1995), Tachikomas (*Ghost in the Shell: SAC*, 2002).
+
+**2023-2025 (6):** Roz (*The Wild Robot* novel, 2016), Roz (*The Wild Robot* film, 2024), Eto Demerzel (*Foundation* TV, 2023), Cherry (*The Artifice Girl*, 2022), Iris (*Companion*, 2025), M3GAN 2.0 (2025).
+
+### Scoping decisions
+
+- **Ghost in the Shell 1995 included as boundary case.** The 1989 manga's Kusanagi is born-then-modified (human brain in prosthetic body) and remains excluded. The 1995 Oshii film is a different source text whose entire thesis deconstructs the born/made distinction — included with extensive boundary-case documentation in notes.
+- **Astro Boy moved from exclusions to corpus.** Clean inclusion: made not born, agent-like, narrative presence. Foundational prominence.
+- **Alita/Gally and Genos added to exclusions** as born-then-modified.
+
+### Documentation
+
+- **`docs/methodology.md`** created: coding protocol, known reliability issues, inter-coder testing protocol.
+- **`CONTRIBUTING.md`** updated with non-Western scope language and comics medium guidance.
+- **`SCHEMA.md`** updated with era definitions table and epistemic_reach skew documentation.
+- **Periodization language refined** throughout: "post-LLM" replaced with "contemporary" in active documentation.
+- **`comics` medium value added** to schema, validator, and 9 comics entries.
+- **`ensemble-split` edge type added** to influence graph.
+- **`--timeline` flag added** to `analyze.py` generating `output/timeline_analysis.md`.
+- **10 literary/game entries added** in the v2.1.1 review cycle: Humanoids, Frost, Electric Ant, Golem XIV, HAL 2010, Hangman, Trent, 2B, 9S, SHODAN SS2.
+
+### Known issues
+
+- **2025 entries flagged as lower-confidence.** Companion and M3GAN 2.0 may benefit from re-review after wider critical discussion.
+- **Non-Western expansion is pragmatic, not systematic.** The six Japanese entries cover the most Western-recognized works. A full non-Western expansion with cultural consultation remains planned.
+
+---
+
 ## [2.1.0] — 2026-04
 
 **Corpus expansion release.** No schema changes; 90 new entries and supporting-file updates. The v2.0 corpus (43 entries, Western canon through 2017) was explicitly flagged as partial; v2.1 closes the largest obvious gaps and extends scope to the present.

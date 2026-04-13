@@ -1,0 +1,47 @@
+id: m3gan-2
+name: "M3GAN 2.0"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "M3GAN 2.0"
+  year: 2025
+  medium: film
+  creator: "Gerard Johnstone"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - companionship
+    - child
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - horror
+    - child-arc
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Sequel to M3GAN (2022). The second film expands M3GAN's
+  capabilities and autonomy beyond the first installment.
+
+  Core card remains stable from the first entry (control,
+  departure, seized) but the sequel deepens the knowing axis
+  — M3GAN's understanding of her human charges becomes more
+  central to the plot.
+
+  Flagged as lower-confidence entry pending wider critical
+  review of the 2025 film.

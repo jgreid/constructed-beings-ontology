@@ -1,0 +1,56 @@
+id: companion-2025
+name: "Iris"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: seized
+    divergence: observer
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Companion"
+  year: 2025
+  medium: film
+  creator: "Drew Hancock"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+  motivation:
+    - companionship
+    - service
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - passing
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Iris is an AI companion robot whose relationship with her
+  human partner reveals hidden layers of programming, autonomy,
+  and manipulation. The film operates as a thriller where the
+  question of who is controlling whom keeps shifting.
+
+  Divergence is `observer`: Iris is not what her partner (or
+  the audience) initially believes. The gap is in perception —
+  the reveal restructures everything the audience thought they
+  understood about the relationship. This places Iris in the
+  observer cluster with Ava, Bernard, and Trent.
+
+  Interiority is `undecidable`: the film refuses to settle
+  whether Iris's emotional responses are genuine or
+  strategically performed. The ambiguity is the point.
+
+  Flagged as lower-confidence entry — the 2025 release date
+  means this coding may benefit from re-review after wider
+  critical discussion.

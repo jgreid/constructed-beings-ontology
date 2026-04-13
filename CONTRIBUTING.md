@@ -88,15 +88,19 @@ This is an academic project. Disagreements about coding are **scholarly argument
 
 Use the `medium` value that matches the source text's format. As of v2.1.1, the schema supports: `poem`, `epic`, `folklore`, `play`, `novel`, `short-story`, `comics`, `film`, `television`, `video-game`. Use `comics` for entries sourced from serialized comic narratives (Marvel, DC, manga adaptations, etc.) — do not use `short-story` for comics.
 
-### Current: Western canon
+### Primary scope: Western canon
 
-The ontology covers Western fiction and myth, broadly construed: Greco-Roman mythology, Jewish folklore, European literature from the medieval period forward, and Anglophone fiction, film, television, and games.
+The ontology's primary scope is Western fiction and myth, broadly construed: Greco-Roman mythology, Jewish folklore, European literature from the medieval period forward, and Anglophone fiction, film, television, and games.
 
-This is a practical scoping decision, not a claim that the Western canon is the only or most important tradition for thinking about constructed beings.
+### Non-Western works (Western-known)
 
-### Future: Non-Western traditions
+As of v2.2, the corpus includes selected non-Western works that have achieved wide recognition in Western pop culture — currently Japanese anime and manga entries (Astro Boy, Ghost in the Shell, Neon Genesis Evangelion, Ghost in the Shell: Stand Alone Complex). These entries use the existing schema categories (manga → `comics`, anime TV → `television`, anime films → `film`).
 
-We intend to expand to non-Western traditions in a future release. That expansion will be done with appropriate cultural consultation — not by applying Western-derived categories to non-Western texts, but by working with scholars of those traditions to determine whether the property axes are appropriate, need modification, or need replacement.
+This pragmatic expansion does not replace the planned full non-Western expansion with appropriate cultural consultation. The existing seven-property schema was developed on Western texts and may need modification for traditions with different epistemologies.
+
+### Future: Full non-Western expansion
+
+We intend to expand systematically to non-Western traditions in a future release. That expansion will be done with appropriate cultural consultation — not by applying Western-derived categories to non-Western texts, but by working with scholars of those traditions to determine whether the property axes are appropriate, need modification, or need replacement.
 
 If you are a scholar of non-Western constructed-being traditions and are interested in contributing to future planning, please open an issue or contact [Jeff Reid](https://github.com/jgreid) directly.
 
