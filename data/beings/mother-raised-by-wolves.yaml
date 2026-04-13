@@ -25,8 +25,15 @@ metadata:
     - child
     - service
     - other
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - child-arc
 
 sequel_link: null
+link_type: null
 
 notes: |
   HBO Max's *Raised by Wolves* (2020–2022), a Ridley-Scott-

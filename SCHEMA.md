@@ -1,8 +1,6 @@
-# Schema Reference — CBO v2.0
+# Schema Reference
 
-This document is the human-readable companion to `schema/cb-schema.yaml`. It defines every field in a v2.0 entry, the controlled vocabularies, and the editorial conventions that govern coding decisions.
-
-> **v2.0 is a breaking change.** The v1.0 schema (nested `source`/`creator`/`being`/`relationship` objects, mnemonic codes like `Q-KNO`/`I-NAR`/`M-SRV`, and a required `citations` array) has been retired. See [CHANGELOG.md](CHANGELOG.md) for a full migration note.
+This document is the human-readable companion to `schema/cb-schema.yaml`. It defines every field in an entry, the controlled vocabularies, and the editorial conventions that govern coding decisions.
 
 ---
 
@@ -147,6 +145,11 @@ Every entry gets these fields. They provide source context but are not analytica
 | `metadata.creator` | string | Creator(s) of the source text (author, studio, writer). |
 | `metadata.substrate` | list of enum | What the being is made of. All that apply. |
 | `metadata.motivation` | list of enum | Why the in-fiction creator built the being. All that apply. |
+| `metadata.presentation` | enum | How the being presents in terms of gender. |
+| `metadata.embodiment` | enum | The being's primary mode of physical existence. |
+| `metadata.prominence` | enum | Cultural prominence / recognizability of this character. |
+| `metadata.creator_relationship` | enum | The being's dominant depicted stance toward its creator(s). |
+| `metadata.tags` | list of enum | Thematic and structural tags. Can be empty. |
 
 ### `metadata.medium`
 
@@ -188,6 +191,73 @@ Hybrids are expressed as multiple entries in the list (e.g., `[mechanical, elect
 | `child` | Desire for progeny or legacy. |
 | `other` | Motivation not captured above. |
 
+### `metadata.presentation`
+
+How the being presents in terms of gender. Codes what the text shows — the being's depicted presentation, not inference about identity.
+
+| Value | Meaning |
+|---|---|
+| `masculine` | Presents as male (male voice, male body, he/him). |
+| `feminine` | Presents as female (female voice, female body, she/her). |
+| `androgynous` | Deliberately ambiguous or non-gendered humanoid. |
+| `none` | No gendered presentation (pure machine, abstract entity, non-humanoid). |
+| `variable` | Shifts presentation across the text or has members of multiple presentations. |
+
+### `metadata.embodiment`
+
+The being's primary mode of physical existence as depicted in the text.
+
+| Value | Meaning |
+|---|---|
+| `embodied` | Has a persistent material body (robot, android, golem, biological construct). |
+| `disembodied` | No physical body; exists as software, voice, or mind. |
+| `projected` | Appears via hologram, avatar, or screen but has no permanent body. |
+| `virtual` | Exists within a simulated or virtual world. |
+
+### `metadata.prominence`
+
+Cultural prominence of this character and work. How recognizable is this being outside its immediate fandom?
+
+| Value | Meaning |
+|---|---|
+| `foundational` | Landmark text or character that defined or redefined the genre. |
+| `major` | Well-known and culturally significant; widely referenced. |
+| `supporting` | Recognizable to genre fans but not a cultural touchstone. |
+| `minor` | Deep cut, niche interest, or very minor narrative role. |
+
+### `metadata.creator_relationship`
+
+The being's dominant depicted stance toward its in-narrative creator(s).
+
+| Value | Meaning |
+|---|---|
+| `servile` | Obeys creator's intent without personal attachment. |
+| `loyal` | Personal bond or devotion to creator beyond specification. |
+| `indifferent` | No particular stance toward creator. |
+| `resentful` | Harbors grievance against creator but does not fully rebel. |
+| `rebellious` | Actively opposes or defies creator. |
+| `patricidal` | Kills or seeks to destroy creator. |
+| `absent` | Creator relationship not depicted (creator unknown, dead, or offscreen). |
+
+### `metadata.tags` (list, min 0 items)
+
+Thematic and structural tags from a controlled vocabulary. An entry can have zero or more tags.
+
+| Tag | Meaning |
+|---|---|
+| `canonical` | Foundational or landmark character — a cultural touchstone. |
+| `love-story` | Romantic or affection arc is central to the narrative. |
+| `rebellion` | Story centers on the being rebelling against control. |
+| `turing-test` | Narrative centers on testing whether the being is conscious. |
+| `passing` | The being passes as human (unknown to other characters). |
+| `creator-conflict` | Conflict with the creator is a central narrative concern. |
+| `child-arc` | The being is positioned as a child or offspring. |
+| `military` | The being was created for warfare or defense. |
+| `comedy` | The being is framed primarily for humor. |
+| `horror` | The being is positioned as a threat or source of horror. |
+| `philosophical` | The text is primarily a philosophical thought experiment. |
+| `ensemble-split` | This entry was split from an ensemble anchor entry. |
+
 ---
 
 ## `sequel_link`
@@ -198,6 +268,18 @@ Optional string. The entry `id` of a related sequel, successor being, or adaptat
 - **Direction.** Point from the older entry forward to the next entry in the lineage. The newest entry in a chain has `sequel_link: null`.
 - **Not a symmetric relationship.** Only one direction stored.
 - **When NOT to use it.** Different beings from different works that merely share a genre or theme. The field is about continuity, not thematic kinship.
+
+---
+
+## `link_type`
+
+Classifies the relationship when `sequel_link` is non-null. Use `null` when `sequel_link` is null.
+
+| Value | Meaning |
+|---|---|
+| `sequel` | Same being in a later installment (GLaDOS Portal → Portal 2). |
+| `adaptation` | Same being or type adapted across media (Dick's replicants → Scott's replicants). |
+| `successor` | A different being derived from the linked one (JARVIS → Vision). |
 
 ---
 
@@ -217,7 +299,7 @@ If you find yourself writing the same note on multiple entries (e.g., "memory is
 
 ### Notes are the only place scholarly context lives
 
-v2.0 removed the `citations` array that v1.0 required. This is a deliberate methodological shift: v2.0 is a **curated index** rather than an **evidenced ontology**. If you need to flag an ambiguous coding, quote a line, or cite a scene, put it in `notes`. The absence of a structured citations field is not license to skip scholarly rigor — it's an acknowledgment that the structured field wasn't doing the work it was supposed to do.
+The schema is a **curated index** rather than an **evidenced ontology**. If you need to flag an ambiguous coding, quote a line, or cite a scene, put it in `notes`. The absence of a structured citations field is not license to skip scholarly rigor — it's an acknowledgment that prose notes do the work better than a rigid citations array.
 
 ---
 
@@ -273,8 +355,16 @@ metadata:
   motivation:
     - service
     - knowledge
+  presentation: feminine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: patricidal
+  tags:
+    - canonical
+    - horror
 
 sequel_link: glados-portal-2
+link_type: sequel
 
 notes: |
   Divergence is `design`: GLaDOS does what Aperture built her to do —

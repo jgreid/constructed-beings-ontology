@@ -22,8 +22,15 @@ metadata:
   motivation:
     - service
     - companionship
+  presentation: variable
+  embodiment: projected
+  prominence: supporting
+  creator_relationship: absent
+  tags:
+    - comedy
 
 sequel_link: null
+link_type: null
 
 notes: |
   Holly is the *Red Dwarf* ship's AI — a "tenth-generation

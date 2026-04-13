@@ -23,8 +23,15 @@ metadata:
     - service
     - knowledge
     - art
+  presentation: masculine
+  embodiment: projected
+  prominence: major
+  creator_relationship: indifferent
+  tags:
+    - canonical
 
 sequel_link: null
+link_type: null
 
 notes: |
   The Emergency Medical Hologram Mark I was a photonic-matrix

@@ -22,8 +22,15 @@ metadata:
     - electrical
   motivation:
     - service
+  presentation: none
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: loyal
+  tags:
+    - canonical
 
 sequel_link: null
+link_type: null
 
 notes: |
   Reclassified primary_question from v1 `obedience` to `control`.

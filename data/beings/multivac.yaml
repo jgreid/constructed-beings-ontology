@@ -22,8 +22,14 @@ metadata:
   motivation:
     - service
     - knowledge
+  presentation: none
+  embodiment: disembodied
+  prominence: supporting
+  creator_relationship: servile
+  tags: []
 
 sequel_link: null
+link_type: null
 
 notes: |
   Multivac is Asimov's recurring fictional supercomputer,

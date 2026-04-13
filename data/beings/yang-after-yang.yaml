@@ -25,8 +25,16 @@ metadata:
     - service
     - companionship
     - child
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: absent
+  tags:
+    - child-arc
+    - philosophical
 
 sequel_link: null
+link_type: null
 
 notes: |
   Kogonada's 2021 film, adapted from Alexander Weinstein's

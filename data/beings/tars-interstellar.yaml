@@ -23,8 +23,15 @@ metadata:
   motivation:
     - service
     - companionship
+  presentation: none
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - comedy
 
 sequel_link: null
+link_type: null
 
 notes: |
   Nolan's *Interstellar* includes TARS as one of the *Endurance*

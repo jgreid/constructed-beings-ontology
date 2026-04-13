@@ -1,0 +1,125 @@
+# Excluded Entities Register
+#
+# Structured register of entities considered for and excluded from the
+# constructed beings corpus. Each entry records a standardized exclusion
+# reason from the controlled vocabulary below.
+#
+# For the full rationale behind these categories, see docs/boundary_cases.md.
+
+exclusion_reasons:
+  born-then-modified: >
+    Origin is biological birth; subsequent modification, however
+    extensive, does not convert the origin.
+  divine-creation-of-persons: >
+    Creator is divine; the result is immediately and fully human,
+    not an artifact.
+  collective-no-individual: >
+    No individuated character to code; the entity is a
+    population or metaphor without narrative personhood.
+  metaphorical-construct: >
+    Agency is figurative, not literal. The text would explain
+    "no, it's a metaphor" if asked whether the entity has a body.
+  out-of-scope: >
+    Outside the current Western-canon scope. May be included
+    in a future expansion with appropriate cultural consultation.
+  boundary-deferred: >
+    Meets some inclusion criteria but poses a genuine definitional
+    problem the schema cannot cleanly resolve. Deferred for
+    further analysis.
+
+entries:
+  - name: "Eve"
+    source: "Genesis"
+    reason: divine-creation-of-persons
+    note: >
+      Immediately and fully human. Made the way people are made,
+      not the way things are made. See docs/boundary_cases.md.
+
+  - name: "Adam"
+    source: "Genesis"
+    reason: divine-creation-of-persons
+    note: >
+      Same reasoning as Eve. Divine creation of a full person,
+      not artisanal construction of an artifact.
+
+  - name: "RoboCop (Alex Murphy)"
+    source: "RoboCop (1987)"
+    year: 1987
+    reason: born-then-modified
+    note: >
+      Murphy's origin is biological birth. The 1987 film frames
+      Murphy-as-Murphy as the surviving consciousness, which argues
+      for exclusion. The modification, however extensive, does not
+      convert the origin.
+
+  - name: "RoboCop (2014)"
+    source: "RoboCop (2014)"
+    year: 2014
+    reason: born-then-modified
+    note: >
+      More ambiguous than the 1987 version. The 2014 film is
+      genuinely uncertain about whether identity replacement
+      occurred. Excluded conservatively; reasonable coders could
+      argue for inclusion.
+
+  - name: "Steve Austin"
+    source: "The Six Million Dollar Man"
+    year: 1974
+    reason: born-then-modified
+    note: >
+      Cybernetic augmentation of a born human. The augmentation
+      is extensive but the biological identity is continuous.
+
+  - name: "Molly Millions"
+    source: "Neuromancer"
+    year: 1984
+    reason: born-then-modified
+    note: >
+      Extensive cybernetic modification of a born human.
+      Quintessential cyberpunk street samurai; still born, not made.
+
+  - name: "Motoko Kusanagi"
+    source: "Ghost in the Shell"
+    year: 1989
+    reason: out-of-scope
+    note: >
+      Non-Western origin (Masamune Shirow, Japan). Also a
+      potential born-then-modified boundary case depending on
+      continuity. Planned for future non-Western expansion.
+
+  - name: "Astro Boy (Atom)"
+    source: "Astro Boy"
+    year: 1952
+    reason: out-of-scope
+    note: >
+      Non-Western origin (Osamu Tezuka, Japan). Enormously
+      influential on Western robotics fiction. Planned for
+      future non-Western expansion.
+
+  - name: "Sam Bell clones"
+    source: "Moon (2009)"
+    year: 2009
+    reason: boundary-deferred
+    note: >
+      Manufactured vs. cloned-with-gestation ambiguity. The
+      bright line between manufacturing and gestation is
+      unclear here. GERTY (the facility AI) is included in
+      the main corpus.
+
+  - name: "Marcus Wright"
+    source: "Terminator Salvation"
+    year: 2009
+    reason: boundary-deferred
+    note: >
+      Born-then-modified vs. manufactured ambiguity. Wright
+      donated his body to Cyberdyne; the resulting hybrid is
+      genuinely unclear on the born/made distinction.
+
+  - name: "Groot"
+    source: "Guardians of the Galaxy"
+    year: 2014
+    reason: collective-no-individual
+    note: >
+      Flora colossus species. Born, not made — Groot is a
+      member of a naturally occurring alien species, not a
+      constructed being.

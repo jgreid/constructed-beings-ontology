@@ -23,8 +23,16 @@ metadata:
   motivation:
     - service
     - knowledge
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - passing
 
 sequel_link: null
+link_type: null
 
 notes: |
   Daneel debuts in *The Caves of Steel* (1953) as a humaniform

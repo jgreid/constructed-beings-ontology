@@ -22,8 +22,15 @@ metadata:
   motivation:
     - service
     - power
+  presentation: none
+  embodiment: disembodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - military
 
 sequel_link: null
+link_type: null
 
 notes: |
   Colossus is a strategic defense computer that links up with its

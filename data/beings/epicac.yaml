@@ -22,8 +22,15 @@ metadata:
   motivation:
     - knowledge
     - companionship
+  presentation: none
+  embodiment: disembodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - love-story
 
 sequel_link: null
+link_type: null
 
 notes: |
   Vonnegut's 1950 short story, published in *Collier's* and later

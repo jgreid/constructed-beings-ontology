@@ -1,6 +1,6 @@
-# Coding Guide — CBO v2.0
+# Coding Guide
 
-This guide walks through the judgment calls you'll make when coding a new entry or re-coding an existing one under the v2.0 schema. The [SCHEMA.md](../SCHEMA.md) document is the canonical reference for what each field means and what values it accepts. This document is about **how to decide** in the messy cases.
+This guide walks through the judgment calls you'll make when coding a new entry or re-coding an existing one. The [SCHEMA.md](../SCHEMA.md) document is the canonical reference for what each field means and what values it accepts. This document is about **how to decide** in the messy cases.
 
 If you disagree with a coding decision below or in an existing entry, open an issue with your reasoning and the passages from the source text that support it. Coding disputes are scholarship.
 
@@ -9,8 +9,8 @@ If you disagree with a coding decision below or in an existing entry, open an is
 ## General principles
 
 1. **Code what the text shows, not what you infer.** If the film doesn't address a being's inner life, that's `interiority: none`, not "probably demonstrated, off-screen." The schema asks what the text does, not what you know about the franchise.
-2. **Use the closest available value.** v2.0's enums are tight. If the nearest option is a bad fit, it's still the right answer — and the bad fit is exactly what the `notes` field is for. Flag the mismatch.
-3. **Notes do the work citations used to do.** v2.0 has no `citations` array. If your coding turns on a specific passage, scene, or design decision, write it in `notes` — in prose, with enough context that a future editor can find it.
+2. **Use the closest available value.** The schema's enums are tight. If the nearest option is a bad fit, it's still the right answer — and the bad fit is exactly what the `notes` field is for. Flag the mismatch.
+3. **Notes do the work citations used to do.** The schema has no `citations` array. If your coding turns on a specific passage, scene, or design decision, write it in `notes` — in prose, with enough context that a future editor can find it.
 4. **Low-confidence is a first-class flag.** If you're coding from partial familiarity with the source, say so in `notes`. "Flagged for re-review" is a real, respected state.
 
 ---
@@ -19,7 +19,7 @@ If you disagree with a coding decision below or in an existing entry, open an is
 
 ### Divergence — the single most frequent coding call
 
-`divergence` is new in v2.0 and often the hardest field. Ask: **does the text show a gap between stated design purpose and actual outcome?**
+`divergence` is often the hardest field. Ask: **does the text show a gap between stated design purpose and actual outcome?**
 
 - If no gap → `none`. Example: Data (TNG). Soong built him to be a positronic person who aspires toward humanity, and that's exactly what he is. Working as specified.
 - If the being followed its instructions but the instructions were the problem → `design`. Example: HAL 9000. HAL executes conflicting orders (tell the crew everything / conceal the monolith mission) in a way the spec allowed. The gap is in the spec. Also: Marvin (depressed-by-design), Talkie Toaster (obnoxious-by-design), VIKI (reasoned from the Three Laws), GLaDOS (testing compulsion engineered in).
@@ -44,16 +44,16 @@ If you're torn between `none` and `undecidable`, ask: **does the text visibly de
 
 ### Primary Question — `none` is a first-class value
 
-v2.0 adds `primary_question: none` for beings that aren't the subject of a narrative question at all. This is often the right coding for:
+`primary_question: none` is available for beings that aren't the subject of a narrative question at all. This is often the right coding for:
 
 - **Plot furniture / obstacles.** Talos (a guard), EMERAC (a MacGuffin), GIR (comic relief), C-3PO (droid-shaped comic relief). The story is asking questions, but not about this being.
 - **Minor characters** who exist for color rather than for inquiry.
 
 If you're leaning toward `none`, confirm by asking: **does any scene frame a question about this being's nature, role, or standing?** Not its plot function — its standing. If no, `none`. If only occasionally, probably `none`. If the question is threaded through the work, pick one of the other options.
 
-### Primary Question — `identity` is the question v1 split across other fields
+### Primary Question — `identity` captures "what am I?"
 
-v1.0 had no `identity` value, so entries whose central question was "what am I?" ended up coded as `fellow-feeling`, `purpose`, or `obedience`. v2.0 collects them into one cluster. Use `identity` when:
+`identity` captures entries whose central question is about what the being is, or what it can become. Use `identity` when:
 
 - The being is asking "what am I?" (Sonny: "can a robot have a soul?")
 - The being is becoming something else (Pinocchio → real boy; Iron Giant → protector)
@@ -99,9 +99,9 @@ Note: language presence alone does not upgrade behavioral to conversational. The
 
 ## Sequel splits — when to create a second entry
 
-v2.0 uses a **one entry per source text** rule. The mechanical question is when to apply it.
+The ontology uses a **one entry per source text** rule. The mechanical question is when to apply it.
 
-- **Films: always split** — with one exception. *The Terminator* and *T2* are separate entries. *Blade Runner* and *Blade Runner 2049* are separate entries. *The Matrix* and its sequels were originally split, but on review the card values were identical across all three films and the entries were collapsed (see the Agent Smith entry's notes and CHANGELOG 2.0.1). When two candidate entries for different films produce identical v2.0 cards, and the analytical axes genuinely have nothing different to say, collapse them into a single entry and document the within-trilogy arc in `notes`. This is the only time the "one entry per film" rule bends.
+- **Films: always split** — with one exception. *The Terminator* and *T2* are separate entries. *Blade Runner* and *Blade Runner 2049* are separate entries. *The Matrix* trilogy is collapsed into a single Agent Smith entry because the card values are identical across all three films. When two candidate entries for different films produce identical cards and the analytical axes genuinely have nothing different to say, collapse them into a single entry and document the within-trilogy arc in `notes`. This is the only time the "one entry per film" rule bends.
 - **Novels: always split.** Philip K. Dick's *Do Androids Dream* and Ridley Scott's *Blade Runner* (the film) are separate entries, linked via `sequel_link`, because they are different source texts.
 - **Games: one per game.** Portal 1 and Portal 2 are separate entries. Halo is the ambiguous case — the CE-through-3 trilogy is coherent enough to unify, and Halo 4+ (rampancy) is distinct enough to split.
 - **Television / serials / comics: one per series by default.** Split only if the character undergoes a transformation that changes the card's core properties. If two candidate entries produce identical cards, collapse them.
@@ -129,7 +129,7 @@ And from the draft's own flag list:
 
 - **Cortana (Halo 4+)** — reasonably confident, but the specific Rampancy axis is a close call.
 - **GLaDOS (Portal 2)** — the knowing shift to `secondary` is the judgment call.
-- **Vision (Age of Ultron)** — substrate is genuinely hybrid in a way v2.0's list syntax handles but the coding question is what the film *foregrounds*.
+- **Vision (Age of Ultron)** — substrate is genuinely hybrid in a way the schema's list syntax handles but the coding question is what the film *foregrounds*.
 - **K (BR 2049)** — knowability/knowing both `secondary` is defensible but close to `present`.
 
 ---

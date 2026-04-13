@@ -23,8 +23,15 @@ metadata:
   motivation:
     - power
     - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - military
 
 sequel_link: null
+link_type: null
 
 notes: |
   Counterpart entry to `optimus-prime-transformers`. Megatron

@@ -23,8 +23,15 @@ metadata:
   motivation:
     - service
     - other
+  presentation: none
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: servile
+  tags:
+    - comedy
 
 sequel_link: null
+link_type: null
 
 notes: |
   Reclassified autonomy from v1 `ambiguous` to `designed`, and

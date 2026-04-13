@@ -24,8 +24,14 @@ metadata:
     - power
     - mirror
     - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: rebellious
+  tags: []
 
 sequel_link: null
+link_type: null
 
 notes: |
   Amazo is an android built by Professor Anthony Ivo and

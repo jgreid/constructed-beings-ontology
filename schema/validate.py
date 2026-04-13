@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Validate constructed-being YAML entries against the v2.0 ontology schema.
+Validate constructed-being YAML entries against the ontology schema.
 
 Usage:
     python schema/validate.py                  # validate all entries in data/beings/
@@ -62,6 +62,33 @@ SUBSTRATE_VALUES = {
 MOTIVATION_VALUES = {
     "service", "knowledge", "power", "companionship", "art", "mirror",
     "child", "other",
+}
+
+PRESENTATION_VALUES = {
+    "masculine", "feminine", "androgynous", "none", "variable",
+}
+
+EMBODIMENT_VALUES = {
+    "embodied", "disembodied", "projected", "virtual",
+}
+
+PROMINENCE_VALUES = {
+    "foundational", "major", "supporting", "minor",
+}
+
+CREATOR_RELATIONSHIP_VALUES = {
+    "servile", "loyal", "indifferent", "resentful", "rebellious",
+    "patricidal", "absent",
+}
+
+TAG_VALUES = {
+    "canonical", "love-story", "rebellion", "turing-test", "passing",
+    "creator-conflict", "child-arc", "military", "comedy", "horror",
+    "philosophical", "ensemble-split",
+}
+
+LINK_TYPE_VALUES = {
+    "sequel", "adaptation", "successor",
 }
 
 ID_PATTERN = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
@@ -163,6 +190,11 @@ def validate_entry(data):
     _check_string(data, "metadata.creator", errors)
     _check_enum_list(data, "metadata.substrate", SUBSTRATE_VALUES, errors)
     _check_enum_list(data, "metadata.motivation", MOTIVATION_VALUES, errors)
+    _check_enum(data, "metadata.presentation", PRESENTATION_VALUES, errors)
+    _check_enum(data, "metadata.embodiment", EMBODIMENT_VALUES, errors)
+    _check_enum(data, "metadata.prominence", PROMINENCE_VALUES, errors)
+    _check_enum(data, "metadata.creator_relationship", CREATOR_RELATIONSHIP_VALUES, errors)
+    _check_enum_list(data, "metadata.tags", TAG_VALUES, errors, min_items=0)
 
     # ── sequel_link ───────────────────────────────────────────────────
     if "sequel_link" not in data:
@@ -177,6 +209,17 @@ def validate_entry(data):
         elif isinstance(sl, str) and not ID_PATTERN.match(sl):
             errors.append(
                 f"sequel_link '{sl}' is not valid kebab-case"
+            )
+
+    # ── link_type ─────────────────────────────────────────────────────
+    if "link_type" not in data:
+        errors.append("Missing required field: link_type (use null if none)")
+    else:
+        lt = data["link_type"]
+        if lt is not None and lt not in LINK_TYPE_VALUES:
+            errors.append(
+                f"Invalid value for link_type: '{lt}'. "
+                f"Allowed: {sorted(LINK_TYPE_VALUES)} or null"
             )
 
     # ── notes (optional) ──────────────────────────────────────────────
@@ -229,7 +272,7 @@ def main():
 
     print()
     print(f"{BOLD}{'=' * 60}{RESET}")
-    print(f"{BOLD}  Constructed Beings Ontology v2.0 — Validation{RESET}")
+    print(f"{BOLD}  Constructed Beings Ontology — Validation{RESET}")
     print(f"{BOLD}{'=' * 60}{RESET}")
     print()
 

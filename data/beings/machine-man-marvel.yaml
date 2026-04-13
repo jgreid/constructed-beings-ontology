@@ -24,8 +24,14 @@ metadata:
     - child
     - service
     - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: loyal
+  tags: []
 
 sequel_link: null
+link_type: null
 
 notes: |
   Jack Kirby's creation debuted in *2001: A Space Odyssey*

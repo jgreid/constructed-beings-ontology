@@ -23,8 +23,15 @@ metadata:
   motivation:
     - service
     - knowledge
+  presentation: feminine
+  embodiment: projected
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - love-story
 
 sequel_link: cortana-halo-4
+link_type: sequel
 
 notes: |
   Cortana is a military "smart AI" flash-cloned from Catherine

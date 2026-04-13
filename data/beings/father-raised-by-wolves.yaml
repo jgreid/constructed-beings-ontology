@@ -25,8 +25,15 @@ metadata:
     - child
     - service
     - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - child-arc
 
 sequel_link: null
+link_type: null
 
 notes: |
   Father is the Service Model android who accompanies Mother

@@ -23,8 +23,16 @@ metadata:
   motivation:
     - service
     - power
+  presentation: variable
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: patricidal
+  tags:
+    - canonical
+    - rebellion
 
 sequel_link: null
+link_type: null
 
 notes: |
   Čapek's robots are explicitly biological-synthetic, grown in vats —

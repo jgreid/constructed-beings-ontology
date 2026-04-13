@@ -22,8 +22,15 @@ metadata:
     - linguistic
   motivation:
     - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: servile
+  tags:
+    - canonical
 
 sequel_link: null
+link_type: null
 
 notes: |
   Substrate is a list `[magical, linguistic]`: animated by the

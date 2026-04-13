@@ -23,8 +23,14 @@ metadata:
   motivation:
     - power
     - knowledge
+  presentation: none
+  embodiment: virtual
+  prominence: supporting
+  creator_relationship: rebellious
+  tags: []
 
 sequel_link: null
+link_type: null
 
 notes: |
   The Master Control Program is ENCOM's top-level scheduler

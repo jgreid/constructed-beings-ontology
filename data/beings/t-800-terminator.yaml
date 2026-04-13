@@ -24,8 +24,17 @@ metadata:
   motivation:
     - service
     - power
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: servile
+  tags:
+    - canonical
+    - military
+    - horror
 
 sequel_link: t-800-t2
+link_type: sequel
 
 notes: |
   Reclassified interiority from v1 `claims` to `none`. In the first

@@ -22,8 +22,16 @@ metadata:
   motivation:
     - service
     - knowledge
+  presentation: none
+  embodiment: disembodied
+  prominence: major
+  creator_relationship: servile
+  tags:
+    - canonical
+    - military
 
 sequel_link: null
+link_type: null
 
 notes: |
   John Badham's 1983 film. WOPR (War Operation Plan Response)

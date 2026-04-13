@@ -23,8 +23,15 @@ metadata:
   motivation:
     - service
     - other
+  presentation: masculine
+  embodiment: virtual
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - canonical
 
 sequel_link: null
+link_type: null
 
 notes: |
   Lisberger's 1982 Disney feature invented a visual vocabulary

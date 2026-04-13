@@ -1,0 +1,59 @@
+id: lal-tng
+name: "Lal"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: inspection
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Star Trek: The Next Generation"
+  year: 1990
+  medium: television
+  creator: "Gene Roddenberry (Data in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - child
+    - knowledge
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - child-arc
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Lal is one of the purest child-arc entries in the corpus. Data
+  builds her as an act of reproduction, gives her the autonomy to
+  choose her own form and gender, and watches as she surpasses him
+  in the one area he has always lacked: emotion. Her fear and love
+  are real, demonstrated feelings that Data himself cannot experience,
+  making divergence `departure` — she goes somewhere her creator
+  cannot follow.
+
+  The episode "The Offspring" (S3E16) is explicitly a rights story.
+  Admiral Haftel arrives to claim Lal for Starfleet research,
+  reprising the "Measure of a Man" question with higher stakes:
+  can a parent be compelled to surrender a child to the state?
+  This makes `rights` the clear primary question.
+
+  Epistemic reach is `inspection` because Data monitors Lal's
+  neural net directly and can report on her internal states.
+  Knowability is `secondary` — the question of her personhood
+  drives the episode's conflict but is resolved within the hour.
+  Knowing is `present`: Lal observes humans, attempts to learn
+  social behavior, and demonstrates understanding of her father's
+  nature. Her cascading failure and death remain one of the most
+  affecting moments in the series — a being who felt too much
+  for her hardware to sustain.

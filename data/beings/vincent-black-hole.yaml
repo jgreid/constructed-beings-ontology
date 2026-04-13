@@ -23,8 +23,14 @@ metadata:
   motivation:
     - service
     - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: loyal
+  tags: []
 
 sequel_link: null
+link_type: null
 
 notes: |
   Disney's 1979 dark-SF feature follows the crew of the USS

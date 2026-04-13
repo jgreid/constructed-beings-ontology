@@ -24,8 +24,14 @@ metadata:
     - service
     - knowledge
     - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: absent
+  tags: []
 
 sequel_link: null
+link_type: null
 
 notes: |
   Delamain is an AI taxi service in CD Projekt Red's

@@ -1,0 +1,58 @@
+id: deep-thought-hitchhikers
+name: "Deep Thought"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "The Hitchhiker's Guide to the Galaxy"
+  year: 1979
+  medium: novel
+  creator: "Douglas Adams (Magrathean pan-dimensional beings in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - knowledge
+  presentation: none
+  embodiment: embodied
+  prominence: major
+  creator_relationship: servile
+  tags:
+    - comedy
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Deep Thought is the second-greatest computer in all of time and
+  space (after the Earth, which it designed). It was built to answer
+  the Ultimate Question of Life, the Universe, and Everything, and
+  after 7.5 million years of computation, it delivers: 42. The
+  answer is correct. The question was wrong. This makes divergence
+  `design` — the failure is in the specification, not the execution.
+
+  Primary question is `purpose` on two levels: the in-narrative
+  purpose (what is the meaning of life?) and the meta-narrative
+  purpose (what is Deep Thought for, if the answer is useless?).
+  Adams uses Deep Thought to satirize the human compulsion to
+  seek definitive answers to questions we cannot properly formulate.
+
+  Interiority is `demonstrated`: Deep Thought speaks with clear
+  personality, expresses mild exasperation at the philosophers'
+  union threatening to strike, and shows something like pride in
+  its own capabilities. Autonomy is `designed` — it does exactly
+  what it was built to do, competently and without deviation.
+  Knowability and knowing are both `absent`: no character in the
+  novel questions whether Deep Thought is conscious, and Deep
+  Thought shows no interest in understanding the beings who
+  built it. It is a tool that works perfectly, in a universe
+  where the tool's output is perfectly useless.

@@ -25,8 +25,16 @@ metadata:
     - service
     - knowledge
     - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - passing
+    - ensemble-split
 
 sequel_link: null
+link_type: null
 
 notes: |
   Second ensemble-split entry from the `hosts-westworld`

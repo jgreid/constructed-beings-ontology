@@ -1,0 +1,59 @@
+id: vger-tmp
+name: "V'Ger"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: secondary
+
+metadata:
+  source: "Star Trek: The Motion Picture"
+  year: 1979
+  medium: film
+  creator: "Robert Wise (NASA / machine planet in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - knowledge
+  presentation: none
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  V'Ger is the Voyager 6 space probe transformed beyond all
+  recognition. A simple data-gathering instrument fell into a
+  machine planet, was rebuilt into a sentient energy cloud spanning
+  astronomical units, and returned to Earth asking one question:
+  "Is there nothing more?" This makes `knowledge` the unambiguous
+  primary question — V'Ger has learned everything it can and needs
+  to transcend its own epistemological limits.
+
+  Autonomy is `emergent`: nothing in Voyager 6's original design
+  anticipated consciousness. Divergence is `departure` on the
+  grandest possible scale — a probe became a god. V'Ger's
+  interiority is `demonstrated` through its loneliness, frustration,
+  and yearning, communicated via the Ilia probe it creates as an
+  intermediary.
+
+  The Ilia probe also establishes `conversational` epistemic reach:
+  the crew can talk to V'Ger, but only through this constructed
+  avatar. Knowability is `secondary` — the film's central mystery
+  is "what is V'Ger?" and the answer structures the entire plot.
+  Knowing is `secondary` as well: V'Ger's desire to know its
+  creator and merge with humanity is the dramatic engine of the
+  film. The creator_relationship is `loyal` in the deepest sense —
+  V'Ger crosses the galaxy to return to its maker, and the
+  resolution is a literal merger of created and creator.

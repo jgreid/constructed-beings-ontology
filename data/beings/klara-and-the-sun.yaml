@@ -24,8 +24,17 @@ metadata:
     - service
     - companionship
     - child
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: servile
+  tags:
+    - canonical
+    - love-story
+    - philosophical
 
 sequel_link: null
+link_type: null
 
 notes: |
   Ishiguro's first novel after *Never Let Me Go* returns to the

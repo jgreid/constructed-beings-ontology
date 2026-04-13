@@ -24,8 +24,15 @@ metadata:
     - service
     - knowledge
     - child
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - canonical
 
 sequel_link: null
+link_type: null
 
 notes: |
   Asimov's novella — later expanded with Robert Silverberg into

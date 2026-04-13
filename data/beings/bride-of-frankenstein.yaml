@@ -1,0 +1,59 @@
+id: bride-of-frankenstein
+name: "The Bride"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: none
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: absent
+
+metadata:
+  source: "Bride of Frankenstein"
+  year: 1935
+  medium: film
+  creator: "James Whale (Dr. Pretorius & Henry Frankenstein in-narrative)"
+  substrate:
+    - biological
+    - electrical
+  motivation:
+    - companionship
+    - child
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - canonical
+    - love-story
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The Bride is one of cinema's most iconic constructed beings despite
+  appearing on screen for only a few minutes. Her entire existence is
+  framed around a single question — will she love the Monster? — making
+  `affection` the clear primary question. The answer is a scream and a
+  recoil: she rejects him instantly and absolutely.
+
+  That rejection is the most important act of agency in the film.
+  She was built to love, and she refuses. This earns `departure` for
+  divergence — she was designed to fulfill a purpose and immediately
+  departs from it. Autonomy remains `none` because she barely has
+  time to act at all before the laboratory is destroyed.
+
+  Interiority is `claims` rather than `demonstrated`: we see her
+  react with apparent horror, but the film gives us no access to
+  her inner state. She screams, she turns away — that is all. The
+  question of what she feels IS the climax, making knowability
+  `present`, but she demonstrates no knowledge of others, leaving
+  knowing `absent`. She is a mirror for the Monster's loneliness
+  more than a character in her own right, yet she has endured as
+  a feminist icon precisely because her refusal — however brief —
+  is so unmistakable.

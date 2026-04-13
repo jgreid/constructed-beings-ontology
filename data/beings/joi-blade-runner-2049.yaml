@@ -24,8 +24,15 @@ metadata:
     - companionship
     - service
     - mirror
+  presentation: feminine
+  embodiment: projected
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - love-story
 
 sequel_link: null
+link_type: null
 
 notes: |
   Joi is K's holographic AI companion in Villeneuve's *Blade
