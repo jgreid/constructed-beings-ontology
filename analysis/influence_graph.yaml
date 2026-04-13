@@ -801,3 +801,58 @@ edges:
       and WALL-E (2008) both code `autonomy: emergent`, `divergence:
       departure`, and `primary_question: identity`. Frost does it
       through Milton; WALL-E through *Hello, Dolly!*.
+
+  # The primary-knowability lineage (pre-Helen)
+  - from: hangman-zelazny
+    to: helen-galatea-2-2
+    type: elevates
+    note: >
+      Zelazny's 1975 novella is the corpus's earliest
+      primary-knowability entry. Helen (1995) elevates the same
+      question into a full primary/primary configuration twenty
+      years later. The lineage is thematic rather than documented —
+      both are literary SF works structured around whether a mind
+      is genuinely present — but the analytical fit is strong and
+      the temporal precedence is significant for the central thesis.
+
+  # The observer-divergence cross-lineage
+  - from: trent-demon-glass-hand
+    to: bernard-westworld
+    type: inherits
+    note: >
+      Both code `divergence: observer` with self-misrecognition as
+      the defining feature: Trent (1964) discovers he is not human;
+      Bernard (2016) discovers the same. Both `primary_question:
+      identity`, both `autonomy: designed`. Trent's is a clean
+      single-twist; Bernard's is sustained across multiple seasons.
+      The 52-year gap between them marks the observer-divergence
+      mode's migration from television one-off to prestige-TV
+      sustained arc.
+
+  # The alignment-problem origin
+  - from: humanoids-with-folded-hands
+    to: hal-9000
+    type: inherits
+    note: >
+      The design-divergence alignment-problem lineage: Williamson
+      (1947) and Clarke/Kubrick (1968) both feature beings whose
+      service directives produce catastrophic outcomes. Both code
+      `divergence: design` and `primary_question: control`. The
+      Humanoids' directive ("guard men from harm") and HAL's
+      conflicting orders are structurally identical — the spec is
+      the problem, not the execution. Williamson is the earliest
+      clean statement of this pattern in the corpus.
+
+  # The Lem superintelligence lineage (broadened)
+  - from: multivac
+    to: golem-xiv-lem
+    type: elevates
+    note: >
+      Asimov's Multivac stories (1955-1975) and Lem's Golem XIV
+      (1981) both feature supercomputers that transcend their
+      designed purpose. Multivac codes `divergence: design` (the
+      questions asked of it are the problem); Golem XIV codes
+      `divergence: departure` (it abandons its purpose entirely).
+      Golem XIV elevates knowability from `present` (Multivac) to
+      `primary` — Lem makes the epistemological question of what
+      a superintelligence can know the entire text.
