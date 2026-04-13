@@ -1,6 +1,6 @@
 # Question Analysis — v2.0
 
-Total entries: **180**.
+Total entries: **184**.
 
 v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can we verify its mind?) and `knowing` (can it know us?). This report tracks both, plus the distribution of `primary_question`.
 
@@ -8,9 +8,9 @@ v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| affection          |      51 |
-| control            |      38 |
-| identity           |      37 |
+| affection          |      52 |
+| control            |      40 |
+| identity           |      38 |
 | rights             |      22 |
 | purpose            |      18 |
 | knowledge          |       9 |
@@ -47,9 +47,9 @@ v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| control            |      21 |
-| affection          |      14 |
-| identity           |      12 |
+| control            |      23 |
+| affection          |      15 |
+| identity           |      13 |
 | purpose            |      11 |
 | rights             |       8 |
 | knowledge          |       4 |
@@ -72,18 +72,18 @@ v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can
 | Knowability   |   Count |
 |:--------------|--------:|
 | absent        |      62 |
-| present       |      58 |
-| secondary     |      36 |
-| primary       |      24 |
+| present       |      59 |
+| secondary     |      37 |
+| primary       |      26 |
 
 ## 4. Knowing Distribution
 
 | Knowing   |   Count |
 |:----------|--------:|
-| absent    |      48 |
-| present   |      98 |
+| absent    |      49 |
+| present   |     100 |
 | secondary |      10 |
-| primary   |      24 |
+| primary   |      25 |
 
 ## 5. Knowability vs. Knowing Divergence
 
@@ -97,6 +97,7 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 | Adam Link                                | I, Robot (Adam Link series)                             |   1939 | secondary     | present   |
 | Robbie                                   | I, Robot ("Robbie")                                     |   1940 | absent        | present   |
 | The Cyberiad Constructs                  | The Cyberiad                                            |   1965 | present       | absent    |
+| AM                                       | I Have No Mouth, and I Must Scream                      |   1967 | secondary     | primary   |
 | Herbie                                   | The Love Bug                                            |   1968 | absent        | present   |
 | M-5                                      | Star Trek: The Original Series, 'The Ultimate Computer' |   1968 | present       | absent    |
 | The Stepford Wives                       | The Stepford Wives                                      |   1972 | secondary     | absent    |
@@ -106,6 +107,7 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 | Rachael                                  | Blade Runner                                            |   1982 | primary       | present   |
 | Tron                                     | Tron                                                    |   1982 | secondary     | absent    |
 | R. Giskard Reventlov                     | The Robots of Dawn                                      |   1983 | secondary     | primary   |
+| WOPR / Joshua                            | WarGames                                                |   1983 | present       | absent    |
 | Megatron                                 | The Transformers                                        |   1984 | absent        | present   |
 | Optimus Prime                            | The Transformers                                        |   1984 | absent        | present   |
 | Wintermute / Neuromancer                 | Neuromancer                                             |   1984 | secondary     | present   |
@@ -115,7 +117,9 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 | Number 5 / Johnny 5                      | Short Circuit                                           |   1986 | secondary     | present   |
 | Culture Minds                            | Consider Phlebas and the Culture series                 |   1987 | secondary     | primary   |
 | Data                                     | Star Trek: The Next Generation                          |   1987 | secondary     | present   |
+| The Keats Cybrid (Joseph Severn)         | Hyperion / The Fall of Hyperion                         |   1989 | primary       | present   |
 | T-1000                                   | Terminator 2: Judgment Day                              |   1991 | absent        | present   |
+| Rei Toei                                 | Idoru                                                   |   1996 | primary       | present   |
 | Vic Fontaine                             | Star Trek: Deep Space Nine                              |   1998 | absent        | secondary |
 | Agent Smith                              | The Matrix trilogy                                      |   1999 | absent        | present   |
 | Bender Bending Rodríguez                 | Futurama                                                |   1999 | absent        | present   |
@@ -167,7 +171,7 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 | Bella Baxter                             | Poor Things                                             |   2023 | secondary     | present   |
 | Andy                                     | Alien: Romulus                                          |   2024 | secondary     | present   |
 
-**75 of 180 entries diverge.**
+**79 of 184 entries diverge.**
 
 ## 6. Entries by Knowability (chronological)
 
@@ -268,6 +272,7 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 | Pris                                     | Blade Runner                                                        |   1982 | purpose     |
 | Replicants                               | Blade Runner                                                        |   1982 | purpose     |
 | Roy Batty                                | Blade Runner                                                        |   1982 | purpose     |
+| WOPR / Joshua                            | WarGames                                                            |   1983 | control     |
 | Dixie Flatline (McCoy Pauley construct)  | Neuromancer                                                         |   1984 | identity    |
 | Max Headroom                             | Max Headroom: 20 Minutes into the Future / Max Headroom (TV series) |   1985 | identity    |
 | Bishop                                   | Aliens                                                              |   1986 | control     |
@@ -306,6 +311,7 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 | Entity                                   | Source                                                 |   Year | Primary Q   |
 |:-----------------------------------------|:-------------------------------------------------------|-------:|:------------|
 | Adam Link                                | I, Robot (Adam Link series)                            |   1939 | rights      |
+| AM                                       | I Have No Mouth, and I Must Scream                     |   1967 | control     |
 | The Stepford Wives                       | The Stepford Wives                                     |   1972 | control     |
 | Andrew Martin                            | The Bicentennial Man                                   |   1976 | rights      |
 | Tron                                     | Tron                                                   |   1982 | purpose     |
@@ -348,7 +354,9 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 |:----------------------------------------|:----------------------------------------|-------:|:------------|
 | Hadaly                                  | L'Ève future (Tomorrow's Eve)           |   1886 | affection   |
 | Rachael                                 | Blade Runner                            |   1982 | affection   |
+| The Keats Cybrid (Joseph Severn)        | Hyperion / The Fall of Hyperion         |   1989 | identity    |
 | Helen                                   | Galatea 2.2                             |   1995 | knowledge   |
+| Rei Toei                                | Idoru                                   |   1996 | affection   |
 | David                                   | A.I. Artificial Intelligence            |   2001 | affection   |
 | Cameron Phillips                        | Terminator: The Sarah Connor Chronicles |   2008 | affection   |
 | The Digients (Ana / Jax / Marco / Polo) | The Lifecycle of Software Objects       |   2010 | rights      |
@@ -391,4 +399,4 @@ For knowability and knowing, tracking the earliest year each level appears.
 | absent    |         -750 | The Golden Handmaidens of Hephaestus |
 | present   |         1818 | The Creature                         |
 | secondary |         1977 | Proteus IV                           |
-| primary   |         1983 | R. Giskard Reventlov                 |
+| primary   |         1967 | AM                                   |

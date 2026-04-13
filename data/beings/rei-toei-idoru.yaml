@@ -1,0 +1,64 @@
+id: rei-toei-idoru
+name: "Rei Toei"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Idoru"
+  year: 1996
+  medium: novel
+  creator: "William Gibson"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - art
+    - companionship
+    - other
+
+sequel_link: null
+
+notes: |
+  William Gibson's *Idoru* (1996), the second novel of the
+  Bridge trilogy. Rei Toei is a virtual "idoru" — a wholly
+  synthetic pop star, a personality without a biological
+  substrate — who has announced her intention to marry Rez,
+  the human lead singer of the band Lo/Rez. The novel's
+  investigators (Laney, who can intuit patterns in data,
+  and Chia, a teenage Lo/Rez fan) are trying to understand
+  what Rei Toei is and whether the marriage can mean
+  anything. The novel does not resolve these questions; it
+  presents them as genuinely open.
+
+  Third Gibson entry after Wintermute/Neuromancer and Dixie
+  Flatline, and the one that addresses the celebrity-AI
+  question that neither Sprawl entry touches. Rei Toei is
+  the corpus's first virtual media personality — predating
+  the Hatsune Miku / virtual influencer phenomenon by over
+  a decade — and the novel's refusal to settle her ontological
+  status makes her analytically interesting in the undecidable
+  cluster.
+
+  Interiority is `undecidable`: Gibson refuses to confirm
+  whether Rei Toei is conscious or a very sophisticated
+  performance, and the novel's power depends on keeping
+  the question open. Autonomy is `emergent`: whatever Rei
+  Toei is, she has developed beyond her original
+  entertainment specification. Divergence is `departure`.
+
+  Primary question is `affection`: the novel's central
+  question is whether a human can love a virtual being,
+  and whether the virtual being can love back. Knowability
+  is `primary`: "is there really someone in there?" is the
+  novel's explicit concern, and Gibson's treatment is the
+  closest literary precursor to Villeneuve's Joi — both
+  are immaterial beings whose realness is the question.

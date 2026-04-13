@@ -1,52 +1,52 @@
 # Property Coverage Report
 
-Total entries: **180**.
+Total entries: **184**.
 
 This report counts the distribution of values for each v2.0 property. List-valued properties (substrate, motivation) count every token separately — hybrids contribute to each of their substrates.
 
 ## Interiority
 
-- **Coded:** 180/180 entries
+- **Coded:** 184/184 entries
 
 | Interiority   |   Count |
 |:--------------|--------:|
-| demonstrated  |      97 |
-| claims        |      42 |
-| narrated      |      14 |
+| demonstrated  |      98 |
+| claims        |      43 |
+| narrated      |      15 |
 | none          |      14 |
-| undecidable   |      13 |
+| undecidable   |      14 |
 
 ## Autonomy
 
-- **Coded:** 180/180 entries
+- **Coded:** 184/184 entries
 
 | Autonomy   |   Count |
 |:-----------|--------:|
-| designed   |      70 |
-| emergent   |      55 |
-| seized     |      49 |
+| designed   |      72 |
+| emergent   |      56 |
+| seized     |      50 |
 | none       |       6 |
 
 ## Divergence
 
-- **Coded:** 180/180 entries
+- **Coded:** 184/184 entries
 
 | Divergence   |   Count |
 |:-------------|--------:|
-| departure    |      98 |
+| departure    |     100 |
 | none         |      37 |
-| design       |      33 |
-| observer     |      12 |
+| design       |      34 |
+| observer     |      13 |
 
 ## Primary Question
 
-- **Coded:** 180/180 entries
+- **Coded:** 184/184 entries
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| affection          |      51 |
-| control            |      38 |
-| identity           |      37 |
+| affection          |      52 |
+| control            |      40 |
+| identity           |      38 |
 | rights             |      22 |
 | purpose            |      18 |
 | knowledge          |       9 |
@@ -54,48 +54,48 @@ This report counts the distribution of values for each v2.0 property. List-value
 
 ## Epistemic Reach
 
-- **Coded:** 180/180 entries
+- **Coded:** 184/184 entries
 
 | Epistemic Reach   |   Count |
 |:------------------|--------:|
-| conversational    |     116 |
+| conversational    |     118 |
 | behavioral        |      40 |
-| inspection        |      16 |
+| inspection        |      18 |
 | none              |       8 |
 
 ## Knowability
 
-- **Coded:** 180/180 entries
+- **Coded:** 184/184 entries
 
 | Knowability   |   Count |
 |:--------------|--------:|
 | absent        |      62 |
-| present       |      58 |
-| secondary     |      36 |
-| primary       |      24 |
+| present       |      59 |
+| secondary     |      37 |
+| primary       |      26 |
 
 ## Knowing
 
-- **Coded:** 180/180 entries
+- **Coded:** 184/184 entries
 
 | Knowing   |   Count |
 |:----------|--------:|
-| present   |      98 |
-| absent    |      48 |
-| primary   |      24 |
+| present   |     100 |
+| absent    |      49 |
+| primary   |      25 |
 | secondary |      10 |
 
 ## Medium
 
-- **Coded:** 180/180 entries
+- **Coded:** 184/184 entries
 
 | Medium      |   Count |
 |:------------|--------:|
-| film        |      65 |
+| film        |      66 |
 | television  |      47 |
-| novel       |      23 |
+| novel       |      25 |
 | video-game  |      20 |
-| short-story |      17 |
+| short-story |      18 |
 | play        |       3 |
 | epic        |       2 |
 | poem        |       2 |
@@ -103,28 +103,28 @@ This report counts the distribution of values for each v2.0 property. List-value
 
 ## Substrate
 
-- **Coded:** 180/180 entries
+- **Coded:** 184/184 entries
 
 | Substrate   |   Count |
 |:------------|--------:|
-| electrical  |     153 |
+| electrical  |     157 |
 | mechanical  |     109 |
-| biological  |      54 |
-| linguistic  |      24 |
+| biological  |      55 |
+| linguistic  |      26 |
 | magical     |      18 |
 | cloned      |       8 |
 
 ## Motivation
 
-- **Coded:** 180/180 entries
+- **Coded:** 184/184 entries
 
 | Motivation    |   Count |
 |:--------------|--------:|
-| service       |     132 |
-| knowledge     |      64 |
-| companionship |      57 |
-| other         |      56 |
-| power         |      33 |
+| service       |     133 |
+| knowledge     |      66 |
+| other         |      59 |
+| companionship |      58 |
+| power         |      34 |
 | child         |      29 |
-| mirror        |      24 |
-| art           |       7 |
+| mirror        |      25 |
+| art           |       8 |
