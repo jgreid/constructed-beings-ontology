@@ -1,0 +1,61 @@
+id: olimpia-offenbach
+name: "Olimpia (Tales of Hoffmann)"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: observer
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: secondary
+    knowing: absent
+
+metadata:
+  source: "Les contes d'Hoffmann (The Tales of Hoffmann)"
+  year: 1881
+  medium: play
+  creator: "Jacques Offenbach / Jules Barbier (Spalanzani and Coppélius in-narrative)"
+  substrate:
+    - mechanical
+  motivation:
+    - art
+    - mirror
+
+sequel_link: null
+
+notes: |
+  Offenbach's 1881 opera — one of the most performed operas
+  in the French repertoire, premiered posthumously at the
+  Opéra-Comique. The Olympia act (Act I in most stagings)
+  retells Hoffmann's "Der Sandmann" as an opera: the poet
+  Hoffmann falls in love with Olimpia, a mechanical doll
+  built by Spalanzani, while wearing enchanted glasses that
+  make her appear alive. She sings the famous coloratura
+  aria "Les oiseaux dans la charmille" (The Doll Song),
+  whose mechanical repetitions are the opera's signature set
+  piece. Hoffmann is humiliated when Spalanzani and Coppélius
+  fight over her and she is torn apart on stage.
+
+  Third treatment of the Hoffmann Olympia story in the corpus
+  after `olympia-sandmann` (1816 novella) and `coppelia-delibes`
+  (1870 ballet). The opera version sits between the horror
+  original and the comic ballet — it is romantic and
+  melancholy rather than terrifying or farcical, and the
+  Doll Song has become the most famous musical representation
+  of a constructed being in the Western performing-arts canon.
+
+  Interiority is `none`: the opera is explicit that Olimpia
+  is a mechanism. The Doll Song's beauty is the trap — the
+  audience hears gorgeous coloratura and knows it is produced
+  by clockwork, which is Offenbach's version of the
+  knowability question. Divergence is `observer`: Hoffmann's
+  enchanted glasses are the mechanism of misrecognition.
+
+  French primary source (opera). Medium coded as `play` —
+  the closest schema value for a performed stage work. The
+  three Olympia/Olimpia/Coppélia entries together form the
+  corpus's richest single-character adaptation lineage,
+  running from German Romantic horror (1816) through French
+  comic ballet (1870) to French Romantic opera (1881).

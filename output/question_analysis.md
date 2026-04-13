@@ -1,6 +1,6 @@
 # Question Analysis — v2.0
 
-Total entries: **184**.
+Total entries: **192**.
 
 v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can we verify its mind?) and `knowing` (can it know us?). This report tracks both, plus the distribution of `primary_question`.
 
@@ -8,12 +8,12 @@ v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| affection          |      52 |
-| control            |      40 |
-| identity           |      38 |
+| affection          |      55 |
+| control            |      42 |
+| identity           |      40 |
 | rights             |      22 |
 | purpose            |      18 |
-| knowledge          |       9 |
+| knowledge          |      10 |
 | none               |       5 |
 
 ## 2. Primary Questions by Era
@@ -37,11 +37,11 @@ v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| affection          |       5 |
-| identity           |       4 |
+| affection          |       8 |
+| identity           |       5 |
+| control            |       3 |
 | purpose            |       2 |
 | rights             |       2 |
-| control            |       1 |
 
 ### Late Modern
 
@@ -49,10 +49,10 @@ v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can
 |:-------------------|--------:|
 | control            |      23 |
 | affection          |      15 |
-| identity           |      13 |
+| identity           |      14 |
 | purpose            |      11 |
 | rights             |       8 |
-| knowledge          |       4 |
+| knowledge          |       5 |
 | none               |       2 |
 
 ### Contemporary
@@ -71,19 +71,19 @@ v2.0 replaces the single Q-KNO axis with two meta-properties: `knowability` (can
 
 | Knowability   |   Count |
 |:--------------|--------:|
-| absent        |      62 |
-| present       |      59 |
-| secondary     |      37 |
-| primary       |      26 |
+| absent        |      64 |
+| present       |      60 |
+| secondary     |      39 |
+| primary       |      29 |
 
 ## 4. Knowing Distribution
 
 | Knowing   |   Count |
 |:----------|--------:|
-| absent    |      49 |
-| present   |     100 |
+| absent    |      54 |
+| present   |     102 |
 | secondary |      10 |
-| primary   |      25 |
+| primary   |      26 |
 
 ## 5. Knowability vs. Knowing Divergence
 
@@ -92,10 +92,16 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 | Entity                                   | Source                                                  |   Year | Knowability   | Knowing   |
 |:-----------------------------------------|:--------------------------------------------------------|-------:|:--------------|:----------|
 | Olympia                                  | Der Sandmann                                            |   1816 | present       | absent    |
+| The Venus of Ille                        | La Vénus d'Ille                                         |   1837 | present       | absent    |
+| The Steadfast Tin Soldier                | Den standhaftige tinsoldat (The Steadfast Tin Soldier)  |   1838 | absent        | present   |
+| Coppélia                                 | Coppélia, ou la Fille aux yeux d'émail                  |   1870 | secondary     | absent    |
+| Olimpia (Tales of Hoffmann)              | Les contes d'Hoffmann (The Tales of Hoffmann)           |   1881 | secondary     | absent    |
 | Hadaly                                   | L'Ève future (Tomorrow's Eve)                           |   1886 | primary       | present   |
 | Moxon's Master                           | Moxon's Master                                          |   1899 | present       | absent    |
 | Adam Link                                | I, Robot (Adam Link series)                             |   1939 | secondary     | present   |
+| The Dreamed Man                          | Las ruinas circulares (The Circular Ruins)              |   1940 | primary       | absent    |
 | Robbie                                   | I, Robot ("Robbie")                                     |   1940 | absent        | present   |
+| Agilulf                                  | Il cavaliere inesistente (The Nonexistent Knight)       |   1959 | primary       | present   |
 | The Cyberiad Constructs                  | The Cyberiad                                            |   1965 | present       | absent    |
 | AM                                       | I Have No Mouth, and I Must Scream                      |   1967 | secondary     | primary   |
 | Herbie                                   | The Love Bug                                            |   1968 | absent        | present   |
@@ -171,76 +177,78 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 | Bella Baxter                             | Poor Things                                             |   2023 | secondary     | present   |
 | Andy                                     | Alien: Romulus                                          |   2024 | secondary     | present   |
 
-**79 of 184 entries diverge.**
+**85 of 192 entries diverge.**
 
 ## 6. Entries by Knowability (chronological)
 
 ### knowability = absent
 
-| Entity                                | Source                                                |   Year | Primary Q   |
-|:--------------------------------------|:------------------------------------------------------|-------:|:------------|
-| The Golden Handmaidens of Hephaestus  | Iliad                                                 |   -750 | none        |
-| Pandora                               | Works and Days / Theogony                             |   -700 | purpose     |
-| Talos                                 | Argonautica                                           |   -250 | none        |
-| Galatea                               | Metamorphoses, Book X                                 |      8 | affection   |
-| The Golem of Prague                   | Golem of Prague folklore cycle                        |   1580 | control     |
-| The Brazen Head                       | The Honorable History of Friar Bacon and Friar Bungay |   1589 | knowledge   |
-| Tik-Tok                               | Ozma of Oz                                            |   1907 | purpose     |
-| R.U.R. Robots                         | R.U.R. (Rossum's Universal Robots)                    |   1920 | rights      |
-| False Maria                           | Metropolis                                            |   1927 | purpose     |
-| Robbie                                | I, Robot ("Robbie")                                   |   1940 | affection   |
-| Gort                                  | The Day the Earth Stood Still                         |   1951 | control     |
-| Robby the Robot                       | Forbidden Planet                                      |   1956 | control     |
-| EMERAC                                | Desk Set                                              |   1957 | none        |
-| Amazo                                 | The Brave and the Bold (DC Comics)                    |   1960 | purpose     |
-| Rosie                                 | The Jetsons                                           |   1962 | affection   |
-| Robot (Model B-9)                     | Lost in Space                                         |   1965 | affection   |
-| Colossus                              | Colossus                                              |   1966 | control     |
-| Nomad                                 | Star Trek: The Original Series, 'The Changeling'      |   1967 | purpose     |
-| Herbie                                | The Love Bug                                          |   1968 | affection   |
-| C-3PO                                 | Star Wars                                             |   1977 | none        |
-| K-9                                   | Doctor Who                                            |   1977 | affection   |
-| R2-D2                                 | Star Wars                                             |   1977 | control     |
-| Cylons (Original Series)              | Battlestar Galactica (original)                       |   1978 | control     |
-| Ash                                   | Alien                                                 |   1979 | control     |
-| Maximilian                            | The Black Hole                                        |   1979 | control     |
-| V.I.N.CENT                            | The Black Hole                                        |   1979 | affection   |
-| KITT (Knight Industries Two Thousand) | Knight Rider                                          |   1982 | affection   |
-| Master Control Program                | Tron                                                  |   1982 | control     |
-| Kamelion                              | Doctor Who                                            |   1983 | control     |
-| Megatron                              | The Transformers                                      |   1984 | control     |
-| Optimus Prime                         | The Transformers                                      |   1984 | rights      |
-| Skynet                                | The Terminator                                        |   1984 | control     |
-| T-800                                 | The Terminator                                        |   1984 | control     |
-| Lisa                                  | Weird Science                                         |   1985 | affection   |
-| Holly                                 | Red Dwarf                                             |   1988 | affection   |
-| Talkie Toaster                        | Red Dwarf                                             |   1988 | purpose     |
-| T-1000                                | Terminator 2: Judgment Day                            |   1991 | control     |
-| SHODAN                                | System Shock                                          |   1994 | control     |
-| Vic Fontaine                          | Star Trek: Deep Space Nine                            |   1998 | affection   |
-| Agent Smith                           | The Matrix trilogy                                    |   1999 | control     |
-| Bender Bending Rodríguez              | Futurama                                              |   1999 | affection   |
-| The Iron Giant                        | The Iron Giant                                        |   1999 | identity    |
-| 343 Guilty Spark                      | Halo: Combat Evolved                                  |   2001 | purpose     |
-| GIR                                   | Invader Zim                                           |   2001 | none        |
-| Teddy                                 | A.I. Artificial Intelligence                          |   2001 | affection   |
-| HK-47                                 | Star Wars: Knights of the Old Republic                |   2003 | purpose     |
-| AUTO                                  | WALL-E                                                |   2008 | control     |
-| EVE                                   | WALL-E                                                |   2008 | affection   |
-| JARVIS                                | Iron Man                                              |   2008 | affection   |
-| WALL-E                                | WALL-E                                                |   2008 | affection   |
-| Claptrap (CL4P-TP)                    | Borderlands                                           |   2009 | affection   |
-| GERTY                                 | Moon                                                  |   2009 | control     |
-| BMO                                   | Adventure Time                                        |   2010 | affection   |
-| Atlas and P-body                      | Portal 2 (co-op campaign)                             |   2011 | purpose     |
-| Baymax                                | Big Hero 6                                            |   2014 | affection   |
-| CASE                                  | Interstellar                                          |   2014 | affection   |
-| TARS                                  | Interstellar                                          |   2014 | affection   |
-| BB-8                                  | Star Wars: The Force Awakens                          |   2015 | affection   |
-| Codsworth                             | Fallout 4                                             |   2015 | affection   |
-| K-2SO                                 | Rogue One: A Star Wars Story                          |   2016 | affection   |
-| Jeff                                  | Finch                                                 |   2021 | affection   |
-| B2EMO                                 | Andor                                                 |   2022 | affection   |
+| Entity                                | Source                                                 |   Year | Primary Q   |
+|:--------------------------------------|:-------------------------------------------------------|-------:|:------------|
+| The Golden Handmaidens of Hephaestus  | Iliad                                                  |   -750 | none        |
+| Pandora                               | Works and Days / Theogony                              |   -700 | purpose     |
+| Talos                                 | Argonautica                                            |   -250 | none        |
+| Galatea                               | Metamorphoses, Book X                                  |      8 | affection   |
+| The Golem of Prague                   | Golem of Prague folklore cycle                         |   1580 | control     |
+| The Brazen Head                       | The Honorable History of Friar Bacon and Friar Bungay  |   1589 | knowledge   |
+| The Steadfast Tin Soldier             | Den standhaftige tinsoldat (The Steadfast Tin Soldier) |   1838 | affection   |
+| Tik-Tok                               | Ozma of Oz                                             |   1907 | purpose     |
+| The Golem (Wegener film)              | Der Golem, wie er in die Welt kam                      |   1920 | control     |
+| R.U.R. Robots                         | R.U.R. (Rossum's Universal Robots)                     |   1920 | rights      |
+| False Maria                           | Metropolis                                             |   1927 | purpose     |
+| Robbie                                | I, Robot ("Robbie")                                    |   1940 | affection   |
+| Gort                                  | The Day the Earth Stood Still                          |   1951 | control     |
+| Robby the Robot                       | Forbidden Planet                                       |   1956 | control     |
+| EMERAC                                | Desk Set                                               |   1957 | none        |
+| Amazo                                 | The Brave and the Bold (DC Comics)                     |   1960 | purpose     |
+| Rosie                                 | The Jetsons                                            |   1962 | affection   |
+| Robot (Model B-9)                     | Lost in Space                                          |   1965 | affection   |
+| Colossus                              | Colossus                                               |   1966 | control     |
+| Nomad                                 | Star Trek: The Original Series, 'The Changeling'       |   1967 | purpose     |
+| Herbie                                | The Love Bug                                           |   1968 | affection   |
+| C-3PO                                 | Star Wars                                              |   1977 | none        |
+| K-9                                   | Doctor Who                                             |   1977 | affection   |
+| R2-D2                                 | Star Wars                                              |   1977 | control     |
+| Cylons (Original Series)              | Battlestar Galactica (original)                        |   1978 | control     |
+| Ash                                   | Alien                                                  |   1979 | control     |
+| Maximilian                            | The Black Hole                                         |   1979 | control     |
+| V.I.N.CENT                            | The Black Hole                                         |   1979 | affection   |
+| KITT (Knight Industries Two Thousand) | Knight Rider                                           |   1982 | affection   |
+| Master Control Program                | Tron                                                   |   1982 | control     |
+| Kamelion                              | Doctor Who                                             |   1983 | control     |
+| Megatron                              | The Transformers                                       |   1984 | control     |
+| Optimus Prime                         | The Transformers                                       |   1984 | rights      |
+| Skynet                                | The Terminator                                         |   1984 | control     |
+| T-800                                 | The Terminator                                         |   1984 | control     |
+| Lisa                                  | Weird Science                                          |   1985 | affection   |
+| Holly                                 | Red Dwarf                                              |   1988 | affection   |
+| Talkie Toaster                        | Red Dwarf                                              |   1988 | purpose     |
+| T-1000                                | Terminator 2: Judgment Day                             |   1991 | control     |
+| SHODAN                                | System Shock                                           |   1994 | control     |
+| Vic Fontaine                          | Star Trek: Deep Space Nine                             |   1998 | affection   |
+| Agent Smith                           | The Matrix trilogy                                     |   1999 | control     |
+| Bender Bending Rodríguez              | Futurama                                               |   1999 | affection   |
+| The Iron Giant                        | The Iron Giant                                         |   1999 | identity    |
+| 343 Guilty Spark                      | Halo: Combat Evolved                                   |   2001 | purpose     |
+| GIR                                   | Invader Zim                                            |   2001 | none        |
+| Teddy                                 | A.I. Artificial Intelligence                           |   2001 | affection   |
+| HK-47                                 | Star Wars: Knights of the Old Republic                 |   2003 | purpose     |
+| AUTO                                  | WALL-E                                                 |   2008 | control     |
+| EVE                                   | WALL-E                                                 |   2008 | affection   |
+| JARVIS                                | Iron Man                                               |   2008 | affection   |
+| WALL-E                                | WALL-E                                                 |   2008 | affection   |
+| Claptrap (CL4P-TP)                    | Borderlands                                            |   2009 | affection   |
+| GERTY                                 | Moon                                                   |   2009 | control     |
+| BMO                                   | Adventure Time                                         |   2010 | affection   |
+| Atlas and P-body                      | Portal 2 (co-op campaign)                              |   2011 | purpose     |
+| Baymax                                | Big Hero 6                                             |   2014 | affection   |
+| CASE                                  | Interstellar                                           |   2014 | affection   |
+| TARS                                  | Interstellar                                           |   2014 | affection   |
+| BB-8                                  | Star Wars: The Force Awakens                           |   2015 | affection   |
+| Codsworth                             | Fallout 4                                              |   2015 | affection   |
+| K-2SO                                 | Rogue One: A Star Wars Story                           |   2016 | affection   |
+| Jeff                                  | Finch                                                  |   2021 | affection   |
+| B2EMO                                 | Andor                                                  |   2022 | affection   |
 
 ### knowability = present
 
@@ -249,6 +257,7 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 | Olympia                                  | Der Sandmann                                                        |   1816 | identity    |
 | The Creature                             | Frankenstein; or, The Modern Prometheus                             |   1818 | affection   |
 | The Homunculus                           | Faust, Part Two                                                     |   1832 | identity    |
+| The Venus of Ille                        | La Vénus d'Ille                                                     |   1837 | control     |
 | Pinocchio                                | Le avventure di Pinocchio (Adventures of Pinocchio)                 |   1883 | identity    |
 | Moxon's Master                           | Moxon's Master                                                      |   1899 | control     |
 | Helen O'Loy                              | Helen O'Loy                                                         |   1938 | affection   |
@@ -310,6 +319,8 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 
 | Entity                                   | Source                                                 |   Year | Primary Q   |
 |:-----------------------------------------|:-------------------------------------------------------|-------:|:------------|
+| Coppélia                                 | Coppélia, ou la Fille aux yeux d'émail                 |   1870 | affection   |
+| Olimpia (Tales of Hoffmann)              | Les contes d'Hoffmann (The Tales of Hoffmann)          |   1881 | affection   |
 | Adam Link                                | I, Robot (Adam Link series)                            |   1939 | rights      |
 | AM                                       | I Have No Mouth, and I Must Scream                     |   1967 | control     |
 | The Stepford Wives                       | The Stepford Wives                                     |   1972 | control     |
@@ -350,34 +361,37 @@ Entries where knowability and knowing have different values. v1's single Q-KNO a
 
 ### knowability = primary
 
-| Entity                                  | Source                                  |   Year | Primary Q   |
-|:----------------------------------------|:----------------------------------------|-------:|:------------|
-| Hadaly                                  | L'Ève future (Tomorrow's Eve)           |   1886 | affection   |
-| Rachael                                 | Blade Runner                            |   1982 | affection   |
-| The Keats Cybrid (Joseph Severn)        | Hyperion / The Fall of Hyperion         |   1989 | identity    |
-| Helen                                   | Galatea 2.2                             |   1995 | knowledge   |
-| Rei Toei                                | Idoru                                   |   1996 | affection   |
-| David                                   | A.I. Artificial Intelligence            |   2001 | affection   |
-| Cameron Phillips                        | Terminator: The Sarah Connor Chronicles |   2008 | affection   |
-| The Digients (Ana / Jax / Marco / Polo) | The Lifecycle of Software Objects       |   2010 | rights      |
-| The Machine                             | Person of Interest                      |   2011 | control     |
-| David 8                                 | Prometheus / Alien: Covenant            |   2012 | identity    |
-| Ash (reconstructed)                     | Black Mirror, 'Be Right Back'           |   2013 | affection   |
-| Samantha                                | Her                                     |   2013 | knowledge   |
-| Ava                                     | Ex Machina                              |   2014 | knowledge   |
-| Cookie (digital copy)                   | Black Mirror, 'White Christmas'         |   2014 | rights      |
-| Mia (Anita)                             | Humans                                  |   2015 | rights      |
-| Bernard Lowe                            | Westworld                               |   2016 | identity    |
-| DiMA                                    | Fallout 4: Far Harbor                   |   2016 | identity    |
-| Nanette Cole (USS Callister crew)       | Black Mirror, 'USS Callister'           |   2017 | rights      |
-| Joi                                     | Blade Runner 2049                       |   2017 | affection   |
-| Markus (RK200)                          | Detroit: Become Human                   |   2018 | rights      |
-| Adam                                    | Machines Like Me                        |   2019 | rights      |
-| Mother (Lamia)                          | Raised by Wolves                        |   2020 | affection   |
-| Klara                                   | Klara and the Sun                       |   2021 | affection   |
-| White Vision                            | WandaVision                             |   2021 | identity    |
-| Yang                                    | After Yang                              |   2021 | knowledge   |
-| Alphie                                  | The Creator                             |   2023 | affection   |
+| Entity                                  | Source                                            |   Year | Primary Q   |
+|:----------------------------------------|:--------------------------------------------------|-------:|:------------|
+| Hadaly                                  | L'Ève future (Tomorrow's Eve)                     |   1886 | affection   |
+| The Dreamed Man                         | Las ruinas circulares (The Circular Ruins)        |   1940 | identity    |
+| Agilulf                                 | Il cavaliere inesistente (The Nonexistent Knight) |   1959 | identity    |
+| Harey (the Solaris visitor)             | Solaris                                           |   1961 | knowledge   |
+| Rachael                                 | Blade Runner                                      |   1982 | affection   |
+| The Keats Cybrid (Joseph Severn)        | Hyperion / The Fall of Hyperion                   |   1989 | identity    |
+| Helen                                   | Galatea 2.2                                       |   1995 | knowledge   |
+| Rei Toei                                | Idoru                                             |   1996 | affection   |
+| David                                   | A.I. Artificial Intelligence                      |   2001 | affection   |
+| Cameron Phillips                        | Terminator: The Sarah Connor Chronicles           |   2008 | affection   |
+| The Digients (Ana / Jax / Marco / Polo) | The Lifecycle of Software Objects                 |   2010 | rights      |
+| The Machine                             | Person of Interest                                |   2011 | control     |
+| David 8                                 | Prometheus / Alien: Covenant                      |   2012 | identity    |
+| Ash (reconstructed)                     | Black Mirror, 'Be Right Back'                     |   2013 | affection   |
+| Samantha                                | Her                                               |   2013 | knowledge   |
+| Ava                                     | Ex Machina                                        |   2014 | knowledge   |
+| Cookie (digital copy)                   | Black Mirror, 'White Christmas'                   |   2014 | rights      |
+| Mia (Anita)                             | Humans                                            |   2015 | rights      |
+| Bernard Lowe                            | Westworld                                         |   2016 | identity    |
+| DiMA                                    | Fallout 4: Far Harbor                             |   2016 | identity    |
+| Nanette Cole (USS Callister crew)       | Black Mirror, 'USS Callister'                     |   2017 | rights      |
+| Joi                                     | Blade Runner 2049                                 |   2017 | affection   |
+| Markus (RK200)                          | Detroit: Become Human                             |   2018 | rights      |
+| Adam                                    | Machines Like Me                                  |   2019 | rights      |
+| Mother (Lamia)                          | Raised by Wolves                                  |   2020 | affection   |
+| Klara                                   | Klara and the Sun                                 |   2021 | affection   |
+| White Vision                            | WandaVision                                       |   2021 | identity    |
+| Yang                                    | After Yang                                        |   2021 | knowledge   |
+| Alphie                                  | The Creator                                       |   2023 | affection   |
 
 ## 7. First Appearance of Each Salience Level
 
@@ -389,7 +403,7 @@ For knowability and knowing, tracking the earliest year each level appears.
 |:----------|-------------:|:-------------------------------------|
 | absent    |         -750 | The Golden Handmaidens of Hephaestus |
 | present   |         1816 | Olympia                              |
-| secondary |         1939 | Adam Link                            |
+| secondary |         1870 | Coppélia                             |
 | primary   |         1886 | Hadaly                               |
 
 ### Knowing
@@ -399,4 +413,4 @@ For knowability and knowing, tracking the earliest year each level appears.
 | absent    |         -750 | The Golden Handmaidens of Hephaestus |
 | present   |         1818 | The Creature                         |
 | secondary |         1977 | Proteus IV                           |
-| primary   |         1967 | AM                                   |
+| primary   |         1961 | Harey (the Solaris visitor)          |

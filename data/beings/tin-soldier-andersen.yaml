@@ -1,0 +1,62 @@
+id: tin-soldier-andersen
+name: "The Steadfast Tin Soldier"
+
+card:
+  the_being:
+    interiority: narrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Den standhaftige tinsoldat (The Steadfast Tin Soldier)"
+  year: 1838
+  medium: short-story
+  creator: "Hans Christian Andersen"
+  substrate:
+    - mechanical
+    - magical
+  motivation:
+    - companionship
+
+sequel_link: null
+
+notes: |
+  Hans Christian Andersen's 1838 fairy tale — one of the most
+  famous animated-object stories in world literature. A
+  one-legged tin soldier (cast from a tin spoon, with
+  insufficient metal for his second leg) falls in love with a
+  paper ballerina, is swept through a series of harrowing
+  adventures (falling from a windowsill, sailing through a
+  gutter in a paper boat, being swallowed by a fish, returned
+  to the same room), and is finally thrown into a fire by a
+  child, where the ballerina follows him and both are
+  destroyed. All that remains is a small tin heart.
+
+  The Tin Soldier is the missing link between the classical
+  animated-object tradition (Galatea, Pinocchio) and the
+  modern sympathetic-robot lineage. His steadfastness — he
+  endures everything without complaint because that is what
+  a soldier does — is the template for WALL-E's patience,
+  Codsworth's devotion, and Jenkins's millennia of service.
+  The small tin heart surviving the fire is one of the
+  Western canon's most compressed statements about
+  constructed-being love.
+
+  Interiority is `narrated`: Andersen gives the soldier a
+  rich inner monologue (he thinks about the ballerina
+  throughout) while keeping him physically silent and
+  immobile — he never speaks aloud, never acts, only endures.
+  Autonomy is `designed`: he is a tin soldier and his
+  steadfastness is what tin soldiers are for. Divergence is
+  `none`. Primary question is `affection`: his love for the
+  ballerina is the whole story. Knowing is `present`: he
+  watches the ballerina with unwavering attention.
+
+  Danish primary source. Substrate `mechanical` + `magical` —
+  manufactured from tin, animated by Andersen's fairy-tale
+  logic. The earliest Scandinavian entry in the corpus.
