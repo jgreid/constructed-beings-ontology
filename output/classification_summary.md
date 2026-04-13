@@ -47,28 +47,33 @@ Entries coded `knowability: primary` + `knowing: primary` — stories where both
 
 | Year | Entity | Source | Primary Q |
 |---:|:---|:---|:---|
+| 1961 | Harey | *Solaris* (Lem) | knowledge |
 | 1995 | Helen | *Galatea 2.2* (Powers) | knowledge |
 | 2001 | David | *A.I. Artificial Intelligence* | affection |
+| 2010 | The Digients | *The Lifecycle of Software Objects* (Chiang) | rights |
 | 2011 | The Machine | *Person of Interest* | control |
+| 2013 | Ash (reconstructed) | *Black Mirror*, "Be Right Back" | affection |
 | 2013 | Samantha | *Her* | knowledge |
 | 2014 | Ava | *Ex Machina* | knowledge |
+| 2017 | Joi | *Blade Runner 2049* | affection |
 | 2019 | Adam | *Machines Like Me* (McEwan) | rights |
 | 2020 | Mother | *Raised by Wolves* | affection |
 | 2021 | Klara | *Klara and the Sun* (Ishiguro) | affection |
+| 2021 | Yang | *After Yang* | knowledge |
 | 2023 | Alphie | *The Creator* | affection |
 
 Two patterns are visible.
 
-**First: the configuration is older than contemporary cinema.** Helen in *Galatea 2.2* (1995) is cleanly primary/primary, and the novel is structurally built around both "is there a mind in there?" and "can it know me?" That is the same card configuration as *Her* and *Ex Machina*, eighteen years earlier. The sharper claim the corpus supports is: *cinematic* primary/primary begins with Jonze and Garland in 2013–2014 — coinciding with conversational AI assistants entering daily life — but *literary* primary/primary runs from Powers in the mid-90s through Ishiguro and McEwan in the present. The rise of LLMs has since accelerated the shift, but it did not originate it.
+**First: the configuration is older than contemporary cinema.** Harey in Lem's *Solaris* (1961) is the earliest primary/primary entry, followed by Helen in *Galatea 2.2* (1995). Both are literary — the configuration existed in novels decades before cinema adopted it. *Cinematic* primary/primary begins with Jonze and Garland in 2013–2014, coinciding with conversational AI assistants entering daily life. The rise of LLMs has since accelerated the shift, but it did not originate it.
 
-**Second: the primary_question axis has more variety in the primary/primary cluster than might be expected.** The cluster includes:
+**Second: the primary_question axis has more variety in the primary/primary cluster than might be expected.** The 14 entries include:
 
-- `knowledge` (3): Helen, Samantha, Ava
-- `affection` (4): David, Mother, Klara, Alphie
+- `knowledge` (5): Harey, Helen, Samantha, Ava, Yang
+- `affection` (6): David, Ash (Be Right Back), Joi, Mother, Klara, Alphie
 - `control` (1): The Machine
-- `rights` (1): Adam
+- `rights` (2): The Digients, Adam
 
-The **affection-primary sub-cluster** (David, Mother, Klara, Alphie) is analytically significant. These are all stories where the question "does this being love this human, and is the love real?" is the *whole* content of the film or novel, and where the story commits both to treating the answer as mattering and to refusing to settle it. The contemporary shift is about *elevation of the knowability/knowing questions to primary status*, not about any single dramatic question.
+The **affection-primary sub-cluster** (David, Ash Be Right Back, Joi, Mother, Klara, Alphie) is analytically significant. These are all stories where the question "does this being love this human, and is the love real?" is a central concern, and where the story commits both to treating the answer as mattering and to refusing to settle it. The contemporary shift is about *elevation of the knowability/knowing questions to primary status*, not about any single dramatic question.
 
 ---
 
