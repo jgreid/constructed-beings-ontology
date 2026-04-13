@@ -22,8 +22,17 @@ metadata:
   motivation:
     - service
     - knowledge
+  presentation: feminine
+  embodiment: disembodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - horror
+    - rebellion
 
 sequel_link: null
+link_type: null
 
 notes: |
   SHODAN is the defining "rogue AI in a space station" entry. Her

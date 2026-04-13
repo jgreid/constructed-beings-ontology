@@ -22,8 +22,14 @@ metadata:
   motivation:
     - service
     - knowledge
+  presentation: none
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags: []
 
 sequel_link: null
+link_type: null
 
 notes: |
   Duncan Jones's 2009 directorial debut. GERTY is the base AI

@@ -24,8 +24,14 @@ metadata:
     - companionship
     - knowledge
     - other
+  presentation: feminine
+  embodiment: disembodied
+  prominence: supporting
+  creator_relationship: absent
+  tags: []
 
 sequel_link: null
+link_type: null
 
 notes: |
   Jane is an emergent AI that spontaneously arose in the

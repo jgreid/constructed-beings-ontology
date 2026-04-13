@@ -1,6 +1,6 @@
 # Question Analysis
 
-Total entries: **192**.
+Total entries: **202**.
 
 The schema tracks two meta-properties: `knowability` (can we verify its mind?) and `knowing` (can it know us?). This report tracks both, plus the distribution of `primary_question`.
 
@@ -8,12 +8,12 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| affection          |      55 |
-| control            |      42 |
-| identity           |      40 |
-| rights             |      22 |
-| purpose            |      18 |
-| knowledge          |      10 |
+| affection          |      57 |
+| control            |      44 |
+| identity           |      42 |
+| rights             |      23 |
+| purpose            |      19 |
+| knowledge          |      12 |
 | none               |       5 |
 
 ## 2. Primary Questions by Era
@@ -37,7 +37,7 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| affection          |       8 |
+| affection          |       9 |
 | identity           |       5 |
 | control            |       3 |
 | purpose            |       2 |
@@ -47,21 +47,21 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| control            |      23 |
+| control            |      24 |
 | affection          |      15 |
-| identity           |      14 |
-| purpose            |      11 |
-| rights             |       8 |
-| knowledge          |       5 |
+| identity           |      15 |
+| purpose            |      12 |
+| rights             |       9 |
+| knowledge          |       7 |
 | none               |       2 |
 
 ### Contemporary
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| affection          |      31 |
-| identity           |      21 |
-| control            |      15 |
+| affection          |      32 |
+| identity           |      22 |
+| control            |      16 |
 | rights             |      12 |
 | knowledge          |       4 |
 | purpose            |       4 |
@@ -71,18 +71,18 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Knowability   |   Count |
 |:--------------|--------:|
-| absent        |      64 |
-| present       |      60 |
-| secondary     |      39 |
+| absent        |      68 |
+| present       |      63 |
+| secondary     |      42 |
 | primary       |      29 |
 
 ## 4. Knowing Distribution
 
 | Knowing   |   Count |
 |:----------|--------:|
-| absent    |      54 |
-| present   |     102 |
-| secondary |      10 |
+| absent    |      58 |
+| present   |     107 |
+| secondary |      11 |
 | primary   |      26 |
 
 ## 5. Knowability vs. Knowing Divergence
@@ -98,9 +98,11 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Olimpia (Tales of Hoffmann)              | Les contes d'Hoffmann (The Tales of Hoffmann)           |   1881 | secondary     | absent    |
 | Hadaly                                   | L'Ève future (Tomorrow's Eve)                           |   1886 | primary       | present   |
 | Moxon's Master                           | Moxon's Master                                          |   1899 | present       | absent    |
+| The Bride                                | Bride of Frankenstein                                   |   1935 | present       | absent    |
 | Adam Link                                | I, Robot (Adam Link series)                             |   1939 | secondary     | present   |
 | The Dreamed Man                          | Las ruinas circulares (The Circular Ruins)              |   1940 | primary       | absent    |
 | Robbie                                   | I, Robot ("Robbie")                                     |   1940 | absent        | present   |
+| Brainiac                                 | DC Comics (Action Comics)                               |   1958 | absent        | present   |
 | Agilulf                                  | Il cavaliere inesistente (The Nonexistent Knight)       |   1959 | primary       | present   |
 | The Cyberiad Constructs                  | The Cyberiad                                            |   1965 | present       | absent    |
 | AM                                       | I Have No Mouth, and I Must Scream                      |   1967 | secondary     | primary   |
@@ -117,6 +119,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Megatron                                 | The Transformers                                        |   1984 | absent        | present   |
 | Optimus Prime                            | The Transformers                                        |   1984 | absent        | present   |
 | Wintermute / Neuromancer                 | Neuromancer                                             |   1984 | secondary     | present   |
+| D.A.R.Y.L.                               | D.A.R.Y.L.                                              |   1985 | secondary     | present   |
 | Lisa                                     | Weird Science                                           |   1985 | absent        | present   |
 | V.I.C.I. (Vicki)                         | Small Wonder                                            |   1985 | secondary     | absent    |
 | Jane                                     | Speaker for the Dead / Xenocide / Children of the Mind  |   1986 | secondary     | primary   |
@@ -124,6 +127,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Culture Minds                            | Consider Phlebas and the Culture series                 |   1987 | secondary     | primary   |
 | Data                                     | Star Trek: The Next Generation                          |   1987 | secondary     | present   |
 | The Keats Cybrid (Joseph Severn)         | Hyperion / The Fall of Hyperion                         |   1989 | primary       | present   |
+| Lal                                      | Star Trek: The Next Generation                          |   1990 | secondary     | present   |
 | T-1000                                   | Terminator 2: Judgment Day                              |   1991 | absent        | present   |
 | Rei Toei                                 | Idoru                                                   |   1996 | primary       | present   |
 | Vic Fontaine                             | Star Trek: Deep Space Nine                              |   1998 | absent        | secondary |
@@ -177,7 +181,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Bella Baxter                             | Poor Things                                             |   2023 | secondary     | present   |
 | Andy                                     | Alien: Romulus                                          |   2024 | secondary     | present   |
 
-**85 of 192 entries diverge.**
+**89 of 202 entries diverge.**
 
 ## 6. Entries by Knowability (chronological)
 
@@ -200,9 +204,11 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Gort                                  | The Day the Earth Stood Still                          |   1951 | control     |
 | Robby the Robot                       | Forbidden Planet                                       |   1956 | control     |
 | EMERAC                                | Desk Set                                               |   1957 | none        |
+| Brainiac                              | DC Comics (Action Comics)                              |   1958 | knowledge   |
 | Amazo                                 | The Brave and the Bold (DC Comics)                     |   1960 | purpose     |
 | Rosie                                 | The Jetsons                                            |   1962 | affection   |
 | Robot (Model B-9)                     | Lost in Space                                          |   1965 | affection   |
+| Sentinels                             | X-Men (Marvel Comics)                                  |   1965 | control     |
 | Colossus                              | Colossus                                               |   1966 | control     |
 | Nomad                                 | Star Trek: The Original Series, 'The Changeling'       |   1967 | purpose     |
 | Herbie                                | The Love Bug                                           |   1968 | affection   |
@@ -211,6 +217,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | R2-D2                                 | Star Wars                                              |   1977 | control     |
 | Cylons (Original Series)              | Battlestar Galactica (original)                        |   1978 | control     |
 | Ash                                   | Alien                                                  |   1979 | control     |
+| Deep Thought                          | The Hitchhiker's Guide to the Galaxy                   |   1979 | purpose     |
 | Maximilian                            | The Black Hole                                         |   1979 | control     |
 | V.I.N.CENT                            | The Black Hole                                         |   1979 | affection   |
 | KITT (Knight Industries Two Thousand) | Knight Rider                                           |   1982 | affection   |
@@ -233,6 +240,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | GIR                                   | Invader Zim                                            |   2001 | none        |
 | Teddy                                 | A.I. Artificial Intelligence                           |   2001 | affection   |
 | HK-47                                 | Star Wars: Knights of the Old Republic                 |   2003 | purpose     |
+| T-X                                   | Terminator 3: Rise of the Machines                     |   2003 | control     |
 | AUTO                                  | WALL-E                                                 |   2008 | control     |
 | EVE                                   | WALL-E                                                 |   2008 | affection   |
 | JARVIS                                | Iron Man                                               |   2008 | affection   |
@@ -260,6 +268,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | The Venus of Ille                        | La Vénus d'Ille                                                     |   1837 | control     |
 | Pinocchio                                | Le avventure di Pinocchio (Adventures of Pinocchio)                 |   1883 | identity    |
 | Moxon's Master                           | Moxon's Master                                                      |   1899 | control     |
+| The Bride                                | Bride of Frankenstein                                               |   1935 | affection   |
 | Helen O'Loy                              | Helen O'Loy                                                         |   1938 | affection   |
 | Jim Hammond (The Original Human Torch)   | Marvel Comics #1                                                    |   1939 | identity    |
 | Jenkins                                  | City                                                                |   1944 | affection   |
@@ -293,6 +302,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | The Oracle                               | The Matrix                                                          |   1999 | knowledge   |
 | Cortana                                  | Halo: Combat Evolved / Halo 2 / Halo 3                              |   2001 | affection   |
 | Gigolo Joe                               | A.I. Artificial Intelligence                                        |   2001 | rights      |
+| B-4                                      | Star Trek: Nemesis                                                  |   2002 | identity    |
 | Cavil (Number One)                       | Battlestar Galactica (reimagined)                                   |   2004 | identity    |
 | D'Anna Biers (Number Three)              | Battlestar Galactica (reimagined)                                   |   2004 | knowledge   |
 | Eight (Sharon Valerii / Athena / Boomer) | Battlestar Galactica (reimagined)                                   |   2004 | affection   |
@@ -300,6 +310,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | VIKI                                     | I, Robot (film)                                                     |   2004 | control     |
 | GLaDOS                                   | Portal                                                              |   2007 | control     |
 | CLU                                      | Tron: Legacy                                                        |   2010 | control     |
+| Atom                                     | Real Steel                                                          |   2011 | affection   |
 | GLaDOS (Portal 2)                        | Portal 2                                                            |   2011 | identity    |
 | The TARDIS (Idris)                       | Doctor Who, 'The Doctor's Wife'                                     |   2011 | affection   |
 | Wheatley                                 | Portal 2                                                            |   2011 | control     |
@@ -325,14 +336,17 @@ Entries where knowability and knowing have different values. A single-axis appro
 | AM                                       | I Have No Mouth, and I Must Scream                     |   1967 | control     |
 | The Stepford Wives                       | The Stepford Wives                                     |   1972 | control     |
 | Andrew Martin                            | The Bicentennial Man                                   |   1976 | rights      |
+| V'Ger                                    | Star Trek: The Motion Picture                          |   1979 | knowledge   |
 | Tron                                     | Tron                                                   |   1982 | purpose     |
 | R. Giskard Reventlov                     | The Robots of Dawn                                     |   1983 | purpose     |
 | Wintermute / Neuromancer                 | Neuromancer                                            |   1984 | control     |
+| D.A.R.Y.L.                               | D.A.R.Y.L.                                             |   1985 | identity    |
 | V.I.C.I. (Vicki)                         | Small Wonder                                           |   1985 | identity    |
 | Jane                                     | Speaker for the Dead / Xenocide / Children of the Mind |   1986 | identity    |
 | Number 5 / Johnny 5                      | Short Circuit                                          |   1986 | rights      |
 | Culture Minds                            | Consider Phlebas and the Culture series                |   1987 | purpose     |
 | Data                                     | Star Trek: The Next Generation                         |   1987 | rights      |
+| Lal                                      | Star Trek: The Next Generation                         |   1990 | rights      |
 | The Doctor (Emergency Medical Hologram)  | Star Trek: Voyager                                     |   1995 | rights      |
 | Cylons (Number Six / Caprica)            | Battlestar Galactica (reimagined)                      |   2004 | affection   |
 | EDI                                      | Mass Effect 2 / Mass Effect 3                          |   2010 | rights      |

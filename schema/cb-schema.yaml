@@ -166,6 +166,76 @@ properties:
             - child
             - other
 
+      presentation:
+        type: enum
+        required: true
+        description: >
+          How the being presents in terms of gender. Codes the text's
+          depiction, not inference about the being's identity.
+        allowed:
+          - masculine
+          - feminine
+          - androgynous
+          - none
+          - variable
+
+      embodiment:
+        type: enum
+        required: true
+        description: >
+          The being's primary mode of physical existence as depicted.
+        allowed:
+          - embodied
+          - disembodied
+          - projected
+          - virtual
+
+      prominence:
+        type: enum
+        required: true
+        description: >
+          Cultural prominence of this character/work. How recognizable
+          is this being outside its immediate fandom?
+        allowed:
+          - foundational
+          - major
+          - supporting
+          - minor
+
+      creator_relationship:
+        type: enum
+        required: true
+        description: >
+          The being's dominant depicted stance toward its creator(s).
+        allowed:
+          - servile
+          - loyal
+          - indifferent
+          - resentful
+          - rebellious
+          - patricidal
+          - absent
+
+      tags:
+        type: list
+        required: true
+        min_items: 0
+        items:
+          type: enum
+          allowed:
+            - canonical
+            - love-story
+            - rebellion
+            - turing-test
+            - passing
+            - creator-conflict
+            - child-arc
+            - military
+            - comedy
+            - horror
+            - philosophical
+            - ensemble-split
+
   # ── SEQUEL LINK ─────────────────────────────────────────────────────
   sequel_link:
     type: string_or_null
@@ -174,10 +244,21 @@ properties:
       Entry id of a related sequel, successor, or adaptation, or null.
       See SCHEMA.md for direction and use-cases.
 
+  # ── LINK TYPE ──────────────────────────────────────────────────────
+  link_type:
+    type: enum_or_null
+    required: true
+    description: >
+      Classifies the relationship when sequel_link is non-null.
+    allowed:
+      - sequel
+      - adaptation
+      - successor
+
   # ── NOTES ───────────────────────────────────────────────────────────
   notes:
     type: string
     required: false
     description: >
-      Free-text researcher notes. This is the only place scholarly
-      context lives in v2.0 (no structured citations array).
+      Free-text researcher notes. The only place scholarly context lives
+      in the current schema.

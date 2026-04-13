@@ -24,8 +24,15 @@ metadata:
     - power
     - other
     - service
+  presentation: masculine
+  embodiment: virtual
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - rebellion
 
 sequel_link: null
+link_type: null
 
 notes: |
   Kosinski's 2010 sequel to *Tron*. CLU (Codified Likeness

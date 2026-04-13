@@ -1,0 +1,66 @@
+id: b-4-nemesis
+name: "B-4"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: identity
+    epistemic_reach: inspection
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Star Trek: Nemesis"
+  year: 2002
+  medium: film
+  creator: "Stuart Baird (Noonien Soong in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - knowledge
+    - child
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: absent
+  tags: []
+
+sequel_link: null
+link_type: null
+
+notes: |
+  B-4 is the simplest of Noonien Soong's android creations — an
+  earlier, less sophisticated prototype discovered disassembled on
+  Kolarus III. The film's treatment of B-4 is almost entirely
+  relational: he exists to make us ask what Data is, by showing
+  us what Data is not. This makes `identity` the clear primary
+  question — what is B-4? Is he Data? Can he become Data?
+
+  Interiority is `claims` rather than `demonstrated`: B-4 tries to
+  emulate Data, repeats phrases, and shows flickers of something
+  that might be understanding, but the film never clearly establishes
+  that these are genuine inner states rather than sophisticated
+  mimicry. This ambiguity is the point — B-4 is the uncanny valley
+  of the Soong-type androids. Autonomy is `designed`: B-4 operates
+  within the limits of his simpler positronic brain and does not
+  develop beyond them during the film. Divergence is `none` — he
+  does what his limited design allows, no more, no less.
+
+  Epistemic reach is `inspection` because B-4's systems are
+  scanned, analyzed, and compared to Data's by the Enterprise crew.
+  Knowability is `present`: the question of whether B-4 could host
+  Data's memories — and whether doing so would make him Data —
+  generates genuine dramatic tension, especially in the final scene
+  where B-4 hums "Blue Skies." Knowing is `present`: B-4 watches
+  Data, tries to understand him, and in that final musical moment,
+  may or may not be demonstrating that something of Data's
+  knowledge has taken root.
+
+  The creator_relationship is `absent` because Soong is long dead
+  by the time of Nemesis. B-4 has no relationship with his maker —
+  he is an orphan artifact, and his significance is entirely
+  determined by his relationship to his "brother" Data.

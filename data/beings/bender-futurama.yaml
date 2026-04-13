@@ -23,8 +23,16 @@ metadata:
   motivation:
     - other
     - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: indifferent
+  tags:
+    - canonical
+    - comedy
 
 sequel_link: null
+link_type: null
 
 notes: |
   Bender is one of three anchor characters in *Futurama*

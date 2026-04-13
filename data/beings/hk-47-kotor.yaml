@@ -23,8 +23,16 @@ metadata:
   motivation:
     - service
     - power
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - comedy
+    - military
 
 sequel_link: null
+link_type: null
 
 notes: |
   BioWare's *Knights of the Old Republic* (2003) is the

@@ -24,8 +24,15 @@ metadata:
     - companionship
     - child
     - service
+  presentation: androgynous
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: absent
+  tags:
+    - comedy
 
 sequel_link: null
+link_type: null
 
 notes: |
   BMO (pronounced "Beemo") is a sentient living game console

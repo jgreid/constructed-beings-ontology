@@ -22,8 +22,14 @@ metadata:
     - mechanical
   motivation:
     - service
+  presentation: none
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: servile
+  tags: []
 
 sequel_link: null
+link_type: null
 
 notes: |
   Atlas (the blue sphere) and P-body (the orange ovoid) are

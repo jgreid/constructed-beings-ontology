@@ -24,8 +24,17 @@ metadata:
     - service
     - knowledge
     - power
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: patricidal
+  tags:
+    - canonical
+    - rebellion
+    - creator-conflict
 
 sequel_link: null
+link_type: null
 
 notes: |
   Individuated from the `replicants-blade-runner` collective

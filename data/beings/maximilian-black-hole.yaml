@@ -23,8 +23,16 @@ metadata:
   motivation:
     - service
     - power
+  presentation: none
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: servile
+  tags:
+    - horror
+    - military
 
 sequel_link: null
+link_type: null
 
 notes: |
   Reinhardt's personal enforcer aboard the *Cygnus* in the same

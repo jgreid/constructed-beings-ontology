@@ -21,8 +21,15 @@ metadata:
     - electrical
   motivation:
     - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: servile
+  tags:
+    - canonical
 
 sequel_link: null
+link_type: null
 
 notes: |
   Divergence is `design`, not `departure`: HAL does not leave his

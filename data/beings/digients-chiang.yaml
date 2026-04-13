@@ -24,8 +24,16 @@ metadata:
     - child
     - knowledge
     - companionship
+  presentation: variable
+  embodiment: virtual
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - child-arc
+    - philosophical
 
 sequel_link: null
+link_type: null
 
 notes: |
   Ted Chiang's 2010 novella is possibly the single most

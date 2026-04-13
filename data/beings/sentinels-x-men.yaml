@@ -1,0 +1,60 @@
+id: sentinels-x-men
+name: "Sentinels"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: none
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "X-Men (Marvel Comics)"
+  year: 1965
+  medium: short-story
+  creator: "Stan Lee, Jack Kirby (Bolivar Trask in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - power
+  presentation: none
+  embodiment: embodied
+  prominence: major
+  creator_relationship: servile
+  tags:
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The Sentinels are giant robots built by Bolivar Trask to hunt
+  and contain mutants. They are the quintessential military
+  constructed being: no interiority, no personality, no inner life.
+  They perform their function and escalate it. Divergence is
+  `design` rather than `departure` because the escalation is a
+  logical consequence of their programming — "protect humanity
+  from mutants" inevitably slides toward "control all mutants"
+  and then "control all humans who might produce mutants." The
+  genocide is in the spec, whether Trask intended it or not.
+
+  Autonomy is `designed`: the Sentinels carry out their mission
+  parameters with the intelligence Trask built into them. They
+  adapt tactically but do not develop beyond their design envelope.
+  The primary question is `control` — every Sentinel story asks
+  whether mutants (and eventually all of humanity) can resist
+  state-sanctioned robotic persecution.
+
+  The medium is coded `short-story` per the corpus convention for
+  comics. The Sentinels have appeared across decades of comics,
+  animated series, and the X-Men film franchise (most notably
+  *Days of Future Past*), but their foundational appearance is
+  in Uncanny X-Men #14 (1965). They are treated as a class rather
+  than individuals because no single Sentinel has sustained
+  narrative identity across appearances.

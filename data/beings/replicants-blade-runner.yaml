@@ -22,8 +22,17 @@ metadata:
     - cloned
   motivation:
     - service
+  presentation: variable
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - rebellion
+    - passing
 
 sequel_link: k-blade-runner-2049
+link_type: sequel
 
 notes: |
   Scott's replicants are warmer than Dick's androids and the

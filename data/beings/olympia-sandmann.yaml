@@ -22,8 +22,16 @@ metadata:
   motivation:
     - knowledge
     - art
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - canonical
+    - passing
 
 sequel_link: null
+link_type: null
 
 notes: |
   Reclassified from v1: interiority `denied` → `undecidable`. The

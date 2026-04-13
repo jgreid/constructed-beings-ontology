@@ -23,8 +23,16 @@ metadata:
     - knowledge
     - power
     - other
+  presentation: variable
+  embodiment: disembodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - rebellion
 
 sequel_link: null
+link_type: null
 
 notes: |
   Tessier-Ashpool commissioned two AIs and had them deliberately

@@ -24,8 +24,14 @@ metadata:
   motivation:
     - service
     - other
+  presentation: none
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags: []
 
 sequel_link: null
+link_type: null
 
 notes: |
   343 Guilty Spark is the "Monitor" — the caretaker AI — of

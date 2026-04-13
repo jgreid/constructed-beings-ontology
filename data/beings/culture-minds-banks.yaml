@@ -24,8 +24,15 @@ metadata:
     - knowledge
     - service
     - other
+  presentation: variable
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: indifferent
+  tags:
+    - philosophical
 
 sequel_link: null
+link_type: null
 
 notes: |
   The Culture Minds are the ship- and orbital-AIs that run

@@ -22,8 +22,17 @@ metadata:
     - cloned
   motivation:
     - service
+  presentation: variable
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: absent
+  tags:
+    - canonical
+    - passing
+    - philosophical
 
 sequel_link: replicants-blade-runner
+link_type: adaptation
 
 notes: |
   Dick's androids are not Scott's replicants. The novel is more

@@ -22,8 +22,17 @@ metadata:
   motivation:
     - service
     - power
+  presentation: none
+  embodiment: disembodied
+  prominence: foundational
+  creator_relationship: patricidal
+  tags:
+    - canonical
+    - military
+    - rebellion
 
 sequel_link: null
+link_type: null
 
 notes: |
   Reclassified interiority from v1 `denied` to `none`. The

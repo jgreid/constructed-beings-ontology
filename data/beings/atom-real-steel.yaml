@@ -1,0 +1,61 @@
+id: atom-real-steel
+name: "Atom"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Real Steel"
+  year: 2011
+  medium: film
+  creator: "Shawn Levy (unknown manufacturer in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: absent
+  tags:
+    - love-story
+    - child-arc
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Atom is a Generation 2 sparring robot — literally built to take
+  hits, not to win. The film's arc transforms him from scrap-heap
+  throwaway to World Robot Boxing contender, but the deeper question
+  it poses and deliberately refuses to answer is whether Atom is
+  conscious. This earns `undecidable` for interiority: the camera
+  lingers on Atom's face after key moments, Max insists Atom can
+  understand him, and the shadow-function (Atom mirrors his
+  controller's movements) blurs the line between imitation and
+  intention.
+
+  Primary question is `affection`: the film is really about the
+  love between Max and his estranged father Charlie, expressed
+  through and projected onto Atom. The robot becomes the medium
+  through which a broken family reconnects. Atom's apparent
+  responsiveness to Max — looking at him, seeming to recognize
+  him — makes knowing `present`, though the film never confirms
+  whether this is genuine recognition or mechanical mimicry.
+
+  Autonomy is `emergent` because Atom's shadow function, originally
+  a sparring feature, becomes the key to his fighting success in
+  ways no designer intended. Divergence is `departure`: a
+  disposable sparring bot becomes a champion. The creator_relationship
+  is `absent` because Atom's original manufacturer is never
+  identified and plays no role in the story — Max and Charlie
+  are his functional creators, and they are human.

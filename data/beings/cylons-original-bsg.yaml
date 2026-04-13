@@ -23,8 +23,15 @@ metadata:
   motivation:
     - power
     - other
+  presentation: none
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - military
 
 sequel_link: null
+link_type: null
 
 notes: |
   The original chrome Cylons from Glen A. Larson's 1978

@@ -1,0 +1,69 @@
+id: brainiac-dc
+name: "Brainiac"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "DC Comics (Action Comics)"
+  year: 1958
+  medium: short-story
+  creator: "Otto Binder, Al Plastino (Coluan origin in-narrative)"
+  substrate:
+    - electrical
+    - mechanical
+  motivation:
+    - knowledge
+    - power
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags: []
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Brainiac is a boundary case that was previously deferred in the
+  exclusions register due to the alien-construction scope question.
+  He is now included because he clearly meets all three inclusion
+  criteria: he is made (not born), he is agent-like (acts with
+  intent, personality, and sustained narrative identity), and he
+  has significant narrative presence across decades of DC continuity.
+  The alien-construction concern is real but ultimately secondary —
+  Brainiac functions in every narrative exactly as a constructed
+  being would, and excluding him on origin-species grounds would
+  require excluding any non-human-made AI, which the schema does
+  not intend.
+
+  Interiority is `demonstrated`: across most depictions, Brainiac
+  acts with clear intent, expresses frustration, pride, and
+  obsession, and makes strategic choices that reflect a coherent
+  personality. Autonomy is `seized` — in many origin stories he
+  transcends or overthrows whatever purpose the Coluans designed
+  him for, claiming independence through force. Divergence is
+  `departure`: an information-gathering system became an obsessive
+  collector and destroyer of civilizations.
+
+  Primary question is `knowledge`: Brainiac's defining trait is his
+  compulsion to collect, catalog, and possess all information. He
+  miniaturizes and bottles entire cities — Kandor being the most
+  famous — not to destroy them but to own their knowledge. Epistemic
+  reach is `conversational` because Brainiac speaks, plans, and
+  reveals his motivations through dialogue. Knowability is `absent`:
+  no character in the DC universe questions whether Brainiac is
+  conscious. Knowing is `present`: he studies and catalogs everything
+  about his targets with terrifying thoroughness.
+
+  The medium is coded `short-story` per the corpus convention for
+  comics. His first appearance in Action Comics #242 (1958) established
+  the template that has persisted through countless reimaginings.

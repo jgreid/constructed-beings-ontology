@@ -1,4 +1,4 @@
-# CBO v2.0 entry template
+# CBO entry template
 # Copy this file to data/beings/<your-id>.yaml and fill in the values.
 # Run `python schema/validate.py data/beings/<your-id>.yaml` to check your work.
 # See SCHEMA.md for the full definition of every field.
@@ -37,8 +37,20 @@ metadata:
   motivation:
     # service | knowledge | power | companionship | art | mirror | child | other
     - service
+  # presentation: masculine | feminine | androgynous | none | variable
+  presentation: masculine
+  # embodiment: embodied | disembodied | projected | virtual
+  embodiment: embodied
+  # prominence: foundational | major | supporting | minor
+  prominence: supporting
+  # creator_relationship: servile | loyal | indifferent | resentful | rebellious | patricidal | absent
+  creator_relationship: servile
+  # tags: canonical | love-story | rebellion | turing-test | passing | creator-conflict |
+  #        child-arc | military | comedy | horror | philosophical | ensemble-split
+  tags: []
 
 sequel_link: null        # entry id of a related sequel/successor/adaptation, or null
+link_type: null          # sequel | adaptation | successor | null
 
 notes: |
   Free text. Capture what's distinctive about this entry, what patterns

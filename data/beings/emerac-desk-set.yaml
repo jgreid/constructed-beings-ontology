@@ -22,8 +22,15 @@ metadata:
   motivation:
     - service
     - knowledge
+  presentation: none
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: servile
+  tags:
+    - comedy
 
 sequel_link: null
+link_type: null
 
 notes: |
   Reclassified primary_question from v1 `control` to `none`. *Desk

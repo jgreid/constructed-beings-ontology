@@ -24,8 +24,15 @@ metadata:
     - knowledge
     - power
     - other
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - ensemble-split
 
 sequel_link: null
+link_type: null
 
 notes: |
   Third ensemble-split entry from the `cylons-bsg` anchor.

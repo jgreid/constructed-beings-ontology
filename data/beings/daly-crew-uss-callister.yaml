@@ -23,8 +23,15 @@ metadata:
   motivation:
     - mirror
     - service
+  presentation: variable
+  embodiment: virtual
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - rebellion
 
 sequel_link: null
+link_type: null
 
 notes: |
   Charlie Brooker's *Black Mirror* Season 4 Episode 1 (2017).

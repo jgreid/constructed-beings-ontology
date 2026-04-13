@@ -1,10 +1,10 @@
 # Classification Summary
 
-**192 constructed beings** coded under the current schema across 2,800 years of Western fiction, from Homer's golden handmaidens of Hephaestus (~750 BCE) through Gareth Edwards's *The Creator* (2023).
+**202 constructed beings** coded under the current schema across 2,800 years of Western fiction, from Homer's golden handmaidens of Hephaestus (~750 BCE) through Gareth Edwards's *The Creator* (2023).
 
 For the machine-readable table and the raw analysis outputs, see:
 
-- [summary_table.md](summary_table.md) — all 192 entries with full card properties
+- [summary_table.md](summary_table.md) — all 202 entries with full card properties
 - [property_coverage.md](property_coverage.md) — distribution of every schema enum
 - [question_analysis.md](question_analysis.md) — detailed breakdown of the knowability/knowing split
 - [../analysis/influence_graph.html](../analysis/influence_graph.html) — interactive visualization of the influence edges connecting the corpus
@@ -15,7 +15,7 @@ This document is the hand-written interpretation: what the numbers show, what pa
 
 ## The Knowability/Knowing Split
 
-The schema's central analytical move is tracking `knowability` (can we verify its mind?) and `knowing` (can it know us?) as two independent meta-properties rather than a single axis. **85 of 192 entries (44%) have divergent values on the two axes**, confirming that these are genuinely independent analytical dimensions.
+The schema's central analytical move is tracking `knowability` (can we verify its mind?) and `knowing` (can it know us?) as two independent meta-properties rather than a single axis. **89 of 202 entries (44%) have divergent values on the two axes**, confirming that these are genuinely independent analytical dimensions.
 
 Notable divergent entries include:
 

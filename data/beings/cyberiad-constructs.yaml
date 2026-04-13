@@ -25,8 +25,16 @@ metadata:
     - knowledge
     - art
     - service
+  presentation: variable
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: indifferent
+  tags:
+    - comedy
+    - philosophical
 
 sequel_link: null
+link_type: null
 
 notes: |
   Lem's fable cycle *Cyberiad* follows the constructor robots

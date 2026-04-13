@@ -22,8 +22,14 @@ metadata:
   motivation:
     - service
     - companionship
+  presentation: masculine
+  embodiment: disembodied
+  prominence: major
+  creator_relationship: loyal
+  tags: []
 
 sequel_link: vision-age-of-ultron
+link_type: successor
 
 notes: |
   JARVIS in the original Iron Man is a butler intelligence in the

@@ -23,8 +23,14 @@ metadata:
   motivation:
     - service
     - companionship
+  presentation: none
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags: []
 
 sequel_link: null
+link_type: null
 
 notes: |
   K-9 debuted in Tom Baker's *Doctor Who* serial "The Invisible

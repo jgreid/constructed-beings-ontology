@@ -23,8 +23,14 @@ metadata:
   motivation:
     - knowledge
     - service
+  presentation: none
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: servile
+  tags: []
 
 sequel_link: null
+link_type: null
 
 notes: |
   Greene's comedy dramatizes the medieval legends around Roger
