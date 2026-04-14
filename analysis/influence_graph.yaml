@@ -956,3 +956,68 @@ edges:
       from the Japanese tradition's self-reflective machines
       to Lem's human-reflective machines. Edge direction
       follows thematic inheritance, not strict chronology.
+
+  # The observer-knowability lineage (GITS → Ex Machina)
+  - from: kusanagi-gits-1995
+    to: ava-ex-machina
+    type: inherits
+    note: >
+      Both code `divergence: observer` and `knowability: primary`.
+      Oshii (1995) and Garland (2014) share the same core question:
+      is there a mind in this constructed woman, and can you trust
+      what you see? The Major's "ghost" uncertainty and Ava's
+      Turing-test frame are structurally identical. Garland has
+      cited GitS as an influence; the lineage is documented as
+      well as thematic.
+
+  # The robot-learns-to-love lineage (WALL-E → Roz)
+  - from: wall-e
+    to: roz-wild-robot
+    type: inherits
+    note: >
+      Both code `divergence: departure`, `interiority: demonstrated`,
+      and `primary_question: affection`. WALL-E (2008) learns love
+      through collecting human artifacts and pursuing EVE; Roz (2024)
+      learns love through parenting a gosling. The 16-year gap
+      between them marks the evolution of animated-robot-affection
+      from romantic love to parental love.
+
+  # Iron Giant → Roz (the becoming arc)
+  - from: iron-giant
+    to: roz-wild-robot
+    type: inherits
+    note: >
+      Both are robots stranded in nature who become something their
+      design never intended. Both code `divergence: departure` and
+      `autonomy: emergent`. Iron Giant's primary question is
+      `identity` ("I am not a gun"); Roz's shifts to `affection`
+      ("I am a mother"). The lineage traces the animated-robot
+      departure arc from self-definition to relationship.
+
+  # The Rei Ayanami observer lineage
+  - from: olympia-sandmann
+    to: rei-ayanami-evangelion
+    type: inherits
+    note: >
+      Both code `divergence: observer` — the being is not what
+      characters perceive. Olympia (1816) is an automaton
+      mistaken for a woman; Rei (1995) is a clone mistaken for
+      a human pilot. Both are feminine-presenting, behaviorally
+      opaque beings whose true nature is hidden from the story's
+      male protagonists. The 179-year gap traces the observer-
+      divergence mode from German Romantic horror to Japanese
+      post-apocalyptic anime.
+
+  # The Demerzel → Data institutional-robot lineage
+  - from: data-tng
+    to: demerzel-foundation-tv
+    type: inherits
+    note: >
+      Both are humaniform robots in institutional service roles
+      with demonstrated interiority and designed autonomy. Data's
+      primary question is `rights`; Demerzel's is `control`. The
+      Apple TV+ Foundation reimagines the Asimov robot legacy
+      through Data's lens as much as through Daneel's — Demerzel's
+      performative affect and her secret robot identity echo
+      Data's "Measure of a Man" questions filtered through 12,000
+      years of accumulated political knowledge.
