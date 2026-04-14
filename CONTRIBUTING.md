@@ -27,7 +27,7 @@ If you want to contribute a fully coded CB entry:
 
 1. **Fork** this repository.
 2. **Copy** [`schema/entry_template.yaml`](schema/entry_template.yaml) to `data/beings/<your-id>.yaml`. The filename should match the `id` field (kebab-case). For sequel-split entries, follow the `<being-slug>-<source-slug>` convention (e.g., `glados-portal-2`).
-3. **Code all seven card properties** and all seven metadata fields. Use `sequel_link` if the entry is part of a lineage; use `null` otherwise.
+3. **Code all seven card properties** and all eleven metadata fields. Use `sequel_link` if the entry is part of a lineage; use `null` otherwise.
 4. **Write the `notes` field** in prose. Capture what's distinctive, flag any uncertainty, and explain any close calls. This is where scholarly context lives — the schema has no structured citations array.
 5. **Run validation:**
    ```bash

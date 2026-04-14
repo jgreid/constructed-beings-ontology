@@ -1,6 +1,6 @@
 # Classification Summary
 
-**224 constructed beings** coded under the current schema across 2,800 years of Western fiction, from Homer's golden handmaidens of Hephaestus (~750 BCE) through Gareth Edwards's *The Creator* (2023).
+**224 constructed beings** coded under the current schema across 2,800 years of fiction, from Homer's golden handmaidens of Hephaestus (~750 BCE) through Drew Hancock's *Companion* and Gerard Johnstone's *M3GAN 2.0* (2025).
 
 For the machine-readable table and the raw analysis outputs, see:
 

@@ -37,7 +37,7 @@ See [docs/boundary_cases.md](docs/boundary_cases.md) for the full discussion. Br
 
 ## The Schema
 
-Each CB entry is a YAML file with seven analytical properties and seven metadata fields. The full reference is in [SCHEMA.md](SCHEMA.md); this is the overview.
+Each CB entry is a YAML file with seven analytical properties and eleven metadata fields. The full reference is in [SCHEMA.md](SCHEMA.md); this is the overview.
 
 ### The Card
 

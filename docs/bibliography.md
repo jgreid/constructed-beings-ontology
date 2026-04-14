@@ -24,6 +24,8 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 
 - **The Honorable History of Friar Bacon and Friar Bungay** (1589) — Robert Greene. *Being(s): The Brazen Head*
 - **Faust, Part Two** (1832) — Johann Wolfgang von Goethe. *Being(s): The Homunculus*
+- **Coppélia, ou la Fille aux yeux d'émail** (1870) — Léo Delibes / Arthur Saint-Léon. *Being(s): Coppélia*
+- **Les contes d'Hoffmann (The Tales of Hoffmann)** (1881) — Jacques Offenbach / Jules Barbier. *Being(s): Olimpia*
 - **R.U.R. (Rossum's Universal Robots)** (1920) — Karel Capek. *Being(s): R.U.R. Robots*
 
 ### Novels
