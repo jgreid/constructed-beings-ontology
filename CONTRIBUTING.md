@@ -86,7 +86,7 @@ This is an academic project. Disagreements about coding are **scholarly argument
 
 ### Medium
 
-Use the `medium` value that matches the source text's format. As of v2.1.1, the schema supports: `poem`, `epic`, `folklore`, `play`, `novel`, `short-story`, `comics`, `film`, `television`, `video-game`. Use `comics` for entries sourced from serialized comic narratives (Marvel, DC, manga adaptations, etc.) — do not use `short-story` for comics.
+Use the `medium` value that matches the source text's format. The schema supports: `poem`, `epic`, `folklore`, `play`, `novel`, `short-story`, `comics`, `film`, `television`, `video-game`. Use `comics` for entries sourced from serialized comic or manga narratives — do not use `short-story` for comics.
 
 ### Primary scope: Western canon
 

@@ -4,6 +4,27 @@ All notable changes to the Constructed Beings Ontology are documented here.
 
 ---
 
+## [2.3.0] — 2026-04
+
+**Formal release.** Polish and consistency pass preparing v2.2 for Zenodo publication. No new entries; no schema changes.
+
+### Changed
+
+- **Citation version bumped** from 2.2 to 2.3 in README BibTeX block.
+- **Companion piece** described as "blog" (Substack publication) rather than "essay" throughout.
+- **Influence graph description** updated to remove stale "v2.0" and "Western fiction" references.
+- **Classification summary methodology notes** updated: non-Western scope note reflects v2.2 Japanese entries; analytically significant entries list updated to include Harey (1961) and Golem XIV (1981); Companion and M3GAN 2.0 added to flagged-entries list.
+- **M3GAN 2.0 autonomy** corrected from `seized` to `emergent` (matching first film and notes' claim of card stability).
+- **Five missing influence graph edges** added: kusanagi→ava (observer-knowability), wall-e→roz (robot-learns-to-love), iron-giant→roz (animated departure), olympia→rei (observer lineage), data→demerzel (institutional humaniform).
+- **CONTRIBUTING.md** medium note simplified, version pinning removed.
+- **All analysis outputs regenerated** against final 224-entry corpus.
+
+### Corpus
+
+Unchanged at **224 entries**. 107 of 224 (47%) have divergent knowability/knowing values. 23 observer-divergence entries. 15 primary/primary entries. Influence graph: ~85 edges across 6 edge types.
+
+---
+
 ## [2.2.0] — 2026-04
 
 **Non-Western expansion, 2023-2025 coverage, title rename, and formal methodology.** 212 → 224 entries (+12). First non-Western entries added. Project title renamed.

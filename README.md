@@ -171,7 +171,7 @@ If you use this dataset in academic work, please cite:
   author       = {Reid, Jeffrey G.},
   title        = {Toward an Ontology of Constructed Beings},
   year         = {2026},
-  version      = {2.2},
+  version      = {2.3},
   publisher    = {GitHub},
   url          = {https://github.com/jgreid/constructed-beings-ontology},
   note         = {Dataset and ontology schema}
