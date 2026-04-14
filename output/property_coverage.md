@@ -23,8 +23,8 @@ This report counts the distribution of values for each property. List-valued pro
 | Autonomy   |   Count |
 |:-----------|--------:|
 | designed   |      89 |
-| emergent   |      71 |
-| seized     |      55 |
+| emergent   |      72 |
+| seized     |      54 |
 | none       |       9 |
 
 ## Divergence
