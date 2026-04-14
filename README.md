@@ -1,5 +1,7 @@
 # Toward an Ontology of Constructed Beings
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19571688.svg)](https://doi.org/10.5281/zenodo.19571688)
+
 ## Abstract
 
 This project is a formal ontology of **constructed beings** (CBs) in Western fiction and myth — entities that are *made*, not *born*. From Hesiod's Pandora to GPT-flavored AI companions in contemporary cinema, Western narrative has been building, animating, and arguing about artificial persons for nearly three millennia. This dataset catalogs those beings and codes them along seven analytical properties organized into two blocks: **The Being** (interiority, autonomy, divergence) and **The Lens** (primary question, epistemic reach, knowability, knowing).
@@ -172,8 +174,9 @@ If you use this dataset in academic work, please cite:
   title        = {Toward an Ontology of Constructed Beings},
   year         = {2026},
   version      = {2.3},
-  publisher    = {GitHub},
-  url          = {https://github.com/jgreid/constructed-beings-ontology},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.19571688},
+  url          = {https://doi.org/10.5281/zenodo.19571688},
   note         = {Dataset and ontology schema}
 }
 ```
