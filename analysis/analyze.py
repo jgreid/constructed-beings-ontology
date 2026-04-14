@@ -882,6 +882,164 @@ def write_timeline(beings):
     print(f"Wrote {TIMELINE_FILE}")
 
 
+# ── Analysis 6: metadata report ─────────────────────────────────────────────
+
+METADATA_FILE = os.path.join(OUTPUT_DIR, "metadata_analysis.md")
+
+
+def write_metadata(beings):
+    """Write a report on metadata fields not covered by other analyses."""
+    total = len(beings)
+    lines = ["# Metadata Analysis", ""]
+    lines.append(f"Total entries: **{total}**.")
+    lines.append("")
+    lines.append(
+        "Distribution of metadata fields not covered by the property "
+        "coverage or question analysis reports: `presentation`, "
+        "`embodiment`, `prominence`, `creator_relationship`, and `tags`."
+    )
+    lines.append("")
+
+    # ── Section 1: presentation ─────────────────────────────────────
+    lines.append("## 1. Presentation")
+    lines.append("")
+    counter = Counter()
+    for b in beings:
+        v = get_nested(b, "metadata.presentation")
+        if v:
+            counter[v] += 1
+    rows = sorted(counter.items(), key=lambda x: (-x[1], x[0]))
+    lines.append(tabulate(rows, headers=["Presentation", "Count"], tablefmt="pipe"))
+    lines.append("")
+
+    # ── Section 2: embodiment ───────────────────────────────────────
+    lines.append("## 2. Embodiment")
+    lines.append("")
+    counter = Counter()
+    for b in beings:
+        v = get_nested(b, "metadata.embodiment")
+        if v:
+            counter[v] += 1
+    rows = sorted(counter.items(), key=lambda x: (-x[1], x[0]))
+    lines.append(tabulate(rows, headers=["Embodiment", "Count"], tablefmt="pipe"))
+    lines.append("")
+
+    # ── Section 3: prominence ───────────────────────────────────────
+    lines.append("## 3. Prominence")
+    lines.append("")
+    counter = Counter()
+    for b in beings:
+        v = get_nested(b, "metadata.prominence")
+        if v:
+            counter[v] += 1
+    rows = sorted(counter.items(), key=lambda x: (-x[1], x[0]))
+    lines.append(tabulate(rows, headers=["Prominence", "Count"], tablefmt="pipe"))
+    lines.append("")
+
+    # ── Section 4: creator_relationship ─────────────────────────────
+    lines.append("## 4. Creator Relationship")
+    lines.append("")
+    counter = Counter()
+    for b in beings:
+        v = get_nested(b, "metadata.creator_relationship")
+        if v:
+            counter[v] += 1
+    rows = sorted(counter.items(), key=lambda x: (-x[1], x[0]))
+    lines.append(tabulate(
+        rows, headers=["Creator Relationship", "Count"], tablefmt="pipe",
+    ))
+    lines.append("")
+
+    # ── Section 5: tags ─────────────────────────────────────────────
+    lines.append("## 5. Tags")
+    lines.append("")
+    tag_counter = Counter()
+    tagged_count = 0
+    for b in beings:
+        tags = get_nested(b, "metadata.tags", [])
+        if tags:
+            tagged_count += 1
+        for t in tags:
+            tag_counter[t] += 1
+    lines.append(f"- **Entries with at least one tag:** {tagged_count}/{total}")
+    lines.append("")
+    rows = sorted(tag_counter.items(), key=lambda x: (-x[1], x[0]))
+    lines.append(tabulate(rows, headers=["Tag", "Count"], tablefmt="pipe"))
+    lines.append("")
+
+    # ── Section 6: creator_relationship × divergence ────────────────
+    lines.append("## 6. Creator Relationship × Divergence")
+    lines.append("")
+    lines.append(
+        "Cross-tabulation of `creator_relationship` and `divergence`. "
+        "Rows are creator relationships; columns are divergence values."
+    )
+    lines.append("")
+
+    div_values = ["none", "design", "departure", "observer"]
+    cr_values = sorted({
+        get_nested(b, "metadata.creator_relationship")
+        for b in beings
+        if get_nested(b, "metadata.creator_relationship")
+    })
+    ct_headers = ["Creator Rel."] + div_values + ["Total"]
+    ct_rows = []
+    for cr in cr_values:
+        row_counter = Counter()
+        for b in beings:
+            if get_nested(b, "metadata.creator_relationship") == cr:
+                d = get_nested(b, "card.the_being.divergence")
+                if d:
+                    row_counter[d] += 1
+        row_total = sum(row_counter.values())
+        row = [cr]
+        for dv in div_values:
+            count = row_counter.get(dv, 0)
+            row.append(count if count else "")
+        row.append(row_total)
+        ct_rows.append(row)
+    lines.append(tabulate(ct_rows, headers=ct_headers, tablefmt="pipe"))
+    lines.append("")
+
+    # ── Section 7: presentation × primary_question ──────────────────
+    lines.append("## 7. Presentation × Primary Question")
+    lines.append("")
+
+    pq_values = sorted({
+        get_nested(b, "card.the_lens.primary_question")
+        for b in beings
+        if get_nested(b, "card.the_lens.primary_question")
+    })
+    pres_values = sorted({
+        get_nested(b, "metadata.presentation")
+        for b in beings
+        if get_nested(b, "metadata.presentation")
+    })
+    pq_headers = ["Presentation"] + pq_values + ["Total"]
+    pq_rows = []
+    for pres in pres_values:
+        row_counter = Counter()
+        for b in beings:
+            if get_nested(b, "metadata.presentation") == pres:
+                q = get_nested(b, "card.the_lens.primary_question")
+                if q:
+                    row_counter[q] += 1
+        row_total = sum(row_counter.values())
+        row = [pres]
+        for q in pq_values:
+            count = row_counter.get(q, 0)
+            row.append(count if count else "")
+        row.append(row_total)
+        pq_rows.append(row)
+    lines.append(tabulate(pq_rows, headers=pq_headers, tablefmt="pipe"))
+    lines.append("")
+
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    with open(METADATA_FILE, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+    print(f"Wrote {METADATA_FILE}")
+
+
 # ── CLI ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -891,10 +1049,12 @@ def main():
     parser.add_argument("--questions", action="store_true", help="Write question_analysis.md")
     parser.add_argument("--graph", action="store_true", help="Render analysis/influence_graph.html")
     parser.add_argument("--timeline", action="store_true", help="Write timeline_analysis.md")
+    parser.add_argument("--metadata", action="store_true", help="Write metadata_analysis.md")
     parser.add_argument("--all", action="store_true", help="Write all outputs")
     args = parser.parse_args()
 
-    if not (args.table or args.coverage or args.questions or args.graph or args.timeline or args.all):
+    if not (args.table or args.coverage or args.questions or args.graph
+            or args.timeline or args.metadata or args.all):
         parser.print_help()
         sys.exit(0)
 
@@ -913,6 +1073,8 @@ def main():
         render_influence_graph(beings)
     if args.all or args.timeline:
         write_timeline(beings)
+    if args.all or args.metadata:
+        write_metadata(beings)
 
 
 if __name__ == "__main__":
