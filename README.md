@@ -182,7 +182,7 @@ If you use this dataset in academic work, please cite:
 
 ## Related
 
-This dataset accompanies the essay **"Tears in Rain"**, published on Substack at [tearsinrain.ai](https://tearsinrain.ai). The essay develops the interpretive argument; the dataset provides the evidence base.
+This dataset accompanies the blog **"Tears in Rain"**, published on Substack at [tearsinrain.ai](https://tearsinrain.ai). The blog develops the interpretive argument; the dataset provides the evidence base.
 
 ## Author
 

@@ -212,4 +212,4 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 
 ---
 
-*This bibliography lists primary source texts only. For the analytical argument these texts support, see the companion essay "Tears in Rain" at [tearsinrain.ai](https://tearsinrain.ai).*
+*This bibliography lists primary source texts only. For the analytical argument these texts support, see the companion blog "Tears in Rain" at [tearsinrain.ai](https://tearsinrain.ai).*
