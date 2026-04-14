@@ -38,4 +38,5 @@ jobs:
           test -s output/summary_table.md
           test -s output/property_coverage.md
           test -s output/question_analysis.md
+          test -s output/timeline_analysis.md
           test -s analysis/influence_graph.html

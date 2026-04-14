@@ -141,7 +141,7 @@ Suppose you want to add David from *Alien: Covenant* (2017). Here's the decision
 1. **Source text.** *Alien: Covenant*, 2017. Different film from *Alien* (1979), so it gets its own entry even if Ash and David are "the same character type." They're different beings in different source texts.
 2. **Being.** Ridley Scott's later synthetics are more explicit than Ash. Interiority is `demonstrated`: David writes poetry, monologues, performs. Divergence is `departure` (Weyland wanted an assistant; got a genocidal aesthete). Autonomy `seized`.
 3. **Lens.** Primary question is `identity`: David's arc is explicitly about becoming a maker rather than a made thing. Epistemic reach is `conversational` (he talks constantly about his state). Knowability is `present` at least, maybe `secondary` — Scott engages the question but it's not the center. Knowing is `present` (David observes humans closely and weaponizes what he learns).
-4. **Metadata.** Film, 2017, Ridley Scott, substrate `[mechanical, electrical]`, motivation `[service, knowledge]`.
+4. **Metadata.** Film, 2017, Ridley Scott, substrate `[mechanical, electrical]`, motivation `[service, knowledge]`, presentation `masculine`, embodiment `embodied`, prominence `major`, creator_relationship `rebellious`, tags `[creator-conflict]`.
 5. **Notes.** Explain the David-vs-Walter choice, flag the coding as about David, explain the divergence call.
 
 You'd end up with an entry like:
@@ -172,8 +172,15 @@ metadata:
   motivation:
     - service
     - knowledge
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - creator-conflict
 
 sequel_link: null
+link_type: null
 
 notes: |
   This entry covers David specifically, not Walter (who would code

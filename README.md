@@ -37,7 +37,7 @@ See [docs/boundary_cases.md](docs/boundary_cases.md) for the full discussion. Br
 
 ## The Schema
 
-Each CB entry is a YAML file with seven analytical properties and seven metadata fields. The full reference is in [SCHEMA.md](SCHEMA.md); this is the overview.
+Each CB entry is a YAML file with seven analytical properties and eleven metadata fields. The full reference is in [SCHEMA.md](SCHEMA.md); this is the overview.
 
 ### The Card
 
@@ -171,7 +171,7 @@ If you use this dataset in academic work, please cite:
   author       = {Reid, Jeffrey G.},
   title        = {Toward an Ontology of Constructed Beings},
   year         = {2026},
-  version      = {2.1},
+  version      = {2.3},
   publisher    = {GitHub},
   url          = {https://github.com/jgreid/constructed-beings-ontology},
   note         = {Dataset and ontology schema}

@@ -34,7 +34,7 @@ The schema codes properties of the **source text**, not properties of the being 
 - **`primary_question`** — The most judgment-heavy property. Seven values, thin boundaries between `affection` and `knowledge`, between `identity` and `rights`. The coding guide provides decision tests, but reasonable coders will disagree on entries where two questions are in tension. Expected agreement: 70–80%.
 - **`divergence: design` vs. `departure`** — "The spec was wrong" vs. "it left the spec" can be a close call when the being follows instructions that have catastrophic emergent consequences. The decision test ("what would the creator say if asked 'did it work?'") helps but does not eliminate ambiguity. Expected agreement: 80–85%.
 - **`knowability` and `knowing` salience levels** — The `present`/`secondary` boundary is the hardest to apply consistently. The rule of thumb ("would the film still work without the question?") helps but requires subjective judgment about narrative structure. Expected agreement: 75–85%.
-- **`epistemic_reach: behavioral` vs. `conversational`** — The coding guide notes that "language presence alone does not upgrade behavioral to conversational," but applying this consistently is difficult. The `conversational` skew (61% of entries) reflects both the corpus composition and potential over-coding.
+- **`epistemic_reach: behavioral` vs. `conversational`** — The coding guide notes that "language presence alone does not upgrade behavioral to conversational," but applying this consistently is difficult. The `conversational` skew (60% of entries) reflects both the corpus composition and potential over-coding.
 
 ### Properties not expected to cause disagreement
 

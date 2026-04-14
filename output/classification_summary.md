@@ -1,6 +1,6 @@
 # Classification Summary
 
-**224 constructed beings** coded under the current schema across 2,800 years of Western fiction, from Homer's golden handmaidens of Hephaestus (~750 BCE) through Gareth Edwards's *The Creator* (2023).
+**224 constructed beings** coded under the current schema across 2,800 years of fiction, from Homer's golden handmaidens of Hephaestus (~750 BCE) through Drew Hancock's *Companion* and Gerard Johnstone's *M3GAN 2.0* (2025).
 
 For the machine-readable table and the raw analysis outputs, see:
 
@@ -155,9 +155,9 @@ Primary/primary entries are bolded on the knowability/knowing columns.
 
 ## Methodology Notes
 
-- **The schema is unchanged since its current design.** Every entry is coded against the same seven-property card, seven metadata fields, and the same validator. See [CHANGELOG.md](../CHANGELOG.md) for schema history.
+- **The schema is unchanged since its current design.** Every entry is coded against the same seven-property card, eleven metadata fields, and the same validator. See [CHANGELOG.md](../CHANGELOG.md) for schema history.
 - **Flagged entries.** Several entries are flagged as lower-confidence in their `notes` fields: Maximilian (*The Black Hole*), Kamelion (*Doctor Who*), Amazo (DC), the Cyberiad Constructs (Lem), and the *Detroit: Become Human* protagonists. Flagging is a respected state — lower-confidence cards are coded conservatively and the notes make the uncertainty explicit.
-- **Comics entries.** Nine comics entries (Ultron 1968, Red Tornado, Amazo, Machine Man X-51, Brainiac, Metal Men, Sentinels, Jocasta, Jim Hammond) now use `medium: comics`, a value added in v2.1.1 to resolve the previous `short-story` approximation.
+- **Comics entries.** Ten comics entries (Ultron 1968, Red Tornado, Amazo, Machine Man X-51, Brainiac, Metal Men, Sentinels, Jocasta, Jim Hammond, Astro Boy manga) use `medium: comics`, a value added in v2.2 to resolve the previous `short-story` approximation.
 - **Ensemble splits are documented relations, not replacements.** The Maeve/Bernard/Cavil/Eight/D'Anna entries are splits *from* existing ensemble-anchor entries, not replacements. The influence graph records the split relationships as `ensemble-split` edges, distinguishing intra-work individuation from inter-work literary influence.
-- **Non-Western traditions remain out of scope.** The corpus is entirely Western-canon. The planned non-Western expansion (with cultural consultation) is future work.
+- **Non-Western expansion is pragmatic, not systematic.** As of v2.2, the corpus includes six Japanese anime/manga entries (Astro Boy, Ghost in the Shell, Neon Genesis Evangelion, Ghost in the Shell: SAC) covering the most Western-recognized works. A full non-Western expansion with cultural consultation remains planned.
 - **Helen (1995) and EPICAC (1950) are the most analytically significant entries for the central thesis.** Both relocate familiar findings earlier in the corpus timeline in ways that sharpen the argument: the knowability/knowing questions' migration to primary narrative status predates LLMs (literary SF reached the configuration in 1995, cinema in 2013), and the affection arc is far older than contemporary cinema suggests.
