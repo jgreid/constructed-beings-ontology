@@ -93,6 +93,21 @@ LINK_TYPE_VALUES = {
 
 ID_PATTERN = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 
+# ── Expected fields (for extra-field detection) ─────────────────────────────
+
+EXPECTED_TOP_LEVEL = {
+    "id", "name", "card", "metadata", "sequel_link", "link_type", "notes",
+}
+EXPECTED_CARD = {"the_being", "the_lens"}
+EXPECTED_THE_BEING = {"interiority", "autonomy", "divergence"}
+EXPECTED_THE_LENS = {
+    "primary_question", "epistemic_reach", "knowability", "knowing",
+}
+EXPECTED_METADATA = {
+    "source", "year", "medium", "creator", "substrate", "motivation",
+    "presentation", "embodiment", "prominence", "creator_relationship", "tags",
+}
+
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -128,6 +143,15 @@ def _check_enum(data, dotpath, allowed, errors):
         )
 
 
+def _check_unknown_fields(data, path, expected, errors):
+    """Flag any keys in data that are not in the expected set."""
+    if not isinstance(data, dict):
+        return
+    unknown = sorted(set(data.keys()) - expected)
+    for key in unknown:
+        errors.append(f"Unknown field: {path + '.' + key if path else key}")
+
+
 def _check_enum_list(data, dotpath, allowed, errors, min_items=1):
     val = _get(data, dotpath)
     if val is None:
@@ -152,6 +176,23 @@ def _check_enum_list(data, dotpath, allowed, errors, min_items=1):
 def validate_entry(data):
     """Validate a single entry dict. Returns a list of error strings."""
     errors = []
+
+    # ── Unknown field detection ──────────────────────────────────────
+    _check_unknown_fields(data, "", EXPECTED_TOP_LEVEL, errors)
+    card = data.get("card")
+    if isinstance(card, dict):
+        _check_unknown_fields(card, "card", EXPECTED_CARD, errors)
+        the_being = card.get("the_being")
+        if isinstance(the_being, dict):
+            _check_unknown_fields(the_being, "card.the_being",
+                                  EXPECTED_THE_BEING, errors)
+        the_lens = card.get("the_lens")
+        if isinstance(the_lens, dict):
+            _check_unknown_fields(the_lens, "card.the_lens",
+                                  EXPECTED_THE_LENS, errors)
+    metadata = data.get("metadata")
+    if isinstance(metadata, dict):
+        _check_unknown_fields(metadata, "metadata", EXPECTED_METADATA, errors)
 
     # ── Identification ────────────────────────────────────────────────
     _check_string(data, "id", errors)
@@ -221,6 +262,20 @@ def validate_entry(data):
                 f"Invalid value for link_type: '{lt}'. "
                 f"Allowed: {sorted(LINK_TYPE_VALUES)} or null"
             )
+
+    # ── sequel_link / link_type symmetry ────────────────────────────
+    sl = data.get("sequel_link")
+    lt = data.get("link_type")
+    if sl is not None and lt is None and "link_type" in data:
+        errors.append(
+            "sequel_link is set but link_type is null "
+            "(both must be set or both must be null)"
+        )
+    if lt is not None and sl is None and "sequel_link" in data:
+        errors.append(
+            "link_type is set but sequel_link is null "
+            "(both must be set or both must be null)"
+        )
 
     # ── notes (optional) ──────────────────────────────────────────────
     if "notes" in data and data["notes"] is not None:
@@ -301,6 +356,20 @@ def main():
             continue
 
         errors = validate_entry(data)
+
+        # ── ID / filename match (data/beings/ entries only) ────────
+        id_val = data.get("id")
+        expected_id = os.path.splitext(basename)[0]
+        norm_path = os.path.normpath(filepath)
+        in_beings = norm_path.endswith(
+            os.path.join("data", "beings", basename)
+        )
+        if in_beings and isinstance(id_val, str) \
+                and id_val != expected_id:
+            errors.append(
+                f"id '{id_val}' does not match filename '{basename}' "
+                f"(expected id: '{expected_id}')"
+            )
 
         if errors:
             print(f"  {RED}FAIL{RESET}  {basename}")
