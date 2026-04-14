@@ -1,11 +1,12 @@
-# Constructed Beings Ontology — v2.0 Entry Schema Definition
+# Constructed Beings Ontology — v2.3 Entry Schema Definition
 # Machine-readable schema for validating being entries in data/beings/*.yaml
 # Human-readable reference: SCHEMA.md
 
-schema_version: "2.0"
+schema_version: "2.3"
 description: >
   Defines the structure, types, and allowed enum values for every field
-  in a constructed-being entry. v2.0 replaces v1.0 entirely — see CHANGELOG.md.
+  in a constructed-being entry. v2.3 — documentation alignment release.
+  See CHANGELOG.md for full version history.
 
 properties:
 

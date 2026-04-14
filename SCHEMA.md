@@ -14,7 +14,7 @@ name
 card
   the_being          (3 properties)
   the_lens           (4 properties)
-metadata             (7 fields)
+metadata             (11 fields)
 sequel_link          (or null)
 notes                (free text)
 ```

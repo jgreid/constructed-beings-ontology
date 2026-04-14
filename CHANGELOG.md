@@ -4,6 +4,28 @@ All notable changes to the Constructed Beings Ontology are documented here.
 
 ---
 
+## [2.3.0] — 2026-04
+
+**Documentation alignment release.** No new entries, no schema changes to enum values or properties. Corrects stale counts, version references, and structural mismatches that accumulated across v2.0–v2.2. 224 entries unchanged.
+
+### Summary
+
+- **Schema version bumped** from `"2.0"` to `"2.3"` in `schema/cb-schema.yaml`. The machine-readable schema version had not been updated since v2.0 despite two data releases.
+- **Metadata field count corrected.** README.md and SCHEMA.md both claimed "seven metadata fields," a count that was accurate for the initial v2.0 design but became stale when presentation, embodiment, prominence, creator_relationship, and tags were added. All references now correctly state **eleven metadata fields**.
+- **BibTeX citation updated** to `version = {2.3}`.
+- **Stale version references corrected.** CONTRIBUTING.md referenced "v2.1.1" for the `comics` medium addition (now corrected); `output/classification_summary.md` referenced "v2.1.1" and stated "Non-Western traditions remain out of scope" despite v2.2 having added six Japanese entries.
+- **Classification summary updated.** Year range now extends through 2025 (Companion, M3GAN 2.0). Comics entry count corrected from 9 to 10 (Astro Boy manga was missing from the list). Non-Western scope statement corrected to reflect v2.2 expansion.
+- **Coding guide worked example completed.** The David 8 worked example in `docs/coding_guide.md` was missing the five extended metadata fields (presentation, embodiment, prominence, creator_relationship, tags). Now includes the full schema.
+- **Methodology epistemic_reach stat corrected.** `docs/methodology.md` cited conversational skew as "61%"; actual is 60% (134/224). Aligned with the correct figure in SCHEMA.md (59%).
+- **CI sanity check extended.** `.github/workflows/validate.yml` now checks for `output/timeline_analysis.md` alongside the other analysis outputs.
+
+### Known issues carried forward
+
+- **2025 entries flagged as lower-confidence.** Companion and M3GAN 2.0 may benefit from re-review after wider critical discussion.
+- **Non-Western expansion is pragmatic, not systematic.** The six Japanese entries cover the most Western-recognized works. A full non-Western expansion with cultural consultation remains planned.
+
+---
+
 ## [2.2.0] — 2026-04
 
 **Non-Western expansion, 2023-2025 coverage, title rename, and formal methodology.** 212 → 224 entries (+12). First non-Western entries added. Project title renamed.
