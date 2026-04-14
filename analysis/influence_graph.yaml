@@ -19,10 +19,10 @@
 schema_version: "2.0"
 
 description: >
-  Influence graph for CBO v2.0. Curated edges tracing how constructed-being
-  properties propagate across 2,800 years of Western fiction. Not exhaustive;
-  biased toward the best-documented lineages and the most analytically useful
-  property-propagation examples.
+  Influence graph for the Constructed Beings Ontology. Curated edges tracing
+  how constructed-being properties propagate across 2,800+ years of fiction.
+  Not exhaustive; biased toward the best-documented lineages and the most
+  analytically useful property-propagation examples.
 
 edge_types:
   adapts: >
