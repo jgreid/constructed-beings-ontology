@@ -1,0 +1,94 @@
+id: petrushka-stravinsky
+name: "Petrushka"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: behavioral
+    knowability: primary
+    knowing: absent
+
+metadata:
+  source: "Petrushka"
+  year: 1911
+  medium: play
+  creator: "Igor Stravinsky / Michel Fokine / Alexandre Benois (Charlatan in-narrative)"
+  substrate:
+    - magical
+    - mechanical
+  motivation:
+    - other
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - rebellion
+    - love-story
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *Petrushka* — burlesque ballet in four scenes by Igor
+  Stravinsky, libretto and design by Alexandre Benois,
+  choreography by Michel Fokine — premiered with the
+  Ballets Russes at the Théâtre du Châtelet, Paris, 13
+  June 1911. The Charlatan, a magician at a Shrovetide
+  fair in Saint Petersburg, performs a puppet show with
+  three life-size dancing puppets — Petrushka, the
+  Ballerina, and the Moor. The Charlatan plays his flute
+  and the puppets begin to dance; the audience sees that
+  the Charlatan has put a soul inside each puppet.
+  Petrushka loves the Ballerina, who prefers the Moor; the
+  Moor kills Petrushka in the final scene; the Charlatan
+  shows the crowd that Petrushka is "only a puppet" and
+  drags the body away — and then Petrushka's ghost
+  appears above the Charlatan's booth, taunting his
+  creator, who flees.
+
+  Included as the corpus's foundational pre-RUR
+  treatment of the puppet-with-soul question, and as a
+  load-bearing entry in the Coppélia → Petrushka →
+  R.U.R. lineage. Petrushka is also the corpus's clearest
+  pre-1920 case where the constructed being's interiority
+  is the dramatic given, the abuse of that interiority by
+  the creator is the moral wound, and the creator's
+  punishment by the being's posthumous return is the
+  resolution.
+
+  Substrate codes `magical` + `mechanical`: the puppets
+  are mechanical objects animated by an explicit act of
+  magic on the Charlatan's part, and the ballet's whole
+  pre-Christian fairground context makes the magical
+  framing primary.
+
+  Interiority is `demonstrated`: the inside-the-cell
+  scenes (Petrushka in his black cabinet, beating against
+  the walls) are the ballet's most-discussed sequences
+  and grant Petrushka a phenomenal interior of grief and
+  rage that the Charlatan's framing as "only a puppet"
+  cannot dismiss. Autonomy is `seized` — Petrushka acts
+  outside his choreographed role within the puppet show
+  and continues acting after his death. Divergence is
+  `departure`.
+
+  Primary question is `rights`. The ballet's moral engine
+  is the Charlatan's denial of Petrushka's personhood,
+  and the final image — the ghost above the booth —
+  is the rights claim made undeniable.
+
+  Creator_relationship is `rebellious`. Knowability is
+  `primary` — the entire ballet is structured around
+  whether the audience-within-the-ballet (the fair
+  crowd) recognizes Petrushka as a being, and the
+  ballet's ending answers yes. Knowing is `absent`:
+  Petrushka is not asked to know the world, only to
+  feel.

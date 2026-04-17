@@ -1,0 +1,75 @@
+id: creature-nick-dear-frankenstein
+name: "The Creature (Nick Dear adaptation)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Frankenstein (Nick Dear)"
+  year: 2011
+  medium: play
+  creator: "Nick Dear (after Mary Shelley)"
+  substrate:
+    - biological
+  motivation:
+    - knowledge
+    - companionship
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: patricidal
+  tags:
+    - canonical
+    - rebellion
+    - creator-conflict
+    - philosophical
+
+sequel_link: frankenstein-creature
+link_type: adaptation
+
+notes: |
+  Nick Dear's adaptation premiered at the National Theatre
+  (London, 2011, dir. Danny Boyle), with Benedict
+  Cumberbatch and Jonny Lee Miller alternating the roles of
+  Victor and the Creature across the run. NT Live's
+  globally distributed broadcast made it the most-seen
+  staging of *Frankenstein* in the modern theater. Dear's
+  adaptation makes a single major structural change: the
+  play opens with the Creature's birth and is told largely
+  from his point of view, where Shelley's novel begins
+  with Walton and reaches the Creature only through nested
+  framing.
+
+  The shift in framing produces a measurably different
+  card from Shelley. Where the novel's
+  `creature-frankenstein` codes interiority through the
+  Creature's account-as-told-to-Victor (i.e., through the
+  novel's frame), the play codes interiority directly:
+  the audience watches the Creature learn language,
+  encounter the De Lacey family, suffer betrayal. Knowability
+  is elevated to `primary` because the play's first 30
+  minutes are an extended demonstration of the Creature's
+  phenomenal experience.
+
+  Included as a separate entry per the films/plays-vs-novel
+  rule; `sequel_link` to `creature-frankenstein` with
+  `link_type: adaptation`. The Boyle/Dear staging is the
+  reference modern stage Creature and the central recent
+  rejoinder to the Karloff visual tradition that has
+  dominated film adaptations.
+
+  Primary question remains `rights` (per Shelley); the
+  Creature's request for a mate and Victor's refusal is
+  preserved. Creator_relationship is `patricidal` — the
+  play's final image, with Creature and Victor pursuing
+  each other across the ice, makes the murder-suicide
+  reading explicit.

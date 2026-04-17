@@ -20,13 +20,25 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 
 - **Golem of Prague folklore cycle** (1580) — Traditional. *Being(s): The Golem of Prague*
 
-### Drama
+### Drama, Opera, Ballet, and Musicals
 
 - **The Honorable History of Friar Bacon and Friar Bungay** (1589) — Robert Greene. *Being(s): The Brazen Head*
 - **Faust, Part Two** (1832) — Johann Wolfgang von Goethe. *Being(s): The Homunculus*
 - **Coppélia, ou la Fille aux yeux d'émail** (1870) — Léo Delibes / Arthur Saint-Léon. *Being(s): Coppélia*
+- **Pygmalion and Galatea** (1871) — W.S. Gilbert. *Being(s): Galatea (Gilbert)*
 - **Les contes d'Hoffmann (The Tales of Hoffmann)** (1881) — Jacques Offenbach / Jules Barbier. *Being(s): Olimpia*
+- **Petrushka** (1911) — Igor Stravinsky / Michel Fokine / Alexandre Benois. *Being(s): Petrushka*
 - **R.U.R. (Rossum's Universal Robots)** (1920) — Karel Capek. *Being(s): R.U.R. Robots*
+- **Der Golem** (1926) — Eugen d'Albert / Ferdinand Lion. *Being(s): The Golem (d'Albert opera)*
+- **A Number** (2002) — Caryl Churchill. *Being(s): Bernard 1 / Bernard 2 / Michael Black*
+- **Hand to God** (2011) — Robert Askins. *Being(s): Tyrone*
+- **Frankenstein** (2011) — Nick Dear / Danny Boyle (after Mary Shelley). *Being(s): The Creature (Nick Dear adaptation)*
+- **The Nether** (2013) — Jennifer Haley. *Being(s): Iris*
+- **The (curious case of the) Watson Intelligence** (2013) — Madeleine George. *Being(s): Watson (the IBM intelligence)*
+- **Marjorie Prime** (2014) — Jordan Harrison. *Being(s): Walter (Prime)*
+- **Be More Chill** (2015) — Joe Iconis / Joe Tracz (after Ned Vizzini). *Being(s): The SQUIP*
+- **Maybe Happy Ending** (2016) — Will Aronson / Hue Park. *Being(s): Oliver and Claire (Helperbots)*
+- **After the Blast** (2017) — Zoe Kazan. *Being(s): Arthur*
 
 ### Novels
 
@@ -144,6 +156,7 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Blade Runner 2049** (2017) — Denis Villeneuve. *Being(s): Joi, K, Luv*
 - **Solo: A Star Wars Story** (2018) — Ron Howard. *Being(s): L3-37*
 - **I Am Mother** (2019) — Grant Sputore. *Being(s): Mother*
+- **Marjorie Prime** (2017) — Michael Almereyda (after Jordan Harrison). *Being(s): Walter (Prime, film)*
 - **After Yang** (2021) — Kogonada. *Being(s): Yang*
 - **Finch** (2021) — Miguel Sapochnik. *Being(s): Jeff*
 - **Free Guy** (2021) — Shawn Levy. *Being(s): Guy*

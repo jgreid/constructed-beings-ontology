@@ -1,0 +1,67 @@
+id: marjorie-prime-film
+name: "Walter (Prime) — film"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: emergent
+    divergence: observer
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Marjorie Prime"
+  year: 2017
+  medium: film
+  creator: "Michael Almereyda (after Jordan Harrison)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - companionship
+    - mirror
+  presentation: masculine
+  embodiment: projected
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - canonical
+    - love-story
+    - philosophical
+
+sequel_link: walter-marjorie-prime-play
+link_type: adaptation
+
+notes: |
+  Michael Almereyda's 2017 film adaptation of Jordan
+  Harrison's 2014 play. Cast: Lois Smith reprising her
+  Off-Broadway Marjorie, Jon Hamm as Walter Prime, Geena
+  Davis as Tess, Tim Robbins as Jon. The film keeps the
+  play's four-scene structure intact and uses Almereyda's
+  signature still, photographic compositions to make the
+  Primes' presentational quietness — their unblinking
+  attentiveness, their slight conversational lag — visible
+  in a way the play could only suggest.
+
+  Card is essentially identical to the stage entry
+  (`walter-marjorie-prime-play`). The film does not shift
+  the substrate, autonomy, or primary-question codings;
+  what it adds is a different epistemic register for the
+  Primes' projected embodiment — their inhabiting of
+  domestic space, their photographic presence, the way
+  Hamm's Walter holds eye contact a beat too long. These
+  are filmic clarifications of the play's stage device, not
+  new constructions.
+
+  Included as a separate entry per the corpus rule that
+  films and plays are separate source-text entries even
+  for direct adaptations. `sequel_link` to the play with
+  `link_type: adaptation`.
+
+  Prominence codes `major` rather than `foundational` —
+  the foundational text is Harrison's play; the film is
+  the most-seen instantiation but not the originating
+  artifact.

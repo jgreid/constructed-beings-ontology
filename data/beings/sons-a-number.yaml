@@ -1,0 +1,86 @@
+id: sons-a-number
+name: "Bernard 1 / Bernard 2 / Michael Black"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: observer
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "A Number"
+  year: 2002
+  medium: play
+  creator: "Caryl Churchill"
+  substrate:
+    - cloned
+    - biological
+  motivation:
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - philosophical
+    - creator-conflict
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Caryl Churchill's *A Number* premiered at the Royal Court
+  (2002, dir. Stephen Daldry; Michael Gambon and Daniel
+  Craig). A 60-minute two-hander in which Salter, the
+  father, meets in turn three of his "sons": Bernard 2 (the
+  one Salter raised, who has just discovered he is a
+  clone), Bernard 1 (the original child, given up after
+  Salter's wife killed herself, whom Salter believed dead),
+  and Michael Black (a third clone produced without
+  Salter's consent by the cloning facility, raised by
+  unrelated parents, contented and ordinary). Each scene is
+  a different son confronting the same father.
+
+  Included as the corpus's foundational play-form
+  treatment of the cloning question — and one of the
+  cleanest tests in any medium of whether shared genome
+  produces shared person. Substrate is `cloned` +
+  `biological`, identical to the Cleon Dynasty entry
+  (`cleons-foundation-tv`); the lineage between Churchill's
+  play and the *Foundation* TV series is direct, with
+  Churchill's central question — "are these the same
+  person?" — restated in *Foundation*'s dynastic frame.
+
+  `ensemble-split` tag because the entry covers three
+  individuated sons within a single source-text. The split
+  is the play's structural device: Bernard 1 (resentful,
+  damaged), Bernard 2 (the trusting raised son), and
+  Michael Black (the contented unaffiliated clone) are
+  presented as the same genome producing radically
+  different persons, and the play refuses to resolve
+  whether this proves identity is genome-determined or
+  experience-determined.
+
+  Interiority is `demonstrated`. Autonomy is `emergent` —
+  Bernard 1 and Bernard 2 are the products of histories
+  their genome did not script. Divergence is `observer`:
+  Salter sees a different son in each meeting, and the
+  play is explicit that these are partly his projections.
+
+  Primary question is `identity`. Knowability is `primary`
+  — the question "is this my son?" is asked literally and
+  cannot be answered. Knowing codes `present`: Salter does
+  not really know any of the three, and they do not really
+  know him, and the play turns on this gap.
+
+  Creator_relationship is `rebellious` — Bernard 1's arc
+  ends in murder (he kills Bernard 2) and Salter's own
+  account of why he had Bernard 2 cloned is the play's
+  central moral wound.

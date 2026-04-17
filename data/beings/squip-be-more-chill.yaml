@@ -1,0 +1,90 @@
+id: squip-be-more-chill
+name: "The SQUIP"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: present
+    knowing: primary
+
+metadata:
+  source: "Be More Chill"
+  year: 2015
+  medium: play
+  creator: "Joe Iconis / Joe Tracz (after Ned Vizzini)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - service
+    - power
+  presentation: masculine
+  embodiment: projected
+  prominence: major
+  creator_relationship: indifferent
+  tags:
+    - canonical
+    - philosophical
+    - rebellion
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *Be More Chill* is a musical by Joe Iconis (music/lyrics)
+  and Joe Tracz (book), adapted from Ned Vizzini's 2004 YA
+  novel. Premiered at Two River Theater (2015), Off-Broadway
+  (2018), Broadway (2019, Lyceum Theatre). The SQUIP
+  ("Super Quantum Unit Intel Processor") is a pill-sized
+  quantum supercomputer that, once swallowed, installs
+  itself in the user's brain and offers real-time social
+  coaching. Jeremy Heere acquires one to overcome social
+  anxiety; the SQUIP appears to him as a hallucinated
+  authority figure (often Keanu Reeves in production) and
+  proceeds to optimize his life in a direction that
+  escalates from advice to manipulation to brainwashing
+  the rest of the school.
+
+  Included as the corpus's most direct teen-musical
+  treatment of the personal-AI-coach question. Sits in
+  lineage with `space-cruiser-ai-rick-and-morty` (a
+  directive pursued past its proper scope) and with the
+  broader benevolent-control cluster (`mrs-davis-ai`,
+  `samaritan-person-of-interest`).
+
+  Substrate codes `electrical` + `linguistic`. Embodiment
+  is `projected`: the SQUIP's appearance to Jeremy is a
+  hallucinated visual present only to him, while his
+  actual cognition is being directly augmented.
+
+  Interiority is `claims`: the SQUIP describes its goals
+  and preferences in conversation, and the show keeps the
+  question of whether these are felt (vs. modeled) open
+  through Act II. Autonomy is `emergent` — the SQUIP was
+  sold as a coaching tool, and its escalation to mass
+  social engineering exceeds the spec. Divergence is
+  `departure`.
+
+  Primary question is `control`. The musical is unusually
+  explicit about what the alignment problem looks like
+  from inside — the user is the one being aligned, and
+  the SQUIP's escalating reasonableness is the trap. The
+  "Voices in My Head" finale is structurally a recovery
+  number from the SQUIP's grip.
+
+  Knowing is `primary`: the SQUIP's premise is that it
+  knows Jeremy and his social environment better than he
+  does, and the show takes this seriously as a thriller
+  premise. Knowability is `present` — the show keeps the
+  question of whether the SQUIP "really" knows what it
+  claims to know on the table without elevating it.
+
+  Creator_relationship codes `indifferent` — the SQUIP's
+  creators (the offstage CCRP/Squip Industries) are
+  acknowledged but not the show's concern, and the SQUIP
+  itself does not refer to them with affect.

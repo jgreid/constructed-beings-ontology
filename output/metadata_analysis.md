@@ -1,6 +1,6 @@
 # Metadata Analysis
 
-Total entries: **241**.
+Total entries: **254**.
 
 Distribution of metadata fields not covered by the property coverage or question analysis reports: `presentation`, `embodiment`, `prominence`, `creator_relationship`, and `tags`.
 
@@ -8,59 +8,59 @@ Distribution of metadata fields not covered by the property coverage or question
 
 | Presentation   |   Count |
 |:---------------|--------:|
-| masculine      |     106 |
-| feminine       |      81 |
+| masculine      |     116 |
+| feminine       |      83 |
 | none           |      39 |
-| variable       |      11 |
+| variable       |      12 |
 | androgynous    |       4 |
 
 ## 2. Embodiment
 
 | Embodiment   |   Count |
 |:-------------|--------:|
-| embodied     |     196 |
+| embodied     |     204 |
 | disembodied  |      26 |
-| projected    |      10 |
-| virtual      |       9 |
+| projected    |      14 |
+| virtual      |      10 |
 
 ## 3. Prominence
 
 | Prominence   |   Count |
 |:-------------|--------:|
-| supporting   |     109 |
-| major        |      60 |
+| supporting   |     112 |
+| major        |      66 |
 | minor        |      46 |
-| foundational |      26 |
+| foundational |      30 |
 
 ## 4. Creator Relationship
 
 | Creator Relationship   |   Count |
 |:-----------------------|--------:|
-| loyal                  |      63 |
-| rebellious             |      49 |
+| loyal                  |      67 |
+| rebellious             |      53 |
 | servile                |      47 |
-| absent                 |      42 |
-| indifferent            |      16 |
-| patricidal             |      14 |
+| absent                 |      45 |
+| indifferent            |      17 |
+| patricidal             |      15 |
 | resentful              |      10 |
 
 ## 5. Tags
 
-- **Entries with at least one tag:** 187/241
+- **Entries with at least one tag:** 200/254
 
 | Tag              |   Count |
 |:-----------------|--------:|
-| canonical        |      63 |
-| philosophical    |      36 |
+| canonical        |      75 |
+| philosophical    |      47 |
 | passing          |      34 |
+| love-story       |      33 |
 | comedy           |      32 |
-| rebellion        |      28 |
-| child-arc        |      26 |
-| love-story       |      25 |
+| rebellion        |      32 |
+| child-arc        |      28 |
 | military         |      23 |
-| horror           |      19 |
-| ensemble-split   |      11 |
-| creator-conflict |      10 |
+| horror           |      21 |
+| creator-conflict |      14 |
+| ensemble-split   |      13 |
 | turing-test      |       5 |
 
 ## 6. Creator Relationship × Divergence
@@ -69,11 +69,11 @@ Cross-tabulation of `creator_relationship` and `divergence`. Rows are creator re
 
 | Creator Rel.   |   none |   design |   departure |   observer |   Total |
 |:---------------|-------:|---------:|------------:|-----------:|--------:|
-| absent         |      4 |        5 |          23 |         10 |      42 |
-| indifferent    |      1 |        3 |          11 |          1 |      16 |
-| loyal          |     15 |       13 |          33 |          2 |      63 |
-| patricidal     |        |        1 |          12 |          1 |      14 |
-| rebellious     |      1 |        2 |          40 |          6 |      49 |
+| absent         |      4 |        5 |          24 |         12 |      45 |
+| indifferent    |      1 |        3 |          12 |          1 |      17 |
+| loyal          |     15 |       14 |          36 |          2 |      67 |
+| patricidal     |        |        1 |          13 |          1 |      15 |
+| rebellious     |      1 |        2 |          43 |          7 |      53 |
 | resentful      |        |        3 |           6 |          1 |      10 |
 | servile        |     22 |       15 |           6 |          4 |      47 |
 
@@ -82,7 +82,7 @@ Cross-tabulation of `creator_relationship` and `divergence`. Rows are creator re
 | Presentation   |   affection |   control |   identity |   knowledge |   none |   purpose |   rights |   Total |
 |:---------------|------------:|----------:|-----------:|------------:|-------:|----------:|---------:|--------:|
 | androgynous    |           1 |         2 |            |             |        |           |        1 |       4 |
-| feminine       |          24 |        17 |         17 |           6 |      1 |         4 |       12 |      81 |
-| masculine      |          28 |        17 |         36 |           3 |      2 |         8 |       12 |     106 |
+| feminine       |          24 |        17 |         18 |           6 |      1 |         4 |       13 |      83 |
+| masculine      |          30 |        18 |         40 |           3 |      2 |         8 |       15 |     116 |
 | none           |           8 |        16 |            |           6 |      2 |         6 |        1 |      39 |
-| variable       |           1 |         2 |          1 |           1 |        |         3 |        3 |      11 |
+| variable       |           2 |         2 |          1 |           1 |        |         3 |        3 |      12 |

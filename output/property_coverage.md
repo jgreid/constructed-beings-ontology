@@ -1,131 +1,131 @@
 # Property Coverage Report
 
-Total entries: **241**.
+Total entries: **254**.
 
 This report counts the distribution of values for each property. List-valued properties (substrate, motivation) count every token separately — hybrids contribute to each of their substrates.
 
 ## Interiority
 
-- **Coded:** 241/241 entries
+- **Coded:** 254/254 entries
 
 | Interiority   |   Count |
 |:--------------|--------:|
-| demonstrated  |     131 |
-| claims        |      46 |
-| undecidable   |      23 |
+| demonstrated  |     137 |
+| claims        |      52 |
+| undecidable   |      24 |
 | none          |      21 |
 | narrated      |      20 |
 
 ## Autonomy
 
-- **Coded:** 241/241 entries
+- **Coded:** 254/254 entries
 
 | Autonomy   |   Count |
 |:-----------|--------:|
-| designed   |      94 |
-| emergent   |      77 |
-| seized     |      61 |
+| designed   |      96 |
+| emergent   |      84 |
+| seized     |      65 |
 | none       |       9 |
 
 ## Divergence
 
-- **Coded:** 241/241 entries
+- **Coded:** 254/254 entries
 
 | Divergence   |   Count |
 |:-------------|--------:|
-| departure    |     131 |
+| departure    |     140 |
+| design       |      43 |
 | none         |      43 |
-| design       |      42 |
-| observer     |      25 |
+| observer     |      28 |
 
 ## Primary Question
 
-- **Coded:** 241/241 entries
+- **Coded:** 254/254 entries
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| affection          |      62 |
-| control            |      54 |
-| identity           |      54 |
-| rights             |      29 |
+| affection          |      65 |
+| identity           |      59 |
+| control            |      55 |
+| rights             |      33 |
 | purpose            |      21 |
 | knowledge          |      16 |
 | none               |       5 |
 
 ## Epistemic Reach
 
-- **Coded:** 241/241 entries
+- **Coded:** 254/254 entries
 
 | Epistemic Reach   |   Count |
 |:------------------|--------:|
-| conversational    |     146 |
-| behavioral        |      58 |
+| conversational    |     156 |
+| behavioral        |      61 |
 | inspection        |      27 |
 | none              |      10 |
 
 ## Knowability
 
-- **Coded:** 241/241 entries
+- **Coded:** 254/254 entries
 
 | Knowability   |   Count |
 |:--------------|--------:|
+| present       |      78 |
 | absent        |      75 |
-| present       |      72 |
 | secondary     |      55 |
-| primary       |      39 |
+| primary       |      46 |
 
 ## Knowing
 
-- **Coded:** 241/241 entries
+- **Coded:** 254/254 entries
 
 | Knowing   |   Count |
 |:----------|--------:|
-| present   |     123 |
-| absent    |      63 |
-| primary   |      32 |
-| secondary |      23 |
+| present   |     128 |
+| absent    |      66 |
+| primary   |      35 |
+| secondary |      25 |
 
 ## Medium
 
-- **Coded:** 241/241 entries
+- **Coded:** 254/254 entries
 
 | Medium      |   Count |
 |:------------|--------:|
-| film        |      79 |
+| film        |      80 |
 | television  |      70 |
 | novel       |      31 |
 | video-game  |      23 |
 | short-story |      18 |
+| play        |      17 |
 | comics      |      10 |
-| play        |       5 |
 | epic        |       2 |
 | poem        |       2 |
 | folklore    |       1 |
 
 ## Substrate
 
-- **Coded:** 241/241 entries
+- **Coded:** 254/254 entries
 
 | Substrate   |   Count |
 |:------------|--------:|
-| electrical  |     203 |
-| mechanical  |     152 |
-| biological  |      67 |
-| linguistic  |      31 |
-| magical     |      26 |
-| cloned      |      10 |
+| electrical  |     210 |
+| mechanical  |     155 |
+| biological  |      71 |
+| linguistic  |      36 |
+| magical     |      30 |
+| cloned      |      11 |
 
 ## Motivation
 
-- **Coded:** 241/241 entries
+- **Coded:** 254/254 entries
 
 | Motivation    |   Count |
 |:--------------|--------:|
-| service       |     169 |
-| knowledge     |      83 |
-| companionship |      67 |
-| other         |      66 |
-| power         |      50 |
+| service       |     174 |
+| knowledge     |      84 |
+| companionship |      76 |
+| other         |      72 |
+| power         |      52 |
 | child         |      39 |
-| mirror        |      35 |
-| art           |      11 |
+| mirror        |      38 |
+| art           |      12 |

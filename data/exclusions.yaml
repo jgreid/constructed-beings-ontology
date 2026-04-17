@@ -304,3 +304,73 @@ entries:
       Millions. The franchise's fully constructed AIs
       (Delamain, Skippy, various Netrunner AIs) would be
       separately includable.
+
+  # ── Theater / performing-arts exclusions ─────────────────────────
+
+  - name: "Eliza Doolittle"
+    source: "Pygmalion (Shaw)"
+    year: 1913
+    reason: metaphorical-construct
+    note: >
+      Shaw's *Pygmalion* (1913) and its musical adaptation
+      *My Fair Lady* (1956) use the Pygmalion myth as a
+      metaphor for class transformation through speech
+      training. Eliza is a born human whose "construction"
+      by Henry Higgins is figurative — accent coaching, not
+      animation of inanimate matter. Excluded on the
+      metaphorical-construct principle. The W.S. Gilbert
+      *Pygmalion and Galatea* (1871) is included as a
+      separate entry because Gilbert's Galatea is a literal
+      animated statue, where Shaw's Eliza is not.
+
+  - name: "Audrey II"
+    source: "Little Shop of Horrors"
+    year: 1982
+    reason: collective-no-individual
+    note: >
+      Howard Ashman / Alan Menken's musical (1982; film
+      1986) features Audrey II, a sentient man-eating plant.
+      Audrey II is raised and trained by Seymour but is
+      ontologically a member of an alien plant species —
+      born, not made, in the same sense as Groot. The
+      cultivation and feeding does not convert the origin.
+      The species is also collective and undifferentiated
+      (the film's ending reveals Audrey II as one of many).
+      Reasonable coders could argue for inclusion as a
+      magical/biological hybrid; excluded conservatively.
+
+  - name: "Mr. Zero"
+    source: "The Adding Machine (Rice)"
+    year: 1923
+    reason: born-then-modified
+    note: >
+      Elmer Rice's expressionist play *The Adding Machine*
+      (1923) and Loesser/Schmidt's musical adaptation (2007)
+      feature Mr. Zero, a clerk who becomes one with his
+      adding machine after being replaced by mechanization.
+      Mr. Zero is a born human whose "machine" identity is
+      psychological/expressionistic, not literal
+      construction. The play is a foundational text in the
+      mechanization-of-the-worker tradition (and a clear
+      antecedent to *R.U.R.*) but does not depict a
+      constructed being.
+
+  - name: "Theatrical puppets representing born characters"
+    source: "War Horse / The Lion King / Life of Pi (stage)"
+    year: 2007
+    reason: metaphorical-construct
+    note: >
+      War Horse's Joey (2007), the Lion King puppets
+      (1997), Richard Parker in the Life of Pi stage
+      adaptation (2019), and similar productions use
+      sophisticated puppetry to represent born biological
+      characters (a horse, lions, a tiger). The puppets
+      are theatrical apparatus, not in-narrative
+      constructed beings. The characters themselves are
+      coded as born animals within the narrative; the
+      puppet is the staging convention, not the being.
+      This is distinct from Petrushka (included), where
+      the puppet IS the being in-narrative, and from
+      Hand to God's Tyrone (included), where the puppet
+      is the being's substrate within the play's
+      metaphysics.

@@ -1,0 +1,89 @@
+id: oliver-claire-maybe-happy-ending
+name: "Oliver and Claire (Helperbots)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: secondary
+
+metadata:
+  source: "Maybe Happy Ending"
+  year: 2016
+  medium: play
+  creator: "Will Aronson / Hue Park"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+  presentation: variable
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: absent
+  tags:
+    - canonical
+    - love-story
+    - philosophical
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *Maybe Happy Ending* is a chamber musical by Will Aronson
+  and Hue Park; premiered Seoul, 2016 (Korean and English
+  productions); West End and Atlanta runs through the
+  2010s; opened on Broadway November 2024 at the Belasco,
+  starring Darren Criss as Oliver and Helen J Shen as
+  Claire (winner of Best Musical and several other Tonys
+  in 2025). Two retired "Helperbots" — Oliver, an obsolete
+  Helperbot 3 still waiting for the human owner who
+  abandoned him, and Claire, a near-end-of-life Helperbot 5
+  whose battery is degrading — meet in a Seoul retirement
+  facility for discontinued companion robots and take a
+  road trip to Jeju Island so that Oliver can return a
+  stack of jazz records to his former owner. They fall in
+  love.
+
+  Included as the corpus's foundational post-Alexa
+  musical-form constructed-being love story, and as the
+  most prominent stage representation of the discarded-
+  helper-AI subgenre. Substrate codes `mechanical` +
+  `electrical`. Presentation codes `variable` for the
+  ensemble — Oliver is masculine-presenting and Claire is
+  feminine-presenting; the entry covers both.
+  `ensemble-split` tag reflects this; both characters
+  warrant individuated cards in a future revision but
+  share the same divergence and primary-question coding,
+  which is what makes the ensemble entry analytically
+  honest.
+
+  Interiority is `demonstrated`: the musical's primary
+  textual operation is to render Oliver's and Claire's
+  interior states through song, and the audience is asked
+  to take their sentience as the dramatic given.
+  Autonomy is `emergent` — Helperbots were sold to perform
+  domestic tasks, and the road trip and the relationship
+  are extra-spec activities the bots have undertaken on
+  their own initiative. Divergence is `departure`.
+
+  Primary question is `affection`. The musical's emotional
+  engine is whether two beings designed for service can
+  have a real relationship with each other absent any
+  human user — and the answer the musical commits to is
+  unambiguous yes, with the bittersweet condition that
+  Claire's failing battery means the relationship will
+  end on a finite timeline. The "maybe" of the title is
+  whether to choose the relationship knowing this.
+
+  Sits in direct lineage with `wall-e` (small-domestic-bot
+  romance) and `klara-and-the-sun` (the discarded-companion
+  question), as well as with `mia-humans` and the broader
+  post-Siri/Alexa companion-AI cluster.

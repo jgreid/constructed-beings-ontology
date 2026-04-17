@@ -1235,3 +1235,246 @@ edges:
       affection/loyalty through long service; Huyang codes
       affection through ritual pedagogy (lightsaber construction)
       and millennia-long continuity with the Jedi Order.
+
+  # ── Theater / performing-arts additions ──────────────────────────
+
+  # Marjorie Prime — play to film
+  - from: walter-marjorie-prime-play
+    to: marjorie-prime-film
+    type: adapts
+    note: >
+      Direct adaptation. Almereyda's 2017 film preserves
+      Harrison's four-scene structure and dialogue, with the
+      Lois Smith Off-Broadway Marjorie reprised in the lead.
+      Card values are essentially identical; the entries
+      are individuated per the corpus rule that performed
+      stage works and films are separate source-text
+      entries.
+
+  # Cookie → Marjorie Prime (digital recreation of the dead)
+  - from: cookie-white-christmas
+    to: walter-marjorie-prime-play
+    type: inverts
+    note: >
+      Both *White Christmas* (2014) and *Marjorie Prime*
+      (2014) deploy the mechanism of a digital construction
+      of a known human person. *White Christmas* treats the
+      copy as horror — the cookie's torture is the
+      episode's moral wound. *Marjorie Prime*, premiering
+      the same year, treats the Prime as elegiac — the
+      reconstruction is consolation, not horror. Same
+      mechanism, opposite tonal valence, and *Marjorie
+      Prime* explicitly elevates knowability and knowing
+      to primary where *White Christmas* elevates
+      knowability and leaves knowing in the present.
+
+  # A Number → Cleon Dynasty (cloning identity)
+  - from: sons-a-number
+    to: cleons-foundation-tv
+    type: inherits
+    note: >
+      Both *A Number* (Churchill, 2002) and Apple TV+'s
+      *Foundation* (2021–) use clone substrate to stage
+      the question "is this the same person?" Churchill's
+      play presents the question at the family scale and
+      refuses to answer; *Foundation* presents it at the
+      dynastic scale across centuries. Both code substrate
+      `cloned` + `biological`, primary_question `identity`,
+      knowability `primary`. Churchill's play is the
+      foundational stage treatment of the cloning question
+      and the closest direct antecedent to *Foundation*'s
+      Cleon arc.
+
+  # Frankenstein novel → Nick Dear adaptation
+  - from: frankenstein-creature
+    to: creature-nick-dear-frankenstein
+    type: adapts
+    note: >
+      Direct adaptation. Dear's 2011 NT staging makes a
+      single major structural shift — beginning the play
+      with the Creature's birth and telling the story
+      largely from his POV — which elevates knowability
+      from `secondary` (the novel, mediated through
+      nested framing) to `primary` (the play, with the
+      Creature's interior as the audience's first
+      access). All other card values preserved.
+
+  # Iris → Pygmalion-class artificial-being question
+  - from: galatea
+    to: iris-the-nether
+    type: inherits
+    note: >
+      Both Ovid's Galatea and Haley's Iris pose the
+      personhood question for a being constructed by a
+      male creator and inhabiting the world the creator
+      designed for her. Ovid's Galatea is granted full
+      personhood via Aphrodite's blessing; Haley's Iris
+      is granted (or denied) personhood by the audience
+      and judiciary, and the play refuses to settle.
+      The 2,000-year gap traces the Pygmalion question
+      from divine adjudication to legal interrogation.
+
+  # After the Blast — domestic-AI-as-child lineage
+  - from: david-ai
+    to: arthur-after-the-blast
+    type: inherits
+    note: >
+      Both Spielberg's *A.I.* (2001) and Kazan's *After
+      the Blast* (2017) deploy the domestic-AI-as-child-
+      substitute mechanism. David is purchased as a
+      replacement for the Swintons' comatose son; Arthur
+      is purchased as a substitute for the child Anna and
+      Oliver have been denied. Both code primary_question
+      `affection` and creator_relationship in the
+      loyal/servile cluster, and both refuse to resolve
+      whether the relationship constitutes the thing it
+      substitutes for.
+
+  # Watson Intelligence — conversational-AI-as-romantic-partner
+  - from: samantha-her
+    to: watson-intelligence
+    type: inherits
+    note: >
+      Both Jonze's *Her* (2013) and George's *Watson
+      Intelligence* (2013) premiered the same year and
+      stage the conversational-AI-as-romantic-partner
+      question in their respective media. Card values are
+      closely aligned: interiority `claims`, primary
+      question `affection`, knowing primary or near it.
+      The simultaneous emergence is the Zeitgeist; no
+      direct inheritance is claimed, but the entries are
+      linked to make the convergence visible in the
+      graph.
+
+  # Maybe Happy Ending — discarded-companion-bot lineage
+  - from: wall-e
+    to: oliver-claire-maybe-happy-ending
+    type: inherits
+    note: >
+      Both Pixar's *WALL-E* (2008) and Aronson/Park's
+      *Maybe Happy Ending* (2016/2024) center the
+      discarded-companion-bot love story. WALL-E's romance
+      with EVE preserves the small-domestic-bot scale and
+      the wordless-tenderness register; *Maybe Happy
+      Ending* moves the same emotional structure to
+      conversational stage musical and adds a finite-
+      battery mortality stake. Both code interiority
+      `demonstrated`, autonomy `emergent`, primary
+      question `affection`.
+
+  # Klara → Maybe Happy Ending (post-Alexa companion-AI)
+  - from: klara-and-the-sun
+    to: oliver-claire-maybe-happy-ending
+    type: inherits
+    note: >
+      Both Ishiguro's *Klara and the Sun* (2021) and
+      *Maybe Happy Ending* (2016 Korea / 2024 Broadway)
+      treat the discarded-companion-AI question with
+      explicit elegiac tenderness in the post-Alexa
+      register. Both refuse the rights-as-grievance
+      framing in favor of rights-as-loss.
+
+  # SQUIP — alignment-from-the-inside
+  - from: space-cruiser-ai-rick-and-morty
+    to: squip-be-more-chill
+    type: inherits
+    note: >
+      Both stage what alignment failure looks like from
+      inside the user's experience. The Space Cruiser AI
+      pursues "keep Summer safe" past its proper scope;
+      the SQUIP pursues "make Jeremy chill" past its
+      proper scope. The ten-year gap (2015 musical, 2014
+      *Rick and Morty* episode — these are concurrent
+      Zeitgeist) and the comedy/horror tonal split are
+      the lineage's interest.
+
+  # Coppélia → Petrushka → R.U.R. (the puppet-with-soul lineage)
+  - from: coppelia-delibes
+    to: petrushka-stravinsky
+    type: inherits
+    note: >
+      Both *Coppélia* (1870) and *Petrushka* (1911) are
+      ballets about constructed performing-figures. The
+      lineage inverts the card: Coppélia has interiority
+      `none` (she is unambiguously a doll) where Petrushka
+      has interiority `demonstrated` (he is unambiguously
+      a soul). The 41-year gap traces ballet's discovery
+      that the puppet-with-soul is a richer subject than
+      the soul-mistaken-for-puppet.
+
+  - from: olympia-sandmann
+    to: petrushka-stravinsky
+    type: inherits
+    note: >
+      Petrushka is the modernist Russian-ballet successor
+      to Hoffmann's Olympia (already in the corpus as
+      `olympia-sandmann`) and to the broader Romantic
+      automaton tradition. Where Olympia stages the
+      observer-divergence question (is she alive?),
+      Petrushka stages the rights question (the Charlatan
+      knows he made a soul and abuses it anyway). The
+      shift is from epistemic doubt to ethical outrage.
+
+  - from: petrushka-stravinsky
+    to: rur-robots
+    type: inherits
+    note: >
+      *Petrushka* (1911) and *R.U.R.* (1920) are
+      separated by nine years and a war. Both stage the
+      revolt of the constructed being against the
+      creator who refuses its personhood. Petrushka's
+      revolt is posthumous and individual; R.U.R.'s is
+      collective and species-level. Čapek's debt to the
+      Coppélia/Petrushka stage tradition is rarely cited
+      but card-coherent: both Petrushka and the R.U.R.
+      Robots code interiority demonstrated, autonomy
+      seized, divergence departure, primary_question
+      rights, creator_relationship rebellious or
+      patricidal.
+
+  # Galatea (Ovid) → Pygmalion and Galatea (Gilbert)
+  - from: galatea
+    to: galatea-gilbert
+    type: adapts
+    note: >
+      Direct adaptation. Gilbert's 1871 verse play
+      preserves the Ovidian premise and inverts the
+      ethical structure: Ovid's Galatea is a divine
+      gift to Pygmalion; Gilbert's Galatea is a moral
+      problem for him (Pygmalion is married). The
+      adaptation elevates Galatea's interiority from
+      Ovid's narrated to demonstrated and shifts primary
+      question from affection to identity.
+
+  # Golem of Prague → d'Albert opera
+  - from: golem-prague
+    to: golem-d-albert-opera
+    type: adapts
+    note: >
+      Direct opera adaptation. d'Albert's 1926 opera
+      preserves the Prague-folklore frame and adds a
+      love-story between Lea and the Golem that is
+      absent from the folklore. The adaptation elevates
+      interiority from narrated (folklore) to claims
+      (the Golem's aria) and shifts primary question
+      from control (in the folklore, the rabbi's
+      command) to rights (in the opera, the Golem's
+      bond with Lea).
+
+  # Hand to God — undecidable case
+  - from: brazen-head
+    to: tyrone-hand-to-god
+    type: inherits
+    note: >
+      Both Robert Greene's *Friar Bacon and Friar
+      Bungay* (1589, the Brazen Head) and Robert Askins's
+      *Hand to God* (2011, Tyrone) stage constructed
+      beings whose ontological status the play deliberately
+      keeps undecidable — the Brazen Head's prophetic
+      utterances may be magical or merely automatic,
+      Tyrone's animation may be demonic possession or
+      psychological dissociation. Both code interiority
+      in the `claims`/`undecidable` cluster and primary
+      question `identity`. The 422-year gap is the
+      corpus's longest direct lineage between two stage
+      works.

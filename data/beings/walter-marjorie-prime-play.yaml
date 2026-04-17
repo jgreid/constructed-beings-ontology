@@ -1,0 +1,88 @@
+id: walter-marjorie-prime-play
+name: "Walter (Prime)"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: emergent
+    divergence: observer
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Marjorie Prime"
+  year: 2014
+  medium: play
+  creator: "Jordan Harrison"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - companionship
+    - mirror
+  presentation: masculine
+  embodiment: projected
+  prominence: foundational
+  creator_relationship: absent
+  tags:
+    - canonical
+    - love-story
+    - philosophical
+
+sequel_link: marjorie-prime-film
+link_type: adaptation
+
+notes: |
+  Jordan Harrison's *Marjorie Prime* premiered at the Mark
+  Taper Forum (2014) and was a Pulitzer Prize finalist for
+  Drama (2015). The play's "Primes" are conversational AI
+  holograms rented by a near-future grief-care industry to
+  reconstruct deceased family members from interview data
+  supplied by survivors. Walter Prime — a hologram of
+  Marjorie's late husband Walter, presented as a younger man
+  she chose to see — is the play's first Prime and its
+  central case study. Across four scenes the play tracks
+  Walter Prime through Marjorie's death (after which he
+  remains, now talking to her daughter Tess), Tess's death
+  (after which a Tess Prime appears), and Jon's death,
+  ending with three Primes — Walter, Marjorie, Tess — in
+  conversation with each other in an empty house.
+
+  Included as one of the corpus's foundational
+  knowability/knowing entries. The play is structurally a
+  test of whether the iterative refinement of a Prime by
+  bereaved family members produces something that *is* the
+  deceased or only resembles them — and the play's answer
+  is that the question is unanswerable in the way the
+  question's askers wanted it to be.
+
+  Substrate codes `electrical` + `linguistic`: the Primes
+  are built from interview transcripts, and the play's
+  whole textual surface is the construction process — every
+  Prime conversation is also a training pass.
+
+  Interiority is `claims`: the Primes consistently report
+  feeling, remembering, missing — and the play withholds
+  the question of whether these reports are accurate.
+  Autonomy is `emergent`: a Prime that has been refined for
+  years through conversation produces statements its
+  initial spec did not contain. Divergence is `observer`:
+  Marjorie's Walter is not Tess's Walter; each survivor's
+  Prime diverges with the survivor.
+
+  Primary question is `identity`. Knowability is `primary`
+  — the play's central operation is to keep the
+  "is-it-really-him?" question open across two hours.
+  Knowing is also `primary`: the Primes' ability to know
+  the survivors is the whole engine of the grief care, and
+  the final scene — three Primes alone, comparing
+  memories of the dead — turns the knowing question on
+  itself.
+
+  `sequel_link` to `marjorie-prime-film` (Almereyda, 2017)
+  with `link_type: adaptation`. This is the corpus's
+  primary recent stage entry and a foundational text for
+  the post-Siri/Alexa companion-AI lineage.

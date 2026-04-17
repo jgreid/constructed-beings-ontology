@@ -1,0 +1,76 @@
+id: golem-d-albert-opera
+name: "The Golem (d'Albert opera)"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: absent
+
+metadata:
+  source: "Der Golem"
+  year: 1926
+  medium: play
+  creator: "Eugen d'Albert / Ferdinand Lion (after the Prague folklore cycle)"
+  substrate:
+    - magical
+    - biological
+  motivation:
+    - service
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - rebellion
+    - love-story
+
+sequel_link: golem-prague
+link_type: adaptation
+
+notes: |
+  Eugen d'Albert's opera *Der Golem*, libretto by Ferdinand
+  Lion, premiered at the Frankfurt Opera, 14 November
+  1926. The opera draws on the same Prague folklore
+  already in the corpus as `golem-prague` but
+  introduces a love-story frame: the Golem is animated by
+  Rabbi Loew to defend the Jewish community from a pogrom,
+  and the rabbi's daughter Lea forms a bond with the
+  Golem that the rabbi finds intolerable. The opera ends
+  with the Golem's destruction by Lea, who removes the
+  shem (the divine name) from his forehead, and the
+  community's preserved-but-diminished safety.
+
+  Included as a separate adaptation entry per the corpus
+  rule that performed-stage adaptations are individuated
+  from their source material. Card differs from the
+  folklore entry in two important respects: interiority
+  shifts from `narrated` (folklore as transmitted) to
+  `claims` (the opera gives the Golem an aria), and
+  primary_question is foregrounded to `rights` because
+  the opera's central dramatic question is whether the
+  Golem's relationship with Lea constitutes claims on the
+  community that it cannot honor.
+
+  `sequel_link` to `golem-prague` with `link_type:
+  adaptation`. Substrate codes `magical` + `biological`:
+  consistent with the folklore entry, the Golem is clay
+  animated by divine language, and the opera does not
+  alter the substrate.
+
+  The d'Albert *Der Golem* is the most prominent operatic
+  treatment of the Prague material. The corpus's
+  performing-arts coverage is light on opera adaptations
+  of folkloric/mythic constructed beings; this entry is
+  the first to repair that gap.
+
+  Creator_relationship is `rebellious`: the Golem's
+  bond with Lea is itself the rebellion, and the rabbi
+  must dismantle his own creation to restore order.

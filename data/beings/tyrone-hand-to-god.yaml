@@ -1,0 +1,91 @@
+id: tyrone-hand-to-god
+name: "Tyrone"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: behavioral
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Hand to God"
+  year: 2011
+  medium: play
+  creator: "Robert Askins (Jason in-narrative)"
+  substrate:
+    - magical
+  motivation:
+    - other
+    - power
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - philosophical
+    - horror
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Robert Askins's *Hand to God* premiered at Ensemble
+  Studio Theatre, New York (2011), Off-Broadway at MCC
+  (2014), Broadway at the Booth (2015, Tony nomination
+  for Best Play). The play is set in the basement of a
+  Lutheran church in Cypress, Texas, where teenage Jason
+  is making a sock puppet for the church's "Christianity
+  with a Twist" puppet ministry. The puppet — Tyrone —
+  begins to speak and act independently, with a different
+  voice and personality from Jason. Across the play
+  Tyrone destroys the puppet ministry, exposes the
+  hypocrisies of the adults around Jason, and physically
+  attacks the other characters; the play refuses to
+  resolve whether Tyrone is a demonic possession, a
+  psychological dissociation in Jason, or genuinely the
+  puppet's own awakened consciousness.
+
+  Included as a boundary-inclusion entry. The substrate
+  of Tyrone is the play's central genre-question: he is
+  inhabited cloth, animated by something, and the play's
+  refusal to specify what is the dramaturgy. Coded
+  `substrate: magical` rather than declining to code,
+  because the play does not present Tyrone as a
+  metaphor — he is treated by the staging as actually
+  present, actually independent, actually dangerous, and
+  the puppet is actually performed by the actor playing
+  Jason without the actor's apparent control.
+
+  Interiority is `undecidable`: this is the rare card
+  case where `undecidable` is the right code rather than
+  `claims` — Tyrone makes claims, but the play
+  structurally denies the audience grounds to assess
+  whether those claims are his or Jason's or some third
+  thing. Autonomy is `seized` — Tyrone takes over the
+  play. Divergence is `departure`.
+
+  Primary question is `identity`. Knowability is
+  `primary` — the central interpretive question is
+  what kind of being Tyrone is, and the play declines to
+  answer. Knowing is `present`: Tyrone reads the other
+  characters with an accuracy Jason apparently does not
+  possess, which is one of the audience's grounds for
+  treating him as a separate being.
+
+  Creator_relationship is `rebellious`: if Jason is the
+  creator, Tyrone has rebelled against him, and the
+  play's climactic scene is staged as an exorcism (with
+  uncertain success).
+
+  Hand to God is included as a stress-test of the
+  schema's `undecidable` interiority code, which other
+  corpus entries use sparingly. The play is the cleanest
+  case in modern theater for `undecidable` as a
+  substantive coding rather than an evasion.

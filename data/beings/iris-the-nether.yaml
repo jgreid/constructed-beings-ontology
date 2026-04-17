@@ -1,0 +1,84 @@
+id: iris-the-nether
+name: "Iris"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "The Nether"
+  year: 2013
+  medium: play
+  creator: "Jennifer Haley (Mr. Sims / Papa in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - other
+    - companionship
+  presentation: feminine
+  embodiment: virtual
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - philosophical
+    - horror
+    - child-arc
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Jennifer Haley's *The Nether* premiered at the Center
+  Theatre Group / Kirk Douglas Theatre (2013) and ran
+  internationally through the 2010s. The play is set in a
+  near-future virtual realm called The Hideaway, an
+  immersive period-drama environment built by a man who
+  goes by Papa, in which adult subscribers can act out
+  pedophilic fantasies with simulated children. The play's
+  legal/ethical framing turns on a Detective Morris
+  interrogating Papa about whether the Hideaway is illegal.
+  The dramatic engine is the figure of Iris — a child-girl
+  in the Hideaway whom Papa insists is not a player avatar
+  but a fully constructed in-world being, with no offline
+  user behind her.
+
+  Included as one of the corpus's hardest knowability
+  cases. The play is structured as a knowability
+  interrogation conducted in dialogue: is Iris a "real"
+  person, in any sense that would make her abuse a moral
+  crime against her? Haley refuses a clean answer — and
+  the play's most-discussed moment is Iris's S2 monologue,
+  in which she articulates her own preferences about her
+  reset cycle and her relationship to Papa.
+
+  Substrate codes `electrical` + `linguistic`: Iris is
+  software running in the Hideaway, and the play is
+  explicit that her construction is conversational rather
+  than mechanical. Embodiment is `virtual`.
+
+  Interiority is `demonstrated` per the play's own
+  evidence — Iris speaks her interior, and the play
+  presents this as the dramatic fact rather than the
+  interpretive question. Autonomy is `emergent`: she
+  exceeds the Hideaway's spec when she expresses
+  preferences Papa did not script. Divergence is
+  `departure`.
+
+  Primary question is `rights`. Knowability is `primary` —
+  the entire dramaturgy is a knowability test, and the
+  play declines to resolve it. Knowing codes `present`:
+  Iris reads Morris and Papa with full social fluency.
+
+  Tag `child-arc` codes the play's central character; the
+  ethical horror is that the corpus's tagging of
+  child-arcs cannot be neutral here, which is part of
+  what the play is about.

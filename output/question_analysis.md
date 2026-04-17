@@ -1,6 +1,6 @@
 # Question Analysis
 
-Total entries: **241**.
+Total entries: **254**.
 
 The schema tracks two meta-properties: `knowability` (can we verify its mind?) and `knowing` (can it know us?). This report tracks both, plus the distribution of `primary_question`.
 
@@ -8,10 +8,10 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| affection          |      62 |
-| control            |      54 |
-| identity           |      54 |
-| rights             |      29 |
+| affection          |      65 |
+| identity           |      59 |
+| control            |      55 |
+| rights             |      33 |
 | purpose            |      21 |
 | knowledge          |      16 |
 | none               |       5 |
@@ -38,10 +38,10 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 | Primary Question   |   Count |
 |:-------------------|--------:|
 | affection          |       9 |
-| identity           |       5 |
+| identity           |       6 |
 | control            |       4 |
+| rights             |       4 |
 | purpose            |       2 |
-| rights             |       2 |
 
 ### Late Modern
 
@@ -59,10 +59,10 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| affection          |      35 |
-| identity           |      27 |
-| control            |      23 |
-| rights             |      18 |
+| affection          |      38 |
+| identity           |      31 |
+| control            |      24 |
+| rights             |      20 |
 | knowledge          |       6 |
 | purpose            |       6 |
 | none               |       1 |
@@ -72,18 +72,18 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 | Knowability   |   Count |
 |:--------------|--------:|
 | absent        |      75 |
-| present       |      72 |
+| present       |      78 |
 | secondary     |      55 |
-| primary       |      39 |
+| primary       |      46 |
 
 ## 4. Knowing Distribution
 
 | Knowing   |   Count |
 |:----------|--------:|
-| absent    |      63 |
-| present   |     123 |
-| secondary |      23 |
-| primary   |      32 |
+| absent    |      66 |
+| present   |     128 |
+| secondary |      25 |
+| primary   |      35 |
 
 ## 5. Knowability vs. Knowing Divergence
 
@@ -95,9 +95,12 @@ Entries where knowability and knowing have different values. A single-axis appro
 | The Venus of Ille                                             | La Vénus d'Ille                                         |   1837 | present       | absent    |
 | The Steadfast Tin Soldier                                     | Den standhaftige tinsoldat (The Steadfast Tin Soldier)  |   1838 | absent        | present   |
 | Coppélia                                                      | Coppélia, ou la Fille aux yeux d'émail                  |   1870 | secondary     | absent    |
+| Galatea (Gilbert)                                             | Pygmalion and Galatea                                   |   1871 | present       | absent    |
 | Olimpia (Tales of Hoffmann)                                   | Les contes d'Hoffmann (The Tales of Hoffmann)           |   1881 | secondary     | absent    |
 | Hadaly                                                        | L'Ève future (Tomorrow's Eve)                           |   1886 | primary       | present   |
 | Moxon's Master                                                | Moxon's Master                                          |   1899 | present       | absent    |
+| Petrushka                                                     | Petrushka                                               |   1911 | primary       | absent    |
+| The Golem (d'Albert opera)                                    | Der Golem                                               |   1926 | present       | absent    |
 | The Bride                                                     | Bride of Frankenstein                                   |   1935 | present       | absent    |
 | Adam Link                                                     | I, Robot (Adam Link series)                             |   1939 | secondary     | present   |
 | The Dreamed Man                                               | Las ruinas circulares (The Circular Ruins)              |   1940 | primary       | absent    |
@@ -147,6 +150,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Robot Santa Claus                                             | Futurama                                                |   1999 | absent        | secondary |
 | SHODAN (System Shock 2)                                       | System Shock 2                                          |   1999 | present       | secondary |
 | Cortana                                                       | Halo: Combat Evolved / Halo 2 / Halo 3                  |   2001 | present       | secondary |
+| Bernard 1 / Bernard 2 / Michael Black                         | A Number                                                |   2002 | primary       | present   |
 | Tachikomas                                                    | Ghost in the Shell: Stand Alone Complex                 |   2002 | secondary     | present   |
 | HK-47                                                         | Star Wars: Knights of the Old Republic                  |   2003 | absent        | present   |
 | VIKI                                                          | I, Robot (film)                                         |   2004 | present       | absent    |
@@ -157,10 +161,13 @@ Entries where knowability and knowing have different values. A single-axis appro
 | BMO                                                           | Adventure Time                                          |   2010 | absent        | present   |
 | EDI                                                           | Mass Effect 2 / Mass Effect 3                           |   2010 | secondary     | present   |
 | Legion (the Geth)                                             | Mass Effect 2                                           |   2010 | secondary     | present   |
+| The Creature (Nick Dear adaptation)                           | Frankenstein (Nick Dear)                                |   2011 | primary       | present   |
 | GLaDOS (Portal 2)                                             | Portal 2                                                |   2011 | present       | secondary |
 | The TARDIS (Idris)                                            | Doctor Who, 'The Doctor's Wife'                         |   2011 | present       | primary   |
+| Tyrone                                                        | Hand to God                                             |   2011 | primary       | present   |
 | David 8                                                       | Prometheus / Alien: Covenant                            |   2012 | primary       | present   |
 | Breq (Justice of Toren One Esk Nineteen)                      | Ancillary Justice                                       |   2013 | secondary     | present   |
+| Iris                                                          | The Nether                                              |   2013 | primary       | present   |
 | Baymax                                                        | Big Hero 6                                              |   2014 | absent        | present   |
 | Butter Robot                                                  | Rick and Morty                                          |   2014 | secondary     | absent    |
 | CASE                                                          | Interstellar                                            |   2014 | absent        | present   |
@@ -174,13 +181,16 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Mia (Anita)                                                   | Humans                                                  |   2015 | primary       | present   |
 | Niska                                                         | Humans                                                  |   2015 | primary       | present   |
 | Space Cruiser AI                                              | Rick and Morty                                          |   2015 | absent        | secondary |
+| The SQUIP                                                     | Be More Chill                                           |   2015 | present       | primary   |
 | Bernard Lowe                                                  | Westworld                                               |   2016 | primary       | present   |
 | DiMA                                                          | Fallout 4: Far Harbor                                   |   2016 | primary       | present   |
 | Janet                                                         | The Good Place                                          |   2016 | secondary     | primary   |
 | K-2SO                                                         | Rogue One: A Star Wars Story                            |   2016 | absent        | present   |
 | Maeve Millay                                                  | Westworld                                               |   2016 | secondary     | present   |
+| Oliver and Claire (Helperbots)                                | Maybe Happy Ending                                      |   2016 | present       | secondary |
 | 2B (YoRHa No. 2 Type B)                                       | Nier: Automata                                          |   2017 | secondary     | present   |
 | 9S (YoRHa No. 9 Type S)                                       | Nier: Automata                                          |   2017 | secondary     | present   |
+| Arthur                                                        | After the Blast                                         |   2017 | present       | secondary |
 | Nanette Cole (USS Callister crew)                             | Black Mirror, 'USS Callister'                           |   2017 | primary       | present   |
 | GAIA                                                          | Horizon Zero Dawn                                       |   2017 | secondary     | primary   |
 | Isaac                                                         | The Orville                                             |   2017 | secondary     | present   |
@@ -211,7 +221,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Andy                                                          | Alien: Romulus                                          |   2024 | secondary     | present   |
 | Roz (ROZZUM unit 7134)                                        | The Wild Robot                                          |   2024 | secondary     | present   |
 
-**119 of 241 entries diverge.**
+**129 of 254 entries diverge.**
 
 ## 6. Entries by Knowability (chronological)
 
@@ -303,8 +313,10 @@ Entries where knowability and knowing have different values. A single-axis appro
 | The Creature                             | Frankenstein; or, The Modern Prometheus                             |   1818 | affection   |
 | The Homunculus                           | Faust, Part Two                                                     |   1832 | identity    |
 | The Venus of Ille                        | La Vénus d'Ille                                                     |   1837 | control     |
+| Galatea (Gilbert)                        | Pygmalion and Galatea                                               |   1871 | identity    |
 | Pinocchio                                | Le avventure di Pinocchio (Adventures of Pinocchio)                 |   1883 | identity    |
 | Moxon's Master                           | Moxon's Master                                                      |   1899 | control     |
+| The Golem (d'Albert opera)               | Der Golem                                                           |   1926 | rights      |
 | The Bride                                | Bride of Frankenstein                                               |   1935 | affection   |
 | Helen O'Loy                              | Helen O'Loy                                                         |   1938 | affection   |
 | Jim Hammond (The Original Human Torch)   | Marvel Comics #1                                                    |   1939 | identity    |
@@ -354,13 +366,17 @@ Entries where knowability and knowing have different values. A single-axis appro
 | The TARDIS (Idris)                       | Doctor Who, 'The Doctor's Wife'                                     |   2011 | affection   |
 | Wheatley                                 | Portal 2                                                            |   2011 | control     |
 | Dorian                                   | Almost Human                                                        |   2013 | affection   |
+| Watson (the IBM intelligence)            | The (curious case of the) Watson Intelligence                       |   2013 | affection   |
 | Mr. Meeseeks                             | Rick and Morty                                                      |   2014 | purpose     |
 | Samaritan                                | Person of Interest                                                  |   2014 | control     |
 | Nick Valentine                           | Fallout 4                                                           |   2015 | identity    |
+| The SQUIP                                | Be More Chill                                                       |   2015 | control     |
 | Ultron                                   | Avengers: Age of Ultron                                             |   2015 | control     |
 | Vision                                   | Avengers: Age of Ultron                                             |   2015 | identity    |
+| Oliver and Claire (Helperbots)           | Maybe Happy Ending                                                  |   2016 | affection   |
 | Roz (ROZZUM unit 7134)                   | The Wild Robot                                                      |   2016 | affection   |
 | Sidra (formerly Lovelace)                | A Closed and Common Orbit                                           |   2016 | identity    |
+| Arthur                                   | After the Blast                                                     |   2017 | affection   |
 | Kara (AX400)                             | Detroit: Become Human                                               |   2018 | affection   |
 | L3-37                                    | Solo: A Star Wars Story                                             |   2018 | rights      |
 | IG-11                                    | The Mandalorian                                                     |   2019 | affection   |
@@ -437,6 +453,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Entity                                                        | Source                                            |   Year | Primary Q   |
 |:--------------------------------------------------------------|:--------------------------------------------------|-------:|:------------|
 | Hadaly                                                        | L'Ève future (Tomorrow's Eve)                     |   1886 | affection   |
+| Petrushka                                                     | Petrushka                                         |   1911 | rights      |
 | The Dreamed Man                                               | Las ruinas circulares (The Circular Ruins)        |   1940 | identity    |
 | Agilulf                                                       | Il cavaliere inesistente (The Nonexistent Knight) |   1959 | identity    |
 | Harey (the Solaris visitor)                                   | Solaris                                           |   1961 | knowledge   |
@@ -449,14 +466,19 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Major Motoko Kusanagi                                         | Ghost in the Shell (Kōkaku Kidōtai)               |   1995 | identity    |
 | Rei Toei                                                      | Idoru                                             |   1996 | affection   |
 | David                                                         | A.I. Artificial Intelligence                      |   2001 | affection   |
+| Bernard 1 / Bernard 2 / Michael Black                         | A Number                                          |   2002 | identity    |
 | Cameron Phillips                                              | Terminator: The Sarah Connor Chronicles           |   2008 | affection   |
 | The Digients (Ana / Jax / Marco / Polo)                       | The Lifecycle of Software Objects                 |   2010 | rights      |
+| The Creature (Nick Dear adaptation)                           | Frankenstein (Nick Dear)                          |   2011 | rights      |
 | The Machine                                                   | Person of Interest                                |   2011 | control     |
+| Tyrone                                                        | Hand to God                                       |   2011 | identity    |
 | David 8                                                       | Prometheus / Alien: Covenant                      |   2012 | identity    |
 | Ash (reconstructed)                                           | Black Mirror, 'Be Right Back'                     |   2013 | affection   |
+| Iris                                                          | The Nether                                        |   2013 | rights      |
 | Samantha                                                      | Her                                               |   2013 | knowledge   |
 | Ava                                                           | Ex Machina                                        |   2014 | knowledge   |
 | Cookie (digital copy)                                         | Black Mirror, 'White Christmas'                   |   2014 | rights      |
+| Walter (Prime)                                                | Marjorie Prime                                    |   2014 | identity    |
 | Mia (Anita)                                                   | Humans                                            |   2015 | rights      |
 | Niska                                                         | Humans                                            |   2015 | rights      |
 | Bernard Lowe                                                  | Westworld                                         |   2016 | identity    |
@@ -464,6 +486,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Dolores Abernathy                                             | Westworld                                         |   2016 | rights      |
 | Nanette Cole (USS Callister crew)                             | Black Mirror, 'USS Callister'                     |   2017 | rights      |
 | Joi                                                           | Blade Runner 2049                                 |   2017 | affection   |
+| Walter (Prime) — film                                         | Marjorie Prime                                    |   2017 | identity    |
 | Markus (RK200)                                                | Detroit: Become Human                             |   2018 | rights      |
 | Adam                                                          | Machines Like Me                                  |   2019 | rights      |
 | Ashley Too                                                    | Black Mirror: Rachel, Jack and Ashley Too         |   2019 | identity    |
