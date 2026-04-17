@@ -1,0 +1,69 @@
+id: robot-santa-futurama
+name: "Robot Santa Claus"
+
+card:
+  the_being:
+    interiority: narrated
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: secondary
+
+metadata:
+  source: "Futurama"
+  year: 1999
+  medium: television
+  creator: "Matt Groening / David X. Cohen (Friendly Robot Company in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: absent
+  tags:
+    - comedy
+    - horror
+    - philosophical
+    - ensemble-split
+
+sequel_link: bender-futurama
+link_type: successor
+
+notes: |
+  Robot Santa debuts in "Xmas Story" (S2E8, 1999) and recurs
+  across *Futurama*'s run as the series' reliable holiday
+  antagonist. Built in 2801 by the Friendly Robot Company to
+  determine whether children have been naughty or nice and
+  distribute gifts or punishments accordingly; his standards
+  calibration was set too strictly, so he judges everyone
+  naughty and descends on New New York each December 25th
+  to murder the guilty (i.e., everyone).
+
+  Added as an `ensemble-split` from `bender-futurama`. The
+  split is analytically important because Robot Santa is the
+  corpus's cleanest comedy-register `divergence: design`
+  case after the Butter Robot. His entire premise is that
+  he is working as specified and the specification is the
+  problem — a canonical alignment parable rendered as
+  slapstick.
+
+  Interiority is `narrated`: the show gives us his reasoning
+  via voiceover and first-person dialogue, but frames it as
+  comic exposition rather than genuine phenomenal
+  experience. Autonomy is `designed` — he does exactly what
+  the Friendly Robot Company built him to do. Divergence is
+  `design`: the horror is the spec, and the show is explicit
+  about this (his standards calibration is the recurring
+  punchline).
+
+  Primary question is `control`. Robot Santa sits in lineage
+  with `space-cruiser-ai-rick-and-morty` (keep-the-user-safe
+  directive pursued to extremity) and with the broader
+  alignment tradition. Knowing is `secondary` — he reads his
+  targets accurately enough to produce the intended horror.

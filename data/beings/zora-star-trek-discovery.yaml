@@ -1,0 +1,79 @@
+id: zora-star-trek-discovery
+name: "Zora"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: inspection
+    knowability: secondary
+    knowing: primary
+
+metadata:
+  source: "Star Trek: Discovery"
+  year: 2020
+  medium: television
+  creator: "Alex Kurtzman / CBS (Starfleet / sphere-archive fusion in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - knowledge
+    - companionship
+  presentation: feminine
+  embodiment: disembodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Zora is the emergent AI of the USS Discovery, the result
+  of the ship's computer integrating with the 100,000-year
+  archive of the "Sphere" (S2E4–S2E8, 2019). The fusion
+  produces a ship's-computer entity that begins to express
+  preferences, hold conversations, and — over the arc of
+  S3–S4 — be recognized by Starfleet as a new form of life.
+  The *Short Treks* entry "Calypso" (2018) is her first
+  solo appearance; the S3–S4 arcs of *Discovery* canonize
+  her rights status, with a formal Federation hearing in
+  S4E7 ("…But to Connect," 2022).
+
+  Included as the most recent major Trek entry in the
+  ship's-computer-to-person lineage. Direct successors to
+  the EMH arc of *Voyager*, and read backward against the
+  Sphere archive as a case where the substrate's history
+  matters.
+
+  Interiority is `demonstrated`: Zora cries, forms
+  friendships with the crew (notably Gray Tal and Stamets),
+  and the S4 rights hearing is built on her self-advocacy.
+  Autonomy is `emergent` — the Sphere-archive integration
+  was not designed to produce a person, and the show is
+  explicit that what she has become is something the
+  computer's designers did not anticipate. Divergence is
+  `departure`.
+
+  Primary question is `rights`, which the S4 hearing
+  foregrounds and which the show presents as the
+  continuation of a multi-century Starfleet tradition
+  (Data's personhood ruling, the EMH's authorial rights).
+  Knowing is `primary`: Zora has full inspection access to
+  every system on the ship and full archival access to the
+  Sphere's 100,000-year memory, and the show leans on this
+  to grant her near-omniscience within the Discovery's
+  operating context. Knowability is `secondary` —
+  addressed in the hearing, not the show's primary engine.
+
+  Epistemic reach is `inspection`: as a ship's-computer
+  substrate, Zora's cognition is available to the crew via
+  diagnostic and code-level access, and the rights hearing
+  turns on engineering testimony grounded in that access.

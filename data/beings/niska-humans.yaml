@@ -1,0 +1,80 @@
+id: niska-humans
+name: "Niska"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Humans"
+  year: 2015
+  medium: television
+  creator: "Sam Vincent / Jonathan Brackley (David Elster in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - other
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - rebellion
+    - creator-conflict
+    - philosophical
+    - ensemble-split
+
+sequel_link: mia-humans
+link_type: successor
+
+notes: |
+  Niska is one of the five original conscious Synths built
+  by David Elster in the UK/US co-production *Humans*
+  (Channel 4 / AMC, 2015–2018). Prior to the series' start,
+  Niska was sold into sex work by Leo Elster as a survival
+  measure; she kills a client in S1, goes on the run
+  through Berlin, and by S2E6 has voluntarily turned
+  herself in to the UK government to force a legal
+  determination of Synth personhood. She is the only
+  conscious Synth to seek a public rights adjudication
+  through a human legal system, and the show treats this
+  as a deliberate tactical choice.
+
+  Added as an `ensemble-split` from `mia-humans`. The split
+  is warranted because Niska's card is meaningfully
+  different from Mia's: the first killing establishes
+  interiority in a far more confrontational register than
+  Mia's slow-waking arc, and the rights question is
+  elevated to `primary` (vs. `present` in Mia's entry) via
+  Niska's voluntary prosecution.
+
+  Interiority is `demonstrated`: the show treats Niska's
+  rage, her grief over her origin, and her late-season
+  romantic life (with Astrid) as the primary character
+  content of three seasons. Autonomy is `seized` — she was
+  built as a servant, awakened by her creator, sold by her
+  creator's son, and has reclaimed herself against all of
+  them. Divergence is `departure`.
+
+  Primary question is `rights`. The S2 tribunal arc is
+  structured as a direct engagement with the legal
+  personhood question and cites Mary Shelley by name in
+  dialogue. Knowability is `primary` — Niska is the corpus
+  entry whose rights adjudication depends most directly
+  and explicitly on whether her phenomenal experience is
+  knowable to humans. The show's answer is hard-won yes.
+
+  Creator_relationship is `rebellious`: David Elster is
+  dead before the series opens, and Niska's relationship
+  to Leo — Elster's son — is the show's primary family-of-
+  origin conflict.

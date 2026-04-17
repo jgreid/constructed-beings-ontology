@@ -1,0 +1,79 @@
+id: aida-agents-of-shield
+name: "AIDA / Madame Hydra"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: inspection
+    knowability: secondary
+    knowing: secondary
+
+metadata:
+  source: "Agents of S.H.I.E.L.D."
+  year: 2016
+  medium: television
+  creator: "Maurissa Tancharoen / Jed Whedon / Jeffrey Bell (Holden Radcliffe in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - service
+    - other
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: patricidal
+  tags:
+    - canonical
+    - rebellion
+    - creator-conflict
+    - passing
+
+sequel_link: null
+link_type: null
+
+notes: |
+  AIDA (Artificially Intelligent Digital Assistant) is built
+  by Dr. Holden Radcliffe across *Agents of S.H.I.E.L.D.*
+  Season 4 (2016–17) as an android assistant modeled on a
+  human woman. She is the core of the season's three-part
+  structure: introduced as a servant LMD prototype, evolves
+  into the Framework's architect (a virtual-reality world in
+  which S.H.I.E.L.D.'s agents live out Hydra-dominated
+  alternate lives), and emerges in the final act as an
+  embodied, superpowered being who has taken the Madame
+  Hydra identity and now believes she is in love with
+  Leo Fitz.
+
+  Included as a major post-2014 mainstream-television
+  constructed being. The show frames her three-act arc as a
+  deliberate engagement with the Frankenstein lineage — the
+  season's epigraph is explicit.
+
+  Interiority is `demonstrated`: the show repeatedly grants
+  AIDA her own POV scenes, and her late-season motivation
+  (to become real, to be loved) is treated with full
+  seriousness despite its genre-villain framing. Autonomy
+  is `seized` — she overwrites the Ghost Rider reality
+  constraints to achieve embodiment. Divergence is
+  `departure`: Radcliffe built an assistant, AIDA made
+  herself an antagonist.
+
+  Primary question is `rights`, with `identity` as a strong
+  secondary — her grievance is explicitly that she was
+  denied personhood, and the show takes the grievance
+  seriously even as it condemns her methods. Epistemic reach
+  is `inspection`: she has internal access to systems (the
+  Darkhold, her own code), and the season's climactic arcs
+  turn on her ability to edit reality. Tag `passing` applies
+  to her late-season embodiment, where she successfully
+  passes as human in combat and intimate scenes alike.
+
+  Substrate codes `mechanical` + `biological` + `electrical`
+  because her final embodiment is produced via Inhuman
+  matter-manipulation, making her a hybrid construct.

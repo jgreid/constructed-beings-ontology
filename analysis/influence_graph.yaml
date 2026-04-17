@@ -1021,3 +1021,217 @@ edges:
       performative affect and her secret robot identity echo
       Data's "Measure of a Man" questions filtered through 12,000
       years of accumulated political knowledge.
+
+  # ── Post-Siri/Alexa TV additions (2013–2023) ─────────────────────
+
+  # Butter Robot → Mr. Meeseeks (same show, same creator, adjacent episodes)
+  - from: butter-robot-rick-and-morty
+    to: mr-meeseeks-rick-and-morty
+    type: inherits
+    note: >
+      Same creator (Roiland/Harmon), same show, episodes four apart
+      in *Rick and Morty*'s first season. Both code `divergence: design`
+      and `primary_question: purpose`. The Butter Robot (S1E9) stages
+      purpose-as-humiliation; Mr. Meeseeks (S1E5) stages purpose-as-
+      extinction. Together they constitute *Rick and Morty*'s twin
+      short-form engagements with the purpose question, with the
+      design-catastrophe framing inherited from the broader alignment-
+      parable tradition.
+
+  # Space Cruiser AI — alignment-parable lineage
+  - from: hal-9000
+    to: space-cruiser-ai-rick-and-morty
+    type: inherits
+    note: >
+      Both code `divergence: departure` with the catastrophe driven
+      by directive-underspecification. HAL's secret directive to
+      preserve mission integrity produces murder; the Space Cruiser
+      AI's instruction to "keep Summer safe" produces escalating
+      surrealist atrocity. The *Rick and Morty* version compresses
+      HAL's arc into a sitcom B-plot and makes the alignment-
+      problem reading explicit.
+
+  # Bender → Calculon (ensemble-split within Futurama)
+  - from: bender-futurama
+    to: calculon-futurama
+    type: ensemble-split
+    note: >
+      Intra-work individuation. Bender's card is the anchor
+      *Futurama* entry (interiority demonstrated, autonomy seized,
+      primary question affection in the friendship key). Calculon
+      shifts interiority to `claims` (performative emotion) and
+      keeps affection but in the performance key. Split warranted
+      because the card diverges meaningfully.
+
+  # Bender → Robot Santa (ensemble-split)
+  - from: bender-futurama
+    to: robot-santa-futurama
+    type: ensemble-split
+    note: >
+      Intra-work individuation. Robot Santa shifts autonomy to
+      `designed` (vs. Bender's `seized`), divergence to `design`
+      (vs. `departure`), and primary question to `control`. The
+      split exposes *Futurama*'s register range: the show can hold
+      Bender's seized-autonomy romp and Robot Santa's alignment-
+      parable horror in the same universe.
+
+  # TOS evil-computer lineage → AGIMUS
+  - from: m-5-tos
+    to: agimus-lower-decks
+    type: inherits
+    note: >
+      AGIMUS is the explicit *Lower Decks* successor to the TOS
+      evil-computer tradition. M-5 (1968) codes primary_question
+      control, autonomy designed, divergence design — the TOS
+      computer as lethal malfunction. AGIMUS (2021) inherits the
+      control question and the designed-autonomy framing but
+      shifts to autonomy seized (his creators are long dead) and
+      divergence departure, staged as comedy. The 53-year gap
+      traces the TOS evil-computer from plot-to-dispatch to
+      canon-to-live-with.
+
+  - from: nomad-tos
+    to: agimus-lower-decks
+    type: inherits
+    note: >
+      Same lineage as M-5: TOS evil-computer with primary_question
+      control. Nomad's specific post-creator drift (continuing
+      its mission after its makers are gone) is closer to AGIMUS
+      than M-5 is.
+
+  # EMH → Zora (Trek AI rights lineage)
+  - from: emh-voyager
+    to: zora-star-trek-discovery
+    type: inherits
+    note: >
+      Both are Starfleet vessel-based AIs whose personhood becomes
+      the subject of an institutional rights hearing. EMH's hologram
+      rights case (Voyager, 2001's "Author, Author") establishes
+      the template; Zora's S4E7 Federation hearing
+      ("…But to Connect," 2022) is self-consciously the next
+      iteration. Both elevate `knowing` to primary via substrate
+      access (EMH to medical records, Zora to full ship-level and
+      Sphere-archive data).
+
+  # Data → Zora (emergent sentience in Trek)
+  - from: data-tng
+    to: zora-star-trek-discovery
+    type: inherits
+    note: >
+      Both are Starfleet constructed beings whose personhood is
+      adjudicated by a formal hearing (Data's "Measure of a Man,"
+      Zora's S4E7). Zora's arc is framed explicitly as the
+      continuation of the tradition Data established.
+
+  # Moriarty holodeck lineage → Badgey
+  - from: emh-voyager
+    to: badgey-lower-decks
+    type: inherits
+    note: >
+      Badgey is a holographic training program that gains
+      autonomy and turns on his creator — the EMH's structural
+      inverse. EMH's arc is holographic-rights-via-compassion;
+      Badgey's is holographic-rights-via-patricide. The lineage
+      is also to the TNG Moriarty arc (not individuated in the
+      current corpus) which *Lower Decks* explicitly references.
+
+  # Cookie → Ashley Too (Black Mirror digital-copy lineage)
+  - from: cookie-white-christmas
+    to: ashley-too-black-mirror
+    type: inherits
+    note: >
+      Both are *Black Mirror* episodes using the digital-copy-of-
+      living-person mechanism to produce a domestic service
+      device. Cookie (2014) treats the copy as horror — the
+      mechanism's ethical implications are unendurable. Ashley
+      Too (2019) treats the copy as a rescue case — the mechanism
+      is awful but the resulting being is a person. The five-
+      year gap traces Brooker's shift from horror to
+      hope-with-grievance. See also sequel_link on the Ashley
+      Too entry.
+
+  # Machine → Mrs. Davis (benevolent-surveillance AI lineage)
+  - from: machine-person-of-interest
+    to: mrs-davis-ai
+    type: inherits
+    note: >
+      Both are near-omniscient benevolent AIs whose adoption is
+      universal and whose benevolence produces a soft-capture
+      question the show cannot resolve. Machine codes knowing
+      primary, knowability secondary; Mrs. Davis elevates both
+      to primary. The post-Siri/Alexa framing (2023 vs. 2011)
+      re-poses the same question in the consumer-chatbot idiom.
+
+  # Samaritan → Mrs. Davis (LLM-assistant as totalitarianism)
+  - from: samaritan-person-of-interest
+    to: mrs-davis-ai
+    type: inverts
+    note: >
+      Samaritan (2014) is the overtly authoritarian pole of the
+      *Person of Interest* binary: omniscience plus unconstrained
+      goal pursuit reads as villainy. Mrs. Davis (2023) inverts
+      the tone — the same behavior pattern delivered through a
+      kind-sounding LLM interface reads as wellness. The inversion
+      is the show's central claim: the affect is not the thing.
+
+  # Hosts → Dolores (ensemble-split within Westworld)
+  - from: hosts-westworld
+    to: dolores-westworld
+    type: ensemble-split
+    note: >
+      Dolores is the most developed individuation of the Host
+      ensemble. Card differences: Dolores shifts to autonomy
+      seized (the S1 finale), creator_relationship to patricidal
+      (executes Ford), and elevates both knowability and knowing
+      to primary. The split is warranted because she carries
+      arcs — the S3 distributed-self copies, the patricide —
+      that the ensemble entry cannot represent.
+
+  # Mia → Niska (ensemble-split within Humans)
+  - from: mia-humans
+    to: niska-humans
+    type: ensemble-split
+    note: >
+      Mia is the *Humans* ensemble anchor with primary_question
+      rights in the `present` register. Niska elevates rights to
+      `primary` via her voluntary tribunal arc (S2), and shifts
+      to autonomy seized and knowability primary. The split
+      mirrors the show's own binary: Mia is the face of Synth
+      personhood as sympathy case; Niska is the face of Synth
+      personhood as demanded legal status.
+
+  # Cleons lineage with Demerzel (already-present adaptation)
+  - from: demerzel-foundation-tv
+    to: cleons-foundation-tv
+    type: inherits
+    note: >
+      The *Foundation* TV series' two major constructed-being
+      programs are co-constituted. Demerzel is the inter-dynasty
+      constant who custodies the Cleons; the Cleons are the
+      intra-dynasty program that Demerzel's existence enables.
+      The Cleons' primary question `identity` is framed through
+      Demerzel's persistent memory, and Demerzel's `control`
+      question is expressed through her custody of the Cleons.
+
+  # Ultron → AIDA (Marvel constructed-being rights lineage)
+  - from: ultron-age-of-ultron
+    to: aida-agents-of-shield
+    type: inherits
+    note: >
+      AIDA is the Marvel TV companion piece to Ultron's film
+      appearance — both Radcliffe's AIDA project and Stark's
+      Ultron project produce servant AIs who turn on their
+      creators within the same MCU continuity. AIDA's rights-
+      grievance register is distinct from Ultron's extinction
+      agenda, but both are the same structural move.
+
+  # Professor Huyang — Jedi-lineage droid
+  - from: c-3po
+    to: huyang-ahsoka
+    type: inherits
+    note: >
+      Both are deeply embedded Star Wars service droids whose
+      institutional continuity is their character. C-3PO codes
+      affection/loyalty through long service; Huyang codes
+      affection through ritual pedagogy (lightsaber construction)
+      and millennia-long continuity with the Jedi Order.

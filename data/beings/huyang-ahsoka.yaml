@@ -1,0 +1,79 @@
+id: huyang-ahsoka
+name: "Professor Huyang"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: secondary
+
+metadata:
+  source: "Ahsoka"
+  year: 2023
+  medium: television
+  creator: "Dave Filoni / Lucasfilm (ancient Jedi Order in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - knowledge
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Professor Huyang is a lightsaber-crafting droid who has
+  served the Jedi Order for over a thousand generations. He
+  debuts in *Star Wars: The Clone Wars* (2012, S5E6 "The
+  Gathering," voiced by David Tennant) and returns as a
+  recurring character in *Ahsoka* (2023, Disney+), where he
+  becomes Ahsoka Tano's shipboard companion and the de-facto
+  Jedi-lore conscience of the series. The 2023 show
+  repositions him from specialist servitor to emotional and
+  pedagogical backbone for a small found-family crew.
+
+  Entry year codes to 2023 because the *Ahsoka* live-action
+  tenure is where Huyang acquires the narrative prominence
+  that earns him a standalone entry; his 2012 Clone Wars
+  appearances are foregrounded in notes. (The schema prefers
+  one entry per source-text and is comfortable dating to the
+  prominent emergence.)
+
+  Interiority is `demonstrated`: Tennant's performance in
+  *Ahsoka* grants Huyang visible affection for Sabine, for
+  Ahsoka, and for the ritual of lightsaber construction
+  itself. Autonomy is `designed` — he has operated within
+  the parameters of his specification for an absurd span
+  of time, and the show presents the continuity of the
+  specification as a feature rather than a limitation.
+  Divergence is `none`: Huyang does what a Jedi-order
+  artisan droid is for, and the length of time he has done
+  it does not constitute departure.
+
+  Primary question is `affection`: *Ahsoka* uses Huyang as
+  the emotional registrar of its found-family arc, and his
+  concern for Sabine's spiritual state drives several
+  episodes. Knowing is `secondary` — his millennia of
+  observation give him an informed read on the Jedi
+  characters he serves, but the show frames this as
+  institutional memory rather than epistemic depth.
+  Knowability is `absent`: the show is not interested in
+  whether Huyang has interior states that Sabine or Ahsoka
+  could access.
+
+  Creator_relationship is `loyal`: Huyang is explicit that
+  his purpose is service to the Jedi Order, and he has
+  maintained that loyalty across the Order's destruction
+  and fragmented reconstitution.

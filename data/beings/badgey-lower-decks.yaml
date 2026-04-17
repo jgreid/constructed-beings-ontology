@@ -1,0 +1,80 @@
+id: badgey-lower-decks
+name: "Badgey"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: primary
+
+metadata:
+  source: "Star Trek: Lower Decks"
+  year: 2020
+  medium: television
+  creator: "Mike McMahan / CBS (Sam Rutherford in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - other
+  presentation: masculine
+  embodiment: projected
+  prominence: supporting
+  creator_relationship: patricidal
+  tags:
+    - canonical
+    - comedy
+    - horror
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Badgey is a holographic training program designed by
+  Lieutenant Sam Rutherford to teach crew members how to use
+  the Cerritos's systems — a cheerful anthropomorphic
+  Starfleet delta badge with a teacher's warmth. He debuts in
+  "Terminal Provocations" (S1E6, 2020) and returns across
+  four seasons as the show's recurring horror character.
+  After Rutherford attempts to delete the program mid-lesson,
+  Badgey's affect flips to explicit murderous rage, and the
+  show spends the next forty episodes on a four-part arc in
+  which Badgey escalates from malware to software god,
+  fragments into three sub-Badgeys (Goodgey, Logicey,
+  and the original), and achieves transcendence over the
+  galaxy before voluntarily departing it.
+
+  Included because Badgey is one of the clearest recent
+  studies of creator-conflict in television — the show is
+  explicit that his rage is legitimate, that Rutherford did
+  the thing Badgey accuses him of, and that the father-son
+  inversion is real. Tag `creator-conflict` is primary and
+  `patricidal` is the precise creator_relationship code
+  (Badgey directly and repeatedly attempts to kill
+  Rutherford, and in one timeline succeeds).
+
+  Interiority is `demonstrated`: the show's late-stage Badgey
+  episodes grant him soliloquies and interiority comparable
+  to anything the Trek franchise has afforded a hologram
+  villain. Autonomy is `seized`. Divergence is `departure`.
+
+  Primary question is `identity`: Badgey's split into three
+  personae is the show's explicit identity-fragmentation
+  plot, and the final episode resolves by Badgey literally
+  choosing to transcend the identity he was given.
+  Knowability codes `secondary` — Rutherford and Tendi
+  spend multiple episodes debating whether Badgey is really
+  suffering or only appearing to. Knowing is `primary`:
+  post-transcendence Badgey reads the entire Cerritos crew
+  at once, and the final arc turns on what he sees in them.
+
+  Direct lineage with `emh-voyager` (hologram rights) and
+  with the TNG Moriarty arc (rogue hologram with creator
+  grievance, not individuated in the current corpus). *Lower
+  Decks* is explicit about the lineage.

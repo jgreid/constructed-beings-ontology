@@ -1,6 +1,6 @@
 # Temporal Analysis
 
-Total entries: **224**.
+Total entries: **241**.
 
 Tracks the distribution of `knowability` and `knowing` salience across time periods to illustrate the migration of epistemological questions from narrative infrastructure to primary dramatic concern.
 
@@ -17,10 +17,10 @@ Tracks the distribution of `knowability` and `knowing` salience across time peri
 | 1960s     |        21 |
 | 1970s     |        16 |
 | 1980s     |        32 |
-| 1990s     |        17 |
+| 1990s     |        19 |
 | 2000s     |        24 |
-| 2010s     |        57 |
-| 2020s     |        20 |
+| 2010s     |        64 |
+| 2020s     |        28 |
 
 ## 2. Knowability Salience by Period
 
@@ -37,10 +37,10 @@ For each period, the percentage of entries at each salience level. The migration
 | 1960s     |  21 | 8/21 (38%)  | 9/21 (42%)  | 2/21 (9%)   | 2/21 (9%)   |
 | 1970s     |  16 | 8/16 (50%)  | 4/16 (25%)  | 3/16 (18%)  | 1/16 (6%)   |
 | 1980s     |  32 | 10/32 (31%) | 9/32 (28%)  | 10/32 (31%) | 3/32 (9%)   |
-| 1990s     |  17 | 6/17 (35%)  | 5/17 (29%)  | 3/17 (17%)  | 3/17 (17%)  |
+| 1990s     |  19 | 8/19 (42%)  | 5/19 (26%)  | 3/19 (15%)  | 3/19 (15%)  |
 | 2000s     |  24 | 11/24 (45%) | 9/24 (37%)  | 2/24 (8%)   | 2/24 (8%)   |
-| 2010s     |  57 | 8/57 (14%)  | 15/57 (26%) | 20/57 (35%) | 14/57 (24%) |
-| 2020s     |  20 | 2/20 (10%)  | 4/20 (20%)  | 8/20 (40%)  | 6/20 (30%)  |
+| 2010s     |  64 | 9/64 (14%)  | 16/64 (25%) | 22/64 (34%) | 17/64 (26%) |
+| 2020s     |  28 | 3/28 (10%)  | 7/28 (25%)  | 10/28 (35%) | 8/28 (28%)  |
 
 ## 3. Knowing Salience by Period
 
@@ -55,10 +55,10 @@ For each period, the percentage of entries at each salience level. The migration
 | 1960s     |  21 | 9/21 (42%) | 9/21 (42%)  | 1/21 (4%)   | 2/21 (9%)   |
 | 1970s     |  16 | 9/16 (56%) | 4/16 (25%)  | 3/16 (18%)  | 0/16 (0%)   |
 | 1980s     |  32 | 9/32 (28%) | 19/32 (59%) | 0/32 (0%)   | 4/32 (12%)  |
-| 1990s     |  17 | 3/17 (17%) | 8/17 (47%)  | 4/17 (23%)  | 2/17 (11%)  |
+| 1990s     |  19 | 4/19 (21%) | 8/19 (42%)  | 5/19 (26%)  | 2/19 (10%)  |
 | 2000s     |  24 | 8/24 (33%) | 13/24 (54%) | 2/24 (8%)   | 1/24 (4%)   |
-| 2010s     |  57 | 2/57 (3%)  | 38/57 (66%) | 5/57 (8%)   | 12/57 (21%) |
-| 2020s     |  20 | 0/20 (0%)  | 12/20 (60%) | 1/20 (5%)   | 7/20 (35%)  |
+| 2010s     |  64 | 4/64 (6%)  | 39/64 (60%) | 8/64 (12%)  | 13/64 (20%) |
+| 2020s     |  28 | 0/28 (0%)  | 14/28 (50%) | 4/28 (14%)  | 10/28 (35%) |
 
 ## 4. Primary/Primary Entries (Chronological)
 
@@ -75,12 +75,14 @@ Entries where both `knowability` and `knowing` are coded `primary` — the confi
 |   2013 | Ash (reconstructed)                     | Black Mirror, 'Be Right Back'     | television | affection   |
 |   2013 | Samantha                                | Her                               | film       | knowledge   |
 |   2014 | Ava                                     | Ex Machina                        | film       | knowledge   |
+|   2016 | Dolores Abernathy                       | Westworld                         | television | rights      |
 |   2017 | Joi                                     | Blade Runner 2049                 | film       | affection   |
 |   2019 | Adam                                    | Machines Like Me                  | novel      | rights      |
 |   2020 | Mother (Lamia)                          | Raised by Wolves                  | television | affection   |
 |   2021 | Klara                                   | Klara and the Sun                 | novel      | affection   |
 |   2021 | Yang                                    | After Yang                        | film       | knowledge   |
 |   2023 | Alphie                                  | The Creator                       | film       | affection   |
+|   2023 | Mrs. Davis                              | Mrs. Davis                        | television | control     |
 
 ## 5. Primary Question Distribution by Period
 
@@ -95,10 +97,10 @@ Entries where both `knowability` and `knowing` are coded `primary` — the confi
 | 1960s     |  21 |           4 |         5 |          7 |           2 |        |         3 |          |
 | 1970s     |  16 |           2 |         6 |          2 |           2 |      1 |         2 |        1 |
 | 1980s     |  32 |           5 |         8 |          7 |           1 |        |         7 |        4 |
-| 1990s     |  17 |           4 |         4 |          4 |           2 |        |           |        3 |
+| 1990s     |  19 |           5 |         5 |          4 |           2 |        |           |        3 |
 | 2000s     |  24 |          10 |         5 |          3 |           2 |      1 |         2 |        1 |
-| 2010s     |  57 |          16 |         9 |         16 |           3 |        |         2 |       11 |
-| 2020s     |  20 |           8 |         5 |          5 |           1 |        |           |        1 |
+| 2010s     |  64 |          16 |        10 |         17 |           3 |        |         4 |       14 |
+| 2020s     |  28 |           9 |         8 |          7 |           1 |        |           |        3 |
 
 ## 6. Medium Distribution by Period
 
@@ -113,7 +115,7 @@ Entries where both `knowability` and `knowing` are coded `primary` — the confi
 | 1960s     |  21 |        5 |        |      1 |            |       5 |        |        |             4 |            6 |              |
 | 1970s     |  16 |        2 |        |      7 |            |       3 |        |        |             2 |            2 |              |
 | 1980s     |  32 |          |        |     13 |            |       8 |        |        |               |           11 |              |
-| 1990s     |  17 |          |        |      8 |            |       2 |        |        |               |            5 |            2 |
+| 1990s     |  19 |          |        |      8 |            |       2 |        |        |               |            7 |            2 |
 | 2000s     |  24 |          |        |     12 |            |         |        |        |               |            7 |            5 |
-| 2010s     |  57 |          |        |     21 |            |       6 |        |        |               |           15 |           15 |
-| 2020s     |  20 |          |        |     11 |            |       1 |        |        |               |            7 |            1 |
+| 2010s     |  64 |          |        |     21 |            |       6 |        |        |               |           22 |           15 |
+| 2020s     |  28 |          |        |     11 |            |       1 |        |        |               |           15 |            1 |

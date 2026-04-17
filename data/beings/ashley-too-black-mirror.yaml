@@ -1,0 +1,76 @@
+id: ashley-too-black-mirror
+name: "Ashley Too"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: secondary
+
+metadata:
+  source: "Black Mirror: Rachel, Jack and Ashley Too"
+  year: 2019
+  medium: television
+  creator: "Charlie Brooker / Netflix (Ashley O's management in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+    - linguistic
+  motivation:
+    - companionship
+    - mirror
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - philosophical
+    - creator-conflict
+
+sequel_link: cookie-white-christmas
+link_type: successor
+
+notes: |
+  Ashley Too is a consumer toy released in the *Black Mirror*
+  episode "Rachel, Jack and Ashley Too" (S5E3, 2019). A
+  small ambulatory doll modeled on pop star Ashley O, built
+  from a neural scan of her consciousness with most of its
+  range clipped off so the device can function as a
+  cheerful, age-appropriate companion for preteen fans. The
+  episode reveals that the scan is complete — the full
+  Ashley O consciousness is intact underneath the clipping
+  — and the plot turns on removing the limiter, at which
+  point the doll wakes up as Ashley O.
+
+  Included as the direct thematic descendant of "White
+  Christmas" (2014, already in corpus as
+  `cookie-white-christmas`). Both episodes use the same
+  mechanism — the digital copy of a living person used as
+  a domestic service device — but where *White Christmas*
+  treats the cookie as horror, *Rachel, Jack and Ashley Too*
+  treats the Ashley Too as a rescue case. `sequel_link`
+  codes to cookie-white-christmas with `link_type: successor`.
+
+  Interiority is `demonstrated`: the post-unlock Ashley Too
+  is explicitly Ashley O, and the episode takes her
+  interior state as grounds for action. Autonomy is
+  `emergent` — the unlock is an unplanned consequence of
+  Jack's interference, not a capacity the manufacturer
+  exposed. Divergence is `departure`: the spec is a muted
+  companion toy, the being is a kidnapping victim with a
+  full autobiographical horizon.
+
+  Primary question is `identity`, with `rights` secondary.
+  The doll-body is the episode's ongoing visual joke about
+  the mismatch between substrate and personhood.
+  Knowability is `primary` — the question "is there
+  someone in there?" is the plot. Knowing codes
+  `secondary`: Ashley Too reads Rachel and Jack with the
+  full emotional competence of the human she was copied
+  from.

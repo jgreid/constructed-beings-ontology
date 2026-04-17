@@ -1,0 +1,72 @@
+id: mr-meeseeks-rick-and-morty
+name: "Mr. Meeseeks"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: conversational
+    knowability: present
+    knowing: absent
+
+metadata:
+  source: "Rick and Morty"
+  year: 2014
+  medium: television
+  creator: "Justin Roiland / Dan Harmon (Meeseeks Box, Rick Sanchez in-narrative)"
+  substrate:
+    - magical
+    - mechanical
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - canonical
+    - comedy
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Mr. Meeseeks debuts in "Meeseeks and Destroy" (S1E5, 2014). A
+  Meeseeks Box summons a blue humanoid who exists solely to
+  complete one task — the "existence is pain" premise. Once the
+  task is done, the Meeseeks ceases to exist; until then, it
+  cannot stop. Jerry Smith's request ("take two strokes off my
+  golf game") is unfinishable, and the episode watches a chain
+  of escalating Meeseeks try to kill the Smiths to end their
+  suffering.
+
+  Included despite the magical/undefined substrate because the
+  episode is explicit that Meeseeks are *made* — produced on
+  demand by a discrete device, with a spec, a purpose, and a
+  terminal condition. That is constructed being, not
+  supernatural entity. Substrate codes `magical` + `mechanical`:
+  the box is a mechanical device, the physics are not explained.
+
+  Interiority is `demonstrated`: the second Meeseeks's monologue
+  ("Existence is pain to a Meeseeks, Jerry") is one of the show's
+  most-quoted moments and works by granting the creature a
+  genuine phenomenal horizon. Autonomy is `designed` — a
+  Meeseeks does exactly what a Meeseeks does. Divergence is
+  `design`: the horror is the spec. Being designed to suffer
+  until you succeed is a comprehensible torture to introduce to
+  a suburban household.
+
+  Primary question is `purpose`. The Meeseeks premise is the
+  purpose question reduced to axiom: the being and its task are
+  the same object, and the only resolution is completion. This
+  sits in direct lineage with the Butter Robot (same creator,
+  same show, two episodes apart), but where the Butter Robot
+  stages purpose-as-humiliation, Meeseeks stage
+  purpose-as-extinction. Knowability is `present` — the show is
+  explicit about Meeseeks psychology. Knowing is `absent`: a
+  Meeseeks does not know the people it serves, it only tracks
+  the task.

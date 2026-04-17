@@ -184,3 +184,123 @@ entries:
       Despite her virtual-world context, she is a biological
       person with augmented capabilities, not a constructed
       being.
+
+  - name: "Cybermen"
+    source: "Doctor Who"
+    year: 1966
+    reason: born-then-modified
+    note: >
+      Cybermen across all Doctor Who eras (Mondasian,
+      Cyberiad, and modern Cybus variants) are produced by
+      surgically converting captured biological humans (or
+      near-humans) into cybernetic soldiers. The origin is
+      biological birth; the conversion, however extensive,
+      does not convert the origin. Excluded for the same
+      reason as RoboCop and the Borg. Some individual
+      Cybermen (Ashad, the Cyber-Controller lineage) might
+      warrant separate treatment in a future schema revision
+      that handles conversion-as-construction cases, but the
+      species as such is born-then-modified.
+
+  - name: "The Borg"
+    source: "Star Trek: The Next Generation"
+    year: 1989
+    reason: born-then-modified
+    note: >
+      The Borg Collective assimilates biological species into
+      its hive via cybernetic implantation. Same reasoning as
+      Cybermen: the origin is biological, the modification
+      (however total) does not convert the origin. The Borg
+      Queen herself is a contested case but derives from an
+      assimilated biological being. Species 8472, Hugh, and
+      Seven of Nine are all post-conversion biological
+      people.
+
+  - name: "Innies (Severance)"
+    source: "Severance"
+    year: 2022
+    reason: born-then-modified
+    note: >
+      The Severance procedure surgically partitions a born
+      human's memory into two contextual selves. The "innies"
+      are continuous biological persons with a portion of
+      their own memories surgically occluded, not constructed
+      beings. The show explicitly treats the rights of innies
+      as a personhood question, but the personhood in
+      question is the biological person's, divided — not an
+      artifact's, created.
+
+  - name: "Uploaded Intelligences (Pantheon)"
+    source: "Pantheon"
+    year: 2022
+    reason: born-then-modified
+    note: >
+      The UIs in AMC's *Pantheon* are destructive scans of
+      born humans uploaded to compute substrates. Origin is
+      biological birth; the uploading, however complete, does
+      not convert the origin. Excluded on the same principle
+      as the *Black Mirror* cookies (also tangent to the
+      corpus via `cookie-white-christmas` and
+      `ashley-too-black-mirror`, which are included because
+      the source texts treat the copy as the constructed
+      object; *Pantheon* treats the copy as the original
+      person continued). Reasonable coders could argue for
+      inclusion; excluded conservatively for now.
+
+  - name: "Nathan Brown / uploaded consciousnesses (Upload)"
+    source: "Upload"
+    year: 2020
+    reason: born-then-modified
+    note: >
+      Nathan and the other Upload residents are born humans
+      whose consciousnesses have been scanned into a digital
+      afterlife. Origin is biological birth; the upload does
+      not convert the origin. Same reasoning as Pantheon.
+      Note that the in-show AI customer-service characters
+      (the "Angels" interface, the AI Guy) may warrant
+      separate inclusion in a future sweep.
+
+  - name: "Sleeves (Altered Carbon)"
+    source: "Altered Carbon (Morgan, 2002; Netflix, 2018)"
+    year: 2002
+    reason: born-then-modified
+    note: >
+      In Richard Morgan's *Altered Carbon* and the Netflix
+      adaptation, consciousness is digitized on "cortical
+      stacks" and loaded into cloned or vat-grown "sleeve"
+      bodies. The stacks are born human consciousness; the
+      sleeves are biological bodies. The framework is
+      born-then-modified with the modification being a body
+      swap. The synthetic sleeves (Poe, Lizzie's artificial
+      body) are borderline and might warrant inclusion in a
+      future revision.
+
+  - name: "Peripherals (The Peripheral)"
+    source: "The Peripheral"
+    year: 2022
+    reason: boundary-deferred
+    note: >
+      Amazon's *The Peripheral* (2022), adapting William
+      Gibson's 2014 novel, features biomechanical bodies
+      ("peripherals") remote-operated by human consciousness
+      from another timeline. When unoccupied, a peripheral
+      is a constructed body with its own biology; when
+      occupied, it is a human mind in a remote shell.
+      Genuinely ambiguous on the born/made distinction.
+      Deferred pending clearer analytical treatment of
+      remote-operated biomechanical substrate.
+
+  - name: "Cyberpunks (Cyberpunk: Edgerunners)"
+    source: "Cyberpunk: Edgerunners"
+    year: 2022
+    reason: born-then-modified
+    note: >
+      Netflix/Studio Trigger's *Edgerunners* (2022) is set
+      in the Cyberpunk 2077 universe, where characters
+      undergo extensive cybernetic modification. The series'
+      central characters (David, Lucy, Rebecca) are born
+      humans whose chrome-heavy modifications do not convert
+      the origin. Excluded on the same principle as Molly
+      Millions. The franchise's fully constructed AIs
+      (Delamain, Skippy, various Netrunner AIs) would be
+      separately includable.
