@@ -77,8 +77,9 @@ If you want to argue for inclusion, open an issue and propose a coding, includin
 "The robots" as an undifferentiated mass are excluded. We code individual named or individuated entities. This is why:
 
 - **R.U.R. Robots** get a single entry because the play treats them as a collective with emergent shared consciousness. Čapek is thinking about a class, not about individuals.
-- **Cylons (reimagined BSG)** get a single entry anchored on Number Six / Caprica because those are the characters the show individuates. The base model diversity (Six, Eight, Cavil, D'Anna) could justify separate entries; the current coding is a unification that may be split later.
-- **Westworld Hosts** get a single entry anchored on Dolores, even though Maeve would code significantly differently. This is a documented simplification.
+- **Cylons (reimagined BSG)** have an ensemble entry plus split entries for Cavil, Eight, and D'Anna (added in v2.1) where the base models code meaningfully differently from the ensemble anchor.
+- **Westworld Hosts** have an ensemble entry plus split entries for Bernard, Maeve (v2.1), and Dolores (v2.4). The Hosts ensemble entry remains the anchor; the splits exist because the individuated cards diverge from the ensemble's aggregate.
+- **Foundation Cleons** are coded as an ensemble of three (Brother Dawn / Brother Day / Brother Dusk) within a single entry, because the show's structural innovation is precisely to refuse to individuate them. The `ensemble-split` tag flags this without requiring three separate entries.
 
 The bright line is **does the text individuate this character**. If yes, it gets an entry. If the text treats the population as collective, the entry is for the collective and the notes acknowledge that individuals within the population may diverge from the card.
 
@@ -89,6 +90,21 @@ The bright line is **does the text individuate this character**. If yes, it gets
 A corporation described as a "creature," a city described as "alive," a language described as "thinking" — these are not constructed beings in the ontology's sense, even when the text grants them vivid agency in metaphor. The exclusion is for literal narrative agency, not figurative agency.
 
 The bright line is **would the text be confused if you asked, "does this being have a body?"** If the text would patiently explain "no, it's a metaphor," the being is out. If the text would say "yes, here it is," the being is in.
+
+---
+
+## Stage works: when is a puppet a constructed being?
+
+The performing-arts expansion in v2.4 surfaced a question worth documenting: *theatrical puppets representing born characters* are excluded from the corpus, but *theatrical puppets that are themselves constructed beings in-narrative* are included.
+
+The bright-line test: ask the production "what is this puppet within the story?"
+
+- **Joey** in *War Horse*, the Lion King puppets, **Richard Parker** in *Life of Pi*: the in-story answer is "a horse / a lion / a tiger." The puppet is a staging device representing a born biological character. **Excluded.**
+- **Petrushka** in Stravinsky/Fokine's 1911 ballet: the in-story answer is "a puppet with a soul put into him by the Charlatan." The puppet is the being. **Included.**
+- **Coppélia** in Delibes's 1870 ballet: the in-story answer is "Dr. Coppélius's mechanical doll." The puppet is the being. **Included.**
+- **Tyrone** in Askins's *Hand to God* (2011): the in-story answer is deliberately undecidable — demonic possession, psychological dissociation, or genuine puppet-animation. The play treats Tyrone as actually present and actually independent. **Included as a boundary case** with `interiority: undecidable`.
+
+Same principle applies to operatic and musical-theater costume conventions: when the costume represents a born character, the underlying being is born. When the costume represents a constructed object that has been animated within the story, the being is constructed.
 
 ---
 

@@ -16,7 +16,7 @@
 #
 # Every `from` and `to` must be a valid entry id in data/beings/.
 
-schema_version: "2.0"
+schema_version: "2.4"
 
 description: >
   Influence graph for the Constructed Beings Ontology. Curated edges tracing
@@ -1022,7 +1022,7 @@ edges:
       Data's "Measure of a Man" questions filtered through 12,000
       years of accumulated political knowledge.
 
-  # ── Post-Siri/Alexa TV additions (2013–2023) ─────────────────────
+  # ── New edges (v2.4 expansion: post-Siri/Alexa TV) ───────────────
 
   # Butter Robot → Mr. Meeseeks (same show, same creator, adjacent episodes)
   - from: butter-robot-rick-and-morty
@@ -1236,7 +1236,7 @@ edges:
       affection through ritual pedagogy (lightsaber construction)
       and millennia-long continuity with the Jedi Order.
 
-  # ── Theater / performing-arts additions ──────────────────────────
+  # ── New edges (v2.4 expansion: theater / performing arts) ────────
 
   # Marjorie Prime — play to film
   - from: walter-marjorie-prime-play

@@ -96,7 +96,7 @@ What's the audience's highest-fidelity channel to the being's interior?
 | `conversational` | Language is the primary or only access to the being. Conversation creates an *illusion* of deeper access. |
 | `inspection` | You can look under the hood — logs, code, memory, brain scans. |
 
-> **Distribution note.** In the current corpus, `conversational` accounts for 59% of entries (134 of 224). This skew reflects the prevalence of language-capable constructed beings in Western fiction rather than a deficiency in the axis, but coders should be aware that the behavioral/conversational boundary requires more careful judgment than most other enum boundaries. See the [coding guide](docs/coding_guide.md) for the operational test. This axis is flagged for potential revision in a future schema version.
+> **Distribution note.** In the current corpus, `conversational` accounts for 61% of entries (156 of 254). This skew reflects the prevalence of language-capable constructed beings in fiction rather than a deficiency in the axis, but coders should be aware that the behavioral/conversational boundary requires more careful judgment than most other enum boundaries. See the [coding guide](docs/coding_guide.md) for the operational test. This axis is flagged for potential revision in a future schema version.
 
 #### `card.the_lens.knowability`
 
@@ -155,18 +155,23 @@ Every entry gets these fields. They provide source context but are not analytica
 
 ### `metadata.medium`
 
-| Value |
-|---|
-| `poem` |
-| `epic` |
-| `folklore` |
-| `play` |
-| `novel` |
-| `short-story` |
-| `comics` |
-| `film` |
-| `television` |
-| `video-game` |
+| Value | Notes |
+|---|---|
+| `poem` | Lyric and narrative poetry. |
+| `epic` | Epic poetry (the *Iliad*, *Argonautica*). |
+| `folklore` | Oral and traditional cycles (the Golem of Prague). |
+| `play` | Spoken-text drama. |
+| `opera` | Sung-through stage work with orchestra. |
+| `ballet` | Wordless danced stage work. |
+| `musical` | Stage work combining spoken text, song, and (usually) dance. |
+| `novel` | Long-form prose fiction. |
+| `short-story` | Short prose fiction (and serialized comic short stories). |
+| `comics` | Sequential art (graphic novels, manga, comic books). |
+| `film` | Feature-length cinema. |
+| `television` | Episodic television and animated series. |
+| `video-game` | Interactive narrative games. |
+
+> **v2.4 expansion.** `opera`, `ballet`, and `musical` were added in v2.4 to properly categorize the corpus's stage works, which had previously all been coded as `play`. The reclassified entries are: Coppélia and Petrushka (now `ballet`), Olimpia in *Tales of Hoffmann* and the d'Albert *Der Golem* (now `opera`), and *Be More Chill* and *Maybe Happy Ending* (now `musical`).
 
 ### `metadata.substrate` (list, min 1 item)
 

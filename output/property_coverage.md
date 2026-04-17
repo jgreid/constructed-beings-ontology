@@ -96,9 +96,12 @@ This report counts the distribution of values for each property. List-valued pro
 | novel       |      31 |
 | video-game  |      23 |
 | short-story |      18 |
-| play        |      17 |
+| play        |      11 |
 | comics      |      10 |
+| ballet      |       2 |
 | epic        |       2 |
+| musical     |       2 |
+| opera       |       2 |
 | poem        |       2 |
 | folklore    |       1 |
 

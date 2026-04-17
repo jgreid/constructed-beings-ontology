@@ -15,7 +15,7 @@ card:
 metadata:
   source: "Coppélia, ou la Fille aux yeux d'émail"
   year: 1870
-  medium: play
+  medium: ballet
   creator: "Léo Delibes / Arthur Saint-Léon / Charles Nuitter (Dr. Coppélius in-narrative)"
   substrate:
     - mechanical
@@ -60,8 +60,8 @@ notes: |
   Divergence is `observer`: the whole plot turns on
   misrecognition.
 
-  French primary source (ballet). Medium coded as `play` —
-  the closest schema value for a performed stage work.
-  Coppélia is the most performed constructed-being stage
-  work in the Western canon and its absence was a gap in
-  the performing-arts coverage.
+  French primary source (ballet). Medium reclassified
+  from `play` to `ballet` in v2.4 alongside the addition
+  of `opera` and `musical` to the medium enum. Coppélia
+  is the most performed constructed-being stage work in
+  the Western canon.
