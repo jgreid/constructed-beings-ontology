@@ -4,6 +4,23 @@ All notable changes to the Constructed Beings Ontology are documented here.
 
 ---
 
+## [2.4.1] — 2026-04
+
+**Cheesy-cinematic and meta-constructed TV addenda.** 254 → 260 entries (+6). No schema changes. Adds six long-standing gaps in the TV sub-corpus, all in the built-for-company lineage: Twiki and Booti from *Buck Rogers in the 25th Century* (1979–81), and the four Satellite of Love bots from *Mystery Science Theater 3000* (1988–).
+
+### New entries (6)
+
+**Television — Buck Rogers (2):** Twiki (the TWKE-4 ambuquad, voiced by Mel Blanc), Booti (Twiki's love interest, voiced by Joan Rivers; included for the feminine-presentation-on-shared-substrate coding it enables, which rhymes with Gypsy below).
+
+**Television — Mystery Science Theater 3000 (4):** Crow T. Robot, Tom Servo, Gypsy, Cambot. All four are diegetically constructed by Joel Robinson from scrap aboard the Satellite of Love; the ensemble-split tag is used across the four to record that card values diverge meaningfully (Cambot: primary_question `none`, epistemic_reach `behavioral`; the rest: `affection` + `conversational`; Gypsy: `designed` autonomy vs. Crow/Servo's `seized`).
+
+### Analytical notes
+
+- **Feminine-on-shared-substrate pairing.** Booti (Buck Rogers) and Gypsy (MST3K) both code feminine presentation layered onto a body-design otherwise indistinguishable from their masculine-coded counterparts (Twiki; Crow and Servo). The schema's `presentation` field records this vocabulary; the notes flag the structural echo between the two.
+- **Meta-constructed beings.** The MST3K bots are the first corpus entries where the diegetic creator (Joel Robinson, a captive) is themselves a character, the building is an act of desperation-companionship, and the resulting bots regularly riff on other constructed beings in the SF movies they're forced to watch. Feeds a potential future analytical thread on recursive constructed-being coding.
+
+---
+
 ## [2.4.0] — 2026-04
 
 **Performing-arts and post-Siri/Alexa television expansion.** 224 → 254 entries (+30). First schema enum addition since v2.2 (`comics`): `opera`, `ballet`, and `musical` added to the medium enum. Repairs the corpus's two thinnest coverage areas — major TV sci-fi after the Siri/Alexa launches (2011, 2014) and stage works of any kind.

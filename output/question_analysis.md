@@ -1,6 +1,6 @@
 # Question Analysis
 
-Total entries: **254**.
+Total entries: **260**.
 
 The schema tracks two meta-properties: `knowability` (can we verify its mind?) and `knowing` (can it know us?). This report tracks both, plus the distribution of `primary_question`.
 
@@ -8,13 +8,13 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| affection          |      65 |
+| affection          |      70 |
 | identity           |      59 |
 | control            |      55 |
 | rights             |      33 |
 | purpose            |      21 |
 | knowledge          |      16 |
-| none               |       5 |
+| none               |       6 |
 
 ## 2. Primary Questions by Era
 
@@ -48,12 +48,12 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 | Primary Question   |   Count |
 |:-------------------|--------:|
 | control            |      26 |
+| affection          |      22 |
 | identity           |      22 |
-| affection          |      17 |
 | purpose            |      12 |
 | knowledge          |       9 |
 | rights             |       9 |
-| none               |       2 |
+| none               |       3 |
 
 ### Contemporary
 
@@ -71,7 +71,7 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Knowability   |   Count |
 |:--------------|--------:|
-| absent        |      75 |
+| absent        |      81 |
 | present       |      78 |
 | secondary     |      55 |
 | primary       |      46 |
@@ -80,7 +80,7 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Knowing   |   Count |
 |:----------|--------:|
-| absent    |      66 |
+| absent    |      72 |
 | present   |     128 |
 | secondary |      25 |
 | primary   |      35 |
@@ -221,7 +221,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Andy                                                          | Alien: Romulus                                          |   2024 | secondary     | present   |
 | Roz (ROZZUM unit 7134)                                        | The Wild Robot                                          |   2024 | secondary     | present   |
 
-**129 of 254 entries diverge.**
+**129 of 260 entries diverge.**
 
 ## 6. Entries by Knowability (chronological)
 
@@ -262,7 +262,9 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Ash                                   | Alien                                                  |   1979 | control     |
 | Deep Thought                          | The Hitchhiker's Guide to the Galaxy                   |   1979 | purpose     |
 | Maximilian                            | The Black Hole                                         |   1979 | control     |
+| Twiki                                 | Buck Rogers in the 25th Century                        |   1979 | affection   |
 | V.I.N.CENT                            | The Black Hole                                         |   1979 | affection   |
+| Booti                                 | Buck Rogers in the 25th Century                        |   1980 | affection   |
 | KITT (Knight Industries Two Thousand) | Knight Rider                                           |   1982 | affection   |
 | Master Control Program                | Tron                                                   |   1982 | control     |
 | Kamelion                              | Doctor Who                                             |   1983 | control     |
@@ -271,8 +273,12 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Skynet                                | The Terminator                                         |   1984 | control     |
 | T-800                                 | The Terminator                                         |   1984 | control     |
 | Lisa                                  | Weird Science                                          |   1985 | affection   |
+| Cambot                                | Mystery Science Theater 3000                           |   1988 | none        |
+| Crow T. Robot                         | Mystery Science Theater 3000                           |   1988 | affection   |
+| Gypsy                                 | Mystery Science Theater 3000                           |   1988 | affection   |
 | Holly                                 | Red Dwarf                                              |   1988 | affection   |
 | Talkie Toaster                        | Red Dwarf                                              |   1988 | purpose     |
+| Tom Servo                             | Mystery Science Theater 3000                           |   1988 | affection   |
 | T-1000                                | Terminator 2: Judgment Day                             |   1991 | control     |
 | SHODAN                                | System Shock                                           |   1994 | control     |
 | Vic Fontaine                          | Star Trek: Deep Space Nine                             |   1998 | affection   |

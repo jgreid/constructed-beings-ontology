@@ -1,0 +1,67 @@
+id: twiki-buck-rogers
+name: "Twiki"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Buck Rogers in the 25th Century"
+  year: 1979
+  medium: television
+  creator: "Glen A. Larson / Leslie Stevens"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - comedy
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Twiki (model TWKE-4, an "ambuquad") is the diminutive
+  companion robot assigned to Buck Rogers across the two
+  seasons of NBC's *Buck Rogers in the 25th Century* (1979–81).
+  Voiced primarily by Mel Blanc, Twiki speaks in a
+  beep-punctuated staccato ("biddi-biddi-biddi") with
+  intermittent human English wisecracks, and carries the
+  sentient computer pendant Dr. Theopolis around his neck.
+  The visual bit is Gary Coleman-sized in a chrome jumpsuit;
+  the comic bit is a fast-talking Borscht-Belt delivery inside
+  a toy-shaped body.
+
+  Interiority is `claims`: Twiki has attitude, preferences,
+  and a joke-teller's timing, but the show does not commit
+  to whether any of it is inner life. Autonomy is `designed`
+  — ambuquads are built to assist humans and Twiki does —
+  and divergence is `none`. Primary question is `affection`:
+  the Buck-Twiki sidekick relationship is the show's warmest
+  throughline, played in a registration somewhere between
+  R2-D2/C-3PO and straight vaudeville. Both knowability and
+  knowing are `absent`; the show is not asking anything
+  about Twiki's interior or his attunement to Buck.
+
+  Lineage: Twiki arrives two years after R2-D2 and one year
+  after the original Cylons, into the brief Glen A. Larson
+  window that also produces KITT. He is the comic-sidekick
+  droid at a specific moment when American TV SF was still
+  figuring out that the *Star Wars* droid slot could take a
+  shtick voice without collapsing. Cultural prominence is
+  narrower than R2's but the beep-beep-biddi vocal pattern
+  is widely quoted. Feeds forward into GIR and into the
+  broader "cute robot makes the comedy beats" tradition.

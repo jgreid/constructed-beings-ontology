@@ -180,11 +180,13 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Star Trek: The Original Series** (1966-1968) — Gene Roddenberry. *Being(s): M-5, Nomad*
 - **Doctor Who** (1977-2011) — Various. *Being(s): K-9, Kamelion, The TARDIS/Idris*
 - **Battlestar Galactica (original)** (1978) — Glen A. Larson. *Being(s): Cylons*
+- **Buck Rogers in the 25th Century** (1979-1981) — Glen A. Larson / Leslie Stevens. *Being(s): Twiki, Booti*
 - **Knight Rider** (1982) — Glen A. Larson. *Being(s): KITT*
 - **The Transformers** (1984) — Hasbro / Marvel Productions. *Being(s): Megatron, Optimus Prime*
 - **Max Headroom** (1985) — Rocky Morton / Annabel Jankel. *Being(s): Max Headroom*
 - **Small Wonder** (1985) — Howard Leeds. *Being(s): V.I.C.I.*
 - **Star Trek: The Next Generation** (1987) — Gene Roddenberry. *Being(s): Data, Lal, Lore*
+- **Mystery Science Theater 3000** (1988) — Joel Hodgson. *Being(s): Cambot, Crow T. Robot, Gypsy, Tom Servo*
 - **Red Dwarf** (1988) — Rob Grant / Doug Naylor. *Being(s): Holly, Kryten, Talkie Toaster*
 - **Star Trek: Voyager** (1995) — Rick Berman / Michael Piller. *Being(s): The Doctor (EMH)*
 - **Star Trek: Deep Space Nine** (1998) — Ira Steven Behr. *Being(s): Vic Fontaine*
