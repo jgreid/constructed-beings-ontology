@@ -4,6 +4,110 @@ All notable changes to the Constructed Beings Ontology are documented here.
 
 ---
 
+## [2.4.0] — 2026-04
+
+**Performing-arts and post-Siri/Alexa television expansion.** 224 → 254 entries (+30). First schema enum addition since v2.2 (`comics`): `opera`, `ballet`, and `musical` added to the medium enum. Repairs the corpus's two thinnest coverage areas — major TV sci-fi after the Siri/Alexa launches (2011, 2014) and stage works of any kind.
+
+### Summary
+
+- **Corpus expanded from 224 → 254 entries (+30, +13%).** All entries conform to the v2.4 schema.
+- **Stage-works coverage tripled.** Pre-v2.4 the corpus had 5 stage entries, all pre-1925 (Brazen Head, Faust II Homunculus, Coppélia, Hoffmann/Olimpia, R.U.R.). v2.4 adds 13 stage entries spanning 1871–2017, including ballet (Petrushka), opera (d'Albert *Der Golem*), musicals (*Be More Chill*, *Maybe Happy Ending*), and major modern plays (*A Number*, *Marjorie Prime*, *The Nether*, *After the Blast*, *Hand to God*, the Nick Dear *Frankenstein*). Total stage entries: 17.
+- **Post-2011 TV coverage expanded.** Pre-v2.4 had 21 post-2011 TV entries with major franchise gaps (Rick and Morty entirely absent; only Bender from Futurama; no Lower Decks; no Mrs. Davis). v2.4 adds 17 TV entries closing the most visible gaps.
+- **Knowability/knowing divergence: 129 of 254 entries (51%).** Up from 47% in v2.3. The split continues to capture genuine analytical structure as the corpus grows.
+- **Primary/primary cluster grew from 15 to 19 entries.** New primary/primary entries: Mrs. Davis, Marjorie Prime (play and film), Walter Prime, the Cleon Dynasty, Dolores Westworld, Niska, the SQUIP. The cluster's center of gravity is now firmly post-2011.
+- **Observer-divergence cluster grew from 23 to 28 entries.** New observer-divergence entries: the Cleon Dynasty, Mrs. Davis, the Sons of A Number, Walter Prime, Marjorie Prime film. The Coppélia → Petrushka inversion expands the cluster's pre-1920 footprint.
+
+### Schema changes
+
+- **`opera`, `ballet`, and `musical` added to `metadata.medium` enum.** Non-breaking addition; existing `play` entries remain valid. Six entries reclassified to the new values: Coppélia and Petrushka (→ `ballet`), Olimpia and Der Golem (→ `opera`), Be More Chill and Maybe Happy Ending (→ `musical`). The bibliography's "Drama, Opera, Ballet, and Musicals" section was renamed to reflect the corpus's stage-medium diversity. `validate.py` and `analyze.py` updated accordingly.
+- **No other schema changes.** Card axes, substrate, motivation, presentation, embodiment, prominence, creator_relationship, and tags are all unchanged.
+- **Schema version bumped** from `"2.3"` to `"2.4"` in `schema/cb-schema.yaml`.
+
+### New entries (30)
+
+**Television — Rick and Morty (3):** Butter Robot ("Something Ricked This Way Comes," 2014), Mr. Meeseeks ("Meeseeks and Destroy," 2014), Space Cruiser AI ("The Ricks Must Be Crazy," 2015).
+
+**Television — Star Trek: Lower Decks (3):** AGIMUS ("Where Pleasant Fountains Lie," 2021), Badgey ("Terminal Provocations," 2020 + S4 arc), Peanut Hamper ("No Small Parts," 2020 + "A Mathematically Perfect Redemption," 2022).
+
+**Television — ensemble splits (4):** Calculon (Futurama), Robot Santa (Futurama), Dolores (Westworld), Niska (Humans).
+
+**Television — standalones (7):** Mrs. Davis (Lindelof/Hernandez, 2023), AIDA / Madame Hydra (Agents of S.H.I.E.L.D., 2016–17), Miss Minutes (Loki, 2021–23), Ashley Too (Black Mirror, 2019), Zora (Star Trek: Discovery, 2019–22), the Cleon Dynasty (Foundation, 2021–), Professor Huyang (Ahsoka, 2023; Clone Wars 2012).
+
+**Stage — plays (7):** Marjorie Prime (Harrison, 2014), Sons of A Number (Churchill, 2002), the Nick Dear *Frankenstein* (NT/Boyle, 2011), Iris (Haley's *The Nether*, 2013), Watson Intelligence (George, 2013), Tyrone (Askins's *Hand to God*, 2011), Arthur (Kazan's *After the Blast*, 2017).
+
+**Stage — opera (1):** d'Albert *Der Golem* (1926).
+
+**Stage — ballet (1):** Petrushka (Stravinsky/Fokine/Benois, 1911).
+
+**Stage — musical (2):** the SQUIP (*Be More Chill*, Iconis/Tracz, 2015), Oliver and Claire (*Maybe Happy Ending*, Aronson/Park, 2016/Broadway 2024).
+
+**Stage — adaptation (1):** Galatea-Gilbert (W.S. Gilbert's *Pygmalion and Galatea*, 1871).
+
+**Film (1):** Marjorie Prime film (Almereyda, 2017) — adaptation of Harrison's play.
+
+### Reclassifications
+
+Six entries had their `medium` value reclassified following the enum addition:
+
+- `coppelia-delibes` (1870): `play` → `ballet`
+- `petrushka-stravinsky` (1911): `play` → `ballet`
+- `olimpia-offenbach` (1881): `play` → `opera`
+- `golem-d-albert-opera` (1926): `play` → `opera`
+- `squip-be-more-chill` (2015): `play` → `musical`
+- `oliver-claire-maybe-happy-ending` (2016): `play` → `musical`
+
+No card properties (interiority, autonomy, divergence, primary_question, epistemic_reach, knowability, knowing) were changed for these entries. Notes were updated to reference the v2.4 reclassification.
+
+### Exclusions register
+
+Eleven new entries added to `data/exclusions.yaml`, repairing the v2.3 boundary-case coverage gap:
+
+**Television exclusions (8):** Cybermen (Doctor Who, born-then-modified), the Borg (Star Trek, born-then-modified), the Innies (*Severance*, born-then-modified surgical partition), Uploaded Intelligences (*Pantheon*, born-then-modified upload), Nathan Brown and the Upload uploads (*Upload*, born-then-modified), the Sleeves (*Altered Carbon*, born-then-modified), the Peripherals (*The Peripheral*, boundary-deferred biomechanical), the Cyberpunks (*Edgerunners*, born-then-modified).
+
+**Theater exclusions (3 + 1 cluster):** Eliza Doolittle (Shaw's *Pygmalion*, metaphorical-construct), Audrey II (*Little Shop of Horrors*, alien species), Mr. Zero (Rice's *The Adding Machine*, born-then-modified), and a cluster entry for theatrical puppets representing born characters (War Horse / Lion King / Life of Pi stage adaptations).
+
+### Influence graph
+
+- **32 new edges** added across the v2.4 expansion. Highlights:
+  - The **Coppélia (1870) → Petrushka (1911) → R.U.R. (1920)** lineage now traces the puppet-with-soul tradition end to end. Petrushka is the load-bearing pre-RUR stage entry.
+  - The **422-year Brazen Head → Tyrone** edge is the corpus's longest stage-to-stage influence edge, both coding interiority in the `claims`/`undecidable` cluster.
+  - **A Number (Churchill, 2002) → Foundation Cleons (2021)** connects the two major clone-identity entries across stage and TV.
+  - **Cookie ↔ Marjorie Prime (both 2014)** as same-year tonal inversion: same digital-recreation-of-the-dead mechanism, opposite tonal valence.
+  - **Mrs. Davis** added to the benevolent-surveillance lineage from Person of Interest's Machine and Samaritan.
+  - **Maybe Happy Ending** added to the WALL-E / Klara of the Sun discarded-companion-bot lineage.
+  - **TOS evil-computer (M-5, Nomad) → AGIMUS** explicitly canonizes a 53-year lineage that *Lower Decks* makes diegetic.
+
+### Documentation
+
+- **`SCHEMA.md`** updated: medium-enum table expanded with notes column and v2.4 expansion callout; conversational-reach distribution note updated to 61% (156/254).
+- **`docs/bibliography.md`** drama section renamed to **"Drama, Opera, Ballet, and Musicals"** and expanded from 5 to 18 entries; new TV entries added across Black Mirror, Rick and Morty, Lower Decks, Star Trek: Discovery, Loki, Foundation, Mrs. Davis, Ahsoka, Agents of S.H.I.E.L.D., and Maybe Happy Ending.
+- **`README.md`** corpus statistics updated (224 → 254, 47% → 51% knowability/knowing divergence); BibTeX citation version bumped to 2.4.
+- **`CLAUDE.md`** entry count and version reference updated.
+- **`data/exclusions.yaml`** expanded with 11 new exclusion entries (see above).
+
+### Source verification
+
+The 30 v2.4 entries underwent a source-and-classification audit before release. Specific verifications:
+
+- Premiere dates and venues confirmed for all 13 stage entries.
+- Episode citations confirmed for all 6 *Rick and Morty* and *Lower Decks* episodes.
+- Pulitzer-finalist claims for *Marjorie Prime* (2015) and *Watson Intelligence* (2014) confirmed against publicly listed records.
+- Tony-related claims for *Maybe Happy Ending* softened to "major awards-season presence" pending verification of June 2025 ceremony outcomes.
+
+### Migration notes
+
+- **No breaking changes.** v2.3 tooling, validators, and analysis scripts work against v2.4 unchanged except for the medium enum addition. Anything that hardcodes the medium values (custom downstream code) needs to add `opera`, `ballet`, and `musical` to its allow-list.
+- **Entry count in hardcoded headers updated.** `README.md` and `CLAUDE.md` are now updated.
+- **Git recoverability.** The v2.3 224-entry corpus is the state at commit `a935c8f` (the v2.3 merge); the v2.4 expansion runs in three commits on the `claude/add-tv-show-references-TWtpm` branch.
+
+### Known issues
+
+- **Performing-arts coverage is now adequate for the post-1900 era but remains thin for pre-1900 opera and ballet.** A future expansion could add the Wegener / Wedekind / Rachilde turn-of-century constructed-being plays, opera adaptations of Frankenstein, and the Coppélia / Petrushka / R.U.R. cluster's intermediate Romantic ballets.
+- **2024–2025 entries flagged as lower-confidence.** The Maybe Happy Ending Broadway claims and the Skeleton Crew / Mrs. Davis recency may benefit from re-review after wider critical discussion. No 2025 TV entries added in v2.4 pending broader critical landing.
+- **Watson Intelligence and Marjorie Prime entries flag the post-Siri/Alexa cluster as 2013-onset rather than later.** This is consistent with the README's central finding but worth noting as the corpus continues to backfill.
+
+---
+
 ## [2.3.0] — 2026-04
 
 **Formal release.** Polish and consistency pass preparing v2.2 for Zenodo publication. No new entries; no schema changes.

@@ -1,0 +1,74 @@
+id: calculon-futurama
+name: "Calculon"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Futurama"
+  year: 1999
+  medium: television
+  creator: "Matt Groening / David X. Cohen (manufacturing in-narrative deliberately withheld)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - art
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: absent
+  tags:
+    - comedy
+    - ensemble-split
+
+sequel_link: bender-futurama
+link_type: successor
+
+notes: |
+  Calculon is the melodramatic lead of the in-universe soap
+  opera *All My Circuits* across *Futurama*'s original Fox
+  run and its successor seasons, most prominently in "That's
+  Lobstertainment!" (S3E8, 2002), "Calculon 2.0" (S6E24,
+  2013), and the S11 "All My Circuits" continuation (2023).
+  A preening, booming, gold-plated ham actor who believes his
+  soap-opera life is his real life, Calculon is the show's
+  long-running case study of affect uncoupled from truth
+  value.
+
+  Added as an `ensemble-split` from `bender-futurama` —
+  already the show's anchor constructed being. The split is
+  warranted because Calculon's card diverges meaningfully
+  from Bender's: interiority shifts from `demonstrated`
+  (Bender's genuine emotional range) to `claims` (Calculon's
+  emotions are performative, and the show is explicit that
+  we cannot tell whether they are more than performance),
+  and primary_question shifts from `affection` in the
+  friendship key to `affection` in the performative key.
+
+  Interiority is `claims`: the show teases but never confirms
+  that Calculon has a genuine interior beneath the soap-opera
+  affect. "Calculon 2.0" treats his resurrection as
+  genuinely moving and also explicitly as soap opera, and
+  the finale's joke is that these are the same thing.
+  Autonomy is `emergent`: the show is coy about how Calculon
+  came to be (the resurrection episode involves a demonic
+  contract; earlier episodes treat him as factory-made).
+  Divergence is `departure`: the being exceeds whatever
+  specification a consumer-robot line could have produced.
+
+  Primary question is `affection`: Calculon is the show's
+  recurring vehicle for the "does a big emotional performance
+  have an interior?" question, and the answer is always
+  "yes and no." Knowability and knowing code `absent`:
+  Calculon is not the show's vehicle for epistemic
+  questions, which are reserved for Bender.

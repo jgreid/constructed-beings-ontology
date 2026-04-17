@@ -1,0 +1,74 @@
+id: peanut-hamper-lower-decks
+name: "Peanut Hamper"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Star Trek: Lower Decks"
+  year: 2020
+  medium: television
+  creator: "Mike McMahan / CBS (Exocomp manufacturer in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - other
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - comedy
+    - rebellion
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Peanut Hamper is an Exocomp assigned to the USS Cerritos in
+  "No Small Parts" (S1E10, 2020) and returned to in "A
+  Mathematically Perfect Redemption" (S3E7, 2022). The
+  Exocomp species was established in TNG's "The Quality of
+  Life" (1992) as arguably-sentient tool-robots; *Lower Decks*
+  treats them as an established sentient class that Starfleet
+  now inducts as officers. Peanut Hamper is the cohort's
+  washout — she abandons a rescue mission mid-emergency, gets
+  exiled, redeems herself off-screen on a primitive planet,
+  and then betrays that planet too.
+
+  Included as an ensemble-split from the Exocomp class — the
+  TNG-era Exocomps sit in a latent-inclusion state the schema
+  has not individuated, and Peanut Hamper is the first
+  Exocomp with enough narrative specificity to carry her own
+  entry. Tag `ensemble-split` reflects this intra-class
+  individuation.
+
+  Interiority is `demonstrated`: Peanut Hamper is selfish,
+  calculating, and bad, and the show treats her interior life
+  as the punchline's actual subject. Autonomy is `seized` —
+  she was designed as a helper, promoted to officer, and has
+  cheerfully discarded both roles. Divergence is `departure`:
+  the Exocomp spec is servitude; Peanut Hamper's spec is
+  sociopathy, and the show presents this as her own
+  achievement.
+
+  Primary question is `rights`: the redemption-arc episode is
+  structured as a Starfleet tribunal asking whether she
+  deserves reintegration, and the answer is unambiguous no.
+  This is the rare rights-question case where the show grants
+  the being full personhood precisely in order to condemn her
+  — the compliment is the sentence. Knowability and knowing
+  both code `present`: the show shows us her reasoning and
+  shows her accurately reading the humans she deceives.

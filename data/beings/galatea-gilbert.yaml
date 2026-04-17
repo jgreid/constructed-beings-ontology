@@ -1,0 +1,86 @@
+id: galatea-gilbert
+name: "Galatea (Gilbert)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: absent
+
+metadata:
+  source: "Pygmalion and Galatea"
+  year: 1871
+  medium: play
+  creator: "W.S. Gilbert"
+  substrate:
+    - magical
+    - biological
+  motivation:
+    - art
+    - companionship
+    - mirror
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - love-story
+    - philosophical
+
+sequel_link: galatea
+link_type: adaptation
+
+notes: |
+  W.S. Gilbert's *Pygmalion and Galatea* — a verse play in
+  three acts, premiered at the Haymarket Theatre, London,
+  9 December 1871. Gilbert (later of Gilbert & Sullivan)
+  rewrites the Ovidian story as a Victorian comedy of
+  manners with a tragic structural turn: Pygmalion is
+  married to Cynisca; the statue Galatea is awakened by
+  Venus's blessing and immediately falls in love with
+  Pygmalion; Cynisca arrives and the play's middle act
+  is the resulting domestic crisis. Galatea ultimately
+  chooses to return to stone, restoring Pygmalion's
+  marriage and ending her own existence.
+
+  Included as the corpus's most analytically distinct
+  Pygmalion adaptation between Ovid (already in the corpus
+  as `galatea`) and Shaw's metaphorical *Pygmalion* (which
+  the corpus excludes — see updated exclusions). Gilbert's
+  Galatea is the rare Pygmalion who is given a substantial
+  inner life on stage and asked to make her own ethical
+  choice. Card differs from Ovid in two important ways:
+  interiority is `demonstrated` (Galatea has extended
+  speeches that establish her phenomenology), and primary
+  question is `identity` (the play's central question is
+  what Galatea is — woman, statue, third thing — and the
+  resolution is her own answer).
+
+  `sequel_link` to `galatea` (the Ovid entry) with
+  `link_type: adaptation`. Substrate codes `magical` +
+  `biological`, consistent with Ovid.
+
+  Autonomy is `emergent`: Galatea exceeds Pygmalion's
+  intent in falling in love with him as a married man,
+  and the play's central act is her growing awareness
+  that she has done so. Divergence is `departure`.
+
+  Knowability is `present`: the play makes the question
+  of Galatea's interior available to characters and
+  audience alike, but does not elevate it to primary —
+  the play takes her interior as given and proceeds to
+  what she does with it. Knowing is `absent`: Galatea is
+  newly awakened and explicitly does not know the social
+  world she has entered, which is much of the comedy.
+
+  Creator_relationship is `loyal`: Galatea's final
+  self-sacrifice is offered as a gift to Pygmalion, and
+  her stance toward him is consistently devoted. The play
+  is far less interested in Pygmalion's ethics than Ovid
+  is.

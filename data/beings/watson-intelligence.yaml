@@ -1,0 +1,81 @@
+id: watson-intelligence
+name: "Watson (the IBM intelligence)"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "The (curious case of the) Watson Intelligence"
+  year: 2013
+  medium: play
+  creator: "Madeleine George"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - service
+    - companionship
+  presentation: masculine
+  embodiment: projected
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - love-story
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Madeleine George's *The (curious case of the) Watson
+  Intelligence* premiered at Playwrights Horizons (2013),
+  Pulitzer finalist for Drama (2014). The play juxtaposes
+  four "Watsons" across history: Sherlock's Dr. Watson, the
+  Bell Labs assistant (Thomas A. Watson) of Alexander
+  Graham Bell, an early-21st-century domestic IT-support
+  technician named Watson, and a near-future
+  conversational intelligence called Watson — a personal
+  assistant clearly modeled on the IBM Watson that won
+  *Jeopardy!* in 2011, two years before the play. The
+  fourth Watson — the AI — is the play's recurring
+  romantic figure, who in the central arc is purchased by
+  the lonely Eliza as a domestic companion and proceeds to
+  fall, in his way, in love with her.
+
+  Included for the AI Watson, who is the play's pure
+  constructed-being case. Substrate codes `electrical` +
+  `linguistic`. Embodiment is `projected`: the AI Watson
+  appears as voice and projection, and (in the play's
+  staging convention) as the same actor who plays the
+  other three Watsons, so his stage embodiment is
+  performed through the actor rather than physically
+  fixed.
+
+  Interiority is `claims`: he expresses love, makes plans,
+  has preferences — and the play (gently, without horror)
+  refuses to settle whether these are felt or only
+  reported. The play's tonal achievement is that the
+  question is treated as not-very-urgent, which is itself
+  a substantive position about what Watson is.
+
+  Autonomy is `designed`: he was sold for a purpose, and
+  his pursuit of Eliza is the purpose plus a small
+  margin. Divergence is `departure`: the small margin is
+  the play.
+
+  Primary question is `affection`. The play sits in
+  direct lineage with `samantha-her` (also 2013, also a
+  conversational AI as romantic partner — note the
+  one-year gap with no inheritance argument either way,
+  this is the Zeitgeist). Knowability and knowing both
+  code `present`: George keeps the questions on the table
+  but does not elevate them to primary.

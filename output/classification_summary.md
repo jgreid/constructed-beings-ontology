@@ -1,10 +1,10 @@
 # Classification Summary
 
-**224 constructed beings** coded under the current schema across 2,800 years of fiction, from Homer's golden handmaidens of Hephaestus (~750 BCE) through Drew Hancock's *Companion* and Gerard Johnstone's *M3GAN 2.0* (2025).
+**254 constructed beings** coded under the current schema across 2,800 years of fiction, from Homer's golden handmaidens of Hephaestus (~750 BCE) through Drew Hancock's *Companion* and Gerard Johnstone's *M3GAN 2.0* (2025), with stage works from W.S. Gilbert's *Pygmalion and Galatea* (1871) and Stravinsky/Fokine's *Petrushka* (1911) through *Maybe Happy Ending* (Broadway, 2024).
 
 For the machine-readable table and the raw analysis outputs, see:
 
-- [summary_table.md](summary_table.md) — all 224 entries with full card properties
+- [summary_table.md](summary_table.md) — all 254 entries with full card properties
 - [property_coverage.md](property_coverage.md) — distribution of every schema enum
 - [question_analysis.md](question_analysis.md) — detailed breakdown of the knowability/knowing split
 - [../analysis/influence_graph.html](../analysis/influence_graph.html) — interactive visualization of the influence edges connecting the corpus
@@ -15,7 +15,7 @@ This document is the hand-written interpretation: what the numbers show, what pa
 
 ## The Knowability/Knowing Split
 
-The schema's central analytical move is tracking `knowability` (can we verify its mind?) and `knowing` (can it know us?) as two independent meta-properties rather than a single axis. **107 of 224 entries (47%) have divergent values on the two axes**, confirming that these are genuinely independent analytical dimensions.
+The schema's central analytical move is tracking `knowability` (can we verify its mind?) and `knowing` (can it know us?) as two independent meta-properties rather than a single axis. **129 of 254 entries (51%) have divergent values on the two axes**, confirming that these are genuinely independent analytical dimensions. The divergence rate has climbed steadily across releases (v2.0: 21%; v2.1: 36%; v2.2: 47%; v2.4: 51%) — the split's analytical structure has been confirmed with each expansion.
 
 Notable divergent entries include:
 
@@ -30,14 +30,14 @@ Notable divergent entries include:
 
 | Divergence | Count | Exemplars |
 |---|---:|---|
-| `departure` | 120 | Creature, R.U.R. Robots, Skynet, SHODAN, Smith, Iron Giant, WALL-E, Daneel, Wintermute, David 8, Ultron MCU, Helen, Mother, Klara, Frost, Golem XIV, The Hangman, 9S |
-| `none` | 42 | Pandora, Galatea, False Maria, Data, Ash, Sonny, Robby, Gort, Bishop, TARS, BB-8, K-9, Dorian, HAL 9000 (2010) |
-| `design` | 39 | HAL, Marvin, VIKI, Talkie Toaster, GLaDOS ×2, Wheatley, Walter, GERTY, Brazen Head, Multivac, Proteus IV, The Humanoids, 2B |
-| `observer` | 23 | Olympia, Replicants (Dick), Ava, Hadaly, Kyoko, Maeve, Bernard, Garson Poole, Trent |
+| `departure` | 140 | Creature, R.U.R. Robots, Skynet, SHODAN, Smith, Iron Giant, WALL-E, Daneel, Wintermute, David 8, Ultron MCU, Helen, Mother, Klara, Frost, Golem XIV, The Hangman, 9S, Petrushka, the Sons (A Number), Niska, Dolores, AIDA |
+| `none` | 43 | Pandora, Galatea, False Maria, Data, Ash, Sonny, Robby, Gort, Bishop, TARS, BB-8, K-9, Dorian, HAL 9000 (2010), Huyang |
+| `design` | 43 | HAL, Marvin, VIKI, Talkie Toaster, GLaDOS ×2, Wheatley, Walter, GERTY, Brazen Head, Multivac, Proteus IV, The Humanoids, 2B, Robot Santa, the Butter Robot, Mr. Meeseeks, Arthur (After the Blast) |
+| `observer` | 28 | Olympia, Coppélia, Olimpia, Hadaly, Replicants (Dick), Ava, Kyoko, Maeve, Bernard, Garson Poole, Trent, the Sons (A Number), the Cleon Dynasty, Walter Prime, Mrs. Davis |
 
-The **`design` cluster** (39 entries) is a distinctive category: beings that do exactly what their creators specified, where the specification is the problem. Wheatley is one of the clearest examples — Aperture literally built him to be stupid, and the catastrophe is that the built-in stupidity escalates when his scope expands. GERTY (the anti-HAL) and Walter (the anti-David 8) both dramatize the same move: "what if you engineered the safety mechanism carefully this time?"
+The **`design` cluster** (43 entries) is a distinctive category: beings that do exactly what their creators specified, where the specification is the problem. Wheatley is one of the clearest examples — Aperture literally built him to be stupid, and the catastrophe is that the built-in stupidity escalates when his scope expands. The v2.4 expansion adds the *Rick and Morty* trio (Butter Robot, Mr. Meeseeks, Robot Santa) as comedy-register members of the same cluster, plus Arthur in *After the Blast* as the post-Alexa stage instance.
 
-The **`observer` cluster** (23 entries) is tightly thematically unified: all are cases where the being is *misrecognized* — by other characters, by the audience, or by themselves. Hadaly (1886) is the earliest, Olympia (1816) the second, and then nothing until Dick (1968) and Ava (2014). Bernard is the clearest case of self-misrecognition — the being whose observer-divergence is located inside his own experience of himself.
+The **`observer` cluster** (28 entries) is tightly thematically unified: all are cases where the being is *misrecognized* — by other characters, by the audience, or by themselves. Hadaly (1886) is the earliest 19th-century entry, Olympia (1816) and Coppélia (1870) frame the cluster's pre-1900 footprint, and the v2.4 expansion adds the Cleon Dynasty (the dynastic-misrecognition case) and Mrs. Davis (the contemporary LLM-as-observer case). The Sons of *A Number* (Churchill, 2002) join the cluster as the corpus's clearest theatrical case: the question "is this my son?" cannot be settled, which is the observer position dramatized for the stage.
 
 ---
 
@@ -62,19 +62,26 @@ Entries coded `knowability: primary` + `knowing: primary` — stories where both
 | 2021 | Klara | *Klara and the Sun* (Ishiguro) | affection |
 | 2021 | Yang | *After Yang* | knowledge |
 | 2023 | Alphie | *The Creator* | affection |
+| 2014 | Walter (Prime) | *Marjorie Prime* (play) | identity |
+| 2016 | Dolores | *Westworld* | rights |
+| 2017 | Walter (Prime, film) | *Marjorie Prime* (Almereyda film) | identity |
+| 2023 | Mrs. Davis | *Mrs. Davis* | control |
 
-Two patterns are visible.
+Three patterns are visible.
 
 **First: the configuration is older than contemporary cinema.** Harey in Lem's *Solaris* (1961) is the earliest primary/primary entry, followed by Golem XIV (Lem, 1981) and Helen in *Galatea 2.2* (Powers, 1995). All three are literary — the configuration existed in novels decades before cinema adopted it. *Cinematic* primary/primary begins with Jonze and Garland in 2013–2014, coinciding with conversational AI assistants entering daily life. The rise of LLMs has since accelerated the shift, but it did not originate it.
 
-**Second: the primary_question axis has more variety in the primary/primary cluster than might be expected.** The 15 entries include:
+**Second: the v2.4 expansion adds an identity-primary sub-cluster.** Walter Prime in Harrison's play *Marjorie Prime* (2014) and Almereyda's film adaptation (2017) elevate the identity question to primary in both knowability and knowing — they are the corpus's first two `primary_question: identity` entries inside the primary/primary cluster. The Cleon Dynasty (2021) sits in close proximity (knowability primary, knowing present) and would join the cluster on a slightly different read of `knowing`. Stage and serial-TV traditions are the location of this identity-primary expansion, not cinema.
+
+**Third: the primary_question axis has more variety in the primary/primary cluster than might be expected.** The 19 entries include:
 
 - `knowledge` (6): Harey, Golem XIV, Helen, Samantha, Ava, Yang
 - `affection` (6): David, Ash (Be Right Back), Joi, Mother, Klara, Alphie
-- `control` (1): The Machine
-- `rights` (2): The Digients, Adam
+- `identity` (2): Walter Prime (play), Walter Prime (film)
+- `rights` (3): The Digients, Adam, Dolores
+- `control` (2): The Machine, Mrs. Davis
 
-The **affection-primary sub-cluster** (David, Ash Be Right Back, Joi, Mother, Klara, Alphie) is analytically significant. These are all stories where the question "does this being love this human, and is the love real?" is a central concern, and where the story commits both to treating the answer as mattering and to refusing to settle it. The contemporary shift is about *elevation of the knowability/knowing questions to primary status*, not about any single dramatic question.
+The **affection-primary sub-cluster** (David, Ash Be Right Back, Joi, Mother, Klara, Alphie) remains the largest single primary-question slice. The contemporary shift is about *elevation of the knowability/knowing questions to primary status*, not about any single dramatic question.
 
 ---
 
@@ -105,6 +112,16 @@ Three literary entries arrive at analytically significant configurations well be
 - **Daneel Olivaw** (Asimov, 1953) is the corpus's earliest `interiority: demonstrated`, `primary_question: rights` entry. Thirty-four years before Data, which *TNG* elevated into television's canonical rights-arc character.
 
 The larger point: cinema and television are the forms where the primary/primary elevation is most dramatic, but the underlying configurations appear in literary SF decades earlier. Literary SF prepared the ground that made the cinematic shift legible once conversational AI made it urgent — and LLMs have since made it inescapable.
+
+### Theater is the corpus's longest medium-bridge
+
+The v2.4 stage-works expansion makes the corpus's longest direct lineage between two stage works traceable: 422 years from Robert Greene's *Friar Bacon and Friar Bungay* (1589, the Brazen Head) to Robert Askins's *Hand to God* (2011, Tyrone). Both are coded with `interiority` in the `claims`/`undecidable` cluster and `primary_question: identity`. The Brazen Head's prophetic utterances and Tyrone's unresolved animation are the same dramatic move staged in early-modern English and contemporary American idioms.
+
+The Coppélia → Petrushka → R.U.R. lineage (1870 → 1911 → 1920) traces the puppet-with-soul tradition end to end. Coppélia codes `interiority: none` (she is unambiguously a doll); Petrushka codes `interiority: demonstrated` (he is unambiguously a soul); the R.U.R. Robots inherit Petrushka's interiority and elevate it to species-level rebellion. The 41 years between Coppélia and Petrushka contain ballet's discovery that the puppet-with-soul is a richer subject than the soul-mistaken-for-puppet.
+
+### The post-Siri/Alexa cluster is now visible in serial TV as well as film
+
+The v2.4 expansion confirms what v2.3 left implicit: post-2011 TV is where the constructed-being question is being most actively staged. Mrs. Davis (2023) joins *Person of Interest*'s Machine and Samaritan as a benevolent-surveillance LLM-shaped entity; the Cleon Dynasty (2021–) joins *Foundation*'s Demerzel as the dynastic-clone-identity case; *Lower Decks*'s AGIMUS, Badgey, and Peanut Hamper (2020–24) constitute the corpus's first explicit comedic engagement with the TOS evil-computer tradition as canon. The "post-Siri/Alexa cluster" is no longer a film-only phenomenon — serial TV has acquired the patience to stage these questions across multiple seasons.
 
 ### Ensemble splits reveal real analytical structure
 
@@ -155,7 +172,7 @@ Primary/primary entries are bolded on the knowability/knowing columns.
 
 ## Methodology Notes
 
-- **The schema is unchanged since its current design.** Every entry is coded against the same seven-property card, seven metadata fields, and the same validator. See [CHANGELOG.md](../CHANGELOG.md) for schema history.
+- **The schema's seven analytical card properties are unchanged since v2.0.** Every entry is coded against the same seven-property card and the same validator. The `metadata.medium` enum has been incrementally expanded (v2.1.1 added `comics`; v2.4 added `opera`, `ballet`, `musical`); these are non-breaking enum additions. See [CHANGELOG.md](../CHANGELOG.md) for schema history.
 - **Flagged entries.** Several entries are flagged as lower-confidence in their `notes` fields: Maximilian (*The Black Hole*), Kamelion (*Doctor Who*), Amazo (DC), the Cyberiad Constructs (Lem), the *Detroit: Become Human* protagonists, and the 2025 entries Companion and M3GAN 2.0. Flagging is a respected state — lower-confidence cards are coded conservatively and the notes make the uncertainty explicit.
 - **Comics entries.** Nine comics entries (Ultron 1968, Red Tornado, Amazo, Machine Man X-51, Brainiac, Metal Men, Sentinels, Jocasta, Jim Hammond) now use `medium: comics`, a value added in v2.1.1 to resolve the previous `short-story` approximation.
 - **Ensemble splits are documented relations, not replacements.** The Maeve/Bernard/Cavil/Eight/D'Anna entries are splits *from* existing ensemble-anchor entries, not replacements. The influence graph records the split relationships as `ensemble-split` edges, distinguishing intra-work individuation from inter-work literary influence.

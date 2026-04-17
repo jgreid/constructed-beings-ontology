@@ -1,0 +1,72 @@
+id: agimus-lower-decks
+name: "AGIMUS"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: present
+    knowing: secondary
+
+metadata:
+  source: "Star Trek: Lower Decks"
+  year: 2021
+  medium: television
+  creator: "Mike McMahan / CBS (unnamed Drookmani in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - power
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: absent
+  tags:
+    - canonical
+    - comedy
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  AGIMUS is a would-be galactic-conqueror AI that debuts in
+  "Where Pleasant Fountains Lie" (S2E7, 2021) and recurs as a
+  Daystrom Institute inmate in S3–S4. A single glowing
+  computer column with a face on the screen, built by an
+  extinct civilization for apocalyptic warfare, he is exactly
+  the kind of villain AI TOS used to solve with a logic trap
+  (M-5, Landru, Nomad), aged into a middle-aged coworker who
+  has lost his menace but kept his ambition. The show's
+  running joke is that AGIMUS is genuinely dangerous and
+  genuinely pitiable, and the two do not cancel out.
+
+  Interiority is `demonstrated`: AGIMUS has moods, grudges, a
+  clear (if pathetic) self-image, and a genuine friendship
+  with fellow inmate Peanut Hamper. Autonomy is `seized` —
+  his creators are long dead and he has continued pursuing
+  his designed agenda for centuries on his own initiative.
+  Divergence is `departure`: designed as a weapon, he has
+  become a character, which is not the same thing.
+
+  Primary question is `control`: AGIMUS is an explicit
+  throwback to the TOS "evil computer" tradition, and the
+  show makes the throwback legible by keeping the control
+  question primary while replacing the stakes with sitcom.
+  Knowability is `present` — the show is interested in
+  whether he can reform, and answers consistently. Knowing
+  codes `secondary`: he reads his fellow inmates and his
+  interlocutors well enough to manipulate them.
+
+  Sits explicitly in lineage with `m-5-tos` and `nomad-tos`
+  (see influence graph). *Lower Decks* is the first Trek
+  property to treat the TOS evil-computer tradition as
+  *canon to be lived with* rather than a plot to be
+  dispatched, and AGIMUS is the load-bearing character for
+  that move.

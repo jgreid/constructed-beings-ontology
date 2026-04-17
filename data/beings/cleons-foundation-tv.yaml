@@ -1,0 +1,90 @@
+id: cleons-foundation-tv
+name: "The Cleon Dynasty (Brother Dawn / Brother Day / Brother Dusk)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: observer
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Foundation (Apple TV+)"
+  year: 2021
+  medium: television
+  creator: "David S. Goyer / Apple TV+ (Cleon I and the genetic dynasty in-narrative)"
+  substrate:
+    - cloned
+    - biological
+  motivation:
+    - power
+    - service
+    - mirror
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - philosophical
+    - ensemble-split
+
+sequel_link: demerzel-foundation-tv
+link_type: successor
+
+notes: |
+  The Cleon dynasty — overlapping trinities of Brother Dawn,
+  Brother Day, and Brother Dusk, each a genetic clone of the
+  original Cleon I — is the political core of Apple TV+'s
+  *Foundation* (2021–present, Goyer). The show's signature
+  structural innovation is to divide an imperial life across
+  three overlapping clones, so that every emperor is always
+  a young, middle, and old version of himself in the same
+  throne room.
+
+  Included as a clone-substrate ensemble entry. `ensemble-split`
+  is applied because the show treats individual Cleons as
+  distinct characters while also being explicit that they are
+  the same being instantiated repeatedly — the tension between
+  these framings is the dynasty's dramatic engine.
+
+  Substrate codes `cloned` + `biological`. The Cleons are
+  fully biological humans whose origin is deliberate copying
+  from a template genome, and the show is explicit that they
+  are *made* (with a spec, a manufacturing facility, and a
+  quality-control process) rather than *born* in the
+  ordinary sense. This is the substrate `cloned` the schema
+  is designed to capture; the Cleons sit in lineage with the
+  Sam Bell clones (excluded from the corpus as boundary
+  cases) and with the *Blade Runner* replicants.
+
+  Interiority is `demonstrated` across multiple Cleon
+  instances, most notably Brother Day in S1 ("Death and the
+  Maiden") and Brother Dawn across S2. Autonomy is
+  `designed`: the Cleons are raised to the Imperial role
+  from decant, and the series treats their agency as a
+  function of the dynasty's training. Divergence is
+  `observer`: a Cleon becomes a different person depending
+  on which of the dynasty's functionaries (Demerzel, the
+  Empire tutors, the court) attends to them, and the show
+  repeatedly stages the same Cleon reading as loyal or
+  heretical depending on who is watching.
+
+  Primary question is `identity`. The series is explicit
+  about the identity question — "am I myself or my
+  grandfather?" is the central Cleon soliloquy and recurs
+  each season. Knowability is `primary`: the S1 reveal that
+  the dynasty's genetic line has been secretly contaminated
+  escalates the identity question to an ongoing knowability
+  question, and the S2 arc turns on whether the current
+  Cleons are "real" Cleons.
+
+  `sequel_link` to `demerzel-foundation-tv` with
+  `link_type: successor` — Demerzel is the inter-dynasty
+  constant and the Cleons' custodian, and the show frames
+  her relationship to the dynasty as the anchor that makes
+  the identity question habitable.

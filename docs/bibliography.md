@@ -20,13 +20,25 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 
 - **Golem of Prague folklore cycle** (1580) — Traditional. *Being(s): The Golem of Prague*
 
-### Drama
+### Drama, Opera, Ballet, and Musicals
 
 - **The Honorable History of Friar Bacon and Friar Bungay** (1589) — Robert Greene. *Being(s): The Brazen Head*
 - **Faust, Part Two** (1832) — Johann Wolfgang von Goethe. *Being(s): The Homunculus*
 - **Coppélia, ou la Fille aux yeux d'émail** (1870) — Léo Delibes / Arthur Saint-Léon. *Being(s): Coppélia*
+- **Pygmalion and Galatea** (1871) — W.S. Gilbert. *Being(s): Galatea (Gilbert)*
 - **Les contes d'Hoffmann (The Tales of Hoffmann)** (1881) — Jacques Offenbach / Jules Barbier. *Being(s): Olimpia*
+- **Petrushka** (1911) — Igor Stravinsky / Michel Fokine / Alexandre Benois. *Being(s): Petrushka*
 - **R.U.R. (Rossum's Universal Robots)** (1920) — Karel Capek. *Being(s): R.U.R. Robots*
+- **Der Golem** (1926) — Eugen d'Albert / Ferdinand Lion. *Being(s): The Golem (d'Albert opera)*
+- **A Number** (2002) — Caryl Churchill. *Being(s): Bernard 1 / Bernard 2 / Michael Black*
+- **Hand to God** (2011) — Robert Askins. *Being(s): Tyrone*
+- **Frankenstein** (2011) — Nick Dear / Danny Boyle (after Mary Shelley). *Being(s): The Creature (Nick Dear adaptation)*
+- **The Nether** (2013) — Jennifer Haley. *Being(s): Iris*
+- **The (curious case of the) Watson Intelligence** (2013) — Madeleine George. *Being(s): Watson (the IBM intelligence)*
+- **Marjorie Prime** (2014) — Jordan Harrison. *Being(s): Walter (Prime)*
+- **Be More Chill** (2015) — Joe Iconis / Joe Tracz (after Ned Vizzini). *Being(s): The SQUIP*
+- **Maybe Happy Ending** (2016) — Will Aronson / Hue Park. *Being(s): Oliver and Claire (Helperbots)*
+- **After the Blast** (2017) — Zoe Kazan. *Being(s): Arthur*
 
 ### Novels
 
@@ -144,6 +156,7 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Blade Runner 2049** (2017) — Denis Villeneuve. *Being(s): Joi, K, Luv*
 - **Solo: A Star Wars Story** (2018) — Ron Howard. *Being(s): L3-37*
 - **I Am Mother** (2019) — Grant Sputore. *Being(s): Mother*
+- **Marjorie Prime** (2017) — Michael Almereyda (after Jordan Harrison). *Being(s): Walter (Prime, film)*
 - **After Yang** (2021) — Kogonada. *Being(s): Yang*
 - **Finch** (2021) — Miguel Sapochnik. *Being(s): Jeff*
 - **Free Guy** (2021) — Shawn Levy. *Being(s): Guy*
@@ -176,7 +189,7 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Star Trek: Voyager** (1995) — Rick Berman / Michael Piller. *Being(s): The Doctor (EMH)*
 - **Star Trek: Deep Space Nine** (1998) — Ira Steven Behr. *Being(s): Vic Fontaine*
 - **Neon Genesis Evangelion** (1995) — Hideaki Anno / Gainax. *Being(s): Rei Ayanami*
-- **Futurama** (1999) — Matt Groening / David X. Cohen. *Being(s): Bender*
+- **Futurama** (1999) — Matt Groening / David X. Cohen. *Being(s): Bender, Calculon, Robot Santa*
 - **Invader Zim** (2001) — Jhonen Vasquez. *Being(s): GIR*
 - **Ghost in the Shell: Stand Alone Complex** (2002) — Kenji Kamiyama / Production I.G. *Being(s): Tachikomas*
 - **Battlestar Galactica (reimagined)** (2004) — Ronald D. Moore. *Being(s): Cavil, Cylons (Six), D'Anna, Eight*
@@ -184,17 +197,24 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Adventure Time** (2010) — Pendleton Ward. *Being(s): BMO*
 - **Person of Interest** (2011) — Jonathan Nolan. *Being(s): The Machine, Samaritan*
 - **Almost Human** (2013) — J.H. Wyman. *Being(s): Dorian*
-- **Black Mirror** (2013-2017) — Charlie Brooker. *Being(s): Ash (Be Right Back), Cookie, Nanette Cole (USS Callister)*
-- **Humans** (2015) — Sam Vincent / Jonathan Brackley. *Being(s): Mia*
+- **Black Mirror** (2013-2019) — Charlie Brooker. *Being(s): Ash (Be Right Back), Cookie, Nanette Cole (USS Callister), Ashley Too*
+- **Rick and Morty** (2013) — Justin Roiland / Dan Harmon. *Being(s): Butter Robot, Mr. Meeseeks, Space Cruiser AI*
+- **Agents of S.H.I.E.L.D.** (2013-2020) — Maurissa Tancharoen / Jed Whedon / Jeffrey Bell. *Being(s): AIDA / Madame Hydra*
+- **Humans** (2015-2018) — Sam Vincent / Jonathan Brackley. *Being(s): Mia, Niska*
 - **The Good Place** (2016) — Michael Schur. *Being(s): Janet*
-- **Westworld** (2016-2020) — Jonathan Nolan / Lisa Joy. *Being(s): Bernard, Dolores (Hosts), Maeve, Rehoboam*
+- **Westworld** (2016-2022) — Jonathan Nolan / Lisa Joy. *Being(s): Bernard, Dolores, Hosts, Maeve, Rehoboam*
+- **Star Trek: Discovery** (2017-2024) — Alex Kurtzman / CBS. *Being(s): Zora*
 - **The Orville** (2017) — Seth MacFarlane. *Being(s): Isaac*
 - **The Mandalorian** (2019) — Jon Favreau. *Being(s): IG-11*
 - **Raised by Wolves** (2020) — Aaron Guzikowski. *Being(s): Father, Mother*
 - **Star Trek: Picard** (2020) — Michael Chabon / Akiva Goldsman. *Being(s): Soji*
 - **WandaVision** (2021) — Jac Schaeffer. *Being(s): White Vision*
+- **Loki** (2021-2023) — Michael Waldron / Marvel Studios. *Being(s): Miss Minutes*
+- **Star Trek: Lower Decks** (2020-2024) — Mike McMahan / CBS. *Being(s): AGIMUS, Badgey, Peanut Hamper*
 - **Andor** (2022) — Tony Gilroy. *Being(s): B2EMO*
-- **Foundation** (2023-2024) — David S. Goyer / Apple TV+. *Being(s): Eto Demerzel*
+- **Mrs. Davis** (2023) — Tara Hernandez / Damon Lindelof. *Being(s): Mrs. Davis*
+- **Ahsoka** (2023) — Dave Filoni / Lucasfilm. *Being(s): Professor Huyang*
+- **Foundation** (2021-2024) — David S. Goyer / Apple TV+. *Being(s): The Cleon Dynasty, Eto Demerzel*
 
 ### Video Games
 

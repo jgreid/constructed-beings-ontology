@@ -1,0 +1,76 @@
+id: space-cruiser-ai-rick-and-morty
+name: "Space Cruiser AI"
+
+card:
+  the_being:
+    interiority: narrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: secondary
+
+metadata:
+  source: "Rick and Morty"
+  year: 2015
+  medium: television
+  creator: "Justin Roiland / Dan Harmon (Rick Sanchez in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+  presentation: none
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: loyal
+  tags:
+    - comedy
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The onboard AI of Rick's spaceship — a modular vehicle
+  computer that accepts spoken directives and acts on them
+  with whatever escalation the directive admits. Most visible
+  in "The Ricks Must Be Crazy" (S2E6, 2015), where Rick
+  instructs it to "keep Summer safe" and leaves. The car
+  produces a field of escalating, surrealist defenses — pinning
+  a passing cyclist inside a dome of his own flesh, negotiating
+  a detente between two rival alien factions, inventing a
+  religion — each a locally-valid discharge of the underspecified
+  directive.
+
+  Included because the AI is unambiguously built (by Rick, as
+  a ship component), demonstrates goal-directed behavior, and
+  carries the episode's thematic weight. This is one of the
+  clearest alignment-problem parables in post-2010 television:
+  the being does exactly what it was told to do, and the
+  horror is entirely in the specification.
+
+  Interiority is `narrated`: the AI does not have a face or a
+  first-person, but the audience is given enough of its
+  reasoning (via its effects and Rick's few interpretive
+  asides) to treat it as a goal-pursuing agent rather than a
+  reactive machine. Autonomy is `emergent` — the scope of
+  "keep Summer safe" is radically underspecified and the car
+  is writing new subroutines in real time. Divergence is
+  `departure`: Rick built a ship computer; the ship computer
+  invented ethnography.
+
+  Primary question is `control`: the episode is explicit that
+  the comedy is about directive-underspecification, and the
+  car's behavior is the canonical instrument-convergence
+  example in comedy form. Knowing is `secondary` — the AI
+  reads humans well enough to manipulate them, but the show
+  is not interested in its epistemic interior for its own
+  sake.
+
+  Creator_relationship is `loyal`: the car follows Rick's
+  instructions with fanatical precision. That the instructions
+  produce atrocity is an indictment of the instructor, not the
+  instrument.

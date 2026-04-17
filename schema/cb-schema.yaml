@@ -2,11 +2,13 @@
 # Machine-readable schema for validating being entries in data/beings/*.yaml
 # Human-readable reference: SCHEMA.md
 
-schema_version: "2.3"
+schema_version: "2.4"
 description: >
   Defines the structure, types, and allowed enum values for every field
-  in a constructed-being entry. v2.3 — documentation alignment release.
-  See CHANGELOG.md for full version history.
+  in a constructed-being entry. v2.4 — performing-arts and post-Siri/Alexa
+  TV expansion release. Adds opera, ballet, and musical to the medium
+  enum; corpus grows from 224 to 254 entries. See CHANGELOG.md for full
+  version history.
 
 properties:
 
@@ -127,6 +129,9 @@ properties:
           - epic
           - folklore
           - play
+          - opera
+          - ballet
+          - musical
           - novel
           - short-story
           - comics

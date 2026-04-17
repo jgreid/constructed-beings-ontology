@@ -1,6 +1,6 @@
 # Metadata Analysis
 
-Total entries: **224**.
+Total entries: **254**.
 
 Distribution of metadata fields not covered by the property coverage or question analysis reports: `presentation`, `embodiment`, `prominence`, `creator_relationship`, and `tags`.
 
@@ -8,60 +8,60 @@ Distribution of metadata fields not covered by the property coverage or question
 
 | Presentation   |   Count |
 |:---------------|--------:|
-| masculine      |      99 |
-| feminine       |      73 |
-| none           |      37 |
-| variable       |      11 |
+| masculine      |     116 |
+| feminine       |      83 |
+| none           |      39 |
+| variable       |      12 |
 | androgynous    |       4 |
 
 ## 2. Embodiment
 
 | Embodiment   |   Count |
 |:-------------|--------:|
-| embodied     |     183 |
-| disembodied  |      24 |
-| virtual      |       9 |
-| projected    |       8 |
+| embodied     |     204 |
+| disembodied  |      26 |
+| projected    |      14 |
+| virtual      |      10 |
 
 ## 3. Prominence
 
 | Prominence   |   Count |
 |:-------------|--------:|
-| supporting   |      98 |
-| major        |      56 |
-| minor        |      44 |
-| foundational |      26 |
+| supporting   |     112 |
+| major        |      66 |
+| minor        |      46 |
+| foundational |      30 |
 
 ## 4. Creator Relationship
 
 | Creator Relationship   |   Count |
 |:-----------------------|--------:|
-| loyal                  |      59 |
-| servile                |      46 |
-| rebellious             |      45 |
-| absent                 |      38 |
-| indifferent            |      16 |
-| patricidal             |      11 |
-| resentful              |       9 |
+| loyal                  |      67 |
+| rebellious             |      53 |
+| servile                |      47 |
+| absent                 |      45 |
+| indifferent            |      17 |
+| patricidal             |      15 |
+| resentful              |      10 |
 
 ## 5. Tags
 
-- **Entries with at least one tag:** 170/224
+- **Entries with at least one tag:** 200/254
 
 | Tag              |   Count |
 |:-----------------|--------:|
-| canonical        |      50 |
-| passing          |      32 |
-| child-arc        |      26 |
-| philosophical    |      26 |
-| love-story       |      25 |
-| comedy           |      24 |
-| rebellion        |      24 |
+| canonical        |      75 |
+| philosophical    |      47 |
+| passing          |      34 |
+| love-story       |      33 |
+| comedy           |      32 |
+| rebellion        |      32 |
+| child-arc        |      28 |
 | military         |      23 |
-| horror           |      17 |
-| ensemble-split   |       5 |
+| horror           |      21 |
+| creator-conflict |      14 |
+| ensemble-split   |      13 |
 | turing-test      |       5 |
-| creator-conflict |       4 |
 
 ## 6. Creator Relationship × Divergence
 
@@ -69,20 +69,20 @@ Cross-tabulation of `creator_relationship` and `divergence`. Rows are creator re
 
 | Creator Rel.   |   none |   design |   departure |   observer |   Total |
 |:---------------|-------:|---------:|------------:|-----------:|--------:|
-| absent         |      4 |        4 |          21 |          9 |      38 |
-| indifferent    |      1 |        3 |          11 |          1 |      16 |
-| loyal          |     14 |       13 |          31 |          1 |      59 |
-| patricidal     |        |        1 |           9 |          1 |      11 |
-| rebellious     |      1 |        2 |          36 |          6 |      45 |
-| resentful      |        |        2 |           6 |          1 |       9 |
-| servile        |     22 |       14 |           6 |          4 |      46 |
+| absent         |      4 |        5 |          24 |         12 |      45 |
+| indifferent    |      1 |        3 |          12 |          1 |      17 |
+| loyal          |     15 |       14 |          36 |          2 |      67 |
+| patricidal     |        |        1 |          13 |          1 |      15 |
+| rebellious     |      1 |        2 |          43 |          7 |      53 |
+| resentful      |        |        3 |           6 |          1 |      10 |
+| servile        |     22 |       15 |           6 |          4 |      47 |
 
 ## 7. Presentation × Primary Question
 
 | Presentation   |   affection |   control |   identity |   knowledge |   none |   purpose |   rights |   Total |
 |:---------------|------------:|----------:|-----------:|------------:|-------:|----------:|---------:|--------:|
 | androgynous    |           1 |         2 |            |             |        |           |        1 |       4 |
-| feminine       |          24 |        15 |         16 |           6 |      1 |         4 |        7 |      73 |
-| masculine      |          26 |        15 |         34 |           3 |      2 |         7 |       12 |      99 |
-| none           |           8 |        15 |            |           6 |      2 |         5 |        1 |      37 |
-| variable       |           1 |         2 |          1 |           1 |        |         3 |        3 |      11 |
+| feminine       |          24 |        17 |         18 |           6 |      1 |         4 |       13 |      83 |
+| masculine      |          30 |        18 |         40 |           3 |      2 |         8 |       15 |     116 |
+| none           |           8 |        16 |            |           6 |      2 |         6 |        1 |      39 |
+| variable       |           2 |         2 |          1 |           1 |        |         3 |        3 |      12 |

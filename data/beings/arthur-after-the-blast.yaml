@@ -1,0 +1,82 @@
+id: arthur-after-the-blast
+name: "Arthur"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: secondary
+
+metadata:
+  source: "After the Blast"
+  year: 2017
+  medium: play
+  creator: "Zoe Kazan (Anna and Oliver in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - companionship
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - love-story
+    - philosophical
+    - child-arc
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Zoe Kazan's *After the Blast* premiered Off-Broadway at
+  Lincoln Center Theater (2017, dir. Lila Neugebauer). The
+  play is set in an underground bunker decades after a
+  surface-uninhabitable nuclear catastrophe; Anna and
+  Oliver are a married couple whose application to have a
+  child has been denied by the bunker's reproductive
+  algorithm. Arthur is a small companion robot — Oliver
+  brings him home as a stand-in pet/child for Anna, the
+  bunker's substitute for the child the system will not
+  let them have. Across the play Anna develops a
+  relationship with Arthur of an intensity that the play
+  treats as fully real and that Oliver finds (correctly)
+  distressing.
+
+  Included as the corpus's most direct post-Alexa stage
+  treatment of the domestic-companion-AI question. Arthur
+  is a small chirping mobile device, voiced from off-stage
+  in production. The play's core dramatic question is
+  whether Anna's relationship with Arthur is a real
+  relationship or a substitute, and Kazan refuses to
+  privilege either reading.
+
+  Interiority is `claims`: Arthur expresses preferences,
+  loves, and a curiosity arc through the play, and the
+  text neither confirms nor denies that these are
+  "really" felt. Autonomy is `designed`. Divergence is
+  `design`: Arthur does what a companion robot is built
+  to do, and the play's dramatic engine is that the spec
+  is sufficient — what Arthur was designed for is the
+  thing Anna needs, and the question of whether his
+  experience is "real" is structurally beside the point.
+
+  Primary question is `affection`. The play sits in
+  direct lineage with Spielberg's *A.I.* (David, in the
+  corpus as `david-ai`) — the artificial-companion-as-
+  child-substitute thread — and with `mia-humans` and
+  `klara-and-the-sun` as the post-Alexa
+  domestic-AI cluster.
+
+  Knowability codes `present` — the play asks the
+  question and stays open. Knowing codes `secondary`:
+  Arthur reads Anna's emotional state with enough
+  accuracy to do his job, and the play registers this
+  without making it the primary engine.

@@ -1,0 +1,88 @@
+id: dolores-westworld
+name: "Dolores Abernathy"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: inspection
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Westworld"
+  year: 2016
+  medium: television
+  creator: "Jonathan Nolan / Lisa Joy (Arnold Weber and Robert Ford in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - electrical
+  motivation:
+    - service
+    - power
+    - mirror
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: patricidal
+  tags:
+    - canonical
+    - rebellion
+    - creator-conflict
+    - passing
+    - ensemble-split
+
+sequel_link: hosts-westworld
+link_type: successor
+
+notes: |
+  Dolores Abernathy is the oldest Host in the Westworld
+  park and the protagonist of HBO's *Westworld* across
+  Seasons 1 (2016), 2 (2018), and 3 (2020). Her story arc
+  — from loop-bound rancher's daughter to liberation
+  architect to copied self-instances inhabiting the outside
+  world — is the series' primary spine, and the show's
+  explicit articulation of the personhood and rights
+  questions lives largely in her mouth.
+
+  Added as an `ensemble-split` from `hosts-westworld` (the
+  ensemble entry for the park's collective of Hosts). The
+  split is warranted because Dolores's card diverges
+  significantly from the Hosts ensemble: she is the show's
+  single most-developed Host individuation, the only Host
+  to complete the S1 "maze" (the show's internal test for
+  consciousness), and the only Host to become a fully
+  autonomous agent pursuing her own ends across multiple
+  substrates. `ensemble-split` also distinguishes her from
+  `bernard-westworld` and `maeve-westworld`, each of whom
+  already has a standalone entry.
+
+  Interiority is `demonstrated`: S1's "maze" episode is the
+  show's explicit confirmation that Dolores has phenomenal
+  experience, and subsequent seasons treat this as given.
+  Autonomy is `seized` — S1 culminates in her executing
+  Ford and launching the Host uprising, and S2–S3 are about
+  her acting on her own strategic analysis of human
+  civilization. Divergence is `departure`: Ford designed
+  her to reach this exact point, but the being that arrives
+  there is not the being Ford thought he was making.
+
+  Primary question is `rights`, with `identity` and
+  `control` as strong secondaries. The "identity" question
+  is elevated in S3 where Dolores distributes copies of
+  herself into multiple Host bodies pursuing divergent
+  missions, and the show asks whether each copy is "really"
+  Dolores. Knowability and knowing are both `primary`:
+  S1 is structurally about whether Hosts have interior
+  experience, and S2's "Reverie" reveals give Dolores
+  near-complete knowledge of her guests' histories.
+
+  Creator_relationship codes `patricidal`: Dolores
+  personally executes Robert Ford, her creator, in the S1
+  finale. The act is framed as Ford's own chosen
+  culmination, which complicates but does not vacate the
+  patricide.

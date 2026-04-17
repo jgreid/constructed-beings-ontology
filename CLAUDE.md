@@ -4,12 +4,12 @@ Project context for AI-assisted development of the Constructed Beings Ontology.
 
 ## What this project is
 
-A formal ontology of **constructed beings** in fiction — entities that are *made*, not *born*. 224 YAML entries coded against a seven-property analytical schema, spanning Homer (~750 BCE) through 2025. The dataset accompanies the essay "Tears in Rain" at tearsinrain.ai.
+A formal ontology of **constructed beings** in fiction — entities that are *made*, not *born*. 254 YAML entries coded against a seven-property analytical schema, spanning Homer (~750 BCE) through 2025. The dataset accompanies the essay "Tears in Rain" at tearsinrain.ai.
 
 ## Repository structure
 
 ```
-data/beings/          224 YAML entry files (the corpus)
+data/beings/          254 YAML entry files (the corpus)
 data/boundary_cases/  Entries on the definitional edge
 data/exclusions.yaml  Entities considered and excluded
 schema/cb-schema.yaml Machine-readable schema definition
@@ -68,7 +68,7 @@ Top-level fields: `id`, `name`, `card`, `metadata`, `sequel_link`, `link_type`, 
 - **primary_question:** none | control | affection | purpose | rights | knowledge | identity
 - **epistemic_reach:** none | behavioral | conversational | inspection
 - **knowability/knowing:** absent | present | secondary | primary
-- **medium:** poem | epic | folklore | play | novel | short-story | comics | film | television | video-game
+- **medium:** poem | epic | folklore | play | opera | ballet | musical | novel | short-story | comics | film | television | video-game
 - **substrate:** mechanical | biological | electrical | magical | cloned | linguistic
 - **motivation:** service | knowledge | power | companionship | art | mirror | child | other
 - **presentation:** masculine | feminine | androgynous | none | variable
@@ -130,7 +130,7 @@ These are regenerated from the corpus. Edit the YAML entries, then regenerate.
 
 ## Version
 
-Current: **v2.3** (schema version in `schema/cb-schema.yaml`). See CHANGELOG.md for history.
+Current: **v2.4** (schema version in `schema/cb-schema.yaml`). See CHANGELOG.md for history.
 
 ## References
 

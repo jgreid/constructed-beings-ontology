@@ -86,7 +86,11 @@ This is an academic project. Disagreements about coding are **scholarly argument
 
 ### Medium
 
-Use the `medium` value that matches the source text's format. The schema supports: `poem`, `epic`, `folklore`, `play`, `novel`, `short-story`, `comics`, `film`, `television`, `video-game`. Use `comics` for entries sourced from serialized comic or manga narratives — do not use `short-story` for comics.
+Use the `medium` value that matches the source text's format. The schema supports: `poem`, `epic`, `folklore`, `play`, `opera`, `ballet`, `musical`, `novel`, `short-story`, `comics`, `film`, `television`, `video-game`.
+
+- Use `comics` for serialized comic and manga narratives — not `short-story`.
+- Use `play` only for spoken-text drama. Sung-through stage works go to `opera`; danced-only works go to `ballet`; works combining spoken text, song, and dance go to `musical`. (Added in v2.4.)
+- A film adaptation of a stage work is a separate entry with `medium: film`. The play/opera/ballet/musical entry remains; the film entry adapts it via `sequel_link` + `link_type: adaptation`.
 
 ### Primary scope: Western canon
 

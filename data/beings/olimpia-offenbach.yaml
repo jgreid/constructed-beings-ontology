@@ -15,7 +15,7 @@ card:
 metadata:
   source: "Les contes d'Hoffmann (The Tales of Hoffmann)"
   year: 1881
-  medium: play
+  medium: opera
   creator: "Jacques Offenbach / Jules Barbier (Spalanzani and Coppélius in-narrative)"
   substrate:
     - mechanical
@@ -59,9 +59,9 @@ notes: |
   knowability question. Divergence is `observer`: Hoffmann's
   enchanted glasses are the mechanism of misrecognition.
 
-  French primary source (opera). Medium coded as `play` —
-  the closest schema value for a performed stage work. The
-  three Olympia/Olimpia/Coppélia entries together form the
+  French primary source (opera). Medium reclassified from
+  `play` to `opera` in v2.4. The three
+  Olympia/Olimpia/Coppélia entries together form the
   corpus's richest single-character adaptation lineage,
   running from German Romantic horror (1816) through French
   comic ballet (1870) to French Romantic opera (1881).

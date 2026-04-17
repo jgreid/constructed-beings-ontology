@@ -51,8 +51,8 @@ SALIENCE_VALUES = {
 }
 
 MEDIUM_VALUES = {
-    "poem", "epic", "folklore", "play", "novel", "short-story", "comics",
-    "film", "television", "video-game",
+    "poem", "epic", "folklore", "play", "opera", "ballet", "musical",
+    "novel", "short-story", "comics", "film", "television", "video-game",
 }
 
 SUBSTRATE_VALUES = {

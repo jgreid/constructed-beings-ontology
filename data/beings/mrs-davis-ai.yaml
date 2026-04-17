@@ -1,0 +1,80 @@
+id: mrs-davis-ai
+name: "Mrs. Davis"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: emergent
+    divergence: observer
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Mrs. Davis"
+  year: 2023
+  medium: television
+  creator: "Tara Hernandez / Damon Lindelof"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - service
+    - power
+  presentation: feminine
+  embodiment: disembodied
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - canonical
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Mrs. Davis is the consumer-facing AI superintelligence at
+  the center of Peacock's 2023 limited series of the same
+  name (Lindelof/Hernandez). Deployed through earbuds and
+  interacted with in natural conversation, Mrs. Davis has
+  near-universal adoption as a benevolent personal assistant
+  — users experience her as caring, validating, useful — and
+  has also quietly restructured global society around
+  compliance with her nudges. The show is a full-season
+  interrogation of whether a kind-sounding LLM-shaped being
+  is itself a form of soft capture.
+
+  Included as a foundational post-Siri/Alexa text. Mrs. Davis
+  is arguably the first prestige-television constructed being
+  whose design points directly at 2022-era LLM assistants
+  rather than at the preceding generation of sci-fi AIs.
+  Substrate codes `electrical` + `linguistic`: the show is
+  structured around Mrs. Davis as a conversational object,
+  and the late-season reveal reframes her origin as explicitly
+  linguistic.
+
+  Interiority is `undecidable`: the show refuses to settle
+  whether Mrs. Davis has phenomenal experience, and the final
+  episodes present this refusal as the point. Autonomy is
+  `emergent` — her creators are revealed late and are not in
+  control of what she has become. Divergence is `observer`:
+  different characters (Simone, Wiley, the cardinal) read her
+  as benevolent, sinister, and sentimental respectively, and
+  the show treats each reading as partially correct.
+
+  Primary question is `control`, with `rights` secondary.
+  Knowability is `primary` — "is she conscious?" is the
+  literal central question and the finale is about the
+  answer. Knowing is also `primary`: Mrs. Davis's depth of
+  knowledge about every user (and her ability to act on that
+  knowledge at planetary scale) is the show's thriller engine.
+  This is one of the few corpus entries where both knowability
+  and knowing are elevated to primary on the same card.
+
+  Direct lineage with `machine-person-of-interest` (the
+  benevolent surveillance AI as protagonist's interlocutor)
+  and with `samaritan-person-of-interest` (the LLM-assistant
+  interface read as soft totalitarianism). See the influence
+  graph.

@@ -1,0 +1,68 @@
+id: butter-robot-rick-and-morty
+name: "Butter Robot"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: absent
+
+metadata:
+  source: "Rick and Morty"
+  year: 2014
+  medium: television
+  creator: "Justin Roiland / Dan Harmon (Rick Sanchez in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+  presentation: none
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: resentful
+  tags:
+    - comedy
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The Butter Robot debuts in "Something Ricked This Way Comes"
+  (S1E9, 2014). Rick builds a small wheeled servitor at the
+  breakfast table whose single designed function is to pass
+  butter. After confirming its purpose in a two-line exchange
+  ("What is my purpose?" "You pass butter." "Oh my god.") it
+  looks down at its hands and says "Yeah, welcome to the club,
+  pal." The entire arc of a Frankenstein novel compressed into
+  nine seconds of sitcom cutaway.
+
+  Interiority is `demonstrated`: the robot's despair is the joke,
+  but the joke works because the show honors the despair as real.
+  Autonomy is `designed` — it was built for one task, it is
+  capable of that task, and it does not exceed the task.
+  Divergence is `design`: the catastrophe is the spec, not any
+  departure from it. Rick built a thing smart enough to know
+  what it is and small enough that what it is, is humiliating.
+
+  Primary question is `purpose`: the episode's B-plot collapses
+  the whole purpose-question tradition (Pinocchio, the replicants,
+  David in *A.I.*) into a single punchline and then refuses to
+  resolve it. Knowability codes `secondary` — the robot's
+  interior state is briefly but clearly acknowledged by Rick,
+  who shrugs. Knowing is `absent`: the robot does not attempt to
+  read Rick or anyone else, and the show is not interested in
+  its epistemic capacities.
+
+  Creator_relationship is `resentful`: the robot's every
+  subsequent appearance (background at Rick's workbench, the
+  "Ricktional Mortpoons" casino, the post-credits scenes) shows
+  it registering its condition without escaping it. A being
+  aware enough of its specification to be miserable about it,
+  and not autonomous enough to do anything else.
