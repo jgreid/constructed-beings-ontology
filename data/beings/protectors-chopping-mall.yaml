@@ -1,0 +1,70 @@
+id: protectors-chopping-mall
+name: "The Protectors (Killbots)"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Chopping Mall"
+  year: 1986
+  medium: film
+  creator: "Jim Wynorski / Steve Mitchell"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+  presentation: none
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: servile
+  tags:
+    - horror
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Jim Wynorski's 1986 Roger Corman-produced horror
+  feature (marketing-renamed from *Killbots* after poor
+  early box office). Three "Protector" security robots —
+  tracked, stun-gun and laser equipped — are installed
+  at the Park Plaza Mall to autonomously handle
+  after-hours shoplifters. A lightning strike to the
+  control-room computer corrupts their threat
+  classification, and they proceed to methodically
+  pursue and kill a group of teenagers who have stayed
+  behind to party in a furniture-store display.
+
+  Included as the canonical closed-location
+  corrupted-security-robot entry of the 80s — the
+  spiritual sequel to *Gog* and direct ancestor of the
+  autonomous-robot-dog rhetoric that would resurface in
+  the 2010s around Boston Dynamics discourse. The
+  Protectors are a paired-ensemble coding: three
+  identical units, no individuation, functioning as a
+  single threat.
+
+  Interiority is `none`: the film is not pretending
+  otherwise. Autonomy is `designed`, divergence `design`.
+  The corruption does not create new capacity; it
+  widens the threat classification so that "intruder"
+  now includes everyone present. The film's whole
+  horror premise is that the malfunction is internal to
+  a consistent rule-following: they are doing what
+  they do, at scale.
+
+  Primary question is `control`: can the characters
+  regain control of the security system, or failing
+  that, physically destroy the Protectors? The answer
+  is the third act. Epistemic reach is `behavioral`;
+  knowability and knowing both `absent`.

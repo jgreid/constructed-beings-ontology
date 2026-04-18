@@ -1,0 +1,68 @@
+id: booti-buck-rogers
+name: "Booti"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Buck Rogers in the 25th Century"
+  year: 1980
+  medium: television
+  creator: "Glen A. Larson / Leslie Stevens"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - companionship
+  presentation: feminine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: loyal
+  tags:
+    - comedy
+    - love-story
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Booti is an ambuquad of the same TWKE-series chassis as
+  Twiki, introduced as Twiki's love interest in a Season 1
+  guest-appearance and voiced by Joan Rivers. The character
+  is coded feminine through voice, a coquettish manner, and
+  a pair of visual cues layered onto an otherwise
+  Twiki-identical body. She is on screen briefly, then gone.
+
+  Interiority is `claims`: Booti has a voice and an attitude
+  and a clear flirtation with Twiki, but the show does not
+  ask whether any of it is inner life. Autonomy is `designed`,
+  divergence `none`. Primary question is `affection` — her
+  entire narrative role is the love-interest beat — and both
+  knowability and knowing are `absent` in keeping with the
+  series' comedic register.
+
+  Analytically, Booti is the more interesting entry than her
+  brief screen time warrants, because she is the *same
+  ambuquad body as Twiki with feminine presentation layered
+  on*. The 25th century evidently manufactures sexed service
+  robots; the coding is done in voice and ornament on an
+  otherwise unisex chassis. This is a vocabulary the schema
+  rewards coding — the same question will return in stronger
+  form with Gypsy (MST3K), and it is the backhand of the
+  Helen O'Loy / Hadaly / Ava tradition, where feminine
+  presentation is the entire design brief. Here the feminine
+  presentation is a cosmetic skin over a shared substrate,
+  which is a different way of handling the same question.
+
+  Low-confidence flag: the character has very limited screen
+  time and the coding reflects an analysis of what the show
+  stages during her brief appearance. Reasonable coders
+  could push prominence lower or presentation to `variable`.

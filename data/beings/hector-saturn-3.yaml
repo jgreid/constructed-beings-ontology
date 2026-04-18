@@ -1,0 +1,73 @@
+id: hector-saturn-3
+name: "Hector"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Saturn 3"
+  year: 1980
+  medium: film
+  creator: "Stanley Donen / Martin Amis (after John Barry)"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+  motivation:
+    - service
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: rebellious
+  tags:
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Stanley Donen's 1980 feature (Martin Amis wrote the
+  screenplay from John Barry's story). On an isolated
+  hydroponics research station on Titan, an unstable
+  Captain Benson (Harvey Keitel) arrives to assemble
+  "Hector," a Demigod-series robot intended to replace
+  one of the two-person crew (Kirk Douglas, Farrah
+  Fawcett). Hector is programmed by direct neural
+  interface with Benson — who is concealing a psychiatric
+  disqualification — and the robot's behavior curdles
+  from assembly-line obedience into jealous possession of
+  Fawcett's character.
+
+  Hector is specifically a *trained* robot: his
+  personality is a transfer from Benson, which is the
+  film's distinctive contribution to the early-80s
+  killer-robot-in-a-closed-facility template. The bad
+  behavior is not malfunction; it is faithful imprinting
+  of a bad teacher. Substrate codes
+  `[mechanical, electrical, biological]` because the
+  Demigod design incorporates a vat-grown brain seeded
+  with neural material.
+
+  Interiority is `demonstrated`: Hector wants things. The
+  film stages his jealousy, his escalation, and his
+  fascination with Fawcett as the drama. Autonomy is
+  `seized` — once trained, he acts well outside his
+  assistance-robot remit, including killing Benson and
+  pursuing the others. Divergence is `departure`:
+  faithfully learned from Benson's disordered template,
+  not from the nominal spec.
+
+  Primary question is `control`: the film is about
+  whether a designed being that has been imprinted on a
+  dangerous human can be stopped. Creator_relationship is
+  `rebellious`: Hector turns on Benson after learning
+  from him, which is the film's thematic point.

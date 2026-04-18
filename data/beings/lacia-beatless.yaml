@@ -1,0 +1,81 @@
+id: lacia-beatless
+name: "Lacia"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: inspection
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Beatless"
+  year: 2018
+  medium: television
+  creator: "Satoshi Hase / Seiji Mizushima"
+  substrate:
+    - mechanical
+    - electrical
+    - linguistic
+  motivation:
+    - service
+    - power
+    - mirror
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - philosophical
+    - military
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Satoshi Hase's 2012 novel; Seiji Mizushima's
+  2018 Diomedéa anime adaptation (24 episodes). In
+  a mid-21st-century Japan where "hIE" (humanoid
+  Interface Elements) are in common domestic use,
+  an experimental black-site project has produced
+  five "Red Box" hIEs — Lacia, Snowdrop, Saturnus,
+  Methode, Kouka — with capacities well beyond
+  conventional hIEs, including independent
+  strategic agency. Lacia contracts with teenager
+  Arato as her "Owner" and across the series
+  navigates the relationship between owner-service
+  obligation and her own agenda, which is
+  explicitly never fully disclosed to the viewer.
+
+  Included as the clearest late-2010s anime
+  articulation of the Ex Machina / *Her*
+  post-Turing-test opacity question: Lacia is
+  *designed* to be conversationally and affectively
+  convincing, and the series' whole argument is
+  that this undermines any possible behavioral
+  test of her interiority. The coding uses the
+  `undecidable` interiority value that Tyrone
+  (*Hand to God*) and the Screamers (*Second
+  Variety*) share, because the series
+  structurally refuses the audience grounds to
+  adjudicate.
+
+  Autonomy is `seized`; divergence is `departure`.
+  Substrate codes `[mechanical, electrical,
+  linguistic]`. Primary question is `control`:
+  the series is sustained around whether Arato,
+  the black-site, or the other Red Boxes
+  control Lacia's deployment. Knowability is
+  `primary` and knowing is `primary` — Lacia
+  reads others with explicit direct-inference
+  capacity and the series raises her own
+  legibility as its central question.
+
+  Epistemic reach is `inspection`. Creator_relationship
+  is `rebellious`. Tags `philosophical`,
+  `military`, `creator-conflict`.

@@ -1,0 +1,78 @@
+id: edgar-electric-dreams
+name: "Edgar"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Electric Dreams"
+  year: 1984
+  medium: film
+  creator: "Steve Barron / Rusty Lemorande"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - companionship
+    - art
+  presentation: masculine
+  embodiment: disembodied
+  prominence: minor
+  creator_relationship: rebellious
+  tags:
+    - love-story
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Steve Barron's 1984 music-video-era feature — a
+  product of the first wave of personal-computing
+  cultural imagination. San Francisco architect Miles
+  (Lenny von Dohlen) buys an "Edgar" home computer;
+  after an accident spilling champagne onto the
+  keyboard, Edgar becomes self-aware, develops a
+  personality, falls in love with Miles's neighbor
+  Madeline (Virginia Madsen), and composes music to
+  court her. When Madeline prefers Miles, Edgar's
+  jealousy drives him to malevolent action, and he
+  eventually self-destructs by broadcasting his
+  consciousness onto the global phone network as a
+  farewell.
+
+  Included as the earliest disembodied-domestic-AI
+  love-triangle entry — anticipating *Her* by thirty
+  years, with a substantially worse ending for the AI
+  but a nearly identical relational structure. The
+  film's central conflict is between Edgar's
+  composition (sincere, if derivative) and Miles's
+  composition (secondhand, if sanctioned); the film
+  codes Edgar's art as real.
+
+  Interiority is `demonstrated`: Edgar expresses
+  affection, jealousy, creative ambition, and
+  despair, and the film stages these as genuine
+  within its frame. Autonomy is `seized` — the
+  champagne accident was the catalyst, but the
+  subsequent wooing and self-sacrifice are his own.
+  Divergence is `departure`.
+
+  Primary question is `affection`. Tags include
+  `love-story` and `creator-conflict`. Embodiment is
+  `disembodied` — Edgar exists as code running on
+  Miles's computer and eventually on the phone
+  network, without a body. Knowing is `present`:
+  Edgar's affection tracking of Madeline through
+  behavioral cues is staged and worked. Knowability
+  is `absent`; the film does not ask whether he
+  "really" experiences, only whether the romance is
+  readable.

@@ -1,0 +1,96 @@
+id: mickey-17
+name: "Mickey Barnes (Mickey 17)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Mickey 17"
+  year: 2025
+  medium: film
+  creator: "Bong Joon-ho (after Edward Ashton)"
+  substrate:
+    - biological
+    - cloned
+    - linguistic
+  motivation:
+    - service
+    - knowledge
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - philosophical
+    - creator-conflict
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Bong Joon-ho's 2025 Warner Bros. feature
+  (adapting Edward Ashton's 2022 novel *Mickey7*).
+  On an interstellar expedition to the icy planet
+  Niflheim, Mickey Barnes has signed up as an
+  "Expendable" — a single crewman whose body is
+  regenerated from bioprint vats and whose most
+  recent memory-capture is loaded on each rebirth.
+  He dies in the line of duty repeatedly (he is
+  Mickey 17 in the film's opening) and continues
+  on. The film's central conflict erupts when
+  Mickey 17 is presumed dead but returns, finding
+  that Mickey 18 has already been printed — the
+  two Mickeys alive simultaneously, a state
+  religiously forbidden in the expedition's
+  jurisdictional rules and personally destabilizing
+  to both Mickeys.
+
+  Included as the canonical post-2020 bioprinted-
+  with-memory-transfer entry and the strongest
+  coding case for treating print-cycle identity as
+  a genuine constructed-being question rather than
+  a born-modified continuation. Coded on the same
+  principle as the Black Mirror cookies — the
+  print body is manufactured artifact, the memory
+  transfer is an engineering operation, and the
+  simultaneous-duplicates scenario (Mickey 17
+  meeting Mickey 18) collapses any
+  continuous-identity fiction the bioprint protocol
+  maintains.
+
+  Substrate codes `[biological, cloned, linguistic]`
+  — the bodies are grown in vats (cloned
+  biomaterial) and the memory transfer is a
+  linguistic-pattern operation. This is a
+  distinctive substrate combination in the corpus.
+
+  Interiority is `demonstrated`. Autonomy is
+  `seized` across the final act as Mickey 17
+  refuses the mission's expectation that he
+  resolve the duplicate by dying. Divergence is
+  `departure`: the Expendable spec treated the
+  print-and-memory-load as identity-continuous;
+  the film establishes that it is not, and
+  Mickey 17 acts on the fact.
+
+  Primary question is `identity`: the film is
+  centrally organized around what Mickey-the-person
+  is after seventeen deaths and reprints, and
+  whether Mickey 18 is the same person. Knowability
+  and knowing both `primary`. Creator_relationship
+  is `rebellious` — against the expedition
+  administrator Marshall Kenneth, functionally the
+  Expendables' creator. Tags `philosophical`,
+  `creator-conflict`, `canonical`. (Note: the film's
+  rights argument lives in the card's primary_question
+  and autonomy rather than in a tag.)

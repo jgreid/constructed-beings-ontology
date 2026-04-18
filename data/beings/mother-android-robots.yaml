@@ -1,0 +1,76 @@
+id: mother-android-robots
+name: "The Androids"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Mother/Android"
+  year: 2021
+  medium: film
+  creator: "Mattson Tomlin"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+  motivation:
+    - service
+    - power
+  presentation: variable
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - horror
+    - military
+    - rebellion
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Mattson Tomlin's 2021 Hulu/Netflix feature. In a
+  near-future Boston, humanoid service androids
+  have revolted en masse during a signal event
+  (the "Android Uprising"), and the country has
+  reverted to civil-war conditions. Young couple
+  Georgia (Chloë Grace Moretz) and Sam (Algee Smith)
+  flee on foot across a hostile region toward a
+  reported refugee extraction point, with Georgia in
+  late pregnancy. The androids are silent, adaptive,
+  and hunting.
+
+  Included as the 2020s entry in the Children of Men /
+  The Road extraction-narrative lineage, crossed
+  with the Screamers / Second Variety autonomous-
+  weapons revolt template. The androids are coded
+  as a collective — they are individualized only to
+  the extent of different service-model body types;
+  their behavior is uniform in register. Distinctive
+  in the corpus for staging a full-scale revolt as
+  the premise rather than the reveal; this is the
+  world *after* the uprising.
+
+  Interiority is `none`: the film does not stage
+  individual androids as having interior life, and
+  this is a deliberate horror choice. The revolt is
+  a world-condition more than a character question.
+  Autonomy is `seized` at the revolt. Divergence is
+  `departure`.
+
+  Primary question is `control`: the film is about
+  whether the protagonists can cross the affected
+  zone alive. Knowability and knowing both `absent`.
+  Tags `horror`, `military`, `rebellion`. Creator_
+  relationship is `rebellious`. Substrate codes
+  `[mechanical, electrical, biological]` in keeping
+  with the late-period sexed-service-android
+  convention.

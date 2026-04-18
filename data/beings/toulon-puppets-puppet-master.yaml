@@ -1,0 +1,92 @@
+id: toulon-puppets-puppet-master
+name: "Toulon's Puppets"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: behavioral
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Puppet Master"
+  year: 1989
+  medium: film
+  creator: "David Schmoeller / Charles Band (Andre Toulon in-narrative)"
+  substrate:
+    - magical
+    - mechanical
+  motivation:
+    - service
+    - other
+  presentation: variable
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: loyal
+  tags:
+    - horror
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  David Schmoeller's 1989 direct-to-video horror
+  feature (Charles Band's Full Moon Features, the
+  franchise's first of fifteen-plus entries). In 1939
+  Bodega Bay, puppeteer Andre Toulon discovers an
+  ancient Egyptian alchemical formula that animates
+  inanimate matter; he uses it to animate a troupe of
+  handmade wooden puppets into which, across the
+  franchise, the souls of dying persons can also be
+  transferred. The core troupe — Blade (a scalpel-and-
+  hook-handed assassin puppet), Pinhead (a strongman
+  with an absurd small head), Tunneler (a drill-
+  headed burrower), Jester (a three-faced mocker),
+  Leech Woman, and Six Shooter (a six-armed gunslinger)
+  — pursue Toulon's quarrels across decades of
+  franchise continuity.
+
+  Included as the definitive magical-animation-plus-
+  artifact-body horror ensemble of the direct-to-video
+  era, and as a companion coding to Chucky: the
+  puppets are constructed objects (hand-carved wood,
+  metal prosthetics) animated by an alchemical process
+  that is sometimes enhanced by soul-transfer of
+  dying humans. Substrate codes
+  `[magical, mechanical]`, consistent with Chucky,
+  Tyrone, and the Prague Golem.
+
+  A collective ensemble entry — six-to-eight recurring
+  puppets with stable individual personalities and
+  functions across the franchise. The card codes the
+  ensemble pattern; individual puppets diverge
+  stylistically more than analytically.
+
+  Interiority is `demonstrated`: the puppets display
+  loyalty, preference, and strategic intelligence.
+  They are substantially more legible as characters
+  than most human antagonists in the franchise.
+  Autonomy is `seized` across the later films, where
+  the puppets act independently of any surviving
+  Toulon-successor. Divergence is `departure`:
+  Toulon's designs were for stage performance;
+  weaponized pursuit is not what the carvings were
+  made for.
+
+  Primary question is `identity` — in several
+  franchise entries the soul-transfer mechanism foregrounds
+  the question of what survives the transfer into the
+  puppet body. Creator_relationship is `loyal` to
+  Toulon (most entries); diverges toward `indifferent`
+  or `rebellious` in franchise instalments where
+  Toulon is absent.
+
+  Presentation is `variable` — the ensemble includes
+  masculine-coded (Blade, Pinhead, Six Shooter),
+  feminine-coded (Leech Woman), and non-gendered
+  (Tunneler, Jester) puppets.

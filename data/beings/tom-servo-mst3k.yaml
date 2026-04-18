@@ -1,0 +1,72 @@
+id: tom-servo-mst3k
+name: "Tom Servo"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Mystery Science Theater 3000"
+  year: 1988
+  medium: television
+  creator: "Joel Hodgson (Joel Robinson in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - companionship
+    - art
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - comedy
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Tom Servo (originally "Beeper" on the KTMA pilot run) is
+  another of the bots Joel Robinson assembles aboard the
+  Satellite of Love. His head is a red toy gumball machine,
+  his torso is a stack of bowling pins, and his voice has
+  been carried by Josh Weinstein (season one), Kevin Murphy
+  (seasons 2–10, the defining run), and Baron Vaughn
+  (Netflix revival). Servo's personality register is
+  pompous, erudite, faux-theatrical, and romantically
+  preoccupied — the counterpoint to Crow's theatrical
+  sarcasm and Gypsy's pragmatic calm.
+
+  Card values track Crow's. Interiority is `demonstrated`:
+  Servo's voice and temperament are distinct and continuous
+  across three performers and three decades. Autonomy is
+  `seized` for the same reason as Crow — the riffs and the
+  schemes and the romantic subplots are the bots operating
+  on their own agendas, not Joel's. Divergence is
+  `departure`: Servo is the most linguistically ambitious
+  of the bots, with a vocabulary and rhetorical habit Joel
+  evidently did not spec for.
+
+  Primary question is `affection`, following the same
+  through-line as Crow. Epistemic reach `conversational`;
+  knowability and knowing `absent`. Tags `comedy` and
+  `ensemble-split` — the MST3K bots are best read as an
+  ensemble where the card values largely align but the
+  individual personality vectors diverge enough to warrant
+  separate entries.
+
+  Lineage note: Servo's particular register — the
+  self-aggrandizing literary voice in a toy body — echoes
+  Marvin and Kryten, and prefigures the articulate
+  pompous-AI voicings of later ensembles (Calculon,
+  AGIMUS). The comedy premise sits in the Red Dwarf
+  tradition more than the Star Wars one.

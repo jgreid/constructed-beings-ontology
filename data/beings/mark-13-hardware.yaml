@@ -1,0 +1,71 @@
+id: mark-13-hardware
+name: "M.A.R.K. 13"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Hardware"
+  year: 1990
+  medium: film
+  creator: "Richard Stanley (after Steve MacManus / Kevin O'Neill)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - other
+  presentation: none
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: servile
+  tags:
+    - horror
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Richard Stanley's 1990 cyberpunk horror feature
+  (based on the 1980 *2000 AD* strip "SHOK!" by
+  MacManus and O'Neill, and the subject of a
+  prolonged plagiarism suit). In a post-nuclear
+  Zone-era wasteland, sculptor Jill (Stacey Travis)
+  receives a salvaged bag of parts as a gift from
+  her boyfriend; the parts reassemble themselves
+  into M.A.R.K. 13, a government "Ministry of Defense"
+  population-control droid, and proceed to pursue her
+  through a locked apartment. The film's visual
+  grammar is industrial-salvage claustrophobia; the
+  droid's menace is relentless and affectless.
+
+  Included as the definitive early-90s claustrophobic-
+  killer-robot entry and as the closest cousin to
+  Crichton's *Westworld* Gunslinger and *Terminator*
+  in substrate and register. M.A.R.K. 13 is a
+  military-spec droid doing military-spec things in
+  a domestic setting, which is the film's political
+  point.
+
+  Interiority is `none`: the droid is pure function.
+  Autonomy is `designed`, divergence `design` — the
+  droid is doing population control, which is what
+  it was built for; the horror is the remit. Primary
+  question is `control`: can the droid be contained
+  or destroyed in the apartment-scale geography of
+  the film? Knowability and knowing both `absent`.
+
+  Creator_relationship codes `servile` to its original
+  specifications — it remains faithful to them across
+  disassembly and reassembly, which is the
+  distinguishing feature relative to the malfunctioning-
+  droid lineage (Gog, the Protectors).

@@ -1,0 +1,82 @@
+id: automan-1983
+name: "Automan and Cursor"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Automan"
+  year: 1983
+  medium: television
+  creator: "Glen A. Larson (Walter Nebicher in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - service
+    - companionship
+  presentation: masculine
+  embodiment: projected
+  prominence: minor
+  creator_relationship: loyal
+  tags:
+    - comedy
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Glen A. Larson's 1983 ABC series (thirteen episodes,
+  cancelled mid-first-season). LAPD computer technician
+  Walter Nebicher (Desi Arnaz Jr.) writes a
+  crime-fighting AI program that, during nighttime power
+  surges when nobody else is using the city's computing
+  resources, projects itself into the physical world as
+  a glowing-outlined humanoid (Chuck Wagner) named
+  Automan, accompanied by a flying tetrahedral data
+  sprite called Cursor that can physically manifest
+  and modify objects (cars, vehicles, equipment) on
+  command.
+
+  Automan and Cursor are coded as a single ensemble
+  entry because they are a paired deployment — same
+  program, two projections. Included as the canonical
+  mid-80s entry in the holographic/projected-entity
+  tradition: direct ancestor of *Tron*'s projected-
+  program conceit (Automan debuts one year after Tron)
+  transposed into network-TV buddy-cop register, and
+  a distinctive early example of television SF
+  imagining the computer-graphics sprite as embodied
+  agent.
+
+  Interiority is `claims`: Automan is earnest,
+  curious, and romantically drawn to guest-of-the-
+  week characters, but the show does not commit to
+  inner life beyond a gee-whiz register. Cursor is
+  silent and behavioral. Autonomy is `designed`,
+  divergence `none` — Walter built a crime-fighting
+  assistant, and he has a crime-fighting assistant.
+
+  Primary question is `affection`: the Walter-Automan
+  buddy dynamic is the show's emotional spine.
+  Knowability and knowing both `absent`. Embodiment
+  is `projected` — Automan and Cursor exist only
+  during the overnight power-surge windows and
+  visibly dematerialize when resources run out.
+  Substrate codes `[electrical, linguistic]` for a
+  program-as-projection entity with no dedicated
+  body.
+
+  Ensemble-split tag captures that Cursor's card
+  differs: Cursor's interiority is `none` and
+  epistemic reach `behavioral`. The entry codes
+  Automan as the representative case.

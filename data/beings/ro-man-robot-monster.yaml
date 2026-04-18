@@ -1,0 +1,72 @@
+id: ro-man-robot-monster
+name: "Ro-Man"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Robot Monster"
+  year: 1953
+  medium: film
+  creator: "Phil Tucker"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: rebellious
+  tags:
+    - comedy
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Phil Tucker's infamous 1953 3D feature — a man in a gorilla
+  suit with a diving helmet playing an extraterrestrial
+  extermination robot on a mission to annihilate the last
+  eight humans on Earth. Ro-Man is dispatched by the
+  off-screen "Great Guidance" to finish the job, but falls
+  in love with one of his designated victims and begins to
+  ask whether he can "be as the hu-man" — a question the
+  film itself cannot answer coherently.
+
+  Included as the foundational entry in the so-bad-it's-a-text
+  lineage MST3K would later riff on directly. Ro-Man is a
+  constructed being per his own dialogue (the Great Guidance
+  built him), his assigned purpose is extermination, and his
+  departure from that purpose is an inarticulate awakening
+  into feeling.
+
+  Interiority is `claims`: Ro-Man narrates his confusion
+  aloud in a series of monologues that are structurally
+  interior speech, even if the film's competence in staging
+  them is limited. Autonomy is `seized`: his refusal to kill
+  Alice is explicit insubordination against the Great
+  Guidance, who executes him for it. Divergence is
+  `departure` — the spec was "kill the humans" and what the
+  Great Guidance got was an infatuated robot asking for
+  reassignment.
+
+  Primary question is `affection`. The film is structurally
+  a romance disguised as an invasion narrative, and what
+  makes Ro-Man an entry rather than just a punchline is
+  that his "shall I kill her? I cannot. Yet I must. But
+  I cannot. Yet I must." monologue is one of the earliest
+  English-language articulations of the robot-in-love
+  impossibility that Blade Runner will refine thirty years
+  later. Knowability and knowing both `absent`; the film is
+  not asking the question.

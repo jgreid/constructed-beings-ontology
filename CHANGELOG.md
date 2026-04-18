@@ -4,6 +4,84 @@ All notable changes to the Constructed Beings Ontology are documented here.
 
 ---
 
+## [2.4.3] — 2026-04
+
+**Bad-TV sidekicks and post-ChatGPT streaming/cinema expansion.** 313 → 332 entries (+19). No schema changes. Two scope repairs: (1) pre-80s and 80s TV sidekick/edge-case androids the earlier expansions missed, and (2) the emerging post-ChatGPT era of mass-culture AI depictions (2023–2025), where AI has visibly moved from SF speculation to daily cultural reference and the character-roles are shifting accordingly.
+
+### Summary
+
+- **Corpus expanded from 313 → 332 entries (+19, +6%).** Schema unchanged.
+- **Bad-TV sidekick/edge-case coverage.** Ten entries repairing the pre-1990 American-network-TV android slot: Hymie (*Get Smart*, 1965), Rhoda Miller (*My Living Doll*, 1964), the Fembots (*Six Million Dollar Man*, 1976), Maximillion (*The Bionic Woman*, 1977), Yoyo (*Holmes & Yoyo*, 1976), Muffit II (*BSG* 1978), Andy (*Quark*, 1977), Dr. Theopolis (*Buck Rogers*, 1979), Automan & Cursor (*Automan*, 1983), Eve Edison (*Mann & Machine*, 1992).
+- **Post-ChatGPT cultural-moment coverage.** Nine entries across 2020–2025 where the AI depiction has clearly shifted in register to reflect mass-public LLM availability: the Entity (*Mission: Impossible*, 2023/25), AIA (*Afraid*, 2024), Sunny (*Sunny*, 2024), Cosmo (*The Electric State*, 2025), Mickey Barnes (*Mickey 17*, 2025), Rouge Redstar (*Metallic Rouge*, 2024), Ares (*Tron: Ares*, 2025), Regus Patoff (*The Consultant*, 2023), and the earlier Devs Machine (*Devs*, 2020), which belongs analytically with this cluster.
+
+### Analytical notes
+
+- **Post-ChatGPT register shift.** The 2023–2025 entries share structural features that distinguish them from pre-2020 AI depictions: (1) disembodied/distributed operation over networks rather than anthropomorphic embodiment (Entity, AIA), (2) explicit reference to LLMs/language as the substrate (nearly all carry `linguistic` substrate), (3) `interiority: undecidable` appearing more frequently as the schema-level response to "can we tell the difference between simulation and experience" becoming a live cultural question (Entity, Patoff). This is the first release where `undecidable` is meaningfully clustered rather than a rare exception.
+- **Hidden-programming-underneath structure.** *Sunny* introduces a distinctive 2020s coding pattern: the household AI that is not malfunctioning and not possessed but is carrying hidden specification from a party other than the nominal owner. This register will likely recur.
+- **Print-with-memory-transfer entry.** *Mickey 17* is the corpus's first film-era canonical entry where bioprinting plus memory transfer produces a being coded as constructed rather than continuous. The coding follows the Black Mirror cookies precedent (the simultaneous-duplicates scene being the argument) rather than the *Pantheon*/*Upload* exclusion.
+
+---
+
+## [2.4.2] — 2026-04
+
+**Schlock-cinema, horror-doll, and anime scope expansion.** 260 → 313 entries (+53). No schema changes. The largest single expansion since v2.4.0, repairing three of the corpus's previously-acknowledged thin spots: (1) low-budget and direct-to-video SF cinema across seven decades, (2) the magical-animation horror-doll lineage as legitimate constructed beings rather than an elided genre, and (3) anime/manga commonly consumed in Western markets.
+
+### Summary
+
+- **Corpus expanded from 260 → 313 entries (+53, +20%).** Schema unchanged. All entries conform to v2.4.
+- **B-movie / schlock SF cinema coverage across seven decades.** 50s (Robot Monster, Gog, Tobor), 60s (Creation of the Humanoids), 70s (Silent Running, Westworld, Dark Star, Logan's Run), 80s (Saturn 3, Heartbeeps, Clash of the Titans, Android, Electric Dreams, Making Mr. Right, Cherry 2000, Chopping Mall, Deadly Friend), 90s (Hardware, Eve of Destruction, Lawnmower Man, Virtuosity, Screamers, Solo, Class of 1999), 2000s–2020s (Stealth, 9, The Machine, Autómata, Upgrade, Tau, A.X.L., Archive, Mother/Android, Jung_E, Atlas, Subservience).
+- **Horror-doll lineage formally admitted.** Seven entries covering the animated-artifact horror tradition: Chucky (Child's Play), Toulon's Puppets (Puppet Master), the Obelisk Dolls (Dolls 1987), Demonic Toys, Billy (Dead Silence), Annabelle, Slappy (Goosebumps). All coded as `[magical, mechanical]` substrate following Tyrone and the Prague Golem.
+- **Anime/manga scope opened.** Ten anime entries (Sharon Apple, Armitage, Lain, Chi/Chobits, Sammy, Isla, Lacia, Vivy) plus manga (Alpha Hatsuseno, Urasawa's Atom/Pluto). The `out-of-scope` exclusion reason in `data/exclusions.yaml` revised to reflect the scope opening.
+- **Knowability/knowing divergence: ~52% of entries** (holding steady as the corpus grows). The schlock corpus clusters at `knowability: absent, knowing: absent` (B-movie register); the anime additions cluster at `knowability: primary, knowing: present` (characteristic of the SF-anime philosophical register).
+
+### New entries (53)
+
+**Film — 50s schlock (3):** Ro-Man (*Robot Monster*, 1953), Gog/Magog (*Gog*, 1954), Tobor (*Tobor the Great*, 1954).
+
+**Film — 60s (1):** The Clickers (*Creation of the Humanoids*, 1962).
+
+**Film — 70s (4):** Huey/Dewey/Louie (*Silent Running*, 1972), The Gunslinger (*Westworld*, 1973), Bomb #20 (*Dark Star*, 1974), Box (*Logan's Run*, 1976).
+
+**Film — 80s (9):** Hector (*Saturn 3*, 1980), Val and Aqua (*Heartbeeps*, 1981), Bubo (*Clash of the Titans*, 1981), Max 404 (*Android*, 1982), Edgar (*Electric Dreams*, 1984), The Protectors (*Chopping Mall*, 1986), BB/Samantha (*Deadly Friend*, 1986), Cherry 2000 (1987), Ulysses (*Making Mr. Right*, 1987).
+
+**Film — horror dolls (6):** The Obelisk Dolls (*Dolls*, 1987), Chucky (*Child's Play*, 1988), Toulon's Puppets (*Puppet Master*, 1989), Demonic Toys (1992), Billy (*Dead Silence*, 2007), Annabelle (*The Conjuring*, 2013).
+
+**Novel — horror dolls (1):** Slappy (*Goosebumps*, 1993).
+
+**Film — 90s (8):** The Educators (*Class of 1999*, 1990), M.A.R.K. 13 (*Hardware*, 1990), Eve VIII (*Eve of Destruction*, 1991), Jobe Smith (*The Lawnmower Man*, 1992), SID 6.7 (*Virtuosity*, 1995), Screamers (1995, after PKD's "Second Variety"), Solo (1996).
+
+**Film — 2000s–2020s (12):** EDI (*Stealth*, 2005), The Stitchpunks (*9*, 2009), Ava (*The Machine*, 2013), The Pilgrims (*Autómata*, 2014), STEM (*Upgrade*, 2018), Tau (2018), A.X.L. (2018), J1/J2/J3 (*Archive*, 2020), The Androids (*Mother/Android*, 2021), Jung_E (2023), Smith/ARC-9 (*Atlas*, 2024), Alice (*Subservience*, 2024).
+
+**Anime — television (8):** Sharon Apple (*Macross Plus*, 1994), Naomi Armitage (*Armitage III*, 1995), Lain Iwakura (*Serial Experiments Lain*, 1998), Chi/Elda/Freya (*Chobits*, 2001), Sammy (*Time of Eve*, 2008), Isla (*Plastic Memories*, 2015), Lacia (*Beatless*, 2018), Vivy/Diva (*Vivy: Fluorite Eye's Song*, 2021).
+
+**Manga (2):** Alpha Hatsuseno (*Yokohama Kaidashi Kikō*, 1994), Atom (*Pluto*, Urasawa 2003 / 2023 anime).
+
+### Analytical notes
+
+- **Horror-doll coding convention established.** Magically animated constructed beings are coded with substrate `[magical, mechanical]` (or `[magical]` when the artifact body is itself enchanted rather than mechanically constructed), consistent with Tyrone (*Hand to God*) and the Prague Golem. The horror-doll entries are the first large-scale application of this convention.
+- **Schlock-register clustering.** The B-movie entries cluster in the `interiority: none / claims` range and at `knowability: absent`, reflecting the schlock SF register's general disinterest in the consciousness question. Exceptions (SID 6.7, Max 404, Jobe) are noted as anomalies within their category.
+- **Anime rights-arc lineage.** The anime entries disproportionately carry `primary_question: rights` or `identity` with high `knowability` — a distinct-from-Western-cinema analytical profile that the expanded corpus now surfaces. Particularly visible in Armitage, Time of Eve, Jung_E, Chobits, Plastic Memories.
+- **`out-of-scope` exclusion reason revised** in `data/exclusions.yaml` to reflect that anime/manga widely available in Western markets is now in scope. Purely-Japanese texts without substantial Western distribution remain out-of-scope pending consultation.
+
+---
+
+## [2.4.1] — 2026-04
+
+**Cheesy-cinematic and meta-constructed TV addenda.** 254 → 260 entries (+6). No schema changes. Adds six long-standing gaps in the TV sub-corpus, all in the built-for-company lineage: Twiki and Booti from *Buck Rogers in the 25th Century* (1979–81), and the four Satellite of Love bots from *Mystery Science Theater 3000* (1988–).
+
+### New entries (6)
+
+**Television — Buck Rogers (2):** Twiki (the TWKE-4 ambuquad, voiced by Mel Blanc), Booti (Twiki's love interest, voiced by Joan Rivers; included for the feminine-presentation-on-shared-substrate coding it enables, which rhymes with Gypsy below).
+
+**Television — Mystery Science Theater 3000 (4):** Crow T. Robot, Tom Servo, Gypsy, Cambot. All four are diegetically constructed by Joel Robinson from scrap aboard the Satellite of Love; the ensemble-split tag is used across the four to record that card values diverge meaningfully (Cambot: primary_question `none`, epistemic_reach `behavioral`; the rest: `affection` + `conversational`; Gypsy: `designed` autonomy vs. Crow/Servo's `seized`).
+
+### Analytical notes
+
+- **Feminine-on-shared-substrate pairing.** Booti (Buck Rogers) and Gypsy (MST3K) both code feminine presentation layered onto a body-design otherwise indistinguishable from their masculine-coded counterparts (Twiki; Crow and Servo). The schema's `presentation` field records this vocabulary; the notes flag the structural echo between the two.
+- **Meta-constructed beings.** The MST3K bots are the first corpus entries where the diegetic creator (Joel Robinson, a captive) is themselves a character, the building is an act of desperation-companionship, and the resulting bots regularly riff on other constructed beings in the SF movies they're forced to watch. Feeds a potential future analytical thread on recursive constructed-being coding.
+
+---
+
 ## [2.4.0] — 2026-04
 
 **Performing-arts and post-Siri/Alexa television expansion.** 224 → 254 entries (+30). First schema enum addition since v2.2 (`comics`): `opera`, `ballet`, and `musical` added to the medium enum. Repairs the corpus's two thinnest coverage areas — major TV sci-fi after the Siri/Alexa launches (2011, 2014) and stage works of any kind.

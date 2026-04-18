@@ -1,0 +1,67 @@
+id: bubo-clash-of-the-titans
+name: "Bubo"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Clash of the Titans"
+  year: 1981
+  medium: film
+  creator: "Desmond Davis / Beverley Cross (Hephaestus in-narrative)"
+  substrate:
+    - mechanical
+    - magical
+  motivation:
+    - service
+    - companionship
+  presentation: none
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags: []
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Desmond Davis's 1981 Perseus-and-Medusa feature, the
+  final Ray Harryhausen effects film. Bubo is a
+  mechanical owl, golden-feathered and intricately
+  clockwork, forged by Hephaestus at Athena's request
+  to substitute for the goddess's living owl Bubo, whom
+  she is commanded by Zeus to dispatch to Perseus as
+  guide. The mechanical Bubo aids Perseus across the
+  quest, saves him from Calibos and the Kraken, and is
+  the film's designated comic relief in the R2-D2
+  register.
+
+  Lineage-significant: Bubo is the same Hephaestus-forged
+  mechanical-from-god tradition as Talos and the Golden
+  Handmaidens, but now in explicit Hollywood-*Star Wars*
+  costume, two years post-R2. The coding should be read
+  against hephaestus-handmaidens rather than against
+  Astro Boy. Substrate codes `[mechanical, magical]`
+  because Bubo is forged clockwork animated by divine
+  craftsmanship — consistent with Talos, Pandora, and
+  the handmaidens' coding.
+
+  Interiority is `claims`: Bubo hoots, swivels, and
+  exhibits preference-like behavior, but the film does
+  not commit to inner life beyond the R2-D2 convention.
+  Autonomy is `designed`. Divergence is `none` — Bubo
+  does exactly what Athena/Hephaestus built him to do.
+
+  Primary question is `affection`: his bond with
+  Perseus is the film's second-warmest relationship
+  (after Perseus-Andromeda). Knowability and knowing
+  both `absent`; the film is epic fantasy and is not
+  asking whether the owl-construct experiences.

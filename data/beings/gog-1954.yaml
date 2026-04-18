@@ -1,0 +1,65 @@
+id: gog-1954
+name: "Gog and Magog"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: none
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Gog"
+  year: 1954
+  medium: film
+  creator: "Herbert L. Strock / Ivan Tors"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+  presentation: none
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: servile
+  tags:
+    - military
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Herbert L. Strock's 1954 Cold War SF thriller features
+  Gog and Magog, two multi-armed remote-operated laboratory
+  robots at a subterranean government research facility.
+  They are nominally tools — controlled from a central
+  NOVAC computer — until an enemy agent hijacks the
+  control channel and turns them into weapons against the
+  scientists. The film was marketed on the robots; the
+  robots are the whole attraction.
+
+  Included as an early "remote-manipulated lab robot turned
+  killer" entry that anticipates the entire killer-robot-in-
+  a-closed-facility subgenre through *Saturn 3*, *Hardware*,
+  and *Chopping Mall*. Gog and Magog are a paired-ensemble
+  coding: no individual differentiation, identical function,
+  no interiority.
+
+  Interiority is `none`: the robots perform their programmed
+  functions and have no inner life the film even pretends to
+  stage. Autonomy is `designed`, divergence `design` — the
+  robots were built to be operable by remote command, they
+  are being remotely commanded, and the horror is that the
+  commander has changed. Primary question is `control`:
+  this is a Cold War film about whether the enemy can reach
+  inside American control systems, and the robots are the
+  anxiety made physical.
+
+  Epistemic reach `none` — they do not engage with humans
+  conversationally; they are operated. Knowability and
+  knowing `absent`.

@@ -1,0 +1,87 @@
+id: crow-t-robot-mst3k
+name: "Crow T. Robot"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Mystery Science Theater 3000"
+  year: 1988
+  medium: television
+  creator: "Joel Hodgson (Joel Robinson in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - companionship
+    - art
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - comedy
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Crow T. Robot is one of the bots Joel Robinson builds out
+  of junk aboard the Satellite of Love after being shot into
+  orbit by Dr. Clayton Forrester and forced to watch bad
+  movies. Voiced by Trace Beaulieu (KTMA through Comedy
+  Central, 1988–96), Bill Corbett (Sci-Fi Channel run,
+  1997–99), and Hampton Yount (Netflix revival, 2017–18),
+  Crow is the wisecracking gold-coloured one — theatrical,
+  sarcastic, prone to grandiose schemes and low-quality
+  screenplays. Physically he's a bowling-pin body with a
+  lacrosse-stick head and a permanent beaky grin.
+
+  Interiority is `demonstrated`: Crow has an obvious and
+  stable personality across three actors and thirty years,
+  expresses clear preferences, jealousies, and plans, and
+  is emotionally legible in ways the show treats as real
+  within its frame. Autonomy is `seized`: Joel built the
+  bots for company and to help riff, and they do riff, but
+  they riff on their own terms, pursue their own agendas
+  between host changes, and regularly defy the humans
+  aboard the SOL. Divergence is `departure`: what Joel
+  built ("I'll make some robot friends") and what he got
+  (Crow, specifically, with a Crow-shaped interior life)
+  are in a classic Frankenstein-lite relationship, played
+  for warmth rather than horror.
+
+  Primary question is `affection`: the through-line of
+  MST3K across all its eras is the durability of the
+  bot-host affection as hosts rotate (Joel → Mike → Jonah).
+  Crow's loyalty is transitive across that change, and the
+  show treats the bots' emotional continuity as the actual
+  spine beneath the riff-format shell. Epistemic reach is
+  `conversational`; knowability and knowing are `absent`
+  because the show is not philosophically interested in
+  either question, only in whether the bond reads.
+
+  Lineage: the MST3K bots belong to the built-for-company
+  tradition (Robbie, B-9, V.I.N.C.E.N.T.) but are formally
+  distinctive in that they are diegetically homemade junk
+  robots constructed by a captive, and in that the show
+  itself is structurally about riffing bad SF — including
+  bad SF that features junky robots. The meta layer is
+  part of the coding: Crow's interiority is shown partly by
+  his own opinions about other constructed beings.
+
+  Flagged: divergence between `departure` and `design` is
+  the closest call. The argument for `design` is that Joel
+  built company-bots and they are company-bots. I went
+  with `departure` because Crow has distinct preferences
+  and agendas that Joel plainly did not plan and
+  occasionally contests.

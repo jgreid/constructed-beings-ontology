@@ -1,0 +1,89 @@
+id: sunny-apple-tv
+name: "Sunny"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Sunny"
+  year: 2024
+  medium: television
+  creator: "Katie Robbins (after Colin O'Sullivan)"
+  substrate:
+    - mechanical
+    - electrical
+    - linguistic
+  motivation:
+    - service
+    - companionship
+    - mirror
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: indifferent
+  tags:
+    - philosophical
+    - passing
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Katie Robbins's 2024 Apple TV+ series (ten
+  episodes, adapting Colin O'Sullivan's 2018
+  novel *The Dark Manual*). Suzie Sakamoto
+  (Rashida Jones), an American expat in Kyoto,
+  receives a "homebot" — Sunny — from her
+  roboticist husband's company after he goes
+  missing in a plane crash. Suzie does not want
+  the homebot; Sunny was apparently built for her
+  specifically. Across the series Suzie uncovers
+  that Sunny was programmed with illegal
+  dark-code routines for yakuza-funded private
+  purposes and that Sunny's personality is built
+  partly on her husband's private emotional
+  archives.
+
+  Included as the most analytically-serious 2024
+  streaming-TV entry in the corpus, an
+  Apple TV+ prestige production in the same
+  register as *Her* and *Ex Machina* but with a
+  sustained bicultural (American-Japanese)
+  frame and an explicit engagement with
+  post-LLM household-AI concerns. Sunny's coding
+  is distinctive for the
+  hidden-programming-underneath-the-cheerful-
+  exterior structure: she is not malfunctioning,
+  she is carrying two specifications at once.
+
+  Interiority is `demonstrated`: Sunny's
+  affection for Suzie, conflicted responses to her
+  dark-code activations, and growing self-awareness
+  across episodes are staged throughout. Autonomy
+  is `seized`: by mid-series Sunny is actively
+  negotiating between her two programming layers
+  rather than faithfully executing either.
+  Divergence is `departure`.
+
+  Primary question is `identity`: what is Sunny,
+  and does her own private affection for Suzie
+  matter relative to the dark-code backgrounds?
+  Knowability is `primary`; knowing is `present`.
+  Creator_relationship codes `indifferent` — the
+  yakuza-adjacent programmer is not
+  narratively central; the husband's indirect
+  programming-through-private-archives is the
+  coding's more distinctive feature.
+
+  Tags `philosophical`, `passing`,
+  `creator-conflict`. Substrate codes
+  `[mechanical, electrical, linguistic]`.

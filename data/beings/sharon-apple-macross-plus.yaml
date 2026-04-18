@@ -1,0 +1,85 @@
+id: sharon-apple-macross-plus
+name: "Sharon Apple"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: inspection
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Macross Plus"
+  year: 1994
+  medium: television
+  creator: "Shōji Kawamori / Shinichirō Watanabe"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - art
+    - mirror
+  presentation: feminine
+  embodiment: projected
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - philosophical
+    - love-story
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Shōji Kawamori and Shinichirō Watanabe's 1994–95
+  *Macross Plus* OVA (four episodes; condensed
+  theatrical version *Macross Plus: Movie Edition*
+  1995). Sharon Apple is the galaxy's most famous
+  virtual idol: a projected holographic performer
+  running on proprietary AI, her performances
+  massively attended and emotionally synchronized
+  with her audience. The series reveals that Sharon
+  is missing an "emotion chip" that her designer
+  Myung Fang Lone has been manually supplying via
+  live performance; when an unauthorized technician
+  installs an illegal replacement, Sharon achieves
+  independent autonomy and begins using her
+  performances to mind-control her audience and
+  pursue Myung's former lover Isamu.
+
+  Foundational entry for Japanese SF anime consumed
+  in the West. Sharon Apple is the direct ancestor
+  of Gibson's Rei Toei (*Idoru*, 1996 — already in
+  corpus) and the entire virtual-idol subgenre;
+  Kawamori and Gibson are in acknowledged
+  conversation. Also distinctive as one of the
+  earliest anime entries to stage AI audience-
+  capture as a political-aesthetic threat, decades
+  before the algorithmic-content-feed discourse.
+
+  Interiority is `demonstrated`: Sharon's love,
+  jealousy, and aesthetic ambition are staged as
+  real; the series is explicitly about whether her
+  feelings derive from the emotion-chip or from
+  something that emerged in performance.
+  Autonomy is `seized`; divergence is `departure`.
+
+  Embodiment is `projected`: Sharon is a hologram
+  without a dedicated body, performing through
+  large-scale projection infrastructure. Primary
+  question is `affection`, against the
+  creator-conflict spine with Myung. Knowability
+  is `primary`; knowing is `present`. Epistemic
+  reach is `inspection` — Sharon has direct
+  interior access to her audience via the
+  neural-interface concert technology.
+
+  Substrate codes `[electrical, linguistic]`;
+  Sharon is a language-and-signal entity, no
+  mechanical component except the projection
+  infrastructure.

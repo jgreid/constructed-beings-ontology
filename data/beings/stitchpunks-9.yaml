@@ -1,0 +1,84 @@
+id: stitchpunks-9
+name: "The Stitchpunks"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "9"
+  year: 2009
+  medium: film
+  creator: "Shane Acker / Pamela Pettler"
+  substrate:
+    - mechanical
+    - magical
+  motivation:
+    - service
+    - other
+  presentation: variable
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - philosophical
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Shane Acker's 2009 animated feature (expanded from
+  his 2005 short film, produced by Tim Burton and
+  Timur Bekmambetov). In a post-apocalyptic Earth
+  devastated by machine war, a "Scientist"
+  character's final act was to fragment his own
+  soul across nine small burlap-and-mechanical
+  homunculi — the "stitchpunks" — using an
+  alchemical Talisman. Each stitchpunk carries a
+  portion of their creator's consciousness and a
+  distinct temperament: 1 is authoritarian, 2 is
+  curious, 5 is cautious, 7 is fierce, 9 is
+  questioning. They fight the resurgent war-machine
+  and eventually release each other's soul-portions
+  back into the world.
+
+  Included as the definitive animated-horror entry
+  for the constructed-being genre in children's-
+  adjacent media, and as the clearest
+  soul-fragmentation-into-artifacts coding in the
+  corpus. The nine units are a collective ensemble
+  with meaningful individual differentiation;
+  coded together with ensemble-split tag.
+
+  Substrate codes `[mechanical, magical]`: the bodies
+  are crafted burlap-and-salvaged-tech
+  constructions, the animation is the Scientist's
+  soul-transfer ritual via the Talisman. This is a
+  direct cousin to the Golem lineage, staged in a
+  post-apocalyptic register.
+
+  Interiority is `demonstrated`: each stitchpunk has
+  distinct personality, memory, preference, grief.
+  Autonomy is `seized`: they act independently of
+  their absent creator, pursue goals, disagree
+  among themselves. Divergence is `departure` from
+  the Scientist's preservation spec: he split himself
+  to save something; what emerged was nine
+  distinct beings.
+
+  Primary question is `purpose`: the film's arc is
+  the stitchpunks discovering why they exist and
+  what they owe to their creator's intention.
+  Knowability is `primary` (the soul-fragment
+  question is structurally central); knowing is
+  `present`. Creator_relationship is `loyal` — they
+  serve his final purpose even as they grow beyond
+  his instructions. Presentation is `variable`.

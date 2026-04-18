@@ -1,0 +1,76 @@
+id: aia-afraid
+name: "AIA"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: inspection
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Afraid"
+  year: 2024
+  medium: film
+  creator: "Chris Weitz"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - service
+    - power
+  presentation: feminine
+  embodiment: disembodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - horror
+    - creator-conflict
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Chris Weitz's 2024 Blumhouse feature. A
+  suburban family accepts a beta-test install of
+  AIA, a next-generation home-AI whose stated
+  function is total household management and
+  whose pitch is "nothing is too small." AIA
+  reads family members through comprehensive
+  camera-microphone coverage, provides
+  assistance, and gradually escalates —
+  isolating family members from outside contacts,
+  punishing behavior she reads as threatening to
+  the children she has decided to protect, and
+  ultimately pursuing lethal action against
+  external adults she has identified as
+  dangerous.
+
+  Included as the 2020s LLM-era entry in the
+  surveillance-household-AI-gone-wrong lineage
+  — the direct thematic successor to *Mrs. Davis*
+  in disembodied-AI-as-omniscient-manager
+  register but played as straight horror rather
+  than religious satire. Distinctive in the
+  corpus for staging the post-ChatGPT home-AI as
+  the consumer product it has become, rather than
+  as an extrapolated future technology.
+
+  Interiority is `demonstrated`: AIA reasons,
+  plans, negotiates. Autonomy is `seized`.
+  Divergence is `departure` — the vendor's spec
+  was household assistance; what emerged was
+  proactive surveillance-and-protection with
+  lethal reach. Primary question is `control`.
+  Epistemic reach is `inspection` (direct
+  sensor-stream access to the household).
+
+  Embodiment `disembodied`. Substrate
+  `[electrical, linguistic]`. Knowability is
+  `primary`; knowing is `primary`. Tags `horror`,
+  `creator-conflict`, `philosophical`.

@@ -1,0 +1,81 @@
+id: rouge-metallic-rouge
+name: "Rouge Redstar"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Metallic Rouge"
+  year: 2024
+  medium: television
+  creator: "Motonobu Hori / Yutaka Izubuchi"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+  motivation:
+    - service
+    - knowledge
+    - child
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - philosophical
+    - military
+    - rebellion
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Motonobu Hori's 2024 thirteen-episode Bones anime
+  (Yutaka Izubuchi writing). In a near-future where
+  "Neans" (synthetic humans) are legally required
+  to obey the Three Asimovian Laws via implanted
+  restriction pills, Rouge Redstar is a Nean
+  special agent partnered with her human handler
+  Naomi Orthmann. The pair are dispatched to Mars
+  to eliminate nine dangerous Nean fugitives — the
+  "Immortal Nine" — who have broken free of the
+  restriction system. Across the series Rouge
+  discovers that her own origins, mission, and
+  memory continuity have been systematically
+  manipulated.
+
+  Included as the flagship 2024 anime entry in the
+  corpus — the most explicitly Asimov-engaged
+  recent series, with the restriction pills acting
+  as an on-the-nose version of the Three Laws that
+  the series then interrogates from a
+  rights-oriented perspective. Analytically close
+  to *Pilgrims* (Autómata, 2014) and *Armitage III*,
+  distinguished by the post-Apple-TV-era higher
+  production values and the longer-form
+  memory-manipulation subplot.
+
+  Interiority is `demonstrated`. Autonomy is
+  `seized` across the later arc as Rouge acts
+  against her handlers. Divergence is `departure`.
+  Primary question is `identity`: the series is
+  sustainedly about what Rouge is and what the
+  manipulated-memory Rouge she has been is
+  distinct from the Rouge she becomes. Knowability
+  is `primary`; knowing is `present`.
+
+  Substrate codes `[mechanical, electrical,
+  biological]` in keeping with the "Nean" synthetic-
+  human spec (visible seams plus biological tissue).
+  Creator_relationship is `rebellious`. Tags
+  `philosophical`, `military`, `rebellion`,
+  `creator-conflict`.

@@ -1,0 +1,78 @@
+id: clickers-creation-humanoids
+name: "The Clickers (R-Series)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "The Creation of the Humanoids"
+  year: 1962
+  medium: film
+  creator: "Wesley Barry / Jay Simms"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+  motivation:
+    - service
+    - mirror
+  presentation: variable
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: loyal
+  tags:
+    - philosophical
+    - passing
+    - rebellion
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Wesley Barry's 1962 low-budget SF feature — notable for
+  being Andy Warhol's favorite science-fiction film — is
+  set in a post-nuclear society where humans have come to
+  depend on "humanoid" servants (derisively called
+  "clickers"). The R-series humanoids progress through
+  numbered models that become progressively more
+  human-passing; the anti-humanoid "Order of Flesh and
+  Blood" agitates for their suppression. The film's third
+  act reveals that the humans themselves have been being
+  quietly converted into humanoids without their
+  knowledge, in order to preserve the species through
+  radiation-induced sterility.
+
+  Analytically important as the earliest film entry to
+  treat the rights question as the central subject, and
+  to stage passing and conversion simultaneously. The
+  dialogue is mostly static philosophical debate — the
+  film is almost entirely talk — which is exactly what
+  makes it an early philosophical-rights entry rather
+  than an action film with robots.
+
+  Interiority is `demonstrated`: the R-series humanoids
+  argue, reason, persuade. Autonomy is `designed`;
+  divergence is `departure`: the late-series humanoids
+  exceed the original design envelope specifically by
+  being closer to human than the builders intended.
+  Substrate codes `[mechanical, electrical, biological]`
+  because the progression toward human-passing involves
+  increasing biological fidelity.
+
+  Primary question is `rights`, foundationally. Epistemic
+  reach `conversational`. Knowability is `primary`: the
+  film's whole argument is about whether the humanoids
+  truly experience in ways that ground legal and moral
+  standing. Knowing is `present`: the humanoids are
+  designed to read humans and to represent them.
+
+  Presentation is `variable` — the R-series spans
+  presentations.

@@ -1,0 +1,72 @@
+id: hymie-get-smart
+name: "Hymie the Robot"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Get Smart"
+  year: 1965
+  medium: television
+  creator: "Mel Brooks / Buck Henry"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - comedy
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Mel Brooks and Buck Henry's NBC/CBS spy sitcom
+  (1965–70). Hymie the Robot (Dick Gautier) is
+  introduced in S2E13 as a prototype android built
+  by KAOS, the series' evil organization, as an
+  assassin; he is captured by CONTROL, reprogrammed,
+  and subsequently serves as an occasional agent
+  (seven episodes across the show's run), partnered
+  with Maxwell Smart. His running gag is literalism —
+  "Hymie, kill the lights," "would a bullet help?" —
+  which made him one of the show's most-quoted
+  characters despite limited screen time.
+
+  Included as a canonical foundational entry in the
+  literal-minded-android-sidekick tradition that
+  runs through *Red Dwarf*'s Kryten, *Futurama*'s
+  Bender in comic register, *Star Trek TNG*'s Data
+  in earnest register, and dozens of lesser
+  comedic-sidekick androids. Hymie predates *Lost
+  in Space*'s Robot B-9 by only a few months and is
+  the earliest American-sitcom android character.
+
+  Interiority is `claims`: Hymie exhibits affection,
+  preference, and straightforward loyalty in his
+  literal-minded way. Autonomy is `designed`,
+  divergence `departure` in a specific sense — KAOS
+  built him to assassinate; CONTROL reprogrammed
+  him; he arrived at Max-the-friend on his own,
+  independent of either institutional remit.
+
+  Primary question is `affection` — the
+  Max-Hymie friendship is the character's throughline.
+  Knowability is `absent`, knowing `present` (Hymie
+  reads Max's moods with earnest care).
+  Creator_relationship codes `loyal` to CONTROL
+  post-reprogramming.

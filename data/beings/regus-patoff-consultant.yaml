@@ -1,0 +1,80 @@
+id: regus-patoff-consultant
+name: "Regus Patoff"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "The Consultant"
+  year: 2023
+  medium: television
+  creator: "Tony Basgallop (after Bentley Little)"
+  substrate:
+    - mechanical
+    - electrical
+    - magical
+  motivation:
+    - power
+    - other
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - horror
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Tony Basgallop's 2023 Amazon Prime Video
+  eight-episode series (adapting Bentley Little's
+  2015 novel). After the founder of the Los
+  Angeles-based CompWare mobile-game studio is
+  assassinated, the consulting contract provides
+  that a Regus Patoff (Christoph Waltz) take over.
+  Across the series Patoff runs the company with
+  escalating control and is gradually revealed as
+  an explicitly non-human entity: he has no
+  digestive system, his legs are mechanical
+  prostheses, his skin appears synthetic under
+  X-ray, he does not sleep, and his origins and
+  continuity are unverifiable. The series refuses
+  to settle whether he is an android, a demon, or
+  a combination.
+
+  Boundary-inclusion entry. Patoff is coded as a
+  constructed being on the weak inclusion principle:
+  the series repeatedly stages his non-biological
+  substrate as the source of his uncanniness, and
+  the implied creation (by the founder, before
+  death) is central to the plot's final turns.
+  Reasonable coders could defer this entry to
+  boundary-cases pending resolution in a second
+  season; as of 2026 no second season has been
+  announced.
+
+  Interiority is `undecidable` in the same
+  schema-stress-test mode as Tyrone (*Hand to God*)
+  and the Screamers — the series structurally
+  refuses to adjudicate Patoff's experience.
+  Autonomy is `seized`; divergence is `departure`.
+  Substrate codes `[mechanical, electrical, magical]`
+  to carry the ambiguity the series keeps alive.
+
+  Primary question is `identity`. Knowability is
+  `primary`; knowing is `present`. Creator_relationship
+  is `absent` (the founder is dead before series
+  start; the series stages the founder's
+  precise role as uncertain). Tags `horror`,
+  `philosophical`.

@@ -1,0 +1,82 @@
+id: gypsy-mst3k
+name: "Gypsy"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Mystery Science Theater 3000"
+  year: 1988
+  medium: television
+  creator: "Joel Hodgson (Joel Robinson in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - companionship
+    - service
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - comedy
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Gypsy is the fourth of Joel's homemade bots and the one
+  charged with maintaining the higher functions of the
+  Satellite of Love — life support, orbital stability, the
+  infrastructure that keeps the show physically possible.
+  She appears less often in the theater riffs than Crow and
+  Servo because she is busy running the ship. Physically
+  she is a long purple hose-body with a single mechanical
+  eye. Voiced by Jim Mallon (seasons K–7) in a deliberately
+  low gruff register, then Patrick Brantseg (seasons 8–10),
+  then Rebecca Hanson (Netflix revival).
+
+  Interiority is `demonstrated`: Gypsy has a distinct
+  personality (calm, practical, affectionate, occasionally
+  obsessed with Richard Basehart), expresses preferences,
+  and is treated by the other characters as a full peer.
+  Autonomy is `designed` — she was built for
+  ship-maintenance and does ship-maintenance, diverging
+  from Crow and Servo who were built for company-and-riffing
+  and who slipped that remit. Divergence is `departure` in
+  a different direction: Joel built a utility bot and got a
+  maternal friend.
+
+  Primary question is `affection`, same as the other bots.
+  Epistemic reach `conversational`; knowability and knowing
+  `absent`.
+
+  Presentation is `feminine` — pronouns she/her, coded that
+  way in-show — but the coding is notable for sitting on
+  top of a body indistinguishable in construction logic
+  from the masculine-coded Crow and Servo, and for being
+  voiced for most of the original run by a man in a
+  deliberately incongruous low register that the show
+  treats as a running comic bit. This is a structural
+  echo of Booti's situation in *Buck Rogers*: feminine
+  presentation layered on an otherwise-neutral substrate,
+  the coding done through vocabulary/voicing/role rather
+  than body design. The MST3K treatment is more affectionate
+  and less throwaway than Buck Rogers'; Gypsy is the one
+  who gets the season finales.
+
+  Card divergence from Crow/Servo: autonomy is `designed`
+  rather than `seized`, because Gypsy mostly does the job
+  she was built for. That's the ensemble-split, and it's
+  why she gets a separate entry rather than a line in an
+  ensemble stub.

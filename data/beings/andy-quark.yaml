@@ -1,0 +1,71 @@
+id: andy-quark
+name: "Andy the Android"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Quark"
+  year: 1977
+  medium: television
+  creator: "Buck Henry"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: servile
+  tags:
+    - comedy
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Buck Henry's 1977–78 NBC SF sitcom (eight
+  episodes). *Quark* is a *Star Wars*-adjacent
+  space-comedy built around the crew of a United
+  Galaxies Sanitation Patrol Cruiser, whose
+  responsibility is to collect garbage left by
+  actual starships. Andy the Android is the ship's
+  ambulatory maintenance robot, played by Bobby
+  Porter as an anxious, malfunction-prone
+  assemblage of salvaged parts. He is explicitly
+  the ensemble's cowardly-comic-relief slot, a
+  parody of C-3PO that predates the full
+  crystallization of the stock C-3PO comic
+  archetype.
+
+  Included as a minor but analytically-sharp 70s
+  network-TV entry in the deliberately-malfunctioning-
+  robot tradition (Marvin, Kryten, Butter Robot,
+  GIR). Andy is distinctive for being the first
+  network-TV attempt at a character whose joke is
+  precisely that the robot is badly made — not
+  alien, not superior, just cheap.
+
+  Interiority is `claims`: Andy expresses worry,
+  vanity, and self-preservation, played for
+  sitcom-beat laughs. Autonomy is `designed`,
+  divergence `design`: the malfunctions are the
+  spec working as delivered (salvaged parts, budget
+  Sanitation Patrol). Primary question is
+  `purpose` in the thinnest comic register. Knowability
+  and knowing both `absent`. Ensemble-split tag
+  because the *Quark* ensemble includes the Bettys
+  (identical-twin-clone characters), the Gorgon
+  captain Gene/Jean, and the "transmute" Ficus —
+  each raising different coding questions the
+  entry flags for possible future treatment.

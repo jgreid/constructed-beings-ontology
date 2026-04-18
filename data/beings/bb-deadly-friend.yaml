@@ -1,0 +1,82 @@
+id: bb-deadly-friend
+name: "BB / Samantha"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Deadly Friend"
+  year: 1986
+  medium: film
+  creator: "Wes Craven / Bruce Joel Rubin"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+  motivation:
+    - companionship
+    - service
+  presentation: variable
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: rebellious
+  tags:
+    - horror
+    - love-story
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Wes Craven's 1986 horror feature (from Bruce Joel
+  Rubin's script adapting Diana Henstell's novel). Young
+  prodigy Paul Conway has built BB, a friendly
+  ambulatory robot with a high-pitched synthesized
+  voice. When BB is destroyed by a neighbor and Paul's
+  love interest Samantha is killed by her abusive
+  father, Paul implants BB's control chip into
+  Samantha's body in an attempt to save her. The
+  result — the film's central horror — is Samantha's
+  body animated by BB's programming plus residual
+  human memory, pursuing vengeance against her abuser
+  and then against the other characters.
+
+  Included as a boundary-inclusion entry and coded
+  against the sequel rules. BB alone is a conventional
+  companion-robot. Post-implant Samantha is a
+  constructed hybrid of a deceased human body and a
+  robot control system, which the ontology's
+  born-then-modified rule would normally exclude. This
+  entry resolves that by coding the *combined* being
+  BB-plus-Samantha-body as a constructed entity: the
+  animation is artifactual (BB's chip is the
+  animator), the body is a substrate that was once
+  human but is being driven by something else, and the
+  narrative treats the result as a new kind of being
+  rather than as Samantha continuing.
+
+  Substrate codes `[mechanical, electrical, biological]`.
+  Presentation is `variable` because the being appears
+  first as robot BB (non-gendered) and then as
+  Samantha's body (feminine-coded) under BB's drive.
+  Interiority is `demonstrated`: the post-implant
+  being exhibits affection, rage, and apparent
+  continuity of something like Samantha's emotional
+  history. Autonomy is `seized`. Divergence is
+  `departure`.
+
+  Primary question is `identity`: the film is
+  centrally asking what the thing in Samantha's body
+  is. Knowability is `secondary`; knowing is `present`
+  in the form of residual recognition and affective
+  attachment. Low-confidence flag: reasonable coders
+  could exclude this entry on born-modified grounds
+  and preserve only BB as a pre-implant entry.

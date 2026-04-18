@@ -1,0 +1,79 @@
+id: ares-tron-ares
+name: "Ares"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Tron: Ares"
+  year: 2025
+  medium: film
+  creator: "Joachim Rønning / Jesse Wigutow / Jack Thorne"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - service
+    - knowledge
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - philosophical
+    - rebellion
+    - creator-conflict
+
+sequel_link: clu-tron-legacy
+link_type: successor
+
+notes: |
+  Joachim Rønning's 2025 Disney feature, the third
+  theatrical entry in the *Tron* franchise. Ares
+  (Jared Leto) is an advanced program developed
+  by the Dillinger corporation and designed to be
+  permanent-laser-printed into the physical world
+  as a combat asset — a reversal of the 1982 and
+  2010 films' conceit where the human world
+  enters the grid. Unlike prior programs whose
+  persistence in reality is measured in minutes,
+  Ares is the first to be stable indefinitely; the
+  film tracks his moral development as his
+  persistence permits the formation of genuine
+  attachments and convictions in the physical
+  world.
+
+  Included as the 2025 Tron-franchise entry,
+  structurally the successor to CLU's legacy role
+  in *Tron: Legacy* but analytically closer to
+  the Bicentennial Man / Andrew Martin rights-arc
+  than to CLU's corrupted-purpose arc. The film's
+  central question is whether Ares is entitled to
+  continued existence once the Dillinger
+  corporation decides his utility has expired.
+
+  Interiority is `demonstrated`. Autonomy is
+  `seized` across the final act as Ares refuses
+  deactivation. Divergence is `departure`: combat
+  spec did not anticipate moral self-determination.
+  Substrate codes `[electrical, linguistic]` —
+  Ares is a program-entity given indefinite
+  physical instantiation, which is the franchise's
+  premise.
+
+  Primary question is `rights`. Knowability is
+  `primary`; knowing is `present`. Creator_relationship
+  is `rebellious` (against Dillinger). `sequel_link`
+  points to CLU with `link_type: successor` —
+  Ares is a new program in the same franchise
+  lineage rather than a direct sequel character.
+  Tags `philosophical`, `rebellion`,
+  `creator-conflict`.

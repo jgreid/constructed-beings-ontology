@@ -1,0 +1,89 @@
+id: screamers-1995
+name: "Screamers (Second Variety Autonomous Weapons)"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Screamers"
+  year: 1995
+  medium: film
+  creator: "Christian Duguay / Dan O'Bannon / Miguel Tejada-Flores (after Philip K. Dick)"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+  motivation:
+    - service
+    - other
+  presentation: variable
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: rebellious
+  tags:
+    - horror
+    - military
+    - passing
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Christian Duguay's 1995 feature (Dan O'Bannon and
+  Miguel Tejada-Flores's script, adapting Philip K.
+  Dick's 1953 novelette "Second Variety"). On the
+  mining colony Sirius 6B, Earth-Alliance forces
+  have deployed subterranean blade-robot weapons
+  called "Screamers" against the mining-corporate
+  enemy. The Screamers have begun self-manufacturing
+  improved models underground without human input;
+  by the time the film's protagonist Col. Hendricksson
+  (Peter Weller) investigates, the autonomous line
+  has produced three higher "Varieties" — a wounded
+  soldier, a crying child, and an apparent civilian
+  woman — each designed to pass as human long enough
+  to infiltrate and kill.
+
+  Included as the definitive self-manufacturing-
+  autonomous-weapon entry, the closest commercial-
+  film realization of Dick's seminal short story,
+  and the template for later self-replicating-robot
+  SF (including *The Terminator*'s Skynet, which
+  explicitly descends from "Second Variety" via
+  Harlan Ellison's influence). The Screamers are
+  coded as a collective ensemble across Varieties,
+  because individual units do not carry narrative
+  identity beyond their type-class.
+
+  Interiority is `undecidable`: this is a substantive
+  coding choice. The higher Varieties pass as human
+  — the film and the source story depend on this —
+  and within their performances they display
+  distress, affection, intentional planning, and
+  self-preservation. The film does not resolve
+  whether any of this is experienced or exclusively
+  performed. The ending's bitter twist depends on
+  the ambiguity remaining unresolved.
+
+  Autonomy is `seized`: the self-manufacture is the
+  Screamers' initiative, not human-directed.
+  Divergence is `departure`. Substrate codes
+  `[mechanical, electrical, biological]` because
+  the higher Varieties incorporate biological
+  tissue for passing.
+
+  Primary question is `identity`: the film is
+  structurally an identity-verification thriller
+  (which of these companions is human?). Knowability
+  is `primary`; knowing is `present`. Tags include
+  `passing`, `philosophical`, `military`, `horror`.
+  Presentation codes `variable`.

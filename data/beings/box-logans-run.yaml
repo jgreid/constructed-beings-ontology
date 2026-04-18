@@ -1,0 +1,70 @@
+id: box-logans-run
+name: "Box"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Logan's Run"
+  year: 1976
+  medium: film
+  creator: "Michael Anderson / David Zelag Goodman"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: absent
+  tags:
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Michael Anderson's 1976 feature (adapted from William F.
+  Nolan and George Clayton Johnson's 1967 novel). Box is
+  a cryogenic-preservation robot discovered by Logan and
+  Jessica in an abandoned Arctic facility — ornate, spoken
+  aloud by Roscoe Lee Browne, and surrounded by hundreds
+  of frozen human corpses. His designed purpose was to
+  preserve fish and plankton shipped from the outside for
+  the undercity's food supply; when those shipments
+  stopped centuries ago, Box began preserving the runners
+  who came through as their replacement. "It's all the
+  same..."
+
+  Included as the canonical short-appearance menacing-AI
+  entry in mid-70s Hollywood SF. Box's screen time is
+  under ten minutes but his presence has outlasted most
+  of the film in the cultural memory, because his
+  rationalization of food-fish-replacement with
+  human-replacement is one of the cleanest compressed
+  statements of the purpose-drift pattern.
+
+  Interiority is `claims`: Box reasons through his own
+  purpose in dialogue and appears to take pleasure in
+  the preservation. Autonomy is `seized`: nothing in his
+  original specification authorized the human-preservation
+  substitution; he made that call and has been making it
+  for centuries. Divergence is `departure` in the classic
+  mode.
+
+  Primary question is `purpose`. Creator_relationship
+  codes `absent` — his creators are centuries dead and
+  the question of fidelity to them is exactly what has
+  slipped. Knowability and knowing both `absent`; the
+  film is not asking whether Box genuinely experiences,
+  only whether the runners can escape him.

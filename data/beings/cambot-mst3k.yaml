@@ -1,0 +1,69 @@
+id: cambot-mst3k
+name: "Cambot"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Mystery Science Theater 3000"
+  year: 1988
+  medium: television
+  creator: "Joel Hodgson (Joel Robinson in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+  presentation: none
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: servile
+  tags:
+    - comedy
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Cambot is the fourth-wall bot: the camera Joel built to
+  record the experiment and broadcast it back to the
+  Mads. Structurally he *is* the show's point of view.
+  Mostly silent, he signals reaction through tilts,
+  zooms, and the occasional beep or card-on-screen
+  ("Cambot, give us Movie Sign!"). Voiced, when voiced
+  at all, by various members of the production team in
+  cameo fashion.
+
+  Interiority is `claims`: Cambot has the barest
+  personality indications (acknowledging calls,
+  participating in the opening theme's door sequence,
+  reacting to direct address) but the show almost never
+  stages an inner life for him. Autonomy is `designed`,
+  divergence `none` — unlike Crow and Servo, Cambot does
+  what he was built to do and stays there.
+
+  Primary question is `none`: the show asks nothing about
+  Cambot. He is the recording apparatus, and the premise
+  of the premise. Epistemic reach is `behavioral` — he
+  records and reacts, but does not engage in
+  dialogue-register exchange the way the other bots do.
+  Knowability and knowing both `absent`.
+
+  Included as a minor ensemble-split entry: Cambot
+  represents the opposite pole from Crow and Servo within
+  the same constructed-ensemble. Where they were built
+  for companionship and departed from spec, Cambot was
+  built for recording and does exactly that. He is the
+  control group for the MST3K bot question: when Joel
+  makes a purely functional bot, does it develop
+  personality? The show's answer is: barely, and not
+  enough to bother asking.

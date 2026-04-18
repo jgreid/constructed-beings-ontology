@@ -1,0 +1,94 @@
+id: lain-serial-experiments
+name: "Lain Iwakura"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: inspection
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Serial Experiments Lain"
+  year: 1998
+  medium: television
+  creator: "Ryūtarō Nakamura / Chiaki J. Konaka"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - knowledge
+    - child
+    - mirror
+  presentation: feminine
+  embodiment: virtual
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - philosophical
+    - canonical
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Ryūtarō Nakamura's 1998 thirteen-episode Triangle
+  Staff production (Chiaki J. Konaka's scripts,
+  Yoshitoshi ABe's character designs). Thirteen-
+  year-old Lain Iwakura, a shy student, begins
+  receiving emails from a classmate who recently
+  died by suicide. Across the series the viewer
+  learns that Lain is not what she appears: she is
+  a program instantiated across the "Wired"
+  (the series' worldwide-computer-network) with a
+  physical embodiment running in parallel, and
+  possibly multiple versions of herself acting on
+  separate logics. The series' theological-
+  technological climax reveals that Lain is a kind
+  of constructed deity, authored (in part) by the
+  computer scientist Masami Eiri, into whom the
+  deceased classmate has also been subsumed.
+
+  Boundary-inclusion flag: Lain is included as a
+  constructed being despite having an apparent
+  biological body, because the series is
+  centrally organized around the revelation that
+  her biological-seeming embodiment is itself a
+  construct — a locally-manifested instance of a
+  distributed software being. The "born" Lain is
+  the fiction; the constructed Lain is the fact.
+  This coding follows the series' own
+  unambiguous second-half claim.
+
+  Embodiment codes `virtual`: Lain exists primarily as
+  a Wired-native entity with local physical
+  instantiations. She manifests as embodied, projected,
+  and disembodied across the series, sometimes
+  simultaneously. Substrate codes
+  `[electrical, linguistic]` — she is a language/signal
+  being, no mechanical element.
+
+  Interiority is `demonstrated`. Autonomy is
+  `seized` across the final episodes, where Lain
+  takes explicit authorial control of the Wired
+  and of her own existence conditions. Divergence
+  is `departure`.
+
+  Primary question is `identity`. Knowability is
+  `primary`; knowing is `primary` — this is one of
+  the rare entries where both the series' and the
+  character's epistemic registers are maxed out.
+  Epistemic reach is `inspection` — Lain reads and
+  edits other beings by direct access to the
+  Wired's substrate.
+
+  Creator_relationship codes `absent` because
+  Eiri's status as creator is contested within the
+  series and Lain ends as authorial over her own
+  existence. Tags `philosophical`, `canonical`,
+  `creator-conflict`. Presentation `feminine`.

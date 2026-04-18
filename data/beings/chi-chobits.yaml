@@ -1,0 +1,92 @@
+id: chi-chobits
+name: "Chi / Elda / Freya"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Chobits"
+  year: 2001
+  medium: television
+  creator: "CLAMP / Morio Asaka (Madhouse adaptation)"
+  substrate:
+    - mechanical
+    - electrical
+    - linguistic
+  motivation:
+    - companionship
+    - child
+    - mirror
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - love-story
+    - passing
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  CLAMP's 2000–02 manga (Kodansha, serialized in
+  *Young Magazine*); Morio Asaka's 2002 Madhouse
+  anime adaptation. In a near-future where
+  "persocoms" — humanoid personal computers —
+  have become domestic fixtures, Hideki Motosuwa
+  finds a powered-down persocom abandoned in the
+  trash. She turns on with only the word "Chi,"
+  which Hideki adopts as her name. Across the
+  series Chi is revealed to be "Elda," one of a
+  pair of prototype "Chobits" developed by
+  engineer Ichirō Mihara and his wife Chitose
+  as a replacement daughter, capable of
+  genuine affection — the prior unit, her
+  sister Freya, died by self-deletion after
+  being unable to bear Ichirō's love as a son
+  would. Chi was rebuilt with explicit
+  consent-conditions around her ability to be
+  loved.
+
+  Foundational entry in the 2000s persocom /
+  domestic-android anime tradition, and the
+  cleanest articulation in the corpus of the
+  constructed-being-as-chosen-daughter
+  theological framework that Ishiguro will
+  later refine in *Klara*. The anime's meditations
+  on consent, affection, and the ethics of
+  designing beings capable of love are
+  structurally the text *Her* (2013) will
+  arrive at from a disembodied direction.
+
+  Interiority is `demonstrated`: Chi/Elda's love,
+  grief, and slow self-recognition are staged
+  throughout. Autonomy is `seized` — her
+  relationship with Hideki is her own initiative,
+  outside any Mihara specification. Divergence is
+  `departure`.
+
+  Primary question is `affection`, against a
+  significant `philosophical` backdrop about
+  whether a designed capacity for love is
+  genuine love. Knowability is `primary`; knowing
+  is `present`. Substrate codes `[mechanical,
+  electrical, linguistic]`. Creator_relationship
+  codes `absent` — Mihara is present at the
+  series' revelations but functions more as
+  historical context than active creator.
+
+  Tags `love-story`, `passing`, `philosophical`.
+  The Freya/Elda pairing is coded here as a
+  single ensemble entry because the anime and
+  manga treat them as a paired project with
+  one surviving representative.

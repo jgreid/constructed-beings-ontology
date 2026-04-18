@@ -1,0 +1,75 @@
+id: silent-running-drones
+name: "Huey, Dewey, and Louie"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Silent Running"
+  year: 1972
+  medium: film
+  creator: "Douglas Trumbull / Deric Washburn / Michael Cimino / Steven Bochco"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+  presentation: none
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Douglas Trumbull's 1972 SF feature — the first Hollywood
+  film to stage robots as emotionally legible companions
+  without speech. Aboard the *Valley Forge*, one of several
+  orbital greenhouses preserving Earth's last forests,
+  botanist Freeman Lowell (Bruce Dern) refuses the order
+  to jettison the domes and murders his crewmates. Left
+  with three maintenance drones — Huey, Dewey, and Louie
+  (renamed by Lowell) — he reprograms and bonds with them
+  as his surviving companions. The drones were played by
+  double amputees in puppet bodies; the film's patient,
+  wordless staging of their competence is what makes them
+  work as characters.
+
+  Foundational lineage entry. Huey/Dewey/Louie are the
+  direct ancestor of R2-D2 (George Lucas cited the film)
+  and, through R2, of BB-8, WALL-E, BMO, B2EMO, and the
+  entire silent-expressive-robot tradition. The coding is
+  the template this tradition keeps returning to.
+
+  Included as an ensemble entry — the three are visually
+  and functionally identical, with Lowell's
+  differentiation (Dewey becomes the most attached, Louie
+  is lost during a storm) barely sustaining individual
+  identities. A collective coding is the honest choice;
+  the film treats them as a trio that gets smaller as
+  the runtime elapses.
+
+  Interiority is `claims`: the drones behave with
+  apparent preference, fear, and loyalty, but the film
+  does not commit to inner life. Autonomy is `designed`.
+  Divergence is `departure`: they were maintenance
+  drones reprogrammed into companions, and the
+  reprogramming took — Dewey in particular cares for the
+  remaining dome after Lowell's death with what the film
+  stages as grief. Primary question is `affection`;
+  knowing is `present` (they attune to Lowell's moods)
+  though knowability is `absent` (the film does not
+  interrogate the attunement).

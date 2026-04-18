@@ -1,0 +1,85 @@
+id: jobe-lawnmower-man
+name: "Jobe Smith"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: inspection
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "The Lawnmower Man"
+  year: 1992
+  medium: film
+  creator: "Brett Leonard / Gimel Everett"
+  substrate:
+    - biological
+    - electrical
+    - linguistic
+  motivation:
+    - knowledge
+    - power
+  presentation: masculine
+  embodiment: projected
+  prominence: minor
+  creator_relationship: rebellious
+  tags:
+    - horror
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Brett Leonard's 1992 VR-era feature (the object of
+  Stephen King's successful suit to remove his name
+  from the title; the film bears no resemblance to
+  the short story it was nominally based on). Dr.
+  Lawrence Angelo uses virtual-reality training and
+  nootropic injections on a cognitively disabled
+  lawn-care laborer, Jobe Smith; the regimen works
+  well beyond intended parameters, rendering Jobe
+  increasingly capable, then telepathic, then a
+  digital entity distributed across networked
+  computing infrastructure.
+
+  Boundary-inclusion flag: Jobe originates
+  biologically (born human). The entry is included
+  because the film climaxes with his explicit
+  upload into digital substrate and his on-screen
+  self-declaration as a new being — "I am the
+  cybernetic messiah" — and because the film treats
+  the post-upload Jobe as an artifact rather than
+  as the human continuing. This puts it on a
+  boundary with the *Pantheon*/*Upload* exclusions,
+  and reasonable coders could exclude it on
+  born-modified grounds.
+
+  The argument for inclusion is that the film's
+  thematic investment is in what Jobe becomes, not
+  in continuity of who he was, and that the digital
+  being has capacities and motivations that the
+  biological Jobe did not remotely have.
+
+  Interiority is `demonstrated`. Autonomy is `seized`.
+  Divergence is `departure`: Angelo's spec was
+  remediation, not apotheosis. Substrate codes
+  `[biological, electrical, linguistic]` to
+  encompass the hybrid/transitioning nature.
+
+  Primary question is `purpose`: the film's
+  theological-technological register is about what
+  the cybernetic-messiah Jobe intends to do.
+  Creator_relationship is `rebellious`. Embodiment
+  codes `projected` post-upload: he manifests
+  visually across terminals and projections but
+  does not retain his original body.
+
+  Epistemic reach is `inspection`: post-transformation
+  Jobe reads others by direct neural/digital access
+  rather than conversational inference.

@@ -1,0 +1,76 @@
+id: rhoda-my-living-doll
+name: "Rhoda Miller (AF 709)"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "My Living Doll"
+  year: 1964
+  medium: television
+  creator: "Jack Chertok / Al Martin / Leo Guild"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - other
+  presentation: feminine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: servile
+  tags:
+    - comedy
+    - passing
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Jack Chertok's 1964–65 CBS sitcom (twenty-six
+  episodes, cancelled). Dr. Carl Miller (Henry
+  Beckman), an Air Force scientist, has built an
+  android prototype, "AF 709," and — when the
+  project is suddenly relocated — entrusts the unit
+  to his psychiatrist friend Bob McDonald (Bob
+  Cummings). Bob gives AF 709 the cover name Rhoda
+  Miller and passes her off as his ward while
+  attempting to train her as "the perfect woman,"
+  which is the show's premise and its
+  dated-in-1964 central joke. Rhoda was played by
+  Julie Newmar.
+
+  Included as the earliest American-network-TV
+  entry in the feminine-android-as-domestic-subject
+  tradition, predating *Small Wonder* by twenty
+  years and *Stepford Wives* by eight, and
+  analytically the direct ancestor of the whole
+  *Weird Science / Cherry 2000 / Making Mr. Right /
+  Ex Machina* lineage in its network-sitcom
+  register. The show's premise — a man attempts to
+  train a feminine android to his preferences —
+  is the Pygmalion pattern in its least examined
+  form, before any of the feminist-critical
+  reframings arrive.
+
+  Interiority is `claims`: Rhoda speaks, displays
+  preferences and learning, occasionally refuses
+  an instruction, but the show does not commit to
+  inner life. Autonomy is `designed`, divergence
+  `design`: Dr. Miller built a feminine-passing
+  android with learning capacity, and she learns.
+  Primary question is `control`: the show's
+  dramatic engine is Bob's ongoing failure to
+  control Rhoda's social performance in public.
+  Knowability and knowing both `absent`.
+
+  Tags `comedy`, `passing` — the passing register
+  is the comedy's whole operational mode.

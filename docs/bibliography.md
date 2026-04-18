@@ -76,6 +76,9 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 ### Manga
 
 - **Tetsuwan Atom (Mighty Atom / Astro Boy)** (1952) — Osamu Tezuka. *Being(s): Astro Boy (Atom)*
+- **Yokohama Kaidashi Kikō** (1994) — Hitoshi Ashinano. *Being(s): Alpha Hatsuseno*
+- **Pluto** (2003) — Naoki Urasawa / Takashi Nagasaki. *Being(s): Atom (Pluto)*
+- **Goosebumps ("Night of the Living Dummy")** (1993) — R.L. Stine. *Being(s): Slappy*
 
 ### Short Stories
 
@@ -115,24 +118,52 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Metropolis** (1927) — Fritz Lang. *Being(s): False Maria*
 - **Bride of Frankenstein** (1935) — James Whale. *Being(s): The Bride*
 - **The Day the Earth Stood Still** (1951) — Robert Wise. *Being(s): Gort*
+- **Robot Monster** (1953) — Phil Tucker. *Being(s): Ro-Man*
+- **Gog** (1954) — Herbert L. Strock. *Being(s): Gog and Magog*
+- **Tobor the Great** (1954) — Lee Sholem. *Being(s): Tobor*
 - **Forbidden Planet** (1956) — Fred M. Wilcox. *Being(s): Robby the Robot*
 - **Desk Set** (1957) — Walter Lang. *Being(s): EMERAC*
+- **The Creation of the Humanoids** (1962) — Wesley Barry. *Being(s): The Clickers (R-Series)*
 - **The Love Bug** (1968) — Robert Stevenson. *Being(s): Herbie*
+- **Silent Running** (1972) — Douglas Trumbull. *Being(s): Huey, Dewey, Louie*
+- **Westworld** (1973) — Michael Crichton. *Being(s): The Gunslinger*
+- **Dark Star** (1974) — John Carpenter / Dan O'Bannon. *Being(s): Bomb #20*
+- **Logan's Run** (1976) — Michael Anderson. *Being(s): Box*
 - **Demon Seed** (1977) — Donald Cammell. *Being(s): Proteus IV*
 - **Star Wars** (1977) — George Lucas. *Being(s): C-3PO, R2-D2*
 - **Alien** (1979) — Ridley Scott. *Being(s): Ash*
 - **Star Trek: The Motion Picture** (1979) — Robert Wise. *Being(s): V'Ger*
 - **The Black Hole** (1979) — Gary Nelson. *Being(s): Maximilian, V.I.N.CENT*
+- **Saturn 3** (1980) — Stanley Donen. *Being(s): Hector*
+- **Heartbeeps** (1981) — Allan Arkush. *Being(s): Val and Aqua*
+- **Clash of the Titans** (1981) — Desmond Davis. *Being(s): Bubo*
+- **Android** (1982) — Aaron Lipstadt. *Being(s): Max 404*
 - **Blade Runner** (1982) — Ridley Scott. *Being(s): Pris, Rachael, Replicants, Roy Batty*
 - **Tron** (1982) — Steven Lisberger. *Being(s): Master Control Program, Tron*
 - **WarGames** (1983) — John Badham. *Being(s): WOPR/Joshua*
+- **Electric Dreams** (1984) — Steve Barron. *Being(s): Edgar*
 - **The Terminator** (1984) — James Cameron. *Being(s): Skynet, T-800*
 - **D.A.R.Y.L.** (1985) — Simon Wincer. *Being(s): D.A.R.Y.L.*
 - **Weird Science** (1985) — John Hughes. *Being(s): Lisa*
 - **Aliens** (1986) — James Cameron. *Being(s): Bishop*
+- **Chopping Mall** (1986) — Jim Wynorski. *Being(s): The Protectors (Killbots)*
+- **Deadly Friend** (1986) — Wes Craven. *Being(s): BB / Samantha*
 - **Short Circuit** (1986) — John Badham. *Being(s): Johnny 5*
+- **Cherry 2000** (1987) — Steve De Jarnatt. *Being(s): Cherry 2000*
+- **Dolls** (1987) — Stuart Gordon. *Being(s): The Obelisk Dolls*
+- **Making Mr. Right** (1987) — Susan Seidelman. *Being(s): Ulysses*
+- **Child's Play** (1988) — Tom Holland. *Being(s): Chucky*
+- **Puppet Master** (1989) — David Schmoeller. *Being(s): Toulon's Puppets*
+- **Class of 1999** (1990) — Mark L. Lester. *Being(s): The Educators (DRB Series)*
 - **Edward Scissorhands** (1990) — Tim Burton. *Being(s): Edward*
+- **Hardware** (1990) — Richard Stanley. *Being(s): M.A.R.K. 13*
+- **Eve of Destruction** (1991) — Duncan Gibbins. *Being(s): Eve VIII*
 - **Terminator 2: Judgment Day** (1991) — James Cameron. *Being(s): T-1000, T-800 (T2)*
+- **Demonic Toys** (1992) — Peter Manoogian. *Being(s): Demonic Toys*
+- **The Lawnmower Man** (1992) — Brett Leonard. *Being(s): Jobe Smith*
+- **Screamers** (1995) — Christian Duguay (after Philip K. Dick). *Being(s): Screamers (Second Variety Autonomous Weapons)*
+- **Virtuosity** (1995) — Brett Leonard. *Being(s): SID 6.7*
+- **Solo** (1996) — Norberto Barba (after Robert Mason). *Being(s): Solo*
 - **Alien: Resurrection** (1997) — Jean-Pierre Jeunet. *Being(s): Annalee Call*
 - **The Iron Giant** (1999) — Brad Bird. *Being(s): The Iron Giant*
 - **The Matrix** (1999) — The Wachowskis. *Being(s): Agent Smith, The Oracle*
@@ -140,13 +171,19 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Star Trek: Nemesis** (2002) — Stuart Baird. *Being(s): B-4*
 - **Terminator 3: Rise of the Machines** (2003) — Jonathan Mostow. *Being(s): T-X*
 - **I, Robot** (2004) — Alex Proyas. *Being(s): Sonny, VIKI*
+- **Stealth** (2005) — Rob Cohen. *Being(s): EDI*
+- **Dead Silence** (2007) — James Wan. *Being(s): Billy*
 - **Iron Man** (2008) — Jon Favreau. *Being(s): JARVIS*
 - **WALL-E** (2008) — Andrew Stanton / Pixar. *Being(s): AUTO, EVE, WALL-E*
+- **9** (2009) — Shane Acker. *Being(s): The Stitchpunks*
 - **Moon** (2009) — Duncan Jones. *Being(s): GERTY*
 - **Tron: Legacy** (2010) — Joseph Kosinski. *Being(s): CLU*
 - **Real Steel** (2011) — Shawn Levy. *Being(s): Atom*
 - **Prometheus / Alien: Covenant** (2012-2017) — Ridley Scott. *Being(s): David 8, Walter*
+- **The Conjuring / Annabelle** (2013) — James Wan / Gary Dauberman. *Being(s): Annabelle*
 - **Her** (2013) — Spike Jonze. *Being(s): Samantha*
+- **The Machine** (2013) — Caradog W. James. *Being(s): Ava*
+- **Autómata** (2014) — Gabe Ibáñez. *Being(s): The Pilgrims (ROC Units)*
 - **Big Hero 6** (2014) — Don Hall / Chris Williams. *Being(s): Baymax*
 - **Ex Machina** (2014) — Alex Garland. *Being(s): Ava, Kyoko*
 - **Interstellar** (2014) — Christopher Nolan. *Being(s): CASE, TARS*
@@ -168,30 +205,60 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **The Creator** (2023) — Gareth Edwards. *Being(s): Alphie*
 - **Alien: Romulus** (2024) — Fede Alvarez. *Being(s): Andy*
 - **The Wild Robot** (2024) — Chris Sanders / DreamWorks. *Being(s): Roz*
+- **Upgrade** (2018) — Leigh Whannell. *Being(s): STEM*
+- **Tau** (2018) — Federico D'Alessandro. *Being(s): Tau*
+- **A.X.L.** (2018) — Oliver Daly. *Being(s): A.X.L.*
+- **Archive** (2020) — Gavin Rothery. *Being(s): J1, J2, J3*
+- **Mother/Android** (2021) — Mattson Tomlin. *Being(s): The Androids*
+- **Jung_E** (2023) — Yeon Sang-ho. *Being(s): Jung_E*
+- **Atlas** (2024) — Brad Peyton. *Being(s): Smith (ARC-9)*
+- **Subservience** (2024) — S.K. Dale. *Being(s): Alice*
+- **Mission: Impossible — Dead Reckoning / The Final Reckoning** (2023-2025) — Christopher McQuarrie. *Being(s): The Entity*
+- **Afraid** (2024) — Chris Weitz. *Being(s): AIA*
 - **Companion** (2025) — Drew Hancock. *Being(s): Iris*
+- **The Electric State** (2025) — Anthony Russo / Joe Russo (after Simon Stålenhag). *Being(s): Cosmo*
 - **M3GAN 2.0** (2025) — Gerard Johnstone. *Being(s): M3GAN 2.0*
+- **Mickey 17** (2025) — Bong Joon-ho (after Edward Ashton). *Being(s): Mickey Barnes (Mickey 17)*
+- **Tron: Ares** (2025) — Joachim Rønning. *Being(s): Ares*
 
 ### Television
 
+- **My Living Doll** (1964) — Jack Chertok. *Being(s): Rhoda Miller (AF 709)*
 - **The Outer Limits, "Demon with a Glass Hand"** (1964) — Harlan Ellison. *Being(s): Trent*
+- **Get Smart** (1965) — Mel Brooks / Buck Henry. *Being(s): Hymie the Robot*
 - **Tetsuwan Atom (Astro Boy)** (1963) — Osamu Tezuka / Mushi Production. *Being(s): Astro Boy*
 - **The Jetsons** (1962) — Hanna-Barbera. *Being(s): Rosie*
 - **Lost in Space** (1965) — Irwin Allen. *Being(s): Robot B-9*
 - **Star Trek: The Original Series** (1966-1968) — Gene Roddenberry. *Being(s): M-5, Nomad*
+- **The Six Million Dollar Man / The Bionic Woman** (1976) — Kenneth Johnson. *Being(s): The Fembots, Maximillion*
+- **Holmes and Yoyo** (1976) — Jack Sher / Lee Hewitt. *Being(s): Yoyo Yoyonovich*
+- **Quark** (1977) — Buck Henry. *Being(s): Andy the Android*
 - **Doctor Who** (1977-2011) — Various. *Being(s): K-9, Kamelion, The TARDIS/Idris*
-- **Battlestar Galactica (original)** (1978) — Glen A. Larson. *Being(s): Cylons*
+- **Battlestar Galactica (original)** (1978) — Glen A. Larson. *Being(s): Cylons, Muffit II*
+- **Buck Rogers in the 25th Century** (1979-1981) — Glen A. Larson / Leslie Stevens. *Being(s): Twiki, Booti, Dr. Theopolis*
 - **Knight Rider** (1982) — Glen A. Larson. *Being(s): KITT*
+- **Automan** (1983) — Glen A. Larson. *Being(s): Automan and Cursor*
 - **The Transformers** (1984) — Hasbro / Marvel Productions. *Being(s): Megatron, Optimus Prime*
 - **Max Headroom** (1985) — Rocky Morton / Annabel Jankel. *Being(s): Max Headroom*
 - **Small Wonder** (1985) — Howard Leeds. *Being(s): V.I.C.I.*
 - **Star Trek: The Next Generation** (1987) — Gene Roddenberry. *Being(s): Data, Lal, Lore*
+- **Mystery Science Theater 3000** (1988) — Joel Hodgson. *Being(s): Cambot, Crow T. Robot, Gypsy, Tom Servo*
 - **Red Dwarf** (1988) — Rob Grant / Doug Naylor. *Being(s): Holly, Kryten, Talkie Toaster*
-- **Star Trek: Voyager** (1995) — Rick Berman / Michael Piller. *Being(s): The Doctor (EMH)*
-- **Star Trek: Deep Space Nine** (1998) — Ira Steven Behr. *Being(s): Vic Fontaine*
+- **Mann & Machine** (1992) — Dick Wolf / Robert DeLaurentiis. *Being(s): Eve Edison*
+- **Macross Plus** (1994) — Shōji Kawamori / Shinichirō Watanabe. *Being(s): Sharon Apple*
+- **Armitage III** (1995) — Hiroyuki Ochi / Chiaki J. Konaka. *Being(s): Naomi Armitage*
 - **Neon Genesis Evangelion** (1995) — Hideaki Anno / Gainax. *Being(s): Rei Ayanami*
+- **Star Trek: Voyager** (1995) — Rick Berman / Michael Piller. *Being(s): The Doctor (EMH)*
+- **Serial Experiments Lain** (1998) — Ryūtarō Nakamura / Chiaki J. Konaka. *Being(s): Lain Iwakura*
+- **Star Trek: Deep Space Nine** (1998) — Ira Steven Behr. *Being(s): Vic Fontaine*
 - **Futurama** (1999) — Matt Groening / David X. Cohen. *Being(s): Bender, Calculon, Robot Santa*
+- **Chobits** (2001) — CLAMP / Morio Asaka. *Being(s): Chi / Elda / Freya*
 - **Invader Zim** (2001) — Jhonen Vasquez. *Being(s): GIR*
 - **Ghost in the Shell: Stand Alone Complex** (2002) — Kenji Kamiyama / Production I.G. *Being(s): Tachikomas*
+- **Time of Eve (Eve no Jikan)** (2008) — Yasuhiro Yoshiura. *Being(s): Sammy*
+- **Plastic Memories** (2015) — Naotaka Hayashi / Yoshiyuki Fujiwara. *Being(s): Isla*
+- **Beatless** (2018) — Satoshi Hase / Seiji Mizushima. *Being(s): Lacia*
+- **Vivy: Fluorite Eye's Song** (2021) — Tappei Nagatsuki / Eiji Umehara / Shinpei Ezaki. *Being(s): Vivy / Diva*
 - **Battlestar Galactica (reimagined)** (2004) — Ronald D. Moore. *Being(s): Cavil, Cylons (Six), D'Anna, Eight*
 - **Terminator: The Sarah Connor Chronicles** (2008) — Josh Friedman. *Being(s): Cameron Phillips*
 - **Adventure Time** (2010) — Pendleton Ward. *Being(s): BMO*
@@ -211,10 +278,14 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **WandaVision** (2021) — Jac Schaeffer. *Being(s): White Vision*
 - **Loki** (2021-2023) — Michael Waldron / Marvel Studios. *Being(s): Miss Minutes*
 - **Star Trek: Lower Decks** (2020-2024) — Mike McMahan / CBS. *Being(s): AGIMUS, Badgey, Peanut Hamper*
+- **Devs** (2020) — Alex Garland. *Being(s): The Devs Machine*
 - **Andor** (2022) — Tony Gilroy. *Being(s): B2EMO*
+- **The Consultant** (2023) — Tony Basgallop (after Bentley Little). *Being(s): Regus Patoff*
 - **Mrs. Davis** (2023) — Tara Hernandez / Damon Lindelof. *Being(s): Mrs. Davis*
 - **Ahsoka** (2023) — Dave Filoni / Lucasfilm. *Being(s): Professor Huyang*
 - **Foundation** (2021-2024) — David S. Goyer / Apple TV+. *Being(s): The Cleon Dynasty, Eto Demerzel*
+- **Metallic Rouge** (2024) — Motonobu Hori / Yutaka Izubuchi. *Being(s): Rouge Redstar*
+- **Sunny** (2024) — Katie Robbins (after Colin O'Sullivan). *Being(s): Sunny*
 
 ### Video Games
 

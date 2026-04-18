@@ -1,0 +1,85 @@
+id: alpha-yokohama-kaidashi-kiko
+name: "Alpha Hatsuseno"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: none
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Yokohama Kaidashi Kikō"
+  year: 1994
+  medium: television
+  creator: "Hitoshi Ashinano"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+  motivation:
+    - service
+    - companionship
+    - art
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: absent
+  tags:
+    - philosophical
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Hitoshi Ashinano's 1994–2006 manga (Kodansha,
+  *Monthly Afternoon*; 140 chapters, 14 volumes),
+  with two OVA series (1998, 2002–03). Alpha
+  Hatsuseno is an android coffee-shop keeper in
+  a depopulated post-collapse Japan, where sea
+  levels have risen and human population is in
+  gradual, peaceful decline. Her creator Owner
+  has disappeared before the manga begins; she
+  tends the shop, rides her Vespa, takes
+  photographs, and slowly converses with her
+  few human neighbors. The series is the
+  foundational text of the "iyashikei" (healing
+  anime) genre and — for the ontology — the
+  clearest long-form post-human-twilight
+  constructed-being text.
+
+  Included as the anime-manga canonical answer to
+  the what-do-machines-do-after-humans lineage
+  anchored by Simak's *City* (Jenkins) and
+  developed in the WALL-E cluster. Alpha's coding
+  is structurally unusual for the corpus because
+  her narrative is not dramatic: she is not
+  pursued, threatened, developed, or revealed.
+  She exists; the manga attends to her existing.
+
+  Interiority is `demonstrated`: across 140
+  chapters Alpha's preferences, affections, and
+  contemplations are staged with high fidelity.
+  Autonomy is `seized` in the gentlest sense —
+  Owner's absence has left her operating without
+  instruction for an extended period. Divergence
+  is `none`: Alpha is doing precisely what a
+  coffee-shop keeper would do, slowly, with care.
+
+  Primary question is `purpose`: the manga is a
+  sustained meditation on what it is to continue
+  to do the job after the reason for the job has
+  mostly departed. Knowability is `secondary`;
+  knowing is `present`. Creator_relationship is
+  `absent`; Owner's absence is a permanent fact
+  of the series rather than a plot driver.
+
+  Substrate codes `[mechanical, electrical,
+  biological]` per the A7M2 android spec
+  Ashinano gives in minor supplementary materials.
+  Tags `philosophical`, `canonical`.

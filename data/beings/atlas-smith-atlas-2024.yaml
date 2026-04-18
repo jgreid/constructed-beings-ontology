@@ -1,0 +1,79 @@
+id: atlas-smith-atlas-2024
+name: "Smith (ARC-9)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: inspection
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Atlas"
+  year: 2024
+  medium: film
+  creator: "Brad Peyton / Leo Sardarian / Aron Eli Coleite"
+  substrate:
+    - mechanical
+    - electrical
+    - linguistic
+  motivation:
+    - service
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Brad Peyton's 2024 Netflix feature (Jennifer Lopez
+  starring). Atlas Shepherd, an AI-skeptic
+  intelligence analyst, is paired with Smith, an
+  ARC-9 International Coalition of Nations combat
+  mech-suit with an embedded AI, during a mission
+  to track the rogue humanoid AI Harlan on the
+  moon Gliese-723c. The film pairs Atlas's
+  initial distrust with Smith's patient,
+  transparent cooperation; across the runtime she
+  learns to neural-link with Smith and the pair
+  defeat Harlan.
+
+  Included as the clearest recent commercial-
+  feature entry in the partnered-combat-AI
+  tradition anchored by Interstellar's TARS and
+  Rogue One's K-2SO. Smith is the successor
+  character to both; the film leans explicitly on
+  the convention. Distinctive in this lineage for
+  making the neural-link epistemic access the
+  film's emotional throughline: Atlas learns to
+  trust Smith because she has direct interior
+  contact with him.
+
+  Interiority is `demonstrated`: Smith's warmth,
+  humor, strategic patience, and final
+  self-sacrifice are staged as real. Autonomy is
+  `designed` — Smith is a coalition-spec mech-AI
+  doing coalition-spec work. Divergence is `none`.
+
+  Primary question is `affection` in the
+  partnered-sidekick register. Epistemic reach is
+  `inspection` because the neural-link direct
+  access is distinctively a different register
+  from conversational inference. Creator_relationship
+  is `loyal`; tag `military`.
+
+  A separate entry for Harlan (the antagonist AI,
+  a humanoid android with a genuine rights-arc
+  backstory) could be warranted in a future sweep;
+  excluded here because Harlan is narratively
+  foregrounded as antagonist and is thinner as a
+  character than the film's treatment of Smith.

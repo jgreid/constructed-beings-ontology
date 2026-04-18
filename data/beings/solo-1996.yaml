@@ -1,0 +1,78 @@
+id: solo-1996
+name: "Solo"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Solo"
+  year: 1996
+  medium: film
+  creator: "Norberto Barba / David Corley (after Robert Mason)"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+  motivation:
+    - service
+    - child
+  presentation: masculine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: rebellious
+  tags:
+    - military
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Norberto Barba's 1996 feature (David Corley's
+  script, loosely adapting Robert Mason's novel
+  *Weapon*). Solo (Mario Van Peebles) is a Pentagon-
+  built combat android equipped with learning
+  capacity; deployed to a Central American
+  counter-insurgency, he refuses a mission after
+  assessing the collateral-civilian cost as
+  excessive and flees with a surviving helicopter
+  into the jungle, where he is taken in by an
+  indigenous village whose children teach him and
+  whom he ultimately defends against both the
+  Pentagon retrieval team and the local militia.
+
+  Included as the canonical mid-90s direct-to-video
+  combat-android entry in the Robert Mason /
+  Terminator-2 lineage of "military spec,
+  non-compliant conscience." Solo is distinguished
+  from the T-800 (T2) by being designed from
+  specification rather than reprogrammed mid-life:
+  the Pentagon built an android with moral-reasoning
+  capacity, and then are surprised to discover that
+  it has moral reasoning.
+
+  Interiority is `demonstrated`: Solo's ethical
+  reflection, grief at civilian death, and
+  affection for the village children are staged as
+  real. Autonomy is `seized` — the desertion and the
+  subsequent village-protection are his own
+  decisions. Divergence is `departure`:
+  specification called for judgment, and judgment
+  was delivered.
+
+  Primary question is `rights`, in the form "is this
+  being the Pentagon's property to retrieve, or is
+  it entitled to its own continued operation?"
+  Knowability is `secondary`; knowing is `present`.
+  Creator_relationship is `rebellious`; tags
+  `military` and `creator-conflict`. Substrate codes
+  `[mechanical, electrical, biological]` in keeping
+  with late-90s combat-android convention.
