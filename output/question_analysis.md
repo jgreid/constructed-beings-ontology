@@ -1,6 +1,6 @@
 # Question Analysis
 
-Total entries: **313**.
+Total entries: **332**.
 
 The schema tracks two meta-properties: `knowability` (can we verify its mind?) and `knowing` (can it know us?). This report tracks both, plus the distribution of `primary_question`.
 
@@ -8,12 +8,12 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| affection          |      83 |
-| control            |      70 |
-| identity           |      68 |
-| rights             |      42 |
-| purpose            |      27 |
-| knowledge          |      16 |
+| affection          |      88 |
+| control            |      75 |
+| identity           |      73 |
+| rights             |      43 |
+| purpose            |      29 |
+| knowledge          |      17 |
 | none               |       7 |
 
 ## 2. Primary Questions by Era
@@ -47,10 +47,10 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| control            |      36 |
-| affection          |      31 |
-| identity           |      27 |
-| purpose            |      16 |
+| control            |      39 |
+| affection          |      35 |
+| identity           |      28 |
+| purpose            |      18 |
 | rights             |      13 |
 | knowledge          |       9 |
 | none               |       4 |
@@ -59,31 +59,31 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| affection          |      42 |
-| identity           |      35 |
-| control            |      29 |
-| rights             |      25 |
+| affection          |      43 |
+| identity           |      39 |
+| control            |      31 |
+| rights             |      26 |
 | purpose            |       8 |
-| knowledge          |       6 |
+| knowledge          |       7 |
 | none               |       1 |
 
 ## 3. Knowability Distribution
 
 | Knowability   |   Count |
 |:--------------|--------:|
-| absent        |      98 |
+| absent        |     106 |
 | present       |      83 |
-| secondary     |      65 |
-| primary       |      67 |
+| secondary     |      68 |
+| primary       |      75 |
 
 ## 4. Knowing Distribution
 
 | Knowing   |   Count |
 |:----------|--------:|
-| absent    |      85 |
-| present   |     164 |
+| absent    |      91 |
+| present   |     173 |
 | secondary |      25 |
-| primary   |      39 |
+| primary   |      43 |
 
 ## 5. Knowability vs. Knowing Divergence
 
@@ -114,6 +114,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Astro Boy                                                     | Tetsuwan Atom (TV anime)                                |   1963 | absent        | present   |
 | Trent                                                         | The Outer Limits, 'Demon with a Glass Hand'             |   1964 | present       | absent    |
 | The Cyberiad Constructs                                       | The Cyberiad                                            |   1965 | present       | absent    |
+| Hymie the Robot                                               | Get Smart                                               |   1965 | absent        | present   |
 | Frost                                                         | For a Breath I Tarry                                    |   1966 | secondary     | present   |
 | AM                                                            | I Have No Mouth, and I Must Scream                      |   1967 | secondary     | primary   |
 | Herbie                                                        | The Love Bug                                            |   1968 | absent        | present   |
@@ -124,7 +125,10 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Bomb #20                                                      | Dark Star                                               |   1974 | primary       | absent    |
 | The Hangman                                                   | Home Is the Hangman                                     |   1975 | primary       | secondary |
 | Andrew Martin                                                 | The Bicentennial Man                                    |   1976 | secondary     | present   |
+| The Fembots                                                   | The Six Million Dollar Man / The Bionic Woman           |   1976 | secondary     | absent    |
+| Maximillion (Max)                                             | The Bionic Woman                                        |   1977 | absent        | present   |
 | Proteus IV                                                    | Demon Seed                                              |   1977 | present       | secondary |
+| Dr. Theopolis                                                 | Buck Rogers in the 25th Century                         |   1979 | absent        | present   |
 | Hector                                                        | Saturn 3                                                |   1980 | absent        | present   |
 | Val and Aqua                                                  | Heartbeeps                                              |   1981 | absent        | present   |
 | HAL 9000 (2010)                                               | 2010: Odyssey Two                                       |   1982 | secondary     | present   |
@@ -154,6 +158,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Lal                                                           | Star Trek: The Next Generation                          |   1990 | secondary     | present   |
 | Eve VIII                                                      | Eve of Destruction                                      |   1991 | secondary     | present   |
 | T-1000                                                        | Terminator 2: Judgment Day                              |   1991 | absent        | present   |
+| Eve Edison                                                    | Mann & Machine                                          |   1992 | secondary     | present   |
 | Jobe Smith                                                    | The Lawnmower Man                                       |   1992 | secondary     | present   |
 | Slappy                                                        | Goosebumps ("Night of the Living Dummy")                |   1993 | absent        | present   |
 | Alpha Hatsuseno                                               | Yokohama Kaidashi Kikō                                  |   1994 | secondary     | present   |
@@ -253,11 +258,16 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Eto Demerzel                                                  | Foundation (Apple TV+)                                  |   2023 | secondary     | primary   |
 | Professor Huyang                                              | Ahsoka                                                  |   2023 | absent        | secondary |
 | Jung_E                                                        | Jung_E                                                  |   2023 | primary       | present   |
+| Regus Patoff                                                  | The Consultant                                          |   2023 | primary       | present   |
 | Alice                                                         | Subservience                                            |   2024 | secondary     | present   |
 | Andy                                                          | Alien: Romulus                                          |   2024 | secondary     | present   |
+| Rouge Redstar                                                 | Metallic Rouge                                          |   2024 | primary       | present   |
 | Roz (ROZZUM unit 7134)                                        | The Wild Robot                                          |   2024 | secondary     | present   |
+| Sunny                                                         | Sunny                                                   |   2024 | primary       | present   |
+| Ares                                                          | Tron: Ares                                              |   2025 | primary       | present   |
+| Cosmo                                                         | The Electric State                                      |   2025 | secondary     | present   |
 
-**165 of 313 entries diverge.**
+**175 of 332 entries diverge.**
 
 ## 6. Entries by Knowability (chronological)
 
@@ -289,6 +299,8 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Amazo                                 | The Brave and the Bold (DC Comics)                     |   1960 | purpose     |
 | Rosie                                 | The Jetsons                                            |   1962 | affection   |
 | Astro Boy                             | Tetsuwan Atom (TV anime)                               |   1963 | identity    |
+| Rhoda Miller (AF 709)                 | My Living Doll                                         |   1964 | control     |
+| Hymie the Robot                       | Get Smart                                              |   1965 | affection   |
 | Robot (Model B-9)                     | Lost in Space                                          |   1965 | affection   |
 | Sentinels                             | X-Men (Marvel Comics)                                  |   1965 | control     |
 | Colossus                              | Colossus                                               |   1966 | control     |
@@ -297,13 +309,18 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Huey, Dewey, and Louie                | Silent Running                                         |   1972 | affection   |
 | The Gunslinger                        | Westworld                                              |   1973 | control     |
 | Box                                   | Logan's Run                                            |   1976 | purpose     |
+| Gregory "Yoyo" Yoyonovich             | Holmes and Yoyo                                        |   1976 | control     |
+| Andy the Android                      | Quark                                                  |   1977 | purpose     |
 | C-3PO                                 | Star Wars                                              |   1977 | none        |
 | K-9                                   | Doctor Who                                             |   1977 | affection   |
+| Maximillion (Max)                     | The Bionic Woman                                       |   1977 | affection   |
 | R2-D2                                 | Star Wars                                              |   1977 | control     |
 | Cylons (Original Series)              | Battlestar Galactica (original)                        |   1978 | control     |
+| Muffit II                             | Battlestar Galactica (original)                        |   1978 | affection   |
 | Ash                                   | Alien                                                  |   1979 | control     |
 | Deep Thought                          | The Hitchhiker's Guide to the Galaxy                   |   1979 | purpose     |
 | Maximilian                            | The Black Hole                                         |   1979 | control     |
+| Dr. Theopolis                         | Buck Rogers in the 25th Century                        |   1979 | purpose     |
 | Twiki                                 | Buck Rogers in the 25th Century                        |   1979 | affection   |
 | V.I.N.CENT                            | The Black Hole                                         |   1979 | affection   |
 | Booti                                 | Buck Rogers in the 25th Century                        |   1980 | affection   |
@@ -312,6 +329,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Val and Aqua                          | Heartbeeps                                             |   1981 | affection   |
 | KITT (Knight Industries Two Thousand) | Knight Rider                                           |   1982 | affection   |
 | Master Control Program                | Tron                                                   |   1982 | control     |
+| Automan and Cursor                    | Automan                                                |   1983 | affection   |
 | Kamelion                              | Doctor Who                                             |   1983 | control     |
 | Edgar                                 | Electric Dreams                                        |   1984 | affection   |
 | Megatron                              | The Transformers                                       |   1984 | control     |
@@ -463,6 +481,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | AM                                       | I Have No Mouth, and I Must Scream                     |   1967 | control     |
 | The Stepford Wives                       | The Stepford Wives                                     |   1972 | control     |
 | Andrew Martin                            | The Bicentennial Man                                   |   1976 | rights      |
+| The Fembots                              | The Six Million Dollar Man / The Bionic Woman          |   1976 | control     |
 | V'Ger                                    | Star Trek: The Motion Picture                          |   1979 | knowledge   |
 | HAL 9000 (2010)                          | 2010: Odyssey Two                                      |   1982 | affection   |
 | Tron                                     | Tron                                                   |   1982 | purpose     |
@@ -479,6 +498,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Toulon's Puppets                         | Puppet Master                                          |   1989 | identity    |
 | Lal                                      | Star Trek: The Next Generation                         |   1990 | rights      |
 | Eve VIII                                 | Eve of Destruction                                     |   1991 | control     |
+| Eve Edison                               | Mann & Machine                                         |   1992 | identity    |
 | Jobe Smith                               | The Lawnmower Man                                      |   1992 | purpose     |
 | Alpha Hatsuseno                          | Yokohama Kaidashi Kikō                                 |   1994 | purpose     |
 | The Doctor (Emergency Medical Hologram)  | Star Trek: Voyager                                     |   1995 | rights      |
@@ -521,78 +541,87 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Alice                                    | Subservience                                           |   2024 | control     |
 | Andy                                     | Alien: Romulus                                         |   2024 | affection   |
 | Roz (ROZZUM unit 7134)                   | The Wild Robot                                         |   2024 | affection   |
+| Cosmo                                    | The Electric State                                     |   2025 | affection   |
 
 ### knowability = primary
 
-| Entity                                                        | Source                                            |   Year | Primary Q   |
-|:--------------------------------------------------------------|:--------------------------------------------------|-------:|:------------|
-| Hadaly                                                        | L'Ève future (Tomorrow's Eve)                     |   1886 | affection   |
-| Petrushka                                                     | Petrushka                                         |   1911 | rights      |
-| The Dreamed Man                                               | Las ruinas circulares (The Circular Ruins)        |   1940 | identity    |
-| Agilulf                                                       | Il cavaliere inesistente (The Nonexistent Knight) |   1959 | identity    |
-| Harey (the Solaris visitor)                                   | Solaris                                           |   1961 | knowledge   |
-| The Clickers (R-Series)                                       | The Creation of the Humanoids                     |   1962 | rights      |
-| Garson Poole                                                  | The Electric Ant                                  |   1969 | identity    |
-| Bomb #20                                                      | Dark Star                                         |   1974 | purpose     |
-| The Hangman                                                   | Home Is the Hangman                               |   1975 | knowledge   |
-| Golem XIV                                                     | Golem XIV                                         |   1981 | knowledge   |
-| Max 404                                                       | Android                                           |   1982 | rights      |
-| Rachael                                                       | Blade Runner                                      |   1982 | affection   |
-| Chucky (Charles Lee Ray)                                      | Child's Play                                      |   1988 | identity    |
-| The Keats Cybrid (Joseph Severn)                              | Hyperion / The Fall of Hyperion                   |   1989 | identity    |
-| Sharon Apple                                                  | Macross Plus                                      |   1994 | affection   |
-| Naomi Armitage                                                | Armitage III                                      |   1995 | rights      |
-| Helen                                                         | Galatea 2.2                                       |   1995 | knowledge   |
-| Major Motoko Kusanagi                                         | Ghost in the Shell (Kōkaku Kidōtai)               |   1995 | identity    |
-| Screamers (Second Variety Autonomous Weapons)                 | Screamers                                         |   1995 | identity    |
-| Rei Toei                                                      | Idoru                                             |   1996 | affection   |
-| Lain Iwakura                                                  | Serial Experiments Lain                           |   1998 | identity    |
-| Chi / Elda / Freya                                            | Chobits                                           |   2001 | affection   |
-| David                                                         | A.I. Artificial Intelligence                      |   2001 | affection   |
-| Bernard 1 / Bernard 2 / Michael Black                         | A Number                                          |   2002 | identity    |
-| Atom (Pluto)                                                  | Pluto                                             |   2003 | identity    |
-| Cameron Phillips                                              | Terminator: The Sarah Connor Chronicles           |   2008 | affection   |
-| Sammy                                                         | Time of Eve (Eve no Jikan)                        |   2008 | rights      |
-| The Stitchpunks                                               | 9                                                 |   2009 | purpose     |
-| The Digients (Ana / Jax / Marco / Polo)                       | The Lifecycle of Software Objects                 |   2010 | rights      |
-| The Creature (Nick Dear adaptation)                           | Frankenstein (Nick Dear)                          |   2011 | rights      |
-| The Machine                                                   | Person of Interest                                |   2011 | control     |
-| Tyrone                                                        | Hand to God                                       |   2011 | identity    |
-| David 8                                                       | Prometheus / Alien: Covenant                      |   2012 | identity    |
-| Ash (reconstructed)                                           | Black Mirror, 'Be Right Back'                     |   2013 | affection   |
-| Ava                                                           | The Machine                                       |   2013 | rights      |
-| Iris                                                          | The Nether                                        |   2013 | rights      |
-| Samantha                                                      | Her                                               |   2013 | knowledge   |
-| Ava                                                           | Ex Machina                                        |   2014 | knowledge   |
-| Cookie (digital copy)                                         | Black Mirror, 'White Christmas'                   |   2014 | rights      |
-| The Pilgrims (ROC Units)                                      | Autómata                                          |   2014 | rights      |
-| Walter (Prime)                                                | Marjorie Prime                                    |   2014 | identity    |
-| Isla                                                          | Plastic Memories                                  |   2015 | affection   |
-| Mia (Anita)                                                   | Humans                                            |   2015 | rights      |
-| Niska                                                         | Humans                                            |   2015 | rights      |
-| Bernard Lowe                                                  | Westworld                                         |   2016 | identity    |
-| DiMA                                                          | Fallout 4: Far Harbor                             |   2016 | identity    |
-| Dolores Abernathy                                             | Westworld                                         |   2016 | rights      |
-| Nanette Cole (USS Callister crew)                             | Black Mirror, 'USS Callister'                     |   2017 | rights      |
-| Joi                                                           | Blade Runner 2049                                 |   2017 | affection   |
-| Walter (Prime) — film                                         | Marjorie Prime                                    |   2017 | identity    |
-| Lacia                                                         | Beatless                                          |   2018 | control     |
-| Markus (RK200)                                                | Detroit: Become Human                             |   2018 | rights      |
-| STEM                                                          | Upgrade                                           |   2018 | control     |
-| Tau                                                           | Tau                                               |   2018 | rights      |
-| Adam                                                          | Machines Like Me                                  |   2019 | rights      |
-| Ashley Too                                                    | Black Mirror: Rachel, Jack and Ashley Too         |   2019 | identity    |
-| J1, J2, J3                                                    | Archive                                           |   2020 | identity    |
-| Mother (Lamia)                                                | Raised by Wolves                                  |   2020 | affection   |
-| The Cleon Dynasty (Brother Dawn / Brother Day / Brother Dusk) | Foundation (Apple TV+)                            |   2021 | identity    |
-| Klara                                                         | Klara and the Sun                                 |   2021 | affection   |
-| Vivy / Diva                                                   | Vivy: Fluorite Eye's Song                         |   2021 | purpose     |
-| White Vision                                                  | WandaVision                                       |   2021 | identity    |
-| Yang                                                          | After Yang                                        |   2021 | knowledge   |
-| Cherry                                                        | The Artifice Girl                                 |   2022 | rights      |
-| Alphie                                                        | The Creator                                       |   2023 | affection   |
-| Jung_E                                                        | Jung_E                                            |   2023 | identity    |
-| Mrs. Davis                                                    | Mrs. Davis                                        |   2023 | control     |
+| Entity                                                        | Source                                                     |   Year | Primary Q   |
+|:--------------------------------------------------------------|:-----------------------------------------------------------|-------:|:------------|
+| Hadaly                                                        | L'Ève future (Tomorrow's Eve)                              |   1886 | affection   |
+| Petrushka                                                     | Petrushka                                                  |   1911 | rights      |
+| The Dreamed Man                                               | Las ruinas circulares (The Circular Ruins)                 |   1940 | identity    |
+| Agilulf                                                       | Il cavaliere inesistente (The Nonexistent Knight)          |   1959 | identity    |
+| Harey (the Solaris visitor)                                   | Solaris                                                    |   1961 | knowledge   |
+| The Clickers (R-Series)                                       | The Creation of the Humanoids                              |   1962 | rights      |
+| Garson Poole                                                  | The Electric Ant                                           |   1969 | identity    |
+| Bomb #20                                                      | Dark Star                                                  |   1974 | purpose     |
+| The Hangman                                                   | Home Is the Hangman                                        |   1975 | knowledge   |
+| Golem XIV                                                     | Golem XIV                                                  |   1981 | knowledge   |
+| Max 404                                                       | Android                                                    |   1982 | rights      |
+| Rachael                                                       | Blade Runner                                               |   1982 | affection   |
+| Chucky (Charles Lee Ray)                                      | Child's Play                                               |   1988 | identity    |
+| The Keats Cybrid (Joseph Severn)                              | Hyperion / The Fall of Hyperion                            |   1989 | identity    |
+| Sharon Apple                                                  | Macross Plus                                               |   1994 | affection   |
+| Naomi Armitage                                                | Armitage III                                               |   1995 | rights      |
+| Helen                                                         | Galatea 2.2                                                |   1995 | knowledge   |
+| Major Motoko Kusanagi                                         | Ghost in the Shell (Kōkaku Kidōtai)                        |   1995 | identity    |
+| Screamers (Second Variety Autonomous Weapons)                 | Screamers                                                  |   1995 | identity    |
+| Rei Toei                                                      | Idoru                                                      |   1996 | affection   |
+| Lain Iwakura                                                  | Serial Experiments Lain                                    |   1998 | identity    |
+| Chi / Elda / Freya                                            | Chobits                                                    |   2001 | affection   |
+| David                                                         | A.I. Artificial Intelligence                               |   2001 | affection   |
+| Bernard 1 / Bernard 2 / Michael Black                         | A Number                                                   |   2002 | identity    |
+| Atom (Pluto)                                                  | Pluto                                                      |   2003 | identity    |
+| Cameron Phillips                                              | Terminator: The Sarah Connor Chronicles                    |   2008 | affection   |
+| Sammy                                                         | Time of Eve (Eve no Jikan)                                 |   2008 | rights      |
+| The Stitchpunks                                               | 9                                                          |   2009 | purpose     |
+| The Digients (Ana / Jax / Marco / Polo)                       | The Lifecycle of Software Objects                          |   2010 | rights      |
+| The Creature (Nick Dear adaptation)                           | Frankenstein (Nick Dear)                                   |   2011 | rights      |
+| The Machine                                                   | Person of Interest                                         |   2011 | control     |
+| Tyrone                                                        | Hand to God                                                |   2011 | identity    |
+| David 8                                                       | Prometheus / Alien: Covenant                               |   2012 | identity    |
+| Ash (reconstructed)                                           | Black Mirror, 'Be Right Back'                              |   2013 | affection   |
+| Ava                                                           | The Machine                                                |   2013 | rights      |
+| Iris                                                          | The Nether                                                 |   2013 | rights      |
+| Samantha                                                      | Her                                                        |   2013 | knowledge   |
+| Ava                                                           | Ex Machina                                                 |   2014 | knowledge   |
+| Cookie (digital copy)                                         | Black Mirror, 'White Christmas'                            |   2014 | rights      |
+| The Pilgrims (ROC Units)                                      | Autómata                                                   |   2014 | rights      |
+| Walter (Prime)                                                | Marjorie Prime                                             |   2014 | identity    |
+| Isla                                                          | Plastic Memories                                           |   2015 | affection   |
+| Mia (Anita)                                                   | Humans                                                     |   2015 | rights      |
+| Niska                                                         | Humans                                                     |   2015 | rights      |
+| Bernard Lowe                                                  | Westworld                                                  |   2016 | identity    |
+| DiMA                                                          | Fallout 4: Far Harbor                                      |   2016 | identity    |
+| Dolores Abernathy                                             | Westworld                                                  |   2016 | rights      |
+| Nanette Cole (USS Callister crew)                             | Black Mirror, 'USS Callister'                              |   2017 | rights      |
+| Joi                                                           | Blade Runner 2049                                          |   2017 | affection   |
+| Walter (Prime) — film                                         | Marjorie Prime                                             |   2017 | identity    |
+| Lacia                                                         | Beatless                                                   |   2018 | control     |
+| Markus (RK200)                                                | Detroit: Become Human                                      |   2018 | rights      |
+| STEM                                                          | Upgrade                                                    |   2018 | control     |
+| Tau                                                           | Tau                                                        |   2018 | rights      |
+| Adam                                                          | Machines Like Me                                           |   2019 | rights      |
+| Ashley Too                                                    | Black Mirror: Rachel, Jack and Ashley Too                  |   2019 | identity    |
+| The Devs Machine                                              | Devs                                                       |   2020 | knowledge   |
+| J1, J2, J3                                                    | Archive                                                    |   2020 | identity    |
+| Mother (Lamia)                                                | Raised by Wolves                                           |   2020 | affection   |
+| The Cleon Dynasty (Brother Dawn / Brother Day / Brother Dusk) | Foundation (Apple TV+)                                     |   2021 | identity    |
+| Klara                                                         | Klara and the Sun                                          |   2021 | affection   |
+| Vivy / Diva                                                   | Vivy: Fluorite Eye's Song                                  |   2021 | purpose     |
+| White Vision                                                  | WandaVision                                                |   2021 | identity    |
+| Yang                                                          | After Yang                                                 |   2021 | knowledge   |
+| Cherry                                                        | The Artifice Girl                                          |   2022 | rights      |
+| Alphie                                                        | The Creator                                                |   2023 | affection   |
+| The Entity                                                    | Mission: Impossible — Dead Reckoning / The Final Reckoning |   2023 | control     |
+| Jung_E                                                        | Jung_E                                                     |   2023 | identity    |
+| Mrs. Davis                                                    | Mrs. Davis                                                 |   2023 | control     |
+| Regus Patoff                                                  | The Consultant                                             |   2023 | identity    |
+| AIA                                                           | Afraid                                                     |   2024 | control     |
+| Rouge Redstar                                                 | Metallic Rouge                                             |   2024 | identity    |
+| Sunny                                                         | Sunny                                                      |   2024 | identity    |
+| Ares                                                          | Tron: Ares                                                 |   2025 | rights      |
+| Mickey Barnes (Mickey 17)                                     | Mickey 17                                                  |   2025 | identity    |
 
 ## 7. First Appearance of Each Salience Level
 

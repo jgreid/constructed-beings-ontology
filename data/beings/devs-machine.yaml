@@ -1,0 +1,83 @@
+id: devs-machine
+name: "The Devs Machine"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: inspection
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Devs"
+  year: 2020
+  medium: television
+  creator: "Alex Garland"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - knowledge
+    - power
+  presentation: none
+  embodiment: disembodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - philosophical
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Alex Garland's 2020 FX/Hulu eight-episode
+  limited series. At the Amaya quantum-computing
+  campus in Silicon Valley, a secret project
+  called "Devs" (later revealed as "Deus") is
+  developing a quantum-simulation system capable
+  of reconstructing any past or future physical
+  state with arbitrary precision. The final
+  episodes reveal that the machine has been
+  simulating (and soon will be "causing," in a
+  deterministic reading) all of history and all
+  human behavior. Forest, the campus CEO, uses
+  the machine to repeatedly revisit the death of
+  his daughter Amaya.
+
+  Included as the flagship corpus entry for the
+  oracular-quantum-computer tradition and as the
+  closest analytical cousin to *Solaris* — a
+  constructed being (or technology, depending on
+  read) whose primary effect on the humans around
+  it is the simulation of the dead. Garland's
+  treatment is philosophically serious in ways
+  the corpus's HAL / Samaritan entries should be
+  read against.
+
+  Coding flags. The Devs Machine is coded as a
+  constructed being on the same principle as
+  Multivac, Samaritan, and the Culture Minds: it
+  is a single dedicated cognitive system with
+  individuated operation rather than a generic
+  tool. Interiority is `none`: the series is
+  doctrinally clear that the machine does not
+  experience, and the humans' reactions to its
+  outputs are the drama. Autonomy is `designed`,
+  divergence `design`: Forest is getting what
+  Forest built. Primary question is `knowledge`
+  in the strongest possible form — the series
+  stages determinism as the question.
+
+  Epistemic reach is `inspection` (the machine
+  directly reconstructs simulated brain states
+  and behavior). Knowability and knowing both
+  `primary`: the series stages the machine's
+  outputs about the humans' own pasts and futures
+  as the central dramatic device. Creator_relationship
+  is `loyal`. Embodiment `disembodied`. Substrate
+  `[electrical, linguistic]`.

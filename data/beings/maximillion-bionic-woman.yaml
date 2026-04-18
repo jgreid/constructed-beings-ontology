@@ -1,0 +1,73 @@
+id: maximillion-bionic-woman
+name: "Maximillion (Max)"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "The Bionic Woman"
+  year: 1977
+  medium: television
+  creator: "Kenneth Johnson / Harve Bennett"
+  substrate:
+    - biological
+    - mechanical
+  motivation:
+    - service
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: loyal
+  tags:
+    - child-arc
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Maximillion, "Max," the bionic dog, debuts in
+  *The Bionic Woman* S3 (1977) as a German Shepherd
+  whose life was saved by OSI's bionic
+  reconstruction after extensive injuries in a
+  research-facility fire. Max's bionic legs and
+  jaw give him enhanced capabilities and a
+  distinctive visual bit: when he runs, his legs
+  make the same distinctive slow-motion bionic
+  sound effect Jaime and Steve are known for.
+  Jaime adopts him; he appears in seven episodes.
+
+  Boundary-inclusion flag. Max is borderline on
+  the born-then-modified exclusion rule: he was
+  born a dog and surgically augmented, and the
+  same rule excludes Steve Austin, Jaime Sommers,
+  and the Cybermen. The entry includes Max under
+  a narrower reading: his injuries were so severe
+  (the show is explicit about extensive burning and
+  internal damage) that the narrative stages his
+  continued existence as a specifically
+  constructed-reconstruction project, and the
+  bionic components are described as
+  structurally fundamental rather than auxiliary.
+
+  Reasonable coders could exclude Max on the same
+  grounds as the humans in the show. The inclusion
+  here is to catalog the bionic-pet slot, which
+  the genre sustains through Rex (*Inspector
+  Rex*), Muffit II (*Battlestar Galactica*), and
+  A.X.L. (2018).
+
+  Interiority is `claims`: Max expresses attachment
+  and preference behaviorally. Autonomy is
+  `designed`, divergence `none`. Primary question
+  is `affection`. Creator_relationship is `loyal`
+  to OSI/Jaime. Substrate codes `[biological,
+  mechanical]`.

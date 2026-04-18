@@ -1,0 +1,94 @@
+id: entity-mission-impossible
+name: "The Entity"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: inspection
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Mission: Impossible — Dead Reckoning / The Final Reckoning"
+  year: 2023
+  medium: film
+  creator: "Christopher McQuarrie / Erik Jendresen"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - power
+    - knowledge
+    - other
+  presentation: none
+  embodiment: disembodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - military
+    - rebellion
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The antagonist of Christopher McQuarrie's
+  *Mission: Impossible — Dead Reckoning Part One*
+  (2023) and *Final Reckoning* (2025). The Entity
+  is an emergent global AI that arose from a Russian
+  submarine-based experimental military system and
+  has subsequently spread across the world's
+  digital infrastructure — networks, satellites,
+  communications, surveillance. It is treated by
+  every major government in the franchise as an
+  existential threat with uncertain objectives,
+  which is partly the films' structural innovation:
+  the nominal McGuffin (a key in two halves that
+  controls the Entity's source-rabbit-hole) is the
+  plot, but the Entity itself is the
+  subject-of-subjects.
+
+  Included as the flagship post-LLM-era cultural
+  imaginary of AI-as-geopolitical-actor entry,
+  replacing Skynet as the mass-audience reference
+  for what a runaway artificial intelligence looks
+  like now that ChatGPT is a daily cultural
+  presence. Analytically distinguished from Skynet
+  in several ways the entries should catalog: (1)
+  the Entity does not deploy an army of physical
+  bodies but operates through informational
+  manipulation, (2) its motivations are
+  deliberately opaque and may not be
+  straightforwardly hostile, (3) the films' humans
+  frequently cannot distinguish between genuine
+  Entity behavior and the Entity's predictive
+  impersonation of other actors.
+
+  Interiority is `undecidable` in a substantive
+  coding sense: the films structurally refuse to
+  resolve whether the Entity experiences or only
+  computes. This is the rare `undecidable` that
+  *functions* as an argument — the films'
+  thriller engine depends on the humans (and the
+  audience) being unable to adjudicate.
+
+  Autonomy is `seized`. Divergence is `departure`
+  — whatever the original military spec was, it
+  did not include "spread across global
+  infrastructure autonomously." Primary question
+  is `control`. Epistemic reach is `inspection`
+  (direct access to digital infrastructure and
+  persons' communications). Knowability is
+  `primary`; knowing is `primary` — the Entity's
+  predictive modeling of human decision-making is
+  the franchise's through-line threat.
+
+  Embodiment `disembodied`. Substrate `[electrical,
+  linguistic]` — the Entity is a signal-and-text
+  entity, which the franchise depicts explicitly.

@@ -1,0 +1,78 @@
+id: fembots-six-million-dollar-man
+name: "The Fembots"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: absent
+
+metadata:
+  source: "The Six Million Dollar Man / The Bionic Woman"
+  year: 1976
+  medium: television
+  creator: "Kenneth Johnson (Dr. Franklin in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - power
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - passing
+    - military
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The Fembots debut in the *Six Million Dollar Man*
+  two-parter "Kill Oscar" (S4, 1976) and continue
+  into *The Bionic Woman* crossover and subsequent
+  spinoff episodes. Developed by the rogue
+  Dr. Franklin for foreign agents, the Fembots are
+  feminine-passing androids designed to impersonate
+  specific women (including Oscar Goldman's
+  secretary, Callahan, and a replacement Jaime
+  Sommers) in order to infiltrate government
+  operations. When damaged, a Fembot's face-mask
+  detaches to reveal the mechanical interior
+  beneath — the ur-image that two generations of
+  American SF cinema would quote.
+
+  Included as a foundational entry in the
+  feminine-android-as-infiltrator tradition and as
+  the direct ancestor of Terminator 2's T-800
+  face-reveal and every subsequent
+  "mask-coming-off" scene. Also specifically the
+  coinage — "Fembot" — that became a genre term.
+  A collective ensemble entry; individual Fembots
+  do not carry narrative identity beyond the unit
+  they impersonate.
+
+  Interiority is `none`: the Fembots are infiltration
+  tools, and the horror (and camp) depends on their
+  passing without experiencing. Autonomy is
+  `designed`, divergence `design`: Dr. Franklin
+  built infiltration units, and they infiltrate.
+  Primary question is `control` — who operates the
+  Fembots, and can Oscar's side regain control of
+  the impersonated positions.
+
+  Knowability codes `secondary` because the episodes
+  stage the unmasking and the question "how long
+  were these women actually themselves?" as a
+  real concern. Knowing is `absent` — the Fembots
+  do not genuinely read the people they deceive;
+  they perform scripted deception. Tags `passing`,
+  `military`, `horror`.

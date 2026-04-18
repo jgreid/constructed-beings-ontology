@@ -4,6 +4,24 @@ All notable changes to the Constructed Beings Ontology are documented here.
 
 ---
 
+## [2.4.3] — 2026-04
+
+**Bad-TV sidekicks and post-ChatGPT streaming/cinema expansion.** 313 → 332 entries (+19). No schema changes. Two scope repairs: (1) pre-80s and 80s TV sidekick/edge-case androids the earlier expansions missed, and (2) the emerging post-ChatGPT era of mass-culture AI depictions (2023–2025), where AI has visibly moved from SF speculation to daily cultural reference and the character-roles are shifting accordingly.
+
+### Summary
+
+- **Corpus expanded from 313 → 332 entries (+19, +6%).** Schema unchanged.
+- **Bad-TV sidekick/edge-case coverage.** Ten entries repairing the pre-1990 American-network-TV android slot: Hymie (*Get Smart*, 1965), Rhoda Miller (*My Living Doll*, 1964), the Fembots (*Six Million Dollar Man*, 1976), Maximillion (*The Bionic Woman*, 1977), Yoyo (*Holmes & Yoyo*, 1976), Muffit II (*BSG* 1978), Andy (*Quark*, 1977), Dr. Theopolis (*Buck Rogers*, 1979), Automan & Cursor (*Automan*, 1983), Eve Edison (*Mann & Machine*, 1992).
+- **Post-ChatGPT cultural-moment coverage.** Nine entries across 2020–2025 where the AI depiction has clearly shifted in register to reflect mass-public LLM availability: the Entity (*Mission: Impossible*, 2023/25), AIA (*Afraid*, 2024), Sunny (*Sunny*, 2024), Cosmo (*The Electric State*, 2025), Mickey Barnes (*Mickey 17*, 2025), Rouge Redstar (*Metallic Rouge*, 2024), Ares (*Tron: Ares*, 2025), Regus Patoff (*The Consultant*, 2023), and the earlier Devs Machine (*Devs*, 2020), which belongs analytically with this cluster.
+
+### Analytical notes
+
+- **Post-ChatGPT register shift.** The 2023–2025 entries share structural features that distinguish them from pre-2020 AI depictions: (1) disembodied/distributed operation over networks rather than anthropomorphic embodiment (Entity, AIA), (2) explicit reference to LLMs/language as the substrate (nearly all carry `linguistic` substrate), (3) `interiority: undecidable` appearing more frequently as the schema-level response to "can we tell the difference between simulation and experience" becoming a live cultural question (Entity, Patoff). This is the first release where `undecidable` is meaningfully clustered rather than a rare exception.
+- **Hidden-programming-underneath structure.** *Sunny* introduces a distinctive 2020s coding pattern: the household AI that is not malfunctioning and not possessed but is carrying hidden specification from a party other than the nominal owner. This register will likely recur.
+- **Print-with-memory-transfer entry.** *Mickey 17* is the corpus's first film-era canonical entry where bioprinting plus memory transfer produces a being coded as constructed rather than continuous. The coding follows the Black Mirror cookies precedent (the simultaneous-duplicates scene being the argument) rather than the *Pantheon*/*Upload* exclusion.
+
+---
+
 ## [2.4.2] — 2026-04
 
 **Schlock-cinema, horror-doll, and anime scope expansion.** 260 → 313 entries (+53). No schema changes. The largest single expansion since v2.4.0, repairing three of the corpus's previously-acknowledged thin spots: (1) low-budget and direct-to-video SF cinema across seven decades, (2) the magical-animation horror-doll lineage as legitimate constructed beings rather than an elided genre, and (3) anime/manga commonly consumed in Western markets.

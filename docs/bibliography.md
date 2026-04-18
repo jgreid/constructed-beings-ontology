@@ -213,26 +213,38 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Jung_E** (2023) — Yeon Sang-ho. *Being(s): Jung_E*
 - **Atlas** (2024) — Brad Peyton. *Being(s): Smith (ARC-9)*
 - **Subservience** (2024) — S.K. Dale. *Being(s): Alice*
+- **Mission: Impossible — Dead Reckoning / The Final Reckoning** (2023-2025) — Christopher McQuarrie. *Being(s): The Entity*
+- **Afraid** (2024) — Chris Weitz. *Being(s): AIA*
 - **Companion** (2025) — Drew Hancock. *Being(s): Iris*
+- **The Electric State** (2025) — Anthony Russo / Joe Russo (after Simon Stålenhag). *Being(s): Cosmo*
 - **M3GAN 2.0** (2025) — Gerard Johnstone. *Being(s): M3GAN 2.0*
+- **Mickey 17** (2025) — Bong Joon-ho (after Edward Ashton). *Being(s): Mickey Barnes (Mickey 17)*
+- **Tron: Ares** (2025) — Joachim Rønning. *Being(s): Ares*
 
 ### Television
 
+- **My Living Doll** (1964) — Jack Chertok. *Being(s): Rhoda Miller (AF 709)*
 - **The Outer Limits, "Demon with a Glass Hand"** (1964) — Harlan Ellison. *Being(s): Trent*
+- **Get Smart** (1965) — Mel Brooks / Buck Henry. *Being(s): Hymie the Robot*
 - **Tetsuwan Atom (Astro Boy)** (1963) — Osamu Tezuka / Mushi Production. *Being(s): Astro Boy*
 - **The Jetsons** (1962) — Hanna-Barbera. *Being(s): Rosie*
 - **Lost in Space** (1965) — Irwin Allen. *Being(s): Robot B-9*
 - **Star Trek: The Original Series** (1966-1968) — Gene Roddenberry. *Being(s): M-5, Nomad*
+- **The Six Million Dollar Man / The Bionic Woman** (1976) — Kenneth Johnson. *Being(s): The Fembots, Maximillion*
+- **Holmes and Yoyo** (1976) — Jack Sher / Lee Hewitt. *Being(s): Yoyo Yoyonovich*
+- **Quark** (1977) — Buck Henry. *Being(s): Andy the Android*
 - **Doctor Who** (1977-2011) — Various. *Being(s): K-9, Kamelion, The TARDIS/Idris*
-- **Battlestar Galactica (original)** (1978) — Glen A. Larson. *Being(s): Cylons*
-- **Buck Rogers in the 25th Century** (1979-1981) — Glen A. Larson / Leslie Stevens. *Being(s): Twiki, Booti*
+- **Battlestar Galactica (original)** (1978) — Glen A. Larson. *Being(s): Cylons, Muffit II*
+- **Buck Rogers in the 25th Century** (1979-1981) — Glen A. Larson / Leslie Stevens. *Being(s): Twiki, Booti, Dr. Theopolis*
 - **Knight Rider** (1982) — Glen A. Larson. *Being(s): KITT*
+- **Automan** (1983) — Glen A. Larson. *Being(s): Automan and Cursor*
 - **The Transformers** (1984) — Hasbro / Marvel Productions. *Being(s): Megatron, Optimus Prime*
 - **Max Headroom** (1985) — Rocky Morton / Annabel Jankel. *Being(s): Max Headroom*
 - **Small Wonder** (1985) — Howard Leeds. *Being(s): V.I.C.I.*
 - **Star Trek: The Next Generation** (1987) — Gene Roddenberry. *Being(s): Data, Lal, Lore*
 - **Mystery Science Theater 3000** (1988) — Joel Hodgson. *Being(s): Cambot, Crow T. Robot, Gypsy, Tom Servo*
 - **Red Dwarf** (1988) — Rob Grant / Doug Naylor. *Being(s): Holly, Kryten, Talkie Toaster*
+- **Mann & Machine** (1992) — Dick Wolf / Robert DeLaurentiis. *Being(s): Eve Edison*
 - **Macross Plus** (1994) — Shōji Kawamori / Shinichirō Watanabe. *Being(s): Sharon Apple*
 - **Armitage III** (1995) — Hiroyuki Ochi / Chiaki J. Konaka. *Being(s): Naomi Armitage*
 - **Neon Genesis Evangelion** (1995) — Hideaki Anno / Gainax. *Being(s): Rei Ayanami*
@@ -266,10 +278,14 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **WandaVision** (2021) — Jac Schaeffer. *Being(s): White Vision*
 - **Loki** (2021-2023) — Michael Waldron / Marvel Studios. *Being(s): Miss Minutes*
 - **Star Trek: Lower Decks** (2020-2024) — Mike McMahan / CBS. *Being(s): AGIMUS, Badgey, Peanut Hamper*
+- **Devs** (2020) — Alex Garland. *Being(s): The Devs Machine*
 - **Andor** (2022) — Tony Gilroy. *Being(s): B2EMO*
+- **The Consultant** (2023) — Tony Basgallop (after Bentley Little). *Being(s): Regus Patoff*
 - **Mrs. Davis** (2023) — Tara Hernandez / Damon Lindelof. *Being(s): Mrs. Davis*
 - **Ahsoka** (2023) — Dave Filoni / Lucasfilm. *Being(s): Professor Huyang*
 - **Foundation** (2021-2024) — David S. Goyer / Apple TV+. *Being(s): The Cleon Dynasty, Eto Demerzel*
+- **Metallic Rouge** (2024) — Motonobu Hori / Yutaka Izubuchi. *Being(s): Rouge Redstar*
+- **Sunny** (2024) — Katie Robbins (after Colin O'Sullivan). *Being(s): Sunny*
 
 ### Video Games
 

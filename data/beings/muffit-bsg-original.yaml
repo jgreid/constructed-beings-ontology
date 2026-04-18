@@ -1,0 +1,72 @@
+id: muffit-bsg-original
+name: "Muffit II"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Battlestar Galactica (original)"
+  year: 1978
+  medium: television
+  creator: "Glen A. Larson"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+  motivation:
+    - companionship
+    - child
+  presentation: none
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: loyal
+  tags:
+    - child-arc
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Muffit II ("Muffy") is the robotic replacement for
+  Boxey's daggit (a small dog-like mammal pet from
+  Caprica) after the original Muffit's death during
+  the Cylon genocide in the *Battlestar Galactica*
+  original 1978 miniseries and first season.
+  Dr. Wilker builds Muffit II as a consolation for
+  Boxey, who has lost his world and his father. The
+  bot was played on-set by a chimpanzee named Evolution
+  in a fur suit with mechanical extensions.
+
+  Included as a companion entry to the original-BSG
+  Cylons (already in corpus) and as the
+  grief-replacement-pet template that recurs across
+  the genre — the direct ancestor of Fallout 4's
+  robotic dog Dogmeat (in that game's
+  "robobrain" variant) and a distant cousin to
+  A.X.L. (2018). Short of screen time but
+  structurally important as the corpus's clearest
+  "robot pet as surrogate grief object" entry.
+
+  Substrate codes `[mechanical, electrical, biological]`
+  because Dr. Wilker's construction, per dialogue,
+  uses a biological-synaptic core rather than
+  straight electronics — the show is vague but the
+  dialogue is explicit.
+
+  Interiority is `claims`: Muffit expresses
+  attachment and preference through behavior and
+  sound (chirps, licks, protective posturing) but
+  the show does not commit to inner life. Autonomy
+  is `designed`, divergence `none`. Primary question
+  is `affection` in the Boxey-consolation frame;
+  knowability and knowing both `absent`. Tags
+  `child-arc` because the whole point of Muffit is
+  Boxey's grief-processing.

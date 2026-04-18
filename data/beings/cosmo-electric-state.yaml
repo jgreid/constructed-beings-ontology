@@ -1,0 +1,81 @@
+id: cosmo-electric-state
+name: "Cosmo"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "The Electric State"
+  year: 2025
+  medium: film
+  creator: "Anthony Russo / Joe Russo (after Simon Stålenhag)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+    - child
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - child-arc
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Anthony and Joe Russo's 2025 Netflix feature,
+  loosely adapting Simon Stålenhag's 2018
+  illustrated novel. In an alternate-history
+  American Southwest, decommissioned robots
+  (marketed characters, industrial units) live in
+  an "Exclusion Zone" after a robot-human war.
+  Cosmo is a peanut-mascot cartoon robot whose
+  current operator is the missing brother of the
+  protagonist Michelle; he is her primary
+  companion across the film and carries the
+  emotional weight of the road-movie structure.
+  The ensemble includes Mr. Peanut (voiced
+  Woody Harrelson), Herman, and many others —
+  Cosmo is the representative entry.
+
+  Included as the flagship 2020s entry in the
+  decommissioned-robot-refugee-community tradition
+  — the heir to the *WALL-E* / *The Iron Giant*
+  / *9* lineage with the specific register of
+  post-war refugee narrative. The film's visual
+  design is a direct Stålenhag transcription, and
+  the Stålenhag book is itself a significant
+  2018 text that did not have a corpus entry
+  because it was an illustrated novel without a
+  single individuated protagonist.
+
+  Interiority is `demonstrated`: Cosmo expresses
+  affection, fear, protective care toward
+  Michelle, staged as real. Autonomy is `seized`
+  (the post-war robots have been operating
+  independently for years). Divergence is
+  `departure`: mascot-character robots were built
+  for corporate advertising and are now refugees.
+
+  Primary question is `affection` in the
+  Michelle-Cosmo road-companion register.
+  Knowability is `secondary`; knowing is `present`.
+  Creator_relationship is `absent` (the toy
+  companies that built them are long gone or have
+  abandoned them). Tags `child-arc`,
+  `ensemble-split` — the film's wider robot
+  ensemble warrants a single-entry coding with
+  Cosmo representative.

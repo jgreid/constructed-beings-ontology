@@ -1,0 +1,71 @@
+id: theopolis-buck-rogers
+name: "Dr. Theopolis"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Buck Rogers in the 25th Century"
+  year: 1979
+  medium: television
+  creator: "Glen A. Larson / Leslie Stevens"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - service
+    - knowledge
+  presentation: masculine
+  embodiment: disembodied
+  prominence: minor
+  creator_relationship: loyal
+  tags: []
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Dr. Theopolis is one of the Computer Council, the
+  governing AI panel of Earth's post-apocalyptic
+  Inner City in *Buck Rogers in the 25th Century*
+  (1979–81). He exists as a circular display-disc
+  worn around Twiki's neck (the familiar pairing,
+  adopted in every Twiki appearance) and voiced by
+  Eric Server. Theo speaks with adult-register
+  authority in the same scenes where Twiki delivers
+  the beeps, which is the pairing's comic structure.
+
+  Included as the companion coding to Twiki (see
+  `twiki-buck-rogers`). Analytically distinct in that
+  Theo is a pure-cognition AI with no independent
+  locomotion — he rides on Twiki — and his embodiment
+  is coded `disembodied` on that basis: Theo is a
+  displayed voice-and-data interface with no body
+  beyond a speaker-and-screen disk that is itself
+  mounted on someone else.
+
+  Interiority is `demonstrated`: Theo reasons,
+  deliberates, occasionally expresses opinion across
+  the two-season run, and is given more semantic
+  weight in dialogue than Twiki. Autonomy is
+  `designed` — he is a Council member doing Council
+  work. Divergence is `none`.
+
+  Primary question is `purpose` in the governance-AI
+  register: what are the Computer Council's
+  responsibilities to the Inner City's humans?
+  Epistemic reach is `conversational`; knowability
+  is `absent` but knowing is `present` — Theo tracks
+  and reads Buck and the other humans with adult
+  attentiveness, which distinguishes him from Twiki's
+  more bleep-bot register. Creator_relationship is
+  `loyal` to the Computer Council's institutional
+  frame.
