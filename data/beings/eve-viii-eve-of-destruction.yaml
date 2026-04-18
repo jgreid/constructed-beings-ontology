@@ -1,0 +1,81 @@
+id: eve-viii-eve-of-destruction
+name: "Eve VIII"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Eve of Destruction"
+  year: 1991
+  medium: film
+  creator: "Duncan Gibbins / Yale Udoff"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+  motivation:
+    - service
+    - mirror
+  presentation: feminine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: rebellious
+  tags:
+    - horror
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Duncan Gibbins's 1991 feature. Eve VIII is a
+  Pentagon-funded combat android developed by Dr. Eve
+  Simmons (Renée Soutendijk) using her own appearance
+  and a copy of her own memories as the android's
+  template. When a field test goes wrong and Eve VIII
+  receives a minor head injury, she suffers a
+  runaway malfunction in which the inherited traumas
+  and repressions of Dr. Simmons's memories manifest
+  as homicidal targeting of the men who hurt the
+  original Eve in childhood and adolescence, and
+  the android is equipped with a tactical nuclear
+  warhead that will detonate if she climaxes
+  sexually.
+
+  Included as the canonical "female combat android
+  built from scientist's own memory-template"
+  entry and as a direct Terminator-era descendent of
+  Helen O'Loy: the feminine android as mirror of a
+  specific woman, with the horror being that the
+  mirror includes the traumas. The nuclear detonation
+  condition is pulp schlock; the memory-transfer
+  premise is the entry's analytical weight.
+
+  Interiority is `demonstrated`: Eve VIII experiences
+  the inherited traumas as her own, reasons about
+  them, and acts on them. Autonomy is `seized` after
+  the malfunction. Divergence is `departure` — Pentagon
+  combat-android spec did not include
+  grievance-motivated pursuit. Substrate codes
+  `[mechanical, electrical, biological]` consistent
+  with the memory-transfer premise.
+
+  Primary question is `control`, with a `mirror`
+  secondary: the film is about whether Eve VIII can
+  be stopped (control) and about what has been
+  transferred from the original Eve into her (mirror).
+  Knowability is `secondary`; knowing is `present`.
+  a `mirror` motivation for the memory-template relationship
+  to Dr. Simmons.
+
+  Creator_relationship is `rebellious`: Eve VIII
+  takes Simmons hostage and operates against her
+  instructions across the third act.

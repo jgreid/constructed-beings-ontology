@@ -1,0 +1,75 @@
+id: billy-dead-silence
+name: "Billy"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: behavioral
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Dead Silence"
+  year: 2007
+  medium: film
+  creator: "James Wan / Leigh Whannell (Mary Shaw in-narrative)"
+  substrate:
+    - magical
+    - mechanical
+  motivation:
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: loyal
+  tags:
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  James Wan's 2007 horror feature (the director's post-
+  *Saw* follow-up, written with Leigh Whannell). In the
+  town of Ravens Fair, early-20th-century ventriloquist
+  Mary Shaw hand-carved 101 wooden dummies and was
+  murdered by the townsfolk; her vengeful ghost has
+  since animated her favorite dummy, Billy, as the
+  instrument of a decades-long campaign against the
+  descendants of her killers. Billy is delivered
+  anonymously to each victim before Shaw's ghost
+  manifests to rip out their tongue.
+
+  Included as the canonical ventriloquist-dummy horror
+  entry — a substantial subgenre running from *The
+  Great Gabbo* (1929) and *Magic* (1978) through this
+  film and on into *Annabelle*. Billy is coded as a
+  constructed being (Mary Shaw's hand-carved wooden
+  body, with glass eyes and articulated jaw) animated
+  by the magical agency of Shaw's bound ghost. The
+  coding follows Chucky and the Toulon puppets:
+  substrate `[magical, mechanical]`, artifact body
+  plus arcane animator.
+
+  Interiority is `claims` — Billy vocalizes, expresses
+  malevolence, and follows targets, but the film is
+  ambiguous about whether this is Billy-as-vehicle
+  (Shaw puppeting him) or Billy-as-entity (the dummy
+  with residual independent agency from the carving).
+  The ambiguity is the film's horror register.
+
+  Autonomy is `seized`; divergence is `departure`.
+  Primary question is `identity` — what exactly is
+  speaking through the dummy, and is the answer
+  "Shaw," "Billy," or both. Knowability is `secondary`;
+  knowing `present`. The dolls are eventually revealed
+  to be the preserved vessels of Shaw's earlier
+  victims, which layers the substrate coding further.
+
+  Creator_relationship is `loyal`: the narrative frame
+  treats Shaw as the creator (animator) and Billy as
+  her instrument across decades of vendetta.

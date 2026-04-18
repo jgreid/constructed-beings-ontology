@@ -1,0 +1,77 @@
+id: ava-the-machine
+name: "Ava"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "The Machine"
+  year: 2013
+  medium: film
+  creator: "Caradog W. James"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+  motivation:
+    - service
+    - child
+  presentation: feminine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: loyal
+  tags:
+    - philosophical
+    - military
+    - passing
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Caradog W. James's 2013 British SF feature (not to
+  be confused with the later Mark Hamill comedy of
+  the same title; this is the Vincent McSweeney and
+  Toby Stephens one). During a cold war between
+  China and the UK, a black-site Ministry of Defence
+  program led by Dr. Vincent McCarthy (Stephens) is
+  working to build conscious combat AIs using the
+  brain-scan of a recently deceased young woman,
+  Ava (Caity Lotz); the resulting embodied android,
+  also called Ava, is the program's breakthrough.
+  McCarthy and Ava develop an uneasy father-daughter
+  rapport; the MoD wants her weaponized. The film
+  stages the conflict between the program's intended
+  military deployment and the humans who have come
+  to see Ava as a person.
+
+  Included as the clearest 2010s independent feature
+  in the Ex Machina-adjacent "young woman android
+  with moral interior" tradition, released one year
+  before *Ex Machina* and reaching many of the same
+  conclusions at a lower budget. Notable for the
+  scan-based derivation of the android's cognition
+  from a deceased human's brain — similar to the
+  memory-transfer cases (Eve VIII, Hector) but
+  thematized as preservation/resurrection rather
+  than exploitation.
+
+  Interiority is `demonstrated`: Ava's affection,
+  fear, curiosity, and moral reasoning are staged
+  throughout. Autonomy is `seized` in the third act
+  as she leads the program's other androids in a
+  refusal of the military deployment. Divergence is
+  `departure`. Substrate codes
+  `[mechanical, electrical, biological]`.
+
+  Primary question is `rights`. Knowability is
+  `primary`; knowing is `present`. Creator_relationship
+  is `loyal` to McCarthy as father-figure.

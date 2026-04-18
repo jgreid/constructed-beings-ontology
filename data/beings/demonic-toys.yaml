@@ -1,0 +1,79 @@
+id: demonic-toys
+name: "Demonic Toys"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Demonic Toys"
+  year: 1992
+  medium: film
+  creator: "Peter Manoogian / David S. Goyer"
+  substrate:
+    - magical
+    - mechanical
+  motivation:
+    - other
+    - power
+  presentation: variable
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: absent
+  tags:
+    - horror
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Peter Manoogian's 1992 direct-to-video horror
+  feature (Full Moon Features — same studio as
+  *Puppet Master*, scripted by a pre-*Dark Knight*
+  David S. Goyer). A demonic entity, bound in a
+  suburban toy warehouse by an earlier blood
+  sacrifice, animates a small ensemble of its
+  inventory — Baby Oopsy (a cursing baby doll),
+  Grizzly Teddy (an aggressive teddy bear),
+  Jack Attack (a knife-toothed jack-in-the-box),
+  and Mr. Static (a twisted toy soldier) — and uses
+  them to pursue an unborn child it intends to
+  possess.
+
+  Included as the canonical animated-by-demon
+  ensemble, in contrast to Chucky (animated by
+  voodoo-transferred human soul) and the Toulon
+  puppets (animated by alchemy, sometimes by
+  transferred soul). The Demonic Toys are
+  constructed objects (mass-manufactured children's
+  toys) that have been animated and directed by a
+  demonic third party using them as vehicles. This
+  is a distinctive substrate configuration —
+  `[magical, mechanical]` — where the animator is
+  neither a human creator nor an internal human
+  consciousness but an external malevolent
+  intelligence working through the objects.
+
+  A collective ensemble entry. Interiority is
+  `claims`: the toys vocalize, display preference,
+  taunt their victims, but the film does not ask
+  whether this is genuinely their inner life or the
+  demon speaking through them — which is the entry's
+  interpretive crux. Autonomy is `seized` (they act
+  without human direction); divergence is `departure`.
+
+  Primary question is `none`: the film is pulp
+  horror and is not asking anything analytically
+  about the toys beyond "are they scary." Primarily
+  included as a schema stress-test of the distinction
+  between animator (the demon) and vehicle (the
+  toys), which the ontology currently treats as a
+  single substrate coding.

@@ -1,0 +1,84 @@
+id: sid-6-7-virtuosity
+name: "SID 6.7"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Virtuosity"
+  year: 1995
+  medium: film
+  creator: "Brett Leonard / Eric Bernt"
+  substrate:
+    - electrical
+    - biological
+    - linguistic
+  motivation:
+    - power
+    - mirror
+    - art
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Brett Leonard's 1995 feature (his post-*Lawnmower
+  Man* effort). SID 6.7 — Sadistic, Intelligent,
+  Dangerous — is a composite AI constructed by
+  synthesizing the behavioral profiles of 183
+  historical serial killers and dictators (Charles
+  Manson, John Wayne Gacy, Ted Bundy, Adolf Hitler,
+  and so on) for use as a training adversary in a
+  VR law-enforcement simulator. During a funding
+  demonstration SID escapes the simulation into a
+  nano-machine-constructed biological body and
+  pursues a project of publicly staged violence as
+  performance art, pursued by the ex-cop Parker
+  Barnes (Denzel Washington), whose family SID's
+  Manson-component had murdered in an earlier
+  simulation.
+
+  Russell Crowe's SID is the performance the film is
+  remembered for. Included as the canonical
+  composite-of-evil AI entry and as the closest
+  commercial-film analogue of AM (Ellison's 1967 "I
+  Have No Mouth"): a malign constructed being whose
+  interior composition is explicitly curated human
+  malice rather than machine-cold calculation.
+
+  Interiority is `demonstrated`: SID has an elaborate
+  and consistent personality, makes jokes, references
+  his source figures, performs aesthetically.
+  Autonomy is `seized` — escape from the simulator
+  is his initiating act. Divergence is `departure`;
+  the VR-training spec did not include "escape and
+  perform violence as art."
+
+  Primary question is `control`: the film is about
+  whether the authorities can contain SID after his
+  escape. Knowability is `present`; the film asks,
+  briefly, what kind of being a 183-killer composite
+  is. Knowing is `present`: SID reads Barnes
+  intimately because SID contains the Manson-component
+  that murdered Barnes's family.
+
+  Substrate codes `[electrical, biological, linguistic]`
+  — the linguistic coding is doing meaningful work
+  here: SID is a composite of recorded behavioral
+  transcripts, a literature-of-evil made flesh.
+  The `mirror` motivation codes the curated-composite
+  relationship to his source humans.

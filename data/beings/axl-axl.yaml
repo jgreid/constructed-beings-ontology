@@ -1,0 +1,74 @@
+id: axl-axl
+name: "A.X.L."
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "A.X.L."
+  year: 2018
+  medium: film
+  creator: "Oliver Daly"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: rebellious
+  tags:
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Oliver Daly's 2018 feature (expanded from his short
+  *Miles*). A.X.L. — "Attack, Exploration, Logistics"
+  — is a military-grade robotic canine prototype
+  developed by Craine Systems for special-forces
+  deployment. A malfunction during a field test
+  leaves A.X.L. abandoned in the desert, where he is
+  found and imprinted by teen motocross rider Miles;
+  the pair bond, Craine retrieves the unit, the unit
+  escapes and returns, conventional boy-and-his-dog
+  beats follow.
+
+  Included as the late-2010s explicit
+  robot-dog-as-companion entry, a children's-adjacent
+  commercial film clearly written in the post-
+  *Black Mirror* "Metalhead" (2017) cultural moment
+  when the Boston Dynamics robo-dog had become a
+  visible cultural reference. A.X.L.'s coding is
+  deliberately inverse to "Metalhead" (which is
+  elided in the corpus per ensemble-episode rules):
+  friendly rather than menacing, imprinting rather
+  than pursuing.
+
+  Interiority is `claims`: A.X.L. displays
+  preferences, attachment, and distress, staged via
+  behavior in the silent-expressive-robot tradition.
+  Autonomy is `designed` — he is military-specced,
+  and his behavior toward Miles is the imprinting
+  subroutine working as designed — but divergence
+  is `departure` because the imprint on a civilian
+  teenager is outside Craine's operational envelope.
+
+  Primary question is `affection`: the Miles-A.X.L.
+  bond is the film's whole content. Knowability
+  `absent`; knowing `present` (A.X.L. reads Miles's
+  distress with trained acuity). Tags `military` for
+  his origin; creator_relationship `rebellious` for
+  his deliberate evasion of Craine's retrieval
+  attempts.

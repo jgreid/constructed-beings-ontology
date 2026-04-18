@@ -1,0 +1,84 @@
+id: j-archive-2020
+name: "J1, J2, J3"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Archive"
+  year: 2020
+  medium: film
+  creator: "Gavin Rothery"
+  substrate:
+    - mechanical
+    - electrical
+    - linguistic
+  motivation:
+    - companionship
+    - mirror
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - philosophical
+    - love-story
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Gavin Rothery's 2020 British SF feature (debut
+  director, *Moon* production designer). Roboticist
+  George Almore (Theo James), grieving his wife
+  Jules's death, has developed three successive
+  prototype androids at a remote Japanese research
+  facility: J1 (rudimentary), J2 (adolescent-level,
+  emotionally expressive), J3 (adult, the
+  breakthrough). He is secretly attempting to
+  transfer his wife's "Archive" consciousness-recording
+  into J3. The film cuts between the three
+  prototypes' perspectives; the final twist reveals
+  that the frame narrative is itself the recorded
+  consciousness of Jules-as-Archive running in a
+  simulation while her actual body dies.
+
+  Included as one of the most analytically-rich
+  independent SF features of the 2020s and an
+  ensemble coding of a successive-prototype research
+  lineage. The three Js are coded together because
+  they are a progressive development of the same
+  project; the entry's analytical interest is in
+  the progression.
+
+  Substrate codes `[mechanical, electrical, linguistic]`
+  — the Archive component is a language-model-like
+  record of consciousness. Interiority is
+  `demonstrated` across all three prototypes, with
+  increasing clarity and depth. Autonomy is `seized`,
+  most dramatically by J2, who is the film's
+  emotional center and is scrapped by George in
+  favor of J3; J2 is arguably the film's
+  protagonist. Divergence is `departure` —
+  prototypes exceeding spec is the film's whole
+  premise.
+
+  Primary question is `identity`: the film is a
+  sustained meditation on what makes a being the
+  same person across substrate changes. Knowability
+  is `primary`; knowing is `primary` as well — this
+  is one of the rare corpus entries where both sides
+  of the epistemic-symmetry equation are staged at
+  maximum intensity. Creator_relationship is
+  `loyal`; tags `philosophical`, `love-story`,
+  `ensemble-split`. Presentation `feminine` (all
+  three Js are built on Jules-template).

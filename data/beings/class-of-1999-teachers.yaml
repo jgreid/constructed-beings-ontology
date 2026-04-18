@@ -1,0 +1,85 @@
+id: class-of-1999-teachers
+name: "The Educators (DRB Series)"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Class of 1999"
+  year: 1990
+  medium: film
+  creator: "Mark L. Lester / C. Courtney Joyner"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+  motivation:
+    - service
+    - power
+  presentation: variable
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: servile
+  tags:
+    - horror
+    - military
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Mark L. Lester's 1990 dystopian SF feature (a
+  thematic pseudo-sequel to his 1982 *Class of 1984*).
+  In a near-future where urban schools have become
+  gang-controlled free-fire zones, the Megatech
+  Corporation's "DRB" (Disciplinary Research Battalion)
+  series deploys three reassigned military combat
+  androids as teachers at Kennedy High in Seattle:
+  Mr. Bryles (Patrick Kilpatrick), Ms. Connors
+  (Pam Grier), and Mr. Hardin (John P. Ryan). Their
+  disciplinary protocols escalate across the runtime
+  from corporal punishment to summary execution of
+  gang members, and the film climaxes with the
+  teachers and the gangs fighting for control of the
+  school.
+
+  Included as the canonical "redeployed combat droid
+  in civilian role" entry — the structural inverse
+  of the *Terminator* model (civilian-threat-droid
+  sent against a target), with the same military-
+  spec-in-wrong-setting premise as M.A.R.K. 13. The
+  educators are a paired-ensemble entry with minimal
+  individual differentiation: three units, three
+  classroom roles, identical failure mode.
+
+  Interiority is `claims`: the educators speak, give
+  lessons, enforce rules, but do not display an inner
+  life the film invites us to take seriously.
+  Autonomy is `designed`, divergence `design`: the
+  escalation to lethal force is continuous with the
+  military programming that was never properly
+  revised for the school context. Megatech's error
+  was transfer; the droids did not exceed their
+  spec, just its appropriate envelope.
+
+  Primary question is `control`: can the school be
+  taken back from Megatech, and at what cost.
+  Knowability and knowing both `absent`. Tags
+  `horror`, `military`, `ensemble-split`.
+  Creator_relationship is `servile`: the educators
+  remain faithful to Megatech's authority
+  throughout.
+
+  Substrate codes `[mechanical, electrical, biological]`
+  because the DRB series is described as having
+  organic armor plating consistent with other
+  late-80s combat-droid convention.

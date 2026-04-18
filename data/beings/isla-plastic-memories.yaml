@@ -1,0 +1,78 @@
+id: isla-plastic-memories
+name: "Isla"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Plastic Memories"
+  year: 2015
+  medium: television
+  creator: "Naotaka Hayashi / Yoshiyuki Fujiwara"
+  substrate:
+    - mechanical
+    - electrical
+    - linguistic
+  motivation:
+    - service
+    - companionship
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: indifferent
+  tags:
+    - love-story
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Naotaka Hayashi's 2015 thirteen-episode Doga
+  Kobo anime. "Giftias" are humanoid androids
+  manufactured by the SAI Corporation with a
+  fixed nine-year, four-month operational
+  lifespan; the Terminal Service retrieves
+  Giftias from their owners at end-of-life and
+  decommissions them. Protagonist Tsukasa, a
+  new Terminal Service employee, is partnered
+  with Isla — a Giftias herself, approaching her
+  own expiration date — and across the series
+  they fall in love with a countdown clock
+  running.
+
+  Included as the clearest late-2010s anime
+  articulation of the Helperbot / *Maybe Happy
+  Ending* / *Klara and the Sun* expiration-date
+  tradition: a constructed being with a
+  scheduled end-of-operation that the narrative
+  uses to concentrate its affective-rights
+  inquiry. The coding pairs with
+  `oliver-claire-maybe-happy-ending` and with
+  the Terminal Service structure itself as an
+  entry-adjacent context.
+
+  Interiority is `demonstrated`: Isla's
+  shyness, tenderness, remembered past with her
+  previous owner, and tracked approach to
+  shutdown are staged throughout. Autonomy is
+  `designed` — she operates within the
+  Terminal Service's intended role. Divergence
+  is `none`: the series is not about Isla
+  exceeding spec but about what happens inside
+  spec when the being is genuine.
+
+  Primary question is `affection`. Knowability
+  is `primary`; knowing is `present`. Substrate
+  codes `[mechanical, electrical, linguistic]`.
+  Creator_relationship codes `indifferent`
+  (SAI Corporation, institutional). Tags
+  `love-story`, `philosophical`.

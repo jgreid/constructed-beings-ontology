@@ -1,0 +1,73 @@
+id: cherry-2000
+name: "Cherry 2000"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: absent
+
+metadata:
+  source: "Cherry 2000"
+  year: 1987
+  medium: film
+  creator: "Steve De Jarnatt / Michael Almereyda"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+  motivation:
+    - companionship
+  presentation: feminine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: servile
+  tags:
+    - love-story
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Steve De Jarnatt's 1987 post-apocalyptic romance (shot
+  1985, shelved, released 1988). In a near-future Las
+  Vegas-ruled wasteland, the wealthy Sam Treadwell
+  (David Andrews) owns a "Cherry 2000" pleasure-android;
+  after she short-circuits during intercourse, he hires
+  tracker E. Johnson (Melanie Griffith) to lead him into
+  the wasteland to recover an identical chassis, onto
+  which he plans to transfer her personality chip. Over
+  the course of the journey he falls for Johnson and
+  abandons the Cherry project.
+
+  Included as the archetypal "protagonist learns to
+  prefer the real woman over the sex-bot" narrative,
+  and the late-80s pivot text for the Helen O'Loy /
+  Hadaly tradition: the film constructs Cherry 2000 as
+  exactly the idealized-feminine-compliance being of
+  that tradition and then spends the runtime teaching
+  its protagonist that the genuine human relationship
+  is preferable. A canonical reference for the
+  built-for-a-man lineage even though the film is
+  minor.
+
+  Interiority is `claims`: Cherry speaks, expresses
+  affection, and performs preference, but the film's
+  whole argument depends on her lacking genuine inner
+  life and being a projection surface. Autonomy is
+  `designed`; divergence `none`. Primary question is
+  `affection`, but in the diagnostic mode: the film is
+  asking what kind of affection is worth staying with.
+  Knowability codes `present` — the film raises the
+  question; knowing is `absent` — Cherry does not
+  genuinely read Sam, which is the film's point.
+
+  Substrate codes `[mechanical, electrical, biological]`
+  in keeping with the late-80s sex-android convention
+  of organic-synthetic composite.

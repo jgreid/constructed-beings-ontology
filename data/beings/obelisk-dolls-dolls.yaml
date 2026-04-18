@@ -1,0 +1,80 @@
+id: obelisk-dolls-dolls
+name: "The Obelisk Dolls"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Dolls"
+  year: 1987
+  medium: film
+  creator: "Stuart Gordon / Ed Naha (Gabriel and Hilary Hartwicke in-narrative)"
+  substrate:
+    - magical
+    - mechanical
+  motivation:
+    - service
+    - other
+  presentation: variable
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: loyal
+  tags:
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Stuart Gordon's 1987 horror feature (Empire
+  Pictures, the same year as Gordon's *From Beyond*).
+  In a rural English manor, toymakers Gabriel and
+  Hilary Hartwicke shelter storm-stranded travelers
+  overnight. The house is full of handmade dolls,
+  which are revealed to be cursed/enchanted by the
+  Hartwickes themselves — Gabriel animates them
+  through a magic he acquired through a Faustian
+  bargain, and the dolls dispatch the cruel and
+  greedy guests overnight, preserving only those
+  who retain childlike sympathy (a young girl and
+  one charmingly childlike adult).
+
+  Included as the clearest horror-doll entry that
+  frames the dolls as instruments of moral judgment
+  rather than as monsters per se — close to
+  *Puppet Master* on substrate and animation logic
+  but with a fairy-tale moral architecture closer to
+  *Pinocchio*. The dolls are constructed by the
+  Hartwickes, animated by their magic, and act on
+  the Hartwickes' rules (protect the innocent,
+  punish the cruel).
+
+  A collective ensemble entry — the film uses
+  dozens of dolls in swarming scenes, with a few
+  (Punch, a sharp-toothed horror doll) granted
+  brief individual closeups. Substrate codes
+  `[magical, mechanical]`. Interiority is
+  `demonstrated` via behavior; the dolls display
+  clear intent, patience, and cooperative
+  coordination. Autonomy is `seized` in the sense
+  that they act without human direction once
+  deployed. Divergence is `departure`.
+
+  Primary question is `control`: who do the dolls
+  obey, and what are the rules? The film's
+  resolution rests on the Hartwickes' explanation,
+  which answers the question. Knowability codes
+  `present` and knowing `present` — the dolls
+  evidently read the guests accurately, selecting
+  victims by moral criterion.
+
+  Presentation is `variable`; the dolls span
+  presentations.

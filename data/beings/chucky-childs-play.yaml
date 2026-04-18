@@ -1,0 +1,93 @@
+id: chucky-childs-play
+name: "Chucky (Charles Lee Ray)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Child's Play"
+  year: 1988
+  medium: film
+  creator: "Tom Holland / Don Mancini"
+  substrate:
+    - magical
+    - mechanical
+  motivation:
+    - other
+    - power
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: absent
+  tags:
+    - horror
+    - canonical
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Tom Holland's 1988 horror feature (Don Mancini's
+  screenplay, based on his *Blood Buddy* draft). The
+  serial killer Charles Lee Ray, fatally wounded in a
+  Chicago toy store, uses a voodoo incantation to
+  transfer his soul into a "Good Guys" brand
+  talking-doll before dying. The resulting animated
+  doll is sold to single mother Karen Barclay and
+  given to her son Andy, whereupon it begins to pursue
+  its human vendettas at doll scale, framing Andy
+  for the killings, and working across the franchise
+  to escape the doll body back into a human one.
+
+  Included as the foundational horror-doll entry of
+  the modern era and the canonical test case for the
+  ontology's treatment of magically animated
+  constructed beings. Coded against the Golem model:
+  the body is an artifact (mass-manufactured doll),
+  the animation is arcane (voodoo soul-transfer),
+  the resulting entity behaves as a constructed
+  composite rather than as Ray continuing. This is a
+  close analogue of Tyrone (*Hand to God*) and of the
+  Prague Golem, though the film stages it without
+  their ontological ambiguity — Ray is clearly in
+  there, and the doll is clearly the new body.
+
+  The born-modified exclusion is worth addressing. Ray
+  originated biologically, and one reading would
+  exclude Chucky on those grounds. The entry is
+  included because the post-transfer being is
+  dominantly an artifact: the plastic body with its
+  manufacturer-specced limits and voice-chip vocal
+  range is the thing doing the killing, and Ray's
+  human biology is terminated on screen at transfer.
+  This is the same analytical move applied to the
+  Prague Golem's clay.
+
+  Substrate codes `[magical, mechanical]`. Interiority
+  `demonstrated`; autonomy `seized`. Divergence
+  `departure` — the Good Guys doll was built for
+  children. Primary question is `identity`: what is
+  Chucky, and what is the relationship between Ray,
+  the doll, and the composite? Knowability is
+  `primary`; knowing is `present`. Creator_relationship
+  is `absent` because there are two creators (Play
+  Pals Inc. for the body; Ray himself as the animator)
+  and neither relationship is narratively foregrounded
+  across the franchise.
+
+  The 2019 remake (MGM/Orion, Kaslan Corp. Buddi doll)
+  replaces the voodoo premise with a corporate-AI
+  malfunction; it is elided here per the
+  reasonable-coder sequel rule. A separate entry may
+  be warranted in a future sweep because the remake's
+  coding would diverge substantially (substrate
+  `[mechanical, electrical]`, no magical transfer).

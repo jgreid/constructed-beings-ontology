@@ -1,0 +1,82 @@
+id: atom-pluto
+name: "Atom (Pluto)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Pluto"
+  year: 2003
+  medium: comics
+  creator: "Naoki Urasawa / Takashi Nagasaki (after Osamu Tezuka)"
+  substrate:
+    - mechanical
+    - electrical
+    - linguistic
+  motivation:
+    - child
+    - knowledge
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - philosophical
+    - canonical
+    - military
+
+sequel_link: astro-boy-tezuka
+link_type: adaptation
+
+notes: |
+  Naoki Urasawa and Takashi Nagasaki's 2003–09
+  manga (Shogakukan, *Big Comic Original*; 8
+  volumes), adapting the "Greatest Robot on Earth"
+  arc of Osamu Tezuka's *Tetsuwan Atom* (1964) as
+  a long-form psychological-political mystery.
+  Netflix's 2023 eight-episode Studio M2 anime is
+  a direct translation of the manga; both are
+  treated here as a single entry with the manga as
+  the canonical source year.
+
+  Urasawa's Atom is a reworking of Tezuka's
+  child-robot Atom into a more psychologically
+  ambiguous figure for a post-9/11 adult-SF
+  register. The mystery is organized around the
+  serial murders of the world's seven most
+  advanced robots and several leading roboticists;
+  Atom is deactivated mid-series and reactivated
+  with an altered interior, and the series'
+  philosophical weight is carried as much by the
+  European robot Gesicht as by Atom himself. The
+  coding here treats Atom as the representative
+  entry because his continuity with Tezuka's
+  original is the adaptation's central concern.
+
+  Distinguished from the existing `astro-boy-1963`
+  and `astro-boy-tezuka` entries because the
+  coding differs materially: Urasawa's Atom is
+  `demonstrated` rather than Tezuka's `claims`,
+  and the primary question is `identity` rather
+  than `affection`. The series rewrites what
+  being-Atom means.
+
+  Autonomy is `seized`; divergence is `departure`.
+  Substrate codes `[mechanical, electrical,
+  linguistic]`. Knowability is `primary`;
+  knowing is `primary`. Creator_relationship is
+  `loyal` (to Dr. Tenma as in the Tezuka original,
+  complicated by the reactivation). Tags
+  `philosophical`, `canonical`, `military`.
+
+  `sequel_link` points to the Tezuka entry as an
+  `adaptation` — this is the reworked-adaptation
+  case the link_type was designed to cover.

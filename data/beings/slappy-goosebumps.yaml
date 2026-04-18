@@ -1,0 +1,83 @@
+id: slappy-goosebumps
+name: "Slappy"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Goosebumps (\"Night of the Living Dummy\")"
+  year: 1993
+  medium: novel
+  creator: "R.L. Stine"
+  substrate:
+    - magical
+    - mechanical
+  motivation:
+    - power
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - horror
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  R.L. Stine's Slappy is the horror-doll
+  mascot-villain of the Goosebumps franchise: first
+  appearance in *Night of the Living Dummy* (1993);
+  recurring across *Night of the Living Dummy II*
+  (1995), *III* (1996), *Bride of the Living Dummy*,
+  and the 2015 and 2018 Columbia Pictures films where
+  he is voiced by Jack Black. Slappy is a ventriloquist
+  dummy carved by an unspecified long-ago sorcerer;
+  animated and rendered dangerous when a specific
+  Hebraic-adjacent phrase (*Karru marri odonna loma
+  molonu karrano*) is read aloud from a card tucked in
+  his coat pocket.
+
+  Included as the canonical children's-literature
+  horror-doll entry and as the clearest modern
+  deployment of the golem-activation template: an
+  inert carved body animated into malevolent
+  personality by the recitation of a prescribed
+  phrase. The Prague Golem's EMET/MET procedure is
+  the direct antecedent. Slappy is unusual among horror
+  dolls in that the activation is explicitly ritualistic
+  (a word, a card), which makes the entry a cleaner
+  coding of `[magical, mechanical]` than most of the
+  subgenre.
+
+  Interiority is `demonstrated`: Slappy has a
+  distinctive voice, sardonic humor, stable
+  preferences (he wants to enslave his owner as his
+  "slave"), and motivations across dozens of books
+  and two feature films. Autonomy is `seized`;
+  divergence is `departure`.
+
+  Primary question is `control`: every Slappy
+  appearance is structurally about containing or
+  re-deactivating him, and the climax typically rests
+  on a counter-phrase or a physical destruction of the
+  dummy body. Creator_relationship codes `absent` —
+  the original carver is unidentified and the owners
+  who activate him function as accidental unlockers
+  rather than creators. Knowing is `present`: Slappy
+  reads his owners for leverage.
+
+  Coded against the 1993 novel as the source text.
+  Later novelizations and the two films (which the
+  corpus elides per the reasonable-coder sequel rule)
+  align on the coding.

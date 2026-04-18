@@ -1,0 +1,61 @@
+id: tobor-tobor-the-great
+name: "Tobor"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Tobor the Great"
+  year: 1954
+  medium: film
+  creator: "Lee Sholem / Carl Dudley"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: loyal
+  tags: []
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Lee Sholem's 1954 juvenile SF feature — "Tobor" is "robot"
+  spelled backwards — centers on a robot built by Dr. Ralph
+  Harrison as a substitute astronaut, equipped with
+  "emotional response" circuitry so that he can function
+  beyond the programmed envelope in dangerous conditions.
+  The bond with Harrison's young grandson Gadge is the
+  film's emotional spine; the Cold War plot around
+  foreign spies trying to steal Tobor is scaffolding.
+
+  Included as the earliest clear entry in the boy-and-his-
+  robot tradition that runs through *The Iron Giant*,
+  *D.A.R.Y.L.*, and *Big Hero 6*. Tobor is built before
+  KITT and B-9 for the same structural purpose (an adult-
+  coded competence loyal to a specific child) and the
+  film's "emotional response" language explicitly
+  thematizes the question of a built-in but real affection.
+
+  Interiority is `claims`: Tobor registers preferences and
+  distress through behavior and lightboard cues but does
+  not speak in the conventional sense. Autonomy is
+  `designed`, divergence `none` — his capacities include
+  affective response, and he exhibits affective response.
+  Primary question is `affection`: the Tobor-Gadge bond is
+  the whole film. Knowing is `present` at a low level —
+  the film plays his attunement to Gadge's safety as the
+  emotional payoff.

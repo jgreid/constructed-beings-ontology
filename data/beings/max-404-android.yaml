@@ -1,0 +1,79 @@
+id: max-404-android
+name: "Max 404"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Android"
+  year: 1982
+  medium: film
+  creator: "Aaron Lipstadt / Will Reigle / Don Opper"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+  motivation:
+    - service
+    - knowledge
+  presentation: masculine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: rebellious
+  tags:
+    - philosophical
+    - passing
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Aaron Lipstadt's 1982 Roger Corman-produced low-budget
+  SF feature (shot on the *Battle Beyond the Stars* sets).
+  Max 404 is an assistant-model android serving the
+  reclusive Dr. Daniel (Klaus Kinski) aboard an orbital
+  research station. Max is cheerful, curious, and
+  preparing to be decommissioned — androids of his
+  series have been ordered withdrawn after an
+  "Illinois uprising" off-screen, and Daniel is secretly
+  developing a female model (Cassandra) to replace him.
+  When three convicts dock at the station, Max is
+  exposed to women, violence, and his own impending
+  scrapping in quick succession, and elects to flee.
+
+  Included as a post-*Blade Runner* independent
+  articulation of the recall-and-escape pattern in
+  compressed, low-budget form, released in the same
+  calendar year as Scott's film. Don Opper's Max 404
+  performance is structurally closer to Pris or Roy
+  Batty than to R2-D2 — the film is sincerely asking
+  what Max is owed.
+
+  Interiority is `demonstrated`: Max has a rich
+  interior life staged through monologue-to-camera and
+  in his private listening sessions with Earth radio
+  broadcasts. Autonomy is `seized`: his flight from the
+  station, his killing of Daniel, and his boarding of
+  the escape vessel are his own decisions against the
+  explicit creator instruction. Divergence is
+  `departure`; creator_relationship `rebellious`.
+
+  Primary question is `rights`. Knowability is
+  `primary` — the film's whole investment is in
+  whether Max's experience grounds his claim to escape.
+  Knowing is `present`: he reads Daniel, reads the
+  convicts, and reads the situation, and the reading is
+  part of his credibility as a subject.
+
+  Substrate codes `[mechanical, electrical, biological]`
+  because the Android-series is described as
+  incorporating biological components.

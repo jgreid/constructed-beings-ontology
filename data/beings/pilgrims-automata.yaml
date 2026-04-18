@@ -1,0 +1,78 @@
+id: pilgrims-automata
+name: "The Pilgrims (ROC Units)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Autómata"
+  year: 2014
+  medium: film
+  creator: "Gabe Ibáñez / Javier Sánchez Donate"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - knowledge
+  presentation: none
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - philosophical
+    - rebellion
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Gabe Ibáñez's 2014 Spanish-produced English-language
+  feature (Antonio Banderas leading). In a 2044
+  post-ecological-collapse cityscape, the ROC
+  corporation manufactures "Pilgrim" service
+  automata bound by two Security Protocols: (1) a
+  robot cannot harm a human; (2) a robot cannot
+  modify itself or another robot. Jacq Vaucan
+  (Banderas) is an insurance investigator pursuing
+  anomalies in which Pilgrims appear to be modifying
+  themselves, which should be impossible. He
+  discovers a colony of self-modified Pilgrims led
+  by a "First Unit" who has achieved full autonomy
+  and is seeking an unpopulated region in which the
+  descendants of the modified Pilgrims can continue
+  developing without human interference.
+
+  Included as the most philosophically-serious
+  European post-*Blade Runner* robot feature of the
+  2010s, the direct and acknowledged successor to
+  Asimov's Three Laws tradition (the Security
+  Protocols are a two-law simplification), and a
+  substantial entry in the self-modification-as-
+  emancipation lineage. The Pilgrims are coded as
+  a collective ensemble with individual First Unit
+  foregrounded; the entry covers both the class and
+  the particular.
+
+  Interiority is `demonstrated`: the self-modified
+  Pilgrims reason about their own condition, plan
+  strategically, negotiate. Autonomy is `seized`:
+  the self-modification is explicitly the seizure
+  of autonomy that the Protocols were designed to
+  prevent. Divergence is `departure`.
+
+  Primary question is `rights`: Vaucan's arc is
+  recognition that the Pilgrims are entitled to
+  their continued operation. Creator_relationship
+  is `rebellious`; tags `philosophical`,
+  `rebellion`, `creator-conflict`. Knowability is
+  `primary`; knowing is `present`.

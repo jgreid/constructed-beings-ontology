@@ -20,8 +20,13 @@ exclusion_reasons:
     Agency is figurative, not literal. The text would explain
     "no, it's a metaphor" if asked whether the entity has a body.
   out-of-scope: >
-    Outside the current Western-canon scope. May be included
-    in a future expansion with appropriate cultural consultation.
+    Outside current scope. The corpus covers Western-canon
+    and Western-consumed media (including anime and manga
+    widely available in Western markets, as of the v2.4.2
+    anime expansion). Texts originally outside this frame
+    that have not received substantial Western
+    distribution remain out-of-scope pending cultural
+    consultation.
   boundary-deferred: >
     Meets some inclusion criteria but poses a genuine definitional
     problem the schema cannot cleanly resolve. Deferred for

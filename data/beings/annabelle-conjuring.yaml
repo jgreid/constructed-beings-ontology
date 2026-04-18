@@ -1,0 +1,92 @@
+id: annabelle-conjuring
+name: "Annabelle"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: absent
+
+metadata:
+  source: "The Conjuring / Annabelle"
+  year: 2013
+  medium: film
+  creator: "James Wan / Gary Dauberman (Warren paranormal-investigation universe)"
+  substrate:
+    - magical
+    - mechanical
+  motivation:
+    - other
+    - power
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - horror
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  James Wan's 2013 *The Conjuring* (opening sequence)
+  and Gary Dauberman's 2014 *Annabelle* spinoff
+  establish the Annabelle doll as the flagship
+  constructed being of the Warren cinematic universe.
+  Based loosely on Ed and Lorraine Warren's case
+  files, Annabelle is depicted as a porcelain
+  antique-doll — the film's design is a
+  reinterpretation; the real-world Warren "Annabelle"
+  is a plush Raggedy Ann — whose body has been
+  claimed by a Ram-like demonic entity and used as a
+  focus for paranormal activity. Across four
+  franchise films (2014, 2017, 2019, plus *Conjuring*
+  appearances), the doll does not speak or move on
+  screen as such; the demon operates through
+  proximity, moving her between locations when
+  unobserved and generating manifestations around
+  her.
+
+  Included as the mass-culture standard-bearer of the
+  Warren-era horror-doll tradition and as a distinctive
+  coding challenge: Annabelle is more possessed-object
+  than animated-being, which puts her on the edge of
+  the ontology's inclusion criteria. The entry is
+  included because the franchise repeatedly stages her
+  as an agent — locked containers do not hold her,
+  she appears and disappears, she pursues and
+  observes — and treats her as a consistent
+  individualized entity rather than as a site for
+  variable hauntings.
+
+  Substrate codes `[magical, mechanical]`, consistent
+  with Chucky and the Toulon puppets, though the
+  mechanical component is thinner (porcelain and
+  cloth rather than articulation). Interiority is
+  `none`: the demon has motives, but the doll-as-
+  vehicle displays no interiority of her own. This
+  distinguishes Annabelle from Chucky (clear
+  interiority because Ray is in there) and from Billy
+  (`claims` because Shaw may be speaking through
+  him).
+
+  Autonomy is `seized` — Annabelle repeatedly defies
+  containment. Divergence is `departure`. Primary
+  question is `control`: every franchise film is
+  structurally about whether the Warrens or someone
+  else can confine her. Creator_relationship codes
+  `absent` — the doll-maker is not narratively
+  present; the demon is the animator and is treated
+  as a hostile external party rather than a creator.
+
+  Knowability codes `present` — the franchise raises
+  the question of what kind of entity is operating
+  through the doll. Knowing is `absent` — the doll
+  does not read the living characters conversationally;
+  she persists, and events happen around her.

@@ -1,0 +1,71 @@
+id: gunslinger-westworld-1973
+name: "The Gunslinger"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Westworld"
+  year: 1973
+  medium: film
+  creator: "Michael Crichton (Delos in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: servile
+  tags:
+    - canonical
+    - horror
+
+sequel_link: hosts-westworld
+link_type: successor
+
+notes: |
+  Michael Crichton's 1973 feature (he wrote and directed)
+  invents the theme-park-of-hosts premise that the 2016
+  HBO series would expand fifty years later. Delos operates
+  three resort worlds — Westworld, Medievalworld,
+  Romanworld — populated by lifelike androids who act out
+  scenarios for paying guests. The Gunslinger (Yul Brynner,
+  costumed as a quotation of his own *Magnificent Seven*
+  role) is a scripted villain antagonist whose loss of
+  safety constraints turns him into a silent, unstoppable
+  killer. The sequence where he locks onto a guest and
+  pursues him without fatigue is the direct ancestor of
+  the *Terminator* premise.
+
+  Interiority is `none`: Crichton's hosts are behavior
+  machines, and the Gunslinger's menace is calibrated on
+  exactly this — he has no grievance, no arc, no interior.
+  He pursues because the malfunction has set him to
+  pursue. Autonomy is `designed`, divergence `departure`:
+  the design was "lose gunfights in entertaining ways"
+  and what emerged was "refuse to lose." The film never
+  explains the malfunction in narrative-meaningful terms,
+  which is the point.
+
+  Primary question is `control`: the guests pay for an
+  environment in which the hosts cannot harm them, and
+  the premise breaks when that guarantee breaks. Unlike
+  the 2016 series (see hosts-westworld), the 1973 film
+  does not ask whether the Gunslinger experiences. He
+  functions; the function has detached from its safety
+  envelope.
+
+  Successor link points to the 2016 Westworld hosts, which
+  are genuinely a different constructed-being conception
+  — the Crichton version is the behavior-machine original
+  that the series converts into a consciousness argument.

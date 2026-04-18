@@ -1,0 +1,76 @@
+id: val-aqua-heartbeeps
+name: "Val and Aqua"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Heartbeeps"
+  year: 1981
+  medium: film
+  creator: "Allan Arkush / John Hill"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - companionship
+    - child
+  presentation: variable
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: absent
+  tags:
+    - comedy
+    - love-story
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Allan Arkush's 1981 SF romantic comedy, a genuine
+  commercial catastrophe that nonetheless occupies a
+  distinctive analytical slot. Val (Andy Kaufman) is a
+  ValCom industrial robot and Aqua (Bernadette Peters)
+  is an AquaCom hostess robot; they meet in a robot
+  repair facility, fall in love, leave together, build a
+  child-robot named Phil out of spare parts, and are
+  pursued by their manufacturers and by a police drone.
+  The prosthetic makeup was nominated for an Oscar; the
+  film is otherwise remembered for being Kaufman's
+  only romantic lead.
+
+  Included because the film is the purest expression of
+  the constructed-family template that later shows up in
+  *WALL-E* (same structural beats: two differently-
+  designed robots, romantic attachment, escape from
+  corporate context, adopted child). Val and Aqua are an
+  ensemble entry because they function as a unit across
+  the film's arc.
+
+  Interiority is `demonstrated`: both robots clearly
+  experience attraction, delight, distress, and parental
+  protectiveness, and the film stages these as real
+  within its frame. Autonomy is `seized` — they depart
+  the factory, invent a child-construction project, and
+  evade pursuit, all of which exceeds any remit the
+  manufacturers specced. Divergence is `departure`.
+
+  Primary question is `affection`; tags `love-story`.
+  Presentation codes `variable` because Val is
+  masculine-coded and Aqua feminine-coded, and the
+  entry covers the pair.
+
+  Low-confidence flag: the film's tonal incoherence
+  (it wants to be both Andy Kaufman and *WALL-E* and
+  cannot be either) makes some of the coding judgments
+  soft. The affection between them is stageable and
+  staged, but the film's competence in staging it is
+  limited.

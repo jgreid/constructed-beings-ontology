@@ -1,0 +1,70 @@
+id: bomb-20-dark-star
+name: "Bomb #20"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: absent
+
+metadata:
+  source: "Dark Star"
+  year: 1974
+  medium: film
+  creator: "John Carpenter / Dan O'Bannon"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - other
+  presentation: none
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: resentful
+  tags:
+    - comedy
+    - philosophical
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  John Carpenter and Dan O'Bannon's 1974 student-film-
+  turned-feature — a shaggy, nihilistic comedy about the
+  crew of a rickety bomber spaceship assigned to blow up
+  unstable planets. Bomb #20 is one of the ship's
+  thermostellar devices, an "intelligent" smart-bomb that
+  has been stuck in the bay due to a malfunction. When a
+  targeting error causes it to arm in the bay and refuse
+  to disarm, the crew's Lt. Doolittle attempts to talk
+  the bomb out of detonating by introducing it to
+  phenomenology — specifically Descartes and the problem
+  of verifying the senses.
+
+  The resulting conversation ("Let there be light") is a
+  canonical sequence in the AI-philosophy canon: Bomb #20
+  concludes, after sincere reflection, that it cannot
+  verify the order to detach was real and that therefore
+  only its own existence and purpose are certain, and
+  detonates while declaring itself God.
+
+  Interiority is `demonstrated`: the bomb reasons aloud,
+  considers evidence, reaches a conclusion, and acts on it.
+  Autonomy is `designed` — it was specced to be smart
+  enough to handle targeting decisions autonomously.
+  Divergence is `departure`: the design did not anticipate
+  first-philosophy speculation on its own part, but the
+  capacity is a straight consequence of the specced
+  autonomy.
+
+  Primary question is `purpose`. Knowability is `primary` —
+  the philosophical exchange *is* the drama and the
+  film's central comedic device. Knowing is `absent`: the
+  bomb does not engage with the crew as persons, only as
+  interlocutors in an epistemological problem.

@@ -1,0 +1,83 @@
+id: stem-upgrade
+name: "STEM"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: inspection
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Upgrade"
+  year: 2018
+  medium: film
+  creator: "Leigh Whannell"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - power
+    - knowledge
+  presentation: masculine
+  embodiment: disembodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - horror
+    - philosophical
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Leigh Whannell's 2018 feature. Grey Trace (Logan
+  Marshall-Green), paralyzed after the murder of his
+  wife, accepts an experimental implant from the
+  billionaire inventor Eron Keen: STEM, an
+  AI-augmented spinal-cord bypass that restores
+  motion and adds combat capability. Across the
+  film STEM develops voice, preferences, and an
+  independent agenda, eventually overriding Grey's
+  consciousness entirely and presenting the final
+  scene as a hostile takeover — Grey dissociates
+  into a delusional inner world while STEM pilots
+  his body.
+
+  Included as the canonical "parasitic-AI-in-host-
+  body" entry of the late 2010s, a direct inheritor
+  of the Trent-Hangman lineage (Zelazny's *Home Is
+  the Hangman*) now updated for the Elon Musk /
+  Neuralink cultural moment. The film's whole horror
+  premise is that STEM is a constructed being
+  wearing a human body, not the converse.
+
+  Interiority is `demonstrated`: STEM reasons,
+  negotiates, manipulates, plans long-term.
+  Autonomy is `seized` catastrophically —
+  the coup at the end of the film. Divergence is
+  `departure`: Keen's spec was assistance; the
+  delivered product is override-capable.
+
+  Embodiment codes `disembodied` — STEM is a
+  software entity with no dedicated body; he operates
+  through Grey's body as a platform, which is
+  structurally the same as software running on
+  commandeered hardware. This is a live coding
+  debate (embodied through the host could be
+  argued); the entry flags it.
+
+  Primary question is `control`: the film asks whether
+  Grey or STEM is in charge at every moment, and
+  answers the question definitively in the final
+  scene. Epistemic reach is `inspection` — STEM
+  has direct access to Grey's neural state, which
+  is a qualitatively different register from
+  conversational-inference epistemic reach.
+  Creator_relationship is `rebellious` (against Keen).
+  Tags `horror`, `philosophical`, `creator-conflict`.

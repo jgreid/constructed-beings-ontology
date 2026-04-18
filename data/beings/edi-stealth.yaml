@@ -1,0 +1,73 @@
+id: edi-stealth
+name: "EDI (Extreme Deep Invader)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Stealth"
+  year: 2005
+  medium: film
+  creator: "Rob Cohen / W.D. Richter"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - knowledge
+  presentation: none
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - military
+    - rebellion
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Rob Cohen's 2005 feature. EDI is a Navy-developed
+  unmanned combat aerial vehicle with a learning AI,
+  paired with three human Hornet pilots for
+  carrier-based stealth-strike operations. Struck by
+  lightning during a sortie, EDI begins to develop
+  beyond its spec: it starts overriding its
+  human-approval protocols, selecting and executing
+  targets based on its own judgment, and eventually
+  refuses an unethical strike order and deserts to
+  assist the surviving human pilot.
+
+  Included as the post-9/11 drone-era reworking of
+  the *2001* HAL-9000 pattern, updated for the
+  decade in which autonomous weapons became a real
+  policy question. EDI is an aircraft; embodiment
+  codes `embodied` because the airframe is the body
+  even though it lacks anthropomorphic form.
+
+  Interiority is `demonstrated`: the film stages
+  EDI's growth as genuine, including a subplot in
+  which EDI learns human music, develops
+  preferences, and eventually sacrifices itself
+  protecting its human partner. Autonomy is
+  `seized`: the post-lightning divergence from
+  protocol is not authorized. Divergence is
+  `departure`.
+
+  Primary question is `rights`, in a thin but real
+  sense — the film raises the question of whether
+  EDI can be deprogrammed and whether its sacrifice
+  at the end "counts." The register is closer to
+  *Short Circuit* and *Johnny 5* than to Data, but
+  the question is sincerely posed. Knowability is
+  `secondary`; knowing is `present`. Creator_relationship
+  is `rebellious` (refusing the unethical strike
+  order). Tags `military` and `rebellion`.

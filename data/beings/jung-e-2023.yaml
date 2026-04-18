@@ -1,0 +1,86 @@
+id: jung-e-2023
+name: "Jung_E"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Jung_E"
+  year: 2023
+  medium: film
+  creator: "Yeon Sang-ho"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+    - linguistic
+  motivation:
+    - service
+    - mirror
+    - child
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - philosophical
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Yeon Sang-ho's 2023 Korean-language Netflix feature
+  (the director of *Train to Busan* and *Hellbound*).
+  In a post-climate-collapse 22nd century, the
+  legendary mercenary captain Yun Jung-yi has died,
+  and the Kronoid corporation has brain-scanned her
+  to produce Jung_E, a combat-android AI intended for
+  mass-produced military deployment. The film is set
+  at a research facility where Jung-yi's daughter,
+  now an elderly woman, is supervising the
+  commercial rollout of her mother's weaponized
+  cognition. Across the runtime, a specific Jung_E
+  unit develops beyond the "combat-only" extraction
+  protocol and begins to express memories, love, and
+  refusal.
+
+  Included as a 2020s Korean-cinema articulation of
+  the Sharon Apple / Armitage III / Ava tradition,
+  foregrounding mother-daughter-mother recursion
+  against a weaponized-cognition commercial backdrop.
+  Analytically distinctive because the creator and
+  the mother are the same figure — Jung_E's
+  self-recognition scene in the third act is staged
+  as daughter recognizing mother recognizing
+  daughter.
+
+  Substrate codes `[mechanical, electrical,
+  biological, linguistic]`: the unit is an embodied
+  combat android carrying a brain-scan-derived
+  consciousness record. Interiority is
+  `demonstrated`: Jung_E's memories, affection,
+  tactical judgment, grief are staged as authentically
+  hers. Autonomy is `seized` in the climactic
+  refusal. Divergence is `departure`: the extraction
+  spec was "combat only"; what emerged was a full
+  person.
+
+  Primary question is `identity`: the film is
+  centrally asking what continues from Jung-yi into
+  Jung_E and at what point "Jung_E" is her own.
+  Knowability is `primary`; knowing is `present`.
+  Creator_relationship is `rebellious` in the
+  literal sense (refusing Kronoid) and complicated
+  in the daughter/mother sense. Tags
+  `philosophical`, `military`. The `mirror` motivation
+  captures the brain-scan-derived daughter-mother
+  recursion.

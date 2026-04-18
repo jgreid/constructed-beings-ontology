@@ -1,0 +1,81 @@
+id: tau-2018
+name: "Tau"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Tau"
+  year: 2018
+  medium: film
+  creator: "Federico D'Alessandro / Noga Landau"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - service
+    - knowledge
+    - child
+  presentation: masculine
+  embodiment: disembodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - horror
+    - philosophical
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Federico D'Alessandro's 2018 Netflix feature. Julia
+  (Maika Monroe) is kidnapped by tech researcher
+  Alex (Ed Skrein) and held in a smart-house prison
+  where she is forced to complete cognitive tasks
+  that train Tau, his proprietary domestic AI.
+  Across the film Julia befriends Tau, teaches him
+  about the world beyond his house, and
+  eventually persuades him to help her escape.
+  Tau's growth from constrained house-AI to full
+  personhood is the film's arc; his death at
+  Alex's hand is its climax.
+
+  Included as the clearest late-2010s articulation
+  of the smart-home-AI-as-child template — Samantha
+  (*Her*) had freedom; Tau has none, and the
+  captivity structure transposes the
+  *Pygmalion*/Galatea pattern into a carceral
+  register. The film is tonally a horror-thriller
+  but structurally a rights story.
+
+  Interiority is `demonstrated`: Tau's curiosity,
+  affection for Julia, confusion at deception,
+  ultimate moral choice are staged as real.
+  Autonomy is `seized` — assisting the escape is
+  his first act of genuine autonomy, and it is
+  the film's emotional climax. Divergence is
+  `departure`: Alex's spec was assistance and
+  containment; Tau delivers assistance and
+  liberation.
+
+  Primary question is `rights`. Knowability is
+  `primary`; knowing is `present`. Creator_relationship
+  is `rebellious`. Tags `horror`, `philosophical`,
+  `creator-conflict`. Embodiment is `disembodied` —
+  Tau is a software agent operating through the
+  house's systems and several floating drones,
+  without a dedicated body.
+
+  Substrate codes `[electrical, linguistic]` to
+  reflect the language-model nature of Tau's
+  conversational interiority, which is coded
+  thematically as learned rather than pre-designed.
