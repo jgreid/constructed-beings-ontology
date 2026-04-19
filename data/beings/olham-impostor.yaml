@@ -1,0 +1,81 @@
+id: olham-impostor
+name: "Spence Olham"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: observer
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Impostor"
+  year: 1953
+  medium: short-story
+  creator: "Philip K. Dick (Outspace invaders in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+  motivation:
+    - power
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - passing
+    - horror
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Philip K. Dick's "Impostor" (Astounding, June 1953) is the
+  corpus's archetype of the first-person suspicion-of-self
+  narrative. Spence Olham, a war-research scientist, is accused
+  by Security of being a replacement — a humanoid bomb
+  manufactured by the Outspacers and planted to detonate on a
+  particular verbal cue. Olham insists he is the real Olham;
+  his memories are continuous, his affect is intact, his body
+  registers ordinary. He escapes interrogation, returns to the
+  wreck of the alleged Outspacer landing site to prove the
+  accusation false, and finds the corpse of the real Spence
+  Olham. As he speaks the words "But if that's Olham, then I
+  must be —", the trigger completes and the bomb detonates.
+
+  One of the most compressed and influential stories in
+  American science fiction. Direct ancestor of every "am I
+  what I think I am?" reveal in the subsequent canon: Ash in
+  *Alien*, Rachael in *Blade Runner*, Walter in *Covenant*,
+  countless *Twilight Zone* and *Black Mirror* variants.
+  Adapted as *Impostor* (2001) with Gary Sinise, an entry
+  worth separate treatment if the film is ever added.
+
+  Divergence is `observer`: the story's primary device is that
+  the gap between what Olham is and what the characters (and
+  he, and the reader) think he is, is entirely in perception
+  until the final word. Interiority is `demonstrated` — Dick
+  narrates from Olham's perspective with full inner access
+  throughout, which is what makes the reveal devastating:
+  everything we have been reading is authentic subjective
+  experience and the ontology beneath it is a bomb. The
+  entry's distinctive feature in the corpus is the
+  demonstrated-interiority + observer-divergence combination,
+  which is vanishingly rare. Most observer-divergence entries
+  (Olympia, Ava, the replicants) pair observer with
+  undecidable; Dick's gamble in "Impostor" is to give us full
+  access to a being whose being-itself is fraudulent.
+
+  Primary question is `identity`. Knowability is `primary`;
+  knowing is `present`. Substrate coded `mechanical` +
+  `biological` because the Outspacer bomb is biomimetic
+  through and through — organic tissue wrapped around a
+  nuclear trigger, essentially the premise of every synth
+  thereafter. Creator_relationship `absent` — the Outspacer
+  manufacturers never appear.

@@ -1,0 +1,73 @@
+id: electric-grandmother-bradbury
+name: "The Electric Grandmother"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: primary
+
+metadata:
+  source: 'I Sing the Body Electric! ("I Sing the Body Electric!")'
+  year: 1969
+  medium: short-story
+  creator: "Ray Bradbury (Fantoccini Ltd. in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - companionship
+    - child
+    - service
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - love-story
+    - child-arc
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Bradbury's "I Sing the Body Electric!" (Genesis: 1962 *Twilight
+  Zone* teleplay; 1969 short story collection of the same name;
+  1982 TV movie *The Electric Grandmother*). Three children whose
+  mother has died receive a "Fantoccini Electronic Grandmother" —
+  a robot companion manufactured to their specifications. The
+  Grandmother remembers everything each child tells her, knows
+  each one's preferences in detail, and never tires of attention.
+  She survives the children's childhoods and returns at their
+  old age to care for them again.
+
+  The American counterpart — and in many ways the thematic mirror
+  — of Helen O'Loy (1938, included). Where Helen's story is about
+  a single man's erotic/romantic love for a constructed
+  companion, the Grandmother is the canonical constructed being
+  as *mother* in American letters. The bond is care, not romance;
+  the test of personhood is attention and constancy, not sex.
+  She is the direct literary ancestor of Klara, Roz, and the
+  contemporary corpus of care-robots.
+
+  Interiority is `demonstrated`: Bradbury narrates the
+  Grandmother's interiority plainly throughout, without ever
+  suggesting it might be a performance. Autonomy is `designed`;
+  divergence is `none` — Fantoccini made a caregiver, and a
+  caregiver is what she is. Primary question is `affection` —
+  the story's central question is whether the children can love
+  her and whether her love for them is real. Knowing is
+  `primary`: the knowing-of-each-child is the story's dramatic
+  and thematic core. Knowability is `present`; Bradbury stages
+  the question directly but settles it in the affirmative.
+
+  Creator_relationship `loyal` — she is a Fantoccini product but
+  the devotion is entirely to the family she is sent to serve.
+  Substrate `mechanical` + `electrical`. A foundational entry in
+  the "constructed being as good caretaker" tradition whose
+  21st-century inheritor is Klara.

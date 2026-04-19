@@ -1,0 +1,70 @@
+id: handbots-doctor-who
+name: "The Handbots"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: 'Doctor Who ("The Girl Who Waited")'
+  year: 2011
+  medium: television
+  creator: "Tom MacRae (Two Streams Facility / Apalapucia Interface in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+  presentation: none
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: servile
+  tags:
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *Doctor Who*, "The Girl Who Waited" (Tom MacRae, Eleventh
+  Doctor, September 2011). Amy Pond is trapped in a quarantine
+  facility on Apalapucia, where visitors afflicted with the
+  one-day-lethal Chen-7 virus have been placed in time-
+  accelerated "kindness" streams so they can live out their
+  remaining hours as full subjective lifetimes. The facility's
+  staff consist entirely of the Handbots — faceless humanoid
+  robots whose glowing palms deliver soothing injections. The
+  injections are calibrated for the two-hearted Apalapucian
+  biology. They are fatal to humans. The Handbots greet Amy
+  pleasantly, smilelessly, and attempt to kill her throughout
+  the episode.
+
+  A striking entry in the Doctor Who robot canon and a clear
+  articulation of the "designed kindness as threat" pattern.
+  The Handbots are exemplary `divergence: design`: they are
+  performing their designed function perfectly, and the
+  function is incompatible with the patient. MacRae's script
+  makes explicit that the Handbots are not malfunctioning;
+  they are working as specified. The specification was not
+  written for humans.
+
+  Interiority is `none` — the Handbots do not speak, do not
+  emote, and the episode does not ask what they might be
+  thinking. Primary question is `none`; they are the
+  environment, not characters. Epistemic reach is `behavioral`.
+  Creator_relationship `servile`. Autonomy `designed` —
+  everything they do is the Two Streams Facility's default
+  operational policy.
+
+  The Handbots belong in the corpus as the clearest modern
+  Doctor Who example of the Bradbury Mechanical Hound lineage
+  — infrastructural enforcement automata the text does not
+  individuate. Tag `horror` is the register the episode
+  explicitly plays in.

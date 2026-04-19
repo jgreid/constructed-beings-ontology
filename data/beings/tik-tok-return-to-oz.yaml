@@ -1,0 +1,80 @@
+id: tik-tok-return-to-oz
+name: "Tik-Tok (Return to Oz)"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Return to Oz"
+  year: 1985
+  medium: film
+  creator: "Walter Murch (Smith & Tinker in-narrative)"
+  substrate:
+    - mechanical
+    - magical
+  motivation:
+    - service
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Walter Murch, *Return to Oz* (Disney, 1985). Adaptation of
+  L. Frank Baum's *Ozma of Oz* (1907) and *The Marvelous
+  Land of Oz* (1904), following Dorothy's return to an
+  Oz in ruins. Tik-Tok — the copper-plated Royal Army of
+  Oz mechanical man built by Smith and Tinker, already in
+  the corpus as tik-tok-oz.yaml for the 1907 novel — is
+  one of the film's primary companions, speaking through
+  a (for 1985 Disney Animatronic) uncannily expressive
+  brass face and requiring regular winding of his
+  thinking, speaking, and walking mechanisms.
+
+  Coded as a separate entry from tik-tok-oz on the
+  "films always split" rule. The cards are close but the
+  Murch film's treatment introduces a subtly different
+  register: the 1985 Tik-Tok is more visibly an automaton,
+  requires more explicit maintenance from Dorothy, and
+  functions in the film as a reassuring mechanical
+  presence in an Oz that has become nightmarish.
+
+  Canonical on the Baum-lineage and on the prominence of
+  the 1985 film as the American animated/live-action
+  darker Oz. Murch's Tik-Tok is the first American-film
+  articulation of the Baum mechanical-man, and his
+  design has imprinted on subsequent Oz retellings. The
+  film is also the first major American film to set the
+  Hephaestus-tradition animated copper-man alongside
+  live-actor animation in a studio-scale production.
+
+  Interiority is `claims` — Tik-Tok articulates inner
+  states (exhaustion, cheer, readiness) that the film
+  plays straight without committing on inner life.
+  Autonomy is `designed`. Divergence is `none` — Tik-Tok
+  performs his Royal Army / companion role exactly as
+  Smith and Tinker specified. Primary question is
+  `none`; he is a supporting companion.
+
+  Epistemic reach `conversational`; the film's
+  animatronic design makes his speech both more central
+  and more clearly mechanical than in the novel. Knowing
+  is `present` — his loyalty to Dorothy is stable.
+  Knowability is `absent`. Creator_relationship
+  `servile`. Substrate `mechanical` + `magical` (same
+  as the novel entry — the Royal Army's winding
+  mechanism plus Ozian animation). Tags `canonical`.

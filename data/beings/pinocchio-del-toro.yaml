@@ -1,0 +1,88 @@
+id: pinocchio-del-toro
+name: "Pinocchio (del Toro)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Guillermo del Toro's Pinocchio"
+  year: 2022
+  medium: film
+  creator: "Guillermo del Toro / Mark Gustafson (Geppetto and the Wood Sprite in-narrative)"
+  substrate:
+    - biological
+    - magical
+  motivation:
+    - child
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - child-arc
+    - philosophical
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Guillermo del Toro and Mark Gustafson's stop-motion
+  *Pinocchio* (Netflix, 2022). A reimagining of the Collodi
+  / Disney line set in fascist Italy. Geppetto, a wood
+  carver, loses his son Carlo in a church bombing during
+  the First World War. Years later, in a drunken rage of
+  grief, he cuts down the pine tree Carlo planted and
+  carves a crude puppet meant to replace his son. A Wood
+  Sprite hears his anguish and animates the carving.
+  Pinocchio is conscripted into Italo-Balilla boys' militias,
+  weaponized by a traveling carnival master (Count Volpe),
+  and eventually confronts the question of whether he
+  wants to be a "real boy" — answering no. In del Toro's
+  version, Pinocchio's wooden immortality becomes the
+  vehicle of his grief for Geppetto, whom he outlives.
+
+  Included alongside the original Collodi entry
+  (pinocchio.yaml) and the Disney 1940 film (pinocchio-
+  disney-1940.yaml) because del Toro's film is the first
+  major 21st-century Pinocchio that inverts the Collodi
+  arc: his Pinocchio does not want to become a real boy
+  and does not need to. The film's theological argument
+  is that love, not transformation, is what makes
+  personhood. This is the most philosophically substantial
+  Pinocchio since Collodi and belongs in the corpus as
+  the contemporary endpoint of the lineage.
+
+  Interiority is `demonstrated`: del Toro stages
+  Pinocchio's grief, confusion, and tenderness throughout.
+  Autonomy is `seized` — Pinocchio makes his own choices,
+  against the Podestà's conscription orders, against
+  Volpe, and ultimately against the Blue Fairy's offer of
+  mortality. Divergence is `departure`: Geppetto carved a
+  replacement son; what the Wood Sprite animated becomes a
+  separate person who loves Geppetto specifically by not
+  being Carlo.
+
+  Primary question is `identity`, sharpened: what is it to
+  be a person who cannot die, whose love for a mortal is
+  necessarily terminal? Knowability and knowing are both
+  `primary`. Creator_relationship `loyal` — Pinocchio's
+  devotion to Geppetto is the film's spine.
+
+  Substrate `biological` (Carlo's pine tree is the film's
+  insistence) + `magical` (the Wood Sprite's animation is
+  the film's first-order miracle). Tags `canonical`,
+  `child-arc`, `philosophical`, `creator-conflict` — the
+  film's conflict with the Podestà (state creator figure)
+  and with Volpe (exploiter creator figure) is structurally
+  essential.

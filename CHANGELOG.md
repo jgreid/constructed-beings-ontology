@@ -4,6 +4,37 @@ All notable changes to the Constructed Beings Ontology are documented here.
 
 ---
 
+## [2.4.4] — 2026-04
+
+**Canonical-gap repair: classical, Golden-Age-SF, Star-Trek, anime, games, Toy Story, Pinocchios.** 332 → 409 entries (+77). No schema changes. The largest single expansion since v2.4.2, repairing gaps identified in a systematic scholar-audit of the corpus against Western literature and pop-culture canon. The primary target was foundational / canonical entries the corpus had not yet acknowledged rather than new cultural moments.
+
+### Summary
+
+- **Corpus expanded from 332 → 409 entries (+77, +23%).** Schema unchanged.
+- **Classical / medieval gaps.** Khalkotauroi (Argonautica bronze bulls), Celedones (Pindar singing-maidens), Daedalus's walking statues (Plato's Meno), Albertus Magnus's android (medieval legend). The classical-automaton tradition is now substantially more complete.
+- **Romantic / pulp lineage.** Hawthorne's mechanical butterfly ("The Artist of the Beautiful", 1844), Ellis's Steam Man of the Prairies (1868), Baum's Scarecrow (1900) and Jack Pumpkinhead (1904).
+- **Golden-Age SF.** Asimov's Cutie / Speedy / Liar!-Herbie. Eric Frank Russell's Jay Score. Bradbury's Mechanical Hound and Electric Grandmother. Vonnegut's Salo (*Sirens of Titan*). Philip K. Dick's Simulacrum Lincoln, Buster Friendly, the "Second Variety" Claws, "Impostor" Olham. John Sladek's Roderick.
+- **Contemporary prose SF.** Neuromancer-the-AI (distinct from Wintermute), Hayt (Duncan Idaho ghola, *Dune Messiah*), ART (Murderbot Diaries' *Artificial Condition* onwards).
+- **Star Trek.** Rayna Kapec (TOS "Requiem for Methuselah"), Norman and the Mudd Androids (TOS "I, Mudd"), Professor Moriarty (TNG "Elementary, Dear Data" / "Ship in a Bottle"), Control (Discovery S2). Four canonical Star Trek entries the corpus had been missing.
+- **Doctor Who.** D84 and the Voc Robots ("The Robots of Death", 1977), the Handbots ("The Girl Who Waited", 2011), Jenny ("The Doctor's Daughter", 2008; boundary-deferred flag).
+- **Star Wars.** Chopper (*Rebels*/*Ahsoka*), Triple-Zero (*Darth Vader* comics 2015), D-O (*Rise of Skywalker*).
+- **Toy Story / Disney.** Woody, Buzz Lightyear, Forky, Olaf (*Frozen*), plus source-text splits for the Disney 1940 *Pinocchio* and Guillermo del Toro's 2022 *Pinocchio*. The Pinocchio lineage chain is now Collodi → Disney 1940 → del Toro 2022.
+- **Transformers.** Bumblebee, Starscream, Dinobot (*Beast Wars* "Code of Hero").
+- **Anime / manga canonical additions.** Alphonse Elric (boundary-flagged), Father, and Envy (*Fullmetal Alchemist*); Illyasviel von Einzbern (*Fate/Stay Night*); Dorothy R. Wayneright (*The Big O*); Pino (*Ergo Proxy*); the Puppet Master / Project 2501 (within-source split from kusanagi-gits-1995); Mahoro (*Mahoromatic*); Chachamaru (*Negima*); Yuki Nagato (*Haruhi Suzumiya*); Lime and sisters (*Saber Marionette J*); Ikaros (*Heaven's Lost Property*); Doraemon (scope-boundary flagged).
+- **Video games.** A2, Pascal, Adam and Eve (*NieR: Automata*, within-source splits); Bastion, Zenyatta (*Overwatch*); Helios (*Deus Ex*); Mega Man; WAU (*SOMA*); Harbinger (*Mass Effect*); Aigis (*Persona 3*); The Weapon (*Halo Infinite*).
+- **Misc film/TV.** Colossus: The Forbin Project (1970 film, distinct from 1966 novel); The Questor (*Questor Tapes*); Mechagodzilla; ED-209 (*RoboCop*); Orac and Zen (*Blake's 7*); Quorra (*Tron: Legacy*); Tik-Tok (*Return to Oz* 1985 film, distinct from 1907 novel).
+- **MCU AI cluster.** FRIDAY, KAREN ("Suit Lady"), Ragnarok / Clor (*Civil War* 2006).
+
+### Analytical notes
+
+- **Boundary-case additions.** Three entries admitted with explicit boundary-flag in notes: Alphonse Elric (FMA; born-then-modified vs. constructed ambiguity), Jenny (Doctor Who; progenation-machine ambiguity), Hayt (Dune ghola; cloned-plus-conditioning frame). All flagged for possible exclusion in future revisions if the born-then-modified rule is tightened.
+- **Doraemon scope flag.** Included on foundational-prominence grounds with an explicit note that pre-2020s Western consumption was limited. Future scope revisions may reclassify.
+- **Toy Story ontology.** The four *Toy Story* entries (Woody, Buzz, Forky) articulate the franchise's "love-creates-personhood" thesis; Forky's triple-substrate coding (`biological` + `mechanical` + `magical`) is the corpus's most explicit staging of this ontology.
+- **Sequel-chain repairs.** Pinocchio: Collodi → Disney 1940 → del Toro 2022. Tik-Tok: 1907 novel → 1985 film. Cortana (Halo 4) → The Weapon (Halo Infinite). Claws ("Second Variety") → Screamers (1995).
+- **Within-source splits.** A2, Pascal, Adam-and-Eve are within-source splits from the 2B/9S entries in *NieR: Automata*. Buster Friendly is within-source from the *DADOES* replicants. The Puppet Master is within-source from Kusanagi (1995). Khalkotauroi is within-source from Talos (Argonautica). Neuromancer-the-AI is within-source from Wintermute and Dixie Flatline. These splits follow the corpus's existing ensemble-split convention.
+
+---
+
 ## [2.4.3] — 2026-04
 
 **Bad-TV sidekicks and post-ChatGPT streaming/cinema expansion.** 313 → 332 entries (+19). No schema changes. Two scope repairs: (1) pre-80s and 80s TV sidekick/edge-case androids the earlier expansions missed, and (2) the emerging post-ChatGPT era of mass-culture AI depictions (2023–2025), where AI has visibly moved from SF speculation to daily cultural reference and the character-roles are shifting accordingly.

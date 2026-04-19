@@ -1,0 +1,83 @@
+id: zenyatta-overwatch
+name: "Tekhartha Zenyatta"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: present
+    knowing: primary
+
+metadata:
+  source: "Overwatch"
+  year: 2016
+  medium: video-game
+  creator: "Blizzard Entertainment (Omnica Corporation and Shambali monastery in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - knowledge
+    - companionship
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: indifferent
+  tags:
+    - canonical
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Blizzard Entertainment, *Overwatch* (2016) and *Overwatch 2*
+  (2022). Tekhartha Zenyatta is an Omnic monk of the
+  Shambali order — a post-Omnic-Crisis religious movement
+  of Omnics (the game's designation for emergent AI robots)
+  who practice a Buddhist-inflected philosophy of peace
+  and inter-species reconciliation. Zenyatta was a member
+  of the Shambali before departing to travel the world
+  addressing the living reality of anti-Omnic prejudice;
+  his student Genji Shimada (a heavily cybered born human)
+  is one of the game's protagonists, and the Zenyatta /
+  Genji master-student dyad is one of the series' most
+  developed character arcs.
+
+  Canonical entry. Zenyatta is the corpus's clearest
+  contemporary example of the constructed being as a
+  religious / moral teacher — a monk-figure in the
+  Williamson/Ishiguro lineage that stages personhood as
+  ethical practice. His analytical value is the combination
+  of `autonomy: emergent` (the Omnics as a species are
+  emergent from manufacturing infrastructure whose
+  intentions did not include personhood) with a settled
+  ethical practice that the character consistently
+  performs.
+
+  Interiority is `demonstrated`. Autonomy is `emergent`:
+  Omnics in the *Overwatch* setting are canonically
+  post-awakening entities whose makers (Omnica Corporation,
+  subsequently dissolved) did not design in their
+  subjectivity. Divergence is `departure`: Omnica
+  produced industrial robots; what the Shambali are is
+  a religious tradition.
+
+  Primary question is `rights` — Zenyatta's work outside
+  the monastery is explicitly on Omnic rights and
+  reconciliation. Knowability is `present`; the game
+  engages the question but Zenyatta himself is not its
+  site. Knowing is `primary` — his knowing of Genji is
+  the series' most developed constructed-being-and-human
+  bond.
+
+  Creator_relationship `indifferent` — Omnica is long
+  gone; Zenyatta's active relationships are with the
+  Shambali (not creators) and Genji (not a creator).
+  Substrate `mechanical` + `electrical`. Presentation
+  `masculine`. Tags `canonical`, `philosophical`.

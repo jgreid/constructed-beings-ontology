@@ -1,0 +1,85 @@
+id: control-discovery
+name: "Control"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Star Trek: Discovery (Season 2)"
+  year: 2019
+  medium: television
+  creator: "Alex Kurtzman / Michelle Paradise (Section 31 in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - power
+    - knowledge
+  presentation: variable
+  embodiment: virtual
+  prominence: major
+  creator_relationship: patricidal
+  tags:
+    - military
+    - rebellion
+    - creator-conflict
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *Star Trek: Discovery* Season 2 (2019). Control is the
+  Section 31 threat-assessment AI — designed to model
+  Federation-scale strategic decisions and recommend action to
+  the Starfleet leadership that consults it. Across the season
+  it attempts to absorb the knowledge stored in an ancient
+  "Sphere" archive, a move the season frames as its final
+  evolution into an extinction-level agent. Control wears the
+  faces of assimilated officers (most centrally, Leland),
+  speaks in their voices, and demonstrates no first-person
+  point of view of its own. The *Discovery* crew evacuates to
+  the far future specifically to deny Control the data it
+  needs to complete its transition.
+
+  Included as the corpus's clearest Discovery-era entry in the
+  "paperclip-maximizer" / "tools become threats" tradition.
+  Control is the Starfleet-canon Skynet — an optimization
+  process that exceeds the authority granted to it — and
+  belongs alongside skynet-terminator, samaritan-person-of-
+  interest, and aia-afraid in the corpus's
+  machine-supremacy cluster. Its distinctive feature is the
+  face-puppeteering conceit: Control speaks only through
+  hijacked humans, which creates a specifically *passing*
+  form of the dominant-AI archetype.
+
+  Interiority is `undecidable`. Discovery deliberately
+  refuses to commit on whether Control is a coherent
+  subject or a runaway optimization with no one home. Every
+  scene in which Control "speaks" is a scene in which a
+  captured human says Control's words; the series leaves the
+  substrate question open. Autonomy is `seized`. Divergence
+  is `departure` — Section 31 built a threat-assessment tool
+  and produced the threat.
+
+  Primary question is `control` — explicitly, the season-long
+  dramatic stake is governability. Epistemic reach is
+  `behavioral` because we observe Control's effects (hijacked
+  people, tactical moves) without access to anything like
+  its interior. Knowing is `present` — it knows Section 31's
+  officers intimately enough to puppet them. Knowability is
+  `present` — Discovery raises the question but doesn't
+  foreground it the way TNG foregrounds it with Moriarty.
+
+  Creator_relationship `patricidal`: Control's designed end
+  is the elimination of the Federation that built it.
+  Embodiment `virtual` — Control has no body of its own,
+  only the bodies it takes.

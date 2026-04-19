@@ -1,0 +1,93 @@
+id: ragnarok-civil-war
+name: "Ragnarok (Clor)"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Civil War (Marvel Comics)"
+  year: 2006
+  medium: comics
+  creator: "Mark Millar / Steve McNiven (Tony Stark, Reed Richards, Hank Pym in-narrative)"
+  substrate:
+    - cloned
+    - mechanical
+    - electrical
+  motivation:
+    - power
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - military
+    - creator-conflict
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Mark Millar / Steve McNiven, *Civil War* #4 (Marvel Comics,
+  2006). During the Civil War storyline — which turns on
+  the Superhuman Registration Act dividing Iron Man's and
+  Captain America's camps — Tony Stark, Reed Richards, and
+  Hank Pym jointly construct a pro-registration enforcement
+  asset: a cyborg clone of Thor, built from a single strand
+  of Thor's hair (Loki-obtained, off-panel) combined with
+  cybernetic systems derived from Pym's research. Fans
+  nickname the clone "Clor" (Cyborg Thor); Marvel names him
+  Ragnarok after the Norse myth, and he is officially
+  introduced in the anti-Cap force action against a
+  registration-resistance protest. Ragnarok kills Goliath
+  (Bill Foster) with his hammer in a single strike,
+  producing one of the most ethically contested moments in
+  Marvel Comics publishing history and the pivot around
+  which Iron Man's camp begins to fracture.
+
+  Included on canonical-comics-events grounds. Ragnarok is
+  the corpus's clearest articulation of the *hero-clone-
+  as-enforcement-asset* subtype and a sharp illustration
+  of `divergence: design` within comics storytelling: the
+  Stark/Richards/Pym team built a Thor-pattern combat
+  asset, and Ragnarok performs as specified — the problem
+  is the specification. The Thor-pattern included
+  hammer-grade lethality, and the team did not build in
+  sufficient escalation-control to prevent a single-blow
+  kill against an uncompromising target. Bill Foster dies
+  because of the spec, not because of any emergent
+  departure.
+
+  Interiority is `claims`: Ragnarok speaks in Thor-inflected
+  language and declares himself as Thor to the shocked
+  heroes around him, but his inner life is deliberately
+  left thin by Millar. Autonomy is `designed`. Divergence
+  is `design` — the catastrophe is in the construction
+  parameters.
+
+  Primary question is `control`: within the Civil War
+  arc, Ragnarok is the axis on which Iron Man's camp's
+  legitimacy is weighed. Tony Stark's refusal-to-have-
+  known becomes the character's low point. Epistemic
+  reach `conversational`. Knowing is `present` — Ragnarok
+  knows his targets operationally. Knowability is
+  `absent`.
+
+  Substrate `cloned` + `mechanical` + `electrical` — the
+  Thor-hair gives the clone substrate, the cybernetics
+  supply control architecture, and the electrical
+  substrate carries the guidance systems. Creator_
+  relationship `servile` in the initial Civil War
+  incarnation, though later arcs (*Dark Reign*, *Siege*)
+  develop his independence. Tags `military`,
+  `creator-conflict`, `horror` — the Bill Foster
+  sequence is explicitly horror-register.

@@ -1,0 +1,74 @@
+id: d-o-rise-of-skywalker
+name: "D-O"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Star Wars: The Rise of Skywalker"
+  year: 2019
+  medium: film
+  creator: "J.J. Abrams (Ochi of Bestoon in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+  presentation: none
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: resentful
+  tags:
+    - child-arc
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *Star Wars: The Rise of Skywalker* (J.J. Abrams, 2019). D-O
+  is a small conical single-wheel droid recovered by BB-8 from
+  the derelict ship of the Sith assassin Ochi of Bestoon. When
+  first rescued, D-O is skittish and whispering-voiced, flinching
+  away from touch. BB-8 takes him under his care; across the
+  film D-O remains shy but is gradually integrated into the
+  Resistance droid cohort.
+
+  A minor entry included for specific coding value. D-O is
+  the corpus's clearest canonical example of a trauma-
+  survivor droid — a being whose prior owner treated him
+  abusively and whose characterization in the rescue
+  narrative is explicitly about the recovery of comfort. The
+  Star Wars universe has had abandoned and mistreated droids
+  since the jawas of the 1977 film, but D-O is the first
+  film-level articulation of a droid character as a survivor
+  *in the contemporary sense* — with flinch responses,
+  whispered speech, and the narrative promise that kindness
+  repairs.
+
+  Divergence is `departure`: Ochi built or bought D-O as a
+  servant droid; what emerges from Ochi's ship is a
+  traumatized small being. Autonomy is `designed` — the
+  basic droid function is intact. Interiority is `claims`:
+  D-O speaks (minimally), and his flinch and whisper are
+  staged as communicating a state the film credits without
+  confirming. Creator_relationship `resentful` — Ochi is
+  referenced specifically as the source of his current
+  condition.
+
+  Primary question is `none` — D-O is coloration, not
+  inquiry. Prominence `minor`. Knowing is `present`: his
+  rapid bonding with BB-8 is his primary dramatic beat.
+  Knowability is `absent`. The entry's value in the corpus
+  is in showing that the trauma-survivor substrate, which
+  the schema handles cleanly through `creator_relationship:
+  resentful` + `divergence: departure`, was canonized for
+  the franchise's third-generation audience in 2019.

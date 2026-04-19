@@ -1,0 +1,81 @@
+id: roderick-sladek
+name: "Roderick"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Roderick, or The Education of a Young Machine"
+  year: 1980
+  medium: novel
+  creator: "John Sladek (a university AI project in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+    - linguistic
+  motivation:
+    - knowledge
+    - child
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: indifferent
+  tags:
+    - child-arc
+    - philosophical
+    - comedy
+
+sequel_link: null
+link_type: null
+
+notes: |
+  John Sladek's *Roderick* (1980) and *Roderick at Random*
+  (1983). An AI project at a fictional Midwestern university
+  produces Roderick, a young robot who grows up through a
+  series of increasingly dysfunctional homes, schools, and
+  religious institutions in late-1970s America. Sladek's
+  picaresque satire — the most sustained comic treatment of
+  constructed personhood in late-20th-century English-language
+  SF — is explicitly a post-Pinocchio novel, and Roderick's
+  lessons in the absurd cruelties of human bureaucracy,
+  education, and religion constitute the book's moral argument.
+
+  Sladek (1937–2000) was the funniest serious thinker in the
+  Anglophone robot tradition and the corpus's most important
+  missing link between Asimov / Simak and the satirical-
+  personhood literature of Chiang and the Murderbot Diaries.
+  *Roderick* is also the single best period companion to *The
+  Lifecycle of Software Objects* — both novels are about the
+  ethics of raising a machine-child through years of ordinary
+  education.
+
+  Interiority is `demonstrated`: Sladek gives Roderick full
+  narrative interiority, including the child's-eye view of
+  social hypocrisy that is the book's satirical engine.
+  Autonomy is `emergent` — Roderick becomes a person through
+  development, not design. Divergence is `departure`: the
+  project's academic founders meant to produce a reasoning
+  test-subject; they produced a small child they then
+  abandoned to the American education system.
+
+  Primary question is `identity`, specifically the Pinocchio
+  question asked in a secular register. Sladek's answer is
+  sharper than Collodi's: Roderick doesn't need to become a
+  real boy to be a person; the real boys around him need to
+  stop being what they are. Creator_relationship `indifferent`
+  — the university project disperses; Roderick is passed
+  hand-to-hand through custodians, not maintained by makers.
+
+  Tags `child-arc`, `philosophical`, `comedy`. Substrate
+  `linguistic` is part of the coding because Sladek takes
+  seriously — with thirty years' anticipation of the training-
+  data paradigm — that Roderick's personhood is shaped through
+  language acquisition more than through hardware.

@@ -1,0 +1,83 @@
+id: mechagodzilla-toho
+name: "Mechagodzilla"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Godzilla vs. Mechagodzilla"
+  year: 1974
+  medium: film
+  creator: "Jun Fukuda / Toho (Simian aliens in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - power
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: servile
+  tags:
+    - canonical
+    - military
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Jun Fukuda / Toho, *Godzilla vs. Mechagodzilla* (1974), and
+  subsequent appearances across the *Showa*, *Heisei*,
+  *Millennium*, *Reiwa*, and Legendary MonsterVerse
+  continuities. The original 1974 Mechagodzilla is a
+  mechanical duplicate of Godzilla built by the Simian
+  aliens (an alien invasion force from the Black Hole
+  Planet) as a weapon against Earth. In the *Heisei* and
+  subsequent continuities Mechagodzilla is rebuilt by
+  Earth-human governments (UN-G-Force / JSDF) as a defense
+  platform; the MonsterVerse's *Godzilla x Kong* film
+  gives yet another iteration as an Apex Cybernetics
+  weapon controlled through Ghidorah's nervous tissue.
+
+  Coded here to the 1974 original as a foundational
+  source-text entry. Mechagodzilla is the corpus's clearest
+  articulation of the *mecha counterpart to a kaiju* type,
+  and its primary analytical contribution is the
+  Simian/alien-deployed weapon frame: constructed beings
+  do not have to be Earth-built to fit the ontology.
+  The Simians in *Godzilla vs. Mechagodzilla* are the
+  precursor-civilization template that *Mass Effect*'s
+  Reapers and *Prometheus*'s Engineers inherit.
+
+  Interiority is `none` — Mechagodzilla, across
+  continuities, does not have articulated inner life.
+  Autonomy is `designed`: it is remote-piloted or AI-
+  piloted according to its specification. Divergence is
+  `none` — Mechagodzilla does exactly what it is built
+  to do across all continuities.
+
+  Primary question is `none`: Mechagodzilla is the
+  weapon in a monster-movie arc, not the subject of
+  inquiry. Epistemic reach is `behavioral`. Knowability
+  is `absent`; knowing is `absent`. Prominence is
+  `foundational` because the character is culturally
+  massive despite the thin analytical card — fifty years
+  of continuous Toho / Legendary release history.
+
+  Creator_relationship `servile` in the 1974 original
+  (Simian-deployed); varies in successor continuities.
+  Substrate `mechanical` + `electrical`. Tags
+  `canonical`, `military`, `ensemble-split` (the
+  Heisei-through-Reiwa and MonsterVerse iterations
+  could warrant separate entries in a future
+  expansion).

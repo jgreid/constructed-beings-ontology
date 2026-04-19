@@ -1,0 +1,87 @@
+id: buzz-lightyear-toy-story
+name: "Buzz Lightyear"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Toy Story"
+  year: 1995
+  medium: film
+  creator: "John Lasseter / Pete Docter / Joe Ranft (Al's Toy Barn / Lightyear merchandise in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+    - magical
+  motivation:
+    - service
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: absent
+  tags:
+    - canonical
+    - passing
+    - philosophical
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Pixar's *Toy Story* (1995) and sequels. Buzz Lightyear is a
+  Space Ranger action figure of the Star Command/Lightyear
+  merchandising line — released as Andy's birthday present,
+  brand new, with his factory "demo mode" convictions still
+  intact. When first activated in Andy's room he is convinced
+  he is a real Space Ranger dispatched to Earth on a mission
+  against Emperor Zurg; the central first-act arc of *Toy
+  Story* is Buzz's accidental discovery of a television
+  commercial for his own product line, and the ensuing
+  breakdown.
+
+  Buzz's analytical importance in the corpus is the cleanness
+  with which he stages the *manufactured-self-concept*
+  problem. Where Sonny (*I, Robot* 2004) asks "can a robot
+  have a soul?", Buzz asks the inverse: "what am I when I
+  discover I was built to believe I was something I am not?"
+  The first film's answer is that being a toy — being loved
+  by Andy — is a genuine identity, and Buzz's acceptance of
+  it is his development arc. The subsequent films explore
+  iterations of the same question (other Buzzes with factory-
+  intact convictions, the restored factory-default Buzz in
+  *Toy Story 3*, and *Lightyear* (2022) reopening the in-
+  universe Buzz character as a film-within-a-film).
+
+  Interiority is `demonstrated` throughout. Autonomy is
+  `designed` — Buzz begins within his factory parameters and
+  discovers his autonomy by the end of the first film; later
+  films generally keep him within the designed envelope.
+  Divergence is `departure`: he was manufactured as a toy
+  with scripted convictions; what he becomes is a toy with
+  chosen loyalties and a friendship with Woody.
+
+  Primary question is `identity` — the canonical articulation
+  in the franchise, and one of the sharpest identity-axis
+  entries in the corpus. The "I am not a toy" / "I am a
+  toy" pivot is as clean a `divergence: departure` illustration
+  as the corpus contains. Knowability and knowing are both
+  `present`.
+
+  Creator_relationship `absent` — Al's Toy Barn / Star
+  Command merchandising is the manufacturer-of-record but
+  does not function as creator in any active sense.
+  Substrate `mechanical` + `electrical` + `magical`; the
+  films stage Buzz's wrist buttons, helmet electronics, and
+  voice synthesis as technology while the animating principle
+  remains unexplained. Tags `passing`, `philosophical`,
+  `ensemble-split`.

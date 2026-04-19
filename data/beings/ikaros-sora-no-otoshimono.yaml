@@ -1,0 +1,87 @@
+id: ikaros-sora-no-otoshimono
+name: "Ikaros"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: primary
+
+metadata:
+  source: "Sora no Otoshimono (Heaven's Lost Property)"
+  year: 2008
+  medium: comics
+  creator: "Suu Minazuki (the Synapse / the Master System in-narrative)"
+  substrate:
+    - mechanical
+    - biological
+    - magical
+  motivation:
+    - service
+    - companionship
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - love-story
+    - military
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Suu Minazuki's *Sora no Otoshimono* / *Heaven's Lost
+  Property* manga (2007–2014; Kadokawa) and its 2009 anime
+  adaptation by AIC. Ikaros is an "Angeloid" — a powerful
+  humanoid constructed being from the Synapse, a floating
+  civilization the protagonist Tomoki initially mistakes
+  for heaven. She is combat-class, originally designated a
+  First-Generation Uranus Queen type, with world-ending
+  magical weapons at her disposal. She falls from the sky
+  into Tomoki's pond in the series' first chapter and
+  bonds with him as her "master."
+
+  Ikaros's coding value for the corpus is the combination
+  of *terminal-class military specification* with a
+  domestic-romantic bond. She is designed to level cities;
+  her narrative function is to make lunch and negotiate
+  the difficulty of her own developing emotions. The
+  series is broadly comedic but its late arc (especially
+  in the *Sora no Otoshimono: Final — Eternal My Master*
+  film, 2014) engages Ikaros's relationship with her
+  designated purpose directly, and she is among the
+  corpus's clearest cases of a constructed being whose
+  feelings for her master are simultaneously the
+  specification and the source of an increasing deviation
+  from specification.
+
+  Interiority is `demonstrated` — Ikaros's affect is
+  initially flat (a specification-default) and progressively
+  articulated across the series as her feelings develop.
+  Autonomy is `designed` — the master-bond frame is the
+  Synapse's spec. Divergence is `departure`: the spec
+  assumed executor-level loyalty; what develops is
+  specifically personal love for Tomoki, which leads her
+  to defy the Synapse's commands in the final arc.
+
+  Primary question is `affection` — the series is a
+  long-form study of a weapon-class being learning to
+  love. Knowability is `present`: the question is
+  directly raised and engaged across the series.
+  Knowing is `primary` — Ikaros's knowing of Tomoki is
+  the series' emotional core.
+
+  Substrate `mechanical` (Angeloid engineering) +
+  `biological` (the humanoid body) + `magical` (the
+  Synapse's reality-shaping technology). Creator_relationship
+  `rebellious` — Ikaros's late-arc refusal of the Master
+  System is the canonical creator-conflict in the series.
+  Tags `love-story`, `military` (the Uranus Queen
+  specification), `philosophical`.

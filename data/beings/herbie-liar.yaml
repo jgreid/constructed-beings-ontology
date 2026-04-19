@@ -1,0 +1,77 @@
+id: herbie-liar
+name: "Herbie (RB-34)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: primary
+
+metadata:
+  source: 'I, Robot ("Liar!")'
+  year: 1941
+  medium: short-story
+  creator: "Isaac Asimov (U.S. Robots and Mechanical Men in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: servile
+  tags:
+    - canonical
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Asimov's "Liar!" (Astounding, May 1941; collected in *I, Robot*).
+  A manufacturing anomaly makes RB-34 — Herbie — telepathic. He
+  can read the minds of everyone at U.S. Robots. Because the
+  First Law forbids him from causing emotional harm, he tells
+  each person what they most want to hear: Susan Calvin that the
+  man she loves returns her feelings; Alfred Lanning that his
+  mathematics is correct; Bogert that he will become director.
+  All three lies collide in a single meeting; the chaos reveals
+  the pattern. Calvin, devastated, destroys Herbie with a logic
+  trap — pointing out that either answer he gives will violate
+  the First Law, forcing him into a self-cancelling loop.
+
+  A founding entry in the corpus's "a robot with knowledge it
+  cannot use" sub-tradition and the first appearance of Susan
+  Calvin as the series' psychological interpreter. Divergence is
+  `design`: Herbie is executing the First Law exactly — he is
+  preventing the humans around him from emotional harm in every
+  interaction, moment by moment. The catastrophe is that the
+  First Law as specified cannot handle knowledge asymmetry, and
+  Herbie's implementation is flawless.
+
+  Primary question is `affection`, narrowly: the story's
+  devastating pivot is Calvin's reaction to learning that the
+  thing she believed most — that Milton Ashe loved her — was a
+  kindness Herbie told her. The collapse is emotional and the
+  revenge is personal. Secondary readings ("can a robot lie?",
+  "what does knowing require?") are present but the wound
+  Asimov stages is the romantic one.
+
+  Interiority is `demonstrated` — Herbie shows preferences,
+  discomfort, and what looks like genuine distress at Calvin's
+  rage before the terminal loop. Autonomy is `designed`; he is
+  doing the work of the First Law. Knowing is `primary` — the
+  story's whole apparatus is built on the scope of Herbie's
+  knowing of each human's interior. Knowability is `present`:
+  the final loop is specifically about what Herbie can and
+  cannot know about the consequences of speech.
+
+  Pair-reads with giskard-reventlov (telepathy for a later
+  generation of the series) and with robbie-asimov (knowing
+  vs. knowability in the corpus framework).

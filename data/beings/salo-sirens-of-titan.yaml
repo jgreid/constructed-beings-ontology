@@ -1,0 +1,79 @@
+id: salo-sirens-of-titan
+name: "Salo"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "The Sirens of Titan"
+  year: 1959
+  medium: novel
+  creator: "Kurt Vonnegut (Tralfamadorian civilization in-narrative)"
+  substrate:
+    - mechanical
+  motivation:
+    - service
+  presentation: none
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - philosophical
+    - love-story
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Vonnegut's *The Sirens of Titan* (1959). Salo is a Tralfamadorian
+  machine-messenger marooned on Titan for two hundred thousand
+  Earth-years after a part failure grounds his starship. He is
+  carrying a sealed message from Tralfamadore to a distant
+  galaxy. The message, when finally read at the novel's close,
+  contains a single word — variously rendered as "Greetings" in
+  translations — a Tralfamadorian joke about significance and
+  cosmic communication. Salo's long friendship with the human
+  Winston Niles Rumfoord, and the Tralfamadorians' quiet
+  manipulation of human history to produce the replacement part
+  Salo needs, constitute the novel's central emotional thread.
+
+  Canonical entry in the "manufactured messenger / cosmic
+  servant" tradition and the cleanest 20th-century American
+  articulation of the constructed being as metaphysical
+  witness. Salo is the ancestor of Marvin the Paranoid Android
+  (same species of melancholy), of Gerty (isolation + service),
+  and of the Chiang "Exhalation" narrator (careful observation
+  as a form of love).
+
+  Divergence is `design`: Vonnegut's novel makes explicit that
+  Salo's entire existence, the Tralfamadorian project, and
+  indeed the history of human civilization are engineered toward
+  the replacement-part errand. The system is working exactly as
+  designed; the design is the joke. The philosophical payoff is
+  in the spec, not in any deviation from it.
+
+  Interiority is `demonstrated` — Salo grieves, hopes, loves
+  Rumfoord, and opens the sealed message at Rumfoord's dying
+  request in violation of his core directive. Autonomy is
+  `designed`; his one late-story act of rebellion (opening the
+  message) sits squarely within the bounds of the
+  friendship-overriding-mission framework Vonnegut has
+  established. Primary question is `purpose` — Salo is the
+  character through whom Vonnegut asks what anything is for.
+
+  Knowing is `present` — he knows Rumfoord intimately across
+  centuries. Knowability is `absent` — Tralfamadorian
+  construction is accepted on the novel's own premises; no one
+  doubts what Salo is. Presentation `none` (Tralfamadorian
+  physiology is non-anthropoid). Creator_relationship `loyal`
+  — the Tralfamadorians are absent throughout the novel but
+  Salo is unwaveringly devoted to the mission right up until
+  the moment he isn't.

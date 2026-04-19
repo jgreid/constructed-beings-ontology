@@ -1,0 +1,73 @@
+id: jack-pumpkinhead-oz
+name: "Jack Pumpkinhead"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "The Marvelous Land of Oz"
+  year: 1904
+  medium: novel
+  creator: "L. Frank Baum (Tip in-narrative)"
+  substrate:
+    - biological
+    - magical
+  motivation:
+    - companionship
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - child-arc
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *The Marvelous Land of Oz* (Baum, 1904). Tip — a boy being
+  raised by the witch Mombi — assembles Jack Pumpkinhead from
+  a carved pumpkin head, wooden body and limbs, and old
+  clothes, originally intending the figure as a prank to
+  frighten Mombi. Mombi inadvertently brings Jack to life by
+  testing her newly acquired Powder of Life on him. Jack then
+  addresses Tip as "Father," a relation that persists across
+  all subsequent appearances in the Oz series and inverts the
+  creator-relationship line of the tradition — the maker is a
+  child, the made thing is avuncular.
+
+  Jack is slow of thought, unable to remember things for long,
+  and convinced that his head is going to spoil. His simple-
+  mindedness is played for comedy but never mockery; Baum
+  treats him as genuinely emotionally present, particularly in
+  his devotion to Tip / Ozma. The Powder of Life is the same
+  mechanism that animates the Sawhorse and the Gump in the
+  same novel — one of Baum's cleanest articulations of the
+  "substrate is arbitrary; what matters is the animating
+  principle" rule that runs throughout Oz.
+
+  Interiority is `demonstrated` — Jack speaks, worries, loves,
+  forgets; Baum stages his mental life plainly. Autonomy is
+  `designed` — Jack does roughly what he was animated to do
+  (be a constructed companion), though Tip's intent was a
+  prank and the Powder of Life took the joke further than
+  expected. Divergence is `none`: the outcome sits close
+  enough to the author's framing that it does not read as a
+  departure. Primary question is `affection`: Jack's bond
+  with Tip / Ozma is his narrative function. Knowing is
+  `present`; knowability is `absent` — no one in the story
+  doubts that Jack is what he looks like.
+
+  Substrate `biological` + `magical` — pumpkin, wood, and
+  Ozian animating powder, same ontology as the Scarecrow.
+  Creator_relationship `loyal` — Jack calls Tip "Father" and
+  the devotion is stable across the entire series.

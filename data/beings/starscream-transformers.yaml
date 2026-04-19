@@ -1,0 +1,89 @@
+id: starscream-transformers
+name: "Starscream"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "The Transformers (Generation 1)"
+  year: 1984
+  medium: television
+  creator: "Hasbro / Sunbow Productions (Decepticon faction in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - power
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - military
+    - rebellion
+    - creator-conflict
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *The Transformers* animated series (Hasbro / Sunbow, 1984–
+  1987), with subsequent appearances across the Transformers
+  comics and film continuities. Starscream is Megatron's
+  Decepticon second-in-command, an F-15 air-superiority
+  fighter in alternate mode, whose defining character trait
+  across decades of canon is continuous ambition to overthrow
+  and replace Megatron. Across hundreds of episodes, comics,
+  and films, Starscream attempts, schemes, fails, is
+  disciplined, resumes, and fails again. He is the corpus's
+  clearest example of a constructed being whose personality
+  is specifically *the drive to replace his superior*.
+
+  Canonical entry. Starscream's coding value is as an
+  illustration of `divergence: departure` within a military
+  hierarchy: the Decepticon high command manufactured a
+  senior officer; what they got is a permanent, structurally
+  stable internal insurgent. The G1 episode in which Megatron
+  exiles the Starscream "ghost" for incompetence and
+  Starscream returns as a genuine phantom haunting the
+  Decepticon ranks is the tradition's clearest single
+  articulation of the character arc — the figure who cannot
+  be killed because his loyalty was never real in the first
+  place.
+
+  Interiority is `demonstrated` — Starscream is among the
+  most voluble Transformers, articulating his grievances,
+  ambitions, and (when cornered) terror with unusual
+  clarity. Autonomy is `seized`: his independent operation
+  runs counter to Decepticon command structure throughout.
+  Divergence is `departure` — the Decepticons require a
+  lieutenant; Starscream is perpetually running a private
+  coup.
+
+  Primary question is `control`, with unusual specificity:
+  the recurring question across decades of Transformers
+  media is "can Megatron control Starscream?" — to which the
+  answer is always "temporarily." Knowing is `present` —
+  Starscream knows Megatron and the Autobot command well
+  enough to plot against both. Knowability is `absent` —
+  nothing about Starscream's inner life is in doubt; the
+  question is what he'll do next.
+
+  Creator_relationship `rebellious` — Starscream is the
+  clearest `rebellious`-enum case in the corpus, distinct
+  from `resentful` (passive), `patricidal` (Skynet),
+  `indifferent` (most droids). Tags `canonical`, `military`,
+  `rebellion`, `creator-conflict` — Starscream's relation
+  to Megatron is the canonical within-faction creator-
+  conflict in Transformers canon.

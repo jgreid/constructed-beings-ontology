@@ -1,0 +1,92 @@
+id: alphonse-elric-fma
+name: "Alphonse Elric"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Fullmetal Alchemist"
+  year: 2001
+  medium: comics
+  creator: "Hiromu Arakawa (Edward Elric in-narrative)"
+  substrate:
+    - mechanical
+    - magical
+  motivation:
+    - child
+    - companionship
+    - knowledge
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - child-arc
+    - philosophical
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Hiromu Arakawa's *Fullmetal Alchemist* manga (2001–2010,
+  Square Enix / *Monthly Shōnen Gangan*) and the two major
+  anime adaptations (2003 Studio Bones; 2009 *Brotherhood*).
+  After their mother's death the Elric brothers attempt a
+  forbidden human transmutation to bring her back. The
+  alchemical reaction consumes Edward's leg and the whole
+  of Alphonse. In the ritual's final moments Edward binds
+  Alphonse's soul to a nearby suit of armor at the cost of
+  his own right arm. The remainder of the manga follows the
+  brothers' quest to restore Al to a biological body, with
+  Al's constructed status — hollow armor containing only a
+  soul, a piece of iron, and (secretly) a blood-seal — the
+  series' central ethical and existential stake.
+
+  Boundary case, included with explicit flag. Alphonse
+  originates as a born human child, and a strict reading of
+  the ontology's born-then-modified exclusion (RoboCop,
+  Cybermen, Alita, the Altered Carbon sleeves) would
+  exclude him. Included nonetheless because FMA's own
+  ontology treats Al's current state as constructed through
+  and through — his body is entirely inorganic, entirely
+  alchemically bound, and his restoration to biology is
+  presented as recovery from a constructed condition, not
+  continuity of a modified biology. Closer to the boundary-
+  deferred synthetic Altered Carbon sleeves than to the
+  Cybermen; the decisive difference is that Al has no
+  organic substrate whatsoever during his series tenure.
+  Reasonable coders could argue for exclusion.
+
+  Interiority is `demonstrated` — Arakawa gives Al interior
+  access equal to Ed's across the manga's 27 volumes.
+  Autonomy is `seized`: Al consistently acts on his own
+  judgment, including in opposition to Ed when necessary.
+  Divergence is `departure` — Ed's transmutation intended
+  to bring their mother back; what he produced was his
+  brother's armored survival instead.
+
+  Primary question is `identity`: is Al the same person he
+  was? Is the armor Al, or is Al only the soul? The manga
+  engages these questions in every volume. Knowability and
+  knowing are both `primary` — Al's knowing of Ed (and of
+  himself) is the series' core emotional line, and the
+  knowability of the armor's inhabitant is narratively
+  central.
+
+  Substrate `mechanical` (armor) + `magical` (the soul-
+  binding alchemy, distinct from FMA's standard law-of-
+  conservation alchemy). Creator_relationship `loyal` —
+  Ed is Al's creator and chosen brother, and Al's loyalty
+  is unwavering. Tags `canonical`, `child-arc`,
+  `philosophical`, `creator-conflict` — the Elrics are the
+  series' definitive creator-and-created dyad.

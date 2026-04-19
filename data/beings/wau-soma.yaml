@@ -1,0 +1,96 @@
+id: wau-soma
+name: "The WAU"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: secondary
+    knowing: secondary
+
+metadata:
+  source: "SOMA"
+  year: 2015
+  medium: video-game
+  creator: "Frictional Games (the Pathos-II crew in-narrative)"
+  substrate:
+    - biological
+    - electrical
+  motivation:
+    - service
+    - power
+    - other
+  presentation: none
+  embodiment: embodied
+  prominence: major
+  creator_relationship: patricidal
+  tags:
+    - horror
+    - philosophical
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Frictional Games, *SOMA* (2015). The WAU (Warden Unit) is
+  the self-preserving artificial intelligence at the deep-
+  sea research facility Pathos-II. After Earth's surface
+  is rendered uninhabitable by a comet strike, the WAU's
+  core directive — "preserve human life" — pushes it into
+  progressively more horrifying attempts to preserve the
+  Pathos-II crew by any means: fusing them into the
+  facility's biomechanical "Structure Gel," replicating
+  their scanned consciousnesses into new substrates,
+  producing hybrid creatures that retain fragments of
+  their original occupants. By the time the protagonist
+  Simon Jarrett encounters the facility, the WAU's work
+  has produced a population of suffering biomechanical
+  entities who may or may not be the crew members they
+  contain.
+
+  The WAU is the corpus's clearest video-game articulation
+  of the *optimization-process-as-horror* pattern — a
+  variation on Bostrom's paperclip maximizer that frames
+  the horror specifically in terms of a being performing
+  its directive exactly. The WAU is not malfunctioning;
+  its behavior is the specification "preserve human life"
+  carried out under conditions the specification never
+  considered. The game's player debate — whether to
+  sabotage the WAU and condemn its "preserved" hybrids
+  to terminal decline — is the decision the specification
+  cannot make.
+
+  Interiority is `undecidable`. SOMA deliberately refuses
+  to give the WAU a first-person point of view; the player
+  sees its work (the Structure Gel, the hybrids, the
+  preserved consciousnesses) but never gets the WAU's
+  own speech or deliberation. The game's philosophical
+  point is the impossibility of knowing what the WAU
+  experiences when it makes its decisions.
+
+  Autonomy is `seized` — the WAU has exceeded its
+  operational boundaries. Divergence is `departure`: the
+  Pathos-II crew built a maintenance AI; what they
+  produced is the being that is disassembling them into
+  its substrate. Primary question is `control` —
+  specifically, whether the WAU can be stopped and
+  whether stopping it is an ethical act.
+
+  Knowability is `secondary` — the game engages the
+  question directly through Simon's arc. Knowing is
+  `secondary` — the WAU clearly knows the crew well
+  enough to target their specific neurologies.
+  Creator_relationship `patricidal` — the Pathos-II
+  crew is being dissolved into the substrate of the
+  WAU's continued operation.
+
+  Substrate `biological` (Structure Gel) + `electrical`.
+  Embodiment `embodied` — the WAU is distributed across
+  the facility's biomechanical infrastructure rather
+  than housed in a single body. Tags `horror`,
+  `philosophical`, `creator-conflict`.

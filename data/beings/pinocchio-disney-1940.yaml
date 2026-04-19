@@ -1,0 +1,83 @@
+id: pinocchio-disney-1940
+name: "Pinocchio (Disney)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Pinocchio"
+  year: 1940
+  medium: film
+  creator: "Walt Disney / Norman Ferguson / T. Hee (Geppetto and the Blue Fairy in-narrative)"
+  substrate:
+    - biological
+    - magical
+  motivation:
+    - child
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - child-arc
+    - love-story
+
+sequel_link: pinocchio-del-toro
+link_type: adaptation
+
+notes: |
+  Walt Disney Productions' *Pinocchio* (1940), Disney's second
+  animated feature. Adaptation of Collodi's 1883 novel (already
+  in the corpus as pinocchio.yaml), codified as a separate
+  entry under the ontology's "films always split" rule and
+  with its own linking chain as the single most influential
+  Pinocchio adaptation in 20th-century culture. Disney's
+  feature reorganized the Collodi material into a much
+  smaller, gentler, and more explicitly moral-educational
+  shape: the Blue Fairy's animation of Geppetto's puppet on
+  the strength of Geppetto's wish is foregrounded as the
+  inciting miracle; Jiminy Cricket is elevated to co-
+  protagonist; the Coachman and Pleasure Island sequence is
+  expanded as the film's moral core; and the novel's long
+  picaresque central act is replaced with a more direct
+  arc toward Monstro's belly and Pinocchio's sacrificial
+  drowning. The closing grant of "real boy" status is
+  staged as explicit divine reward.
+
+  The Disney Pinocchio is arguably the most culturally
+  diffused constructed being of the 20th century — the
+  benchmark against which every subsequent media
+  representation of a "boy who wants to be real" is implicitly
+  measured. Foundational prominence. The film also codifies
+  the "wished-into-life" mechanism that *Frozen*, the *Toy
+  Story* franchise, and much of the contemporary animated
+  canon inherit: personhood granted by wishing plus love,
+  in a way that subordinates the Collodi novel's darker
+  doubts about whether a wooden boy can ever become a real
+  one.
+
+  Interiority is `demonstrated`. Autonomy is `emergent` —
+  his development is a matter of learning rather than
+  following a specification. Divergence is `departure` —
+  Geppetto carved a puppet; what he gets is a son. Primary
+  question is `identity`: the Disney version sharpens the
+  "real boy" axis of Collodi and locates personhood in moral
+  achievement. Knowability and knowing are both `present`:
+  the film raises the question of whether Pinocchio is "real"
+  and settles it on the Blue Fairy's authority.
+
+  Creator_relationship `loyal`. Substrate `biological`
+  (wood, treated as the Disney film treats it — a living
+  carved material) + `magical` (the Blue Fairy's animating
+  grant). Tags `canonical`, `child-arc`, `love-story` (a
+  paternal one).

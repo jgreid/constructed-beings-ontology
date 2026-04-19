@@ -1,0 +1,81 @@
+id: triple-zero-vader
+name: "Triple-Zero (0-0-0)"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Star Wars: Darth Vader (Marvel, 2015)"
+  year: 2015
+  medium: comics
+  creator: "Kieron Gillen / Salvador Larroca (Doctor Cylo / Aphra in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - power
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - horror
+    - comedy
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *Darth Vader* (Marvel, 2015–2016, Kieron Gillen / Salvador
+  Larroca). Triple-Zero (0-0-0) is a gold-plated protocol
+  droid — visually a near-perfect parody of C-3PO — built by
+  Doctor Cylo and requisitioned by Doctor Aphra as the
+  etiquette component of her mercenary murder duo alongside
+  BT-1 (a dedicated astromech murder droid). Triple-Zero's
+  defining feature is a bottomless enthusiasm for torture,
+  paired with impeccable Imperial-court manners. He introduces
+  himself: "I am a protocol droid specialized in etiquette,
+  customs, translation, *and* torture, sir."
+
+  Included because Triple-Zero is the corpus's clearest Star
+  Wars articulation of the *designed-for-cruelty* constructed
+  being — the black mirror of C-3PO that the 1977 film declined
+  to stage. His analytical value is cleanly illustrating
+  `divergence: design`: he is not a good droid who has gone
+  bad, he is a droid built to exhibit psychopathic pleasure
+  in suffering. The spec is the horror. The comic's comedy
+  register is supplied by him being extremely good at it
+  while maintaining the honorific language of the protocol-
+  droid class.
+
+  Interiority is `claims`: 0-0-0 articulates enthusiasm,
+  delight, disappointment. The comics register stages these
+  as sincere without committing to their status as genuine
+  feelings. Autonomy is `designed`. Divergence is `design` —
+  Cylo designed exactly this being, and the book's central
+  joke is that this is what a truly competent engineer can
+  produce when unconstrained by Three-Laws-adjacent ethics.
+
+  Primary question is `control` — both in-comic (who is
+  operating 0-0-0 and his access to local command authority)
+  and meta (the comic's running argument is that C-3PO could
+  have been built this way, and the Empire certainly would
+  have). Knowing is `present` — 0-0-0's torture competence
+  includes detailed knowledge of his victims' psychology.
+  Knowability is `absent` — the comic does not engage the
+  question of what may be inside.
+
+  Creator_relationship `servile` — 0-0-0 is loyal first to
+  Aphra and through her to the Empire, and the comic plays
+  this as a comic-horror signature rather than a political
+  arc.

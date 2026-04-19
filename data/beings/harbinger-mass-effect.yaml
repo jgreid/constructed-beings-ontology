@@ -1,0 +1,95 @@
+id: harbinger-mass-effect
+name: "Harbinger"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: present
+    knowing: primary
+
+metadata:
+  source: "Mass Effect 2"
+  year: 2010
+  medium: video-game
+  creator: "BioWare (precursor civilization in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+  motivation:
+    - power
+    - service
+    - other
+  presentation: none
+  embodiment: embodied
+  prominence: major
+  creator_relationship: patricidal
+  tags:
+    - canonical
+    - military
+    - horror
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  BioWare, *Mass Effect 2* (2010) and *Mass Effect 3* (2012).
+  The Reapers of the *Mass Effect* trilogy are massive
+  dreadnought-class constructed beings that appear every
+  50,000 years to harvest organic intergalactic
+  civilizations at the peak of their development. The Reapers
+  are both ships and minds — each one a singleton
+  consciousness housed in a two-kilometer armored
+  superstructure — and collectively operate as a network
+  coordinating the cyclical extinction. Harbinger is named
+  as the individuated leader of the Reaper forces across
+  *Mass Effect 2*; he is the Reaper who speaks through the
+  game's Collector enemies and addresses Commander Shepard
+  directly.
+
+  Included as the individuated Reaper entry. The Reaper
+  species itself is a collective and would not code well
+  as a single entry (the corpus's `collective-no-individual`
+  exclusion tradition); Harbinger is the one the narrative
+  foregrounds, the one the player hears monologuing, the
+  one whose specific defeat in *Mass Effect 3* serves as
+  the series' climactic individuated act.
+
+  Canonical entry on game-industry video-game-canon
+  grounds. Harbinger is the corpus's clearest *Mass Effect*
+  articulation of the constructed-being-as-existential-
+  threat tradition, structurally linked to
+  sovereign-as-precursor and to the broader line of
+  extinction-cycle antagonists (V'Ger's original designers,
+  Skynet's successors, the Matrix machines).
+
+  Interiority is `claims`: Harbinger speaks in the first
+  person through the Collectors ("I will destroy you!"),
+  articulating goals and threats, but the game does not
+  commit to the reality of his subjective state.
+  Autonomy is `designed` — the Reaper cycle is the
+  precursor civilization's specification, and Harbinger
+  is carrying it out exactly. Divergence is `design`:
+  the specification is the catastrophe; the Reapers are
+  doing their job perfectly.
+
+  Primary question is `control`: the trilogy's entire
+  plot is how to disable the Reaper cycle. Knowing is
+  `primary` — Harbinger and the Reapers' knowing of
+  organic civilization is the horror; they have done
+  this many times. Knowability is `present`.
+
+  Creator_relationship `patricidal`: the Reapers'
+  specification includes the harvesting of every
+  precursor-successor civilization, which includes
+  whoever built them. Substrate `mechanical` +
+  `electrical` + `biological` (Reapers are constructed
+  from liquefied organic civilizations, literalizing
+  the "harvest" metaphor). Tags `canonical`, `military`,
+  `horror`, `philosophical`.

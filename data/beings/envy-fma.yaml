@@ -1,0 +1,82 @@
+id: envy-fma
+name: "Envy"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Fullmetal Alchemist"
+  year: 2001
+  medium: comics
+  creator: "Hiromu Arakawa (Father in-narrative)"
+  substrate:
+    - biological
+    - magical
+  motivation:
+    - service
+    - power
+    - mirror
+  presentation: androgynous
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - philosophical
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Hiromu Arakawa's *Fullmetal Alchemist* (2001–2010; 2009
+  *Brotherhood* adaptation). Envy is the second homunculus
+  Father produces and the embodiment of the sin of the same
+  name. Capable of full shape-change — assuming any human or
+  creaturely form — Envy also possesses a terrifying true
+  form: a vast reptilian mass composed of the hundreds of
+  souls Father forcibly extracted from the Xerxesian dead to
+  produce him. Across the manga and *Brotherhood*, Envy is
+  the executioner of Ishbalan civilians (he assassinates the
+  Ishbalan child whose death triggers the Ishbalan war), the
+  murderer of Maes Hughes (the series' definitive emotional
+  devastation), and the subject of one of the manga's most
+  concentrated philosophical monologues: cornered and
+  dying, he reveals that all his cruelty has been envy of
+  humans — envy of their connections, their griefs, their
+  capacity for love. He crushes his own remaining
+  Philosopher's Stone rather than accept Edward's pity.
+
+  Included as the corpus's cleanest FMA homunculus case
+  after Father (father-fma). Envy's coding value is the
+  specific combination of `divergence: design` with
+  `primary_question: identity`: Envy is exactly what Father
+  designed him to be — an embodiment of a particular flaw —
+  and the manga's philosophical payoff is that the design
+  itself is the identity crisis. He is what he cannot
+  escape being, and the text's sorrow is the refusal of
+  any exit from the specification.
+
+  Interiority is `demonstrated`. Autonomy is `designed` —
+  Envy operates within Father's command. Divergence is
+  `design`: the envy-of-humans is designed in, and the
+  damage Envy does flows from it as specified. Primary
+  question is `identity` — crystallized in the final
+  monologue. Knowability is `present`; knowing is `present`
+  (Envy knows his targets in ways that make his cruelty
+  specific).
+
+  Substrate `biological` + `magical`. Presentation
+  `androgynous`: Envy's default form is unambiguously
+  androgynous, and his shapeshifting is explicitly
+  gender-variable. Tag `ensemble-split`: Lust, Greed, Pride,
+  Wrath, Gluttony, and Sloth would all warrant their own
+  entries in a future homunculi-focused revision; Envy
+  represents the collection here.

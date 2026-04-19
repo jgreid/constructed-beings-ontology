@@ -1,0 +1,61 @@
+id: celedones-pindar
+name: "The Celedones (Golden Singers of Delphi)"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Paean 8 (fragment)"
+  year: -470
+  medium: poem
+  creator: "Pindar (Hephaestus and Athena in-narrative)"
+  substrate:
+    - mechanical
+    - magical
+  motivation:
+    - art
+    - service
+  presentation: feminine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: servile
+  tags: []
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Pindar's Paean 8 (preserved as a fragment, ca. 470 BCE)
+  describes the third of the legendary temples at Delphi as
+  having been guarded by six golden Keledones — singing
+  maidens crafted by Athena and Hephaestus whose song, it is
+  said, was so irresistible that pilgrims wasted away listening.
+  Zeus eventually hurled the temple into the earth (or the sea)
+  to put a stop to the enchantment. The Celedones survive in
+  Pausanias (X.5.12) as a curiosity of the ruined mythography
+  of Delphi.
+
+  Significant for the corpus as the earliest Greek attestation
+  of constructed beings whose design purpose is specifically
+  *aesthetic* — made to sing, not to fight or serve. Pandora is
+  decorative-as-bait and the Hephaestus handmaidens are
+  assistants with some song-like quality; the Celedones are a
+  pure art-artifact tradition, a direct ancestor of Olympia and
+  the Sharon Apple / Vivy music-automaton lineage. Motivation
+  coded `art` + `service` to mark the temple-attendants' double
+  role.
+
+  Interiority is `none` — Pindar does not attribute inner states;
+  they sing because that is what they are for. Autonomy is
+  `designed`; divergence is `none`. Primary question is `none`.
+  Included on its own because the singing-automaton tradition
+  is too important to leave implicit under the handmaidens
+  entry, and the fragment is a distinct source text.

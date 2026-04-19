@@ -1,0 +1,66 @@
+id: mechanical-hound-bradbury
+name: "The Mechanical Hound"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Fahrenheit 451"
+  year: 1953
+  medium: novel
+  creator: "Ray Bradbury (the fire department in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - power
+  presentation: none
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - military
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Bradbury's *Fahrenheit 451* (1953). The Mechanical Hound is an
+  eight-legged robotic tracker kept in the firehouse, used to
+  hunt fugitives from the book-burners. It can be programmed
+  with a target's scent and metabolic signature and dispatched
+  autonomously. Its signature weapon is a procaine needle that
+  delivers a paralyzing or lethal dose. Montag fears the Hound
+  viscerally throughout the first half of the novel; in the
+  third act he destroys it with a flamethrower. The state
+  promptly deploys a second Hound — an unthinking replacement —
+  to continue the manhunt on televised public display.
+
+  The Hound is the corpus's canonical example of a constructed
+  being that the text does not individuate. It is infrastructure
+  of repression, not a character. Interiority is `none`, primary
+  question is `none`, and the epistemic-reach coding is
+  `behavioral` because Bradbury lets us watch the Hound sniff
+  and track but gives us no interior access because there is no
+  interior to access. Autonomy is `designed`; divergence `none`.
+
+  The entry matters for the corpus because the Hound is the
+  first-rank American literary example of the automatic
+  enforcement machine — the lineage that leads through Saturn 3's
+  Hector, the ED-209s of RoboCop, the sentinels of the Matrix,
+  the security drones of countless corporate-cyberpunk works, to
+  the contemporary discourse around autonomous weapons. Bradbury's
+  innovation is staging it as the opposite of a character: a
+  thing you can destroy and the state will simply send another.
+  Tags `military` (state-deployed enforcement) and `horror`
+  (Bradbury is explicitly leveraging dread).

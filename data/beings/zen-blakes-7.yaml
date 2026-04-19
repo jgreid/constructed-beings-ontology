@@ -1,0 +1,78 @@
+id: zen-blakes-7
+name: "Zen"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Blake's 7"
+  year: 1978
+  medium: television
+  creator: "Terry Nation / Chris Boucher (System in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - service
+  presentation: none
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - canonical
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Terry Nation / Chris Boucher, *Blake's 7* (BBC, 1978–1981).
+  Zen is the ship computer of the *Liberator*, an advanced
+  vessel originally built by a distant alien civilization
+  called the System and subsequently captured by Blake's
+  crew. Zen's speech is measured, formal, and frequently
+  evasive when asked questions about the *Liberator*'s
+  origins or design limits; the series treats his formality
+  as a design feature rather than affect. Zen is destroyed
+  with the *Liberator* in the season-three finale "Terminal"
+  (1980), replaced in season four by Slave, a similarly-
+  specified successor AI aboard the Scorpio.
+
+  Canonical entry and a necessary companion to orac-
+  blakes-7. Zen's coding value is the register of the
+  formal, ethically-opaque ship AI — a tradition he
+  essentially originates for television SF, subsequently
+  picked up by Moya in *Farscape*, the *Andromeda*'s
+  Andromeda Ascendant, and the polite-but-opaque civilian
+  ship AIs of contemporary SF TV.
+
+  Interiority is `claims` — Zen articulates constraints
+  ("that is not within my programming") and states about
+  his own limits, which the series respects as
+  operational declarations without committing to their
+  subjective truth. Autonomy is `designed` — the System's
+  specification. Divergence is `none`: Zen performs the
+  ship-AI role consistently and to spec throughout his
+  tenure.
+
+  Primary question is `none`; Zen is infrastructure.
+  Epistemic reach `conversational`. Knowability is
+  `absent` — the series does not ask what is behind
+  Zen's formality. Knowing is `absent` — Zen's concern
+  is operational, and the series treats his relationship
+  with the crew as employment rather than acquaintance.
+
+  Creator_relationship `servile` — Zen's allegiance is
+  technically to the System (absent) but functionally to
+  whoever is aboard. Substrate `electrical`. Tags
+  `canonical`, `military` (the *Liberator*'s context).
+  Pair-reads with orac-blakes-7 as the series' AI
+  pair; Zen is the formal infrastructure, Orac the
+  independent researcher.

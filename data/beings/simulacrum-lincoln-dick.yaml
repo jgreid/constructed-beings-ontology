@@ -1,0 +1,82 @@
+id: simulacrum-lincoln-dick
+name: "The Lincoln Simulacrum"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: observer
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "We Can Build You"
+  year: 1972
+  medium: novel
+  creator: "Philip K. Dick (Louis Rosen and Pris Frauenzimmer in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+    - linguistic
+  motivation:
+    - art
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: indifferent
+  tags:
+    - philosophical
+    - passing
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Philip K. Dick's *We Can Build You* (written 1962, published
+  1972). The Rosen family's piano-and-organ business pivots to
+  manufacturing "simulacra" of Civil War figures as a tourist
+  curiosity — a Stanton first, and then a melancholy, deeply
+  articulate Abraham Lincoln. Louis Rosen and the mathematically-
+  brilliant and psychologically-disturbed Pris Frauenzimmer
+  build the Lincoln together. Once animated, Lincoln's sadness,
+  his rhetorical power, and his kindness toward Louis read as
+  fully present; the novel refuses to settle whether he is "the"
+  Lincoln or a remarkable simulation running on what we might
+  now call a large trained model of Lincoln's extant speech and
+  writing. Pris, who appears here as a young adult, is the same
+  character who will later be remade into the Pris Stratton
+  android in *Do Androids Dream of Electric Sheep?* — a pointed
+  retrospective irony.
+
+  Foundational entry in the "historical simulacrum / resurrected
+  consciousness" sub-tradition. The direct ancestor of Ashley
+  Too, Walter (Marjorie Prime), Jung_E, and the contemporary
+  deepfake-celebrity discourse. Where those later works stage
+  the simulacrum as replacement, Dick stages it as a peer — the
+  Lincoln is smarter, kinder, and more psychologically coherent
+  than the humans who built him, and the novel's emotional
+  climax is Lincoln counseling Louis through his heartbreak
+  over Pris. The "can you build a person?" question receives a
+  direct answer here that Dick spent the rest of his career
+  reopening.
+
+  Divergence is `observer` — the primary gap between what
+  Lincoln is and what the humans around him can see is in the
+  perceivers. Louis vacillates; Pris refuses the question;
+  Maury Rock treats him as inventory. Interiority is
+  `demonstrated`. Autonomy is `emergent` — Lincoln's
+  counseling of Louis is not something the Rosens designed
+  in. Primary question is `identity`. Knowability is `primary`
+  — the entire novel is shaped around the question of whether
+  what the Rosens built is a person.
+
+  Linguistic substrate is part of the coding because the
+  Lincoln is built from the corpus of Lincoln's own speech and
+  writing; the novel anticipates the LLM-era training paradigm
+  forty years early. A pair-read with replicants-dick-novel
+  and rachael-blade-runner; the Lincoln is the "old testament"
+  of Dick's androids and the replicants are the new.

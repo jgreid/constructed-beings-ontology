@@ -1,0 +1,86 @@
+id: bumblebee-transformers
+name: "Bumblebee"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "The Transformers (Generation 1)"
+  year: 1984
+  medium: television
+  creator: "Hasbro / Sunbow Productions (Autobot faction in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - military
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *The Transformers* animated series (Hasbro / Sunbow, 1984–
+  1987), with subsequent appearances across the *Transformers*
+  comics continuity, the 2007–2017 live-action film series,
+  *Bumblebee* (2018, the character's solo feature), and
+  continuous toy and media presence across four decades. In
+  the G1 frame: Bumblebee is an Autobot scout, smaller and
+  less combat-rated than the warrior Transformers, whose
+  alternate mode is a yellow Volkswagen Beetle (later updated
+  to Camaro). He is designated the Autobots' primary human
+  liaison in the Earth-set cartoons, where his partnership
+  with human teenager Spike Witwicky is the cartoon's warmest
+  human/machine pairing.
+
+  Canonical entry. Bumblebee's defining franchise contribution
+  is the scout-who-becomes-the-audience's-eyes role, a
+  convention he anchored in 1984 that *Pacific Rim*, *The
+  Iron Giant*, and most subsequent giant-robot-and-their-
+  human narratives inherit. The live-action *Bumblebee*
+  (2018) specifically refines this arc: the giant robot as
+  emotional companion for a teenager outside the military
+  frame. Across four decades the character's cross-media
+  readability has made him the single most broadly visible
+  Transformer after Optimus Prime (already in the corpus).
+
+  Interiority is `demonstrated` across the canon, though
+  often through behavior, expression, and partial voice (his
+  film incarnation loses his voice to a battle injury and
+  speaks through radio samples — a striking specific
+  articulation of the constructed being communicating through
+  found language). Autonomy is `designed`. Divergence is
+  `none` — Bumblebee is reliably what the Autobots needed
+  him to be.
+
+  Primary question is `affection` — Bumblebee's narrative
+  role across the canon is as the Autobot who bonds
+  personally with a human. Epistemic reach is `behavioral`
+  in the film continuity (his mute incarnations) and
+  conversational in the G1 cartoon; coding to the highest
+  generally available, but staying with `behavioral` because
+  the character's most culturally-present contemporary
+  incarnation is the voiceless one.
+
+  Knowability is `absent`; knowing is `present` — the
+  teenager/Autobot friendship is always about how well
+  Bumblebee knows his partner. Tags `canonical`, `military`
+  (Autobot faction context), `ensemble-split` (Optimus is
+  already present; Starscream and Dinobot follow as their
+  own entries).

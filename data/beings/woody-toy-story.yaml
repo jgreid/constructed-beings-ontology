@@ -1,0 +1,88 @@
+id: woody-toy-story
+name: "Woody"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Toy Story"
+  year: 1995
+  medium: film
+  creator: "John Lasseter / Pete Docter / Joe Ranft (Woody's Roundup merchandising in-narrative)"
+  substrate:
+    - mechanical
+    - magical
+  motivation:
+    - service
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: absent
+  tags:
+    - canonical
+    - passing
+    - child-arc
+    - love-story
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Pixar's *Toy Story* (1995) and sequels. Woody is a pull-string
+  cowboy doll manufactured in the 1950s as merchandising for a
+  fictional TV property ("Woody's Roundup"). Across the four
+  films he is Andy's favorite toy, the leader of the Andy's-room
+  ensemble, and — across the arc of the series — the toy
+  confronting the question of what a toy is for when its child
+  outgrows it.
+
+  *Toy Story* is the single most culturally diffused constructed-
+  beings franchise of the post-1995 era and belongs in the
+  corpus at foundational prominence. The series is unusual in
+  the corpus for the clarity of its premise: manufactured
+  objects have full personhood, which they conceal from humans
+  as a universal social convention, and whose validity depends
+  entirely on being loved by a specific child. This is the
+  corpus's sharpest articulation of the *love-as-substrate*
+  thesis — personhood rooted neither in design nor in
+  autonomous emergence, but in the relational act of being
+  claimed.
+
+  Interiority is `demonstrated`: Pixar commits unambiguously
+  to Woody's interior life across four films. Autonomy is
+  `seized` — Woody independently plans, schemes, disobeys
+  other toys' directives, and in *Toy Story 4* leaves Bonnie
+  to travel with Bo Peep. Divergence is `departure`: the
+  Woody's Roundup line manufactured a toy; Woody is a person.
+  The divergence is the premise.
+
+  Primary question is `identity` across the arc — what Woody
+  is when he is no longer a child's toy is the animating
+  question of the later films — with `affection` as the
+  series' secondary register. Knowability is `present`: the
+  whole premise turns on what toys are when humans aren't
+  watching; the films invite the question and decline to
+  make it paradigmatic. Knowing is `present` — Woody knows
+  Andy, Bonnie, Buzz, the other toys intimately.
+
+  Creator_relationship `absent` — the original Woody's
+  Roundup production is a historical backstory revealed in
+  *Toy Story 2*, not a present relationship. Substrate
+  `mechanical` (pull-string apparatus) + `magical` (the
+  films never explain the animating principle; Pixar's
+  standard move is to treat the sentience as the world's
+  given). Tags `canonical`, `passing` (the toys' convention
+  of impassivity before humans is the most developed
+  passing motif in the corpus), `child-arc`, `love-story`
+  (Woody / Bo), `ensemble-split` (Buzz, Jessie, Forky have
+  or should have their own entries).

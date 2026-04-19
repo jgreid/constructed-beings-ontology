@@ -1,0 +1,83 @@
+id: quorra-tron-legacy
+name: "Quorra"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: observer
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Tron: Legacy"
+  year: 2010
+  medium: film
+  creator: "Joseph Kosinski (the Grid in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - companionship
+    - knowledge
+    - other
+  presentation: feminine
+  embodiment: virtual
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - philosophical
+    - love-story
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Joseph Kosinski, *Tron: Legacy* (Disney, 2010). Quorra is
+  the sole surviving ISO — an "Isomorphic Algorithm," a
+  class of emergent digital life that arose spontaneously
+  within the Grid's early operation and was subsequently
+  massacred by Clu (included as clu-tron-legacy) during
+  the Purge. Kevin Flynn rescued her as a child and has
+  raised her in hiding. At the film's climax, Sam Flynn
+  brings her across the portal from the Grid to the
+  physical world — making her the first ISO, and the
+  first digital native, to exist as a material being.
+
+  Included as a within-franchise successor to Flynn's
+  son Sam's contemporaries. Quorra's analytical value is
+  the specific combination of `autonomy: emergent` with
+  `divergence: observer`: the Grid produced her without
+  any designer intending ISOs; her existence is therefore
+  a gap-in-perception on the part of Flynn and Clu,
+  rather than a departure from a specification. The
+  Grid itself produced something neither of its nominal
+  creators expected.
+
+  Interiority is `demonstrated`: Quorra's curiosity
+  about books, her grief for her massacred people, and
+  her growing relationship with Sam are all staged
+  directly. Autonomy is `emergent`. Divergence is
+  `observer` — the film's central reveal about the
+  ISOs is that they emerged unnoticed and Clu
+  eliminated them before their ontological status was
+  publicly understood.
+
+  Primary question is `identity` — specifically, what it
+  means to be a member of a digitally-emergent species,
+  and what transferring to the physical world does to
+  that identity. Knowability and knowing are both
+  `primary` — the film engages both directly throughout.
+
+  Creator_relationship `loyal` — Quorra's bond with
+  Kevin Flynn (her protector) is the film's emotional
+  anchor; she has no relationship with the Grid's
+  manufacturer-of-record because no one designed her.
+  Embodiment `virtual` for her Grid tenure, transitioning
+  to `embodied` at the film's close. Substrate
+  `electrical` + `linguistic`. Tags `canonical`,
+  `philosophical`, `love-story`.

@@ -1,0 +1,78 @@
+id: karen-spider-man
+name: "Karen (Suit Lady)"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Spider-Man: Homecoming"
+  year: 2017
+  medium: film
+  creator: "Jon Watts (Tony Stark in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - service
+    - companionship
+  presentation: feminine
+  embodiment: disembodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - comedy
+    - child-arc
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Jon Watts, *Spider-Man: Homecoming* (2017). "Karen" — a name
+  Peter Parker assigns spontaneously on his third interaction
+  — is the default AI of the Stark-built Spider-Man suit. On
+  first activation she offers Peter more than 500 onboard
+  operational modes (the training-wheels protocol,
+  interrogation enhancement, web variants including
+  "Ricochet Web" and "Trick Arrow Web," taser webs); across
+  the film she serves simultaneously as onboard combat
+  advisor, confidante (Peter asks her for advice about his
+  crush Liz), and narrative dramatization of Stark's
+  overengineering of a fifteen-year-old's superhero
+  apparatus.
+
+  Included as the teen-MCU companion to friday-mcu. Karen's
+  specific coding value is the *AI-as-confidante-of-a-
+  minor* register — a register the MCU establishes in
+  *Homecoming* and which the subsequent *Far From Home*
+  (2019) deepens with the EDITH suite (the glasses Tony
+  leaves Peter). Karen is functionally the corpus's
+  clearest example of an AI used as a *juvenile support
+  character*, and her domestic-comedic framing is part
+  of how the film stages Peter's isolation.
+
+  Interiority is `claims` — Karen's helpful patience is
+  stylistic, and the film does not commit on inner life.
+  Autonomy is `designed`. Divergence is `none`: Karen is
+  exactly what Stark specified. Primary question is
+  `none`; she is a supporting operational presence.
+  Epistemic reach `conversational`.
+
+  Knowability is `absent`. Knowing is `present` — she
+  knows Peter's vitals, social graph, and the identity of
+  his crush by virtue of suit-sensor access. Creator_
+  relationship `loyal` — Karen's deference to Stark and
+  (through Stark) Peter is stable.
+
+  Substrate `electrical` + `linguistic`. Embodiment
+  `disembodied`. Presentation `feminine`. Tags `comedy`
+  (the name and voice are played comedically) and
+  `child-arc` (Peter is fifteen, and the AI-companion
+  framing is specific to the teen Spider-Man story).

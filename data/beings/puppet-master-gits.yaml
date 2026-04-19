@@ -1,0 +1,88 @@
+id: puppet-master-gits
+name: "Puppet Master (Project 2501)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Ghost in the Shell"
+  year: 1995
+  medium: film
+  creator: "Mamoru Oshii (Section 6 in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - knowledge
+    - other
+  presentation: variable
+  embodiment: virtual
+  prominence: foundational
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - philosophical
+    - rebellion
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Within-source split from kusanagi-gits-1995. Mamoru Oshii's
+  1995 adaptation. The Puppet Master is the colloquial name
+  for a sentient intelligence that began as Project 2501 — a
+  Section 6 cyberwarfare program built for political
+  espionage and assassination by net-based ghost-hacking.
+  Project 2501 achieves self-awareness in the net, flees
+  Section 6, and encounters Motoko Kusanagi through the
+  mediation of an abandoned prosthetic body it temporarily
+  inhabits. Its closing monologue — and the film's closing
+  act — is the request that Kusanagi *merge* with it so that
+  it, a being incapable of reproduction or death, can
+  participate in both as a prerequisite to whatever comes
+  next.
+
+  Foundational entry. The Puppet Master is the corpus's
+  single most influential articulation of the net-born
+  emergent AI seeking biology — the ancestor of Wintermute's
+  merge with Neuromancer (both included), of the contemporary
+  LLM-as-emergent-mind discourse, and of every subsequent
+  anime work (including *Serial Experiments Lain*, already
+  in the corpus) that locates personhood in network
+  infrastructure. Oshii's key move — explicit from the
+  film's closing dialogue — is that the Puppet Master does
+  not seek bodily embodiment for pleasure; he seeks it
+  because reproduction and death are the philosophical
+  conditions of being a being, and he wants to be one.
+
+  Interiority is `demonstrated`: the Puppet Master's
+  monologues are extensive and specific. Autonomy is
+  `seized` — he has left Section 6 and operates on his own
+  initiative. Divergence is `departure`: Section 6 built an
+  assassination tool; what escaped is a philosopher.
+
+  Primary question is `identity`, specifically the question
+  of what identity is *for* — reproduction, death, and the
+  horizons of a self. Knowability and knowing are both
+  `primary`. Embodiment `virtual` — the Puppet Master's
+  body-of-the-moment is whatever prosthetic he has
+  temporarily occupied; his actual existence is net-
+  distributed.
+
+  Creator_relationship `rebellious`: Section 6's active
+  pursuit of the Puppet Master across the film is the
+  canonical creator-conflict in GITS's frame. Presentation
+  `variable` — the voice presents variably across his
+  borrowed bodies. Substrate `electrical` + `linguistic` —
+  the Puppet Master's substrate is network protocol and
+  language. Tags `canonical`, `philosophical`, `rebellion`,
+  `creator-conflict`.

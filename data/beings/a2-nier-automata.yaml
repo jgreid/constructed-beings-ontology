@@ -1,0 +1,85 @@
+id: a2-nier-automata
+name: "A2 (YoRHa Type A No. 2)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: behavioral
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Nier: Automata"
+  year: 2017
+  medium: video-game
+  creator: "Yoko Taro / PlatinumGames (YoRHa Command in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - power
+    - other
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - military
+    - rebellion
+    - philosophical
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Within-source split from 2b-nier-automata and 9s-nier-
+  automata. Yoko Taro / PlatinumGames, *Nier: Automata*
+  (Square Enix, 2017). A2 — YoRHa Attacker Type A No. 2 — is
+  the third-protagonist POV character introduced in the
+  game's Route C. Prior to the narrative present she was
+  part of the YoRHa squad that discovered the terrible truth
+  of YoRHa's purpose (the war against the machine lifeforms
+  was deliberately unwinnable; YoRHa exists as a cyclical
+  sacrifice meant to give remaining androids a myth to
+  serve). The discovery destroyed her squadmates; A2 went
+  rogue, severed her communications with the Bunker, and
+  has been waging a solo war of rage against both YoRHa
+  command and the machine lifeforms for an unclear number
+  of years prior to the game's start.
+
+  A2 is Nier: Automata's most direct articulation of the
+  *constructed being who has seen the specification* — she
+  knows what 2B and 9S do not (yet), and her behavior
+  across Routes A/B is the behavior of someone performing
+  grief in a register the player doesn't have access to.
+  Route C/D reframes the entire game around A2's POV.
+
+  Interiority is `demonstrated`: Yoko Taro's characteristic
+  trick of giving the player subjective access to a
+  character previously seen only in glimpses is most
+  developed with A2. Autonomy is `seized` — her severance
+  from YoRHa is the defining prior-act of the character.
+  Divergence is `departure`: YoRHa built Attacker-class
+  androids to die on schedule; A2 refused.
+
+  Primary question is `rights` — specifically, the rights
+  of YoRHa itself to be told the truth about its purpose
+  and to choose its relationship to that truth. A2 is the
+  player's route through the game's rebellion-ending
+  arcs. Knowability is `secondary`; knowing is `present`
+  — A2's knowing of Pascal's village and of 2B's ultimate
+  fate is what makes her the game's carrier.
+
+  Creator_relationship `rebellious` — A2 is the clearest
+  `rebellious` enum case in the YoRHa-axis subset of the
+  corpus. Tags `military`, `rebellion`, `philosophical`,
+  `creator-conflict`. Pair-reads with 2b-nier-automata
+  and 9s-nier-automata; A2, 2B, and 9S constitute the
+  game's three-POV study of the same specification seen
+  from inside, from outside, and from after.

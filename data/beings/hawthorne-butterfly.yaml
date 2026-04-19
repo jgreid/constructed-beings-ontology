@@ -1,0 +1,69 @@
+id: hawthorne-butterfly
+name: "The Mechanical Butterfly"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "The Artist of the Beautiful"
+  year: 1844
+  medium: short-story
+  creator: "Nathaniel Hawthorne (Owen Warland in-narrative)"
+  substrate:
+    - mechanical
+  motivation:
+    - art
+  presentation: none
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Hawthorne's 1844 tale — collected in *Mosses from an Old Manse*
+  — tracks the watchmaker Owen Warland's years-long obsession
+  with building a mechanical butterfly capable of flight. When
+  Owen finally presents his finished work to Annie Hovenden
+  (whom he once loved) and her husband Robert, the butterfly
+  alights on the child's hand and is crushed in the infant's
+  fist. Owen, contrary to expectation, is serene: the work's
+  beauty existed, and what becomes of the object now is
+  incidental to the fact of having made it.
+
+  A foundational American entry in the art-automaton lineage
+  that runs Celedones → Olympia → Coppélia → Sharon Apple →
+  Vivy. Owen's butterfly is the clearest 19th-century American
+  articulation of the constructed-as-artwork pole of the
+  tradition — the being whose purpose is neither service nor
+  companionship but the realization of beauty itself. Hawthorne
+  is explicit that the butterfly is alive in the sense that
+  matters: it flies, it glows, it responds to the minds around
+  it. He is equally explicit that this aliveness is not
+  supernatural. Substrate is pure `mechanical`; the animation
+  is watchmaker's art, nothing more.
+
+  Interiority is `none`: Hawthorne does not attribute inner
+  states to the butterfly. Primary question is `purpose` — the
+  story is explicitly about what art is *for*, and whether a
+  made thing whose only function is to be beautiful justifies
+  the making. Autonomy `designed`; divergence `none`; the
+  butterfly is exactly what Owen built it to be. Creator
+  relationship `servile` is the closest fit — Owen brings it
+  out on command; it does what he designed it to do — though
+  the story's deepest move is that Owen does not treat it as
+  servile at all, and the destruction of the butterfly does
+  not diminish his own sense of having succeeded. The motive
+  code `art` is the entry's primary coordinate and the reason
+  for its inclusion.
