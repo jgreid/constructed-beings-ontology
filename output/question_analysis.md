@@ -1,6 +1,6 @@
 # Question Analysis
 
-Total entries: **409**.
+Total entries: **405**.
 
 The schema tracks two meta-properties: `knowability` (can we verify its mind?) and `knowing` (can it know us?). This report tracks both, plus the distribution of `primary_question`.
 
@@ -8,13 +8,13 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| identity           |     101 |
-| affection          |      99 |
+| affection          |      98 |
+| identity           |      98 |
 | control            |      87 |
 | rights             |      48 |
 | purpose            |      32 |
-| none               |      22 |
-| knowledge          |      20 |
+| knowledge          |      21 |
+| none               |      21 |
 
 ## 2. Primary Questions by Era
 
@@ -22,7 +22,7 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| none               |       5 |
+| none               |       4 |
 | affection          |       1 |
 | purpose            |       1 |
 
@@ -50,18 +50,18 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 | Primary Question   |   Count |
 |:-------------------|--------:|
 | control            |      44 |
-| affection          |      40 |
-| identity           |      40 |
+| affection          |      39 |
+| identity           |      38 |
 | purpose            |      20 |
 | rights             |      14 |
+| knowledge          |      10 |
 | none               |      10 |
-| knowledge          |       9 |
 
 ### Contemporary
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| identity           |      52 |
+| identity           |      51 |
 | affection          |      47 |
 | control            |      37 |
 | rights             |      30 |
@@ -73,19 +73,19 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Knowability   |   Count |
 |:--------------|--------:|
-| absent        |     134 |
+| absent        |     132 |
 | present       |     107 |
-| secondary     |      76 |
-| primary       |      92 |
+| secondary     |      75 |
+| primary       |      91 |
 
 ## 4. Knowing Distribution
 
 | Knowing   |   Count |
 |:----------|--------:|
-| absent    |     103 |
-| present   |     217 |
+| absent    |     102 |
+| present   |     215 |
 | secondary |      26 |
-| primary   |      63 |
+| primary   |      62 |
 
 ## 5. Knowability vs. Knowing Divergence
 
@@ -128,10 +128,8 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Buster Friendly                                               | Do Androids Dream of Electric Sheep?                    |   1968 | secondary     | present   |
 | Herbie                                                        | The Love Bug                                            |   1968 | absent        | present   |
 | M-5                                                           | Star Trek: The Original Series, 'The Ultimate Computer' |   1968 | present       | absent    |
-| Doraemon                                                      | Doraemon                                                |   1969 | absent        | present   |
 | Garson Poole                                                  | The Electric Ant                                        |   1969 | primary       | secondary |
 | The Electric Grandmother                                      | I Sing the Body Electric! ("I Sing the Body Electric!") |   1969 | present       | primary   |
-| Hayt / Duncan Idaho Ghola                                     | Dune Messiah                                            |   1969 | secondary     | present   |
 | Colossus (Forbin Project)                                     | Colossus: The Forbin Project                            |   1970 | present       | primary   |
 | Huey, Dewey, and Louie                                        | Silent Running                                          |   1972 | absent        | present   |
 | The Lincoln Simulacrum                                        | We Can Build You                                        |   1972 | primary       | present   |
@@ -306,148 +304,146 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Ares                                                          | Tron: Ares                                              |   2025 | primary       | present   |
 | Cosmo                                                         | The Electric State                                      |   2025 | secondary     | present   |
 
-**212 of 409 entries diverge.**
+**210 of 405 entries diverge.**
 
 ## 6. Entries by Knowability (chronological)
 
 ### knowability = absent
 
-| Entity                                     | Source                                                                       |   Year | Primary Q   |
-|:-------------------------------------------|:-----------------------------------------------------------------------------|-------:|:------------|
-| The Golden Handmaidens of Hephaestus       | Iliad                                                                        |   -750 | none        |
-| Pandora                                    | Works and Days / Theogony                                                    |   -700 | purpose     |
-| The Celedones (Golden Singers of Delphi)   | Paean 8 (fragment)                                                           |   -470 | none        |
-| The Walking Statues of Daedalus            | Meno                                                                         |   -380 | none        |
-| The Khalkotauroi (Bronze Bulls of Colchis) | Argonautica                                                                  |   -250 | none        |
-| Talos                                      | Argonautica                                                                  |   -250 | none        |
-| Galatea                                    | Metamorphoses, Book X                                                        |      8 | affection   |
-| Albertus Magnus's Android                  | Medieval legend (Chronicon pontificum et imperatorum; subsequent traditions) |   1280 | knowledge   |
-| The Golem of Prague                        | Golem of Prague folklore cycle                                               |   1580 | control     |
-| The Brazen Head                            | The Honorable History of Friar Bacon and Friar Bungay                        |   1589 | knowledge   |
-| The Steadfast Tin Soldier                  | Den standhaftige tinsoldat (The Steadfast Tin Soldier)                       |   1838 | affection   |
-| The Mechanical Butterfly                   | The Artist of the Beautiful                                                  |   1844 | purpose     |
-| The Steam Man                              | The Steam Man of the Prairies                                                |   1868 | none        |
-| Jack Pumpkinhead                           | The Marvelous Land of Oz                                                     |   1904 | affection   |
-| Tik-Tok                                    | Ozma of Oz                                                                   |   1907 | purpose     |
-| The Golem (Wegener film)                   | Der Golem, wie er in die Welt kam                                            |   1920 | control     |
-| R.U.R. Robots                              | R.U.R. (Rossum's Universal Robots)                                           |   1920 | rights      |
-| False Maria                                | Metropolis                                                                   |   1927 | purpose     |
-| Robbie                                     | I, Robot ("Robbie")                                                          |   1940 | affection   |
-| Speedy (SPD-13)                            | I, Robot ("Runaround")                                                       |   1942 | control     |
-| The Humanoids                              | With Folded Hands                                                            |   1947 | control     |
-| Gort                                       | The Day the Earth Stood Still                                                |   1951 | control     |
-| Astro Boy (Atom)                           | Tetsuwan Atom (Mighty Atom)                                                  |   1952 | identity    |
-| The Mechanical Hound                       | Fahrenheit 451                                                               |   1953 | none        |
-| Ro-Man                                     | Robot Monster                                                                |   1953 | affection   |
-| Gog and Magog                              | Gog                                                                          |   1954 | control     |
-| Tobor                                      | Tobor the Great                                                              |   1954 | affection   |
-| Robby the Robot                            | Forbidden Planet                                                             |   1956 | control     |
-| EMERAC                                     | Desk Set                                                                     |   1957 | none        |
-| Brainiac                                   | DC Comics (Action Comics)                                                    |   1958 | knowledge   |
-| Salo                                       | The Sirens of Titan                                                          |   1959 | purpose     |
-| Amazo                                      | The Brave and the Bold (DC Comics)                                           |   1960 | purpose     |
-| Rosie                                      | The Jetsons                                                                  |   1962 | affection   |
-| Astro Boy                                  | Tetsuwan Atom (TV anime)                                                     |   1963 | identity    |
-| Rhoda Miller (AF 709)                      | My Living Doll                                                               |   1964 | control     |
-| Hymie the Robot                            | Get Smart                                                                    |   1965 | affection   |
-| Robot (Model B-9)                          | Lost in Space                                                                |   1965 | affection   |
-| Sentinels                                  | X-Men (Marvel Comics)                                                        |   1965 | control     |
-| Colossus                                   | Colossus                                                                     |   1966 | control     |
-| Nomad                                      | Star Trek: The Original Series, 'The Changeling'                             |   1967 | purpose     |
-| Norman and the Mudd Androids               | Star Trek: The Original Series ("I, Mudd")                                   |   1967 | control     |
-| Herbie                                     | The Love Bug                                                                 |   1968 | affection   |
-| Doraemon                                   | Doraemon                                                                     |   1969 | affection   |
-| Huey, Dewey, and Louie                     | Silent Running                                                               |   1972 | affection   |
-| The Gunslinger                             | Westworld                                                                    |   1973 | control     |
-| Mechagodzilla                              | Godzilla vs. Mechagodzilla                                                   |   1974 | none        |
-| Box                                        | Logan's Run                                                                  |   1976 | purpose     |
-| Gregory "Yoyo" Yoyonovich                  | Holmes and Yoyo                                                              |   1976 | control     |
-| Andy the Android                           | Quark                                                                        |   1977 | purpose     |
-| C-3PO                                      | Star Wars                                                                    |   1977 | none        |
-| K-9                                        | Doctor Who                                                                   |   1977 | affection   |
-| Maximillion (Max)                          | The Bionic Woman                                                             |   1977 | affection   |
-| R2-D2                                      | Star Wars                                                                    |   1977 | control     |
-| Cylons (Original Series)                   | Battlestar Galactica (original)                                              |   1978 | control     |
-| Muffit II                                  | Battlestar Galactica (original)                                              |   1978 | affection   |
-| Orac                                       | Blake's 7                                                                    |   1978 | none        |
-| Zen                                        | Blake's 7                                                                    |   1978 | none        |
-| Ash                                        | Alien                                                                        |   1979 | control     |
-| Deep Thought                               | The Hitchhiker's Guide to the Galaxy                                         |   1979 | purpose     |
-| Maximilian                                 | The Black Hole                                                               |   1979 | control     |
-| Dr. Theopolis                              | Buck Rogers in the 25th Century                                              |   1979 | purpose     |
-| Twiki                                      | Buck Rogers in the 25th Century                                              |   1979 | affection   |
-| V.I.N.CENT                                 | The Black Hole                                                               |   1979 | affection   |
-| Booti                                      | Buck Rogers in the 25th Century                                              |   1980 | affection   |
-| Hector                                     | Saturn 3                                                                     |   1980 | control     |
-| Bubo                                       | Clash of the Titans                                                          |   1981 | affection   |
-| Val and Aqua                               | Heartbeeps                                                                   |   1981 | affection   |
-| KITT (Knight Industries Two Thousand)      | Knight Rider                                                                 |   1982 | affection   |
-| Master Control Program                     | Tron                                                                         |   1982 | control     |
-| Automan and Cursor                         | Automan                                                                      |   1983 | affection   |
-| Kamelion                                   | Doctor Who                                                                   |   1983 | control     |
-| Bumblebee                                  | The Transformers (Generation 1)                                              |   1984 | affection   |
-| Edgar                                      | Electric Dreams                                                              |   1984 | affection   |
-| Megatron                                   | The Transformers                                                             |   1984 | control     |
-| Optimus Prime                              | The Transformers                                                             |   1984 | rights      |
-| Skynet                                     | The Terminator                                                               |   1984 | control     |
-| Starscream                                 | The Transformers (Generation 1)                                              |   1984 | control     |
-| T-800                                      | The Terminator                                                               |   1984 | control     |
-| Lisa                                       | Weird Science                                                                |   1985 | affection   |
-| Tik-Tok (Return to Oz)                     | Return to Oz                                                                 |   1985 | none        |
-| The Protectors (Killbots)                  | Chopping Mall                                                                |   1986 | control     |
-| ED-209                                     | RoboCop                                                                      |   1987 | none        |
-| Mega Man (Rock)                            | Mega Man                                                                     |   1987 | purpose     |
-| Cambot                                     | Mystery Science Theater 3000                                                 |   1988 | none        |
-| Crow T. Robot                              | Mystery Science Theater 3000                                                 |   1988 | affection   |
-| Gypsy                                      | Mystery Science Theater 3000                                                 |   1988 | affection   |
-| Holly                                      | Red Dwarf                                                                    |   1988 | affection   |
-| Talkie Toaster                             | Red Dwarf                                                                    |   1988 | purpose     |
-| Tom Servo                                  | Mystery Science Theater 3000                                                 |   1988 | affection   |
-| The Educators (DRB Series)                 | Class of 1999                                                                |   1990 | control     |
-| M.A.R.K. 13                                | Hardware                                                                     |   1990 | control     |
-| T-1000                                     | Terminator 2: Judgment Day                                                   |   1991 | control     |
-| Demonic Toys                               | Demonic Toys                                                                 |   1992 | none        |
-| Slappy                                     | Goosebumps ("Night of the Living Dummy")                                     |   1993 | control     |
-| SHODAN                                     | System Shock                                                                 |   1994 | control     |
-| Vic Fontaine                               | Star Trek: Deep Space Nine                                                   |   1998 | affection   |
-| Agent Smith                                | The Matrix trilogy                                                           |   1999 | control     |
-| Bender Bending Rodríguez                   | Futurama                                                                     |   1999 | affection   |
-| Calculon                                   | Futurama                                                                     |   1999 | affection   |
-| The Iron Giant                             | The Iron Giant                                                               |   1999 | identity    |
-| Robot Santa Claus                          | Futurama                                                                     |   1999 | control     |
-| 343 Guilty Spark                           | Halo: Combat Evolved                                                         |   2001 | purpose     |
-| GIR                                        | Invader Zim                                                                  |   2001 | none        |
-| Teddy                                      | A.I. Artificial Intelligence                                                 |   2001 | affection   |
-| HK-47                                      | Star Wars: Knights of the Old Republic                                       |   2003 | purpose     |
-| T-X                                        | Terminator 3: Rise of the Machines                                           |   2003 | control     |
-| Ragnarok (Clor)                            | Civil War (Marvel Comics)                                                    |   2006 | control     |
-| AUTO                                       | WALL-E                                                                       |   2008 | control     |
-| EVE                                        | WALL-E                                                                       |   2008 | affection   |
-| JARVIS                                     | Iron Man                                                                     |   2008 | affection   |
-| WALL-E                                     | WALL-E                                                                       |   2008 | affection   |
-| Claptrap (CL4P-TP)                         | Borderlands                                                                  |   2009 | affection   |
-| GERTY                                      | Moon                                                                         |   2009 | control     |
-| BMO                                        | Adventure Time                                                               |   2010 | affection   |
-| Atlas and P-body                           | Portal 2 (co-op campaign)                                                    |   2011 | purpose     |
-| The Handbots                               | Doctor Who ("The Girl Who Waited")                                           |   2011 | none        |
-| Olaf                                       | Frozen                                                                       |   2013 | affection   |
-| Baymax                                     | Big Hero 6                                                                   |   2014 | affection   |
-| CASE                                       | Interstellar                                                                 |   2014 | affection   |
-| Chopper (C1-10P)                           | Star Wars Rebels                                                             |   2014 | none        |
-| TARS                                       | Interstellar                                                                 |   2014 | affection   |
-| BB-8                                       | Star Wars: The Force Awakens                                                 |   2015 | affection   |
-| Codsworth                                  | Fallout 4                                                                    |   2015 | affection   |
-| FRIDAY                                     | Avengers: Age of Ultron                                                      |   2015 | none        |
-| Space Cruiser AI                           | Rick and Morty                                                               |   2015 | control     |
-| Triple-Zero (0-0-0)                        | Star Wars: Darth Vader (Marvel, 2015)                                        |   2015 | control     |
-| K-2SO                                      | Rogue One: A Star Wars Story                                                 |   2016 | affection   |
-| Karen (Suit Lady)                          | Spider-Man: Homecoming                                                       |   2017 | none        |
-| A.X.L.                                     | A.X.L.                                                                       |   2018 | affection   |
-| D-O                                        | Star Wars: The Rise of Skywalker                                             |   2019 | none        |
-| Jeff                                       | Finch                                                                        |   2021 | affection   |
-| The Androids                               | Mother/Android                                                               |   2021 | control     |
-| B2EMO                                      | Andor                                                                        |   2022 | affection   |
-| Professor Huyang                           | Ahsoka                                                                       |   2023 | affection   |
+| Entity                                   | Source                                                                       |   Year | Primary Q   |
+|:-----------------------------------------|:-----------------------------------------------------------------------------|-------:|:------------|
+| The Golden Handmaidens of Hephaestus     | Iliad                                                                        |   -750 | none        |
+| Pandora                                  | Works and Days / Theogony                                                    |   -700 | purpose     |
+| The Celedones (Golden Singers of Delphi) | Paean 8 (fragment)                                                           |   -470 | none        |
+| The Walking Statues of Daedalus          | Meno                                                                         |   -380 | none        |
+| Talos                                    | Argonautica                                                                  |   -250 | none        |
+| Galatea                                  | Metamorphoses, Book X                                                        |      8 | affection   |
+| Albertus Magnus's Android                | Medieval legend (Chronicon pontificum et imperatorum; subsequent traditions) |   1280 | knowledge   |
+| The Golem of Prague                      | Golem of Prague folklore cycle                                               |   1580 | control     |
+| The Brazen Head                          | The Honorable History of Friar Bacon and Friar Bungay                        |   1589 | knowledge   |
+| The Steadfast Tin Soldier                | Den standhaftige tinsoldat (The Steadfast Tin Soldier)                       |   1838 | affection   |
+| The Mechanical Butterfly                 | The Artist of the Beautiful                                                  |   1844 | purpose     |
+| The Steam Man                            | The Steam Man of the Prairies                                                |   1868 | none        |
+| Jack Pumpkinhead                         | The Marvelous Land of Oz                                                     |   1904 | affection   |
+| Tik-Tok                                  | Ozma of Oz                                                                   |   1907 | purpose     |
+| The Golem (Wegener film)                 | Der Golem, wie er in die Welt kam                                            |   1920 | control     |
+| R.U.R. Robots                            | R.U.R. (Rossum's Universal Robots)                                           |   1920 | rights      |
+| False Maria                              | Metropolis                                                                   |   1927 | purpose     |
+| Robbie                                   | I, Robot ("Robbie")                                                          |   1940 | affection   |
+| Speedy (SPD-13)                          | I, Robot ("Runaround")                                                       |   1942 | control     |
+| The Humanoids                            | With Folded Hands                                                            |   1947 | control     |
+| Gort                                     | The Day the Earth Stood Still                                                |   1951 | control     |
+| Astro Boy (Atom)                         | Tetsuwan Atom (Mighty Atom)                                                  |   1952 | identity    |
+| The Mechanical Hound                     | Fahrenheit 451                                                               |   1953 | none        |
+| Ro-Man                                   | Robot Monster                                                                |   1953 | affection   |
+| Gog and Magog                            | Gog                                                                          |   1954 | control     |
+| Tobor                                    | Tobor the Great                                                              |   1954 | affection   |
+| Robby the Robot                          | Forbidden Planet                                                             |   1956 | control     |
+| EMERAC                                   | Desk Set                                                                     |   1957 | none        |
+| Brainiac                                 | DC Comics (Action Comics)                                                    |   1958 | knowledge   |
+| Salo                                     | The Sirens of Titan                                                          |   1959 | purpose     |
+| Amazo                                    | The Brave and the Bold (DC Comics)                                           |   1960 | purpose     |
+| Rosie                                    | The Jetsons                                                                  |   1962 | affection   |
+| Astro Boy                                | Tetsuwan Atom (TV anime)                                                     |   1963 | identity    |
+| Rhoda Miller (AF 709)                    | My Living Doll                                                               |   1964 | control     |
+| Hymie the Robot                          | Get Smart                                                                    |   1965 | affection   |
+| Robot (Model B-9)                        | Lost in Space                                                                |   1965 | affection   |
+| Sentinels                                | X-Men (Marvel Comics)                                                        |   1965 | control     |
+| Colossus                                 | Colossus                                                                     |   1966 | control     |
+| Nomad                                    | Star Trek: The Original Series, 'The Changeling'                             |   1967 | purpose     |
+| Norman and the Mudd Androids             | Star Trek: The Original Series ("I, Mudd")                                   |   1967 | control     |
+| Herbie                                   | The Love Bug                                                                 |   1968 | affection   |
+| Huey, Dewey, and Louie                   | Silent Running                                                               |   1972 | affection   |
+| The Gunslinger                           | Westworld                                                                    |   1973 | control     |
+| Mechagodzilla                            | Godzilla vs. Mechagodzilla                                                   |   1974 | none        |
+| Box                                      | Logan's Run                                                                  |   1976 | purpose     |
+| Gregory "Yoyo" Yoyonovich                | Holmes and Yoyo                                                              |   1976 | control     |
+| Andy the Android                         | Quark                                                                        |   1977 | purpose     |
+| C-3PO                                    | Star Wars                                                                    |   1977 | none        |
+| K-9                                      | Doctor Who                                                                   |   1977 | affection   |
+| Maximillion (Max)                        | The Bionic Woman                                                             |   1977 | affection   |
+| R2-D2                                    | Star Wars                                                                    |   1977 | control     |
+| Cylons (Original Series)                 | Battlestar Galactica (original)                                              |   1978 | control     |
+| Muffit II                                | Battlestar Galactica (original)                                              |   1978 | affection   |
+| Orac                                     | Blake's 7                                                                    |   1978 | none        |
+| Zen                                      | Blake's 7                                                                    |   1978 | none        |
+| Ash                                      | Alien                                                                        |   1979 | control     |
+| Deep Thought                             | The Hitchhiker's Guide to the Galaxy                                         |   1979 | purpose     |
+| Maximilian                               | The Black Hole                                                               |   1979 | control     |
+| Dr. Theopolis                            | Buck Rogers in the 25th Century                                              |   1979 | purpose     |
+| Twiki                                    | Buck Rogers in the 25th Century                                              |   1979 | affection   |
+| V.I.N.CENT                               | The Black Hole                                                               |   1979 | affection   |
+| Booti                                    | Buck Rogers in the 25th Century                                              |   1980 | affection   |
+| Hector                                   | Saturn 3                                                                     |   1980 | control     |
+| Bubo                                     | Clash of the Titans                                                          |   1981 | affection   |
+| Val and Aqua                             | Heartbeeps                                                                   |   1981 | affection   |
+| KITT (Knight Industries Two Thousand)    | Knight Rider                                                                 |   1982 | affection   |
+| Master Control Program                   | Tron                                                                         |   1982 | control     |
+| Automan and Cursor                       | Automan                                                                      |   1983 | affection   |
+| Kamelion                                 | Doctor Who                                                                   |   1983 | control     |
+| Bumblebee                                | The Transformers (Generation 1)                                              |   1984 | affection   |
+| Edgar                                    | Electric Dreams                                                              |   1984 | affection   |
+| Megatron                                 | The Transformers                                                             |   1984 | control     |
+| Optimus Prime                            | The Transformers                                                             |   1984 | rights      |
+| Skynet                                   | The Terminator                                                               |   1984 | control     |
+| Starscream                               | The Transformers (Generation 1)                                              |   1984 | control     |
+| T-800                                    | The Terminator                                                               |   1984 | control     |
+| Lisa                                     | Weird Science                                                                |   1985 | affection   |
+| Tik-Tok (Return to Oz)                   | Return to Oz                                                                 |   1985 | none        |
+| The Protectors (Killbots)                | Chopping Mall                                                                |   1986 | control     |
+| ED-209                                   | RoboCop                                                                      |   1987 | none        |
+| Mega Man (Rock)                          | Mega Man                                                                     |   1987 | purpose     |
+| Cambot                                   | Mystery Science Theater 3000                                                 |   1988 | none        |
+| Crow T. Robot                            | Mystery Science Theater 3000                                                 |   1988 | affection   |
+| Gypsy                                    | Mystery Science Theater 3000                                                 |   1988 | affection   |
+| Holly                                    | Red Dwarf                                                                    |   1988 | affection   |
+| Talkie Toaster                           | Red Dwarf                                                                    |   1988 | purpose     |
+| Tom Servo                                | Mystery Science Theater 3000                                                 |   1988 | affection   |
+| The Educators (DRB Series)               | Class of 1999                                                                |   1990 | control     |
+| M.A.R.K. 13                              | Hardware                                                                     |   1990 | control     |
+| T-1000                                   | Terminator 2: Judgment Day                                                   |   1991 | control     |
+| Demonic Toys                             | Demonic Toys                                                                 |   1992 | none        |
+| Slappy                                   | Goosebumps ("Night of the Living Dummy")                                     |   1993 | control     |
+| SHODAN                                   | System Shock                                                                 |   1994 | control     |
+| Vic Fontaine                             | Star Trek: Deep Space Nine                                                   |   1998 | affection   |
+| Agent Smith                              | The Matrix trilogy                                                           |   1999 | control     |
+| Bender Bending Rodríguez                 | Futurama                                                                     |   1999 | affection   |
+| Calculon                                 | Futurama                                                                     |   1999 | affection   |
+| The Iron Giant                           | The Iron Giant                                                               |   1999 | identity    |
+| Robot Santa Claus                        | Futurama                                                                     |   1999 | control     |
+| 343 Guilty Spark                         | Halo: Combat Evolved                                                         |   2001 | purpose     |
+| GIR                                      | Invader Zim                                                                  |   2001 | none        |
+| Teddy                                    | A.I. Artificial Intelligence                                                 |   2001 | affection   |
+| HK-47                                    | Star Wars: Knights of the Old Republic                                       |   2003 | purpose     |
+| T-X                                      | Terminator 3: Rise of the Machines                                           |   2003 | control     |
+| Ragnarok (Clor)                          | Civil War (Marvel Comics)                                                    |   2006 | control     |
+| AUTO                                     | WALL-E                                                                       |   2008 | control     |
+| EVE                                      | WALL-E                                                                       |   2008 | affection   |
+| JARVIS                                   | Iron Man                                                                     |   2008 | affection   |
+| WALL-E                                   | WALL-E                                                                       |   2008 | affection   |
+| Claptrap (CL4P-TP)                       | Borderlands                                                                  |   2009 | affection   |
+| GERTY                                    | Moon                                                                         |   2009 | control     |
+| BMO                                      | Adventure Time                                                               |   2010 | affection   |
+| Atlas and P-body                         | Portal 2 (co-op campaign)                                                    |   2011 | purpose     |
+| The Handbots                             | Doctor Who ("The Girl Who Waited")                                           |   2011 | none        |
+| Olaf                                     | Frozen                                                                       |   2013 | affection   |
+| Baymax                                   | Big Hero 6                                                                   |   2014 | affection   |
+| CASE                                     | Interstellar                                                                 |   2014 | affection   |
+| Chopper (C1-10P)                         | Star Wars Rebels                                                             |   2014 | none        |
+| TARS                                     | Interstellar                                                                 |   2014 | affection   |
+| BB-8                                     | Star Wars: The Force Awakens                                                 |   2015 | affection   |
+| Codsworth                                | Fallout 4                                                                    |   2015 | affection   |
+| FRIDAY                                   | Avengers: Age of Ultron                                                      |   2015 | none        |
+| Space Cruiser AI                         | Rick and Morty                                                               |   2015 | control     |
+| Triple-Zero (0-0-0)                      | Star Wars: Darth Vader (Marvel, 2015)                                        |   2015 | control     |
+| K-2SO                                    | Rogue One: A Star Wars Story                                                 |   2016 | affection   |
+| Karen (Suit Lady)                        | Spider-Man: Homecoming                                                       |   2017 | none        |
+| A.X.L.                                   | A.X.L.                                                                       |   2018 | affection   |
+| D-O                                      | Star Wars: The Rise of Skywalker                                             |   2019 | none        |
+| Jeff                                     | Finch                                                                        |   2021 | affection   |
+| The Androids                             | Mother/Android                                                               |   2021 | control     |
+| B2EMO                                    | Andor                                                                        |   2022 | affection   |
+| Professor Huyang                         | Ahsoka                                                                       |   2023 | affection   |
 
 ### knowability = present
 
@@ -571,7 +567,6 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Frost                                    | For a Breath I Tarry                                   |   1966 | identity    |
 | AM                                       | I Have No Mouth, and I Must Scream                     |   1967 | control     |
 | Buster Friendly                          | Do Androids Dream of Electric Sheep?                   |   1968 | identity    |
-| Hayt / Duncan Idaho Ghola                | Dune Messiah                                           |   1969 | identity    |
 | The Stepford Wives                       | The Stepford Wives                                     |   1972 | control     |
 | Andrew Martin                            | The Bicentennial Man                                   |   1976 | rights      |
 | The Fembots                              | The Six Million Dollar Man / The Bionic Woman          |   1976 | control     |
@@ -661,7 +656,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Golem XIV                                                     | Golem XIV                                                                     |   1981 | knowledge   |
 | Max 404                                                       | Android                                                                       |   1982 | rights      |
 | Rachael                                                       | Blade Runner                                                                  |   1982 | affection   |
-| Neuromancer                                                   | Neuromancer                                                                   |   1984 | identity    |
+| Neuromancer                                                   | Neuromancer                                                                   |   1984 | knowledge   |
 | Chucky (Charles Lee Ray)                                      | Child's Play                                                                  |   1988 | identity    |
 | Professor James Moriarty                                      | Star Trek: The Next Generation ("Elementary, Dear Data" / "Ship in a Bottle") |   1988 | rights      |
 | The Keats Cybrid (Joseph Severn)                              | Hyperion / The Fall of Hyperion                                               |   1989 | identity    |
@@ -674,7 +669,6 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Rei Toei                                                      | Idoru                                                                         |   1996 | affection   |
 | Lain Iwakura                                                  | Serial Experiments Lain                                                       |   1998 | identity    |
 | R. Dorothy Wayneright                                         | The Big O                                                                     |   1999 | identity    |
-| Alphonse Elric                                                | Fullmetal Alchemist                                                           |   2001 | identity    |
 | Chi / Elda / Freya                                            | Chobits                                                                       |   2001 | affection   |
 | David                                                         | A.I. Artificial Intelligence                                                  |   2001 | affection   |
 | Bernard 1 / Bernard 2 / Michael Black                         | A Number                                                                      |   2002 | identity    |

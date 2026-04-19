@@ -18,7 +18,6 @@ metadata:
   medium: novel
   creator: "L. Frank Baum (Tip in-narrative)"
   substrate:
-    - biological
     - magical
   motivation:
     - companionship
@@ -67,7 +66,11 @@ notes: |
   `present`; knowability is `absent` — no one in the story
   doubts that Jack is what he looks like.
 
-  Substrate `biological` + `magical` — pumpkin, wood, and
-  Ozian animating powder, same ontology as the Scarecrow.
+  Substrate `magical` only, aligning with the corpus convention
+  for carved / stuffed / naturally inert materials: pumpkin,
+  wood, and cloth are the physical materials, but the Ozian
+  Powder of Life is the animating principle and the coding-
+  relevant substrate. Same ontology as the Scarecrow (scarecrow-
+  oz).
   Creator_relationship `loyal` — Jack calls Tip "Father" and
   the devotion is stable across the entire series.

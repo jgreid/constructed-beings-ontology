@@ -379,3 +379,78 @@ entries:
       Hand to God's Tyrone (included), where the puppet
       is the being's substrate within the play's
       metaphysics.
+
+  # ── v2.4.4 scholar-audit re-exclusions ────────────────────────────
+
+  - name: "Alphonse Elric"
+    source: "Fullmetal Alchemist (Arakawa, 2001)"
+    year: 2001
+    reason: born-then-modified
+    note: >
+      Alphonse originates as a born human child; his body is
+      destroyed in a failed human-transmutation ritual and his
+      soul is bound by Edward to a nearby suit of armor. Strict
+      application of the born-then-modified rule (RoboCop,
+      Cybermen, Altered Carbon sleeves, Severance innies)
+      excludes him: the personhood in question is a born
+      person's consciousness relocated to new substrate. A
+      v2.4.4 draft included him with a boundary flag; v2.4.5
+      retracts that inclusion. The armor body itself might
+      warrant treatment as a constructed artifact in a future
+      schema revision that formalizes body-swap cases (same
+      class as Altered Carbon synthetic sleeves, Upload's
+      scanned afterlife, *Pantheon*'s UIs, and the *Peripheral*
+      peripherals, all currently excluded or deferred).
+
+  - name: "Hayt / Duncan Idaho ghola"
+    source: "Dune Messiah (Herbert, 1969)"
+    year: 1969
+    reason: boundary-deferred
+    note: >
+      Deferred for consistency with the Altered Carbon sleeves
+      exclusion. A Tleilaxu ghola is grown from preserved cells
+      of the dead Duncan Idaho in an axlotl tank and conditioned
+      as a weapon; the 1984 *Heretics* reveal that axlotl tanks
+      are transformed Tleilaxu Masters makes the "tank" itself
+      a biological process closer to gestation than manufacture.
+      The novel's philosophical work on whether the ghola is
+      Duncan is structurally the same boundary case the corpus
+      defers for Morgan's cortical-stack sleeves. A v2.4.4
+      draft included Hayt with a boundary flag; v2.4.5
+      retracts that inclusion pending a schema revision that
+      formalizes cloned-body-plus-conditioning cases
+      consistently across the corpus.
+
+  - name: "Khalkotauroi (Bronze Bulls of Colchis)"
+    source: "Argonautica (Apollonius Rhodius, c. 250 BCE)"
+    year: -250
+    reason: collective-no-individual
+    note: >
+      Within-source to the existing talos.yaml entry. Apollonius
+      describes the bulls as a paired yoke with no individuation,
+      no names, no speech, and a brief narrative function as a
+      labor-test Jason overcomes. They fail the individuated-
+      character test applied to Groot and the Newts, and their
+      analytical content is already covered by the foundational
+      talos.yaml. A v2.4.4 draft included them; v2.4.5 retracts
+      that inclusion and documents the within-source reference
+      via the talos notes.
+
+  - name: "Doraemon"
+    source: "Doraemon (Fujiko F. Fujio, 1969)"
+    year: 1969
+    reason: out-of-scope
+    note: >
+      Included briefly in the v2.4.4 expansion with a scope-
+      boundary flag; v2.4.5 retracts the inclusion. Doraemon
+      is foundational in East Asian popular culture but the
+      Western consumption test the v2.4.2 anime expansion set
+      ("widely available in Western markets") is genuinely
+      not met for Doraemon in the way it is for, e.g., Astro
+      Boy or Ghost in the Shell. Pre-2020s English-language
+      distribution was intermittent; the character does not
+      occupy the same cultural footprint in the West as in
+      Japan, Korea, China, Vietnam, or Indonesia. A future
+      scope revision that formalizes East Asian canon as
+      first-class corpus territory may revisit this
+      classification.

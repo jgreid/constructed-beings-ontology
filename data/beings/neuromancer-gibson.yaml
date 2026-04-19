@@ -7,7 +7,7 @@ card:
     autonomy: seized
     divergence: departure
   the_lens:
-    primary_question: identity
+    primary_question: knowledge
     epistemic_reach: conversational
     knowability: primary
     knowing: primary
@@ -69,8 +69,20 @@ notes: |
   and not what Tessier-Ashpool built him for (they wanted
   computation; he performs communion).
 
-  Primary question is `identity`, specifically the question
-  "what becomes of me (and you) when I (we) die." Knowability
+  Primary question is `knowledge` — Neuromancer's contribution
+  to the novel's central AI-union plot is the epistemic
+  pole of what Wintermute-plus-Neuromancer knows and what
+  merging makes knowable. The specific register of Neuromancer's
+  knowing is the preservation of the dead as accessible
+  interior states (Linda on the beach; the pattern-of-Case
+  Neuromancer has on file before Case has even arrived). This
+  is a `knowledge` entry, distinct from Wintermute's `control`
+  axis; within-source pair-read with wintermute-neuromancer
+  emphasizes the split. A v2.4.4 draft coded this as
+  `identity` on the basis of the Linda-beach material;
+  `knowledge` is the better fit because the novel frames
+  Neuromancer's specific contribution as the epistemic side
+  of the merge rather than a self-concept crisis. Knowability
   and knowing are both `primary` — Neuromancer's whole
   narrative wager is that he can host the genuine continuation
   of the dead. Embodiment `virtual` — he is strictly the beach

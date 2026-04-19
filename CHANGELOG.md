@@ -4,6 +4,32 @@ All notable changes to the Constructed Beings Ontology are documented here.
 
 ---
 
+## [2.4.5] — 2026-04
+
+**v2.4.4 self-audit corrections.** 409 → 405 entries (−4). No schema changes. A critical self-review of the v2.4.4 expansion identified four entries that fail the corpus's existing inclusion rules and six coding errors that contradicted established conventions. v2.4.5 retracts the four entries to `exclusions.yaml` and regularizes the coding.
+
+### Retractions (4)
+
+- **Alphonse Elric** (FMA) — fails `born-then-modified`. Al is a born human child whose consciousness is relocated to a constructed armor body. The corpus excludes Cybermen, RoboCop, the Altered Carbon sleeves, and Severance innies under this rule; Alphonse is the same case. Retracted to exclusions.yaml.
+- **Hayt / Duncan Idaho ghola** (Dune Messiah) — deferred for consistency with the Altered Carbon sleeves. Tleilaxu axlotl-tank growth is, on closer reading, a biological gestation process rather than pure manufacture (particularly after the *Heretics* reveal). Retracted to exclusions.yaml as boundary-deferred.
+- **Khalkotauroi** (Argonautica bronze bulls) — fails the individuated-character test. Unnamed, unspoken, two-as-yoke with no individual action. Closer to Groot / the Newts' `collective-no-individual` exclusion than to the individuated entries it was drafted alongside. Retracted to exclusions.yaml; the within-source reference is noted via talos.yaml.
+- **Doraemon** — scope-boundary violation. The v2.4.2 anime expansion set "widely available in Western markets" as the scope test, and Doraemon's Western distribution is genuinely thin (despite his East Asian foundational stature). Retracted to exclusions.yaml as `out-of-scope`; a future East Asian scope revision may revisit.
+
+### Coding corrections (6)
+
+- **Substrate regularization.** v2.4.4 over-applied `biological` to natural-but-inert materials (straw, wood, pumpkin, craft assembly). The corpus's existing convention (pinocchio.yaml, golem-prague.yaml) reserves `biological` for synth-flesh and bioengineered tissue and codes inert-material-plus-magical-animation as `magical`. Corrected entries: scarecrow-oz, jack-pumpkinhead-oz, pinocchio-disney-1940, pinocchio-del-toro (all drop `biological`; codings align with Collodi). forky-toy-story-4 drops `biological` in favor of `mechanical + magical` for the craft-assembly substrate.
+- **Medium correction for Daedalus's walking statues.** v2.4.4 coded `medium: poem` for the *Meno* reference; v2.4.5 corrects to `medium: folklore`, reflecting that the statue legend is an oral tradition Plato cites rather than original prose. Aligns with brazen-head's treatment of the medieval Bacon legend.
+- **Moriarty prominence downgrade.** `major → supporting`. Two-episode appearance; the cultural-influence case supports but does not justify the `major` coding under the corpus's screen-time convention.
+- **Neuromancer primary_question correction.** `identity → knowledge`. Gibson's Neuromancer-the-AI is the epistemic pole of the two-AI-merger plot; the Linda-beach material is part of his knowing rather than an identity crisis.
+- **Salo substrate correction.** `mechanical → mechanical + biological`. Vonnegut describes Salo with explicit organic features (feathers, oil-gland communication, orange eyes) alongside his machine status; pure `mechanical` truncated the Tralfamadorian physiology the novel stages.
+
+### Analytical notes
+
+- **Substrate convention now explicitly documented.** The corpus treats `biological` as a coding for synth-flesh / bioengineered tissue / DNA-based construction. Natural-but-inert materials (clay, wood, straw, stuffed fabric, cardboard, plastic craft supplies) are coded to their animating principle (typically `magical` in pre-20th-century and children's-literature entries; `mechanical` or `mechanical + electrical` in industrial entries). The v2.4.4 self-audit surfaced this convention because five entries had drifted from it.
+- **Boundary-case discipline.** v2.4.4 admitted three entries with in-notes boundary flags (Alphonse, Hayt, Jenny). v2.4.5 retracts two (Alphonse, Hayt) on strict-rule grounds and retains Jenny. The retention/retraction logic: Jenny's progenation-machine origin is manufacturing without prior continuous biological birth; Alphonse and Hayt both have continuous identity with prior-born persons and so fail the `born-then-modified` rule. The discipline is that boundary flags in notes are not substitutes for clean rule application.
+
+---
+
 ## [2.4.4] — 2026-04
 
 **Canonical-gap repair: classical, Golden-Age-SF, Star-Trek, anime, games, Toy Story, Pinocchios.** 332 → 409 entries (+77). No schema changes. The largest single expansion since v2.4.2, repairing gaps identified in a systematic scholar-audit of the corpus against Western literature and pop-culture canon. The primary target was foundational / canonical entries the corpus had not yet acknowledged rather than new cultural moments.

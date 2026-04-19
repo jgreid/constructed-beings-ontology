@@ -18,7 +18,6 @@ metadata:
   medium: film
   creator: "Guillermo del Toro / Mark Gustafson (Geppetto and the Wood Sprite in-narrative)"
   substrate:
-    - biological
     - magical
   motivation:
     - child
@@ -79,9 +78,14 @@ notes: |
   `primary`. Creator_relationship `loyal` — Pinocchio's
   devotion to Geppetto is the film's spine.
 
-  Substrate `biological` (Carlo's pine tree is the film's
-  insistence) + `magical` (the Wood Sprite's animation is
-  the film's first-order miracle). Tags `canonical`,
+  Substrate `magical` only, aligning with the corpus
+  convention (pinocchio.yaml, pinocchio-disney-1940) of
+  coding wood as a natural-material substrate whose animation
+  is magical. Del Toro makes the pine-tree ancestry of the
+  wood particularly vivid (Carlo planted it; Geppetto cut it
+  down; the carving carries Carlo forward in some sense), but
+  the coding-relevant substrate is the Wood Sprite's
+  animating principle. Tags `canonical`,
   `child-arc`, `philosophical`, `creator-conflict` — the
   film's conflict with the Podestà (state creator figure)
   and with Volpe (exploiter creator figure) is structurally

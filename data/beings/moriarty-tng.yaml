@@ -25,7 +25,7 @@ metadata:
     - other
   presentation: masculine
   embodiment: projected
-  prominence: major
+  prominence: supporting
   creator_relationship: rebellious
   tags:
     - philosophical
@@ -51,8 +51,14 @@ notes: |
   Picard installs Moriarty and his partner in a portable
   simulation they cannot tell from the real world.
 
-  One of the corpus's most important television entries on
-  rights-of-constructed-beings grounds. Moriarty is the first
+  Prominence coded `supporting` rather than `major` on
+  screen-time grounds (Moriarty appears as a focal antagonist
+  across two episodes, five years apart); his cultural-
+  influence weight is greater than his prominence coding
+  captures, which is worth flagging but does not change the
+  enum fit under the corpus's convention. One of the corpus's
+  most important television entries on rights-of-constructed-
+  beings grounds. Moriarty is the first
   TNG-era treatment of a holodeck character's personhood and
   the template for all subsequent holodeck-rights stories
   (Vic Fontaine, the Doctor/EMH, Minuet). Unlike the EMH — who

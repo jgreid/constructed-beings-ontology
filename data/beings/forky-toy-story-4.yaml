@@ -18,7 +18,6 @@ metadata:
   medium: film
   creator: "Josh Cooley (Bonnie, in-narrative)"
   substrate:
-    - biological
     - mechanical
     - magical
   motivation:
@@ -76,10 +75,12 @@ notes: |
   Bonnie and subsequent friendship with Woody are the film's
   emotional anchors.
 
-  Substrate `biological` (popsicle sticks, wood, googly-eye
-  plastic treated as craft-organic) + `mechanical` (the
-  spork's utensil geometry) + `magical` (the Pixar
-  animating principle); the triple substrate coding is
-  the corpus's most explicit articulation of the *Toy Story*
-  ontology. Creator_relationship `loyal` — Bonnie is
-  Forky's creator and his chosen person.
+  Substrate `mechanical` (plastic spork, googly eyes,
+  popsicle-stick-and-pipe-cleaner assembly — the
+  craft-manufactured object) + `magical` (the Pixar
+  animating principle that Bonnie's naming activates).
+  Aligned with the corpus convention of not using
+  `biological` for natural-but-inert materials (cf.
+  pinocchio, golem-prague, scarecrow-oz). Creator_
+  relationship `loyal` — Bonnie is Forky's creator and his
+  chosen person.

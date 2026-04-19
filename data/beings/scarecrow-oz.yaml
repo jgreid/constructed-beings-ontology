@@ -18,7 +18,6 @@ metadata:
   medium: novel
   creator: "L. Frank Baum (unnamed Munchkin farmer in-narrative)"
   substrate:
-    - biological
     - magical
   motivation:
     - service
@@ -67,8 +66,14 @@ notes: |
   entire arc is "do I have a brain / am I stupid," and the
   book's answer is that the question itself is his brain.
 
-  Substrate is `biological` (straw, cloth) + `magical` (Ozian
-  animation). Creator_relationship `absent` — the Munchkin
+  Substrate is `magical` only, aligning with the corpus
+  convention for carved / stuffed / naturally inert materials
+  (cf. pinocchio.yaml's `magical`-only coding for wood, and
+  golem-prague's `magical + linguistic` for clay). `biological`
+  in the corpus is reserved for synth-flesh and bioengineered
+  tissue substrates (Andrew, Alpha, Andy, AIDA), not for the
+  natural-material substrate of Ozian animation. Creator_
+  relationship `absent` — the Munchkin
   farmer disappears from the narrative after providing the
   substrate; the Scarecrow has no relationship with his
   maker, which is part of what makes him available to

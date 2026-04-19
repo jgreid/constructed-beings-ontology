@@ -18,7 +18,6 @@ metadata:
   medium: film
   creator: "Walt Disney / Norman Ferguson / T. Hee (Geppetto and the Blue Fairy in-narrative)"
   substrate:
-    - biological
     - magical
   motivation:
     - child
@@ -76,8 +75,9 @@ notes: |
   the film raises the question of whether Pinocchio is "real"
   and settles it on the Blue Fairy's authority.
 
-  Creator_relationship `loyal`. Substrate `biological`
-  (wood, treated as the Disney film treats it — a living
-  carved material) + `magical` (the Blue Fairy's animating
-  grant). Tags `canonical`, `child-arc`, `love-story` (a
-  paternal one).
+  Creator_relationship `loyal`. Substrate `magical` only,
+  aligning with the corpus convention (pinocchio.yaml for
+  Collodi) of coding wood as a natural-material substrate
+  animated by magical principle rather than as
+  `biological`. Tags `canonical`, `child-arc`, `love-story`
+  (a paternal one).

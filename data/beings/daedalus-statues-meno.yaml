@@ -15,7 +15,7 @@ card:
 metadata:
   source: "Meno"
   year: -380
-  medium: poem
+  medium: folklore
   creator: "Plato (Daedalus in-narrative)"
   substrate:
     - mechanical
@@ -44,11 +44,18 @@ notes: |
   could perform its work on command… foremen would have no need
   of subordinates, or masters of slaves").
 
-  Coded here as "poem" medium, the closest available enum value
-  for a Greek philosophical dialogue; flagged because none of
-  the schema's media quite fit the Platonic dialogue form. A
-  future schema revision might add `dialogue` or `prose`; the
-  analytical content is what matters.
+  Coded `medium: folklore`. The legend of Daedalus's running
+  statues is itself a pre-Platonic oral tradition that Plato
+  cites in the *Meno* as cultural common knowledge; the Meno
+  is not the source of the legend but a surviving reference
+  to it. Coding to `folklore` preserves the status of the
+  statues as a legendary/traditional referent independent of
+  the specific prose dialogue in which they are cited,
+  paralleling the treatment of other legendary material in
+  the corpus (golem-prague, brazen-head's own folkloric
+  antecedents). A future schema revision may add a
+  `dialogue` or `prose` medium for direct Platonic and
+  Scholastic-text coding.
 
   Interiority is `none` and primary_question is `none` because
   Plato does not make a question about the statues — they are
