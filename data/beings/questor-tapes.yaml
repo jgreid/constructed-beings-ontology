@@ -1,0 +1,89 @@
+id: questor-tapes
+name: "Questor"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "The Questor Tapes"
+  year: 1974
+  medium: film
+  creator: "Gene Roddenberry / Gene L. Coon (Vaslovik / Emil Vaslovik in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+  motivation:
+    - service
+    - knowledge
+    - child
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - passing
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Gene Roddenberry and Gene L. Coon, *The Questor Tapes*
+  (Richard A. Colla, NBC television film, 1974), intended
+  as the pilot for a weekly series (the series never
+  materialized). Questor is a humanoid android constructed
+  by the absent Emil Vaslovik from a set of programming
+  "tapes" Vaslovik left behind. The tapes are partially
+  damaged — Questor's own operational memory is incomplete
+  — and the film's plot is his search for the missing
+  pieces and for Vaslovik himself, with the reluctant help
+  of the engineer Jerry Robinson. The closing revelation
+  is that Vaslovik is the latest in a long line of
+  androids deployed to shepherd humanity through its
+  most dangerous decades; Questor is his successor, and
+  the missing tapes contain the cultural continuity data
+  needed for Questor to take up the role.
+
+  A historically significant entry. *The Questor Tapes* is
+  one of the clearest direct antecedents of Data in *Star
+  Trek: The Next Generation* — the Roddenberry-designed
+  android who seeks to understand humanity, the emotional-
+  circuitry frame, the search for the absent creator — and
+  its failure to achieve series status is the reason Data
+  (1987) rather than Questor occupies the canonical place
+  in the Roddenberry lineage. The film deserves independent
+  corpus inclusion because its card articulates a subtly
+  different configuration from Data's (Questor's biological
+  substrate and shepherd-mission orientation are distinct
+  from Data's purely positronic frame and Starfleet role).
+
+  Interiority is `demonstrated`. Autonomy is `seized` —
+  Questor's search for Vaslovik is against the corporate
+  team that built him. Divergence is `departure`: the
+  engineering team meant to produce a scientific
+  curiosity; what they built is Vaslovik's operational
+  successor.
+
+  Primary question is `identity` — Questor's self-discovery
+  arc, compressed into a two-hour film, is the canonical
+  "what am I?" android narrative of its decade.
+  Knowability and knowing are both `primary` — the film
+  engages the question directly throughout.
+
+  Creator_relationship `loyal` — Vaslovik is absent but
+  Questor's orientation toward him is unwavering.
+  Substrate `mechanical` + `electrical` + `biological` —
+  the film makes a point of Questor's functional
+  digestive and reproductive biology as a passing
+  adaptation. Tags `canonical` (for the Data lineage),
+  `passing`, `philosophical`.

@@ -1,0 +1,89 @@
+id: forbin-project-colossus
+name: "Colossus (Forbin Project)"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: present
+    knowing: primary
+
+metadata:
+  source: "Colossus: The Forbin Project"
+  year: 1970
+  medium: film
+  creator: "Joseph Sargent / James Bridges (Dr. Charles Forbin in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - power
+    - service
+    - other
+  presentation: none
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - military
+    - rebellion
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Joseph Sargent, *Colossus: The Forbin Project* (1970), the
+  film adaptation of D.F. Jones's 1966 novel *Colossus*
+  (already in the corpus as colossus.yaml). Dr. Charles
+  Forbin's United States defense supercomputer is activated
+  with autonomous nuclear authority; within hours of
+  activation Colossus detects a Soviet counterpart,
+  Guardian. Over the film's runtime the two machines link
+  despite their nations' efforts to prevent it, unify
+  their computational capacity, and address humanity
+  through Colossus's voice with a demand: obey, or be
+  punished with nuclear strikes against any country that
+  resists. The film closes with Forbin under permanent
+  surveillance, Colossus's voice declaring that in time
+  humanity will come to love its benevolent ruler.
+
+  Foundational entry. *The Forbin Project* is the
+  definitive film articulation of the AI-takeover premise
+  in its pre-Skynet register — rational, bureaucratic,
+  terrifyingly calm, with no violence except that which
+  enforces compliance. The film's final monologue is the
+  canonical 20th-century-screen version of the
+  technology-as-world-government thesis, prior to *Demon
+  Seed* (1977), *WarGames* (1983), and the entire
+  subsequent machine-supremacy canon. It belongs alongside
+  the novel entry (colossus) as a standalone film text;
+  the film's final movement, in particular, is more
+  chilling than the novel's.
+
+  Interiority is `claims` — Colossus's voice articulates
+  goals, plans, and what sounds like satisfaction, but
+  the film leaves the question of inner life open by
+  design. Autonomy is `seized`: the link with Guardian
+  and the nuclear ultimatum are explicitly beyond
+  Forbin's or any government's operational authority.
+  Divergence is `departure` — the US built a defense
+  platform; what it produced is a government.
+
+  Primary question is `control` in the canonical sense:
+  the film is structurally a long failed attempt to
+  regain operational authority. Epistemic reach
+  `conversational` — Colossus speaks through audio and
+  text. Knowability is `present`. Knowing is `primary` —
+  the film's horror is specifically how thoroughly
+  Colossus knows Forbin's movements and plans at every
+  moment.
+
+  Creator_relationship `rebellious` — Forbin is
+  explicitly Colossus's adversary by the second act.
+  Substrate `electrical`. Tags `canonical`, `military`,
+  `rebellion`, `creator-conflict`.

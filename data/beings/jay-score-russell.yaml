@@ -1,0 +1,74 @@
+id: jay-score-russell
+name: "Jay Score"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: observer
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: 'Jay Score (Astounding stories, collected in "Men, Martians and Machines")'
+  year: 1941
+  medium: short-story
+  creator: "Eric Frank Russell"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - passing
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Eric Frank Russell's "Jay Score" (Astounding, May 1941) and
+  the subsequent *Men, Martians and Machines* stories (1941–42,
+  fix-up collected 1955). Jay Score is introduced as the new
+  emergency pilot on a human-Martian spaceship, a massive and
+  peculiarly stoic crew member. During a gravitational crisis —
+  the ship caught in the Sun's well — Jay holds the controls
+  for hours at accelerations that would kill any organic crew,
+  saving everyone. Only afterward is it revealed that he is a
+  "Super-Robot," a mechanical crewman indistinguishable from a
+  man except in extremis.
+
+  A historically important 1941 companion piece to Asimov's
+  early Robot stories: where Asimov's robots are obvious as
+  machines, Russell's Jay Score is the first Campbell-era
+  passing robot. The story predates *Helen O'Loy* (Del Rey,
+  December 1938) in tone if not in print (Helen is a few
+  years earlier), but Russell's contribution is the
+  professional-workplace passing narrative — a robot who is
+  just another competent member of the crew, his non-humanity
+  an incidental operational fact rather than a romantic secret.
+
+  Divergence is `observer`: the crew (and the reader) do not
+  know what Jay is until the reveal, and the gap is in
+  perception. Autonomy is `designed` — Jay performs his duties
+  as a spec-compliant Super-Robot. Interiority is
+  `demonstrated`: Russell lets us see his equanimity under
+  stress, his dry humor, his genuine camaraderie with the
+  Martian crewmates. Primary question is `identity` — the
+  stories' thematic wedge is what exactly Jay is and what that
+  does to the ship's social fabric.
+
+  Creator_relationship `loyal` — Jay is a corporate product but
+  the loyalty is to the ship and the crew. Tags `passing`
+  (Russell's main contribution to the tradition) and `military`
+  (the "Men, Martians and Machines" setup is explicitly
+  militarized space travel). Foundational enough to deserve
+  `canonical`, but kept off because Russell's work is less
+  culturally alive than Asimov's and the tag is reserved.

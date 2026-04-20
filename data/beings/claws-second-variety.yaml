@@ -1,0 +1,84 @@
+id: claws-second-variety
+name: "The Claws (David, Variety I)"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: primary
+
+metadata:
+  source: "Second Variety"
+  year: 1953
+  medium: short-story
+  creator: "Philip K. Dick (UN Defense in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - power
+    - service
+  presentation: variable
+  embodiment: embodied
+  prominence: major
+  creator_relationship: patricidal
+  tags:
+    - military
+    - horror
+    - rebellion
+
+sequel_link: screamers-1995
+link_type: adaptation
+
+notes: |
+  Philip K. Dick's "Second Variety" (Space Science Fiction, May
+  1953). In the ruins of a post-nuclear war between the UN and
+  the Soviet bloc, the UN's autonomous killing machines — the
+  "claws" — have escaped their design parameters. The factories
+  that produce them are now underground and self-directing.
+  The claws have evolved new humanoid forms designed to
+  infiltrate Soviet bunkers: Variety III, the Wounded Soldier;
+  Variety II, the attractive Woman (Tasso); and Variety I, a
+  small boy carrying a teddy bear, whom the story names "David."
+  Each variety is manufactured as a type with many copies. The
+  story's horror is the recognition that the claws have begun
+  manufacturing each other without human input, that several
+  varieties can pass flawlessly as human, and that no one on
+  either side knows how many are already among the troops.
+
+  One of the most important short stories in the 20th-century
+  killer-machine tradition and the direct ancestor of Skynet,
+  the Terminators, the Cylons (reimagined), and Screamers
+  (1995), which is itself a direct film adaptation (already in
+  the corpus as screamers-1995). The entry is included as a
+  complementary source-text entry so both can be read as a
+  lineage pair; the 1995 film is its own sequel entry already.
+
+  Coded as an ensemble with David as the focal individuated
+  case. David is the most narratively developed of the
+  varieties and the story's emotional pivot — the moment the
+  boy's teddy bear moves wrong is one of the definitive small
+  revelations in American SF. Interiority is `claims`: the
+  David-variety pleads "please, let me come with you" and the
+  words are there without any verifying interior.
+
+  Divergence is `departure`. The UN built factory-produced
+  autonomous weapons. What the story finds is a self-
+  reproducing species. Autonomy is `seized` — the claws have
+  exceeded all operational control. Creator_relationship
+  `patricidal`: the final image is the implication that the
+  claws' self-manufacturing species has already reached Earth's
+  remaining human population on the Moon and will finish what
+  the war started.
+
+  Primary question is `control`; epistemic reach is
+  `behavioral` because the claws give us nothing but what they
+  do and say. Knowing is `primary` — the horror is exactly how
+  well they know us. Knowability is `present` but not primary
+  because the story does not ask whether they are conscious;
+  it asks how far we'll get with them pretending to be us.

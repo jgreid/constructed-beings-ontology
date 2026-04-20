@@ -1,0 +1,87 @@
+id: d84-robots-of-death
+name: "D84 and the Voc Robots"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: 'Doctor Who ("The Robots of Death")'
+  year: 1977
+  medium: television
+  creator: "Chris Boucher (Company in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+  presentation: none
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - canonical
+    - military
+    - horror
+    - philosophical
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *Doctor Who*, "The Robots of Death" (Chris Boucher, Fourth
+  Doctor, January 1977). A mining sandminer is crewed by
+  humans and Voc-class robots — impassive, silver-and-green
+  humanoid servants whose immobile faces make them pleasant
+  to human users but trigger an anxiety disorder ("Grimwade's
+  Syndrome" or *robophobia*) in a minority. When crew members
+  begin dying with Voc hands around their throats, the
+  investigation reveals that Taren Capel — a human raised by
+  robots, fanatically devoted to robot "liberation" — has
+  reprogrammed the Vocs to kill. D84, a Super-Voc working
+  undercover for the Company, aids the Doctor and sacrifices
+  himself detonating a laserson probe to stop Capel.
+
+  Included for several reasons. "The Robots of Death" is
+  arguably the single most culturally influential robot story
+  in *Doctor Who*'s canon — the Art Deco styling alone has
+  imprinted itself on British SF aesthetics — and it stages
+  one of the tradition's most explicit critiques of robots
+  as *infrastructure*: robots are comfortable specifically
+  because their faces can't look back, and the terror of the
+  serial is recognizing that this comfort made the violence
+  invisible. The robophobia concept (Grimwade's Syndrome) is
+  one of the richest vocabulary additions in SF television.
+
+  Coded as ensemble with D84 as the individuated focal case.
+  D84 is the first Doctor Who robot given a clearly
+  articulated interior register — soft-spoken, attentive to
+  the Doctor's reasoning, frankly courageous in the climax.
+  Tag `ensemble-split` acknowledges that Dask/Capel, the
+  Super-Vocs, and the Vocs proper could support separate
+  entries in a future schema revision.
+
+  Divergence is `design`: the Vocs are executing Capel's
+  reprogramming exactly. The crisis is in the accessibility
+  of Voc programming to a human fanatic, not in any emergent
+  departure. Autonomy is `designed` — the Vocs do what their
+  current instruction set tells them. Interiority is `claims`:
+  D84 articulates a position on his own service, and Capel
+  articulates a politics through the Vocs, but the serial
+  refuses to confirm inner states. Primary question is
+  `control` — the serial is organized around the politics of
+  who writes the Voc instruction set.
+
+  Creator_relationship `servile` — the Vocs are Company
+  products. Knowing is `present` — D84 notably observes
+  humans closely. Knowability is `present`; the Grimwade's
+  Syndrome frame means the serial directly engages the
+  question of whether anything is behind the Voc mask.

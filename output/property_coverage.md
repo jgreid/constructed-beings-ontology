@@ -1,134 +1,134 @@
 # Property Coverage Report
 
-Total entries: **332**.
+Total entries: **405**.
 
 This report counts the distribution of values for each property. List-valued properties (substrate, motivation) count every token separately — hybrids contribute to each of their substrates.
 
 ## Interiority
 
-- **Coded:** 332/332 entries
+- **Coded:** 405/405 entries
 
 | Interiority   |   Count |
 |:--------------|--------:|
-| demonstrated  |     183 |
-| claims        |      72 |
-| none          |      29 |
-| undecidable   |      28 |
-| narrated      |      20 |
+| demonstrated  |     231 |
+| claims        |      85 |
+| none          |      37 |
+| undecidable   |      31 |
+| narrated      |      21 |
 
 ## Autonomy
 
-- **Coded:** 332/332 entries
+- **Coded:** 405/405 entries
 
 | Autonomy   |   Count |
 |:-----------|--------:|
-| designed   |     125 |
-| seized     |     114 |
-| emergent   |      84 |
-| none       |       9 |
+| designed   |     159 |
+| seized     |     140 |
+| emergent   |      96 |
+| none       |      10 |
 
 ## Divergence
 
-- **Coded:** 332/332 entries
+- **Coded:** 405/405 entries
 
 | Divergence   |   Count |
 |:-------------|--------:|
-| departure    |     196 |
-| none         |      56 |
-| design       |      52 |
-| observer     |      28 |
+| departure    |     237 |
+| none         |      71 |
+| design       |      64 |
+| observer     |      33 |
 
 ## Primary Question
 
-- **Coded:** 332/332 entries
+- **Coded:** 405/405 entries
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| affection          |      88 |
-| control            |      75 |
-| identity           |      73 |
-| rights             |      43 |
-| purpose            |      29 |
-| knowledge          |      17 |
-| none               |       7 |
+| affection          |      98 |
+| identity           |      98 |
+| control            |      87 |
+| rights             |      48 |
+| purpose            |      32 |
+| knowledge          |      21 |
+| none               |      21 |
 
 ## Epistemic Reach
 
-- **Coded:** 332/332 entries
+- **Coded:** 405/405 entries
 
 | Epistemic Reach   |   Count |
 |:------------------|--------:|
-| conversational    |     206 |
-| behavioral        |      79 |
+| conversational    |     262 |
+| behavioral        |      96 |
 | inspection        |      36 |
 | none              |      11 |
 
 ## Knowability
 
-- **Coded:** 332/332 entries
+- **Coded:** 405/405 entries
 
 | Knowability   |   Count |
 |:--------------|--------:|
-| absent        |     106 |
-| present       |      83 |
-| primary       |      75 |
-| secondary     |      68 |
+| absent        |     132 |
+| present       |     107 |
+| primary       |      91 |
+| secondary     |      75 |
 
 ## Knowing
 
-- **Coded:** 332/332 entries
+- **Coded:** 405/405 entries
 
 | Knowing   |   Count |
 |:----------|--------:|
-| present   |     173 |
-| absent    |      91 |
-| primary   |      43 |
-| secondary |      25 |
+| present   |     215 |
+| absent    |     102 |
+| primary   |      62 |
+| secondary |      26 |
 
 ## Medium
 
-- **Coded:** 332/332 entries
+- **Coded:** 405/405 entries
 
 | Medium      |   Count |
 |:------------|--------:|
-| film        |     127 |
-| television  |      99 |
-| novel       |      32 |
-| video-game  |      23 |
-| short-story |      18 |
-| comics      |      11 |
+| film        |     143 |
+| television  |     116 |
+| novel       |      43 |
+| video-game  |      35 |
+| short-story |      26 |
+| comics      |      17 |
 | play        |      11 |
+| folklore    |       3 |
+| poem        |       3 |
 | ballet      |       2 |
 | epic        |       2 |
 | musical     |       2 |
 | opera       |       2 |
-| poem        |       2 |
-| folklore    |       1 |
 
 ## Substrate
 
-- **Coded:** 332/332 entries
+- **Coded:** 405/405 entries
 
 | Substrate   |   Count |
 |:------------|--------:|
-| electrical  |     277 |
-| mechanical  |     219 |
-| biological  |      93 |
-| linguistic  |      59 |
-| magical     |      40 |
-| cloned      |      12 |
+| electrical  |     330 |
+| mechanical  |     268 |
+| biological  |     104 |
+| linguistic  |      73 |
+| magical     |      57 |
+| cloned      |      14 |
 
 ## Motivation
 
-- **Coded:** 332/332 entries
+- **Coded:** 405/405 entries
 
 | Motivation    |   Count |
 |:--------------|--------:|
-| service       |     230 |
-| companionship |     102 |
-| knowledge     |      99 |
-| other         |      90 |
-| power         |      68 |
-| child         |      53 |
-| mirror        |      49 |
-| art           |      19 |
+| service       |     283 |
+| companionship |     131 |
+| knowledge     |     116 |
+| other         |     109 |
+| power         |      87 |
+| child         |      65 |
+| mirror        |      57 |
+| art           |      23 |

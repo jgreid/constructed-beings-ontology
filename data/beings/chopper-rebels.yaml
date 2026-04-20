@@ -1,0 +1,80 @@
+id: chopper-rebels
+name: "Chopper (C1-10P)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Star Wars Rebels"
+  year: 2014
+  medium: television
+  creator: "Dave Filoni / Simon Kinberg / Carrie Beck (Republic military manufacture in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+  presentation: none
+  embodiment: embodied
+  prominence: major
+  creator_relationship: indifferent
+  tags:
+    - comedy
+    - military
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *Star Wars Rebels* (2014–2018), and subsequently *The Mandalorian*
+  adjacent appearances and *Ahsoka* (2023). Chopper (astromech
+  designation C1-10P) is Hera Syndulla's personal droid, a patched-
+  together Clone Wars-era astromech held together with mismatched
+  panels and repair tape. His personality is the franchise's
+  single most idiosyncratic droid characterization: openly
+  belligerent, routinely mischievous, casually violent toward
+  inconvenient humans, loyal to Hera alone, and permanently
+  unpersuaded by any argument that does not also involve the
+  possibility of inflicting minor harm on someone nearby.
+
+  Included because Chopper is the closest Star Wars has come to
+  a droid who isn't trying to be good. R2-D2 is faithful and
+  mischievous; BB-8 is charming; K-2SO is acerbic but loyal;
+  Chopper is a bastard, and the show's argument for including
+  him in the Ghost crew is precisely that the Ghost crew is
+  defined by the people (and droids) nobody else wants.
+  Structurally, Chopper is the corpus's cleanest articulation
+  of the *tolerated difficult companion* constructed-being
+  type — the R2 / Bender branch of droid characterization
+  carried to its logical conclusion.
+
+  Divergence is `departure`: Chopper was a Republic military
+  astromech produced in the Clone Wars. What Hera flies with
+  is not the Republic's product — he has been extensively
+  modified, and his personality has evolved far past standard
+  astromech parameters. Autonomy is `emergent` — his
+  willfulness is an accretion of decades of operational
+  independence. Interiority is `demonstrated`: Filoni's
+  animators stage Chopper's irritation, smugness, and
+  occasional tenderness through posture and beeping with
+  unusual clarity for the medium.
+
+  Primary question is `none` — Chopper is the kind of
+  supporting character whose role is coloration rather than
+  inquiry. The show does not ask what Chopper is; it shows
+  you what he does. Knowability is `absent`. Knowing is
+  `present` — Chopper demonstrably knows Hera intimately.
+  Creator_relationship `indifferent`: the Republic no longer
+  exists and Chopper never references his manufacturer.
+  Tags `comedy`, `military`, `ensemble-split` (the Ghost
+  crew's broader ensemble could support split entries).

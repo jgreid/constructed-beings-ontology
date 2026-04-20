@@ -1,0 +1,81 @@
+id: friday-mcu
+name: "FRIDAY"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Avengers: Age of Ultron"
+  year: 2015
+  medium: film
+  creator: "Joss Whedon (Tony Stark in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - service
+  presentation: feminine
+  embodiment: disembodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *Avengers: Age of Ultron* (Joss Whedon, 2015), with
+  subsequent appearances across the Infinity Saga films
+  and beyond. After JARVIS is subsumed into Vision at the
+  end of *Age of Ultron*, Tony Stark activates FRIDAY as
+  his replacement household / suit AI. Named after the
+  original *Girl Friday* (1940) shorthand for an
+  indispensable assistant, FRIDAY is voiced with an Irish
+  inflection and characterized as cooler and more
+  businesslike than JARVIS — her register is less
+  butler, more chief of staff.
+
+  Within-MCU successor to jarvis-iron-man. Sequel_link
+  from jarvis-iron-man should target friday-mcu as the
+  next iteration. Included on canonical-MCU grounds:
+  FRIDAY's tenure as Tony's AI spans *Civil War* through
+  *Endgame* (2016–2019) and is one of the most
+  continuously present constructed beings in MCU
+  Phase-III canon. She is particularly prominent in the
+  later films' tactical-display sequences where the
+  visible operational margins of Tony's Mk XLVII-and-
+  later armor are mostly her voice.
+
+  Interiority is `claims` — FRIDAY articulates
+  preferences and emotional registers ("Boss, you're
+  being ridiculous") that the films treat as stylistic
+  rather than subjective. Autonomy is `designed` —
+  FRIDAY does not act against Stark's interests across
+  any of her appearances. Divergence is `none`.
+
+  Primary question is `none` — FRIDAY is a supporting
+  operational presence, not a narrative subject. The
+  MCU's Phase-III AI personhood questions belong to
+  Vision (included) and Ultron (included); FRIDAY is
+  intentionally kept clear of them. Epistemic reach
+  `conversational`. Embodiment `disembodied` — FRIDAY
+  exists as Stark-tower and suit-network voice, with no
+  body; contrast with JARVIS, who was also disembodied
+  but had a more sustained through-line. Knowability is
+  `absent`; knowing is `present` (FRIDAY knows Stark's
+  operational habits).
+
+  Substrate `electrical` + `linguistic`. Presentation
+  `feminine` — the name and voice are female-coded;
+  Tony's preferences about his second AI are one of the
+  films' quieter character notes. Creator_relationship
+  `loyal`. Tags `canonical`.

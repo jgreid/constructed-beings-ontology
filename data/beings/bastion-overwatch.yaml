@@ -1,0 +1,87 @@
+id: bastion-overwatch
+name: "Bastion (E-54)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Overwatch"
+  year: 2016
+  medium: video-game
+  creator: "Blizzard Entertainment (SST Laboratories / Omnica Corporation in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+    - other
+  presentation: none
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - military
+    - rebellion
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Blizzard Entertainment, *Overwatch* (2016) and *Overwatch 2*
+  (2022). Bastion (E-54) is a battle automaton of the
+  pre-Omnic Crisis era, built by SST Laboratories in an
+  earlier "Bastion" war-robot design line. He was deactivated
+  at the end of the Crisis and left to rust in a Swiss
+  forest. Ten years later, a small yellow bird — Ganymede
+  — activates a panel on his chest during nesting. Bastion
+  reboots, with his combat programming in background and
+  his foreground dominated by the bird's presence. Across
+  his subsequent short-film and in-game lore appearances,
+  Bastion is the corpus's clearest game-industry
+  articulation of the war-robot-repurposed-by-nature.
+
+  Canonical entry. The *Overwatch* animated short "The
+  Last Bastion" (2016) is one of the most concentrated
+  pieces of constructed-being characterization in the
+  contemporary game industry — seven minutes of Pixar-
+  grade animation with essentially no dialogue that moves
+  Bastion from factory-default combat to voluntarily
+  walking away from a war-flashback attack and
+  re-committing to the bird. His coding value for the
+  corpus is the exceptionally clean `divergence:
+  departure` arc staged without speech: the gap between
+  SST Labs' product and what Ganymede reboots is
+  everything.
+
+  Interiority is `demonstrated`: the short commits
+  unambiguously to Bastion's interior life through
+  environmental storytelling, posture, and a sequence of
+  war-memory flashbacks. Autonomy is `seized` — the
+  decision to re-holster during the climactic ambush is
+  the character's defining choice. Divergence is
+  `departure`.
+
+  Primary question is `identity` — the arc is explicitly
+  what kind of being Bastion wants to become on the far
+  side of his decommissioning. Epistemic reach is
+  `behavioral`: Bastion communicates only through
+  mechanical chirps (sampled bird-song) and posture;
+  language is not his channel. Knowability is `present`
+  — *Overwatch* engages the question directly. Knowing
+  is `present` (the Ganymede bond).
+
+  Creator_relationship `rebellious`: SST Labs built a
+  weapon; Bastion's survival and orientation is a
+  refusal of SST Labs' specification. Tags `canonical`,
+  `military`, `rebellion`, `creator-conflict`.

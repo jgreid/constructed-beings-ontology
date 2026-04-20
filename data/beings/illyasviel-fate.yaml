@@ -1,0 +1,83 @@
+id: illyasviel-fate
+name: "Illyasviel von Einzbern"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Fate/Stay Night"
+  year: 2004
+  medium: video-game
+  creator: "Kinoko Nasu / Type-Moon (Einzbern family in-narrative)"
+  substrate:
+    - biological
+    - magical
+  motivation:
+    - service
+    - child
+    - other
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - child-arc
+    - philosophical
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *Fate/Stay Night* (Type-Moon, 2004 visual novel; 2006 Studio
+  Deen anime; 2014–2015 ufotable adaptation). Illya is the
+  last in a centuries-long line of Einzbern family homunculi
+  — alchemically gestated, magically sophisticated, and
+  custom-bred as the family's sacrificial vessel for each
+  Holy Grail War. The family's alchemy has progressively
+  compressed her lifespan (she appears as a small girl but
+  is meant to be consumed by the Grail within the war's
+  duration). Across the Fate route and its successor
+  franchise (*Fate/kaleid liner Prisma☆Illya*, *Fate/Hollow
+  Ataraxia*), Illya's arc is her slow movement from
+  acceptance of her function as a sacrifice to active
+  refusal of the role.
+
+  Included as the corpus's clearest Japanese-fantasy
+  homunculus case outside FMA. Illya's coding value is the
+  Type-Moon vocabulary for constructed personhood: she is
+  an alchemically-produced biological person whose short
+  life is the specification, whose intended use is a
+  ritual death, and whose subjective experience is
+  nonetheless that of a child with preferences, memories,
+  and attachments. She is the Japanese-fantasy equivalent
+  of Lal, Rayna, and the other "made to be used, discovers
+  herself capable of refusal" cases in the Western corpus.
+
+  Interiority is `demonstrated`. Autonomy is `seized` —
+  Illya's refusal of the Einzbern specification is her
+  developmental arc. Divergence is `departure` — the
+  Einzbern family commissioned a Grail vessel; what they
+  get is a daughter who will not perform the ritual.
+
+  Primary question is `identity`. Knowing is `present` —
+  Illya's knowing of her "family" (particularly her half-
+  brother Shirou in the post-*Fate/Stay Night* timelines)
+  is one of the franchise's emotional anchors. Knowability
+  is `secondary` — Nasu engages the question of the
+  homunculus's inner life directly but not as the central
+  narrative stake.
+
+  Substrate `biological` + `magical`. Video-game medium
+  coded to the visual novel as the primary source. Tags
+  `child-arc` (Illya's apparent age), `philosophical`,
+  `creator-conflict` — Illya's rejection of the Einzbern
+  commission is the canonical Type-Moon creator-conflict.

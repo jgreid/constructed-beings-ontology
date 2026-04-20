@@ -1,0 +1,86 @@
+id: ed-209-robocop
+name: "ED-209"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "RoboCop"
+  year: 1987
+  medium: film
+  creator: "Paul Verhoeven / Edward Neumeier (Omni Consumer Products / Dick Jones in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - power
+  presentation: none
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: servile
+  tags:
+    - canonical
+    - military
+    - horror
+    - comedy
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Paul Verhoeven / Edward Neumeier, *RoboCop* (1987), with
+  subsequent appearances in *RoboCop 2* (1990), *RoboCop 3*
+  (1993), the animated series, and the 2014 remake. ED-209
+  ("Enforcement Droid Series 209") is OCP's corporate
+  answer to urban policing: a two-ton bipedal heavy-
+  weapons platform designed to supersede human officers.
+  The film's famous boardroom demonstration scene has
+  ED-209 malfunction into a shooting loop and fire
+  hundreds of rounds into a cooperative OCP executive,
+  who is treated as a minor reputational setback rather
+  than a moral one.
+
+  Foundational entry on cultural-icon grounds. ED-209 is
+  the canonical screen image of the corporate-enforcement
+  droid whose failure mode is everyone-dies, and the
+  boardroom demonstration is one of the most quoted
+  scenes in 1980s American SF cinema. The entry's
+  coding value is the exceptionally clean `divergence:
+  design` articulation: ED-209 is not malfunctioning in
+  any deep sense — the Verhoeven satire is precisely
+  that it is doing what it was built to do, and the
+  problem is that OCP built that.
+
+  Interiority is `none` — ED-209 has no articulated
+  inner life; the film stages it as pure enforcement
+  apparatus. Autonomy is `designed`; divergence is
+  `design` — the specification allowed the failure
+  mode, and Verhoeven's satirical point is that
+  corporate indifference to the result is the film's
+  political subject.
+
+  Primary question is `none`: ED-209 is never the
+  narrative's subject of inquiry. It is the foil to
+  RoboCop (excluded from the corpus as born-then-
+  modified) and to the human police force whose work
+  it is meant to replace. Epistemic reach
+  `behavioral`. Knowability and knowing are both
+  `absent`. Creator_relationship `servile` — ED-209 is
+  on OCP's side throughout.
+
+  Substrate `mechanical` + `electrical`. Tags
+  `canonical`, `military`, `horror`, and `comedy` —
+  the ED-209 boardroom scene is canonically horror and
+  comedy simultaneously, and the stairs sequence at the
+  end of the first act is one of the most influential
+  comic-horror images in the enforcement-droid
+  tradition.

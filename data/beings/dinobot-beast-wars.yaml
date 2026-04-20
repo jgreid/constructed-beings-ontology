@@ -1,0 +1,87 @@
+id: dinobot-beast-wars
+name: "Dinobot"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Beast Wars: Transformers"
+  year: 1996
+  medium: television
+  creator: "Hasbro / Mainframe Entertainment (Predacon faction in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - power
+    - service
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - military
+    - philosophical
+    - rebellion
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *Beast Wars: Transformers* (Hasbro / Mainframe Entertainment,
+  1996–1999). Dinobot is a Predacon soldier who defects to
+  the Maximals in the first episode after a failed challenge
+  against the Predacon commander Megatron (not the G1
+  Megatron; *Beast Wars* Megatron is a separately-named
+  successor). His alternate mode is a Velociraptor — the
+  series is famous for its aggressively early CGI animation
+  and its beast-mode conceit — and his characterization,
+  across the series' three seasons, is the definitive
+  Transformers honor-code arc. Dinobot quotes Shakespeare,
+  speaks in aphorisms, considers the ethics of his defection
+  continuously, and dies in "Code of Hero" (season 2,
+  episode 9) in a solo stand against the full Predacon force,
+  preserving the course of evolution for proto-human
+  Neanderthals.
+
+  Canonical entry. *Beast Wars* "Code of Hero" is widely
+  cited as the single best Transformers episode ever
+  produced and one of the most fully realized constructed-
+  being death scenes in animated TV. Dinobot's analytical
+  value in the corpus is the convergence of `divergence:
+  departure` (Predacon manufacturing, Maximal defection,
+  personal code) and `primary_question: identity` in the
+  registers of honor and loyalty. He is the Transformers
+  franchise's clearest articulation of the "constructed
+  being as moral agent" premise — a Predacon whose
+  defection is explicitly framed as a question of what kind
+  of being he chooses to be.
+
+  Interiority is `demonstrated`: Dinobot's monologues,
+  soliloquies, and sustained ethical deliberation are the
+  register of the character. Autonomy is `seized` — his
+  defection and his solo final stand are both actions
+  against every chain of command available to him.
+  Divergence is `departure` — the Predacons built a
+  soldier; what Dinobot becomes is a philosopher.
+
+  Primary question is `identity` — Dinobot's recurring
+  monologues are explicitly about what he is and how he
+  should act. Knowability is `present` — *Beast Wars*
+  engages the question directly. Knowing is `present` —
+  Dinobot's read of the Maximal crew (especially Rattrap)
+  deepens the character's developed arc. Creator_relationship
+  `rebellious`: Dinobot's active rejection of the Predacon
+  hierarchy is his defining story.
+
+  Tags `canonical`, `military`, `philosophical`, `rebellion`.

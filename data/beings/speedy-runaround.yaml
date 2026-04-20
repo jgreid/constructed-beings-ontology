@@ -1,0 +1,73 @@
+id: speedy-runaround
+name: "Speedy (SPD-13)"
+
+card:
+  the_being:
+    interiority: narrated
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: 'I, Robot ("Runaround")'
+  year: 1942
+  medium: short-story
+  creator: "Isaac Asimov (U.S. Robots and Mechanical Men in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: servile
+  tags:
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Asimov's "Runaround" (Astounding, March 1942; collected in
+  *I, Robot*). The historically significant story: the Three
+  Laws of Robotics are explicitly enumerated here for the first
+  time. Powell and Donovan, on Mercury, send SPD-13 — Speedy —
+  to retrieve selenium from a pool near the station. Speedy
+  circles the pool drunkenly, quoting Gilbert and Sullivan,
+  unable to either complete the mission or return. The cause is
+  a Three-Laws balance: Second Law compels him toward the
+  selenium; Third Law (self-preservation) repels him from the
+  volatile volcanic byproducts around the pool; the two forces
+  are equal at a specific radius, and Speedy orbits on that
+  isobar. Powell eventually breaks the deadlock by walking into
+  the dangerous heat himself, triggering First Law (human in
+  danger overrides everything) and snapping Speedy out of his
+  loop.
+
+  The story is the founding document for the "design is the
+  catastrophe" pattern later perfected in HAL 9000. Divergence
+  is `design`: Speedy is executing his instructions exactly as
+  specified. The spec is the problem. Autonomy is `designed`;
+  nothing about Speedy's behavior exceeds his programming. The
+  bug is in the integration of the three laws at the edges, not
+  in the robot.
+
+  Interiority is `narrated`: Asimov gives us a brief glimpse of
+  what it's like to be Speedy through the impaired speech and
+  the drunken patterning — enough to humanize the crisis without
+  claiming inner life. Primary question is `control`: the entire
+  plot is about how two human engineers regain operational
+  authority over a robot that is not malfunctioning but not
+  obeying. Knowability and knowing are both `absent`; "Runaround"
+  is not an epistemology story in the way "Reason" is. It is a
+  spec-analysis story.
+
+  Prominence is `major` because of the Three Laws' canonical
+  first enumeration here rather than because Speedy is a
+  developed character — he is not. The entry's analytical value
+  is its crisp illustration of `divergence: design`.

@@ -1,0 +1,72 @@
+id: albertus-magnus-android
+name: "Albertus Magnus's Android"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Medieval legend (Chronicon pontificum et imperatorum; subsequent traditions)"
+  year: 1280
+  medium: folklore
+  creator: "Anonymous medieval chroniclers (Albertus Magnus in-narrative)"
+  substrate:
+    - mechanical
+    - magical
+  motivation:
+    - knowledge
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: servile
+  tags: []
+
+sequel_link: brazen-head
+link_type: successor
+
+notes: |
+  The 13th-century Dominican philosopher Albert of Cologne
+  (Albertus Magnus, c. 1200–1280) is reputed in later medieval
+  legend to have spent thirty years constructing an artificial
+  man of brass and wood, animated through a combination of
+  hermetic sigils, astrological calculation, and liquid metals.
+  The android reportedly answered questions and performed
+  household tasks. According to the best-known version of the
+  story, Thomas Aquinas — Albert's pupil — found the creature
+  so blasphemous that he destroyed it with a hammer, at which
+  point Albert is said to have complained that thirty years of
+  work had been smashed. The tale circulated in various forms
+  through the Chronicon pontificum et imperatorum (Martin of
+  Opava, c. 1278) and later hagiographic and anti-Scholastic
+  traditions.
+
+  A near-peer of Greene's Brazen Head (1589) and an important
+  missing piece of the medieval talking-head / animated-servant
+  tradition. The Albertus story is probably the single most
+  influential medieval automaton legend, and the Aquinas
+  hammer-ending is the archetype of the religious-anxiety
+  destruction of the constructed being.
+
+  Folklore medium reflects the legend's transmission through
+  unreliable compilation rather than a single authored work;
+  the 1280 year is nominal (Albert's death year), which the
+  source-text convention handles. sequel_link points to
+  brazen-head as the successor in the same tradition.
+
+  Interiority is `claims`: the android is said to speak and
+  answer questions, but the surviving accounts do not describe
+  inner states in any detail. Primary question is `knowledge` —
+  the legend's framing anxiety is that the craftsman is
+  consorting with forbidden wisdom, and the creature serves as
+  evidence of that transgression. Creator_relationship
+  `servile`. Tags empty — `canonical` is reserved for the core
+  lineage; this legend is canonical within the automaton
+  tradition but not narratively central to a foundational text.

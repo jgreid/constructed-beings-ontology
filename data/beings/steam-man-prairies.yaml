@@ -1,0 +1,64 @@
+id: steam-man-prairies
+name: "The Steam Man"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: none
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "The Steam Man of the Prairies"
+  year: 1868
+  medium: novel
+  creator: "Edward S. Ellis (Johnny Brainerd in-narrative)"
+  substrate:
+    - mechanical
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: servile
+  tags: []
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Edward S. Ellis's 1868 dime novel *The Huge Hunter; or, The
+  Steam Man of the Prairies* — a foundational text of the
+  American "Edisonade" tradition. Johnny Brainerd, a young
+  disabled inventor, builds a ten-foot steam-powered
+  humaniform that pulls a wagon and frightens pursuers. The
+  Steam Man is man-shaped (top hat, painted face, whistle-
+  stack nose) but fundamentally a mobile boiler: no interior,
+  no language, no autonomy. He is a vehicle with anthropoid
+  styling rather than a being proper.
+
+  The entry is included on foundational-prominence grounds
+  despite the thin card. Ellis's novel establishes the dime-
+  novel robot template that runs through Luis Senarens's
+  Frank Reade Jr. series (1876–1898, with an Electric Man,
+  Electric Horse, and many successors), through Victorian
+  "android" fictions, and into Gernsback-era pulp SF. Every
+  subsequent American-craftsman-builds-humaniform story
+  (culminating in Tobor, Robby, Asimov's Robbie) traces to
+  this root, and the Johnny-Brainerd-and-his-Steam-Man dyad
+  is the original boy-and-his-robot configuration.
+
+  Interiority `none`, autonomy `none`, divergence `none`.
+  Epistemic reach is `behavioral` — you observe it; there is
+  nothing beneath the surface. Primary question `none`.
+  Substrate `mechanical` only; Ellis's steam-era realism is
+  deliberately non-magical, which is part of what marks the
+  novel as the beginning of the "engineered automaton" as
+  opposed to "animated statue" tradition. The cultural
+  importance is that the Steam Man is the first long-running
+  American series robot and sets the convention the 20th
+  century will inherit.

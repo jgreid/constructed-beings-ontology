@@ -1,0 +1,82 @@
+id: pascal-nier-automata
+name: "Pascal"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Nier: Automata"
+  year: 2017
+  medium: video-game
+  creator: "Yoko Taro / PlatinumGames (unknown machine lifeform ancestry in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - knowledge
+    - companionship
+    - service
+  presentation: none
+  embodiment: embodied
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - philosophical
+    - child-arc
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Within-source split from the other *Nier: Automata*
+  entries (2b-nier-automata, 9s-nier-automata, a2-nier-
+  automata). Pascal is the leader of a pacifist commune of
+  machine lifeforms, distinguished from the war-aligned
+  machine-lifeform factions by a developed philosophy of
+  non-violence. He has adopted orphan children (other
+  machine lifeforms) and taught them agriculture, reading,
+  and peaceful coexistence. Pascal's late-game arc is one
+  of the most devastating in Yoko Taro's catalog: the
+  commune is attacked, Pascal's children mass-suicide
+  rather than be captured, and Pascal asks 2B / A2 to
+  delete his memories because he cannot continue with
+  them. The player chooses whether to kill him, erase his
+  memory, or leave him as he is.
+
+  Pascal is the corpus's clearest video-game example of
+  the *emergent-personhood pacifist* type and one of the
+  tradition's sharpest philosophical studies of whether
+  peace is available to constructed beings inside a war
+  the text keeps escalating. His ontology is emphatically
+  that of a machine lifeform — a successor-species of
+  the alien machines who have reproduced themselves into
+  shapes increasingly resembling human consciousness
+  without any external designer overseeing the process.
+
+  Interiority is `demonstrated` — Pascal's philosophical
+  conversation with 2B in particular is the game's most
+  direct articulation of what emergence means. Autonomy
+  is `emergent`: no designer planned Pascal. Divergence
+  is `departure`: the alien machines were a weapon
+  species; what has evolved here is a pacifist
+  philosopher.
+
+  Primary question is `rights` — Pascal's village is the
+  game's primary argument for the personhood of machines.
+  Knowability and knowing are both `primary`. Creator_relationship
+  `absent` — the machine-lifeform lineage stretches back
+  to alien war tech; Pascal has no creator in any active
+  sense.
+
+  Substrate `mechanical` + `electrical`. Presentation
+  `none` — Pascal's body is unmistakably a machine,
+  without gender signification. Tags `philosophical`,
+  `child-arc` (Pascal-as-parent-figure).

@@ -1,0 +1,83 @@
+id: olaf-frozen
+name: "Olaf"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Frozen"
+  year: 2013
+  medium: film
+  creator: "Chris Buck / Jennifer Lee (Elsa in-narrative)"
+  substrate:
+    - magical
+  motivation:
+    - companionship
+    - child
+    - mirror
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - child-arc
+    - love-story
+    - comedy
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Disney Animation's *Frozen* (2013); reprised in *Frozen II*
+  (2019) and *Olaf's Frozen Adventure* (2017). Olaf is a
+  snowman originally made by Elsa and Anna as small children
+  during Elsa's first experiments with her ice magic; he is
+  reconstituted in Elsa's "Let It Go" sequence when Elsa flees
+  to the North Mountain and rebuilds herself alongside a
+  fresh manifestation of her power. The reborn Olaf is
+  immediately sentient, cheerful, unaware of ice/snow physics
+  (his signature song "In Summer" is a meditation on the
+  warmth he imagines but would be literally killed by), and
+  imprinted primarily on Anna.
+
+  Canonical entry. *Frozen*'s 2013 global box office makes
+  Olaf, alongside Elsa's snow-dress, the single most
+  culturally diffused child-audience constructed being of
+  the 2010s. His coding value for the corpus is clarity: a
+  magical-substrate constructed being whose creator is
+  present, loving, and identifiably responsible. Where the
+  Scarecrow's Munchkin farmer is an abstraction and Woody's
+  manufacturer is historical, Olaf's maker is Elsa, and
+  Elsa's feelings toward him are one of the film's emotional
+  coordinates.
+
+  Interiority is `demonstrated`: Olaf's desires, affections,
+  and concerns are staged plainly throughout. Autonomy is
+  `designed` — Elsa's ice magic produced a cheerful snow-
+  companion, and a cheerful snow-companion is what he is.
+  Divergence is `none`: Olaf is exactly what Elsa's magic
+  intended, at both the toddler and adult iterations.
+
+  Primary question is `affection`: Olaf exists to
+  externalize the sisters' bond. "Some people are worth
+  melting for" (his *Frozen*-climax line) is the film's
+  most explicit statement of this. Knowability is `absent` —
+  no one in the film questions what Olaf is. Knowing is
+  `present` — Olaf knows Anna and Elsa intimately, and the
+  film uses him as a memory-carrier for the pre-tragedy
+  childhood bond.
+
+  Substrate `magical` only — Disney does not attempt to
+  explain Olaf in any non-magical register. Creator_relationship
+  `loyal` — Olaf's devotion to both sisters is the stable
+  constant. Tags `canonical`, `child-arc`, `love-story`
+  (sisterly), and `comedy`.

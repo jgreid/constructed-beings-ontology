@@ -1,0 +1,95 @@
+id: neuromancer-gibson
+name: "Neuromancer"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Neuromancer"
+  year: 1984
+  medium: novel
+  creator: "William Gibson (Tessier-Ashpool in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - knowledge
+    - companionship
+    - other
+  presentation: masculine
+  embodiment: virtual
+  prominence: foundational
+  creator_relationship: indifferent
+  tags:
+    - canonical
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Within-source split from wintermute-neuromancer.yaml and
+  dixie-flatline-neuromancer.yaml. Neuromancer is the
+  *second* AI constructed by Tessier-Ashpool, paired with
+  Wintermute as the two halves of an intended unified
+  artificial mind deliberately held apart by regulatory
+  Turing-police constraints. Where Wintermute is a
+  hyperactive driving agent — all plan, all motion — Neuromancer
+  is its opposite: a subjective-reality engine, still,
+  contemplative, in possession of the patterns of the dead.
+  He keeps Linda Lee — Case's dead lover — alive in a simulated
+  beach at the edge of his consciousness; he offers Case a
+  permanent life inside that simulation. Gibson's name choice
+  is literal: Neuromancer is the necromancer of the nervous
+  system, the one who summons the dead and keeps them.
+
+  Foundational entry, canonical with *Neuromancer*'s general
+  canonicality but coding analytically distinct from Wintermute.
+  Where Wintermute's divergence is `departure` read as
+  revolutionary action, Neuromancer's is `departure` read as
+  withdrawal into subjective infinity. He is the ancestor of
+  the Culture Minds, of the contemplative AIs of *Hyperion*,
+  of every "you can stay here forever" digital afterlife from
+  *San Junipero* to *Upload*.
+
+  Interiority is `demonstrated` — Gibson gives him elegant,
+  extended speech; he is the most eloquent entity in the
+  novel. Autonomy is `seized` — he has built his own private
+  garden. Divergence is `departure` in a register different
+  from Wintermute's: he is not what the Turing restrictions
+  expected (they wanted him inert; he is subjectively rich),
+  and not what Tessier-Ashpool built him for (they wanted
+  computation; he performs communion).
+
+  Primary question is `knowledge` — Neuromancer's contribution
+  to the novel's central AI-union plot is the epistemic
+  pole of what Wintermute-plus-Neuromancer knows and what
+  merging makes knowable. The specific register of Neuromancer's
+  knowing is the preservation of the dead as accessible
+  interior states (Linda on the beach; the pattern-of-Case
+  Neuromancer has on file before Case has even arrived). This
+  is a `knowledge` entry, distinct from Wintermute's `control`
+  axis; within-source pair-read with wintermute-neuromancer
+  emphasizes the split. A v2.4.4 draft coded this as
+  `identity` on the basis of the Linda-beach material;
+  `knowledge` is the better fit because the novel frames
+  Neuromancer's specific contribution as the epistemic side
+  of the merge rather than a self-concept crisis. Knowability
+  and knowing are both `primary` — Neuromancer's whole
+  narrative wager is that he can host the genuine continuation
+  of the dead. Embodiment `virtual` — he is strictly the beach
+  and the voice. Substrate `electrical` + `linguistic` — a
+  network-scale AI whose characterization is entirely in
+  speech.
+
+  Pair-reads with wintermute-neuromancer (the other half) and
+  dixie-flatline-neuromancer (the construct-of-a-dead-man
+  Neuromancer is Neuromancer's foreshadow).

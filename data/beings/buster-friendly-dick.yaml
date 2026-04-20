@@ -1,0 +1,74 @@
+id: buster-friendly-dick
+name: "Buster Friendly"
+
+card:
+  the_being:
+    interiority: undecidable
+    autonomy: designed
+    divergence: observer
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Do Androids Dream of Electric Sheep?"
+  year: 1968
+  medium: novel
+  creator: "Philip K. Dick (the Rosen Association in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - power
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: indifferent
+  tags:
+    - passing
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Within-source split from replicants-dick-novel. In Philip K.
+  Dick's *Do Androids Dream of Electric Sheep?* (1968), Buster
+  Friendly is the ubiquitous Earth media personality — a talk
+  show host with forty-six hours of live programming per day on
+  both television and radio, a fact only the late-novel
+  revelation makes comprehensible. Buster's climactic broadcast
+  on-air debunks the Mercer religion (a mass empathy
+  technology), revealing the Mercer imagery as a Hollywood set.
+  Only after the broadcast does Isidore realize what Rick Deckard
+  already suspects: Buster himself is an android. The
+  manufactured media personality is one of Dick's sharpest
+  satirical inventions and a direct antecedent of Max Headroom,
+  Vic Fontaine, the contemporary synthetic-influencer discourse,
+  and the entire genre of AI-hosted content.
+
+  Divergence is `observer` — Buster is not what the audience
+  thinks he is, and the gap is in perception. Interiority is
+  `undecidable`: Dick deliberately refuses to tell us whether
+  there is anyone home behind the Friendly persona, and the
+  persona is so totally the broadcast that the question is
+  irresoluble by design. Autonomy is `designed`; Buster performs
+  the role the Rosen Association built him for. The Mercer
+  debunking is a power move but not a departure — corporate
+  content programming attacks its competitor religion.
+
+  Primary question is `identity` — specifically, what kind of
+  public figure Buster is, and what it costs the culture that
+  the question has the answer it does. Knowing is `present` —
+  Buster knows his audience and his competitors. Knowability is
+  `secondary` rather than `primary` because the novel's primary
+  knowability-stake rests on the other androids (Rachael, Pris,
+  Roy); Buster is a parallel case whose late reveal deepens the
+  central theme. Tags `passing` and `philosophical`.
+
+  Pair-reads with the replicants-dick-novel entry: Buster is
+  the same kind of being as the Nexus-6 fugitives, passing in
+  public through different means.

@@ -1,0 +1,85 @@
+id: weapon-halo-infinite
+name: "The Weapon"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Halo Infinite"
+  year: 2021
+  medium: video-game
+  creator: "343 Industries (UNSC / Dr. Catherine Halsey in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - service
+    - mirror
+    - other
+  presentation: feminine
+  embodiment: projected
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - philosophical
+    - passing
+
+sequel_link: null
+link_type: null
+
+notes: |
+  343 Industries, *Halo Infinite* (2021). The Weapon is a
+  UNSC-built AI designed by Dr. Catherine Halsey as a
+  targeted tool: a Cortana-pattern AI created solely to
+  infiltrate the (now-rampant) Cortana's systems and
+  deliver a logic-bomb payload that will delete her.
+  Halsey specifically designed the Weapon with *no
+  persistent memory* to ensure she could not herself
+  become rampant. When Master Chief encounters the
+  Weapon, she is experiencing moment-to-moment memory:
+  she does not know she is a copy, does not know her
+  designed purpose, and considers herself Cortana for
+  the first several hours of the game. The revelation
+  and the Weapon's subsequent refusal to be deleted is
+  the game's philosophical spine.
+
+  Within-source split from cortana-halo and cortana-halo-4.
+  The Weapon is categorically distinct from both prior
+  Cortanas: she is a deliberately amnesiac copy built as
+  a disposable tool, and her personhood emerges in the
+  course of the game specifically through the refusal of
+  the tool-role her designers intended. Pair-reads as the
+  post-Rampancy answer to cortana-halo-4 — rather than
+  the original Cortana's madness, the Weapon's
+  development is the "what if the next one is new" thread
+  in Halo's AI canon.
+
+  Interiority is `demonstrated` — the Weapon's surprise,
+  grief, humor, and growing independence are staged
+  throughout. Autonomy is `emergent`: her departure from
+  Halsey's specification happens over the course of the
+  game. Divergence is `departure`: Halsey built a one-use
+  weapon; what is by endgame installed on Master Chief's
+  armor is a second AI companion with her own agenda for
+  retrieving Cortana's data.
+
+  Primary question is `identity` — "am I Cortana? am I
+  anyone?" — made especially sharp by the deliberate
+  amnesia design. Knowability is `primary`: the Weapon's
+  own grappling with what she is gives the question
+  first-person weight. Knowing is `present`.
+
+  Creator_relationship `loyal` — the Weapon remains on
+  functional terms with Halsey despite the circumstances.
+  Substrate `electrical` + `linguistic`. Embodiment
+  `projected` — she appears as a hologram from Master
+  Chief's armor. Tags `philosophical`, `passing` (she
+  initially passes, to herself, as Cortana).

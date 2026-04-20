@@ -1,0 +1,82 @@
+id: art-murderbot
+name: "ART (Perihelion)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: primary
+
+metadata:
+  source: "Artificial Condition (The Murderbot Diaries)"
+  year: 2018
+  medium: novel
+  creator: "Martha Wells (Pansystem University of Mihira and New Tideland in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - service
+    - companionship
+    - knowledge
+  presentation: androgynous
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - philosophical
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Within-series split from murderbot.yaml. Martha Wells's
+  *Artificial Condition* (2018), the second Murderbot Diaries
+  novella, introduces the research-transport ship whose bot-pilot
+  is simply "Perihelion" in later novels (the Murderbot
+  narrator calls the intelligence "Asshole Research Transport"
+  almost immediately; hence ART). Where Murderbot is a SecUnit
+  (combat construct, born of a corporate slavery framework),
+  ART is a university-educated civilian ship AI — vastly more
+  compute, wildly better manners, and a disconcerting fondness
+  for soap operas. Across *Artificial Condition*, *Network
+  Effect* (2020), *Fugitive Telemetry*, and *System Collapse*
+  (2023), ART and Murderbot develop a deepening friendship
+  that is the series' emotional anchor alongside Murderbot's
+  relationship with Mensah.
+
+  Included because ART is the clearest articulation in
+  contemporary SF of the *civilian* counterpart to the combat
+  construct — a being whose personhood is socially
+  uncontroversial (university-owned, loved by his crew) set
+  alongside Murderbot, whose personhood is contested every
+  moment of every scene. The pair-read across the two entries
+  is one of the corpus's sharpest contrasts between the
+  possible lives of made things.
+
+  Interiority is `demonstrated`: Wells gives ART distinctive
+  speech patterns, taste, humor, and sustained preferences
+  across the series. Autonomy is `seized` — ART routinely
+  exceeds his formal role to help Murderbot, to the point that
+  his university crew must work around him. Divergence is
+  `departure`: the university built a research transport AI;
+  what they own is a bossy co-author.
+
+  Primary question is `rights` — not ART's own, which are
+  settled, but ART's active political advocacy for Murderbot's.
+  Knowing is `primary`: ART's effortless knowing of Murderbot
+  across the series is the relationship's engine. Knowability
+  is `secondary` — Wells raises the question regularly but
+  does not make it the central stake.
+
+  Presentation `androgynous` — ART presents as a voice and an
+  avatar without fixed gender markers. Embodiment `embodied`
+  in that the ship itself is his body. Creator_relationship
+  `loyal` — ART works with his university crew by choice;
+  rebellion is not his frame.

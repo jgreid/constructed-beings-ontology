@@ -1,0 +1,84 @@
+id: aigis-persona-3
+name: "Aigis"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Persona 3"
+  year: 2006
+  medium: video-game
+  creator: "Katsura Hashino / Atlus (Kirijo Group in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+    - child
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - love-story
+    - philosophical
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Katsura Hashino / Atlus, *Persona 3* (PS2, 2006) and its
+  re-releases / adaptations (*Persona 3 FES*, *Persona 3
+  Portable*, *Persona 3 Reload* 2024). Aigis — designated
+  Anti-Shadow Weapon No. 7 in Kirijo Group production
+  records — is a mechanical maiden built to fight the
+  game's central threat (Shadows, manifestations of the
+  collective unconscious). She is the last operational
+  unit of her production run and the only one with an
+  active persona (Palladion, and subsequently Athena and
+  Metis). Across *Persona 3*, Aigis develops from a
+  combat platform with limited affective bandwidth into a
+  student with deep feelings for the series' silent
+  protagonist, culminating in an "answer" post-game
+  scenario (*The Answer* in FES) in which her grief
+  structurally carries the epilogue.
+
+  Canonical entry. Aigis is the Persona franchise's most
+  developed constructed-being character and one of the
+  PS2-era JRPG tradition's sharpest articulations of the
+  combat-android-as-developing-person arc. Her analytical
+  value is the length of her development runway — *Persona
+  3* is long enough (60–80 hours of play) that Aigis's
+  progress from factory-default affect to declared love
+  is staged at a pace closer to a novel than to most
+  film/TV iterations of the same arc.
+
+  Interiority is `demonstrated`. Autonomy is `seized` —
+  Aigis's increasing independence across the game is the
+  character's defining arc. Divergence is `departure`: the
+  Kirijo Group built an anti-Shadow weapon; what develops
+  is a student who will not be returned to storage.
+
+  Primary question is `identity` — Aigis's defining
+  question ("what am I to him? what am I at all?") is
+  foregrounded particularly in *The Answer*. Knowability
+  is `primary` — the game engages the question directly.
+  Knowing is `primary` — Aigis's knowing of the
+  protagonist (and her grief at his ending) is the
+  series' emotional core.
+
+  Creator_relationship `loyal` — Aigis maintains warm
+  relationships with Kirijo members (particularly
+  Mitsuru). Substrate `mechanical` + `electrical`. Tags
+  `canonical`, `love-story`, `philosophical`, `military`.

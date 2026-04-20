@@ -1,0 +1,80 @@
+id: scarecrow-oz
+name: "The Scarecrow"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "The Wonderful Wizard of Oz"
+  year: 1900
+  medium: novel
+  creator: "L. Frank Baum (unnamed Munchkin farmer in-narrative)"
+  substrate:
+    - magical
+  motivation:
+    - service
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: absent
+  tags:
+    - canonical
+    - child-arc
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Baum's 1900 novel and its sequels. The Scarecrow is a
+  straw-stuffed figure on a pole in a Munchkin cornfield. When
+  Dorothy finds him he is already animated — Baum famously does
+  not dwell on the mechanism of his coming-to-life; he simply
+  *is*, in the casual way that Oz as a country licenses the
+  animation of made things. He joins Dorothy on the road to the
+  Emerald City because he wants a brain, believing himself
+  stupid, and across the novel he repeatedly turns out to be
+  the cleverest member of the party. The Wizard's "brain" at
+  the end of the novel is a handful of pins and needles wrapped
+  in bran; the transformation is entirely in his self-concept,
+  not in any physical modification.
+
+  The Scarecrow is the earliest canonical American entry in the
+  corpus and one of the most culturally diffused constructed
+  beings in world literature. Along with the Tin Woodman (who
+  is excluded as born-then-modified under the ontology's
+  current rules) and the Cowardly Lion (who is born), he is
+  the piece of the Oz quartet that unambiguously fits the
+  "made, not born" criterion.
+
+  Interiority is `demonstrated`: his reasoning, humor, and
+  insecurity are staged throughout. Autonomy is `seized` — he
+  leaves the pole on Dorothy's invitation, which is explicitly
+  not what he was made for. Divergence is `departure`: the
+  Munchkin farmer built a scarecrow to frighten crows; what
+  Dorothy walks away with is a traveling companion who will
+  eventually rule the Emerald City (in *The Marvelous Land of
+  Oz*, 1904). Primary question is `identity` — the Scarecrow's
+  entire arc is "do I have a brain / am I stupid," and the
+  book's answer is that the question itself is his brain.
+
+  Substrate is `magical` only, aligning with the corpus
+  convention for carved / stuffed / naturally inert materials
+  (cf. pinocchio.yaml's `magical`-only coding for wood, and
+  golem-prague's `magical + linguistic` for clay). `biological`
+  in the corpus is reserved for synth-flesh and bioengineered
+  tissue substrates (Andrew, Alpha, Andy, AIDA), not for the
+  natural-material substrate of Ozian animation. Creator_
+  relationship `absent` — the Munchkin
+  farmer disappears from the narrative after providing the
+  substrate; the Scarecrow has no relationship with his
+  maker, which is part of what makes him available to
+  Dorothy.

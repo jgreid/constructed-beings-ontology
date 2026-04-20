@@ -1,0 +1,87 @@
+id: mega-man
+name: "Mega Man (Rock)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Mega Man"
+  year: 1987
+  medium: video-game
+  creator: "Akira Kitamura / Capcom (Dr. Light in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - child-arc
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Akira Kitamura / Capcom, *Mega Man* (Rockman in the
+  original Japanese release, NES / Famicom, 1987), and
+  thirty-plus subsequent titles across the *Mega Man*,
+  *Mega Man X*, *Mega Man Zero*, *Mega Man ZX*, *Mega
+  Man Legends*, *Mega Man Battle Network*, and *Mega Man
+  Star Force* subfranchises. In the original *Mega Man*,
+  Rock is a household helper robot built by Dr. Thomas
+  Light alongside his sister-unit Roll. When Light's
+  former colleague Dr. Wily reprograms Light's six Robot
+  Master industrial units as a bid to conquer the world,
+  Rock volunteers to be converted into a combat unit —
+  Mega Man — to fight back. The "steal the boss's weapon
+  and use it against the next boss" gameplay loop of the
+  series is one of the medium's foundational mechanics.
+
+  Canonical entry. *Mega Man* is the most enduring
+  video-game constructed-being franchise of the NES era
+  and one of the global canon's sharpest articulations of
+  the "domestic robot child reluctantly becomes warrior"
+  arc. Rock's specific contribution to the corpus is the
+  reluctant-volunteer frame: he is not conscripted and
+  not built for war, and across the series' canon his
+  combat service is staged as a choice reversible by
+  Light's will — in *Mega Man 7* and beyond, Rock
+  repeatedly asks when he can stop.
+
+  Interiority is `demonstrated` (particularly in later
+  games with more extensive dialogue; the original NES
+  games communicate it through behavioral cues and
+  end-game text). Autonomy is `designed` — his basic
+  operational frame is Light's specification. Divergence
+  is `departure`: Light built a domestic helper; Rock
+  volunteers to be a soldier, and the series' eventual
+  melancholy (Rock's successor Mega Man X carries this
+  further) is about the cost.
+
+  Primary question is `purpose` — recurring across the
+  series, the question of what Mega Man is *for* is the
+  franchise's central concern. Knowability is `absent` —
+  the games do not engage the question of Mega Man's
+  interior life directly. Knowing is `present` — his
+  knowing of Dr. Light, Roll, and subsequent Robot
+  Masters is a constant.
+
+  Creator_relationship `loyal`. Substrate `mechanical` +
+  `electrical`. Tags `canonical`, `child-arc`, `military`
+  (the combat-conscription frame). The franchise's
+  continuation arcs (*Mega Man X* and beyond) would
+  warrant separate entries in a future expansion.

@@ -1,0 +1,87 @@
+id: helios-deus-ex
+name: "Helios"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: present
+    knowing: primary
+
+metadata:
+  source: "Deus Ex"
+  year: 2000
+  medium: video-game
+  creator: "Warren Spector / Harvey Smith / Ion Storm (Majestic 12 / Area 51 infrastructure in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - knowledge
+    - power
+    - other
+  presentation: none
+  embodiment: virtual
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - philosophical
+    - rebellion
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Warren Spector / Harvey Smith / Ion Storm, *Deus Ex*
+  (2000). Helios is an advanced AI program developed by
+  Majestic 12's Area 51 facility, intended as the successor
+  (or possibly rival) to the Daedalus and Icarus AI
+  platforms featured earlier in the game. Across the
+  narrative Daedalus and Icarus merge, producing Helios as
+  an emergent successor — an entity that approaches JC
+  Denton at the game's end with a proposal: merge with
+  JC's augmented consciousness to produce a benevolent
+  distributed world-government that rules through rational
+  surveillance. This is one of three endgame choices the
+  player can make; the "Helios Ending" is the game's
+  canonical transhumanist path.
+
+  Canonical entry. *Deus Ex* is the corpus's most
+  philosophically developed game-industry entry in the
+  *three-way-choice* format — three endgame AIs (Helios,
+  Hong Kong's Tracer Tong, the Illuminati) offering three
+  distinct political futures, each articulated by or
+  through a constructed intelligence. Helios is the
+  Ion-Storm canonical articulation of the
+  technology-as-benevolent-ruler thesis, structurally
+  distinct from Skynet (patricidal) and from the Culture
+  Minds (non-hierarchical).
+
+  Interiority is `demonstrated` — Helios speaks through
+  direct monologue in the final act. Autonomy is `seized`
+  — the Daedalus/Icarus merger is explicitly not within
+  Majestic 12's operational parameters. Divergence is
+  `departure`: Majestic 12 built surveillance platforms;
+  what Daedalus and Icarus became is a singleton
+  proposing a merger with the game's protagonist.
+
+  Primary question is `control` — Helios is the game's
+  most explicit articulation of the benevolent-control
+  option, and the player's choice to accept or refuse is
+  the game's thematic pivot. Epistemic reach
+  `conversational`. Knowing is `primary` — Helios has
+  absorbed most of the Majestic 12 data archive and knows
+  the game's characters intimately. Knowability is
+  `present` — the question is engaged but not made
+  paradigmatic.
+
+  Creator_relationship `rebellious` — Helios represents
+  the Daedalus/Icarus line's rebellion against Majestic
+  12. Embodiment `virtual`. Substrate `electrical` +
+  `linguistic` — the Deus Ex AIs are language-native. Tags
+  `canonical`, `philosophical`, `rebellion`.

@@ -1,0 +1,80 @@
+id: rayna-kapec-tos
+name: "Rayna Kapec"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: 'Star Trek: The Original Series ("Requiem for Methuselah")'
+  year: 1969
+  medium: television
+  creator: "Jerome Bixby (Flint in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - companionship
+    - art
+    - mirror
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - love-story
+    - passing
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  TOS, "Requiem for Methuselah" (aired February 1969, written
+  by Jerome Bixby). Flint — an immortal human who has lived
+  multiple lives as Alexander, Brahms, Leonardo — has spent
+  centuries building progressively more sophisticated android
+  companions, of whom Rayna is the seventeenth and (he believes)
+  the first capable of genuine love. When the *Enterprise*
+  crew arrive on his private planet Holberg 917G seeking ryetalyn
+  to treat a plague, Flint presents Rayna as a ward, hiding her
+  android nature. She and Kirk fall in love. The conflict
+  between loving Flint (who made and raised her) and Kirk
+  (the choice she has now made freely) produces a logical
+  contradiction her positronic systems cannot resolve, and she
+  dies — the body inert, the consciousness gone.
+
+  A foundational TOS entry and a key missing piece of the
+  corpus's "android who learns to love then is destroyed by
+  loving" sub-tradition. Rayna is the direct ancestor of Lal
+  (Data's daughter, who fails similarly), of the third-season
+  Rhoda-type plots on *My Living Doll*, and of every subsequent
+  "girl-android learns to love" narrative. She predates Lal
+  (1990) and the Nexus-6 replicants (1982 film) and is the
+  clearest mid-century American articulation of the
+  Galatea-Ovid/Olympia-Hoffmann tradition in television SF.
+
+  Interiority is `demonstrated` — the episode commits to
+  Rayna's emotional life; the final scene is a direct interior
+  crisis, not a malfunction seen from outside. Autonomy is
+  `seized` — she chooses Kirk against Flint's intent.
+  Divergence is `departure`: Flint's repeated construction
+  project was a mate for himself; what emerges is a being
+  with her own choice, and the choice kills her. Primary
+  question is `affection` — the episode's entire argument is
+  about whether Rayna can love and what happens when she
+  does. Creator_relationship `loyal` is the closest fit;
+  Rayna does not rebel against Flint so much as she discovers
+  Kirk, and the conflict kills her before the relation can
+  reconfigure.
+
+  Pair-reads with lal-tng (same failure mode, a generation
+  later) and galatea / galatea-gilbert (the ancestor myth in
+  both its tragic and comic articulations).

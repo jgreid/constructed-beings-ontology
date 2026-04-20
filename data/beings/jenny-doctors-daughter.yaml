@@ -1,0 +1,87 @@
+id: jenny-doctors-daughter
+name: "Jenny"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: 'Doctor Who ("The Doctor''s Daughter")'
+  year: 2008
+  medium: television
+  creator: "Stephen Greenhorn (Messaline progenation infrastructure in-narrative)"
+  substrate:
+    - cloned
+    - biological
+  motivation:
+    - service
+    - child
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: absent
+  tags:
+    - military
+    - child-arc
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *Doctor Who*, "The Doctor's Daughter" (Stephen Greenhorn,
+  Tenth Doctor, May 2008). On the Messaline battlefield,
+  soldiers are produced by "progenation" machines — devices
+  that take a tissue sample and rapidly accelerate a
+  genetically recombined adult, with military training
+  programmed in, out of the tank in seconds. A soldier tanks
+  the Doctor's hand, and Jenny emerges: a fully adult young
+  woman with half the Doctor's genetics, raised from zero
+  experience to combat-ready in minutes, and identified by
+  Donna as the Doctor's daughter. The Doctor resists the
+  identification; Jenny is killed in the episode and
+  (ambiguously) resurrected in its final scene, with the
+  possibility of returning to the series.
+
+  Boundary case, included with explicit flag. Jenny's origin
+  is a manufacturing process — the progenation machine is
+  industrial biotech, producing young adults from tissue on
+  a factory floor — which puts her in the corpus's
+  constructed-beings scope rather than in the born-then-
+  modified exclusion. The Doctor's claim that she *is* his
+  daughter is the episode's dramatic argument against the
+  manufacturing reading, but the narrative frame is
+  unambiguously that Jenny is made, not born. She is coded
+  here as a constructed being with a biological substrate;
+  reasonable coders could argue for boundary-deferred
+  exclusion on the grounds that biological reproduction
+  through tissue sampling is not categorically different
+  from cloning + gestation.
+
+  Interiority is `demonstrated` — Jenny has affect, curiosity,
+  and a rapid development arc from soldier to pacifist across
+  the episode's runtime. Autonomy is `designed`. Divergence is
+  `departure`: the Messaline tanks produce soldiers; what
+  Jenny becomes by episode's end, refusing to kill, is not
+  their product.
+
+  Primary question is `identity` — the episode is explicitly
+  a meditation on whether a machine-made young adult with
+  half your genes is your daughter, and on whether the Doctor
+  (the last of the Time Lords) has the right to refuse the
+  answer. Knowability is `present`; the question of whether
+  Jenny is "really" a person is directly raised. Knowing is
+  `present` — her rapid orientation toward the Doctor is the
+  episode's emotional hinge. Creator_relationship `absent` —
+  the progenation infrastructure is not a person; the Doctor
+  is the reluctant proxy creator.
+
+  Substrate `cloned` + `biological`. Tags `military`
+  (Messaline context) and `child-arc` (rapid development).

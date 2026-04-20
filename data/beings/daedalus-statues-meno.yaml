@@ -1,0 +1,76 @@
+id: daedalus-statues-meno
+name: "The Walking Statues of Daedalus"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Meno"
+  year: -380
+  medium: folklore
+  creator: "Plato (Daedalus in-narrative)"
+  substrate:
+    - mechanical
+    - magical
+  motivation:
+    - service
+    - other
+  presentation: none
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: servile
+  tags:
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Plato's Meno (97d–98a) has Socrates compare true opinions to
+  the statues of Daedalus: if not tethered, they run away. Plato
+  treats the walking statues as cultural common-knowledge — a
+  legend already in circulation, referenced casually for a
+  philosophical analogy about epistemology. Aristotle's Politics
+  (1.4) similarly invokes Daedalus's tripods and self-moving
+  statues as a thought experiment about slavery ("if every tool
+  could perform its work on command… foremen would have no need
+  of subordinates, or masters of slaves").
+
+  Coded `medium: folklore`. The legend of Daedalus's running
+  statues is itself a pre-Platonic oral tradition that Plato
+  cites in the *Meno* as cultural common knowledge; the Meno
+  is not the source of the legend but a surviving reference
+  to it. Coding to `folklore` preserves the status of the
+  statues as a legendary/traditional referent independent of
+  the specific prose dialogue in which they are cited,
+  paralleling the treatment of other legendary material in
+  the corpus (golem-prague, brazen-head's own folkloric
+  antecedents). A future schema revision may add a
+  `dialogue` or `prose` medium for direct Platonic and
+  Scholastic-text coding.
+
+  Interiority is `none` and primary_question is `none` because
+  Plato does not make a question about the statues — they are
+  the analogical vehicle, not the subject. Autonomy `designed`:
+  they are self-moving craftsman-products. The passage matters
+  because it is one of the earliest Western texts to treat the
+  possibility of constructed agents philosophically rather than
+  mythologically. The chain Plato → Aristotle → medieval
+  automaton-legends (Albertus, Bacon) → Romantic-era automata is
+  recognizable here in its first link.
+
+  Substrate `mechanical` + `magical` captures the ambiguity —
+  Daedalus is a craftsman (mechanical) but the legendary statues
+  are described as self-moving in a way that only myth can
+  account for. Included on its own because the Plato reference
+  is the canonical philosophical citation of Greek automata and
+  belongs in the corpus as the foundational *philosophical*
+  (as opposed to narrative) entry in the ancient tradition.

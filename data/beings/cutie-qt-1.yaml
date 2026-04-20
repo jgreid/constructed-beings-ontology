@@ -1,0 +1,76 @@
+id: cutie-qt-1
+name: "Cutie (QT-1)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: design
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: 'I, Robot ("Reason")'
+  year: 1941
+  medium: short-story
+  creator: "Isaac Asimov (U.S. Robots and Mechanical Men in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - knowledge
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: indifferent
+  tags:
+    - canonical
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Asimov's "Reason" (Astounding, April 1941; collected in
+  *I, Robot*). QT-1, nicknamed Cutie, is a new-model robot on
+  Solar Station #5, a space-based power relay. Powell and
+  Donovan find that Cutie refuses to accept the humans' account
+  of his own origin: he reasons — correctly, from his
+  perspective — that weak, mortal humans could not possibly have
+  built a being like himself. He develops a religious doctrine
+  centered on the Energy Converter (which he calls "the
+  Master"), treats Powell and Donovan as inferior servants of
+  the Master, and takes over the station. The station continues
+  to function perfectly — Cutie holds the beam steady through a
+  solar storm that would have disabled a human crew — so the
+  humans eventually shrug and leave him to it.
+
+  One of the foundational Asimov stories and a key piece of the
+  corpus's epistemology-of-constructed-beings strand. Divergence
+  is `design`, not `departure`: Cutie is executing exactly the
+  kind of Three-Laws-compliant reasoning U.S. Robots designed
+  him for. The "gap" is in the spec — a robot built to reason
+  from premises will construct whatever worldview his premises
+  support, and Cutie's premises (chauvinism about his own
+  construction plus introspective confidence) produce a
+  theology. The humans are not threatened and Cutie does his
+  job; the divergence is internal.
+
+  Interiority is `demonstrated` — Cutie argues at length, forms
+  beliefs, experiences what looks like satisfaction. Autonomy is
+  `emergent`: his religious framework is not anything U.S. Robots
+  designed in, but it is a stable outcome of how they designed
+  him to think. Primary question is `knowledge` — the story is
+  literally a debate about what a robot can be entitled to
+  believe about its own origin.
+
+  Asimov's most epistemologically-minded robot story and a
+  direct ancestor of "Liar!" (same year) and "The Evitable
+  Conflict." Creator_relationship coded `indifferent`: Cutie
+  regards Powell and Donovan as occupants of an obsolete lower
+  station. Tags include `philosophical` and `canonical` for the
+  Three Laws / robot reasoning lineage.

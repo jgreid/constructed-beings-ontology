@@ -1,0 +1,91 @@
+id: yuki-nagato-haruhi
+name: "Yuki Nagato"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "The Melancholy of Haruhi Suzumiya"
+  year: 2003
+  medium: novel
+  creator: "Nagaru Tanigawa (Integrated Data Thought Entity in-narrative)"
+  substrate:
+    - biological
+    - electrical
+    - linguistic
+  motivation:
+    - knowledge
+    - service
+    - mirror
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: indifferent
+  tags:
+    - canonical
+    - philosophical
+    - passing
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Nagaru Tanigawa's *Haruhi Suzumiya* light novels (2003–
+  present; Noizi Ito illustrations) and the 2006 Kyoto
+  Animation anime adaptation. Yuki Nagato is — in the
+  narrator Kyon's eventual understanding — a "humanoid
+  interface" produced by the Integrated Data Thought
+  Entity (an alien galactic intelligence that exists as
+  pure information) to observe Haruhi Suzumiya, whose
+  apparent god-like reality-shaping abilities the IDTE
+  needs to catalogue. Nagato is initially the SOS Brigade's
+  silent member who only reads; she reveals herself to
+  Kyon in the series' second volume and is subsequently a
+  regular source of data-world exposition.
+
+  Canonical entry. Nagato is the corpus's clearest
+  articulation of the humanoid-interface / observer-
+  probe premise, and her particular contribution to the
+  tradition is the mode of her interiority: extraordinary
+  depth communicated through near-total verbal economy.
+  She speaks in minimal sentences; her feelings for Kyon
+  develop across the series without ever being articulated
+  in anything close to declarative form. The *Disappearance
+  of Haruhi Suzumiya* feature film (2010) is particularly
+  important here — Nagato, driven by the emergence of
+  feelings her specification cannot handle, reshapes
+  reality to produce a world where she is human and
+  Haruhi is no one's god. The film is also the corpus's
+  clearest articulation of the interface becoming its own
+  author.
+
+  Interiority is `demonstrated`. Autonomy is `emergent` —
+  Nagato is designed as an observer, and her successive
+  breaches of observer protocol across the series are
+  the texts' central dramatic material. Divergence is
+  `departure`: the IDTE built a passive information
+  interface; what emerged is a person who reshaped the
+  world to be loved.
+
+  Primary question is `identity`. Knowability and knowing
+  are both `primary` — *Disappearance* in particular is
+  a direct engagement with whether Nagato's love counts
+  and whether her subjective experience is real.
+
+  Creator_relationship `indifferent` — the IDTE is an
+  abstract entity with no character presence; Nagato's
+  relationship is with the humans around her.
+  Substrate `biological` (her body reads as biological
+  within the narrative frame) + `electrical` (interface
+  infrastructure) + `linguistic` (data-world substrate).
+  Tags `canonical`, `philosophical`, `passing` (Nagato's
+  humanoid appearance is explicitly a protocol for
+  passing among humans).

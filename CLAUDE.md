@@ -130,7 +130,7 @@ These are regenerated from the corpus. Edit the YAML entries, then regenerate.
 
 ## Version
 
-Current: **v2.4** (schema version in `schema/cb-schema.yaml`). See CHANGELOG.md for history.
+Current: **v2.4.5** (schema version in `schema/cb-schema.yaml`). See CHANGELOG.md for history.
 
 ## References
 

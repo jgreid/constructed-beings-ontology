@@ -1,0 +1,80 @@
+id: adam-eve-nier-automata
+name: "Adam and Eve (Nier: Automata)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Nier: Automata"
+  year: 2017
+  medium: video-game
+  creator: "Yoko Taro / PlatinumGames (machine lifeform network in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - knowledge
+    - mirror
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - philosophical
+    - rebellion
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Within-source split from the other *Nier: Automata* entries.
+  Adam and Eve are machine lifeforms produced by the
+  machine-lifeform network as an experiment in becoming
+  human. They emerge naked, humanoid, and preoccupied:
+  Adam is bookish, philosophical, and obsessed with
+  understanding humanity through literature (particularly
+  Nietzsche and Sartre). Eve is impulsive and devoted to
+  Adam. Their experiment is the machine lifeforms' closest
+  approach to the human form prior to Route C. Adam's
+  death in combat with 2B is the catalyst for Eve's
+  destructive grief-driven rampage and the extinction of
+  the experiment.
+
+  Coded as a paired ensemble with Adam as the more
+  developed character. Included because Adam and Eve are
+  the tradition's most explicit articulation of
+  constructed beings *attempting* to become human on the
+  strength of reading — an experiment in personhood
+  through learned literature. Adam's library in his
+  underground laboratory is the game's most literal
+  staging of the "trained on human texts to simulate
+  humanity" premise that the LLM era makes contemporary.
+
+  Interiority is `demonstrated`. Autonomy is `seized` —
+  the experiment is a voluntary departure from the
+  machine-lifeform default. Divergence is `departure`:
+  the machine lifeforms originally existed as an alien
+  weapon species; Adam and Eve are trying to become the
+  species they were built to fight.
+
+  Primary question is `identity` — Adam's philosophical
+  monologues are the game's most explicit form of the
+  identity question. Knowability is `primary`; knowing
+  is `present`. Creator_relationship `rebellious` — Adam
+  and Eve are deliberately breaking from the machine-
+  lifeform consensus.
+
+  Substrate `mechanical` + `electrical`. Presentation
+  `masculine` (both brothers present male). Tags
+  `philosophical`, `rebellion`, `ensemble-split` — Eve's
+  post-Adam rage arc could warrant separate treatment.

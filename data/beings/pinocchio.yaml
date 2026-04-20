@@ -30,8 +30,8 @@ metadata:
     - canonical
     - child-arc
 
-sequel_link: null
-link_type: null
+sequel_link: pinocchio-disney-1940
+link_type: adaptation
 
 notes: |
   Reclassified primary_question from v1 `affection` to `identity`.

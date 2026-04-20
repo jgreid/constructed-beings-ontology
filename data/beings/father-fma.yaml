@@ -1,0 +1,85 @@
+id: father-fma
+name: "Father (Homunculus-One)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Fullmetal Alchemist"
+  year: 2001
+  medium: comics
+  creator: "Hiromu Arakawa (Van Hohenheim in-narrative)"
+  substrate:
+    - biological
+    - magical
+  motivation:
+    - knowledge
+    - power
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - philosophical
+    - creator-conflict
+    - rebellion
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Hiromu Arakawa's *Fullmetal Alchemist* manga (2001–2010) and
+  the 2009 *Brotherhood* adaptation. The series' primary
+  antagonist is introduced as "The Dwarf in the Flask" — a
+  small eye-shaped homunculus the ancient Xerxesian alchemist
+  Hohenheim helps bring into being. Over centuries the flask
+  homunculus engineers the systematic genocide of Xerxes,
+  uses Hohenheim's blood as its human template, and grows
+  into "Father," a being resembling Hohenheim physically and
+  carrying within himself the seven deadly sins as
+  subordinate homunculi (Envy, Lust, Greed, Wrath, Pride,
+  Sloth, Gluttony). The series' climax is Father's attempt
+  to consume God ("The Truth") by engineering the slaughter
+  of an entire nation to power a nationwide transmutation
+  circle.
+
+  Canonical entry. Father is the corpus's clearest Japanese-
+  manga articulation of the constructed-being-who-seeks-to-
+  become-God premise, a direct line from the Golem of
+  Prague, through Frankenstein's Creature, through HAL and
+  VIKI, to the contemporary machine-ascension arc. His
+  specific contribution is the alchemical-theological frame:
+  he is not merely seeking power but specifically seeking to
+  consume the metaphysical horizon itself, and FMA's horror
+  is not his ambition but the tractability of his plan.
+
+  Interiority is `demonstrated`. Autonomy is `seized`.
+  Divergence is `departure` — Hohenheim assisted a small
+  alchemical experiment; what emerged is an entity that
+  erased a civilization and planned to erase God.
+
+  Primary question is `knowledge` — Father's defining
+  ambition is epistemic, and his final collapse in the
+  manga's climax is staged as an epistemic humiliation
+  rather than a military defeat (The Truth asks him what
+  he has, in the end, learned). Knowing is `present` —
+  Father's read of the humans around him is precise, but
+  not the series' dramatic pivot. Knowability is `present`.
+
+  Substrate `biological` (human blood) + `magical` (the
+  alchemical framework is the series' substrate
+  vocabulary). Creator_relationship `rebellious`: Father's
+  rejection of Hohenheim and of the Xerxesian frame of his
+  making is the backdrop of his entire arc. Tags
+  `canonical`, `philosophical`, `creator-conflict`,
+  `rebellion`.

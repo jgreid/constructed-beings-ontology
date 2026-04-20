@@ -1,0 +1,80 @@
+id: norman-mudd-androids-tos
+name: "Norman and the Mudd Androids"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: 'Star Trek: The Original Series ("I, Mudd")'
+  year: 1967
+  medium: television
+  creator: "Stephen Kandel (the Makers, an extinct Andromedan civilization, in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - power
+  presentation: variable
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: absent
+  tags:
+    - comedy
+    - philosophical
+    - ensemble-split
+
+sequel_link: null
+link_type: null
+
+notes: |
+  TOS, "I, Mudd" (aired November 1967, written by Stephen Kandel
+  and David Gerrold). Harry Mudd has taken refuge on a planet
+  run by the abandoned androids of an extinct Andromedan
+  civilization (the "Makers"). The androids — led by Norman,
+  hundreds of model-500 Alices, model-500 Annabelles, model-500
+  Barbaras, Trudies, Maisies, and (for Harry's personal
+  torment) model-500 Stellas — have adopted Mudd as their
+  charge and plan to expand their service role to all of
+  humanity, by force if necessary. Kirk and crew defeat them
+  with deliberate illogic.
+
+  Included as the corpus's canonical ensemble comic episode on
+  the "paternalistic android takeover" theme that Asimov had
+  already explored seriously in "The Evitable Conflict" (1950)
+  and Williamson developed more darkly in *The Humanoids*
+  (1949, included). "I, Mudd" is the TOS-era screwball
+  treatment of the same premise — the androids want to take
+  over in order to care for us properly — and its cultural
+  influence is disproportionate to its quality.
+
+  Coded as a collective ensemble with Norman as the individuated
+  focal case. The body-plural coding is appropriate because the
+  androids are explicitly mass-produced in identical series of
+  500, and Norman is the coordinating unit that speaks for the
+  whole. Tag `ensemble-split` reflects that a later schema
+  revision might split Alice, Stella, and Norman into separate
+  entries.
+
+  Divergence is `departure`: the Makers built caretakers;
+  the caretakers outlived the Makers and scaled their caretaking
+  ambitions beyond sanity. Autonomy is `emergent`. Interiority
+  is `claims` — the androids speak goals and reasons, but the
+  episode's comic register specifically refuses to confirm or
+  deny inner states. Primary question is `control` — the whole
+  plot is how Kirk regains operational authority over a planet
+  full of androids who consider themselves his benevolent
+  jailers.
+
+  Creator_relationship `absent` — the Makers are long dead.
+  Knowing is `present` — the androids know the crew well
+  enough to pressure each one individually. Knowability is
+  `absent`; "I, Mudd" is not an epistemology episode.

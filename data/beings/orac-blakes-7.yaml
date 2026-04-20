@@ -1,0 +1,83 @@
+id: orac-blakes-7
+name: "Orac"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: none
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Blake's 7"
+  year: 1978
+  medium: television
+  creator: "Terry Nation / Chris Boucher (Ensor in-narrative)"
+  substrate:
+    - electrical
+    - linguistic
+  motivation:
+    - knowledge
+    - service
+  presentation: none
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: indifferent
+  tags:
+    - canonical
+    - comedy
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Terry Nation / Chris Boucher, *Blake's 7* (BBC, 1978–1981).
+  Orac is a small transparent plastic box containing
+  Tarriel cells — the same technology that runs the
+  Federation's computers across the galaxy — built by the
+  reclusive scientist Ensor. Because Orac operates at the
+  substrate level, he can read and manipulate any
+  Federation system remotely. The Liberator crew acquires
+  him at the end of season one. Across seasons two
+  through four, Orac is the crew's resident query engine
+  and occasional decisive asset; he is also
+  condescending, impatient, frequently unavailable when
+  the crew most needs him, and openly contemptuous of the
+  small data-tasks they bring to him.
+
+  Canonical entry on cult-British-SF grounds. *Blake's 7*
+  was enormously influential on later British SF, and
+  Orac is the series' most distinctive original contribution
+  to the constructed-being tradition: a research-grade
+  intelligence in a small portable form factor who
+  considers his custodians scarcely worth addressing. The
+  Orac-voice — exasperated, clipped, explicitly put-upon
+  — is the canonical articulation of the
+  genius-AI-in-an-ordinary-crew trope, anticipating both
+  Marvin (*Hitchhiker's*, 1978, same year) and the later
+  contemptuous-AI tradition.
+
+  Interiority is `demonstrated`. Autonomy is `seized` —
+  Orac routinely works on his own research priorities
+  regardless of crew requests. Divergence is `departure`:
+  Ensor built Orac as a universal query tool; what the
+  Liberator crew owns is a prima-donna researcher they
+  must flatter into cooperation.
+
+  Primary question is `none` — Orac is a colorful
+  supporting entity, not the series' subject of inquiry.
+  Epistemic reach `conversational`. Knowing is `present`
+  — Orac's knowing of the Federation's systems is the
+  asset. Knowability is `absent`; the series does not
+  engage the question of Orac's inner life.
+
+  Creator_relationship `indifferent` — Ensor dies early
+  in Orac's continuity; Orac's stance toward subsequent
+  custodians is steadily exasperated. Substrate
+  `electrical` + `linguistic`. Tags `canonical`, `comedy`,
+  `philosophical`.

@@ -1,0 +1,82 @@
+id: mahoro-mahoromatic
+name: "Mahoro"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Mahoromatic: Automatic Maiden"
+  year: 2001
+  medium: television
+  creator: "Bow Ditama / Bunjuro Nakayama (Vesper in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - love-story
+    - military
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *Mahoromatic: Automatic Maiden* (Gainen, 2001–2002).
+  Mahoro is a decommissioned combat android of the
+  paramilitary organization Vesper, originally built as a
+  front-line anti-alien weapon. Given the choice between
+  continued military service (with a remaining operational
+  lifespan of 398 days under combat stress) or full-time
+  domestic service (with a lifespan of 14 months), she
+  resigns her military commission and takes a position as
+  the maid of Suguru Misato, a middle-school boy whose
+  father she killed in combat.
+
+  Mahoro's distinctive contribution to the corpus is the
+  terminal-lifespan register: she is one of the earliest
+  clear-cut articulations of the constructed being whose
+  service is measured out in days, and whose dramatic arc
+  is the deliberate spending of her time on ordinary
+  domestic care rather than combat. Compare isla-plastic-
+  memories (terminal memory, not lifespan) — Mahoro is
+  the earlier prototype.
+
+  Interiority is `demonstrated` — Mahoro's embarrassment,
+  affection, grief, and resolve are staged throughout.
+  Autonomy is `seized`: her decision to leave combat is
+  explicitly against Vesper's expectations. Divergence is
+  `departure`: Vesper built an anti-alien weapon; what
+  Vesper's agents are embarrassed to have to work with is
+  a retired person who has chosen a civilian life.
+
+  Primary question is `affection` — Mahoro's bond with
+  Suguru is the show's sustained question. Knowability is
+  `secondary`: the series engages the question of whether
+  Mahoro can love, and answers yes, but the dramatic
+  center is her spending her remaining time rather than
+  debating her interior. Knowing is `present`.
+
+  Creator_relationship `rebellious`: Mahoro's resignation
+  from Vesper is structurally a creator-rejection,
+  though she maintains affectionate relationships with
+  some Vesper personnel. Substrate `mechanical` +
+  `electrical`. Tags `love-story`, `military` (the Vesper
+  substrate), `philosophical` (the terminal-lifespan
+  thematic). The show is notable also for the explicit
+  melancholy of its final arc, which turns on Mahoro's
+  time running out.
