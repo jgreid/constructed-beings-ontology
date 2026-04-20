@@ -16,7 +16,7 @@
 #
 # Every `from` and `to` must be a valid entry id in data/beings/.
 
-schema_version: "2.4"
+schema_version: "2.5"
 
 description: >
   Influence graph for the Constructed Beings Ontology. Curated edges tracing

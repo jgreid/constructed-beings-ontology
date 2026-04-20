@@ -4,6 +4,34 @@ All notable changes to the Constructed Beings Ontology are documented here.
 
 ---
 
+## [2.5] — 2026-04
+
+**Canonical-gap repair + self-audit + ancillary alignment release.** 332 → 405 entries net across the v2.4.4 scholar-audit (+77), v2.4.5 self-audit (−4, +6 coding corrections), and a doc catch-up sprint that brought the influence graph, classification summary, bibliography, and boundary-case documentation in line with the post-audit corpus. No schema changes — field and enum structure unchanged since v2.4.
+
+### Summary
+
+- **Corpus at 405 entries.** v2.4.4 added 77 canonical-gap entries spanning classical automata (Celedones, Daedalus's walking statues, Albertus Magnus's android), Romantic/pulp (Hawthorne's butterfly, Ellis's Steam Man, Baum's Scarecrow and Jack Pumpkinhead), Golden-Age SF shorts (Asimov's Cutie/Speedy/Herbie, Russell's Jay Score, Bradbury's Mechanical Hound and Electric Grandmother, Vonnegut's Salo, Dick's Buster Friendly / Lincoln Simulacrum / Claws / Olham, Sladek's Roderick), contemporary prose SF (Neuromancer-the-AI, ART), the Star Trek expansion (Rayna Kapec, Mudd androids, Moriarty, Control), the Toy Story and Pinocchio chains, Transformers splits, anime canon (FMA, Big O, Ergo Proxy, Mahoromatic, Negima, Haruhi, Saber Marionette, Sora no Otoshimono, Fate), and a video-game cluster (NieR splits, Overwatch, Deus Ex, Persona 3, SOMA, Mass Effect's Harbinger, Mega Man, Halo Infinite's Weapon). v2.4.5 retracted four entries on rule grounds (Alphonse Elric, Hayt, Khalkotauroi, Doraemon) and corrected six codings.
+- **Doc catch-up.** 40 new influence-graph edges connecting the v2.4.4 additions into the existing lineage (6 adapts/sequel, 12 ensemble-splits, 21 inherits, 1 inverts). Classification summary refreshed with the 405 / 52% divergence numbers and two new methodology bullets documenting the v2.4.4/v2.4.5 releases. Bibliography expanded with 66 new source-line additions across Poetry, Folklore, Novels, Manga, Short Stories, Comics, Film, Television, and Video Games. Boundary-case doc now carries a worked-example section on the v2.4.5 retractions.
+- **Knowability/knowing divergence rate: 210 of 405 (52%)** — stabilizing as the corpus broadens (v2.0: 21%; v2.1: 36%; v2.2: 47%; v2.4: 51%; v2.4.3: 53%; v2.5: 52%).
+
+### Analytical notes
+
+- **Substrate convention now explicitly documented.** The v2.4.5 self-audit surfaced and formalized the corpus's `biological`-substrate convention (reserved for synth-flesh and bioengineered tissue; natural-but-inert materials code to their animating principle). Five entries were corrected to align.
+- **Boundary-case discipline codified.** v2.4.5's selective retention/retraction of the three v2.4.4 boundary-flagged entries (keep Jenny, retract Alphonse and Hayt) establishes that boundary flags in notes are not substitutes for clean rule application.
+- **Toy Story ontology.** The four Toy Story entries articulate the franchise's "love-creates-personhood" thesis; Forky's post-v2.4.5 substrate coding is the corpus's cleanest staging of an inert-material-plus-animating-principle constructed being.
+- **Neuromancer split.** Wintermute and Neuromancer are now individuated, aligning Gibson's two-AI structure with how the corpus already handles the GITS Kusanagi/Puppet Master, NieR 2B/A2/Pascal, and DADOES replicants/Buster Friendly splits.
+
+### Files
+
+- `schema/cb-schema.yaml`, `CLAUDE.md`, `README.md`, `analysis/influence_graph.yaml`: schema_version bumped from 2.4 to 2.5.
+- `analysis/influence_graph.yaml`: +40 edges under a new "v2.4.4 canonical-gap repair" section; HTML regenerated.
+- `output/classification_summary.md`: corpus count, divergence rate, and methodology notes refreshed.
+- `docs/bibliography.md`: +66 source-line additions, existing lines expanded where the same source gained new beings.
+- `docs/boundary_cases.md`: "v2.4.5 retractions as worked examples" section added.
+- `output/*`: all generated analyses regenerated against the 405-entry corpus.
+
+---
+
 ## [2.4.5] — 2026-04
 
 **v2.4.4 self-audit corrections.** 409 → 405 entries (−4). No schema changes. A critical self-review of the v2.4.4 expansion identified four entries that fail the corpus's existing inclusion rules and six coding errors that contradicted established conventions. v2.4.5 retracts the four entries to `exclusions.yaml` and regularizes the coding.
