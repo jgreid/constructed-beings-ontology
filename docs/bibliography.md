@@ -15,10 +15,13 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 
 - **Works and Days / Theogony** (700 BCE) — Hesiod. *Being(s): Pandora*
 - **Metamorphoses, Book X** (8 CE) — Ovid. *Being(s): Galatea*
+- **Paean 8 (fragment)** (470 BCE) — Pindar. *Being(s): The Celedones (Golden Singers of Delphi)*
 
 ### Folklore
 
 - **Golem of Prague folklore cycle** (1580) — Traditional. *Being(s): The Golem of Prague*
+- **Meno** (380 BCE) — Plato. *Being(s): The Walking Statues of Daedalus*
+- **Medieval legend (Chronicon pontificum et imperatorum; subsequent traditions)** (1280) — Anonymous medieval chroniclers. *Being(s): Albertus Magnus's Android*
 
 ### Drama, Opera, Ballet, and Musicals
 
@@ -72,6 +75,17 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **All Systems Red (The Murderbot Diaries)** (2017) — Martha Wells. *Being(s): Murderbot*
 - **Machines Like Me** (2019) — Ian McEwan. *Being(s): Adam*
 - **Klara and the Sun** (2021) — Kazuo Ishiguro. *Being(s): Klara*
+- **The Steam Man of the Prairies** (1868) — Edward S. Ellis. *Being(s): The Steam Man*
+- **The Wonderful Wizard of Oz** (1900) — L. Frank Baum. *Being(s): The Scarecrow*
+- **The Marvelous Land of Oz** (1904) — L. Frank Baum. *Being(s): Jack Pumpkinhead*
+- **Fahrenheit 451** (1953) — Ray Bradbury. *Being(s): The Mechanical Hound*
+- **The Sirens of Titan** (1959) — Kurt Vonnegut. *Being(s): Salo*
+- **Do Androids Dream of Electric Sheep?** (1968) — Philip K. Dick. *Being(s): Buster Friendly*
+- **We Can Build You** (1972) — Philip K. Dick. *Being(s): The Lincoln Simulacrum*
+- **Roderick, or The Education of a Young Machine** (1980) — John Sladek. *Being(s): Roderick*
+- **Neuromancer** (1984) — William Gibson. *Being(s): Neuromancer (AI)*
+- **The Melancholy of Haruhi Suzumiya** (2003) — Nagaru Tanigawa. *Being(s): Yuki Nagato*
+- **Artificial Condition (The Murderbot Diaries)** (2018) — Martha Wells. *Being(s): ART (Perihelion)*
 
 ### Manga
 
@@ -79,6 +93,9 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Yokohama Kaidashi Kikō** (1994) — Hitoshi Ashinano. *Being(s): Alpha Hatsuseno*
 - **Pluto** (2003) — Naoki Urasawa / Takashi Nagasaki. *Being(s): Atom (Pluto)*
 - **Goosebumps ("Night of the Living Dummy")** (1993) — R.L. Stine. *Being(s): Slappy*
+- **Fullmetal Alchemist** (2001) — Hiromu Arakawa. *Being(s): Envy, Father (Homunculus-One)*
+- **Negima! Magister Negi Magi** (2003) — Ken Akamatsu. *Being(s): Chachamaru Karakuri*
+- **Sora no Otoshimono (Heaven's Lost Property)** (2008) — Suu Minazuki. *Being(s): Ikaros*
 
 ### Short Stories
 
@@ -99,6 +116,14 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **I Have No Mouth, and I Must Scream** (1967) — Harlan Ellison. *Being(s): AM*
 - **The Electric Ant** (1969) — Philip K. Dick. *Being(s): Garson Poole*
 - **Home Is the Hangman** (1975) — Roger Zelazny. *Being(s): The Hangman*
+- **The Artist of the Beautiful** (1844) — Nathaniel Hawthorne. *Being(s): The Mechanical Butterfly*
+- **I, Robot ("Liar!")** (1941) — Isaac Asimov. *Being(s): Herbie (RB-34)*
+- **I, Robot ("Reason")** (1941) — Isaac Asimov. *Being(s): Cutie (QT-1)*
+- **Jay Score (Astounding stories, collected in "Men, Martians and Machines")** (1941) — Eric Frank Russell. *Being(s): Jay Score*
+- **I, Robot ("Runaround")** (1942) — Isaac Asimov. *Being(s): Speedy (SPD-13)*
+- **Impostor** (1953) — Philip K. Dick. *Being(s): Spence Olham*
+- **Second Variety** (1953) — Philip K. Dick. *Being(s): The Claws (David, Variety I)*
+- **I Sing the Body Electric! ("I Sing the Body Electric!")** (1969) — Ray Bradbury. *Being(s): The Electric Grandmother*
 
 ### Comics
 
@@ -111,6 +136,8 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **The Avengers (Marvel Comics)** (1968) — Roy Thomas / John Buscema. *Being(s): Ultron*
 - **Machine Man (Marvel Comics)** (1977) — Jack Kirby. *Being(s): Machine Man*
 - **The Avengers (Marvel Comics)** (1977) — Jim Shooter / George Perez. *Being(s): Jocasta*
+- **Civil War (Marvel Comics)** (2006) — Mark Millar / Steve McNiven. *Being(s): Ragnarok (Clor)*
+- **Star Wars: Darth Vader (Marvel)** (2015) — Kieron Gillen / Salvador Larroca. *Being(s): Triple-Zero (0-0-0)*
 
 ### Film
 
@@ -220,6 +247,21 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **M3GAN 2.0** (2025) — Gerard Johnstone. *Being(s): M3GAN 2.0*
 - **Mickey 17** (2025) — Bong Joon-ho (after Edward Ashton). *Being(s): Mickey Barnes (Mickey 17)*
 - **Tron: Ares** (2025) — Joachim Rønning. *Being(s): Ares*
+- **Pinocchio** (1940) — Walt Disney / Norman Ferguson / T. Hee. *Being(s): Pinocchio (Disney)*
+- **Colossus: The Forbin Project** (1970) — Joseph Sargent / James Bridges. *Being(s): Colossus (Forbin Project)*
+- **Godzilla vs. Mechagodzilla** (1974) — Jun Fukuda / Toho. *Being(s): Mechagodzilla*
+- **The Questor Tapes** (1974) — Gene Roddenberry / Gene L. Coon. *Being(s): Questor*
+- **Return to Oz** (1985) — Walter Murch. *Being(s): Tik-Tok (Return to Oz)*
+- **RoboCop** (1987) — Paul Verhoeven / Edward Neumeier. *Being(s): ED-209*
+- **Ghost in the Shell** (1995) — Mamoru Oshii. *Being(s): Puppet Master (Project 2501)*
+- **Toy Story** (1995) — John Lasseter / Pete Docter / Joe Ranft. *Being(s): Buzz Lightyear, Woody*
+- **Tron: Legacy** (2010) — Joseph Kosinski. *Being(s): Quorra*
+- **Frozen** (2013) — Chris Buck / Jennifer Lee. *Being(s): Olaf*
+- **Avengers: Age of Ultron** (2015) — Joss Whedon. *Being(s): FRIDAY*
+- **Spider-Man: Homecoming** (2017) — Jon Watts. *Being(s): Karen (Suit Lady)*
+- **Toy Story 4** (2019) — Josh Cooley. *Being(s): Forky*
+- **Star Wars: The Rise of Skywalker** (2019) — J.J. Abrams. *Being(s): D-O*
+- **Guillermo del Toro's Pinocchio** (2022) — Guillermo del Toro / Mark Gustafson. *Being(s): Pinocchio (del Toro)*
 
 ### Television
 
@@ -286,6 +328,21 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Foundation** (2021-2024) — David S. Goyer / Apple TV+. *Being(s): The Cleon Dynasty, Eto Demerzel*
 - **Metallic Rouge** (2024) — Motonobu Hori / Yutaka Izubuchi. *Being(s): Rouge Redstar*
 - **Sunny** (2024) — Katie Robbins (after Colin O'Sullivan). *Being(s): Sunny*
+- **Star Trek: The Original Series ("I, Mudd")** (1967) — Stephen Kandel. *Being(s): Norman and the Mudd Androids*
+- **Star Trek: The Original Series ("Requiem for Methuselah")** (1969) — Jerome Bixby. *Being(s): Rayna Kapec*
+- **Doctor Who ("The Robots of Death")** (1977) — Chris Boucher. *Being(s): D84 and the Voc Robots*
+- **Blake's 7** (1978) — Terry Nation / Chris Boucher. *Being(s): Orac, Zen*
+- **The Transformers (Generation 1)** (1984) — Hasbro / Sunbow Productions. *Being(s): Bumblebee, Starscream*
+- **Star Trek: The Next Generation ("Elementary, Dear Data" / "Ship in a Bottle")** (1988) — Brian Alan Lane / René Echevarria. *Being(s): Professor James Moriarty*
+- **Beast Wars: Transformers** (1996) — Hasbro / Mainframe Entertainment. *Being(s): Dinobot*
+- **Saber Marionette J** (1996) — Satoru Akahori / Masami Obari. *Being(s): Lime, Cherry, and Bloodberry*
+- **The Big O** (1999) — Kazuyoshi Katayama / Keiichi Sato. *Being(s): R. Dorothy Wayneright*
+- **Mahoromatic: Automatic Maiden** (2001) — Bow Ditama / Bunjuro Nakayama. *Being(s): Mahoro*
+- **Ergo Proxy** (2006) — Shūkō Murase / Dai Satō. *Being(s): Pino*
+- **Doctor Who ("The Doctor's Daughter")** (2008) — Stephen Greenhorn. *Being(s): Jenny*
+- **Doctor Who ("The Girl Who Waited")** (2011) — Tom MacRae. *Being(s): The Handbots*
+- **Star Wars Rebels** (2014) — Dave Filoni / Simon Kinberg / Carrie Beck. *Being(s): Chopper (C1-10P)*
+- **Star Trek: Discovery (Season 2)** (2019) — Alex Kurtzman / Michelle Paradise. *Being(s): Control*
 
 ### Video Games
 
@@ -302,6 +359,15 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Horizon Zero Dawn** (2017) — Guerrilla Games. *Being(s): GAIA*
 - **Detroit: Become Human** (2018) — Quantic Dream. *Being(s): Connor, Kara, Markus*
 - **Cyberpunk 2077** (2020) — CD Projekt Red. *Being(s): Delamain*
+- **Mega Man** (1987) — Akira Kitamura / Capcom. *Being(s): Mega Man (Rock)*
+- **Deus Ex** (2000) — Warren Spector / Harvey Smith / Ion Storm. *Being(s): Helios*
+- **Fate/Stay Night** (2004) — Kinoko Nasu / Type-Moon. *Being(s): Illyasviel von Einzbern*
+- **Persona 3** (2006) — Katsura Hashino / Atlus. *Being(s): Aigis*
+- **Mass Effect 2** (2010) — BioWare. *Being(s): Harbinger*
+- **SOMA** (2015) — Frictional Games. *Being(s): The WAU*
+- **Overwatch** (2016) — Blizzard Entertainment. *Being(s): Bastion (E-54), Tekhartha Zenyatta*
+- **Nier: Automata** (2017) — Yoko Taro / PlatinumGames. *Being(s): A2, Adam and Eve, Pascal*
+- **Halo Infinite** (2021) — 343 Industries. *Being(s): The Weapon*
 
 ---
 
