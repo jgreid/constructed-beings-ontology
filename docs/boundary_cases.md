@@ -117,3 +117,14 @@ If you encounter a being that doesn't quite fit the main corpus but is interesti
 ## Excluded entities register
 
 For a structured register of entities that were considered and excluded, with standardized exclusion reasons, see [`data/exclusions.yaml`](../data/exclusions.yaml).
+
+---
+
+## v2.4.5 retractions as worked examples
+
+Four entries introduced in v2.4.4 were retracted in v2.4.5 and moved to `data/exclusions.yaml`. They function as worked examples of the exclusion rules documented elsewhere in this file. Consult `data/exclusions.yaml` for the full per-entry rationale.
+
+- **Alphonse Elric** (*Fullmetal Alchemist*, 2001) — the born-then-modified rule. Alphonse originates as a born human child whose soul is later bound to a suit of armor; the personhood in question predates the construction.
+- **Hayt / Duncan Idaho ghola** (*Dune Messiah*, 1969) — deferred pending a consistent schema treatment of cloned-body-plus-conditioning cases (cf. Altered Carbon sleeves).
+- **The Khalkotauroi** (*Argonautica*, c. 250 BCE) — within-source collective; the creatures are not individuated and are already captured analytically by the existing Talos entry from the same work.
+- **Doraemon** (1969) — scope: fails the Western-distribution test the v2.4.2 anime expansion set, despite being foundational in East Asian popular culture.
