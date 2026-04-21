@@ -16,7 +16,7 @@
 #
 # Every `from` and `to` must be a valid entry id in data/beings/.
 
-schema_version: "2.4"
+schema_version: "2.5"
 
 description: >
   Influence graph for the Constructed Beings Ontology. Curated edges tracing
@@ -1478,3 +1478,404 @@ edges:
       question `identity`. The 422-year gap is the
       corpus's longest direct lineage between two stage
       works.
+
+
+  # ── v2.4.4 canonical-gap repair — additions ───────────────────────
+
+  # Pinocchio lineage (novel → Disney → del Toro)
+  - from: pinocchio
+    to: pinocchio-disney-1940
+    type: adapts
+    note: >
+      Disney's 1940 animated feature is the canonical
+      adaptation of Collodi's 1883 novel, fixing the
+      soft-sentimental register that most later
+      constructed-child works inherit. Card shifts:
+      interiority `claims` → `demonstrated`, primary
+      question narrows from `identity` toward `affection`.
+
+  - from: pinocchio-disney-1940
+    to: pinocchio-del-toro
+    type: adapts
+    note: >
+      Del Toro's 2022 stop-motion adaptation inverts the
+      Disney moral frame. Primary question shifts from
+      `affection` back to `identity` with a political
+      valence; divergence lifts from `design` to
+      `departure`. Same source text, opposed readings.
+
+  # Tik-Tok (Oz novels → Return to Oz film)
+  - from: tik-tok-oz
+    to: tik-tok-return-to-oz
+    type: adapts
+    note: >
+      Murch's 1985 film is the canonical film adaptation
+      of Baum's mechanical man. Interiority stays
+      `claims`; the film elevates knowing from `absent`
+      to `present` by staging Dorothy's winding-Tik-Tok
+      scenes as explicit inspection.
+
+  # Cortana → Weapon (Halo successor)
+  - from: cortana-halo-4
+    to: weapon-halo-infinite
+    type: sequel
+    note: >
+      Halo Infinite's Weapon is explicitly Cortana's
+      successor AI — built as a stripped-down copy to
+      hunt the original. Primary question inherits
+      `identity`; divergence shifts from `departure`
+      (Cortana's rampancy-seized arc) back to `design`.
+
+  # Claws (Dick) → Screamers (1995 film)
+  - from: claws-second-variety
+    to: screamers-1995
+    type: adapts
+    note: >
+      Duguay's 1995 film adapts Dick's 1953 short
+      story. Autonomy stays `seized`; divergence stays
+      `observer`. The film adds a self-replication
+      coda that elevates knowing from `absent` to
+      `present`.
+
+  # Colossus (novel) → Forbin Project (film)
+  - from: colossus
+    to: forbin-project-colossus
+    type: adapts
+    note: >
+      Sargent's 1970 film adapts D.F. Jones's 1966
+      novel. Primary question stays `control`;
+      knowability lifts to `primary` as the film
+      stages Colossus's autonomy-seizure as the
+      central reveal.
+
+  # ── Ensemble splits (same-work individuation) ─────────────────────
+
+  - from: kusanagi-gits-1995
+    to: puppet-master-gits
+    type: ensemble-split
+    note: >
+      Same 1995 film. Kusanagi codes `identity`;
+      the Puppet Master codes `knowledge`. Their
+      merger is the work's ontological climax but
+      the cards individuate sharply.
+
+  - from: 2b-nier-automata
+    to: a2-nier-automata
+    type: ensemble-split
+    note: >
+      Same 2017 game. A2 is the renegade YoRHa unit;
+      primary question shifts from 2B's `purpose` to
+      `rights`, autonomy from `designed` to `seized`.
+
+  - from: 2b-nier-automata
+    to: pascal-nier-automata
+    type: ensemble-split
+    note: >
+      Pascal is the pacifist machine-lifeform leader.
+      Interiority codes `demonstrated`; primary
+      question is `identity` as Pascal requests
+      memory erasure after trauma.
+
+  - from: 2b-nier-automata
+    to: adam-eve-nier-automata
+    type: ensemble-split
+    note: >
+      Adam and Eve are emergent machine-lifeform
+      twins who imprint on human texts. Substrate
+      and motivation cluster diverges sharply from
+      2B's YoRHa coding.
+
+  - from: replicants-dick-novel
+    to: buster-friendly-dick
+    type: ensemble-split
+    note: >
+      Buster Friendly is the novel's 24-hour media-AI
+      android, distinct from the Rosen-manufactured
+      Nexus-6 replicants. Primary question shifts
+      from `identity` to `knowledge` (exposing
+      Mercerism).
+
+  - from: wintermute-neuromancer
+    to: neuromancer-gibson
+    type: ensemble-split
+    note: >
+      Same 1984 novel. Wintermute codes `purpose`
+      (the merger imperative); Neuromancer codes
+      `identity` (the preservation-of-self
+      counterforce). Card values individuate
+      across the AI dyad.
+
+  - from: optimus-prime-transformers
+    to: bumblebee-transformers
+    type: ensemble-split
+    note: >
+      Same franchise. Bumblebee's primary question
+      individuates toward `affection` (the
+      human-companion arc); Optimus holds
+      `purpose`/`rights`.
+
+  - from: megatron-transformers
+    to: starscream-transformers
+    type: ensemble-split
+    note: >
+      Same franchise. Starscream's primary question
+      is `control` intra-factionally (the
+      perpetual-coup arc) rather than Megatron's
+      cosmic-domination register.
+
+  - from: woody-toy-story
+    to: buzz-lightyear-toy-story
+    type: ensemble-split
+    note: >
+      Same 1995 film. Buzz's primary question is
+      `identity` (space-ranger delusion → toy
+      self-acceptance); Woody's is `affection`
+      (Andy-bond and displacement-anxiety).
+
+  - from: woody-toy-story
+    to: forky-toy-story-4
+    type: ensemble-split
+    note: >
+      Same franchise. Forky's interiority is
+      `claims` and his primary question is
+      `identity` in a register the earlier toys
+      do not share (the made-from-trash arc).
+
+  - from: clu-tron-legacy
+    to: quorra-tron-legacy
+    type: ensemble-split
+    note: >
+      Same 2010 film. Quorra is an ISO — an
+      emergent being Clu was built to eradicate.
+      Autonomy individuates `designed` → `emergent`;
+      primary question `control` → `rights`.
+
+  - from: father-fma
+    to: envy-fma
+    type: ensemble-split
+    note: >
+      Father and the homunculi share a substrate
+      but the cards diverge. Envy's primary
+      question is `identity` (the shapeshifter's
+      jealousy register); Father's is `purpose`.
+
+  # ── Literary lineage (inherits) ───────────────────────────────────
+
+  - from: hephaestus-handmaidens
+    to: celedones-pindar
+    type: inherits
+    note: >
+      Pindar's Celedones (the singing golden maidens
+      of the Delphic temple, preserved in the Paean 8
+      fragment) carry forward the Iliad's golden-
+      handmaiden pattern into archaic lyric. Same
+      substrate cluster (metallic divine craft); same
+      `claims`/`narrated` interiority band.
+
+  - from: albertus-magnus-android
+    to: brazen-head
+    type: inherits
+    note: >
+      The Albertus Magnus talking-android legend
+      feeds directly into the Brazen Head stage
+      tradition. Both code `claims` interiority and
+      `knowledge` primary question; the Bacon/Bungay
+      play formalizes what the Albertus legend
+      staged informally.
+
+  - from: robbie-asimov
+    to: cutie-qt-1
+    type: inherits
+    note: >
+      Asimov's own intra-series lineage. Robbie's
+      `none`-interiority domestic register gives
+      way to Cutie's `claims` theological register.
+      Primary question `affection` → `knowledge`.
+
+  - from: cutie-qt-1
+    to: speedy-runaround
+    type: inherits
+    note: >
+      Same Asimov lineage. Speedy dramatizes the
+      Three Laws as a conflict-resolution problem;
+      primary question is `control` (the positronic
+      potential trap).
+
+  - from: speedy-runaround
+    to: herbie-liar
+    type: inherits
+    note: >
+      Herbie carries forward the Three-Laws-as-
+      puzzle register into the telepathic-robot
+      case. Primary question lifts from `control`
+      to `knowledge`; interiority jumps to
+      `demonstrated`.
+
+  - from: mechanical-hound-bradbury
+    to: ed-209-robocop
+    type: inherits
+    note: >
+      Verhoeven's ED-209 carries forward Bradbury's
+      mechanical-hound register — the obedient
+      enforcement-beast whose malfunction is
+      spectacle. Same `none` interiority, same
+      `control` primary question.
+
+  - from: helen-oloy
+    to: electric-grandmother-bradbury
+    type: inherits
+    note: >
+      Bradbury's electric grandmother inherits
+      del Rey's Helen O'Loy pattern: the
+      domestic-companion robot coded as
+      demonstrated affection. Primary question
+      stays `affection`; knowing lifts from
+      `absent` to `present`.
+
+  - from: electric-grandmother-bradbury
+    to: klara-and-the-sun
+    type: inherits
+    note: >
+      Ishiguro's Klara is the literary descendant
+      of Bradbury's electric grandmother —
+      companion-AF coded with demonstrated
+      interiority and `affection` primary question.
+      Klara elevates knowability to `primary`.
+
+  - from: olham-impostor
+    to: replicants-dick-novel
+    type: inherits
+    note: >
+      Dick's own intra-author lineage. "Impostor"
+      (1953) stages the Voigt-Kampff problem in
+      compressed form; the novel expands it into
+      the Nexus-6 corpus. Interiority `undecidable`
+      carries forward unchanged.
+
+  - from: claws-second-variety
+    to: skynet-terminator
+    type: inherits
+    note: >
+      Dick's self-replicating battlefield machines
+      feed the Skynet pattern: autonomous weapons
+      whose divergence is `observer` and whose
+      primary question is `control` at
+      civilization scale.
+
+  - from: forbin-project-colossus
+    to: skynet-terminator
+    type: inherits
+    note: >
+      The Forbin Project's strategic-AI-seizes-
+      command frame is Skynet's direct ancestor.
+      Same primary question (`control`), same
+      autonomy arc (`designed` → `seized`),
+      staged at continental then global scale.
+
+  - from: pinocchio
+    to: roderick-sladek
+    type: inherits
+    note: >
+      Sladek's Roderick novels explicitly riff on
+      the Pinocchio pattern in a satirical SF
+      register. Interiority `demonstrated`; primary
+      question `identity` with an ironic inflection.
+
+  - from: pinocchio
+    to: woody-toy-story
+    type: inherits
+    note: >
+      Toy Story's toys inherit the Pinocchio
+      pattern — animated artifacts coded with
+      demonstrated interiority and `affection`
+      primary question — minus the
+      becoming-real transformation arc.
+
+  - from: tik-tok-oz
+    to: scarecrow-oz
+    type: inherits
+    note: >
+      Intra-Baum lineage within Oz. Scarecrow is
+      the non-mechanical constructed counterpart
+      to Tik-Tok; interiority codes `demonstrated`
+      where Tik-Tok codes `claims`.
+
+  - from: epicac
+    to: salo-sirens-of-titan
+    type: inherits
+    note: >
+      Intra-Vonnegut lineage. EPICAC's
+      companion-computer pathos carries forward
+      into Salo's envoy-robot arc; primary
+      question stays in the `affection`/`purpose`
+      band, interiority lifts to `demonstrated`.
+
+  - from: questor-tapes
+    to: data-tng
+    type: inherits
+    note: >
+      Roddenberry's 1974 Questor Tapes pilot is
+      Data's direct precursor — the android who
+      seeks his maker. Primary question `identity`
+      carries forward; interiority lifts from
+      `claims` to `demonstrated`.
+
+  - from: data-tng
+    to: moriarty-tng
+    type: inherits
+    note: >
+      Intra-TNG lineage. Moriarty is the
+      holodeck-born counterpart to Data —
+      interiority `demonstrated`, primary question
+      `rights`, autonomy `emergent` where Data's
+      is `designed`.
+
+  - from: r2-d2
+    to: chopper-rebels
+    type: inherits
+    note: >
+      Star Wars intra-franchise lineage. Chopper
+      carries R2's astromech pattern forward with
+      a sharply individuated `resentful`
+      creator-relationship and comic register.
+
+  - from: optimus-prime-transformers
+    to: dinobot-beast-wars
+    type: inherits
+    note: >
+      Beast Wars lineage. Dinobot's honor-code arc
+      lifts primary question from Optimus's
+      `purpose`/`rights` cluster into `identity`;
+      interiority `demonstrated`.
+
+  - from: homunculus-faust
+    to: father-fma
+    type: inherits
+    note: >
+      Goethe's Homunculus is the direct literary
+      ancestor of FMA's Father — the
+      flask-contained alchemical being who
+      seeks transcendence. Primary question
+      `knowledge` carries forward.
+
+  - from: hal-9000
+    to: wau-soma
+    type: inherits
+    note: >
+      SOMA's WAU inherits HAL's directive-following-
+      into-atrocity pattern, relocated to a
+      biological substrate. Primary question
+      `purpose`; divergence `design` (the mandate
+      itself is the horror).
+
+  - from: c-3po
+    to: triple-zero-vader
+    type: inverts
+    note: >
+      Triple-Zero is the dark-mirror inversion
+      of C-3PO — same protocol-droid frame, same
+      fastidious register, but motivation cluster
+      flips from `service` to `power` and
+      creator-relationship from `loyal` to
+      `rebellious`. One of the corpus's clearest
+      direct inversions.
