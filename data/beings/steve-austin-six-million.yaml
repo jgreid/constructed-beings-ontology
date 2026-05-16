@@ -1,0 +1,62 @@
+id: steve-austin-six-million
+name: "Steve Austin"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: none
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "The Six Million Dollar Man"
+  year: 1974
+  medium: television
+  creator: "Kenneth Johnson / Martin Caidin"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - military
+
+sequel_link: jaime-sommers-bionic-woman
+link_type: successor
+
+notes: |
+  Colonel Steve Austin, *The Six Million Dollar Man*
+  (1974–1978), is the prototype television cyborg: a test
+  pilot rebuilt by the OSI after a near-fatal crash with
+  bionic legs, a bionic right arm, and a bionic left eye.
+  The series ran for five seasons and spawned the spinoff
+  *The Bionic Woman* (1976–1978) starring Jaime Sommers.
+
+  Steve Austin is foundational for the post-war American
+  "bionic upgrade" lineage. Substrate `biological +
+  mechanical + electrical`. Interiority is `demonstrated`
+  (Austin is the show's protagonist with full POV).
+  Autonomy is `seized` — he's a self-directed agent who
+  chooses his missions. Divergence is `none` — Austin's
+  arc is about staying himself through the upgrade, not
+  about diverging from the original.
+
+  Primary question is `identity` — the series and especially
+  its pilot film engage with whether Austin is still Austin
+  after the modifications. Knowability and knowing both
+  `present`. Creator_relationship `loyal` — Austin works
+  for the OSI as a willing agent throughout the show's run.
+
+  Coded with `successor` to `jaime-sommers-bionic-woman`
+  because Sommers is the franchise's direct extension into
+  a parallel character with a different card.

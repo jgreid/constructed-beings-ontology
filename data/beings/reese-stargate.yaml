@@ -1,0 +1,65 @@
+id: reese-stargate
+name: "Reese"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Stargate SG-1: Menace"
+  year: 2002
+  medium: television
+  creator: "Peter DeLuise"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - companionship
+    - child
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: absent
+  tags:
+    - child-arc
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Reese is the android child of *Stargate SG-1*'s "Menace"
+  (S5E20, 2002) — a humanoid built by a scientist on a
+  long-dead world as a "daughter" to keep him company.
+  Her function as a toy-maker means her "toys" became the
+  Replicators after her creator's death. SG-1 discovers
+  her on the dead planet still functional, still
+  childlike, and the team confronts the impossible
+  ethical situation of asking the literal child what to
+  do about the galactic-scale threat her playthings have
+  become.
+
+  The episode is one of the show's better single-episode
+  ethics treatments and the most clearly Frankenstein-
+  framed Stargate story: Reese is a constructed child
+  whose creator is long dead and whose creations have
+  become a plague. SG-1 has to choose between killing
+  her (which would let them deactivate the Replicators
+  via her command-pattern) and letting her live (which
+  would condemn many more worlds).
+
+  Substrate `mechanical + electrical`. Interiority is
+  `demonstrated` (childlike but full). Autonomy is
+  `emergent`. Divergence is `departure` — her creator
+  wanted a daughter and his daughter built a galaxy-
+  threatening machine plague. Primary question is
+  `control`. Knowing is `present`. Knowability is
+  `secondary`. Creator_relationship `absent`: her
+  creator is dead by the time of her introduction.

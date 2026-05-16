@@ -1,0 +1,63 @@
+id: android-17-dragon-ball
+name: "Android 17"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Dragon Ball Z"
+  year: 1991
+  medium: television
+  creator: "Akira Toriyama (Dr. Gero in-narrative)"
+  substrate:
+    - biological
+    - mechanical
+    - cloned
+  motivation:
+    - service
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: patricidal
+  tags:
+    - canonical
+    - creator-conflict
+    - rebellion
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Android 17 (Lapis), introduced in the Cell Saga of
+  *Dragon Ball Z* (anime debut 1991, manga 1991), is one
+  of Dr. Gero's series of androids designed to kill Goku.
+  17 and his twin Android 18 are notable because Gero
+  built them from kidnapped humans — they are
+  cybernetically augmented organic beings rather than
+  pure machines, which makes the substrate `biological +
+  mechanical + cloned`. Both turn on Gero and kill him
+  immediately upon awakening.
+
+  17's arc takes him from cold antagonist (Cell Saga,
+  1992) to relaxed park ranger family man (Super, 2015)
+  to one of the tournament-of-power era's strongest
+  fighters. His later appearances make explicit that
+  what Gero built and what 17 becomes are very different
+  beings.
+
+  Interiority is `demonstrated`. Autonomy is `seized`.
+  Divergence is `departure` — Gero made an assassin, the
+  product became a person with a job, a family, and
+  preferences. Primary question is `identity` —
+  particularly in Super, where his domestic life is the
+  point. Knowability and knowing both `present`. Creator_
+  relationship `patricidal` — Gero is the first kill.

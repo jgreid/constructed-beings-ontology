@@ -1,0 +1,65 @@
+id: control-voice-outer-limits
+name: "Brain of Colonel Barham"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: present
+    knowing: secondary
+
+metadata:
+  source: "The Outer Limits: The Brain of Colonel Barham"
+  year: 1965
+  medium: television
+  creator: "Robert C. Dennis / Joseph Stefano"
+  substrate:
+    - biological
+    - electrical
+  motivation:
+    - power
+    - knowledge
+  presentation: masculine
+  embodiment: disembodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - horror
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *The Outer Limits* (original series, ABC, 1963–1965)
+  produced several signature constructed-being episodes
+  whose template carries through later television. "The
+  Brain of Colonel Barham" (S2E13, January 2, 1965)
+  removes the brain of a dying ambitious astronaut and
+  installs it in a computer network for an unmanned
+  Mars mission; the brain, freed from the body and
+  amplified by the network, attempts to seize control
+  of the project and the people running it.
+
+  The episode is one of the corpus's foundational
+  "ambitious mind upgraded into machine substrate"
+  cases — a template that runs from `golem-xiv-lem`
+  (1981) through `transcendence-2014` style "uploaded
+  scientist becomes existential threat" stories. Also a
+  close cousin of the same year's *Donovan's Brain*
+  adaptations and the various Phil Dick "brain in a
+  jar" miniatures.
+
+  Substrate `biological + electrical`: organic brain in
+  electronic substrate. Embodiment `disembodied` — the
+  brain has no body, only the institutional
+  infrastructure of the mission. Interiority is
+  `demonstrated`. Autonomy is `seized`. Divergence is
+  `departure` — the mission scientists wanted a Mars
+  pilot, they got an aspiring tyrant. Primary question
+  is `control`. Knowability `present`. Knowing
+  `secondary`. Creator_relationship `rebellious`.

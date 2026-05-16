@@ -1,0 +1,67 @@
+id: architect-matrix
+name: "The Architect"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: control
+    epistemic_reach: inspection
+    knowability: secondary
+    knowing: primary
+
+metadata:
+  source: "The Matrix Reloaded"
+  year: 2003
+  medium: film
+  creator: "Lana and Lilly Wachowski"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - knowledge
+  presentation: masculine
+  embodiment: projected
+  prominence: foundational
+  creator_relationship: servile
+  tags:
+    - canonical
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The Architect, the white-bearded program responsible
+  for the design and maintenance of the Matrix,
+  introduced in *The Matrix Reloaded* (2003). His
+  monologue to Neo in the chamber of monitors is one of
+  the franchise's most analytically dense sequences: a
+  schematic explanation of why the Matrix has failed
+  five times before, why a "One" is necessary for its
+  reset, and what choice Neo faces. The character is the
+  rationalist counterpart to `oracle-matrix`, but no
+  `sequel_link` is set because the relationship is
+  structural opposition within one work rather than
+  inheritance.
+
+  Substrate `electrical`. Embodiment `projected` — the
+  Architect appears only inside the Matrix as a
+  white-haired man in a tailored suit. Interiority
+  `claims` — he articulates extensive logical content
+  but the film insists he is a program, not a person.
+  Autonomy `designed`. Divergence `none` — he is doing
+  exactly what he was built to do.
+
+  Primary question is `control` — the Architect is the
+  Matrix's regulator. Epistemic reach `inspection`.
+  Knowing is `primary`: the Architect's knowledge of
+  the system is the dramatic device, and his statistical
+  observation of "every previous iteration" is the
+  premise of his monologue. Knowability `secondary` —
+  the film engages whether he is a person but treats it
+  as one question among many. Creator_relationship
+  `servile` — the Architect is serving the design of
+  the System, which is also him.

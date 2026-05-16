@@ -1,0 +1,78 @@
+id: eva-unit-01-evangelion
+name: "Evangelion Unit-01"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: behavioral
+    knowability: primary
+    knowing: secondary
+
+metadata:
+  source: "Neon Genesis Evangelion"
+  year: 1995
+  medium: television
+  creator: "Hideaki Anno"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+    - child
+  presentation: feminine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - military
+    - philosophical
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Evangelion Unit-01, the purple bio-mechanical giant
+  piloted by Shinji Ikari in *Neon Genesis Evangelion*
+  (1995–1996; Rebuild tetralogy 2007–2021). Unit-01 is
+  not a robot in the conventional super-robot sense;
+  the series gradually reveals that it is a cloned
+  living body of one of the world's primordial Seeds,
+  constrained in restraint armor, with the soul of
+  Shinji's mother Yui Ikari installed in its core. The
+  whole series is structured around the discovery of
+  what Unit-01 is and what it has to do with Shinji
+  and his father.
+
+  Substrate `biological + mechanical + electrical`. The
+  inclusion of `biological` here is the corpus's
+  conventional reading of NERV's "Evangelions are
+  alive" disclosure in the second half of the show.
+
+  Interiority is `demonstrated` — Unit-01 acts beyond
+  its pilot's instructions in extremis (episode 19's
+  "berserker mode," the End of Evangelion sequence,
+  the Rebuild treatments). Autonomy is `seized`.
+  Divergence is `departure` — NERV intends it as a
+  weapon and the show progressively reveals the
+  Evangelions to be much more.
+
+  Primary question is `identity` — Unit-01's relation
+  to Yui's soul, to Shinji, and to its own constrained
+  biology is the show's central question. Knowability
+  is `primary` — the series is structurally about what
+  Unit-01 is. Knowing `secondary`. Creator_relationship
+  `rebellious` — Gendo Ikari's whole project at NERV
+  is using Unit-01 (and Yui's preserved consciousness)
+  for his own ends, and the show resists that use.
+
+  Foundational prominence: *Evangelion* is one of the
+  most influential anime of the 1990s and the modern
+  era's principal reformulation of the mecha genre.

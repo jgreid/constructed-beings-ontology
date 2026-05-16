@@ -1,0 +1,73 @@
+id: shrike-mortal-engines
+name: "Shrike"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Mortal Engines"
+  year: 2001
+  medium: novel
+  creator: "Philip Reeve (the Resurrected Men program in-narrative)"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+    - child
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - canonical
+    - love-story
+    - philosophical
+    - child-arc
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Shrike (originally "Grike" in some editions) is the
+  Stalker-type Resurrected Man of Philip Reeve's
+  *Mortal Engines* (2001) and its three sequels. The
+  Stalkers are dead human bodies reanimated and rebuilt
+  with mechanical and electrical augmentation as
+  immortal soldiers; Shrike, an Ancient Empire combat
+  unit, has retained an extraordinary degree of memory
+  and individuality despite the resurrection process,
+  and across the series serves as the orphan Hester
+  Shaw's reluctant guardian.
+
+  Substrate `biological + mechanical + electrical`.
+  Interiority is `demonstrated`. Autonomy is `seized`
+  — Shrike's choice to protect Hester is repeatedly
+  shown to override his original programming.
+  Divergence is `departure`.
+
+  Primary question is `affection` — the Hester-Shrike
+  relationship, treated by the series as a profound and
+  asymmetric parent-child bond, is the novels' most
+  consistent emotional through-line. Knowability and
+  knowing both `primary` — the series increasingly
+  centers on what Shrike can and cannot remember of
+  his pre-resurrection life and on his recognition of
+  Hester. Creator_relationship `absent` — the Ancient
+  Empire that built Stalkers is long extinct.
+
+  Major prominence: the *Mortal Engines* novels are a
+  defining 21st-century YA SF lineage, and the 2018
+  Peter Jackson-produced film adaptation gave the
+  character a substantial visual treatment for the
+  general audience.

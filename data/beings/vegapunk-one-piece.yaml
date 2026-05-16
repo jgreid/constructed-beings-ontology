@@ -1,0 +1,72 @@
+id: vegapunk-one-piece
+name: "Stella Vegapunk (and Satellites)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: conversational
+    knowability: present
+    knowing: primary
+
+metadata:
+  source: "One Piece"
+  year: 1997
+  medium: comics
+  creator: "Eiichiro Oda"
+  substrate:
+    - biological
+    - cloned
+    - electrical
+  motivation:
+    - knowledge
+    - service
+  presentation: variable
+  embodiment: embodied
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - canonical
+    - ensemble-split
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Dr. Vegapunk is the foundational world-science figure
+  of Eiichiro Oda's *One Piece* (manga 1997–ongoing,
+  anime 1999–ongoing). Across his long off-screen
+  presence in the manga, Vegapunk is revealed in the
+  later Egghead arc (2023–2024) to have copied himself
+  into six "Satellite" bodies, each housing one
+  function of his cognition (intelligence Punk-01,
+  evil Punk-02, violence Punk-03, wisdom Punk-04,
+  greed Punk-05, justice Punk-06), all controlled by
+  the original "Stella" Vegapunk body.
+
+  The Satellite design makes Vegapunk a clear corpus
+  entry on its own terms: a self-replicating
+  constructed-being collective, all derived from the
+  same individual mind. Substrate `biological + cloned
+  + electrical`. Presentation `variable` because the
+  Satellites span genders.
+
+  Interiority is `demonstrated`. Autonomy is `seized`
+  — the Satellites act independently within their
+  cognitive specializations. Divergence is `departure`.
+  Primary question is `knowledge` — Vegapunk is the
+  world's scientific authority, and the late-manga
+  arcs frame his project as humanity's accumulated
+  knowledge against the World Government's project of
+  forgetting. Knowing `primary`. Knowability `present`.
+  Creator_relationship `absent` — the original Stella
+  has no living creator.
+
+  Ensemble-split convention applied: this is the
+  collective entry. Individual satellites are not
+  separately coded, but could be split out later if
+  warranted.

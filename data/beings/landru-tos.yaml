@@ -1,0 +1,65 @@
+id: landru-tos
+name: "Landru"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: inspection
+    knowability: present
+    knowing: primary
+
+metadata:
+  source: "Star Trek: The Return of the Archons"
+  year: 1967
+  medium: television
+  creator: "Boris Sobelman / Gene Roddenberry"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - other
+  presentation: masculine
+  embodiment: projected
+  prominence: major
+  creator_relationship: servile
+  tags:
+    - canonical
+    - philosophical
+
+sequel_link: m-5-tos
+link_type: successor
+
+notes: |
+  Landru is the planet-controlling computer of *Star
+  Trek* TOS S1E21 "The Return of the Archons" (February
+  9, 1967), the prototype of the show's recurring "Kirk
+  argues a god-computer to death" formula. The original
+  Landru was a sage who lived six thousand years before
+  the episode; he built the computer to preserve his
+  values after his death, but the machine's literal
+  reading of "absorb everyone into the peaceful Body"
+  produced a totalitarian theocracy. Kirk and Spock talk
+  Landru into self-destruction by showing it that its
+  premises lead to evil rather than peace.
+
+  This is the corpus's foundational "logical paradox
+  destroys the mainframe" entry, the formula M-5 (see
+  `m-5-tos`) and Nomad (see `nomad-tos`) and Vger (see
+  `vger-tmp`) all carry forward.
+
+  Substrate `electrical`. Embodiment `projected`: Landru
+  appears throughout the episode as a holographic
+  projection of the original sage's face. Interiority is
+  `claims`. Autonomy is `designed`. Divergence is
+  `design`: the dictatorship is in the spec — the
+  original Landru programmed it to "preserve the
+  Body," and that's what it preserves. Primary question
+  is `control`. Epistemic reach `inspection` — Landru's
+  sensors see and "absorb" individuals throughout
+  Beta III. Knowing `primary`. Creator_relationship
+  `servile` — the computer is preserving the original
+  Landru's vision faithfully, which is the problem.

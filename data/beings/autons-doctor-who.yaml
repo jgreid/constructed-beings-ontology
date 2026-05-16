@@ -1,0 +1,70 @@
+id: autons-doctor-who
+name: "Autons"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Doctor Who: Spearhead from Space"
+  year: 1970
+  medium: television
+  creator: "Robert Holmes"
+  substrate:
+    - mechanical
+    - magical
+  motivation:
+    - service
+  presentation: variable
+  embodiment: embodied
+  prominence: major
+  creator_relationship: servile
+  tags:
+    - horror
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The Autons debuted in *Doctor Who* "Spearhead from
+  Space" (January 1970), Jon Pertwee's first serial.
+  Plastic mannequin-bodies controlled remotely by the
+  Nestene Consciousness, a disembodied gestalt
+  intelligence from another dimension. The Autons march
+  out of shop windows in their first appearance — one of
+  the most-imitated set pieces in British television —
+  and reappear in "Terror of the Autons" (1971), "Rose"
+  (2005, the Russell T Davies revival's first episode),
+  and "The Pandorica Opens" (2010).
+
+  Substrate `mechanical + magical`: the plastic itself
+  is conventional, but the Nestene's animating
+  consciousness is treated as a transmittable
+  psychic-energetic field with no clear technological
+  basis. The corpus codes the magical/unexplained
+  component when the show's in-narrative explanation is
+  not strictly mechanical or electrical.
+
+  Presentation `variable` — the mannequin bodies
+  available to the Nestene span all gendered displays
+  (mannequins, store dummies, the bridegroom in "Rose,"
+  the Roman centurion in "The Pandorica Opens").
+  Interiority `none` — the Autons themselves are pure
+  remote-controlled bodies. (The Nestene speaks; the
+  Autons do not.) Autonomy `designed`. Divergence
+  `none`. Primary question `control` — Nestene control
+  of the Autons is the entire premise.
+
+  Knowability and knowing both `absent`. Creator_
+  relationship `servile`: the Autons execute the
+  Nestene's will. A foundational entry for the corpus's
+  "alien intelligence remotely operates fabricated
+  bodies" category.

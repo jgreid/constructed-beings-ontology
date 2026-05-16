@@ -1,0 +1,70 @@
+id: daleks-doctor-who
+name: "Daleks"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Doctor Who"
+  year: 1963
+  medium: television
+  creator: "Terry Nation / Raymond Cusick (Davros in-narrative)"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  motivation:
+    - power
+    - other
+  presentation: none
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - military
+    - rebellion
+
+sequel_link: davros-doctor-who
+link_type: successor
+
+notes: |
+  The Daleks debuted in the second Doctor Who serial in
+  December 1963 — "The Daleks," by Terry Nation — and became
+  the show's signature antagonist for the next sixty years.
+  They are a borderline case for the corpus: a Dalek is the
+  mutated remnant of a Kaled (a humanoid species from the
+  planet Skaro) surgically fused into a tank-like
+  travel-machine. They are coded `biological + mechanical +
+  electrical` to capture the composite. Davros, their
+  in-narrative creator, intentionally bred out emotion
+  except for hate.
+
+  Interiority is `claims`: a Dalek screams "EX-TER-MIN-ATE"
+  and articulates a doctrine of racial purity, but the
+  series almost never lets us inside one. The Cult of Skaro
+  and "Dalek Sec" arc (New Who S3) are the chief exceptions
+  where a Dalek speaks in something resembling reflection;
+  the modal Dalek does not. Autonomy is `designed` — they
+  execute their conditioning with high precision and almost
+  never break it. Divergence is `design`: the genocide is in
+  the spec. Davros made what he set out to make.
+
+  Primary question is `control` across the franchise: every
+  Dalek story is "can the Doctor stop them this time?"
+  Knowability and knowing are `absent`: the show is
+  uninterested in whether a Dalek has an interior, and the
+  Daleks themselves are essentially incurious about other
+  beings except as targets. Creator_relationship is
+  `rebellious`: the Daleks repeatedly turn on Davros across
+  the classic and New Who eras, exiling, imprisoning, and
+  occasionally trying to exterminate him for being
+  insufficiently pure.

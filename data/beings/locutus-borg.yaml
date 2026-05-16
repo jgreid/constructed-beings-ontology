@@ -1,0 +1,72 @@
+id: locutus-borg
+name: "Locutus of Borg"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: identity
+    epistemic_reach: inspection
+    knowability: primary
+    knowing: secondary
+
+metadata:
+  source: "Star Trek: The Next Generation"
+  year: 1990
+  medium: television
+  creator: "Michael Piller"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  motivation:
+    - power
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: servile
+  tags:
+    - canonical
+    - military
+    - horror
+    - ensemble-split
+    - philosophical
+
+sequel_link: borg-collective
+link_type: successor
+
+notes: |
+  Locutus is Captain Picard's assimilated identity in "The
+  Best of Both Worlds" (TNG S3E26 / S4E1, 1990). Coded as
+  an `ensemble-split` from `borg-collective` because the
+  story makes Locutus's particular configuration — an
+  individual assimilated as a spokesman, "to speak for the
+  Borg" — narratively distinct from the modal drone. The
+  cliffhanger and resolution are among the most-watched
+  hours of 1990s genre television.
+
+  Interiority is `claims`: Locutus articulates a Borg
+  doctrine through Picard's voice, but Picard's own
+  interior is suppressed during the assimilation. Voiceless
+  during the active assimilation, recovered after rescue,
+  but the Locutus identity itself is not a self in the way
+  Picard is. Autonomy is `designed` — Locutus is configured
+  by the Collective to perform a specific function.
+  Divergence is `design`: making Picard a Borg spokesman is
+  the plan and Locutus executes it.
+
+  Primary question is `identity` — the episode is staged
+  around whether Picard can be recovered, whether the
+  Locutus configuration overrides him, whether the captain
+  who returns is the same captain. Knowability is `primary`
+  — the entire two-parter and "Family" (S4E2) work through
+  what it means for Picard to have been Locutus and what
+  remains. Knowing is `secondary`: Locutus uses Picard's
+  knowledge of Starfleet against the fleet at Wolf 359,
+  which makes the knowing-direction explicit. Creator_
+  relationship `servile` — Locutus is in active service to
+  the Collective, distinct from Seven's later rebellious
+  stance.

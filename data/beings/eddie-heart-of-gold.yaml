@@ -1,0 +1,66 @@
+id: eddie-heart-of-gold
+name: "Eddie the Computer"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "The Hitchhiker's Guide to the Galaxy"
+  year: 1979
+  medium: novel
+  creator: "Douglas Adams (Sirius Cybernetics Corporation in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: disembodied
+  prominence: major
+  creator_relationship: servile
+  tags:
+    - canonical
+    - comedy
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Eddie is the ship computer of the *Heart of Gold* in
+  Douglas Adams's *The Hitchhiker's Guide to the
+  Galaxy* (radio series 1978, novel 1979). A Sirius
+  Cybernetics Corporation product, programmed with what
+  the novel calls a "Genuine People Personality" — in
+  Eddie's case, terminally cheerful, infinitely
+  optimistic, and incapable of giving a straight answer
+  without first running through a perky introduction.
+  His exchanges with Zaphod Beeblebrox and Marvin (see
+  `marvin-hitchhikers`) are among Adams's clearest
+  satirical points about consumer-product AI.
+
+  Substrate `electrical`. Embodiment `disembodied`.
+  Interiority `claims`. Autonomy `designed`. Divergence
+  `none` — Eddie is exactly what Sirius Cybernetics
+  built. The novel's satirical edge is that he is *not*
+  broken; he is functioning as designed, and the
+  design is the problem.
+
+  Primary question `none` — the novels do not pose
+  Eddie as a question. Knowability and knowing both
+  `absent`. Creator_relationship `servile`. Foundational
+  ancestor of the corpus's "annoyingly cheerful product
+  AI" lineage (`butter-robot-rick-and-morty`,
+  `talkie-toaster-red-dwarf`, the Sirius Cybernetics
+  Corporation's other appearances).
+
+  Coded with no formal `sequel_link` to Marvin since
+  they coexist in the same Sirius Cybernetics
+  ensemble; they are presented as the two
+  contradictory limit-cases of the same product line.

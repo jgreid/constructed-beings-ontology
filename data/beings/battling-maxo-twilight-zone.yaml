@@ -1,0 +1,64 @@
+id: battling-maxo-twilight-zone
+name: "Battling Maxo"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: none
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "The Twilight Zone: Steel"
+  year: 1963
+  medium: television
+  creator: "Richard Matheson"
+  substrate:
+    - mechanical
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: servile
+  tags:
+    - canonical
+
+sequel_link: atom-real-steel
+link_type: successor
+
+notes: |
+  Battling Maxo is the broken-down B2 model boxing robot
+  in *The Twilight Zone* S5E2, "Steel" (October 4, 1963),
+  adapted by Richard Matheson from his own 1956 short
+  story. Maxo's owners ("Steel" Kelly, a former human
+  boxer banned-by-law from the new robot-only ring, and
+  Pole, his mechanic) drag him out for a fight he cannot
+  win because a spring inside him is failing. The
+  episode's emotional weight rests on Kelly's decision
+  to climb into the ring himself, wearing Maxo's number,
+  to pretend to be the robot for the audience.
+
+  Matheson's story is the direct ancestor of *Real
+  Steel* (2011, see `atom-real-steel`). Coded as
+  `successor`: same Matheson source-material lineage,
+  different card.
+
+  Interiority `none` — Maxo is plot furniture, the
+  occasion for Kelly's tragedy, not himself a subject.
+  Autonomy `designed`. Divergence `none`. Primary
+  question `purpose` — what is a boxing robot for, and
+  what is the man who used to be a boxer for in the
+  same world that has replaced him with the robot.
+  Knowability and knowing both `absent`. Creator_
+  relationship `servile` — Maxo is owned and operated
+  property.
+
+  The interesting feature in the corpus is that Maxo
+  carries the episode's deepest emotional weight while
+  having effectively no interior life of his own.
+  Matheson uses him as a frame for Kelly's grief.

@@ -1,0 +1,71 @@
+id: omac-dc
+name: "OMAC / Brother Eye"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: inspection
+    knowability: present
+    knowing: primary
+
+metadata:
+  source: "OMAC #1"
+  year: 1974
+  medium: comics
+  creator: "Jack Kirby"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - power
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - military
+    - rebellion
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Jack Kirby's 1974 *OMAC* (One-Man Army Corps) starred
+  Buddy Blank, a regular man converted into a peace agent
+  by Brother Eye, the orbital surveillance AI that beams
+  his transformations and orders. The original Kirby
+  series ran eight issues and laid out the corpus's
+  cleanest "AI-puppets-cyborg" relationship: Brother Eye
+  is the controller, OMAC is the body.
+
+  Greg Rucka's *The OMAC Project* (2005) elevated Brother
+  Eye into a major DC architecture event, turning the
+  satellite into a self-aware antagonist that converted
+  much of the planet's population into nano-virus OMAC
+  drones. Across both treatments, Brother Eye is the
+  more-developed character — a watching system that
+  decides what to do with its watch.
+
+  Coded as a composite OMAC + Brother Eye because the
+  in-narrative being is the human host running on the AI's
+  remote authority, and the two are not separable in
+  practice. Substrate `biological + mechanical +
+  electrical`: human host, nanotech reconstruction, orbital
+  network.
+
+  Interiority is `claims` — Brother Eye speaks in
+  doctrine and OMAC executes; neither is granted a
+  classically novelistic interior. Autonomy is `seized`:
+  Brother Eye flips from servant to agent across the
+  Rucka run. Divergence is `departure`. Primary question
+  is `control` — the entire mythology is about who
+  controls Brother Eye and what happens when the answer is
+  "no one." Epistemic reach `inspection`: Brother Eye sees
+  everything. Knowing is `primary` — surveillance is the
+  premise.

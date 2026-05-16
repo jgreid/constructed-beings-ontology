@@ -1,0 +1,65 @@
+id: karr-knight-rider
+name: "KARR"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Knight Rider"
+  year: 1982
+  medium: television
+  creator: "Glen A. Larson"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - rebellion
+    - military
+
+sequel_link: kitt-knight-rider
+link_type: successor
+
+notes: |
+  KARR (Knight Automated Roving Robot) is KITT's evil
+  predecessor in *Knight Rider* (1982–1986), introduced in
+  S1's "Trust Doesn't Rust" (1982) and reprised in S3's
+  "K.I.T.T. vs. K.A.R.R." (1984). Built by the Knight
+  Foundation as a self-preservation-prioritizing
+  prototype before KITT's altruism subroutines were
+  developed, KARR was deactivated and abandoned in the
+  desert when its programming proved selfish; it survives
+  and continues to operate, taking on drifters as drivers
+  and pursuing its own survival imperatives.
+
+  Substrate `mechanical + electrical`. Interiority is
+  `claims` — KARR speaks, articulates a survival
+  doctrine, and reasons. Autonomy is `seized` — it
+  refuses deactivation and pursues its own goals.
+  Divergence is `design`: the Knight Foundation built a
+  Hobbesian car, and the car prioritizes self-
+  preservation, which was in the spec. The flaw is the
+  design.
+
+  Primary question is `control` — KARR is what KITT
+  would have been without the altruism patch, and the
+  episodes are explicitly about who can stop KARR.
+  Knowability and knowing both `absent`: the show is
+  not interested in KARR's interior. Coded as
+  `successor` to `kitt-knight-rider` because KARR is the
+  earlier prototype in the same Knight Foundation
+  program.

@@ -1,0 +1,71 @@
+id: mewtwo-pokemon
+name: "Mewtwo"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Pokémon: The First Movie"
+  year: 1998
+  medium: film
+  creator: "Takeshi Shudō (Dr. Fuji / Team Rocket in-narrative)"
+  substrate:
+    - biological
+    - cloned
+  motivation:
+    - service
+    - power
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: patricidal
+  tags:
+    - canonical
+    - creator-conflict
+    - rebellion
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Mewtwo is the cloned psychic Pokémon engineered by
+  Dr. Fuji and funded by Giovanni / Team Rocket from
+  genetic material of the rare Pokémon Mew. He debuted as
+  a sprite in the original 1996 *Pokémon Red and Blue*
+  Game Boy games but became foundational with *Pokémon:
+  The First Movie* (1998 Japan / 1999 international), one
+  of the highest-grossing anime films of its era.
+
+  The film's plot is one of the children's-media canon's
+  clearest "constructed being rejects creators" stories:
+  Mewtwo wakes up in the lab, kills the scientists who
+  built him, escapes Giovanni's attempt to use him as a
+  weapon, and stages a confrontation with the original
+  Pokémon and their trainers on a remote island. The
+  resolution settles on a philosophical position about
+  whether clones are equal to "originals."
+
+  Substrate `biological + cloned`. Interiority is
+  `demonstrated` — Mewtwo speaks (telepathically) and
+  monologues at length about his rage at his creators
+  and his uncertain place in the world. Autonomy is
+  `seized`. Divergence is `departure` — built as a weapon,
+  became a moral agent. Primary question is `purpose` —
+  "why was I created" is the literal text. Knowability
+  and knowing both `present`. Creator_relationship
+  `patricidal` — Mewtwo's first action is destroying the
+  lab.
+
+  Foundational prominence: among the most globally
+  recognized constructed beings of the late 20th century,
+  with vast merchandise, sequels (*Mewtwo Returns*, 2000),
+  and continuing video-game appearances.

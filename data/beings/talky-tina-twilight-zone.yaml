@@ -1,0 +1,72 @@
+id: talky-tina-twilight-zone
+name: "Talky Tina"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "The Twilight Zone: Living Doll"
+  year: 1963
+  medium: television
+  creator: "Charles Beaumont / Jerry Sohl"
+  substrate:
+    - mechanical
+  motivation:
+    - other
+  presentation: feminine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: absent
+  tags:
+    - canonical
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Talky Tina is the murderous talking doll of *The
+  Twilight Zone* S5E6 "Living Doll" (November 1, 1963).
+  Christie Streator brings the doll home and gives it to
+  her daughter Tina; Talky Tina takes a near-immediate
+  dislike to Erich Streator, the cruel stepfather, and
+  begins making threats audible only to him. "My name is
+  Talky Tina, and I'm going to kill you." Erich's
+  attempts to destroy her fail, and the episode ends
+  with Tina announcing, "My name is Talky Tina, and you
+  better be nice to me" — to the new owner.
+
+  The episode is the foundational mid-century TV "killer
+  doll" entry; it predates and substantially influences
+  every later killer-doll text in the corpus —
+  *Magic* (1978), *Child's Play* (1988, see
+  `chucky-childs-play`), the *Puppet Master* franchise
+  (`toulon-puppets-puppet-master`), *Dead Silence*
+  (`billy-dead-silence`), *Annabelle*
+  (`annabelle-conjuring`), *Slappy* (`slappy-goosebumps`),
+  and *M3GAN* (`m3gan`, `m3gan-2`).
+
+  Substrate `mechanical` (the in-narrative explanation is
+  given as a manufacturing defect — pull-string speaker
+  jammed in a particular speech mode). Interiority is
+  `claims`. Autonomy is `seized` — the script of "I'm
+  Talky Tina and I love you" is not what the doll says.
+  Divergence is `departure`. Primary question is
+  `control`. Knowability and knowing both `present` —
+  Tina sees Erich's cruelty and reads it back to him,
+  which is the episode's central horror move. Creator_
+  relationship `absent` — the manufacturer is a punch
+  line, not a presence.
+
+  Foundational prominence: Talky Tina is the line
+  Hollywood draws back to in essentially every later
+  killer-doll text, and the "My name is Talky Tina"
+  formula is among the most-quoted Twilight Zone lines.

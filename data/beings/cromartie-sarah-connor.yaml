@@ -1,0 +1,64 @@
+id: cromartie-sarah-connor
+name: "Cromartie / T-888"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: secondary
+
+metadata:
+  source: "Terminator: The Sarah Connor Chronicles"
+  year: 2008
+  medium: television
+  creator: "Josh Friedman (Skynet in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: servile
+  tags:
+    - canonical
+    - military
+    - passing
+
+sequel_link: t-800-terminator
+link_type: successor
+
+notes: |
+  Cromartie (model number T-888) is the antagonist
+  Terminator of *Terminator: The Sarah Connor Chronicles*
+  (2008–2009): sent back to kill John Connor, repeatedly
+  evaded and re-tasked, eventually decapitated by Sarah
+  and his chassis salvaged to become the platform for
+  John Henry. The character is notable for the show's
+  treatment of a T-888 as a methodical, almost
+  procedural antagonist who studies the Connor family
+  with a level of patience the films usually don't
+  grant their Terminators.
+
+  Substrate `mechanical + electrical + biological` (T-800/
+  T-888 architecture: metal endoskeleton, electrical
+  brain, organic skin and tissue). Interiority `claims`:
+  Cromartie speaks, adapts socially, and passes as
+  human, but the show keeps him on the "mission program
+  running" side of the line. Autonomy `designed`.
+  Divergence `none` — Cromartie does exactly what
+  Skynet sent him to do.
+
+  Primary question `control`. Knowing `secondary`: he
+  studies the Connors throughout the show's run, which
+  makes the knowing-direction explicit but does not
+  carry primary dramatic weight. Knowability `absent`.
+  Creator_relationship `servile` — Cromartie is Skynet's
+  loyal agent until destroyed.

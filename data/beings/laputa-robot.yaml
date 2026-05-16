@@ -1,0 +1,68 @@
+id: laputa-robot
+name: "Laputian Robot Soldiers"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: absent
+
+metadata:
+  source: "Castle in the Sky"
+  year: 1986
+  medium: film
+  creator: "Hayao Miyazaki (the ancients of Laputa in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+  presentation: none
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: absent
+  tags:
+    - canonical
+    - love-story
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The Laputian robots of Hayao Miyazaki's *Castle in the
+  Sky* (*Tenkū no Shiro Rapyuta*, 1986) — the lichen-
+  covered combat units that guard the floating fortress
+  and the gentle gardener that tends its trees and
+  graves. Two units appear with substantial screen time:
+  one is captured by the military and turned against
+  the protagonists in a destructive sequence; one is the
+  bowed, lichen-covered gardener Sheeta meets on Laputa
+  itself, who places a flower on the grave of a small
+  bird and walks the robot's daily rounds among the
+  ruins.
+
+  Miyazaki's robots are foundational for the "lonely
+  gentle robot" lineage in Japanese animation —
+  Yokohama Kaidashi Kikō's Alpha, Wall-E, and any number
+  of post-apocalyptic gardening machines. Substrate
+  `mechanical + electrical`. Interiority is `demonstrated`
+  through behavior — the gardener's bow, the offering of
+  the flower, the way it tends the small life on the
+  ruined city. Autonomy is `emergent`: built as a
+  combat unit, the gardener has remade itself into
+  something else.
+
+  Divergence is `departure`. Primary question is
+  `affection`. The gardener's love for the small living
+  things on Laputa, and Sheeta's tearful response, is
+  the emotional center of the film. Knowing `absent` —
+  the robots do not survey or interrogate. Knowability
+  `present` — Sheeta's encounter with the gardener is
+  the film asking whether the long-loyal robot has
+  remained itself in the centuries of waiting.

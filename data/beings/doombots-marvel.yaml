@@ -1,0 +1,56 @@
+id: doombots-marvel
+name: "Doombots"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Fantastic Four #5"
+  year: 1962
+  medium: comics
+  creator: "Stan Lee / Jack Kirby (Victor von Doom in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Doombots — Doctor Doom's robotic body doubles — are a
+  recurring Marvel device. The "it was a Doombot" reveal
+  is a long-running narrative tool that lets Doom appear
+  in places he wasn't and to die without dying. The
+  earliest direct Doombot appearance is in *Fantastic
+  Four* in the early 1960s; the trope crystallized over
+  the next two decades into a standing convention.
+
+  Interiority is `claims` — Doombots usually speak as
+  Doom, performing his persona well enough to fool other
+  characters. Autonomy is `designed` — they execute the
+  programs Doom gives them. Divergence is `none` — they
+  do what they were built to do. Primary question is
+  `none` — they are plot devices for the Doom character,
+  not subjects in themselves. Knowability and knowing both
+  `absent`.
+
+  Included for two reasons: the trope is iconic in
+  Marvel storytelling, and the Doombots populate the
+  same "stand-in-for-creator" category as some of the
+  corpus's other surrogate beings.

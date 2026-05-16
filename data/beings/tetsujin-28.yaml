@@ -1,0 +1,63 @@
+id: tetsujin-28
+name: "Tetsujin 28-go"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: none
+    divergence: none
+  the_lens:
+    primary_question: control
+    epistemic_reach: none
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Tetsujin 28-go"
+  year: 1956
+  medium: comics
+  creator: "Mitsuteru Yokoyama (Dr. Shikishima in-narrative)"
+  substrate:
+    - mechanical
+  motivation:
+    - service
+    - power
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: servile
+  tags:
+    - canonical
+    - military
+
+sequel_link: mazinger-z
+link_type: successor
+
+notes: |
+  Mitsuteru Yokoyama's *Tetsujin 28-go* manga (1956)
+  introduced the giant remote-controlled robot to Japanese
+  popular culture and is foundational for the entire mecha
+  genre. The 1963 anime adaptation reached the U.S. as
+  *Gigantor*. Tetsujin 28 is the 28th in a series of war
+  robots developed by Imperial Japan in WWII; the surviving
+  unit is recovered after the war and controlled by the
+  young boy Shotaro Kaneda via a remote control box.
+
+  Tetsujin is the corpus's archetypal "no interior at all"
+  giant robot. He has no voice, no autonomy, no choice in
+  whose orders to follow — whoever holds the remote
+  control commands him. The premise of the manga is
+  explicitly that the same machine can be a savior or a
+  weapon depending on whose hand is on the controller; the
+  primary question is `control` in the literal sense.
+
+  Substrate `mechanical` (the design predates the
+  computerized-mech trope; Yokoyama drew him as a steel
+  golem). Interiority `none`. Autonomy `none`.
+  Divergence `none`. Epistemic reach `none`. Knowability
+  and knowing both `absent`.
+
+  Foundational despite the empty interior card: Tetsujin
+  28 is the source from which the mecha genre flows —
+  Mazinger Z (1972), Gundam (1979), Evangelion (1995),
+  and modern mecha all carry his lineage.

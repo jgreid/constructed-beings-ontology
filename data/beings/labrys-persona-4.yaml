@@ -1,0 +1,62 @@
+id: labrys-persona-4
+name: "Labrys"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Persona 4 Arena"
+  year: 2012
+  medium: video-game
+  creator: "Atlus / Arc System Works (Kirijo Group in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - philosophical
+
+sequel_link: aigis-persona-3
+link_type: successor
+
+notes: |
+  Labrys is the fifth-generation prototype of the Kirijo
+  Group's Anti-Shadow Suppression Weapon program, the
+  series Aigis was the seventh-generation completion of.
+  Introduced in *Persona 4 Arena* (2012), Labrys is the
+  bridge between Persona 3 and 4: she fights with a giant
+  battle-axe, uses an Osakan dialect, and carries the
+  trauma of having "killed" her sister-units in the
+  Kirijo Group's pre-launch trials.
+
+  Coded as `successor` to `aigis-persona-3` — same project
+  lineage, earlier prototype. The split is warranted
+  because Labrys's primary question (identity — what is
+  she now that she remembers what she did) sits sharply
+  apart from Aigis's (rights — does the Anti-Shadow
+  weapon get to be a person).
+
+  Substrate `mechanical + electrical`. Interiority is
+  `demonstrated`. Autonomy is `seized`. Divergence is
+  `departure` — she was built as a weapon, became a
+  fighter for her own ends, then chose the side of human
+  flourishing. Primary question is `identity` — the P4
+  Arena story is structured around her shadow-self
+  monologue. Knowability and knowing both `present`.
+  Creator_relationship `rebellious` — the Kirijo Group's
+  weapons program is the antagonist of the arc.

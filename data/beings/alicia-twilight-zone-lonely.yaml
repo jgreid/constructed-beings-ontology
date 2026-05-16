@@ -1,0 +1,72 @@
+id: alicia-twilight-zone-lonely
+name: "Alicia"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "The Twilight Zone: The Lonely"
+  year: 1959
+  medium: television
+  creator: "Rod Serling"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - companionship
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - canonical
+    - love-story
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Alicia is the female robot delivered to James A. Corry —
+  a convicted murderer serving a fifty-year sentence in
+  solitary confinement on a desolate asteroid — by a
+  sympathetic supply-ship captain in *The Twilight Zone*
+  S1E7, "The Lonely" (broadcast November 13, 1959).
+  Captain Allenby leaves Alicia behind, ostensibly to keep
+  Corry from losing his mind to the loneliness. Corry's
+  initial revulsion gives way to the discovery that
+  Alicia weeps, remembers, and loves him. When Corry's
+  pardon arrives and Allenby tells him there's no room
+  on the rescue ship for non-human cargo, Corry refuses
+  to leave her; Allenby shoots Alicia in the face,
+  revealing the circuitry, and tells Corry "all you're
+  leaving behind is loneliness."
+
+  One of the foundational mid-century TV "constructed
+  companion" stories. The episode is also among the
+  cleanest staged tests of the corpus's `knowability`
+  axis at primary salience: the entire episode IS the
+  question of whether Alicia is a person whom Corry can
+  love, and Serling stages Allenby's gunshot as a
+  cruel-but-arguably-correct reading of "she's a
+  machine," over the audience's accumulated evidence to
+  the contrary.
+
+  Substrate `mechanical + electrical`. Interiority is
+  `demonstrated` — by the standards of the episode, she
+  laughs, cries, and reads Corry's moods. Autonomy is
+  `emergent`. Divergence is `departure` — Allenby
+  understood himself to be delivering an appliance, but
+  Corry received a wife. Primary question is `affection`.
+  Knowability is `primary`. Knowing `present` — Alicia
+  reads Corry throughout the courtship. Creator_
+  relationship `absent` — her makers are off-screen
+  factory technicians never named.

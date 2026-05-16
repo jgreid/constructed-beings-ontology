@@ -1,0 +1,65 @@
+id: cell-dragon-ball
+name: "Cell"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: design
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Dragon Ball Z"
+  year: 1992
+  medium: television
+  creator: "Akira Toriyama (Dr. Gero in-narrative)"
+  substrate:
+    - biological
+    - cloned
+  motivation:
+    - service
+    - power
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: patricidal
+  tags:
+    - canonical
+    - military
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Cell is the Z fighters' adversary across the Cell Saga
+  (1992–1993, manga; the anime adaptation ran 1992–1993).
+  Genetically constructed by a computer-controlled
+  continuation of Dr. Gero's research, Cell is a
+  bioandroid built from genetic material harvested from
+  Goku, Vegeta, Piccolo, Frieza, and others. He passes
+  through three forms — Imperfect, Semi-Perfect, Perfect
+  — each obtained by absorbing more of the previous
+  generation's androids.
+
+  Substrate `biological + cloned`: an organic body built
+  from spliced DNA samples. Interiority is
+  `demonstrated`. Autonomy is `seized`: Cell is acting on
+  his own goals from his initial future-timeline emergence.
+  Divergence is `design` — unlike 17 and 18, Cell does
+  what he was designed to do (kill the Z fighters,
+  ascend to perfect form). His "design" remit is in fact
+  the kill-the-Z-fighters program; what is novel is the
+  scale and the showmanship.
+
+  Primary question is `identity` — Cell's recurring
+  monologue is about whether he is now Gero's project or
+  his own being, and his self-assertion as "perfect"
+  carries the question. Knowability and knowing both
+  `present`. Creator_relationship `patricidal` — Cell
+  kills Gero's lab computer system that birthed him in his
+  future timeline.

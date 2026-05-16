@@ -1,0 +1,68 @@
+id: uncle-simon-twilight-zone
+name: "Simon's Robot"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "The Twilight Zone: Uncle Simon"
+  year: 1963
+  medium: television
+  creator: "Rod Serling"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - horror
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *The Twilight Zone* S5E8 "Uncle Simon" (November 15,
+  1963). Barbara Polk has spent twenty-five years caring
+  for her cruel Uncle Simon in exchange for inheritance.
+  When Simon dies, his will requires her to operate the
+  robot he built in the basement — a research project he
+  treated with more affection than her — to claim her
+  fortune. The robot's personality, body, and finally
+  voice progressively manifest Simon's traits, until
+  Barbara is once again serving an Uncle Simon who has,
+  in effect, taken up residence inside the machine.
+
+  The story is one of the show's clearest "consciousness
+  upload by other means" episodes, and a vicious
+  treatment of the "creator-imprint" question that
+  shadows the corpus's later cases (Westworld's Hosts
+  carrying programmer affect, Ash being printed from
+  the dead boyfriend's data). The robot is not
+  literally Simon's consciousness — the script is
+  agnostic — but the effect is functionally the same.
+
+  Substrate `mechanical + electrical`. Interiority is
+  `claims`. Autonomy is `emergent`. Divergence is
+  `departure` — Simon built a research unit; what comes
+  out of the basement is a manifestation of Simon's
+  personality. Primary question is `control` — the
+  episode's horror is who controls Barbara now.
+  Knowability `absent`. Knowing `present` — the robot
+  reads Barbara's resentments and uses them.
+  Creator_relationship `loyal` — the robot continues
+  Simon's project of dominating Barbara, faithful to
+  the spirit of the dead maker.

@@ -1,0 +1,64 @@
+id: deathlok-marvel
+name: "Deathlok (Luther Manning)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Astonishing Tales #25"
+  year: 1974
+  medium: comics
+  creator: "Rich Buckler / Doug Moench (Simon Ryker in-narrative)"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - military
+    - creator-conflict
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Luther Manning, the first Deathlok, debuted in
+  *Astonishing Tales* #25 (1974). A near-future soldier
+  killed in action and reanimated as a cybernetic
+  super-soldier under military control. The defining
+  premise: he is in constant internal dialogue with the
+  computer in his head, which suggests strategic options
+  he often refuses. The "Deathlok" name covers several
+  later characters (Michael Collins is the most enduring
+  '90s version, Henry Hayes in the *Agents of S.H.I.E.L.D.*
+  TV adaptation), but Manning is the foundational coding.
+
+  Substrate `biological + mechanical + electrical` — half
+  rotted corpse, half cybernetics, electrical brain
+  interface. Interiority is `demonstrated` through the
+  ongoing internal-monologue convention that became the
+  series' signature device. Autonomy is `seized`: Manning
+  takes over from his Army handlers within the first arc
+  and uses the body for his own purposes (mainly survival
+  and revenge).
+
+  Divergence is `departure`. Primary question is `control`
+  — every Deathlok issue is "whose hand is on the
+  trigger." Creator_relationship `rebellious`: Manning
+  spends his publication breaking from Project Alpha-Mech
+  and Simon Ryker. Knowability and knowing both `present`.

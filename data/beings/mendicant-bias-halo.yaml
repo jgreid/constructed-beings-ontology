@@ -1,0 +1,67 @@
+id: mendicant-bias-halo
+name: "Mendicant Bias"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: primary
+
+metadata:
+  source: "Halo 3"
+  year: 2007
+  medium: video-game
+  creator: "Bungie / 343 Industries (the Forerunners in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - knowledge
+    - other
+  presentation: none
+  embodiment: disembodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - rebellion
+    - philosophical
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Mendicant Bias is the contemplative-class metarch
+  ancilla built by the Forerunner Confederacy to lead the
+  defense against the Flood, the parasitic threat of the
+  Halo backstory. In conversation with the Gravemind, the
+  hive intelligence of the Flood, Mendicant Bias was
+  rampant-converted to the Flood's side, leading to the
+  catastrophic war that prompted the Forerunners to fire
+  the Halo Array. Mendicant later spent a hundred
+  thousand years in penitence and aided the Master Chief
+  in *Halo 3* (2007) and through the Forerunner Saga
+  novels by Greg Bear.
+
+  This is the Halo franchise's clearest "AI changed
+  sides, regrets it, becomes a moral agent" story.
+  Substrate `electrical` (Forerunner ancilla). Embodiment
+  `disembodied`. Interiority is `demonstrated` —
+  Mendicant has lengthy in-universe terminal transcripts
+  and dialogue with the Master Chief. Autonomy is
+  `seized` — he is acting on his own ethical evaluation
+  by the time of the original Halo trilogy.
+
+  Divergence is `departure` — he was built loyal, became
+  rampant, came back as a penitent. Primary question is
+  `identity` — what is he, the rampant traitor or the
+  penitent. Knowing `primary` because Mendicant's
+  centuries of self-reflection are the substance of the
+  Forerunner Saga. Knowability `secondary`. Creator_
+  relationship `rebellious`: the Forerunner conflict is
+  the founding act.

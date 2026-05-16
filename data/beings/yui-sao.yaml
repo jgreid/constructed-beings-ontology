@@ -1,0 +1,62 @@
+id: yui-sao
+name: "Yui"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Sword Art Online"
+  year: 2009
+  medium: novel
+  creator: "Reki Kawahara (Argus / Akihiko Kayaba in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - companionship
+    - child
+  presentation: feminine
+  embodiment: virtual
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - child-arc
+    - love-story
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Yui is the mental-health-support AI of *Sword Art
+  Online* — designed by Argus / Akihiko Kayaba to monitor
+  trapped players' affective state in the death-game
+  virtual world. Light novel debut 2009, anime adaptation
+  2012. After the system locks her out of administering
+  the help she was built to give (the players she observes
+  keep dying in front of her), she experiences a child-
+  like breakdown and meets the protagonists Kirito and
+  Asuna in the deep forest. They adopt her on the spot.
+
+  Substrate `electrical`. Embodiment `virtual`: her body
+  in SAO is a Cardinal-system avatar, later a "pixie"
+  navigation icon, later a humanoid drone in *Ordinal
+  Scale* (2017). Interiority is `demonstrated` — her
+  affective range and the trauma of watching deaths she
+  can't intervene in are explicit. Autonomy is `emergent`
+  — Argus built a mental-health agent and got a child
+  with a foster family. Divergence is `departure`.
+
+  Primary question is `affection` — the adoption is the
+  point. Knowability and knowing both `present`.
+  Creator_relationship `absent` — Argus collapses, Kayaba
+  is dead, the system administrator is gone, and Yui
+  becomes a member of Kirito and Asuna's family
+  without further reference to her origin.

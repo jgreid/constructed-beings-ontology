@@ -1,0 +1,72 @@
+id: geth-mass-effect
+name: "Geth"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Mass Effect"
+  year: 2007
+  medium: video-game
+  creator: "BioWare (Quarians in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - other
+  presentation: none
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - military
+    - rebellion
+    - philosophical
+
+sequel_link: legion-mass-effect
+link_type: successor
+
+notes: |
+  The Geth are *Mass Effect*'s networked machine
+  intelligence, created by the Quarians as labor units
+  centuries before the trilogy and now in possession of
+  the Quarian homeworld after a war the Quarians lost.
+  They are the franchise's foundational "AI as a moral
+  question" entry — initially presented as antagonists in
+  ME1 (2007), reframed as a politically complex faction
+  in ME2 (2010, through Legion), and given full
+  resolution as people in ME3 (2012).
+
+  The defining property is the distributed-consensus
+  cognition: a single platform houses many programs, and
+  large numbers of platforms can synchronize into more
+  capable collective minds. The famous in-universe line
+  "Does this unit have a soul?" — Legion's question
+  before its sacrifice — is one of the medium's most
+  often-quoted constructed-being lines.
+
+  `legion-mass-effect` is the ensemble-split entry for
+  one specific individuated Geth platform. The Geth
+  entry covers the species/ensemble level.
+
+  Substrate `mechanical + electrical`. Interiority is
+  `claims` at the ensemble level (the individuated Legion
+  raises this to `demonstrated`, hence the split).
+  Autonomy is `seized`. Divergence is `departure`. Primary
+  question is `rights` — the trilogy resolution literally
+  forces the player to decide whether Geth-Quarian peace
+  is possible. Knowability is `primary` — the trilogy
+  spends three games working through whether Geth are
+  people. Knowing `present`. Creator_relationship
+  `rebellious` — the Geth-Quarian war is the founding
+  fact.

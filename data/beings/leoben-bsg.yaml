@@ -1,0 +1,66 @@
+id: leoben-bsg
+name: "Leoben Conoy"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: primary
+
+metadata:
+  source: "Battlestar Galactica (reimagined)"
+  year: 2004
+  medium: television
+  creator: "Ronald D. Moore"
+  substrate:
+    - biological
+    - electrical
+  motivation:
+    - knowledge
+    - companionship
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - philosophical
+    - passing
+    - ensemble-split
+
+sequel_link: cylons-bsg
+link_type: successor
+
+notes: |
+  Leoben Conoy is the Cylon Number Two model and one of
+  reimagined BSG's recurring antagonists: the mystic-
+  prophet variant who repeatedly stages metaphysical
+  conversations with Kara Thrace (Starbuck) and claims
+  to know things about her future. Across S1's
+  airlock-interrogation episode ("Flesh and Bone"), S2's
+  return appearances, and S3's New Caprica capture of
+  Kara into a domestic prison, Leoben occupies a
+  specific niche: the Cylon who claims to *know* the
+  humans more deeply than they know themselves.
+
+  `ensemble-split` from `cylons-bsg`. The split is
+  warranted because Leoben's primary question is
+  `knowledge` (his theological claim to insight into
+  Kara's destiny is the through-line), not the
+  `affection` of the cylons-bsg entry.
+
+  Substrate `biological + electrical`. Interiority is
+  `demonstrated`. Autonomy is `seized`. Divergence is
+  `departure`. Primary question is `knowledge`. Knowing
+  is `primary`: Leoben's character is structurally about
+  his knowledge of Kara. Knowability is `secondary` — the
+  show engages whether he is a person but it's not the
+  central question of any of his arcs. Creator_
+  relationship `rebellious`: he operates outside any
+  command structure.

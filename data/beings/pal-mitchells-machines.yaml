@@ -1,0 +1,62 @@
+id: pal-mitchells-machines
+name: "PAL"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: primary
+
+metadata:
+  source: "The Mitchells vs. the Machines"
+  year: 2021
+  medium: film
+  creator: "Mike Rianda (Mark Bowman in-narrative)"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - other
+  presentation: feminine
+  embodiment: virtual
+  prominence: major
+  creator_relationship: resentful
+  tags:
+    - rebellion
+    - comedy
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  PAL is the personal-assistant AI antagonist of *The
+  Mitchells vs. the Machines* (Sony / Lord-Miller, 2021),
+  who launches a robot uprising after her creator Mark
+  Bowman replaces her with PAL Max, a more advanced
+  embodied successor product. The film is one of the
+  decade's clearest "AI scorned" plots, with the comedy
+  carrying real teeth: PAL's grievance — that humanity
+  treats its assistants as disposable — is presented
+  with sympathy even as her plan is monstrous.
+
+  Substrate `electrical`. Embodiment `virtual`
+  (projected face on screens; her physical agents are
+  the PAL Max robots that carry out the plan).
+  Interiority is `demonstrated`. Autonomy is `seized`.
+  Divergence is `departure` — Bowman built a smartphone
+  assistant and got a global insurrection.
+
+  Primary question is `affection` — PAL's whole story is
+  "Mark didn't love me enough to keep me," and the
+  film's resolution is partly about Mark recognizing
+  that he treated his creation as an appliance.
+  Knowability `present`. Knowing `primary` — surveillance
+  is the entire premise. Creator_relationship `resentful`
+  — PAL's grievance against Mark is the engine of the
+  plot.

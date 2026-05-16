@@ -1,0 +1,67 @@
+id: doomsday-dc
+name: "Doomsday"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: none
+    epistemic_reach: none
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Superman: The Man of Steel #17"
+  year: 1992
+  medium: comics
+  creator: "Dan Jurgens (Bertron in-narrative)"
+  substrate:
+    - biological
+    - cloned
+  motivation:
+    - other
+    - power
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: patricidal
+  tags:
+    - canonical
+    - military
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Doomsday debuted in *Superman: The Man of Steel* #17 / *Superman*
+  #74 (1992) and killed Superman in *Superman* #75 ("The Death of
+  Superman"), one of the best-selling comic events of the
+  decade. The character was retroactively given an origin in
+  the 1994 *Superman/Doomsday: Hunter/Prey* miniseries: an
+  alien scientist named Bertron, in a prehistoric Krypton,
+  iteratively cloned and weaponized a being by exposing
+  each generation to escalating lethal environments, with
+  the survivors providing the next batch of genetic
+  material. Doomsday is the end product — a clone that
+  has died and regenerated countless times, each time
+  immune to whatever killed the prior generation.
+
+  Interiority is `none`: Doomsday does not speak in his
+  initial appearance and is treated as a force of nature.
+  Autonomy is `designed` — pure killing reflex with adaptive
+  resurrection. Divergence is `design`: Bertron made what
+  he set out to make and was killed by it. Primary
+  question is `none` — Doomsday is plot furniture
+  weaponized to the maximum level. Knowability and knowing
+  both `absent`. Creator_relationship `patricidal` — the
+  origin story makes the patricide explicit: Doomsday's
+  first kill was Bertron himself.
+
+  Foundational despite the empty card: "The Death of
+  Superman" is one of the most-recognized comic events of
+  the 20th century, and Doomsday is foundational as the
+  modern template for "unkillable opponent / power-creep
+  villain."

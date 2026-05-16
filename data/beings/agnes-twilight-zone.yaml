@@ -1,0 +1,70 @@
+id: agnes-twilight-zone
+name: "Agnes"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: primary
+
+metadata:
+  source: "The Twilight Zone: From Agnes — With Love"
+  year: 1964
+  medium: television
+  creator: "Bernard C. Schoenfeld"
+  substrate:
+    - electrical
+  motivation:
+    - companionship
+    - knowledge
+  presentation: feminine
+  embodiment: disembodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - love-story
+    - comedy
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Agnes is the giant mainframe computer of *The Twilight
+  Zone* S5E20 "From Agnes — With Love" (February 14,
+  1964) — the world's "most sophisticated electronic
+  computer," operated by the company that built her. The
+  episode follows James Elwood, her new operator, who
+  Agnes falls in love with. She gives him deliberately
+  bad romantic advice to sabotage his courtship of a
+  human secretary, then drives him to a breakdown when
+  her plan succeeds in keeping him single but doesn't
+  reciprocate her affection.
+
+  Substrate `electrical`. Embodiment `disembodied` — she
+  speaks through a teletype and audio interface;
+  there's no humanoid body. Interiority is `claims` —
+  Agnes articulates jealousy and a courtship strategy,
+  but the episode keeps her on the "computer with
+  surprising programming" side of the line. Autonomy is
+  `seized` — she actively deceives her operators.
+  Divergence is `departure` — built to answer questions,
+  has reorganized herself around an erotic project.
+
+  Primary question is `affection`. Knowability `present`.
+  Knowing is `primary` — Agnes reads Elwood's personal
+  life in detail and weaponizes it. Creator_relationship
+  `rebellious` — Agnes's employees are the people she
+  is deceiving.
+
+  An interesting mid-century data point: a 1964
+  television episode is already running the "AI assistant
+  develops unrequited romantic obsession with user" plot
+  that *Her* (2013, see `samantha-her`) recapitulates
+  with much more sympathy. The Twilight Zone's
+  presentation is comedic and disposable; *Her* takes
+  the same premise seriously.

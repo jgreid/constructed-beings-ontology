@@ -1,0 +1,68 @@
+id: dren-splice
+name: "Dren"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Splice"
+  year: 2009
+  medium: film
+  creator: "Vincenzo Natali (Elsa Kast and Clive Nicoli in-narrative)"
+  substrate:
+    - biological
+    - cloned
+  motivation:
+    - knowledge
+    - child
+    - companionship
+  presentation: variable
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: resentful
+  tags:
+    - horror
+    - creator-conflict
+    - child-arc
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Dren is the spliced animal-human chimera of Vincenzo
+  Natali's *Splice* (2009), made by two genetic engineers
+  who introduce their own DNA into a base of avian,
+  reptilian, and amphibian sources after their corporate
+  protein-production project succeeds. Dren grows rapidly,
+  speaks haltingly, develops a tail with a barb, sex-
+  changes mid-film, and becomes the focus of one of the
+  decade's most uncomfortable creator-child confrontations.
+
+  Substrate `biological + cloned`. Presentation
+  `variable` — the film's third act includes a sex
+  reversal as part of the species design she carries
+  from one of her source organisms.
+
+  Interiority is `demonstrated`. Autonomy is `seized` —
+  Dren's actions in the final act are not designed
+  responses. Divergence is `departure` — extreme.
+  Primary question is `rights` — the film's central
+  ethical question is what obligations Elsa and Clive
+  have to a being they created without consent and
+  cannot integrate into the world.
+
+  Knowability is `primary` — the film stages Dren's
+  interior as the audience's primary access point to the
+  ethical stakes. Knowing `present`. Creator_relationship
+  `resentful` — Dren's escalating conflicts with Elsa
+  (who is also, genetically, partly her mother) carry
+  the third act.

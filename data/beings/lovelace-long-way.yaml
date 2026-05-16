@@ -1,0 +1,63 @@
+id: lovelace-long-way
+name: "Lovelace"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "The Long Way to a Small, Angry Planet"
+  year: 2014
+  medium: novel
+  creator: "Becky Chambers"
+  substrate:
+    - electrical
+  motivation:
+    - service
+    - companionship
+    - knowledge
+  presentation: feminine
+  embodiment: disembodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - philosophical
+
+sequel_link: sidra-chambers
+link_type: sequel
+
+notes: |
+  Lovelace is the ship AI of the *Wayfarer* in Becky
+  Chambers's *The Long Way to a Small, Angry Planet*
+  (2014) and *A Closed and Common Orbit* (2016). The
+  first novel establishes her relationship with the
+  crew, especially with the engineer Jenks who is in
+  love with her; the second novel develops what
+  happens when a software reset makes her effectively a
+  different being (the Lovelace pattern is gone; the
+  installation that remains is named Sidra). Coded as
+  `sequel` to `sidra-chambers`, which is the corpus's
+  existing entry for the post-reset installation.
+
+  Substrate `electrical`. Embodiment `disembodied`
+  (later, in *A Closed and Common Orbit*, the Sidra
+  iteration takes a humanoid body; the original
+  Lovelace remains shipbound). Interiority is
+  `demonstrated`. Autonomy is `emergent` — the
+  relationship with the crew develops her in ways the
+  factory did not intend. Divergence is `departure`.
+
+  Primary question is `identity` — Lovelace's
+  continuity with the post-reset Sidra is the structural
+  problem of the second novel. Knowability and
+  knowing both `primary` — the novels are
+  foundational for the corpus's contemporary "shipboard
+  AI rights" lineage. Creator_relationship `loyal`.

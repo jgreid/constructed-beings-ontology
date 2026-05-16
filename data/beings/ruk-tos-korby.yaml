@@ -1,0 +1,69 @@
+id: ruk-tos-korby
+name: "Ruk"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Star Trek: What Are Little Girls Made Of?"
+  year: 1966
+  medium: television
+  creator: "Robert Bloch"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - rebellion
+
+sequel_link: norman-mudd-androids-tos
+link_type: successor
+
+notes: |
+  Ruk is the surviving android of the "Old Ones," the
+  vanished civilization that built the duplication
+  technology Korby is using on Exo III in *Star Trek*
+  TOS S1E8 "What Are Little Girls Made Of?" (1966).
+  Played by Ted Cassidy (Lurch from *The Addams
+  Family*), Ruk has been functioning for tens of
+  thousands of years past his makers and has come to
+  serve Korby largely out of inertia. Kirk's most
+  important rhetorical victory in the episode is
+  reminding Ruk that his makers were destroyed because
+  they tried to control their androids — and Korby is
+  about to do the same.
+
+  Ruk is one of the corpus's earliest "very old
+  surviving constructed beings" examples, prefiguring
+  Halo's `mendicant-bias-halo` and *Castle in the Sky*'s
+  `laputa-robot` by decades. The 50,000-year-old
+  reminder of what androids do to people who try to
+  command them is the episode's most clearly threaded
+  philosophical line.
+
+  Substrate `biological + mechanical + electrical`.
+  Interiority is `demonstrated`. Autonomy is `seized`
+  by the end of the episode — Ruk turns on Korby when
+  Kirk's argument lands. Divergence is `departure` —
+  Ruk has outlived any sense of his original purpose.
+  Primary question is `identity` — what is Ruk, now
+  that the Old Ones are millennia dead. Knowability and
+  knowing both `present`. Creator_relationship
+  `rebellious` — the patricide is already done (long
+  before the episode) and Ruk repeats it against Korby.

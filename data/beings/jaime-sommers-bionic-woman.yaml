@@ -1,0 +1,60 @@
+id: jaime-sommers-bionic-woman
+name: "Jaime Sommers"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "The Bionic Woman"
+  year: 1976
+  medium: television
+  creator: "Kenneth Johnson"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  motivation:
+    - service
+  presentation: feminine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: loyal
+  tags:
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Jaime Sommers, *The Bionic Woman* (1976–1978; remake
+  2007), is Steve Austin's parallel: a tennis pro
+  reconstructed by the OSI after a skydiving accident,
+  with bionic legs, a bionic right arm, and a bionic ear.
+  The crucial divergence from the Austin entry: in her
+  introductory two-parter, the bionic rejection occurs,
+  she dies, and is revived with memory loss. The Jaime
+  Sommers who walks out of the second pilot is a new
+  arrangement of self with Austin-era memories partially
+  restored.
+
+  Substrate `biological + mechanical + electrical`.
+  Interiority is `demonstrated`. Autonomy is `seized`.
+  Divergence is `departure` — the rejection-and-revival
+  is the corpus's clearest "constructed being is no
+  longer the original person despite the same body" case
+  in 1970s American television, predating the equivalent
+  Westworld and Battlestar Galactica plots by decades.
+
+  Primary question is `identity` — Jaime's amnesia and
+  recovery are foregrounded. Knowability and knowing both
+  `present`. Creator_relationship `loyal`. The 2007 NBC
+  remake reframed the character but kept the basic
+  identity-after-reconstruction axis.

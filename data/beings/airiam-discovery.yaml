@@ -1,0 +1,69 @@
+id: airiam-discovery
+name: "Lt. Commander Airiam"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Star Trek: Discovery"
+  year: 2017
+  medium: television
+  creator: "Bryan Fuller / Alex Kurtzman"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - companionship
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: absent
+  tags:
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Lt. Commander Airiam (Sara Mitich, then Hannah Cheesman)
+  is a cyborg bridge officer on the USS Discovery, a former
+  human whose body and mind were extensively rebuilt after
+  a shuttle crash that killed her husband. The "Project
+  Daedalus" episode (S2E9, 2019) is the show's full
+  reveal: Airiam's brain has limited biological storage and
+  she manually prunes memories on a schedule, choosing
+  which experiences she keeps.
+
+  This makes her one of the corpus's clearer
+  cyborg-as-construct cases — the rebuilt body is the
+  preserving substrate, and the schedule of forgetting is
+  the lens through which the show poses the identity
+  question. The character is killed off in the same
+  episode that explains her — Section 31's Control AI
+  uses her cyborg interfaces to seize her, and she is
+  spaced after asking her crewmates to remember her for
+  her. The death scene is the franchise's clearest
+  ensemble-loss treatment of a cyborg crewmember.
+
+  Interiority is `demonstrated` (the curated-memory
+  premise, the death-scene flashback to her wedding day).
+  Autonomy is `seized` — Airiam is shown choosing what to
+  retain. Divergence is `departure` — the crash and
+  reconstruction take her well outside whatever the
+  original life was. Primary question is `identity` —
+  Project Daedalus is explicitly "what is left of Airiam
+  when the body is most of what speaks for her."
+  Knowability and knowing both `present`. Creator_
+  relationship `absent`: the medical team that rebuilt her
+  isn't characterized as creators in the narrative; she
+  is, in effect, self-curated.

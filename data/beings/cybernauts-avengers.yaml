@@ -1,0 +1,63 @@
+id: cybernauts-avengers
+name: "The Cybernauts"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: control
+    epistemic_reach: none
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "The Avengers: The Cybernauts"
+  year: 1965
+  medium: television
+  creator: "Philip Levene"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: servile
+  tags:
+    - canonical
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The Cybernauts debuted in *The Avengers* S4E3 "The
+  Cybernauts" (October 16, 1965), the Patrick Macnee
+  /Diana Rigg episode that introduced the most enduring
+  recurring antagonist of the show's run. They are
+  human-shaped assassination androids built by Dr. Clement
+  Armstrong, an industrialist who wants to dominate
+  British heavy industry; each unit homes in on a target
+  using a transmitter the victim has unknowingly been
+  given. The episode is one of mid-1960s British
+  television's most-imitated set pieces — a karate-
+  chopping iron man methodically walking through doors
+  to kill his next mark.
+
+  Reprised in "Return of the Cybernauts" (1967) and "The
+  Last of the Cybernauts...??" (1976, in *The New
+  Avengers*). The recurrence makes the Cybernauts the
+  British television counterpart to *Doctor Who*'s Daleks
+  in the same era: a defining cold-war-anxieties robot
+  antagonist.
+
+  Substrate `mechanical + electrical`. Interiority `none`
+  — they don't speak. Autonomy `designed`. Divergence
+  `none`. Primary question `control` — every Cybernauts
+  episode is whose hand is on the transmitter.
+  Knowability and knowing both `absent`. Creator_
+  relationship `servile` — they execute their assigned
+  victims and die when the controller is broken.

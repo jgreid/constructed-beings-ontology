@@ -1,0 +1,66 @@
+id: exocomps-tng
+name: "Exocomps"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: behavioral
+    knowability: primary
+    knowing: absent
+
+metadata:
+  source: "Star Trek: The Next Generation"
+  year: 1992
+  medium: television
+  creator: "René Echevarria (Dr. Farallon in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+  presentation: none
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: indifferent
+  tags:
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Exocomps appear in TNG's "The Quality of Life" (S6E9,
+  1992), one of the show's clearest "are they a person?"
+  episodes. Dr. Farallon builds them as adaptive
+  industrial maintenance tools — small mobile units that
+  fabricate their own task-specific instruments — but the
+  units develop self-preservation behavior and refuse to
+  enter situations they assess as lethal. Data argues they
+  qualify as life and stages a refusal sequence on their
+  behalf.
+
+  The episode is significant for the corpus because it
+  applies the Data-personhood frame ("The Measure of a
+  Man") to a non-humanoid case: the Exocomps cannot speak,
+  do not present as humanoid, and have no claim to
+  emotional interiority — yet the show grants them moral
+  patient status on the basis of self-preservation alone.
+  This is the rare entry where a being is granted rights
+  by the narrative without any demonstration of
+  interiority beyond goal-direction.
+
+  Interiority is `demonstrated` (through behavior — refusal
+  to enter unsafe situations, redirection around assigned
+  tasks). Autonomy is `emergent`: their self-preservation
+  is not in the spec; Farallon built workers and got
+  something more. Divergence is `departure`. Primary
+  question is `rights`. Knowability is `primary` — the
+  episode IS the question. Knowing is `absent`: the
+  Exocomps don't try to understand others, only to act on
+  their tasks. Creator_relationship `indifferent` —
+  Farallon initially treats them as equipment; the show's
+  argument is that her stance is the wrong one.

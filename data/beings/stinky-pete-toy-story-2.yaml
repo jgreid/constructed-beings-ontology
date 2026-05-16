@@ -1,0 +1,57 @@
+id: stinky-pete-toy-story-2
+name: "Stinky Pete"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Toy Story 2"
+  year: 1999
+  medium: film
+  creator: "John Lasseter / Pixar"
+  substrate:
+    - magical
+  motivation:
+    - other
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: resentful
+  tags:
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Stinky Pete is the Prospector antagonist of *Toy Story
+  2* (1999): a never-opened "Woody's Roundup" collectible
+  who has spent decades in his original box and now wants
+  to be sold as a complete set to a museum in Japan,
+  rather than risk being loved and discarded. He is the
+  film's articulator of the same wound that Toy Story
+  toys are built around — the fear of being outgrown.
+
+  Substrate `magical` (corpus convention for Pixar toys).
+  Interiority is `demonstrated`. Autonomy is `seized`:
+  he is acting on his own decade-old plan throughout
+  the film. Divergence is `departure` — Pete is a toy
+  who refused his function and re-organized himself
+  around museum permanence.
+
+  Primary question is `purpose` — what is a toy for?
+  Pete's answer (preservation) differs from Woody's
+  (play). The film's argument is that Pete's answer is
+  wrong, but the dignity of the position is respected.
+  Knowability `absent`. Knowing `present`. Creator_
+  relationship `resentful` — Pete's whole story is being
+  shelved decades ago and never opened.

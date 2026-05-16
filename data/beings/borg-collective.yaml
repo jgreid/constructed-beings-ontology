@@ -1,0 +1,81 @@
+id: borg-collective
+name: "The Borg"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: identity
+    epistemic_reach: inspection
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Star Trek: The Next Generation"
+  year: 1989
+  medium: television
+  creator: "Maurice Hurley / Michael Piller"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  motivation:
+    - knowledge
+    - power
+    - other
+  presentation: none
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: absent
+  tags:
+    - canonical
+    - military
+    - horror
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The Borg debuted in TNG's "Q Who" (S2E16, 1989) and were
+  cemented as the franchise's defining antagonist in "The
+  Best of Both Worlds" (S3E26 / S4E1, 1990). They are a
+  collective consciousness of cybernetically assimilated
+  individuals from many species, networked through the
+  Collective and devoted to the pursuit of "perfection"
+  through forced assimilation. The defining tagline —
+  "We are the Borg. You will be assimilated. Resistance is
+  futile." — is among the most-quoted constructed-being
+  speeches in television.
+
+  The Borg are an ensemble entry. Distinguished
+  individuals (Locutus, Seven of Nine, Hugh, the Borg
+  Queen) have their own entries via `ensemble-split` from
+  this one. Substrate `biological + mechanical + electrical`
+  captures the assimilation product. The "creator" is
+  ambiguous in canon — there is no single in-narrative
+  designer who built the Borg; the collective is presented
+  as self-perpetuating, so `creator_relationship: absent`.
+
+  Interiority is `claims` — the Collective speaks as a
+  hive-voice with a clear doctrine, but TNG and Voyager
+  refuse to grant the Collective a meaningful interior of
+  the kind that an individual being would have. Autonomy
+  is `designed` — drones act on Collective imperatives, and
+  the Collective itself acts on the assimilation
+  imperative. Divergence is `design`: the assimilation
+  drive is constitutive, not a deviation.
+
+  Primary question is `identity` — every Borg episode is
+  about whether the individual self survives assimilation,
+  whether liberation can restore it (Picard, Seven, Hugh),
+  and whether the Collective itself is one mind or many.
+  Epistemic reach is `inspection`: the Collective sees what
+  every drone sees and can read assimilated minds directly.
+  Knowing is `present` because the Collective's knowledge
+  of others is the assimilation mechanism. Knowability is
+  `secondary` — the show repeatedly engages whether the
+  Borg are persons but treats it as one question among
+  many.

@@ -1,0 +1,67 @@
+id: north-no-2-pluto
+name: "North No. 2"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Pluto"
+  year: 2003
+  medium: comics
+  creator: "Naoki Urasawa (after Osamu Tezuka)"
+  substrate:
+    - mechanical
+    - electrical
+  motivation:
+    - service
+    - art
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - philosophical
+    - love-story
+
+sequel_link: atom-pluto
+link_type: successor
+
+notes: |
+  North No. 2 is one of the seven most advanced robots in
+  Urasawa's *Pluto* (2003–2009): a British military-issue
+  combat robot, now retired and serving as the butler of
+  the blind, retired composer Paul Duncan in the Scottish
+  Highlands. North asks Duncan to teach him to play the
+  piano; Duncan refuses at first, then relents. North's
+  arc — about whether a war-grade combat unit can become
+  a musician, and what art means to a being whose hands
+  were designed for killing — is one of the manga's most
+  often-cited sequences.
+
+  The story is also a notable test of the affection vs.
+  purpose distinction in the corpus: North's relationship
+  with Duncan reads as love (the composer's recovery of
+  his ability to grieve through North's company is the
+  point), but framed through the question of what an
+  ex-soldier is for after the war.
+
+  Substrate `mechanical + electrical`. Interiority is
+  `demonstrated`. Autonomy is `seized` (he asks for the
+  piano lessons). Divergence is `departure`. Primary
+  question is `affection` — the bond with Duncan, and the
+  reciprocal recognition of what art does for someone
+  built for killing. Knowability and knowing both
+  `present`. Creator_relationship `loyal` — North remains
+  in good standing with the military command that built
+  him, but the narrative frames Duncan as his current
+  bond.
