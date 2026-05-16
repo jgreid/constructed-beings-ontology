@@ -1,6 +1,6 @@
 # Metadata Analysis
 
-Total entries: **507**.
+Total entries: **520**.
 
 Distribution of metadata fields not covered by the property coverage or question analysis reports: `presentation`, `embodiment`, `prominence`, `creator_relationship`, and `tags`.
 
@@ -8,17 +8,17 @@ Distribution of metadata fields not covered by the property coverage or question
 
 | Presentation   |   Count |
 |:---------------|--------:|
-| masculine      |     237 |
-| feminine       |     147 |
-| none           |      85 |
-| variable       |      31 |
+| masculine      |     243 |
+| feminine       |     148 |
+| none           |      89 |
+| variable       |      33 |
 | androgynous    |       7 |
 
 ## 2. Embodiment
 
 | Embodiment   |   Count |
 |:-------------|--------:|
-| embodied     |     422 |
+| embodied     |     435 |
 | disembodied  |      44 |
 | projected    |      23 |
 | virtual      |      18 |
@@ -27,10 +27,10 @@ Distribution of metadata fields not covered by the property coverage or question
 
 | Prominence   |   Count |
 |:-------------|--------:|
-| supporting   |     174 |
-| major        |     169 |
-| minor        |      96 |
-| foundational |      68 |
+| supporting   |     178 |
+| major        |     174 |
+| minor        |      98 |
+| foundational |      70 |
 
 ## 4. Creator Relationship
 
@@ -38,7 +38,7 @@ Distribution of metadata fields not covered by the property coverage or question
 |:-----------------------|--------:|
 | loyal                  |     124 |
 | rebellious             |     123 |
-| servile                |      95 |
+| servile                |     108 |
 | absent                 |      87 |
 | indifferent            |      31 |
 | patricidal             |      25 |
@@ -46,19 +46,19 @@ Distribution of metadata fields not covered by the property coverage or question
 
 ## 5. Tags
 
-- **Entries with at least one tag:** 446/507
+- **Entries with at least one tag:** 459/520
 
 | Tag              |   Count |
 |:-----------------|--------:|
-| canonical        |     196 |
-| philosophical    |     159 |
-| military         |      99 |
-| horror           |      76 |
+| canonical        |     208 |
+| philosophical    |     162 |
+| military         |     101 |
+| horror           |      77 |
 | love-story       |      73 |
-| comedy           |      69 |
+| comedy           |      70 |
 | rebellion        |      68 |
-| passing          |      63 |
-| creator-conflict |      58 |
+| passing          |      64 |
+| creator-conflict |      59 |
 | child-arc        |      55 |
 | ensemble-split   |      48 |
 | turing-test      |       5 |
@@ -75,14 +75,14 @@ Cross-tabulation of `creator_relationship` and `divergence`. Rows are creator re
 | patricidal     |        |        4 |          20 |          1 |      25 |
 | rebellious     |      1 |        4 |         111 |          7 |     123 |
 | resentful      |        |        3 |          18 |          1 |      22 |
-| servile        |     49 |       34 |           8 |          4 |      95 |
+| servile        |     59 |       36 |           9 |          4 |     108 |
 
 ## 7. Presentation × Primary Question
 
 | Presentation   |   affection |   control |   identity |   knowledge |   none |   purpose |   rights |   Total |
 |:---------------|------------:|----------:|-----------:|------------:|-------:|----------:|---------:|--------:|
 | androgynous    |           2 |         2 |          1 |             |        |           |        2 |       7 |
-| feminine       |          45 |        27 |         41 |           6 |      4 |         7 |       17 |     147 |
-| masculine      |          53 |        44 |         79 |          10 |     11 |        17 |       23 |     237 |
-| none           |          12 |        30 |          5 |           7 |     16 |         9 |        6 |      85 |
-| variable       |           3 |        10 |          6 |           2 |      1 |         4 |        5 |      31 |
+| feminine       |          45 |        27 |         42 |           6 |      4 |         7 |       17 |     148 |
+| masculine      |          53 |        45 |         80 |          11 |     14 |        17 |       23 |     243 |
+| none           |          12 |        32 |          5 |           7 |     18 |         9 |        6 |      89 |
+| variable       |           3 |        11 |          6 |           3 |      1 |         4 |        5 |      33 |

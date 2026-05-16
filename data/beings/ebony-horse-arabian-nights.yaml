@@ -1,0 +1,72 @@
+id: ebony-horse-arabian-nights
+name: "The Ebony Horse"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: control
+    epistemic_reach: none
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "One Thousand and One Nights"
+  year: 1450
+  medium: folklore
+  creator: "Anonymous (a Persian sage in-narrative)"
+  substrate:
+    - mechanical
+    - magical
+  motivation:
+    - service
+  presentation: none
+  embodiment: embodied
+  prominence: major
+  creator_relationship: servile
+  tags:
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The Ebony Horse appears in the *One Thousand and One
+  Nights* tale traditionally numbered nights 357–371 in
+  the Galland/Burton/Lane numbering, "The Tale of the
+  Ebony Horse" (also "The Magic Horse" or "The
+  Enchanted Horse"). A Persian sage presents the
+  mechanical horse to the King of Persia: by manipulating
+  pegs in its neck, the rider can fly the horse to any
+  destination, and a second peg controls descent. The
+  story is one of the earliest narrative descriptions of
+  a flying machine in any tradition, and a direct
+  ancestor of Chaucer's brass horse (see
+  `chaucer-brass-horse`), Cervantes's Clavileño (in *Don
+  Quixote* Part II), and a great deal of subsequent
+  Western fantasy.
+
+  Year `1450` is the conventional date for the surviving
+  manuscript tradition; the tale itself is considerably
+  older and presumably circulated from at least the
+  10th century (the Galland edition's framework gathered
+  stories from a wider corpus of Arabic, Persian, and
+  Indian material).
+
+  Substrate `mechanical + magical`: pegs and joints
+  detailed in the text, but the flight itself has no
+  mechanical explanation. Interiority `none`. Autonomy
+  `designed`. Divergence `none`. Primary question
+  `control` — the entire plot turns on who knows how to
+  operate the pegs, with the second peg's function
+  withheld at first as a comic-and-tragic device.
+  Knowability and knowing both `absent`. Creator_
+  relationship `servile`.
+
+  Major prominence: foundational text for the Western
+  reception of the technological-marvel tradition from
+  Arabic sources, and the source case for any number
+  of later "mechanical mount" narratives across European
+  fiction.

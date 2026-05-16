@@ -1,0 +1,64 @@
+id: mokkurkalfi-prose-edda
+name: "Mökkurkálfi"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: none
+    epistemic_reach: none
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Prose Edda: Skáldskaparmál"
+  year: 1220
+  medium: folklore
+  creator: "Snorri Sturluson (the giants in-narrative)"
+  substrate:
+    - magical
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: servile
+  tags:
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Mökkurkálfi ("Mist Calf" or "Cloud Calf") is the clay
+  giant the rock-giants build as a second to the giant
+  Hrungnir for his duel with Thor in Snorri Sturluson's
+  *Prose Edda*, Skáldskaparmál chapter 17 (compiled
+  c. 1220 from earlier oral tradition). Nine leagues tall
+  and three broad, Mökkurkálfi is animated with the heart
+  of a mare; the heart is too small for his body, and
+  Snorri tells us that he wet himself with terror when
+  Thor's companion Thjálfi approached, then was killed by
+  Thjálfi "with little fame."
+
+  The earliest unambiguous Norse-corpus constructed being
+  by the corpus's criteria, and a useful corrective to the
+  Greek-centric pre-1800 cluster (Pandora, Talos, the
+  golden tripods, Galatea). The "heart of a mare" detail
+  is one of the period's clearest engagements with the
+  question of what an animating principle does in a clay
+  body — and what happens when it's the wrong one.
+
+  Substrate `magical` (clay shaped by giant-craft and
+  animated by a horse heart, per the corpus's convention
+  for naturally inert materials given life by
+  unexplained processes — same coding family as the
+  Golem of Prague and Pinocchio). Interiority `none`.
+  Autonomy `designed`. Divergence `design`: the giants
+  built a coward, because the heart they put in him was
+  too small — which is in the construction, not a
+  departure from it. Primary question `none`. Knowability
+  and knowing both `absent`. Creator_relationship
+  `servile`.

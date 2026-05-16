@@ -1,6 +1,6 @@
 # Question Analysis
 
-Total entries: **507**.
+Total entries: **520**.
 
 The schema tracks two meta-properties: `knowability` (can we verify its mind?) and `knowing` (can it know us?). This report tracks both, plus the distribution of `primary_question`.
 
@@ -8,13 +8,13 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| identity           |     132 |
+| identity           |     134 |
+| control            |     117 |
 | affection          |     115 |
-| control            |     113 |
 | rights             |      53 |
+| none               |      37 |
 | purpose            |      37 |
-| none               |      32 |
-| knowledge          |      25 |
+| knowledge          |      27 |
 
 ## 2. Primary Questions by Era
 
@@ -22,16 +22,19 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| none               |       4 |
+| none               |       5 |
 | affection          |       1 |
+| identity           |       1 |
 | purpose            |       1 |
 
 ### Early Modern
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| knowledge          |       2 |
-| control            |       1 |
+| control            |       5 |
+| knowledge          |       4 |
+| none               |       4 |
+| identity           |       1 |
 
 ### Industrial / Modern
 
@@ -73,8 +76,8 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Knowability   |   Count |
 |:--------------|--------:|
-| absent        |     162 |
-| present       |     148 |
+| absent        |     170 |
+| present       |     153 |
 | secondary     |      84 |
 | primary       |     113 |
 
@@ -82,9 +85,9 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Knowing   |   Count |
 |:----------|--------:|
-| absent    |     132 |
+| absent    |     143 |
 | present   |     260 |
-| secondary |      34 |
+| secondary |      36 |
 | primary   |      81 |
 
 ## 5. Knowability vs. Knowing Divergence
@@ -93,6 +96,11 @@ Entries where knowability and knowing have different values. A single-axis appro
 
 | Entity                                                        | Source                                                  |   Year | Knowability   | Knowing   |
 |:--------------------------------------------------------------|:--------------------------------------------------------|-------:|:--------------|:----------|
+| Yan Shi's Automaton                                           | Liezi                                                   |   -300 | present       | absent    |
+| Pope Sylvester II's Brazen Head                               | William of Malmesbury, Gesta regum Anglorum             |   1125 | present       | secondary |
+| Paracelsus's Homunculus                                       | De natura rerum                                         |   1537 | present       | secondary |
+| The Golem of Chełm                                            | Sefer Gilgulim and later kabbalistic legend             |   1550 | present       | absent    |
+| False Florimell                                               | The Faerie Queene, Book III                             |   1590 | present       | absent    |
 | Olympia                                                       | Der Sandmann                                            |   1816 | present       | absent    |
 | The Venus of Ille                                             | La Vénus d'Ille                                         |   1837 | present       | absent    |
 | The Steadfast Tin Soldier                                     | Den standhaftige tinsoldat (The Steadfast Tin Soldier)  |   1838 | absent        | present   |
@@ -347,7 +355,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Ares                                                          | Tron: Ares                                              |   2025 | primary       | present   |
 | Cosmo                                                         | The Electric State                                      |   2025 | secondary     | present   |
 
-**253 of 507 entries diverge.**
+**258 of 520 entries diverge.**
 
 ## 6. Entries by Knowability (chronological)
 
@@ -355,15 +363,23 @@ Entries where knowability and knowing have different values. A single-axis appro
 
 | Entity                                   | Source                                                                       |   Year | Primary Q   |
 |:-----------------------------------------|:-----------------------------------------------------------------------------|-------:|:------------|
+| Hephaestus's Golden Tripods              | Iliad, Book XVIII                                                            |   -750 | none        |
 | The Golden Handmaidens of Hephaestus     | Iliad                                                                        |   -750 | none        |
 | Pandora                                  | Works and Days / Theogony                                                    |   -700 | purpose     |
 | The Celedones (Golden Singers of Delphi) | Paean 8 (fragment)                                                           |   -470 | none        |
 | The Walking Statues of Daedalus          | Meno                                                                         |   -380 | none        |
 | Talos                                    | Argonautica                                                                  |   -250 | none        |
 | Galatea                                  | Metamorphoses, Book X                                                        |      8 | affection   |
+| Solomon's Mechanical Throne              | Targum Sheni to Esther                                                       |    700 | control     |
+| Mökkurkálfi                              | Prose Edda: Skáldskaparmál                                                   |   1220 | none        |
 | Albertus Magnus's Android                | Medieval legend (Chronicon pontificum et imperatorum; subsequent traditions) |   1280 | knowledge   |
+| The Brass Horse                          | The Canterbury Tales: The Squire's Tale                                      |   1390 | none        |
+| Automatons of the City of Brass          | One Thousand and One Nights                                                  |   1450 | control     |
+| The Ebony Horse                          | One Thousand and One Nights                                                  |   1450 | control     |
 | The Golem of Prague                      | Golem of Prague folklore cycle                                               |   1580 | control     |
 | The Brazen Head                          | The Honorable History of Friar Bacon and Friar Bungay                        |   1589 | knowledge   |
+| Talus                                    | The Faerie Queene, Book V                                                    |   1596 | none        |
+| Clavileño the Swift                      | Don Quixote, Part II                                                         |   1615 | none        |
 | The Steadfast Tin Soldier                | Den standhaftige tinsoldat (The Steadfast Tin Soldier)                       |   1838 | affection   |
 | The Mechanical Butterfly                 | The Artist of the Beautiful                                                  |   1844 | purpose     |
 | The Steam Man                            | The Steam Man of the Prairies                                                |   1868 | none        |
@@ -522,6 +538,11 @@ Entries where knowability and knowing have different values. A single-axis appro
 
 | Entity                                   | Source                                                                    |   Year | Primary Q   |
 |:-----------------------------------------|:--------------------------------------------------------------------------|-------:|:------------|
+| Yan Shi's Automaton                      | Liezi                                                                     |   -300 | identity    |
+| Pope Sylvester II's Brazen Head          | William of Malmesbury, Gesta regum Anglorum                               |   1125 | knowledge   |
+| Paracelsus's Homunculus                  | De natura rerum                                                           |   1537 | knowledge   |
+| The Golem of Chełm                       | Sefer Gilgulim and later kabbalistic legend                               |   1550 | control     |
+| False Florimell                          | The Faerie Queene, Book III                                               |   1590 | identity    |
 | Olympia                                  | Der Sandmann                                                              |   1816 | identity    |
 | The Creature                             | Frankenstein; or, The Modern Prometheus                                   |   1818 | affection   |
 | The Homunculus                           | Faust, Part Two                                                           |   1832 | identity    |
@@ -884,18 +905,18 @@ For knowability and knowing, tracking the earliest year each level appears.
 
 ### Knowability
 
-| Level     |   First Year | Entity                               |
-|:----------|-------------:|:-------------------------------------|
-| absent    |         -750 | The Golden Handmaidens of Hephaestus |
-| present   |         1816 | Olympia                              |
-| secondary |         1870 | Coppélia                             |
-| primary   |         1886 | Hadaly                               |
+| Level     |   First Year | Entity                      |
+|:----------|-------------:|:----------------------------|
+| absent    |         -750 | Hephaestus's Golden Tripods |
+| present   |         -300 | Yan Shi's Automaton         |
+| secondary |         1870 | Coppélia                    |
+| primary   |         1886 | Hadaly                      |
 
 ### Knowing
 
-| Level     |   First Year | Entity                               |
-|:----------|-------------:|:-------------------------------------|
-| absent    |         -750 | The Golden Handmaidens of Hephaestus |
-| present   |         1818 | The Creature                         |
-| secondary |         1965 | Brain of Colonel Barham              |
-| primary   |         1941 | Herbie (RB-34)                       |
+| Level     |   First Year | Entity                          |
+|:----------|-------------:|:--------------------------------|
+| absent    |         -750 | Hephaestus's Golden Tripods     |
+| present   |         1818 | The Creature                    |
+| secondary |         1125 | Pope Sylvester II's Brazen Head |
+| primary   |         1941 | Herbie (RB-34)                  |

@@ -1,0 +1,65 @@
+id: golden-tripods-iliad
+name: "Hephaestus's Golden Tripods"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: none
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Iliad, Book XVIII"
+  year: -750
+  medium: epic
+  creator: "Homer (Hephaestus in-narrative)"
+  substrate:
+    - mechanical
+    - magical
+  motivation:
+    - service
+  presentation: none
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: servile
+  tags:
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  In *Iliad* XVIII.373–377, when Thetis visits Hephaestus's
+  forge to commission new armor for Achilles, Homer
+  describes the smith finishing twenty self-moving tripods
+  with golden wheels — designed to "roll of themselves into
+  the assembly of the gods and return again to the house,
+  a wonder to behold." The tripods are the earliest
+  unambiguous automata in the Western corpus, predating
+  Hephaestus's golden serving women (`hephaestus-handmaidens`,
+  same book of the *Iliad*) by a few dozen lines.
+
+  Distinguished from the handmaidens because the tripods
+  have no speech, no interior, and no demonstrable
+  intelligence; they are purely mobile service-vessels. In
+  the corpus's terms, the tripods are the cleanest "plot
+  furniture automaton" case in the Western canon —
+  included for foundational coverage and as the explicit
+  other limit of Hephaestus's workshop spectrum, with the
+  handmaidens at the high-interiority end of the same
+  passage.
+
+  Substrate `mechanical + magical`: Homer is unambiguous
+  that the tripods are wheeled metalwork, but the propulsion
+  has no mechanical explanation in the text — they move
+  because Hephaestus wills them to. Interiority `none`.
+  Autonomy `designed`. Divergence `none`. Primary question
+  `none`. Knowability and knowing both `absent`.
+  Creator_relationship `servile`. The pairing with
+  `hephaestus-handmaidens` is contextual rather than
+  formally linked; both are within-source items from the
+  same book of the *Iliad*.

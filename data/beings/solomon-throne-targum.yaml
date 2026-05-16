@@ -1,0 +1,72 @@
+id: solomon-throne-targum
+name: "Solomon's Mechanical Throne"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Targum Sheni to Esther"
+  year: 700
+  medium: folklore
+  creator: "Anonymous Targumist (Solomon in-narrative)"
+  substrate:
+    - mechanical
+    - magical
+  motivation:
+    - service
+    - power
+  presentation: none
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: servile
+  tags:
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  King Solomon's mechanical throne, described in *Targum
+  Sheni to Esther* (the Aramaic paraphrastic translation
+  of the Book of Esther, datable to the post-Talmudic
+  period, c. 6th–8th century CE) and in midrash collections
+  including *Esther Rabbah*, has graded steps flanked by
+  mechanical lions, eagles, oxen, leopards, and other
+  animals. As each visitor ascends, the corresponding
+  animal extends a paw or wing to assist; if an
+  unauthorized claimant attempts to mount, the animals
+  strike. The throne is also said to greet petitioners
+  by name and to read the secret thoughts of those who
+  approach.
+
+  Functionally a foundational entry in the corpus's
+  "throne-with-internal-defenses" lineage, and one of the
+  clearest pre-Islamic-period engineered-marvel
+  descriptions from a Western-canonical scripturally-
+  adjacent text. The Targum's full description specifies
+  twelve golden lions and twelve golden eagles arranged
+  on the six steps, with a complex hydraulic-and-
+  pneumatic mechanism for the animals' movement. Later
+  Jewish, Islamic, and Christian retellings (in the
+  *Alphabet of Ben Sira*, the Qurʾān's Surah an-Naml
+  treatment of Solomon's court, and the medieval
+  *Speculum Historiale*) elaborate the design.
+
+  Year set at 700 as the standard scholarly midpoint for
+  the Targum's composition. Substrate `mechanical +
+  magical`: the descriptions are mechanically detailed
+  but the recognition-of-claimants element is given no
+  mechanical explanation. Interiority `none`. Autonomy
+  `designed`. Divergence `none`. Primary question
+  `control`: the throne is the king's filtering
+  mechanism for access. Knowability and knowing both
+  `absent` — the throne does not have an interior the
+  text engages with. Creator_relationship `servile`.

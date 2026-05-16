@@ -1,6 +1,6 @@
 # Temporal Analysis
 
-Total entries: **507**.
+Total entries: **520**.
 
 Tracks the distribution of `knowability` and `knowing` salience across time periods to illustrate the migration of epistemological questions from narrative infrastructure to primary dramatic concern.
 
@@ -8,7 +8,7 @@ Tracks the distribution of `knowability` and `knowing` salience across time peri
 
 | Period    |   Entries |
 |:----------|----------:|
-| Pre-1800  |         9 |
+| Pre-1800  |        22 |
 | 1800s     |        13 |
 | 1900–1929 |         9 |
 | 1930s     |         5 |
@@ -28,7 +28,7 @@ For each period, the percentage of entries at each salience level. The migration
 
 | Period    |   n | absent       | present      | secondary    | primary      |
 |:----------|----:|:-------------|:-------------|:-------------|:-------------|
-| Pre-1800  |   9 | 9/9 (100%)   | 0/9 (0%)     | 0/9 (0%)     | 0/9 (0%)     |
+| Pre-1800  |  22 | 17/22 (77%)  | 5/22 (22%)   | 0/22 (0%)    | 0/22 (0%)    |
 | 1800s     |  13 | 3/13 (23%)   | 7/13 (53%)   | 2/13 (15%)   | 1/13 (7%)    |
 | 1900–1929 |   9 | 5/9 (55%)    | 3/9 (33%)    | 0/9 (0%)     | 1/9 (11%)    |
 | 1930s     |   5 | 0/5 (0%)     | 4/5 (80%)    | 1/5 (20%)    | 0/5 (0%)     |
@@ -46,7 +46,7 @@ For each period, the percentage of entries at each salience level. The migration
 
 | Period    |   n | absent      | present      | secondary    | primary      |
 |:----------|----:|:------------|:-------------|:-------------|:-------------|
-| Pre-1800  |   9 | 9/9 (100%)  | 0/9 (0%)     | 0/9 (0%)     | 0/9 (0%)     |
+| Pre-1800  |  22 | 20/22 (90%) | 0/22 (0%)    | 2/22 (9%)    | 0/22 (0%)    |
 | 1800s     |  13 | 8/13 (61%)  | 5/13 (38%)   | 0/13 (0%)    | 0/13 (0%)    |
 | 1900–1929 |   9 | 6/9 (66%)   | 3/9 (33%)    | 0/9 (0%)     | 0/9 (0%)     |
 | 1930s     |   5 | 2/5 (40%)   | 3/5 (60%)    | 0/5 (0%)     | 0/5 (0%)     |
@@ -116,7 +116,7 @@ Entries where both `knowability` and `knowing` are coded `primary` — the confi
 
 | Period    |   n |   affection |   control |   identity |   knowledge |   none |   purpose |   rights |
 |:----------|----:|------------:|----------:|-----------:|------------:|-------:|----------:|---------:|
-| Pre-1800  |   9 |           1 |         1 |            |           2 |      4 |         1 |          |
+| Pre-1800  |  22 |           1 |         5 |          2 |           4 |      9 |         1 |          |
 | 1800s     |  13 |           5 |         2 |          4 |             |      1 |         1 |          |
 | 1900–1929 |   9 |           1 |         1 |          2 |             |        |         2 |        3 |
 | 1930s     |   5 |           3 |           |          1 |             |        |           |        1 |
@@ -134,7 +134,7 @@ Entries where both `knowability` and `knowing` are coded `primary` — the confi
 
 | Period    |   n |   ballet |   comics |   epic |   film |   folklore |   musical |   novel |   opera |   play |   poem |   short-story |   television |   video-game |
 |:----------|----:|---------:|---------:|-------:|-------:|-----------:|----------:|--------:|--------:|-------:|-------:|--------------:|-------------:|-------------:|
-| Pre-1800  |   9 |          |          |      2 |        |          3 |           |         |         |      1 |      3 |               |              |              |
+| Pre-1800  |  22 |          |          |      3 |        |         10 |           |       1 |         |      1 |      6 |             1 |              |              |
 | 1800s     |  13 |        1 |          |        |        |            |           |       4 |       1 |      2 |        |             5 |              |              |
 | 1900–1929 |   9 |        1 |          |        |      2 |            |           |       4 |       1 |      1 |        |               |              |              |
 | 1930s     |   5 |          |        1 |        |      2 |            |           |         |         |        |        |             2 |              |              |

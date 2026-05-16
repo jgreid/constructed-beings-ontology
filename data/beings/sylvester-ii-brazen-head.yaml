@@ -1,0 +1,79 @@
+id: sylvester-ii-brazen-head
+name: "Pope Sylvester II's Brazen Head"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: conversational
+    knowability: present
+    knowing: secondary
+
+metadata:
+  source: "William of Malmesbury, Gesta regum Anglorum"
+  year: 1125
+  medium: folklore
+  creator: "William of Malmesbury (Gerbert of Aurillac / Pope Sylvester II in-narrative)"
+  substrate:
+    - mechanical
+    - magical
+  motivation:
+    - knowledge
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: servile
+  tags:
+    - canonical
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Pope Sylvester II (Gerbert of Aurillac, c. 946–1003) is
+  the earliest historical figure attached to the "brazen
+  head" tradition of medieval European legend. The
+  earliest extant attestation is in William of Malmesbury's
+  *Gesta regum Anglorum* (Book II, completed c. 1125),
+  which reports that Sylvester — already a renowned
+  scholar suspected of having learned the dark arts in
+  al-Andalus — cast a bronze head that answered yes-or-no
+  questions, and prophesied his own death "in Jerusalem"
+  (fulfilled when he died in Rome, having celebrated Mass
+  at Santa Croce in Gerusalemme).
+
+  Foundational entry for the corpus's "speaking
+  brazen head" lineage. The story is the model for the
+  later attributions to Albertus Magnus (see
+  `albertus-magnus-android`), to Roger Bacon (see
+  `brazen-head`, after Robert Greene's 1589 play), and
+  for the lineage's many medieval and Renaissance
+  echoes. The Sylvester tradition is the earliest
+  full-shape version: a learned cleric, a head that
+  answers in oracle-like binary, and the suspicion of
+  Arab-and-Saracen magic as the head's actual source of
+  knowledge.
+
+  Linked to `brazen-head` (the Bacon-tradition entry)
+  with `sequel_link: brazen-head` but no `link_type`
+  because the relationship is one of common-source
+  rather than direct adaptation. The corpus convention
+  is to set the field to null in such cases.
+
+  Substrate `mechanical + magical`. Interiority is
+  `claims`: the head speaks in oracle fashion, but no
+  interior is staged. Autonomy `designed`. Divergence
+  `none`. Primary question is `knowledge` — the head's
+  function is consultation, and the consultation itself
+  is the source of Sylvester's reputation.
+
+  Knowability `present`. Knowing `secondary`. Creator_
+  relationship `servile`. Major prominence: this is the
+  earliest extant attestation of the medieval brazen
+  head tradition, with two centuries of subsequent
+  European reception before Bacon's name attached to
+  the type.
