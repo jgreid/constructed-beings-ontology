@@ -19,6 +19,7 @@ metadata:
   creator: "Becky Chambers"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - companionship

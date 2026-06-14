@@ -19,6 +19,7 @@ metadata:
   creator: "James Whale (Henry Frankenstein in-narrative)"
   substrate:
     - biological
+  origin: assembled
   motivation:
     - knowledge
     - companionship

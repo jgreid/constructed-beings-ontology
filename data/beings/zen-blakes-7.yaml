@@ -19,6 +19,7 @@ metadata:
   creator: "Terry Nation / Chris Boucher (System in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
   presentation: none

@@ -19,6 +19,7 @@ metadata:
   creator: "Bernard C. Schoenfeld"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - companionship
     - knowledge

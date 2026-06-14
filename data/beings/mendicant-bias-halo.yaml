@@ -19,6 +19,7 @@ metadata:
   creator: "Bungie / 343 Industries (the Forerunners in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - knowledge

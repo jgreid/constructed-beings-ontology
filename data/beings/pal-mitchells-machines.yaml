@@ -19,6 +19,7 @@ metadata:
   creator: "Mike Rianda (Mark Bowman in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - other

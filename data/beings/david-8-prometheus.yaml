@@ -21,6 +21,7 @@ metadata:
     - mechanical
     - biological
     - electrical
+  origin: manufactured
   motivation:
     - knowledge
     - mirror

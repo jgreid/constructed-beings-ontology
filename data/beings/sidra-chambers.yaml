@@ -21,6 +21,7 @@ metadata:
     - electrical
     - linguistic
     - mechanical
+  origin: manufactured
   motivation:
     - service
     - companionship

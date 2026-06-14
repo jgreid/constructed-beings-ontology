@@ -20,6 +20,7 @@ metadata:
   substrate:
     - mechanical
     - electrical
+  origin: assembled
   motivation:
     - service
   presentation: masculine

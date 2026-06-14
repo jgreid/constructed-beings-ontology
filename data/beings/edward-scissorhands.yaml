@@ -21,6 +21,7 @@ metadata:
     - mechanical
     - biological
     - magical
+  origin: manufactured
   motivation:
     - companionship
     - child

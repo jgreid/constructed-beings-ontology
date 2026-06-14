@@ -19,6 +19,7 @@ metadata:
   creator: "D.F. Jones (Dr. Charles Forbin in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - power

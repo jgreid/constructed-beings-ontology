@@ -20,6 +20,7 @@ metadata:
   substrate:
     - biological
     - cloned
+  origin: manufactured
   motivation:
     - other
     - power

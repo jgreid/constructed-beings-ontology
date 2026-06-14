@@ -19,6 +19,7 @@ metadata:
   creator: "Stephen Hillenburg (Sheldon Plankton in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - companionship
     - service

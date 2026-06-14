@@ -19,6 +19,7 @@ metadata:
   creator: "Rick Berman / Michael Piller / Jeri Taylor (Dr. Lewis Zimmerman in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - knowledge

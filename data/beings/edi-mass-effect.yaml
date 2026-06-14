@@ -19,6 +19,7 @@ metadata:
   creator: "BioWare / Casey Hudson (Cerberus in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - knowledge

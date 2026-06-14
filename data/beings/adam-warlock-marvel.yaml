@@ -19,6 +19,7 @@ metadata:
   creator: "Stan Lee / Jack Kirby (the Beehive Enclave in-narrative)"
   substrate:
     - biological
+  origin: manufactured
   motivation:
     - service
     - knowledge

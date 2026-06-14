@@ -19,6 +19,7 @@ metadata:
   creator: "Snorri Sturluson (the giants in-narrative)"
   substrate:
     - magical
+  origin: manufactured
   motivation:
     - service
   presentation: masculine

@@ -152,6 +152,7 @@ COVERAGE_PROPERTIES = [
     ("Knowing",          "card.the_lens.knowing"),
     ("Medium",           "metadata.medium"),
     ("Substrate",        "metadata.substrate"),
+    ("Origin",           "metadata.origin"),
     ("Motivation",       "metadata.motivation"),
 ]
 

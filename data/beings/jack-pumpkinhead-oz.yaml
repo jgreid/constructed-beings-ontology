@@ -19,6 +19,7 @@ metadata:
   creator: "L. Frank Baum (Tip in-narrative)"
   substrate:
     - magical
+  origin: manufactured
   motivation:
     - companionship
     - service

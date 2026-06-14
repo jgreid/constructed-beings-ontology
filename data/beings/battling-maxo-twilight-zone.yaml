@@ -19,6 +19,7 @@ metadata:
   creator: "Richard Matheson"
   substrate:
     - mechanical
+  origin: manufactured
   motivation:
     - service
   presentation: masculine

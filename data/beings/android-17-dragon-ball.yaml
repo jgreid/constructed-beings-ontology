@@ -21,6 +21,7 @@ metadata:
     - biological
     - mechanical
     - cloned
+  origin: manufactured
   motivation:
     - service
     - other

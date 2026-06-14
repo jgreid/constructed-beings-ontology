@@ -19,6 +19,7 @@ metadata:
   creator: "Douglas Adams (Sirius Cybernetics Corporation in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
   presentation: masculine

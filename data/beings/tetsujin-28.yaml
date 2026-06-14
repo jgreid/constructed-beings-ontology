@@ -19,6 +19,7 @@ metadata:
   creator: "Mitsuteru Yokoyama (Dr. Shikishima in-narrative)"
   substrate:
     - mechanical
+  origin: manufactured
   motivation:
     - service
     - power

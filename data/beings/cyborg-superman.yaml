@@ -21,6 +21,7 @@ metadata:
     - biological
     - mechanical
     - electrical
+  origin: transferred
   motivation:
     - power
     - other

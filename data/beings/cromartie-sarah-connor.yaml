@@ -21,6 +21,7 @@ metadata:
     - mechanical
     - electrical
     - biological
+  origin: manufactured
   motivation:
     - service
   presentation: masculine

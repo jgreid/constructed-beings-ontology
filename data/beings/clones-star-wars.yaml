@@ -20,6 +20,7 @@ metadata:
   substrate:
     - cloned
     - biological
+  origin: manufactured
   motivation:
     - service
   presentation: masculine

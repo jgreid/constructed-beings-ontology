@@ -14,7 +14,7 @@ name
 card
   the_being          (3 properties)
   the_lens           (4 properties)
-metadata             (11 fields)
+metadata             (12 fields)
 sequel_link          (or null)
 notes                (free text)
 ```
@@ -146,6 +146,7 @@ Every entry gets these fields. They provide source context but are not analytica
 | `metadata.medium` | enum | See below. |
 | `metadata.creator` | string | Creator(s) of the source text (author, studio, writer). |
 | `metadata.substrate` | list of enum | What the being is made of. All that apply. |
+| `metadata.origin` | enum | The pathway by which the being came into existence (v3.0). |
 | `metadata.motivation` | list of enum | Why the in-fiction creator built the being. All that apply. |
 | `metadata.presentation` | enum | How the being presents in terms of gender. |
 | `metadata.embodiment` | enum | The being's primary mode of physical existence. |
@@ -185,6 +186,21 @@ Every entry gets these fields. They provide source context but are not analytica
 | `linguistic` | Word-based animation (the Golem's written name; language-model embodiments). |
 
 Hybrids are expressed as multiple entries in the list (e.g., `[mechanical, electrical]`), not a separate `hybrid` value.
+
+### `metadata.origin`
+
+The pathway by which the being came into existence. Distinct from `substrate` (what the being is made of) and from `autonomy` (where the being's agency comes from). Added in v3.0 to make the corpus's previously-implicit handling of born-then-modified beings explicit. Single value; not a list.
+
+| Value | Meaning |
+|---|---|
+| `manufactured` | Assembled or grown from raw or processed material; no specific prior person is at narrative issue. **Default.** Examples: Talos, HAL 9000, Pinocchio, Vision, the Replicants. |
+| `assembled` | Built from parts of one or more dead persons; treated by the source text as a new being. Examples: Frankenstein's Creature, the Universal Monster, the Bride, Herman Munster. |
+| `cloned` | Biological copy of a specific template person, gestated or printed as that copy. Examples: the Cleon dynasty, Jenny (the Doctor's Daughter), Call (Alien: Resurrection), Mickey 17. |
+| `copied` | A specific person's mind, memories, or personality is copied to a new substrate; the copy is the narrative entity, distinct from the original. Examples: Cookie (Black Mirror), Bernard Lowe (Arnold-derived), Marjorie Prime, White Vision. |
+| `converted` | A living born person undergoes biotechnical modification; the source text treats the result as a new kind of being rather than as a continuation of the prior person. Examples: the Cybermen, the Borg, RoboCop, MODOK, Davros, Franky. |
+| `transferred` | A person's mind is moved to a new substrate; the original body ceases; the new being is presented as new. Examples: 8 Man, Cyborg Superman. |
+
+> **The inclusion rule.** A born person whose modification is staged by the source text as *continuation of self* (Steve Rogers being injected with the super-soldier serum, Molly Millions's chrome, Severance innies) is excluded; the modification, however extensive, does not convert. A born person whose modification is staged as the *emergence of a new being* (the Cybermen, the Borg, RoboCop) is included under one of the four non-default `origin` values. See `docs/boundary_cases.md` for the test and `data/exclusions.yaml` for the register of cases still excluded.
 
 ### `metadata.motivation` (list, min 1 item)
 

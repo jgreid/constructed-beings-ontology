@@ -19,6 +19,7 @@ metadata:
   creator: "Miguel de Cervantes (the Duke and Duchess's servants in-narrative)"
   substrate:
     - mechanical
+  origin: manufactured
   motivation:
     - other
   presentation: masculine

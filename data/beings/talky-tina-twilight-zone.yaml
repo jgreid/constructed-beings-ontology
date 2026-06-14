@@ -19,6 +19,7 @@ metadata:
   creator: "Charles Beaumont / Jerry Sohl"
   substrate:
     - mechanical
+  origin: manufactured
   motivation:
     - other
   presentation: feminine

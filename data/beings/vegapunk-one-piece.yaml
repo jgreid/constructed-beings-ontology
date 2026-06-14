@@ -21,6 +21,7 @@ metadata:
     - biological
     - cloned
     - electrical
+  origin: manufactured
   motivation:
     - knowledge
     - service

@@ -19,6 +19,7 @@ metadata:
   creator: "Jonathan Nolan / Lisa Joy (Engerraund Serac in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - knowledge

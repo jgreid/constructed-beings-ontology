@@ -19,6 +19,7 @@ metadata:
   creator: "Robert A. Heinlein (Luna Authority in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - companionship
     - service

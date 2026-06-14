@@ -19,6 +19,7 @@ metadata:
   creator: "Ovid (Pygmalion in-narrative)"
   substrate:
     - magical
+  origin: manufactured
   motivation:
     - art
     - companionship

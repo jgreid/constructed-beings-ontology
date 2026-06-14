@@ -19,6 +19,7 @@ metadata:
   creator: "Chris Boucher"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - knowledge
     - other

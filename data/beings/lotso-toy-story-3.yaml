@@ -19,6 +19,7 @@ metadata:
   creator: "Lee Unkrich / Pixar"
   substrate:
     - magical
+  origin: manufactured
   motivation:
     - power
     - other

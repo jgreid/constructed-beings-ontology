@@ -19,6 +19,7 @@ metadata:
   creator: "Nathaniel Hawthorne (Owen Warland in-narrative)"
   substrate:
     - mechanical
+  origin: manufactured
   motivation:
     - art
   presentation: none

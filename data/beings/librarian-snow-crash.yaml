@@ -19,6 +19,7 @@ metadata:
   creator: "Neal Stephenson (Central Intelligence Corporation in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - knowledge

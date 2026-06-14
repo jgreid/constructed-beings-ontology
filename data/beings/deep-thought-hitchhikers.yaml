@@ -19,6 +19,7 @@ metadata:
   creator: "Douglas Adams (Magrathean pan-dimensional beings in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - knowledge
   presentation: none

@@ -5,11 +5,27 @@
 # reason from the controlled vocabulary below.
 #
 # For the full rationale behind these categories, see docs/boundary_cases.md.
+#
+# v3.0 NOTE: the `born-then-modified` reason has been refined. Under the
+# v3.0 origin axis, a born person who is biotechnically modified, copied,
+# or transferred is admissible *if the source text treats the result as
+# a new being rather than as a continuation of the prior person*. The
+# entries below that retain `born-then-modified` as their reason are
+# cases where the source text treats the result as continuation; those
+# remain excluded. A set of v2.x exclusions previously listed here under
+# this reason (Cybermen, the Borg, RoboCop, Steve Austin) were readmitted
+# in the v3.0 sprint and are now in the main corpus under
+# `origin: converted` or `transferred`. The register notes those
+# readmissions in a `v3.0 readmissions` block at the bottom.
 
 exclusion_reasons:
   born-then-modified: >
-    Origin is biological birth; subsequent modification, however
-    extensive, does not convert the origin.
+    The source text frames the modified being as a continuation of
+    the prior person — same identity, augmented body. Excluded
+    because the personhood in question predates and outlives the
+    construction. Sharper than the v2.x rule: the question is
+    whether the text stages continuation, not whether the
+    modification is extensive.
   divine-creation-of-persons: >
     Creator is divine; the result is immediately and fully human,
     not an artifact.
@@ -47,33 +63,18 @@ entries:
       Same reasoning as Eve. Divine creation of a full person,
       not artisanal construction of an artifact.
 
-  - name: "RoboCop (Alex Murphy)"
-    source: "RoboCop (1987)"
-    year: 1987
-    reason: born-then-modified
-    note: >
-      Murphy's origin is biological birth. The 1987 film frames
-      Murphy-as-Murphy as the surviving consciousness, which argues
-      for exclusion. The modification, however extensive, does not
-      convert the origin.
-
   - name: "RoboCop (2014)"
     source: "RoboCop (2014)"
     year: 2014
     reason: born-then-modified
     note: >
-      More ambiguous than the 1987 version. The 2014 film is
-      genuinely uncertain about whether identity replacement
-      occurred. Excluded conservatively; reasonable coders could
-      argue for inclusion.
-
-  - name: "Steve Austin"
-    source: "The Six Million Dollar Man"
-    year: 1974
-    reason: born-then-modified
-    note: >
-      Cybernetic augmentation of a born human. The augmentation
-      is extensive but the biological identity is continuous.
+      The 2014 film is genuinely uncertain about whether identity
+      replacement occurred, and on balance is closer to a born-
+      then-modified continuation than the 1987 version. The 1987
+      RoboCop was readmitted in v3.0 as `origin: converted`; the
+      2014 version remains excluded pending closer reading. A
+      coder who wants to argue for inclusion should open an issue
+      with the case for new-being framing in Padilha's cut.
 
   - name: "Molly Millions"
     source: "Neuromancer"
@@ -189,37 +190,6 @@ entries:
       Despite her virtual-world context, she is a biological
       person with augmented capabilities, not a constructed
       being.
-
-  - name: "Cybermen"
-    source: "Doctor Who"
-    year: 1966
-    reason: born-then-modified
-    note: >
-      Cybermen across all Doctor Who eras (Mondasian,
-      Cyberiad, and modern Cybus variants) are produced by
-      surgically converting captured biological humans (or
-      near-humans) into cybernetic soldiers. The origin is
-      biological birth; the conversion, however extensive,
-      does not convert the origin. Excluded for the same
-      reason as RoboCop and the Borg. Some individual
-      Cybermen (Ashad, the Cyber-Controller lineage) might
-      warrant separate treatment in a future schema revision
-      that handles conversion-as-construction cases, but the
-      species as such is born-then-modified.
-
-  - name: "The Borg"
-    source: "Star Trek: The Next Generation"
-    year: 1989
-    reason: born-then-modified
-    note: >
-      The Borg Collective assimilates biological species into
-      its hive via cybernetic implantation. Same reasoning as
-      Cybermen: the origin is biological, the modification
-      (however total) does not convert the origin. The Borg
-      Queen herself is a contested case but derives from an
-      assimilated biological being. Species 8472, Hugh, and
-      Seven of Nine are all post-conversion biological
-      people.
 
   - name: "Innies (Severance)"
     source: "Severance"
@@ -436,21 +406,73 @@ entries:
       that inclusion and documents the within-source reference
       via the talos notes.
 
-  - name: "Doraemon"
-    source: "Doraemon (Fujiko F. Fujio, 1969)"
-    year: 1969
-    reason: out-of-scope
+  # Doraemon was excluded in v2.4.5 on out-of-scope grounds and
+  # readmitted in v3.0. See the `v3.0 readmissions` block below.
+
+# ── v3.0 readmissions ────────────────────────────────────────────────
+#
+# The v3.0 sprint introduced the `metadata.origin` axis and refined the
+# inclusion rule for born-then-modified beings. As a consequence,
+# several v2.x exclusions were readmitted to the main corpus. They are
+# listed here for the audit trail; the substantive entries live in
+# `data/beings/`. See `docs/boundary_cases.md` and the v3.0 CHANGELOG
+# entry for the full rationale.
+
+v3_0_readmissions:
+  - name: "RoboCop (Alex Murphy)"
+    source: "RoboCop (1987)"
+    entry_id: robocop-1987
+    new_origin: converted
     note: >
-      Included briefly in the v2.4.4 expansion with a scope-
-      boundary flag; v2.4.5 retracts the inclusion. Doraemon
-      is foundational in East Asian popular culture but the
-      Western consumption test the v2.4.2 anime expansion set
-      ("widely available in Western markets") is genuinely
-      not met for Doraemon in the way it is for, e.g., Astro
-      Boy or Ghost in the Shell. Pre-2020s English-language
-      distribution was intermittent; the character does not
-      occupy the same cultural footprint in the West as in
-      Japan, Korea, China, Vietnam, or Indonesia. A future
-      scope revision that formalizes East Asian canon as
-      first-class corpus territory may revisit this
-      classification.
+      Verhoeven's 1987 film stages Murphy's reconstruction as the
+      emergence of a new being (RoboCop) from which Murphy's prior
+      identity is reasserted through narrative work. The original
+      v2.x exclusion read the film as continuation; the v3.0
+      reading takes the spec/Murphy struggle as evidence that the
+      film treats RoboCop as a new entity.
+
+  - name: "Steve Austin"
+    source: "The Six Million Dollar Man"
+    entry_id: steve-austin-six-million
+    new_origin: converted
+    note: >
+      Borderline. Admitted because the series and the *Bionic
+      Woman* spinoff both make the rebuilding the defining
+      ontological event of the franchise, and the Jaime Sommers
+      death-and-revival arc is unambiguously a new-being case.
+
+  - name: "Cybermen"
+    source: "Doctor Who"
+    entry_id: cybermen-doctor-who
+    new_origin: converted
+    note: >
+      The conversion process is the show's recurring horror, and
+      the resulting Cyberman is consistently treated as a new
+      species rather than as the converted human's continuing
+      self. Bill Potts's "World Enough and Time" emergence is
+      staged as restoration, not as continuity preserved.
+
+  - name: "The Borg"
+    source: "Star Trek: The Next Generation"
+    entry_id: borg-collective
+    new_origin: converted
+    note: >
+      Plus split entries `locutus-borg`, `seven-of-nine`,
+      `hugh-borg-tng`, `borg-queen`. Assimilation is staged as
+      the Collective replacing prior identity; the recovery
+      stories explicitly treat the prior person as something
+      to be *recovered*, which presupposes the new-being framing.
+
+  - name: "Doraemon"
+    source: "Doraemon"
+    entry_id: doraemon
+    new_origin: manufactured
+    note: >
+      Not an origin-axis readmission. The v2.4.5 exclusion was on
+      out-of-scope grounds (Western-availability test). v3.0
+      revisits the test in light of growing English-language
+      distribution and admits the character on
+      foundational-prominence grounds. A future scope sprint
+      should formalize the East Asian canon as first-class
+      corpus territory rather than continuing to evaluate
+      individual cases.

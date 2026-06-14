@@ -19,6 +19,7 @@ metadata:
   creator: "Boris Sobelman / Gene Roddenberry"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - other

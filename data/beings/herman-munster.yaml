@@ -19,6 +19,7 @@ metadata:
   creator: "Allan Burns / Chris Hayward / Norm Liebmann / Ed Haas"
   substrate:
     - biological
+  origin: assembled
   motivation:
     - service
     - companionship

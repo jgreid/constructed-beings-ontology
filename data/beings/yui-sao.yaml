@@ -19,6 +19,7 @@ metadata:
   creator: "Reki Kawahara (Argus / Akihiko Kayaba in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - companionship

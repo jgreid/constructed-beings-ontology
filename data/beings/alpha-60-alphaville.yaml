@@ -19,6 +19,7 @@ metadata:
   creator: "Jean-Luc Godard"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - other

@@ -19,6 +19,7 @@ metadata:
   creator: "Alex Proyas (USR in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - knowledge

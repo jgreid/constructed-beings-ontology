@@ -19,6 +19,7 @@ metadata:
   creator: "Terry Nation"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
   presentation: masculine

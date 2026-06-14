@@ -19,6 +19,7 @@ metadata:
   creator: "E.T.A. Hoffmann (Spalanzani and Coppola in-narrative)"
   substrate:
     - mechanical
+  origin: manufactured
   motivation:
     - knowledge
     - art

@@ -19,6 +19,7 @@ metadata:
   creator: "William Gibson (Tessier-Ashpool in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - knowledge
     - power

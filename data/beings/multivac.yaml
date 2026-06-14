@@ -19,6 +19,7 @@ metadata:
   creator: "Isaac Asimov"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - knowledge

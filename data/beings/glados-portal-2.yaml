@@ -19,6 +19,7 @@ metadata:
   creator: "Valve / Erik Wolpaw, Chet Faliszek, Jay Pinkerton"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - knowledge

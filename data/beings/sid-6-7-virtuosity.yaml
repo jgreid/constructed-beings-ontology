@@ -21,6 +21,7 @@ metadata:
     - electrical
     - biological
     - linguistic
+  origin: manufactured
   motivation:
     - power
     - mirror

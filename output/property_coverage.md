@@ -118,6 +118,19 @@ This report counts the distribution of values for each property. List-valued pro
 | magical     |      73 |
 | cloned      |      23 |
 
+## Origin
+
+- **Coded:** 520/520 entries
+
+| Origin       |   Count |
+|:-------------|--------:|
+| manufactured |     476 |
+| converted    |      18 |
+| copied       |      10 |
+| assembled    |       8 |
+| cloned       |       6 |
+| transferred  |       2 |
+
 ## Motivation
 
 - **Coded:** 520/520 entries

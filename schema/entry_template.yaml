@@ -34,6 +34,12 @@ metadata:
   substrate:
     # mechanical | biological | electrical | magical | cloned | linguistic
     - electrical
+  # origin: manufactured | assembled | cloned | copied | converted | transferred
+  # See SCHEMA.md and docs/boundary_cases.md for the criterion.
+  # `manufactured` is the default for beings constructed without a specific
+  # prior person at narrative issue. The other five values mark cases where
+  # a specific person is at the origin.
+  origin: manufactured
   motivation:
     # service | knowledge | power | companionship | art | mirror | child | other
     - service

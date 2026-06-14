@@ -19,6 +19,7 @@ metadata:
   creator: "Daniel H. Wilson (Professor Nicholas Wasserman in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - knowledge
     - power

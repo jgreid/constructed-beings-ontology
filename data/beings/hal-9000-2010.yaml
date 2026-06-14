@@ -19,6 +19,7 @@ metadata:
   creator: "Arthur C. Clarke (Dr. Chandra in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - knowledge

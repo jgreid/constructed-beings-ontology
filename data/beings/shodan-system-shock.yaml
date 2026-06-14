@@ -19,6 +19,7 @@ metadata:
   creator: "Looking Glass Studios (TriOptimum in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - knowledge

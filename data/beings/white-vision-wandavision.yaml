@@ -22,6 +22,7 @@ metadata:
     - biological
     - electrical
     - magical
+  origin: copied
   motivation:
     - other
     - knowledge

@@ -21,6 +21,7 @@ metadata:
     - biological
     - mechanical
     - electrical
+  origin: converted
   motivation:
     - knowledge
     - companionship

@@ -19,6 +19,7 @@ metadata:
   creator: "The Wachowskis (The Machines in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - power

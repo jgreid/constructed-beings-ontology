@@ -19,6 +19,7 @@ metadata:
   creator: "John Lasseter / Pixar"
   substrate:
     - magical
+  origin: manufactured
   motivation:
     - other
     - companionship

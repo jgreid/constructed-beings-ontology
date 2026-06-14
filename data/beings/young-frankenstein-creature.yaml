@@ -19,6 +19,7 @@ metadata:
   creator: "Mel Brooks (Dr. Frederick Frankenstein in-narrative)"
   substrate:
     - biological
+  origin: assembled
   motivation:
     - knowledge
     - companionship

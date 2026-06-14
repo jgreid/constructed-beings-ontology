@@ -19,6 +19,7 @@ metadata:
   creator: "Josh Friedman (Catherine Weaver in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - knowledge
     - companionship

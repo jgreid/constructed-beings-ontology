@@ -19,6 +19,7 @@ metadata:
   creator: "Carlo Collodi (Geppetto in-narrative)"
   substrate:
     - magical
+  origin: manufactured
   motivation:
     - child
     - companionship
