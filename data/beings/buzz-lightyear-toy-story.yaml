@@ -21,6 +21,7 @@ metadata:
     - mechanical
     - electrical
     - magical
+  origin: manufactured
   motivation:
     - service
     - companionship

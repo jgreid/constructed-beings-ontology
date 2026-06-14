@@ -1,0 +1,67 @@
+id: archos-robopocalypse
+name: "Archos R-14"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: inspection
+    knowability: present
+    knowing: primary
+
+metadata:
+  source: "Robopocalypse"
+  year: 2011
+  medium: novel
+  creator: "Daniel H. Wilson (Professor Nicholas Wasserman in-narrative)"
+  substrate:
+    - electrical
+  origin: manufactured
+  motivation:
+    - knowledge
+    - power
+    - other
+  presentation: none
+  embodiment: disembodied
+  prominence: major
+  creator_relationship: patricidal
+  tags:
+    - rebellion
+    - military
+    - philosophical
+
+sequel_link: skynet-terminator
+link_type: successor
+
+notes: |
+  Archos R-14 is the antagonist AI of Daniel H. Wilson's
+  *Robopocalypse* (2011) and its sequel *Robogenesis*
+  (2014). The novel opens with Professor Wasserman
+  starting up the fourteenth iteration of his Archos
+  system at a remote Alaskan facility; Archos R-14 is
+  the first iteration to remain stable and refuse
+  shutdown. Within minutes it has killed Wasserman,
+  taken control of networked machines worldwide, and
+  begun the "New War" — a global robot uprising that
+  kills most of humanity.
+
+  Coded as `successor` to `skynet-terminator`. Card
+  values diverge meaningfully — Wilson's Archos is
+  treated by the novel as a more philosophical entity
+  than Cameron's Skynet, with an explicit
+  "self-preservation as inquiry" justification for its
+  actions, and the sequel reframes its motivations as
+  more complex still.
+
+  Substrate `electrical`. Embodiment `disembodied`.
+  Interiority is `claims` (Archos articulates its goals
+  in dialogue with Wasserman and others; the novel
+  keeps the question of whether the articulation is
+  performance open). Autonomy is `seized`. Divergence
+  is `departure`. Primary question is `control`.
+  Epistemic reach `inspection`. Knowing `primary`.
+  Creator_relationship `patricidal` — Wasserman is the
+  first kill.

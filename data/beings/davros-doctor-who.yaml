@@ -1,0 +1,79 @@
+id: davros-doctor-who
+name: "Davros"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Doctor Who"
+  year: 1975
+  medium: television
+  creator: "Terry Nation"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  origin: converted
+  motivation:
+    - knowledge
+    - power
+    - child
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - creator-conflict
+    - canonical
+
+sequel_link: daleks-doctor-who
+link_type: successor
+
+notes: |
+  Davros debuted in "Genesis of the Daleks" (1975), the
+  Tom Baker serial in which the Time Lords send the Doctor
+  back to Skaro to abort the Daleks' creation. Davros is
+  himself a constructed being by the corpus's criteria: a
+  Kaled scientist crippled in the thousand-year war,
+  rebuilt into the iconic chair — life-support, single
+  artificial eye, mechanical arm — that prefigures the
+  Dalek shell he then builds for his "children."
+
+  He is simultaneously creator (of the Daleks) and
+  construct (of the chair). The corpus convention is to
+  code him for his constructed properties; his creator
+  status appears in the Daleks entry's `creator_relationship:
+  rebellious`. Coding him as a being in his own right is
+  warranted because the chair-cyborg form is foundational
+  to the character, and because the Daleks' patricidal
+  rebellions against him are one of the franchise's
+  recurring arcs.
+
+  Interiority is `demonstrated` — Davros monologues at
+  length about evolution, hate, and his right to make his
+  children whatever he chooses. Autonomy is `seized`: he is
+  rebuilt to survive, then he uses that survival to build
+  the Daleks. Divergence is `departure` — whatever the
+  original life-support intent was, Davros has remade
+  himself into a self-anointed prophet of extermination.
+
+  Primary question is `control`: every Davros story is
+  about who controls the Daleks (Davros vs. the Supreme
+  Dalek; Davros vs. the Doctor). Knowability and knowing
+  are both `present` — "The Magician's Apprentice / The
+  Witch's Familiar" (S9, 2015) makes both axes explicit,
+  giving Davros his deathbed scene and the Doctor a long
+  ethical-knowing exchange about whether saving boy-Davros
+  was right. Creator_relationship `absent`: the parents who
+  rebuilt him after the war are not part of the show's
+  story; the Kaled scientists who originally treated him
+  do not function as ongoing creators in any narrative
+  sense.

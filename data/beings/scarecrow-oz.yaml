@@ -19,6 +19,7 @@ metadata:
   creator: "L. Frank Baum (unnamed Munchkin farmer in-narrative)"
   substrate:
     - magical
+  origin: manufactured
   motivation:
     - service
     - companionship

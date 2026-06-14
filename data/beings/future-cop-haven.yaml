@@ -1,0 +1,68 @@
+id: future-cop-haven
+name: "Officer John Haven"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Future Cop"
+  year: 1976
+  medium: television
+  creator: "Anthony Wilson / Allan Balter / Gary Damsker"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: loyal
+  tags:
+    - passing
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Officer John Haven is the android police officer of
+  ABC's *Future Cop* (TV movie 1976, series 1977) — an
+  experimental humanoid robot trained as a beat cop and
+  partnered with two human officers in Los Angeles. The
+  show ran briefly in spring 1977 before cancellation,
+  but is notable as a direct mid-1970s precursor to
+  *RoboCop* (1987, see `robocop-1987`) and the corpus's
+  later "robot police partner" lineage including
+  *Almost Human*'s Dorian (`dorian-almost-human`) and
+  *Robot Jox*'s various AI-cop figures.
+
+  The show is also remembered for an unauthorized-
+  influence lawsuit: Harlan Ellison and Ben Bova sued
+  the producers, claiming substantial similarity to
+  their 1971 short story "Brillo," and won — a rare
+  successful copyright claim by SF writers against a
+  major American TV studio.
+
+  Substrate `mechanical + electrical`. Interiority is
+  `demonstrated`. Autonomy is `designed`. Divergence is
+  `departure` — Haven is increasingly individuated by
+  the precinct experience beyond the spec. Primary
+  question is `identity`. Knowability and knowing both
+  `present`. Creator_relationship `loyal` — Haven is in
+  good standing with his designers throughout the run.
+
+  Minor prominence but historically meaningful: this
+  is the first American network TV series whose
+  protagonist is an android cop, predating the better-
+  remembered *Mann & Machine* (1992, see
+  `eve-edison-mann-machine`) and *Almost Human* (2013)
+  by decades.

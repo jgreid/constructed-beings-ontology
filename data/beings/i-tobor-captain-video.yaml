@@ -1,0 +1,65 @@
+id: i-tobor-captain-video
+name: "I-Tobor"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Captain Video and His Video Rangers"
+  year: 1953
+  medium: television
+  creator: "James L. Caddigan"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: servile
+  tags: []
+
+sequel_link: tobor-tobor-the-great
+link_type: successor
+
+notes: |
+  I-Tobor (sometimes "I, Tobor") is the helper robot
+  recurring across the DuMont Network's *Captain Video
+  and His Video Rangers* (1949–1955), one of the
+  earliest American children's science-fiction TV
+  serials. The robot's name is "Robot" spelled backwards
+  — a naming convention that survived into the slightly
+  later *Tobor the Great* film (1954, see
+  `tobor-tobor-the-great`).
+
+  *Captain Video* is significant for the corpus as the
+  earliest sustained American television presence of a
+  recurring constructed-being character. The show's
+  scripts are largely lost (it was broadcast live and
+  not preserved on kinescope through most of its run),
+  but contemporaneous reviews and surviving stills
+  establish that I-Tobor was a humanoid robot assistant
+  with limited speech, used for plot exposition and
+  occasional rescue.
+
+  Substrate `mechanical + electrical`. Interiority
+  `claims`. Autonomy `designed`. Divergence `none`.
+  Primary question `control` — the show's plots
+  reliably included villains attempting to subvert the
+  robot's loyalty. Knowability and knowing both
+  `absent`. Creator_relationship `servile`.
+
+  Minor prominence but historically foundational as the
+  first American serial-television robot character, and
+  one of the cleanest test cases for the corpus's
+  "constructed beings on television" lineage.

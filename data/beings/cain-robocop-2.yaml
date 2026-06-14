@@ -1,0 +1,66 @@
+id: cain-robocop-2
+name: "RoboCop 2 / Cain"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: absent
+
+metadata:
+  source: "RoboCop 2"
+  year: 1990
+  medium: film
+  creator: "Irvin Kershner / Frank Miller (Dr. Juliette Faxx in-narrative)"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  origin: converted
+  motivation:
+    - power
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - horror
+    - rebellion
+
+sequel_link: robocop-1987
+link_type: sequel
+
+notes: |
+  RoboCop 2 (also called Cain) is the second-generation
+  OCP cyborg from Irvin Kershner's *RoboCop 2* (1990).
+  Built by Dr. Juliette Faxx from the brain of Cain, a
+  drug kingpin and "Nuke" cult leader, the unit retains
+  Cain's addictions and personality, which OCP attempts
+  to override with a flood of contradictory "prime
+  directives." The film stages Cain's deteriorating
+  control of the chassis as the second-act centerpiece.
+
+  Substrate `biological + mechanical + electrical`.
+  Interiority is `demonstrated`. Autonomy is `seized`:
+  Cain pilots the chassis to his own ends, including a
+  rampage through the OCP offices. Divergence is
+  `departure` — Faxx built a stable replacement RoboCop,
+  what she got was Cain's worst impulses with armor.
+
+  Primary question is `control` — the film's question is
+  whether you can ever discipline the donor mind in a
+  cyborg framework, and the answer is no. Knowability
+  `present`. Knowing `absent`. Creator_relationship
+  `rebellious` — Cain has no allegiance to Faxx or OCP,
+  only to the drug cult he ran in life.
+
+  Sequel link to `robocop-1987`. The film is a
+  philosophical inversion of the first: Murphy resists
+  and reasserts; Cain takes the body and goes on his own
+  agenda. Same cyborg architecture, different donor mind.

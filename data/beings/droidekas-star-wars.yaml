@@ -1,0 +1,53 @@
+id: droidekas-star-wars
+name: "Droidekas (Destroyer Droids)"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: none
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Star Wars: The Phantom Menace"
+  year: 1999
+  medium: film
+  creator: "George Lucas (Colicoid Creation Nest in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+  presentation: none
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Rolling combat droids in wheel-form, introduced in *The
+  Phantom Menace* (1999). They roll into engagement, unfold
+  into a tripod with twin blasters and personal deflector
+  shields, and clear rooms. Unlike the B1 battle droids,
+  they are not vocal; the design is purely a mobile
+  gun-platform.
+
+  Interiority is `none`. Autonomy is `designed`.
+  Divergence is `none`. Primary question is `none`. The
+  Droidekas are pure military hardware in the corpus's
+  classic "plot furniture" sense (cf. talos.yaml) — an
+  obstacle with a known solution (the saber-stalemate in
+  TPM's hangar). They are included to track the
+  spectrum within Star Wars droids: the franchise contains
+  both the franchise's `foundational`-prominence
+  individuated droids (R2-D2, C-3PO) and these
+  no-interiority infantry units.

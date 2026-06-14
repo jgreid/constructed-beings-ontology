@@ -4,11 +4,32 @@ This document discusses entities that sit on or near the boundary of the constru
 
 The CB definition used by this ontology requires three things:
 
-1. **Made, not born.** The entity's existence originates from a deliberate act of construction, programming, enchantment, or creation — not from biological reproduction.
+1. **Made, not born.** The entity's existence originates from a deliberate act of construction, programming, enchantment, or creation — not from biological reproduction. **As of v3.0, the rule is refined: a born person who is biotechnically modified, copied, transferred, or reconstructed becomes a constructed being for corpus purposes when the source text treats the resulting entity as a new being rather than as a continuation of the prior person.** The `metadata.origin` field codes the pathway explicitly.
 2. **Agent-like.** The entity exhibits or is attributed behavior that implies agency: goal pursuit, language use, decision-making, or social interaction.
 3. **Narrative presence.** The entity appears in a specific, citable text.
 
 Everything discussed below either meets all three criteria (and is included), fails at least one (and is excluded), or poses a genuine definitional problem that the schema cannot cleanly resolve.
+
+---
+
+## The v3.0 `origin` axis
+
+The v2.x corpus enforced the made-not-born rule by exclusion alone: anything that started as a born person was kept out, even when the source text staged the resulting being as a new entity. v3.0 replaces that implicit rule with the explicit `metadata.origin` field. Six pathways are coded:
+
+| Origin | Meaning | Examples |
+|---|---|---|
+| `manufactured` | Assembled or grown from raw or processed material; no specific prior person is at narrative issue. **Default**. | Talos, HAL 9000, Pinocchio, R.U.R., Vision, the Replicants, most of the corpus. |
+| `assembled` | Built from parts of one or more dead persons; the source text treats the result as a new being. | Frankenstein's Creature, the Universal Monster, the Bride, Herman Munster, Shrike (Mortal Engines). |
+| `cloned` | Biological copy of a specific template person, gestated or printed as that copy. | The Cleon dynasty, Jenny (the Doctor's Daughter), Call (Alien: Resurrection), Mickey 17. |
+| `copied` | A specific person's mind, memories, or personality is copied to a new substrate; the copy is the narrative entity, distinct from the original. | Cookie (Black Mirror), Ashley Too, Bernard Lowe (Arnold-derived), Marjorie Prime, White Vision. |
+| `converted` | A living born person undergoes biotechnical modification; the source text treats the result as a new kind of being rather than a continuation of the prior person. | The Cybermen, the Borg (and Locutus, Seven of Nine, Hugh, the Queen), RoboCop, Cain (RoboCop 2), Cyborg (Victor Stone), MODOK, Deathlok, Robotman (Cliff Steele), Davros, Franky, the Bionic Man and Bionic Woman, Airiam. |
+| `transferred` | A person's mind is moved to a new substrate; the original body ceases; the new being is presented as new. | 8 Man (Yokoda), Cyborg Superman (Hank Henshaw). |
+
+The exclusion rule that survived from v2.x and is now formalized:
+
+> **A born person who is modified or copied is excluded if the source text treats the resulting being as a continuation of the prior person.** The Six Million Dollar Man's Steve Austin would have been excluded under v2.x and would still be excluded under v3.0 *if* the 1974 series framed him as Steve-still-himself-with-augments — but the show's recurring "is he still Steve?" beats and the Bionic Woman pilot's death-and-revival reframe push it across the line. The v3.0 inclusion turns on the show's narrative framing, not on the surgery's extent.
+
+The boundary line moved one step. **It did not vanish.** The cases still excluded are listed in `data/exclusions.yaml` under the `continuation-of-prior-person` reason (which replaces the v2.x `born-then-modified` reason for upload/transfer/conversion cases where the source text frames the result as continuous; the older value is preserved for textual cases where born-then-modified does the work and continuity isn't the live question).
 
 ---
 
@@ -62,13 +83,34 @@ The bright line is **manufacturing vs. gestation**. Clones manufactured without 
 
 ---
 
-## Excluded: born-then-modified beings
+## Born-then-modified: refined in v3.0
 
-Humans who receive cybernetic augmentation, brain implants, genetic enhancement, or software upgrades are not constructed beings. The Six Million Dollar Man, Molly Millions, most cyberpunk street samurai, the RoboCop protagonist (Alex Murphy) — all excluded, because their origin is biological birth. The modification, however extensive, does not convert them.
+This section was rewritten in v3.0 to reflect the new `origin` axis. Earlier sprints treated all born-then-modified beings as excluded; v3.0 admits the subset whose source texts treat the result as a new being.
 
-**The edge case:** when the modification is so total that the original biological identity is narratively treated as *replaced*. RoboCop is the canonical debate case. The 1987 film frames Murphy-as-Murphy as the surviving consciousness, which argues for exclusion. The 2014 film is more ambiguous. The ontology does not include RoboCop in either direction — it's a case where reasonable coders disagree about whether the modification reached the "replaced" threshold.
+**Included under v3.0** (with `origin: converted`, `copied`, or `transferred`):
 
-If you want to argue for inclusion, open an issue and propose a coding, including notes on which specific frame narratively establishes that the original identity has been replaced rather than extended.
+- **The Cybermen** (Doctor Who, 1966) — `origin: converted`. The conversion process is the show's recurring horror, and the resulting being is treated as a Cyberman, not as the converted human's continuing self. Episodes where the original emerges (Bill Potts in "World Enough and Time," 2017) are staged as restoration, not as continuity having been preserved.
+- **The Borg** (Star Trek: TNG, 1989) — `origin: converted`. Assimilation is staged as the Collective replacing the prior identity; recovery stories (Picard, Hugh, Seven) explicitly treat the prior person as something to be *recovered*, not continued.
+- **RoboCop / Murphy** (1987) — `origin: converted`. The 1987 film does foreground "is he still Murphy" but uses the question to stage the *reassertion* of identity against OCP's spec — i.e., the film treats the cyborg as a new entity from which the Murphy-self emerges through narrative work, rather than as Murphy with armor. The reasonable-coder objection (Murphy as continuous) is documented in the entry's notes.
+- **Steve Austin** (Six Million Dollar Man, 1974) — `origin: converted`. Borderline; admitted because the series and the Bionic Woman spinoff both make the rebuilding the show's defining ontological event.
+- **Jaime Sommers** (Bionic Woman, 1976) — `origin: converted`. Sharper than Austin: she dies in her introductory two-parter and is revived with amnesia, which the show explicitly treats as a new self with Austin-era memories partially restored.
+- **8 Man** (1963) — `origin: transferred`. The detective Yokoda dies and his mind is moved into the robot body; the original ends, the new being is presented as new.
+- **Cyborg Superman / Hank Henshaw** (1990) — `origin: transferred`.
+- **Cookies, Ashley Too, Bernard Lowe, Marjorie Prime, White Vision** — `origin: copied`. The source texts in each case foreground the constructed nature of the copy and treat the copy as its own narrative entity, distinct from the original.
+
+**Still excluded** (cases where the source text frames the result as continuation of the prior person):
+
+- **Molly Millions** (Neuromancer, 1984) — Gibson's narrative treats the chrome as augmentation; Molly is still Molly. `continuation-of-prior-person`.
+- **Genos** (One Punch Man) — same. The character's grief structure depends on continuous identity through the conversion.
+- **The Cyberpunks of Edgerunners** — same. Their tragedy is what cyberpsychosis does to *them*, not what was replaced.
+- **Severance innies** — the show is explicit that the innies and outies are partitioned aspects of one continuous person; the rights claim depends on this.
+- **Pantheon UIs / Upload uploads** — both texts treat the upload as the continuation of the original person.
+- **Altered Carbon sleeves** — the sleeves are biological vessels for cortical-stack consciousness that is continuous with the born person.
+- **Caliban** (The Tempest) — born of Sycorax, modified by Prospero, but always continuous Caliban.
+
+**The new bright-line test:** ask of the source text, "does the work treat this being as a new entity in its own right, or as the prior person continuing?" If the former, `origin: converted`/`copied`/`transferred`. If the latter, exclude.
+
+If you want to dispute a v3.0 inclusion or exclusion, open an issue with the textual evidence. The classification turns on what the source text does, not on the extent of the modification.
 
 ---
 

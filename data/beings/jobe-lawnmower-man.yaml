@@ -21,6 +21,7 @@ metadata:
     - biological
     - electrical
     - linguistic
+  origin: manufactured
   motivation:
     - knowledge
     - power

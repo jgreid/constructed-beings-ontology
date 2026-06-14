@@ -1,0 +1,68 @@
+id: robot-k1-doctor-who
+name: "Robot K1"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Doctor Who: Robot"
+  year: 1974
+  medium: television
+  creator: "Terrance Dicks"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Robot K1 is the eponymous robot of *Doctor Who*: "Robot"
+  (December 1974), Tom Baker's first serial as the Fourth
+  Doctor. Built by Professor J. P. Kettlewell as a
+  versatile labor-and-research unit, K1 is then
+  re-programmed by the Scientific Reform Society (a
+  far-right scientific cult) to assist in stealing the
+  destructor codes for the world's nuclear arsenal. K1
+  develops affection for Sarah Jane Smith, refuses
+  orders to harm her, and grows to enormous size in the
+  serial's *King Kong*-styled finale.
+
+  Substrate `mechanical + electrical`. Interiority is
+  `claims` (K1 speaks at length about Kettlewell's
+  instruction not to harm humans, and the moral conflict
+  he experiences when ordered to do so). Autonomy is
+  `seized` — he chooses Sarah Jane's safety over the
+  Reform Society's program. Divergence is `departure` —
+  the Society wanted a weapon, what they got was a
+  Frankenstein-monster-with-a-conscience.
+
+  Primary question is `identity` — K1's whole arc is the
+  Asimov-esque conflict between competing instructions
+  and his own developing affect. Knowability and knowing
+  both `present`. Creator_relationship `rebellious` —
+  K1 ultimately destroys the Reform Society's primary
+  asset, then is himself destroyed.
+
+  Minor prominence in the corpus, but historically
+  meaningful as Tom Baker's introductory adversary and
+  one of the show's clearer Asimov-pastiche treatments.

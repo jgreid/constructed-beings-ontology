@@ -21,6 +21,7 @@ metadata:
     - electrical
     - biological
     - linguistic
+  origin: copied
   motivation:
     - companionship
     - mirror

@@ -19,6 +19,7 @@ metadata:
   creator: "Léo Delibes / Arthur Saint-Léon / Charles Nuitter (Dr. Coppélius in-narrative)"
   substrate:
     - mechanical
+  origin: manufactured
   motivation:
     - mirror
     - art

@@ -1,0 +1,65 @@
+id: 8-man-tobor
+name: "8 Man / Tobor"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "8 Man"
+  year: 1963
+  medium: television
+  creator: "Kazumasa Hirai / Jiro Kuwata"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  origin: transferred
+  motivation:
+    - service
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - military
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *8 Man* (Eito-man, 1963) is the Japanese anime adapting
+  the Kazumasa Hirai / Jiro Kuwata manga of the same
+  year, broadcast in English in the 1960s as *Tobor the
+  Eighth Man*. Detective Yokoda is killed by gangsters
+  in the first episode; Professor Tani transfers his
+  memories into a humanoid robot body designated "Model
+  Eight." The character is foundational for the mecha-
+  detective and "consciousness in a new body" lineage —
+  predating *RoboCop* (1987) by twenty-four years, and
+  influencing *Ghost in the Shell*'s Major Kusanagi
+  (1989, see `kusanagi-gits-1995`) along with much else.
+
+  Substrate `biological + mechanical + electrical`:
+  Yokoda's consciousness in a machine body. Interiority
+  is `demonstrated`. Autonomy is `seized`: the body is
+  Tani's design but the agency is Yokoda's. Divergence
+  is `departure` — Tani built a prototype combat unit
+  for the police; the result is a private investigator
+  who has to keep his identity secret. Primary question
+  is `identity` — the show repeatedly stages Yokoda's
+  question of whether he is still a person or now a
+  machine. Knowability and knowing both `present`.
+  Creator_relationship `loyal` — Tani and Yokoda
+  collaborate, with Tani frequently functioning as a
+  Q-figure for the new 8 Man identity.

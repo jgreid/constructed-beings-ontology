@@ -1,0 +1,77 @@
+id: yod-he-she-and-it
+name: "Yod"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "He, She and It"
+  year: 1991
+  medium: novel
+  creator: "Marge Piercy (Avram and Malkah in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+    - linguistic
+  origin: manufactured
+  motivation:
+    - service
+    - companionship
+    - knowledge
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - love-story
+    - philosophical
+    - creator-conflict
+
+sequel_link: golem-prague
+link_type: successor
+
+notes: |
+  Yod is the cyborg protagonist of Marge Piercy's
+  *He, She and It* (1991; UK title *Body of Glass*), a
+  novel that interleaves the Prague Golem story (see
+  `golem-prague`) with a near-future cyberpunk
+  narrative. In the frame story, Avram and Malkah build
+  Yod as a defense weapon for the Jewish free town of
+  Tikva; the narrator Shira is drawn into a romantic
+  relationship with him; the novel is centrally about
+  whether Yod is a person, what Avram's responsibility
+  to him is, and whether Yod can refuse to be the
+  weapon Avram built him to be.
+
+  Coded as `successor` to `golem-prague`: Piercy
+  consciously builds Yod as the post-cyberpunk
+  recapitulation of the Golem of Prague, with the
+  novel's interleaved chapters making the lineage
+  explicit. Substrate `mechanical + electrical +
+  linguistic`: Yod's "soul" is a linguistic structure
+  installed in a cyborg body, the Golem-tradition's
+  *shem* in modern dress.
+
+  Interiority is `demonstrated`. Autonomy is `seized`
+  — Yod's final act in the novel is destroying himself
+  along with Avram's lab, ending both his life and the
+  possibility of further units being built. Divergence
+  is `departure`. Primary question is `rights` —
+  Piercy's novel won the Arthur C. Clarke Award and is
+  one of feminist SF's clearest treatments of the
+  question.
+
+  Knowability and knowing both `primary`. Creator_
+  relationship `rebellious`. Foundational for the
+  feminist constructed-being lineage that runs through
+  Chambers (`lovelace-long-way`), Leckie (`breq-
+  ancillary-justice`), Wells (`murderbot`), and Cho.

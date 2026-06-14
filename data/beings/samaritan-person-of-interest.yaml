@@ -19,6 +19,7 @@ metadata:
   creator: "Jonathan Nolan / Greg Plageman (Decima Technologies / John Greer in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - power
     - service

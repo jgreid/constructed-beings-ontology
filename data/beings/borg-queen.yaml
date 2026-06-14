@@ -1,0 +1,77 @@
+id: borg-queen
+name: "Borg Queen"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: inspection
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Star Trek: First Contact"
+  year: 1996
+  medium: film
+  creator: "Brannon Braga / Ronald D. Moore"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  origin: converted
+  motivation:
+    - power
+    - companionship
+    - other
+  presentation: feminine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: absent
+  tags:
+    - canonical
+    - military
+    - horror
+    - ensemble-split
+
+sequel_link: borg-collective
+link_type: successor
+
+notes: |
+  The Borg Queen, introduced in *Star Trek: First Contact*
+  (1996) and reprised in Voyager's "Dark Frontier,"
+  "Unimatrix Zero," "Endgame," and Picard S2, is the
+  individualization of the Collective into a single
+  speaking-and-acting figure. Coded as an `ensemble-split`
+  from `borg-collective` because the Queen is materially a
+  separate character (Alice Krige's performance) with her
+  own card.
+
+  The Queen is the most theoretically awkward part of the
+  Borg mythos: a Collective whose defining feature is the
+  absence of individual identity nonetheless centers on
+  a single individual leader. The films and series largely
+  resolve this by treating her as the Collective's locus
+  of self-awareness — the Collective speaks through her
+  when speaking through one mouth is useful, and she
+  reincarnates with new bodies as needed.
+
+  Interiority is `demonstrated`: Krige's performance gives
+  her a clear affective register — possessive desire for
+  Data, vindictive curiosity about Picard, exasperated
+  superiority over Janeway. Autonomy is `seized` —
+  whatever the Queen is, she acts on her own desire-
+  bearing strategy that often goes beyond the assimilation
+  imperative. Divergence is `departure`: she is not a
+  drone, and the show keeps escalating her individuality
+  (the Picard S2 Queen-Jurati merger is the apotheosis).
+
+  Primary question is `identity` — the Queen is the
+  through-line for Borg-individuation stories. Knowing is
+  `present` because she actively studies and manipulates
+  individuals (Data, Janeway, Jurati). Knowability is
+  `secondary`: the franchise engages her individuality but
+  doesn't make it the defining question of any single
+  arc.

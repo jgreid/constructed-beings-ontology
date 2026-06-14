@@ -1,0 +1,67 @@
+id: franky-one-piece
+name: "Franky"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "One Piece"
+  year: 2002
+  medium: comics
+  creator: "Eiichiro Oda"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  origin: converted
+  motivation:
+    - service
+    - companionship
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Franky (Cutty Flam) is the cyborg shipwright of the
+  Straw Hat Pirates in Eiichiro Oda's *One Piece*,
+  introduced in the Water 7 / Enies Lobby arc (manga
+  2004–2006, anime 2005–2007). After being run over by
+  a runaway sea train as a young man and abandoned for
+  dead, Franky rebuilt his own body using salvaged
+  shipwright materials over years of self-surgery; his
+  Thriller Bark / Sabaody Archipelago / Time Skip arcs
+  give him further self-upgrades, including the
+  "General Franky" mecha mode.
+
+  The character is one of the corpus's clearest
+  "self-constructed being" cases — Franky is at once
+  the maker and the made. The convention for such cases
+  in the corpus is to code creator_relationship
+  `absent` since there is no separate creator figure;
+  the original engineering instructor Tom is dead by
+  the time Franky is rebuilt.
+
+  Substrate `biological + mechanical + electrical`.
+  Interiority is `demonstrated`. Autonomy is `seized`.
+  Divergence is `departure` — what was supposed to be
+  emergency reconstruction has become an ongoing
+  self-augmentation project. Primary question is
+  `identity` — Franky's whole arc is the
+  Cutty-Flam-vs-Franky question, made textual in the
+  Water 7 confessions. Knowability and knowing both
+  `present`.

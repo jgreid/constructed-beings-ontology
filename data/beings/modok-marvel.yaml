@@ -1,0 +1,64 @@
+id: modok-marvel
+name: "MODOK (George Tarleton)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Tales of Suspense #93–94"
+  year: 1967
+  medium: comics
+  creator: "Stan Lee / Jack Kirby (A.I.M. in-narrative)"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  origin: converted
+  motivation:
+    - knowledge
+    - power
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - creator-conflict
+    - horror
+    - comedy
+
+sequel_link: null
+link_type: null
+
+notes: |
+  MODOK — Mental Organism Designed Only for Killing —
+  debuted in *Tales of Suspense* #93–94 (1967). A.I.M.
+  technicians converted George Tarleton, an ordinary
+  A.I.M. employee, into a giant-headed psionic
+  super-intellect for their bidding. He immediately killed
+  the scientists who built him and took over A.I.M.
+
+  The character is one of Marvel's clearest illustrations
+  of the corpus's `divergence: departure` value applied to
+  a body-modification case: the spec was "smarter
+  servant," the product was "smarter than you and now
+  running the company." The visual design — giant head,
+  shrunken vestigial limbs, levitating chair — is one of
+  comics' most distinctive.
+
+  Substrate is `biological + mechanical + electrical`:
+  brain hypertrophied, body retained but vestigial, chair
+  and weapon systems integrated. Interiority is
+  `demonstrated`. Autonomy is `seized`. Divergence is
+  `departure`. Primary question is `identity` — MODOK's
+  comic and TV (the 2021 Hulu animated *M.O.D.O.K.* makes
+  this explicit) framings increasingly engage with what
+  Tarleton lost to become this. Creator_relationship
+  `rebellious` — patricide is the founding act.

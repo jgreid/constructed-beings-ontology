@@ -19,6 +19,7 @@ metadata:
   creator: "Irrational Games / Looking Glass Studios"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - power
     - knowledge

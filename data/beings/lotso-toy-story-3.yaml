@@ -1,0 +1,63 @@
+id: lotso-toy-story-3
+name: "Lots-o'-Huggin' Bear"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Toy Story 3"
+  year: 2010
+  medium: film
+  creator: "Lee Unkrich / Pixar"
+  substrate:
+    - magical
+  origin: manufactured
+  motivation:
+    - power
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: resentful
+  tags:
+    - canonical
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Lotso is the strawberry-scented teddy bear antagonist of
+  *Toy Story 3* (2010): an abandoned-then-replaced toy
+  who runs the Sunnyside Daycare as a totalitarian
+  fiefdom. The backstory is the Pixar version of the
+  Frankenstein arc: Lotso was loved, lost, replaced by an
+  identical model, and developed his cynical worldview
+  ("we're all just trash, waiting to be thrown away")
+  from that wound.
+
+  Substrate is `magical` (Pixar toys are animate-via-
+  unexplained-convention, the same way the corpus codes
+  Pinocchio and the Scarecrow). Interiority is
+  `demonstrated`. Autonomy is `seized` — he organized
+  a daycare-spanning fiefdom and runs it. Divergence is
+  `departure` — Pixar toys are coded for affection;
+  Lotso is the film's case study in what becomes of one
+  who doesn't receive it.
+
+  Primary question is `affection` — explicitly, "what
+  happens to a toy whose love was unrequited."
+  Knowability `absent`. Knowing `present` — Lotso reads
+  the other toys' attachments with sharp accuracy and
+  uses the information against them. Creator_
+  relationship `resentful` — his backstory is the
+  resentment of having been replaced by Daisy, his
+  original owner.

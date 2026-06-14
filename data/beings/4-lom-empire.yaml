@@ -1,0 +1,52 @@
+id: 4-lom-empire
+name: "4-LOM"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Star Wars: The Empire Strikes Back"
+  year: 1980
+  medium: film
+  creator: "Irvin Kershner / George Lucas (Industrial Automaton in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+    - power
+  presentation: none
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: rebellious
+  tags:
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  4-LOM is another of the six bounty hunters lined up on
+  the Executor in *The Empire Strikes Back* (1980), a
+  protocol droid (LOM-series) that re-tasked itself as a
+  thief and bounty hunter after its programming
+  malfunctioned. Like IG-88, he is a few seconds of screen
+  time that became a substantial Expanded-Universe figure;
+  the canonical takeaway for the corpus is that the films
+  comfortably contain droids that have "gone wrong" in the
+  Frankenstein-departure sense as one-shot cool images.
+
+  Interiority is `claims`. Autonomy is `seized`. Divergence
+  is `departure` — a protocol droid is not supposed to be
+  a thief. Primary question is `none`. The entry tracks the
+  Star Wars droid-population by including another "rogue
+  droid" data point.

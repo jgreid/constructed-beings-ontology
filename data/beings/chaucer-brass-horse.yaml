@@ -1,0 +1,70 @@
+id: chaucer-brass-horse
+name: "The Brass Horse"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: none
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "The Canterbury Tales: The Squire's Tale"
+  year: 1390
+  medium: poem
+  creator: "Geoffrey Chaucer (a knight from the King of Arabia and India in-narrative)"
+  substrate:
+    - mechanical
+    - magical
+  origin: manufactured
+  motivation:
+    - service
+  presentation: none
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - canonical
+
+sequel_link: ebony-horse-arabian-nights
+link_type: adaptation
+
+notes: |
+  In Geoffrey Chaucer's unfinished *Squire's Tale* (one
+  of *The Canterbury Tales*, composed ca. 1390), an
+  unnamed knight from the East arrives at the court of
+  King Cambyuskan bearing four gifts: a brass horse that
+  can fly to any destination via a peg-and-lever mechanism,
+  a mirror that shows distant events, a sword that cures
+  any wound it inflicts, and a ring that grants the
+  ability to understand the speech of birds. The brass
+  horse is the most extensively described of the four —
+  Chaucer dedicates considerable verse to debate among
+  the courtiers about how it might function, summoning
+  Aristotelian, alchemical, and engineering speculation.
+
+  The tale is the canonical Middle English reception of
+  the *Arabian Nights* "Ebony Horse" (see
+  `ebony-horse-arabian-nights`) and a foundational text
+  for the corpus's pre-modern English-language
+  constructed-being lineage. Linked as `adaptation` to
+  the Arabic source.
+
+  Chaucer left the tale unfinished, but its catalogue of
+  marvelous artifacts and its sustained engineering-
+  speculation passages have been continuously cited
+  in the European reception of the brazen-head and
+  enchanted-mechanism traditions — including by Spenser
+  (whose Faerie Queene completes Chaucer's tale in Book
+  IV), Cervantes's Clavileño passage in *Don Quixote*
+  Part II (a direct parody of the Squire's Tale), and
+  Milton's reference in *Il Penseroso*.
+
+  Substrate `mechanical + magical`. Interiority `none`.
+  Autonomy `designed`. Divergence `none`. Primary
+  question `none`. Knowability and knowing both `absent`.
+  Creator_relationship `servile`.

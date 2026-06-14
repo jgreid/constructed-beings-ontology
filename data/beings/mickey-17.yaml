@@ -21,6 +21,7 @@ metadata:
     - biological
     - cloned
     - linguistic
+  origin: cloned
   motivation:
     - service
     - knowledge

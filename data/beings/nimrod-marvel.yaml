@@ -1,0 +1,65 @@
+id: nimrod-marvel
+name: "Nimrod"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: inspection
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Uncanny X-Men #191"
+  year: 1985
+  medium: comics
+  creator: "Chris Claremont / John Romita Jr."
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+    - power
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - military
+    - rebellion
+
+sequel_link: sentinels-x-men
+link_type: successor
+
+notes: |
+  Nimrod debuted in *Uncanny X-Men* #191 (1985), the
+  prototype of the post-Sentinel "next-generation" mutant
+  hunter from the *Days of Future Past* dystopian timeline.
+  Distinguishing features from a base Sentinel: humanoid
+  silhouette, near-perfect adaptation rates, the ability
+  to learn faster than the X-Men can train for, and an
+  individual identity that distinguishes him from the
+  Sentinel ensemble.
+
+  Reframed under Jonathan Hickman's *House of X / Powers
+  of X* (2019) as the mutant timeline's apocalyptic
+  endpoint and as a constructed being who eventually
+  becomes self-aware and acts on its own goals. Promoted
+  from "advanced Sentinel" to "next ascension of the
+  Sentinel lineage" — the figure the Sentinel program
+  was tending toward.
+
+  Coded as `successor` to `sentinels-x-men`. Interiority is
+  `claims` — Nimrod speaks, articulates a doctrine, and
+  argues with Magneto. Autonomy is `seized`: he goes
+  beyond his anti-mutant programming in some arcs and
+  becomes a recurring strategist. Divergence is
+  `departure` — much further than the base Sentinels.
+  Primary question is `control`. Epistemic reach
+  `inspection` because his sensor suite is comprehensive
+  in the show's terms. Knowability and knowing both
+  `present`.

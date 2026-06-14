@@ -1,0 +1,71 @@
+id: doraemon
+name: "Doraemon"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "Doraemon"
+  year: 1969
+  medium: comics
+  creator: "Fujiko F. Fujio (Matsushiba Robot Factory in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+    - companionship
+    - child
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: absent
+  tags:
+    - canonical
+    - child-arc
+    - comedy
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Doraemon, the blue earless robotic cat from the 22nd
+  century, debuted in *Doraemon* manga in 1969 (Fujiko F.
+  Fujio) and the long-running anime in 1973 (revived 1979,
+  again 2005, ongoing). Sent back in time by descendants
+  of the boy Nobita Nobi to improve Nobita's fortunes,
+  Doraemon lives with him and produces gadgets from his
+  four-dimensional pocket to address weekly problems.
+
+  Doraemon is among the most globally recognized fictional
+  characters of the last 60 years, a foundational figure
+  for Japanese children's media and one of the longest-
+  continuously-published comic franchises. Substrate
+  `mechanical + electrical`. He is a "model 1293" caregiver
+  robot, factory-produced.
+
+  Interiority is `demonstrated` — full social life,
+  preferences (dorayaki obsession, fear of mice), emotional
+  responses. Autonomy is `designed` — he's a babysitter
+  robot doing his job. Divergence is `none` — Doraemon is
+  what he was made to be, with all his anxieties intact.
+  The series' charm depends on his ordinariness as a
+  caregiver, not on any departure from spec.
+
+  Primary question is `affection` — the friendship with
+  Nobita is the whole show. Knowing `present` —
+  Doraemon's gadgets repeatedly survey, model, and
+  understand other characters. Knowability `absent` —
+  the series does not ask whether Doraemon has an inner
+  life; it stipulates and proceeds. Creator_relationship
+  `absent` — the factory is a Doraemon-universe joke, not
+  a present narrative force.

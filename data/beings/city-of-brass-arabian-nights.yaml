@@ -1,0 +1,66 @@
+id: city-of-brass-arabian-nights
+name: "Automatons of the City of Brass"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: control
+    epistemic_reach: none
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "One Thousand and One Nights"
+  year: 1450
+  medium: folklore
+  creator: "Anonymous (Solomonic-era artisans in-narrative)"
+  substrate:
+    - mechanical
+    - magical
+  origin: manufactured
+  motivation:
+    - service
+  presentation: variable
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  In the *One Thousand and One Nights* tale "The City of
+  Brass" (nights 566–578 in the standard numbering), the
+  Caliph Abd al-Malik commissions an expedition to find
+  the brass bottles in which Solomon imprisoned rebellious
+  jinn. The party crosses the desert to find a vast,
+  dead, brass-walled city populated by motionless
+  servants and guards — animate-looking mechanical and
+  preserved figures at gates, in throne rooms, and at
+  fountains. Several of the automatons are still
+  functional: trumpet-blowing brass horsemen, mechanical
+  archers that fire at intruders, and a moving woman who
+  beckons travelers into a fatal palace.
+
+  The City of Brass is the corpus's clearest pre-1800
+  treatment of a sustained urban-scale automaton
+  ensemble — the closest analog in pre-modern literature
+  to the post-apocalyptic robot cities of Tezuka, *Castle
+  in the Sky*, and *NieR Automata*. The narrative's
+  funereal tone (the automatons stand guard over a city
+  whose people are long dead) anticipates a vast modern
+  lineage.
+
+  Substrate `mechanical + magical`. Presentation
+  `variable` because the ensemble spans figures coded
+  masculine and feminine. Interiority `none`. Autonomy
+  `designed`. Divergence `none`. Primary question
+  `control`: the surviving automatons are still on duty
+  — they guard, attack, or lure, depending on what their
+  long-dead masters set them to. Knowability and knowing
+  both `absent`. Creator_relationship `servile`.

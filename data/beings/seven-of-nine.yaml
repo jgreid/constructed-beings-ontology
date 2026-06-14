@@ -1,0 +1,74 @@
+id: seven-of-nine
+name: "Seven of Nine"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Star Trek: Voyager"
+  year: 1997
+  medium: television
+  creator: "Jeri Taylor / Brannon Braga / Joe Menosky"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  origin: converted
+  motivation:
+    - knowledge
+    - service
+    - companionship
+  presentation: feminine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - ensemble-split
+    - philosophical
+
+sequel_link: borg-collective
+link_type: successor
+
+notes: |
+  Seven of Nine (Annika Hansen), introduced in Voyager S4
+  "Scorpion Pt. II" (1997), is the franchise's most
+  developed individuated Borg. Assimilated as a child, she
+  is liberated by Janeway and spends the remainder of
+  Voyager — and later Picard (2020–2023) — reconstructing
+  what an individual life looks like after a lifetime in
+  the Collective. Coded as `ensemble-split` from
+  `borg-collective` because she is the most narrated
+  ex-Borg in the franchise and her card values diverge
+  sharply from the collective entry.
+
+  Interiority is `demonstrated`: Voyager treats Seven's
+  inner life as primary subject matter, with episodes
+  ("The Gift," "One," "Survival Instinct," "Imperfection")
+  built around her affective and cognitive reconstruction.
+  Autonomy is `seized`: liberation is not consent, and
+  Seven's arc is about claiming agency over a self that was
+  taken before consent was possible. Divergence is
+  `departure` — she leaves the Collective's specification
+  behind, but Voyager keeps the Borg legacy visible in her
+  remaining implants and her continued, lifelong work to
+  reintegrate.
+
+  Primary question is `identity` — the Hansen/Seven split
+  is staged explicitly across the run: which self is real,
+  which can be recovered, which can be made. Knowability
+  and knowing are both `primary` — Voyager spends nearly
+  three full seasons specifically on whether Seven can be
+  known (by herself, by the crew) and on whether she can
+  know others. Creator_relationship `rebellious`: she
+  rejects the Collective's claim on her and, in Picard,
+  actively works against attempts to reassemble Borg-like
+  structures.

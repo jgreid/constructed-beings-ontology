@@ -19,6 +19,7 @@ metadata:
   creator: "Guillermo del Toro / Mark Gustafson (Geppetto and the Wood Sprite in-narrative)"
   substrate:
     - magical
+  origin: manufactured
   motivation:
     - child
     - companionship

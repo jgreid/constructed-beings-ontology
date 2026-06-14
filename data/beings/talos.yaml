@@ -19,6 +19,7 @@ metadata:
   creator: "Apollonius of Rhodes (Hephaestus in-narrative)"
   substrate:
     - mechanical
+  origin: manufactured
   motivation:
     - service
   presentation: masculine

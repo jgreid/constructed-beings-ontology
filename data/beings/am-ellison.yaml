@@ -19,6 +19,7 @@ metadata:
   creator: "Harlan Ellison"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - power
     - other

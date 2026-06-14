@@ -1,0 +1,69 @@
+id: kos-mos-xenosaga
+name: "KOS-MOS"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Xenosaga Episode I: Der Wille zur Macht"
+  year: 2002
+  medium: video-game
+  creator: "Tetsuya Takahashi / Monolith Soft (Vector Industries / Kevin Winnicot in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+    - other
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - canonical
+    - military
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  KOS-MOS (Kosmos Obey Strategical Multiple Operation
+  System) is the anti-Gnosis combat android of Vector
+  Industries' First R&D Division, developed under Kevin
+  Winnicot and Shion Uzuki, the protagonist of *Xenosaga
+  Episode I: Der Wille zur Macht* (2002) and the rest of
+  the trilogy (Episode II, 2004; Episode III, 2006).
+  Across the trilogy KOS-MOS is gradually revealed to host
+  the Anima Relic of Mary Magdalene, complicating the
+  question of what she is in the trilogy's elaborate
+  Gnostic theology.
+
+  Substrate `mechanical + electrical`. Interiority is
+  `demonstrated` — her affective range, her "unprompted"
+  combat decisions to protect Shion at her own expense,
+  and her gradual disclosure of her Anima nature all
+  serve as evidence. Autonomy is `emergent` — Winnicot
+  built a weapon and the trilogy reveals something
+  larger has been operating through her. Divergence is
+  `departure`.
+
+  Primary question is `purpose` — the Xenosaga trilogy's
+  cosmic mystery is "what is KOS-MOS for, who designed
+  her toward what end, and what role does she play in
+  the world's Gnostic salvation drama." Knowability is
+  `secondary` (the question is engaged across three games
+  but is one of many themes). Knowing `present`.
+  Creator_relationship `absent` — Winnicot is dead before
+  the games' main action, and KOS-MOS's larger purposes
+  emerge from a designer the in-game characters never
+  meet.

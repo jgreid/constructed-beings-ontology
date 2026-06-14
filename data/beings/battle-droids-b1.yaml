@@ -1,0 +1,62 @@
+id: battle-droids-b1
+name: "B1 Battle Droids"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Star Wars: The Phantom Menace"
+  year: 1999
+  medium: film
+  creator: "George Lucas (Baktoid Combat Automata / Trade Federation in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+  presentation: none
+  embodiment: embodied
+  prominence: major
+  creator_relationship: servile
+  tags:
+    - military
+    - comedy
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The thin, skeletal infantry droids of the Trade Federation
+  army, introduced in *The Phantom Menace* (1999) and
+  featured across the Prequel Trilogy and *The Clone Wars*
+  animated series. Their canonical bumbling "Roger Roger"
+  voicework is one of the franchise's clearest "the lights
+  are on, nobody is home" character codings.
+
+  Interiority is `claims` — B1s have voices, talk to each
+  other, complain, and clearly track instructions, but the
+  presentation is consistently slapstick incompetence. The
+  Clone Wars series leans into this for comic relief: B1s
+  miss obvious threats, mistake one another for officers,
+  and narrate their own deaths. Autonomy is `designed` —
+  they are central-control units running standard combat
+  protocols (especially under the Trade Federation control
+  ship in TPM, where shutting down the ship shuts down the
+  droids). Divergence is `none`: they perform exactly to
+  spec.
+
+  Primary question is `none` — the Prequel films do not
+  treat the B1s as a question. They are a problem to be
+  shot. Knowability and knowing both `absent`. The B1s are
+  a contrast case for the corpus's `interiority: claims`
+  category: claiming is not demonstrating, and the films
+  use the gap for comedy.

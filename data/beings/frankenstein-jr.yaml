@@ -1,0 +1,62 @@
+id: frankenstein-jr
+name: "Frankenstein Jr."
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: none
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Frankenstein Jr. and The Impossibles"
+  year: 1966
+  medium: television
+  creator: "Hanna-Barbera"
+  substrate:
+    - mechanical
+    - electrical
+  origin: assembled
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: servile
+  tags:
+    - comedy
+    - child-arc
+
+sequel_link: tetsujin-28
+link_type: successor
+
+notes: |
+  Frankenstein Jr. (often "Frankie Jr.") is the
+  thirty-foot remote-controlled flying robot of
+  Hanna-Barbera's *Frankenstein Jr. and The Impossibles*
+  (CBS, 1966–1967), built by Professor Conroy and
+  operated by his son Buzz via a wrist transmitter. The
+  show's pure-juvenile framing makes the robot a clean
+  remote-controlled-mech entry in the Tetsujin 28 (1956,
+  see `tetsujin-28`) lineage, with the western-cartoon
+  twist of giving the robot a deep "raargh"-style voice
+  that responds to Buzz's commands.
+
+  Substrate `mechanical + electrical`. Interiority is
+  `claims` — Frankie roars, growls, and emits "Hooray
+  for the goodguys!" exclamations in his catchphrase
+  voice. Autonomy `none` — he is strictly remote-
+  controlled. Divergence `none`. Primary question
+  `none`. Knowability and knowing both `absent`.
+  Creator_relationship `servile` — Frankie is Buzz's
+  pet-and-weapon throughout the show.
+
+  Minor prominence, but included for the corpus's
+  coverage of American animated giant-robot characters,
+  and as a Western counterpart to the Japanese Tetsujin
+  28 / Gigantor / Mazinger Z lineage active in the
+  same decade.

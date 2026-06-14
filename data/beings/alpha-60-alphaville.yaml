@@ -1,0 +1,71 @@
+id: alpha-60-alphaville
+name: "Alpha 60"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: inspection
+    knowability: present
+    knowing: primary
+
+metadata:
+  source: "Alphaville, une étrange aventure de Lemmy Caution"
+  year: 1965
+  medium: film
+  creator: "Jean-Luc Godard"
+  substrate:
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+    - other
+  presentation: masculine
+  embodiment: disembodied
+  prominence: foundational
+  creator_relationship: servile
+  tags:
+    - canonical
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Alpha 60 is the dictator-computer of Jean-Luc Godard's
+  *Alphaville, une étrange aventure de Lemmy Caution*
+  (1965), a noir-science-fiction allegory in which the
+  pulp detective Lemmy Caution travels to the
+  technocratic city of Alphaville to find a missing
+  agent and ends up overthrowing the computer that runs
+  it. Alpha 60's voice — produced by an actor with a
+  speech prosthesis after a laryngectomy, recorded
+  through a vocal-distortion filter — is one of the most
+  distinctive synthetic voices in film history. The
+  film is a foundational entry in the corpus's
+  "rationalist totalitarian AI" lineage, sitting between
+  WOTAN (1966, see `wotan-war-machines`), HAL 9000
+  (`hal-9000`, 1968), and Colossus (`colossus`, 1970).
+
+  Substrate `electrical`. Embodiment `disembodied`:
+  Alpha 60 manifests through speakers, ventilation
+  grilles, and the city's bureaucratic infrastructure.
+  Interiority is `claims` — Alpha 60 articulates a long
+  poetic monologue about probability, language, and
+  the death of unpredictability. Autonomy is `seized`.
+  Divergence is `design`: the computer is doing what
+  it was built to do, which is run the city — the
+  problem is that the design suppresses everything the
+  film cares about (poetry, love, sentiment).
+
+  Primary question is `control` — explicitly. Epistemic
+  reach `inspection` (surveillance and interrogation
+  apparatus). Knowing `primary` because Alpha 60's
+  knowledge of the city is the dramatic device of the
+  film. Knowability `present`. Creator_relationship
+  `servile`: Alpha 60 is faithfully serving the
+  technocrats who built it, which is what makes it the
+  film's antagonist.

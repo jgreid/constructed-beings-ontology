@@ -19,6 +19,7 @@ metadata:
   creator: "Valve / Erik Wolpaw / Jay Pinkerton (Aperture Science in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - power
     - service

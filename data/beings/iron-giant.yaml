@@ -19,6 +19,7 @@ metadata:
   creator: "Brad Bird (unknown alien origin in-narrative)"
   substrate:
     - mechanical
+  origin: manufactured
   motivation:
     - power
   presentation: masculine

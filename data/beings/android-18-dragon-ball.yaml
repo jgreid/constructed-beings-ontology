@@ -1,0 +1,61 @@
+id: android-18-dragon-ball
+name: "Android 18"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Dragon Ball Z"
+  year: 1991
+  medium: television
+  creator: "Akira Toriyama (Dr. Gero in-narrative)"
+  substrate:
+    - biological
+    - mechanical
+    - cloned
+  origin: manufactured
+  motivation:
+    - service
+    - companionship
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: patricidal
+  tags:
+    - canonical
+    - love-story
+    - rebellion
+
+sequel_link: android-17-dragon-ball
+link_type: successor
+
+notes: |
+  Android 18 (Lazuli), Gero's other twin android, is the
+  Cell Saga's more developed character of the pair. After
+  her boundary-case absorption-and-recovery in the Cell
+  arc, she marries Krillin, has a daughter (Marron), and
+  becomes one of the *Dragon Ball Super* (2015–2018)
+  ensemble cast. She fights in the Tournament of Power
+  alongside her family.
+
+  Coded as `successor` to `android-17-dragon-ball` —
+  same Dr. Gero project, twin design, parallel arcs.
+  The split is warranted because 18's primary question
+  (affection — the marriage and motherhood arc) sits
+  meaningfully apart from 17's (identity — the
+  reconstruction of self in a domestic life).
+
+  Substrate `biological + mechanical + cloned`. Interiority
+  is `demonstrated`. Autonomy is `seized`. Divergence is
+  `departure`. Primary question is `affection` — 18's
+  arc bends around the marriage and the family. Knowability
+  and knowing both `present`. Creator_relationship
+  `patricidal` (with 17).

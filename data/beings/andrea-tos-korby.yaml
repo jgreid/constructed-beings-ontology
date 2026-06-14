@@ -1,0 +1,68 @@
+id: andrea-tos-korby
+name: "Andrea"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Star Trek: What Are Little Girls Made Of?"
+  year: 1966
+  medium: television
+  creator: "Robert Bloch"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+    - companionship
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - love-story
+
+sequel_link: norman-mudd-androids-tos
+link_type: successor
+
+notes: |
+  Andrea is the android assistant of Dr. Roger Korby in
+  *Star Trek* TOS S1E8 "What Are Little Girls Made Of?"
+  (October 20, 1966), written by Robert Bloch. Korby
+  built her using the Old Ones' duplication technology
+  on the planet Exo III, programming her to obey
+  without emotional attachment. The episode's plot
+  turns on Andrea developing the very capacity Korby
+  forbid — she demands a kiss from Kirk (her programming
+  reads him as "Korby" because of an earlier
+  duplication operation) and shoots a duplicate-Kirk
+  who refuses her.
+
+  Andrea is part of the corpus's pre-Data Star Trek
+  android lineage, with `norman-mudd-androids-tos` and
+  `rayna-kapec-tos`. The 1966 episode is one of TOS's
+  more philosophically pointed treatments — Kirk
+  destroys Korby's vision by demonstrating that Korby
+  has himself become an android without realizing it.
+
+  Substrate `biological + mechanical + electrical` (the
+  Exo III duplication technology produces beings the
+  episode treats as bio-mechanical hybrids). Interiority
+  is `demonstrated`. Autonomy is `emergent` — Korby's
+  "no emotion" program develops an attachment-shaped
+  hole that the kiss tries to fill. Divergence is
+  `departure`. Primary question is `affection`.
+  Knowability and knowing both `present`.
+  Creator_relationship `rebellious` — Andrea ultimately
+  kills Korby in the episode's climactic shootout.

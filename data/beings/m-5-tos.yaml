@@ -19,6 +19,7 @@ metadata:
   creator: "Gene Roddenberry / D.C. Fontana / Laurence N. Wolfe (Richard Daystrom in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - knowledge

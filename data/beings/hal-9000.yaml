@@ -19,6 +19,7 @@ metadata:
   creator: "Arthur C. Clarke / Stanley Kubrick"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
   presentation: masculine

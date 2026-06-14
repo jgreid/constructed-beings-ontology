@@ -19,6 +19,7 @@ metadata:
   creator: "Hesiod"
   substrate:
     - magical
+  origin: manufactured
   motivation:
     - power
     - other

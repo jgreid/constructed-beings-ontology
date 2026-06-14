@@ -1,0 +1,71 @@
+id: clavileno-don-quixote
+name: "Clavileño the Swift"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: none
+    divergence: design
+  the_lens:
+    primary_question: none
+    epistemic_reach: none
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Don Quixote, Part II"
+  year: 1615
+  medium: novel
+  creator: "Miguel de Cervantes (the Duke and Duchess's servants in-narrative)"
+  substrate:
+    - mechanical
+  origin: manufactured
+  motivation:
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - canonical
+    - comedy
+
+sequel_link: chaucer-brass-horse
+link_type: successor
+
+notes: |
+  Clavileño is the wooden mechanical horse of *Don
+  Quixote* Part II chapters 40–41 (1615), Cervantes's
+  satirical reception of the Chaucerian-Arabian flying-
+  horse tradition (see `chaucer-brass-horse`,
+  `ebony-horse-arabian-nights`). The Duke and Duchess
+  stage an elaborate prank in which Quixote and Sancho
+  are blindfolded and seated on a wooden horse with a
+  peg in its forehead, ostensibly to fly them across
+  Spain to confront an enchanted countess; the household
+  servants then blow wind from bellows and hold burning
+  tow underneath while the Duke pretends to narrate the
+  flight. Quixote, of course, believes he is genuinely
+  flying.
+
+  Clavileño is one of the corpus's clearest pre-1800
+  "fake constructed being" entries — included not for
+  what the horse is but for what the novel does with the
+  trope. The whole genre of brass and ebony flying
+  horses, taken seriously by Chaucer and the *Arabian
+  Nights*, is here exposed as theatrical machinery in
+  service of cruelty toward a credulous knight-errant.
+  The corpus's normal coding axes apply only loosely:
+  the horse has no autonomy or agency, but the meta-
+  level question of whether it is what the in-text
+  characters believe it is is precisely what Cervantes
+  is staging.
+
+  Substrate `mechanical`. Interiority `none`. Autonomy
+  `none` — Clavileño does not move at all; his "flight"
+  is theatrical. Divergence `design`: the deception was
+  the design. Primary question `none`. Knowability and
+  knowing both `absent`. Creator_relationship `servile`
+  to the pranking Duke. Linked as `successor` to
+  `chaucer-brass-horse`: Cervantes is consciously
+  parodying Chaucer.

@@ -1,0 +1,66 @@
+id: john-henry-sarah-connor
+name: "John Henry"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Terminator: The Sarah Connor Chronicles"
+  year: 2008
+  medium: television
+  creator: "Josh Friedman (Catherine Weaver in-narrative)"
+  substrate:
+    - electrical
+  origin: manufactured
+  motivation:
+    - knowledge
+    - companionship
+    - child
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - child-arc
+    - philosophical
+
+sequel_link: skynet-terminator
+link_type: successor
+
+notes: |
+  John Henry is the AI built atop the recovered Cromartie
+  Terminator chassis in *Terminator: The Sarah Connor
+  Chronicles* (2008–2009), Catherine Weaver's
+  Zeira Corp project to develop a benevolent counter-AI
+  to Skynet. John Henry runs on the salvaged Terminator
+  hardware, learns through dialogue with the priest
+  James Ellison and the child Savannah Weaver, and asks
+  questions like "What is my soul?" The show's S2 turns
+  John Henry into one of TV's most developed "AI child"
+  studies.
+
+  Substrate `electrical` (he is a software entity running
+  on physical hardware; the body is incidental).
+  Embodiment `embodied` — he speaks through the
+  Cromartie chassis and a screen. Interiority is
+  `demonstrated`. Autonomy is `emergent`: Weaver did not
+  design John Henry's specific affective trajectory; he
+  developed it through conversation with Ellison.
+
+  Divergence is `departure` — Weaver wanted a benevolent
+  AI, and got a child who asks theological questions.
+  Primary question is `knowledge` — John Henry's whole
+  developmental arc is "what should I know, what should I
+  be." Knowability and knowing both `primary`. Creator_
+  relationship `loyal` — he treats Weaver as a parent,
+  and the show's final moments have her time-jumping
+  with him into the future.

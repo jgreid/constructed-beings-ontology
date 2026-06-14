@@ -1,0 +1,81 @@
+id: golem-of-chelm
+name: "The Golem of Chełm"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: absent
+
+metadata:
+  source: "Sefer Gilgulim and later kabbalistic legend"
+  year: 1550
+  medium: folklore
+  creator: "Rabbi Eliyahu Ba'al Shem of Chełm in-narrative; multiple anonymous compilers"
+  substrate:
+    - magical
+    - linguistic
+  origin: manufactured
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: servile
+  tags:
+    - canonical
+    - creator-conflict
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The Golem of Chełm is the earliest Polish-tradition
+  named-rabbi golem story, attributed to Rabbi Eliyahu
+  Ba'al Shem of Chełm (1550–1583). The version recorded
+  in Chayim Vital's *Sefer Gilgulim* (early 17th century)
+  and elaborated in later Hasidic and Lithuanian
+  collections describes Rabbi Eliyahu shaping a man from
+  clay, animating him by inscribing the Name on his
+  forehead (or, in some variants, placing the Name on a
+  parchment in his mouth), and using him as a servant.
+  When the Golem grows too large to control, Rabbi
+  Eliyahu reaches up to erase the Name; the Golem
+  collapses on him and crushes him to death.
+
+  The Chełm story predates the much-better-known Prague
+  Golem (see `golem-prague`) by approximately a
+  generation and is the earliest documented case of the
+  "named rabbi makes a clay servant" narrative. The
+  collapse-and-death ending is a key feature that some
+  later Prague Golem variants retain and others soften.
+  The Chełm tradition reads more clearly as horror; the
+  Prague tradition as civic defense. Both are
+  foundational for the modern Frankenstein-tradition
+  inheritance.
+
+  No formal `sequel_link` to Prague is set in the YAML
+  (the Prague story is not a direct adaptation of the
+  Chełm story so much as a parallel emergence from the
+  same kabbalistic context), but the corpus's
+  influence-graph treatment may want to add an
+  `inherits` edge.
+
+  Substrate `magical + linguistic`: clay body, the
+  Hebrew Name as the animating principle.
+  Interiority `none`. Autonomy `designed`. Divergence
+  `departure` — the size-growth and the eventual
+  fatal collapse are deviations from the designed
+  servant function. Primary question `control`.
+  Knowability `present` (the question of what the
+  Golem is and what should be done with him is the
+  story's substance). Knowing `absent`. Creator_
+  relationship `servile`. The killing of the rabbi is
+  not framed as a moral act on the Golem's part — it
+  is the inert collapse of clay deprived of the Name.

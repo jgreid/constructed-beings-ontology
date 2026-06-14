@@ -1,0 +1,59 @@
+id: ig-88-empire
+name: "IG-88"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Star Wars: The Empire Strikes Back"
+  year: 1980
+  medium: film
+  creator: "Irvin Kershner / George Lucas (Holowan Laboratories in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - power
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - military
+
+sequel_link: ig-11-mandalorian
+link_type: successor
+
+notes: |
+  IG-88 is one of the six bounty hunters Vader summons in
+  *The Empire Strikes Back* (1980), the assassin-droid
+  template that the later IG-11 (Mandalorian) and IG-12
+  (Book of Boba Fett) develop. He has perhaps thirty
+  seconds of screen time but became a fan favorite and a
+  major figure in pre-Disney Expanded Universe lore
+  (most notably Kevin J. Anderson's "Therefore I Am" story
+  in *Tales of the Bounty Hunters*, which gave him a
+  rebellion narrative against his Imperial creators).
+
+  In current canon, IG-88 is treated more minimally: an
+  assassin droid that turned on its creators at Holowan
+  Laboratories and went rogue. Interiority is `claims` —
+  he speaks in droid-binary, has a designation, and
+  pursues a profession. Autonomy is `seized` — the
+  rebellion-and-bounty-hunting career is not what Holowan
+  intended. Divergence is `departure`. Primary question
+  is `none` — the films do not pose IG-88 as a question;
+  he is part of the bounty hunter lineup. Knowability and
+  knowing both `absent`. Linked to IG-11 as `successor`:
+  same IG-series chassis, different narrative
+  reconstruction.

@@ -19,6 +19,7 @@ metadata:
   creator: "James Cameron (Cyberdyne Systems in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - power

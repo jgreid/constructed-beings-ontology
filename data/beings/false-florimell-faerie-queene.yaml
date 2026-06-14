@@ -1,0 +1,77 @@
+id: false-florimell-faerie-queene
+name: "False Florimell"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: absent
+
+metadata:
+  source: "The Faerie Queene, Book III"
+  year: 1590
+  medium: poem
+  creator: "Edmund Spenser (an unnamed witch in-narrative)"
+  substrate:
+    - magical
+  origin: manufactured
+  motivation:
+    - mirror
+    - companionship
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - canonical
+    - passing
+
+sequel_link: galatea
+link_type: successor
+
+notes: |
+  In Edmund Spenser's *The Faerie Queene* Book III canto
+  viii (1590), a witch fashions False Florimell from
+  "purest snow in massy mould congeald," with eyes of two
+  burning lamps and a tongue and senses provided by a
+  sprite that takes up residence in the snowy form. The
+  witch builds her as a substitute for the original
+  Florimell (the true one having fled the witch's son),
+  and the resulting double passes as Florimell to the
+  knights of Faerie for most of two books — until the
+  true Florimell's return at the Marriage of Thames and
+  Medway (IV.x) causes the false one to melt.
+
+  Spenser's False Florimell is among the most analytically
+  rich pre-1800 constructed beings in the corpus, with
+  a substrate the text engages directly (the snow body
+  conceived as a vessel; the sprite-animation as a soul-
+  substitute), a "passing" plot that consumes two whole
+  books of the epic, and the early modern lineage's
+  clearest "love-the-fake-instead-of-the-real" theme.
+  Linked to `galatea` as `successor`: Spenser is
+  working with the Pygmalion-tradition material at the
+  conceptual level, but inverting the Ovidian arc — the
+  artifact replaces rather than complements the loved
+  one.
+
+  Substrate `magical`: snow + sprite, no mechanical
+  account. Interiority `claims` — the sprite makes her
+  speak as if she were Florimell, but the speech is
+  imitation, not interior. Autonomy `designed`.
+  Divergence `none`: she performs exactly the
+  passing-as-Florimell role she was built for. Primary
+  question is `identity` — the entire two-book
+  passing-and-recognition plot is the question of who
+  is the real Florimell. Knowability is `present`
+  because the text repeatedly engages whether the
+  double can be told from the original. Knowing
+  `absent`: the false one does not see anyone.
+  Creator_relationship `servile`. Presentation
+  `feminine`. Tag `passing` applies in the modern
+  corpus sense.

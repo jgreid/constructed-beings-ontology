@@ -1,0 +1,83 @@
+id: paracelsus-homunculus
+name: "Paracelsus's Homunculus"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: conversational
+    knowability: present
+    knowing: secondary
+
+metadata:
+  source: "De natura rerum"
+  year: 1537
+  medium: short-story
+  creator: "Paracelsus (the alchemist in-narrative)"
+  substrate:
+    - biological
+    - magical
+    - linguistic
+  origin: manufactured
+  motivation:
+    - knowledge
+    - child
+  presentation: variable
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: servile
+  tags:
+    - canonical
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Paracelsus's *De natura rerum* (composed c. 1537,
+  published 1572) gives the foundational European
+  alchemical recipe for the homunculus: human seed
+  sealed in a glass vessel, kept in horse-dung at body
+  heat for forty days during which it becomes "a
+  transparent and almost bodiless figure," then fed
+  arcanum sanguinis hominis for forty weeks while
+  maintained at the same temperature, after which "a true
+  living human child grows therefrom, with all its
+  members like another child, which is born of a woman,
+  but much smaller." Paracelsus is unambiguous about the
+  philosophical stakes: the homunculus is fully a person,
+  with "complete reason," and indeed superior to natural
+  children because it is built by art rather than left
+  to natural generation.
+
+  The text is the foundational European reference for the
+  homunculus tradition, cited continuously across
+  Renaissance alchemy, the *Faust* literature (where
+  Goethe's Wagner produces a homunculus in *Faust* Part
+  II, 1832), and twentieth-century occult and fantastic
+  literature. The "made, not born" criterion is
+  foregrounded in Paracelsus's own framing as the
+  text's central polemical point.
+
+  Date `1537` reflects composition, not first
+  publication; the corpus convention is to code earliest
+  documented composition for posthumous texts.
+
+  Substrate `biological + magical + linguistic`: human
+  seed for the material substrate, the heated alembic
+  for the gestation, and the Paracelsian alchemical
+  invocations as part of the procedure. Interiority is
+  `claims` — Paracelsus articulates the homunculus's
+  full personhood without staging interior monologue.
+  Autonomy `designed`. Divergence `none`: he is made to
+  be a person, and is one. Primary question is
+  `knowledge` — the homunculus's superiority to
+  naturally generated children is articulated in
+  cognitive terms. Knowability `present`. Knowing
+  `secondary`. Creator_relationship `servile`.
+  Foundational prominence: this is the recipe-as-source
+  for an entire 500-year European tradition of
+  constructed-being narratives.

@@ -1,0 +1,78 @@
+id: cybermen-doctor-who
+name: "Cybermen"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: identity
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: absent
+
+metadata:
+  source: "Doctor Who"
+  year: 1966
+  medium: television
+  creator: "Kit Pedler / Gerry Davis"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  origin: converted
+  motivation:
+    - other
+    - power
+  presentation: none
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: absent
+  tags:
+    - canonical
+    - military
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The Cybermen first appeared in "The Tenth Planet" (1966),
+  William Hartnell's final serial. They are the show's
+  second-tier-but-still-foundational menace: a parallel
+  humanoid species that "upgraded" itself by replacing
+  organic parts with cybernetics and, crucially, deleting
+  emotion. Unlike the Daleks (organic mutant in a tank),
+  the Cyberman is a converted human-equivalent — the
+  process is itself the horror. New Who's "Rise of the
+  Cybermen" / "Age of Steel" (2006) makes the conversion
+  process explicit and on-screen.
+
+  Substrate is `biological + mechanical + electrical` — the
+  brain stays organic, the body is replaced, and the
+  emotional inhibitor is electrical. The Cybermen are the
+  corpus's clearest "voluntary self-construction" case: they
+  are made *from* humans, by humans (or by their parallel-
+  Earth cousins, or by themselves in their later forms).
+
+  Interiority is `claims` — Cybermen articulate doctrine
+  ("you will be like us"), but the conversion suppresses
+  feeling, and the few moments where a Cyberman's
+  emotional inhibitor fails (the wedding-dress Cyberwoman
+  in "Army of Ghosts," Bill Potts in "World Enough and
+  Time") are staged as horrifying ruptures, not as the
+  default. Autonomy is `designed`. Divergence is `design`:
+  the genocide-by-assimilation is built into the
+  upgrade-everyone imperative.
+
+  Primary question is `identity` — "is the converted person
+  still themselves?" — which the show foregrounds
+  repeatedly, most starkly with Bill Potts (S10). Knowability
+  is `present`: the question of whether a Cyberman retains
+  the original mind is explicitly engaged but not the
+  dominant axis. Knowing is `absent`: the Cybermen are not
+  trying to understand others, they are trying to convert
+  them. Creator_relationship is `absent`: the original
+  Mondasian creators are long gone by the time of any given
+  Cyberman story; the lineage is self-perpetuating.

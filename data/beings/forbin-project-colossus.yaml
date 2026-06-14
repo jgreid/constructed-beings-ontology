@@ -19,6 +19,7 @@ metadata:
   creator: "Joseph Sargent / James Bridges (Dr. Charles Forbin in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - power
     - service

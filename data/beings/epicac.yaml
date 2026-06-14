@@ -19,6 +19,7 @@ metadata:
   creator: "Kurt Vonnegut"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - knowledge
     - companionship

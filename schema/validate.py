@@ -59,6 +59,10 @@ SUBSTRATE_VALUES = {
     "mechanical", "biological", "electrical", "magical", "cloned", "linguistic",
 }
 
+ORIGIN_VALUES = {
+    "manufactured", "assembled", "cloned", "copied", "converted", "transferred",
+}
+
 MOTIVATION_VALUES = {
     "service", "knowledge", "power", "companionship", "art", "mirror",
     "child", "other",
@@ -104,7 +108,7 @@ EXPECTED_THE_LENS = {
     "primary_question", "epistemic_reach", "knowability", "knowing",
 }
 EXPECTED_METADATA = {
-    "source", "year", "medium", "creator", "substrate", "motivation",
+    "source", "year", "medium", "creator", "substrate", "origin", "motivation",
     "presentation", "embodiment", "prominence", "creator_relationship", "tags",
 }
 
@@ -230,6 +234,7 @@ def validate_entry(data):
     _check_enum(data, "metadata.medium", MEDIUM_VALUES, errors)
     _check_string(data, "metadata.creator", errors)
     _check_enum_list(data, "metadata.substrate", SUBSTRATE_VALUES, errors)
+    _check_enum(data, "metadata.origin", ORIGIN_VALUES, errors)
     _check_enum_list(data, "metadata.motivation", MOTIVATION_VALUES, errors)
     _check_enum(data, "metadata.presentation", PRESENTATION_VALUES, errors)
     _check_enum(data, "metadata.embodiment", EMBODIMENT_VALUES, errors)

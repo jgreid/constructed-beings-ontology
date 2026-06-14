@@ -19,6 +19,7 @@ metadata:
   creator: "Mary Shelley (Victor Frankenstein in-narrative)"
   substrate:
     - biological
+  origin: assembled
   motivation:
     - knowledge
     - child

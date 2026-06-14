@@ -19,6 +19,7 @@ metadata:
   creator: "Jacques Offenbach / Jules Barbier (Spalanzani and Coppélius in-narrative)"
   substrate:
     - mechanical
+  origin: manufactured
   motivation:
     - art
     - mirror

@@ -1,0 +1,75 @@
+id: walter-ryder-twilight-zone
+name: "Alan Talbot"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "The Twilight Zone: In His Image"
+  year: 1963
+  medium: television
+  creator: "Charles Beaumont"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - mirror
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: resentful
+  tags:
+    - philosophical
+    - creator-conflict
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Alan Talbot is the android protagonist of *The Twilight
+  Zone* S4E1 "In His Image" (January 3, 1963), the
+  hour-long premiere of the show's experimental fourth
+  season. Alan returns to his hometown to introduce his
+  fiancée Jessica to his Aunt Mildred — except no one
+  remembers him, the woman he calls Aunt Mildred is
+  someone else, and his memories of his childhood town
+  don't match the actual town. The episode reveals that
+  Alan is the android double of Walter Ryder Jr., a
+  reclusive scientist who built him as an idealized
+  version of himself; Walter's memories were imperfectly
+  copied into Alan's brain.
+
+  The premise is one of the corpus's clearest pre-Blade
+  Runner "implanted memories" treatments and one of the
+  earliest TV stagings of `knowability` at primary
+  salience — the episode IS Alan working out, in real
+  time, what he is.
+
+  Substrate `biological + mechanical + electrical`: the
+  episode treats Alan as part biological humanoid with a
+  partially mechanical brain. Interiority is
+  `demonstrated`. Autonomy is `seized`. Divergence is
+  `departure` — Walter wanted a better self, but Alan
+  becomes a separate person who is in love with Jessica
+  and confronts his maker about that.
+
+  Primary question is `identity`. Knowability is
+  `primary`. Knowing `present`. Creator_relationship
+  `resentful` — Alan's final confrontation with Walter
+  is framed as an Oedipal scene. In some prints of the
+  episode, Alan kills Walter and takes his place,
+  making the patricide explicit; in others, Walter
+  survives. The corpus codes for the more frequently
+  broadcast reading.

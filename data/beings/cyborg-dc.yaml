@@ -1,0 +1,66 @@
+id: cyborg-dc
+name: "Cyborg (Victor Stone)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "DC Comics Presents #26"
+  year: 1980
+  medium: comics
+  creator: "Marv Wolfman / George Pérez (Silas Stone in-narrative)"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  origin: converted
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: resentful
+  tags:
+    - canonical
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Victor Stone first appeared as a preview in *DC Comics
+  Presents* #26 (1980) and became a foundational member of
+  the New Teen Titans (1980 onward). After a S.T.A.R. Labs
+  experiment kills his mother and devastates his body, his
+  father Silas Stone rebuilds him with extensive
+  cybernetics — the procedure saves his life and replaces
+  most of his body. The Cyborg character is canonically
+  framed as a forced reconstruction by a father whose
+  scientific ambitions caused the injury; the dad/son
+  resentment is the through-line of the character.
+
+  Promoted to Justice League core membership in the New 52
+  (2011), giving him the franchise prominence of Wonder
+  Woman / Flash / Batman tier. The Snyder-cut *Justice
+  League* (2021) and the *Doom Patrol* TV series make the
+  father-conflict the explicit emotional axis.
+
+  Interiority is `demonstrated` across forty-plus years of
+  comics and screen adaptations. Autonomy is `seized` —
+  Victor's heroism is his choice, not his father's
+  design; the rebuild was salvation, but the life is his.
+  Divergence is `departure` — Silas built life support and
+  got a superhero. Primary question is `identity` — "what
+  am I now, am I still Vic, am I a person or a weapon" is
+  the canonical Cyborg interior monologue. Knowability and
+  knowing both `present`. Creator_relationship `resentful`
+  — Cyborg's relationship with Silas is the defining
+  parent-child friction of the character.

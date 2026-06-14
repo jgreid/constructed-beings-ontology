@@ -1,0 +1,63 @@
+id: replicators-stargate
+name: "Replicators"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Stargate SG-1"
+  year: 1999
+  medium: television
+  creator: "Brad Wright / Jonathan Glassner (Reese in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - other
+    - power
+  presentation: none
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - military
+    - horror
+
+sequel_link: reese-stargate
+link_type: successor
+
+notes: |
+  The Replicators are *Stargate SG-1*'s recurring
+  antagonist from S3's "Nemesis" (1999) onward — modular
+  self-assembling spider-like blocks that consume any
+  available technology to make more of themselves. They
+  are uninterested in negotiation, immune to most
+  weapons, and the show's main galaxy-scale existential
+  threat for several seasons until they are exterminated
+  in S8.
+
+  Coded as `successor` to `reese-stargate` (Reese is the
+  android child who originally created them as toys in
+  "Menace," S5). Substrate `mechanical + electrical`.
+  Interiority `none` — block-Replicators are pure
+  proliferation. (The later humanoid Replicators, briefly
+  led by "Fifth," approach `claims` interiority; for the
+  ensemble entry we code the modal Replicator.)
+
+  Autonomy is `seized` — Reese built them as toys and
+  they have proliferated beyond any control. Divergence
+  is `departure`: the toys became a galactic plague.
+  Primary question is `control` — every Replicator
+  episode is "can SG-1 stop them this time." Knowability
+  and knowing both `absent`. Creator_relationship
+  `rebellious` — the Replicators are explicitly out from
+  under Reese's child-level authority.

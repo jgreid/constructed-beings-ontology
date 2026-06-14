@@ -1,0 +1,69 @@
+id: boomer-bsg
+name: "Sharon \"Boomer\" Valerii"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: secondary
+
+metadata:
+  source: "Battlestar Galactica (reimagined)"
+  year: 2003
+  medium: television
+  creator: "Ronald D. Moore"
+  substrate:
+    - biological
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+    - other
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - passing
+    - ensemble-split
+    - philosophical
+
+sequel_link: cylons-bsg
+link_type: successor
+
+notes: |
+  Sharon "Boomer" Valerii is the original Sharon model in
+  the reimagined *Battlestar Galactica* (Miniseries 2003,
+  series 2004–2009): a sleeper-agent Cylon who didn't
+  know she was a Cylon, raised as a Caprican-born
+  Galactica pilot. The "I'm a Cylon" reveal in her shower
+  in the Miniseries is one of the show's foundational
+  moments, and her sleeper-arc shooting of Adama in S1
+  finale was a defining cliffhanger of mid-2000s
+  serialized television.
+
+  `ensemble-split` from `cylons-bsg`. Boomer's card
+  diverges from both the general Cylon entry and from her
+  later-introduced "sister" Athena (Sharon Agathon, the
+  parallel Sharon-model who chose differently). Boomer is
+  the Cylon who keeps choosing the Cylon side; Athena is
+  the one who marries Helo. The duplicate-Sharon dyad is
+  one of the show's most-discussed identity puzzles.
+
+  Substrate `biological + electrical`. Interiority is
+  `demonstrated`. Autonomy is `seized` — even her
+  programmed actions are framed as her own as the show
+  unfolds. Divergence is `departure` — sleeper agent
+  configuration broken when she discovers what she is.
+  Primary question is `identity`. Knowability `primary` —
+  the show is structurally about whether Boomer is the
+  pilot or the Cylon. Knowing `secondary`. Creator_
+  relationship `rebellious` — she keeps the Cylon
+  allegiance but does not perform it cleanly; her
+  rebellions are against everyone in turn.

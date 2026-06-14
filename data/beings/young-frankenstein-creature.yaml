@@ -1,0 +1,70 @@
+id: young-frankenstein-creature
+name: "The Monster (Boyle)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Young Frankenstein"
+  year: 1974
+  medium: film
+  creator: "Mel Brooks (Dr. Frederick Frankenstein in-narrative)"
+  substrate:
+    - biological
+  origin: assembled
+  motivation:
+    - knowledge
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - comedy
+    - love-story
+
+sequel_link: frankenstein-creature
+link_type: adaptation
+
+notes: |
+  Peter Boyle's Monster in Mel Brooks's *Young
+  Frankenstein* (1974). The film is the canonical comic
+  Frankenstein, structured as both pastiche of the
+  Whale-Karloff 1931–1939 Universal films and parody of
+  the whole tradition. Frederick Frankenstein (Gene
+  Wilder), grandson of the original Victor and
+  initially in denial about the family vocation,
+  eventually completes the great work — and crucially,
+  in the third act, transfers a portion of his own
+  intellect into the Monster so that they each have
+  half, leaving the Monster articulate and Frederick
+  somewhat dimmer.
+
+  Distinctive card: the third-act transfer means this
+  Monster ends the film as a fully verbal, well-read
+  reader of literature (notably reading the *Wall Street
+  Journal* in his pajamas in the final scene), which
+  is the corpus's only "constructed monster ends up
+  more intelligent than his creator" case.
+
+  Substrate `biological`. Interiority is `demonstrated`.
+  Autonomy is `seized` (he claims the relationship
+  with the bride-of-Frankenstein figure on his own
+  terms, then negotiates his peace with Frederick).
+  Divergence is `departure`. Primary question is
+  `identity` — the brain-transfer makes the identity
+  question the central comic conceit.
+
+  Knowability and knowing both `present`. Creator_
+  relationship `loyal` — the resolution is a peaceable
+  partnership between Frederick and the Monster, the
+  inversion of the original Shelley arc.

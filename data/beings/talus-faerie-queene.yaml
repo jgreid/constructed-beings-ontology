@@ -1,0 +1,69 @@
+id: talus-faerie-queene
+name: "Talus"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "The Faerie Queene, Book V"
+  year: 1596
+  medium: poem
+  creator: "Edmund Spenser (the goddess Astraea in-narrative)"
+  substrate:
+    - mechanical
+    - magical
+  origin: manufactured
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: servile
+  tags:
+    - canonical
+    - military
+
+sequel_link: talos
+link_type: successor
+
+notes: |
+  Talus is the iron groom of Sir Artegall, the Knight of
+  Justice, in Edmund Spenser's *The Faerie Queene* Book
+  V (1596). Spenser explicitly identifies him as a
+  descendant of the Argonautica's Talos (see `talos`):
+  "an yron man… Immoueable, resistlesse, without end. /
+  Who in his hand an yron flale did hould, / With which
+  he thresht out falshood, and did truth vnfould" (FQ
+  V.i.12). Astraea, the goddess of Justice, gave him to
+  Artegall before her withdrawal from the human world.
+
+  Talus is the most narratively developed pre-1800
+  constructed being in the corpus aside from Pandora,
+  Galatea, and Frankenstein-precursors. He executes
+  Artegall's judgments through pursuit and dispatch:
+  notably suppressing the rebellion of the Egalitarian
+  Giant (V.ii.49–54), butchering Pollente's daughter
+  Munera (V.ii.27), and pacifying the Irish rebels in
+  the Book's later allegorical-imperial cantos. The
+  thresher metaphor — Talus separating wheat from chaff
+  — is the corpus's earliest sustained Christian-imperial
+  use of the constructed-being-as-instrument-of-state-
+  violence template.
+
+  Coded as `successor` to the Argonautica's `talos`.
+  Substrate `mechanical + magical`: iron body and flail,
+  no detailed mechanism. Interiority `none`. Autonomy
+  `designed`. Divergence `none`. Primary question
+  `none` — Book V poses no question about Talus, only
+  about Artegall's use of him. Knowability and knowing
+  both `absent`. Creator_relationship `servile`.
+  Foundational entry for the corpus's "instrument of
+  imperial justice" lineage.

@@ -1,0 +1,67 @@
+id: cyborg-superman
+name: "Cyborg Superman (Hank Henshaw)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: secondary
+
+metadata:
+  source: "The Adventures of Superman #466"
+  year: 1990
+  medium: comics
+  creator: "Dan Jurgens"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  origin: transferred
+  motivation:
+    - power
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - creator-conflict
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Hank Henshaw, introduced in *Adventures of Superman* #466
+  (1990), is a Fantastic Four-pastiche scientist whose
+  body dissolves after a cosmic-ray exposure incident. His
+  consciousness reconstitutes itself in Kryptonian birthing
+  matrix technology and electronic substrates, leaving him
+  as a digital pattern that can repossess machinery. In
+  "Reign of the Supermen" (1993) — the post-"Death of
+  Superman" arc — he poses as a returned Superman built
+  from a cyborg amalgam of Kryptonian biotech and human
+  remains, and uses that platform to destroy Coast City.
+
+  Substrate `biological + mechanical + electrical`
+  captures the corpse-and-machine recursion: he is the
+  pattern, riding through whatever bodies he can build.
+  Interiority is `demonstrated` — Henshaw articulates his
+  bitterness, his hatred of Superman whom he blames for his
+  family's death, his vendetta. Autonomy is `seized`:
+  whatever he is now, he is acting on his own goals.
+  Divergence is `departure` — there is no "creator"
+  scientist who built the cyborg form; Henshaw constructed
+  himself from available biotech and never returned.
+
+  Primary question is `identity` — the core horror is "is
+  this Hank Henshaw, or is it the Superman he is
+  pretending to be." Knowability `present`. Knowing
+  `secondary`. Creator_relationship `absent` — Henshaw has
+  no maker in any meaningful sense after the initial
+  accident.

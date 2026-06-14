@@ -1,0 +1,67 @@
+id: casey-twilight-zone
+name: "Casey"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: conversational
+    knowability: present
+    knowing: absent
+
+metadata:
+  source: "The Twilight Zone: The Mighty Casey"
+  year: 1960
+  medium: television
+  creator: "Rod Serling"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - comedy
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Casey is the robot pitcher of *The Twilight Zone* S1E35
+  "The Mighty Casey" (June 17, 1960). Built by the
+  scientist Dr. Stillman to throw the perfect game, Casey
+  is signed by the last-place Hoboken Zephyrs and
+  immediately pitches the team to the top of the
+  standings. The league discovers Casey is a robot; the
+  manager improvises by claiming Casey has a heart, and
+  Stillman installs one. The heart gives Casey
+  compassion, and Casey can no longer strike out human
+  batters because he can see their disappointment.
+
+  The episode is the Twilight Zone's clearest staging of
+  the question "should a constructed being be considered
+  a legal person for the purposes of professional
+  baseball." It is also a sharp early treatment of the
+  affection / capability trade-off — Casey is either a
+  perfect athlete with no interior or a feeling person
+  who is no longer good at his job. The episode picks
+  the second.
+
+  Substrate `mechanical + electrical`. Interiority is
+  `demonstrated` after the heart installation. Autonomy
+  is `emergent`. Divergence is `departure` — Stillman
+  built a baseball machine and ended up with a
+  Schweitzerian gentle person who can't bring himself
+  to strike anyone out. Primary question is `rights` —
+  the rules question is the plot's structural axis.
+  Knowability `present`. Knowing `absent`. Creator_
+  relationship `loyal` — Casey works alongside Stillman
+  as collaborator after the heart is installed.

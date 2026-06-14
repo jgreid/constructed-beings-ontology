@@ -1,0 +1,62 @@
+id: mazinger-z
+name: "Mazinger Z"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: none
+    divergence: none
+  the_lens:
+    primary_question: control
+    epistemic_reach: none
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Mazinger Z"
+  year: 1972
+  medium: comics
+  creator: "Go Nagai (Juzo Kabuto in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+    - power
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: servile
+  tags:
+    - canonical
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Go Nagai's *Mazinger Z* (manga 1972; anime same year)
+  is the bridge between Tetsujin 28's remote-controlled
+  mech and the modern "pilot inside" super-robot genre.
+  Mazinger Z is built by Dr. Juzo Kabuto from "japanium,"
+  a fictional alloy mined from Mount Fuji, and piloted
+  from a cockpit in the head by Kouji Kabuto, Juzo's
+  grandson. The pilot configuration is foundational: it
+  is the model for Gundam (1979), Macross (1982),
+  Evangelion (1995), and every "kid pilots a giant
+  robot" anime since.
+
+  Even with a pilot inside, Mazinger Z himself has no
+  interiority — he's a hardware platform that obeys
+  Kouji's stick inputs. The corpus codes him by
+  controller/control axis: interiority `none`, autonomy
+  `none`, divergence `none`. Primary question `control`
+  — every weekly episode is whether Kouji can win this
+  week's mech-vs-mech fight, with Dr. Hell's mechanical
+  monsters as the antagonists.
+
+  Substrate `mechanical + electrical`. Foundational
+  prominence — the modern super-robot genre is the
+  Mazinger Z lineage. The character itself is among the
+  most iconic single mech designs of the 20th century.

@@ -19,6 +19,7 @@ metadata:
   creator: "Nick Dear (after Mary Shelley)"
   substrate:
     - biological
+  origin: assembled
   motivation:
     - knowledge
     - companionship

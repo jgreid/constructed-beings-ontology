@@ -1,0 +1,60 @@
+id: slave-blakes-7
+name: "Slave"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Blake's 7"
+  year: 1980
+  medium: television
+  creator: "Terry Nation"
+  substrate:
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: disembodied
+  prominence: minor
+  creator_relationship: servile
+  tags:
+    - comedy
+    - canonical
+
+sequel_link: zen-blakes-7
+link_type: successor
+
+notes: |
+  Slave is the ship computer of the *Scorpio*, the second
+  ship Avon's crew uses after the destruction of the
+  *Liberator*, introduced in *Blake's 7* S4 (1981). The
+  show's third ship-AI character after `zen-blakes-7` and
+  `orac-blakes-7`. Slave's defining trait is his
+  obsequiousness — every utterance addressed to Avon
+  begins with "Master, oh master" — a piece of social
+  comedy that consistently played as a contrast to Orac's
+  haughty pedantry and Zen's deadpan formality. The
+  joke is that the *Scorpio*'s designers built Slave to
+  flatter its owner because the owner was an arms dealer
+  who liked being flattered.
+
+  Coded `successor` to `zen-blakes-7`. Substrate
+  `electrical`. Embodiment `disembodied` (the ship's
+  speaker system, with brief panel displays).
+  Interiority `claims`. Autonomy `designed`. Divergence
+  `none`. Primary question `none`: the show is not
+  interested in Slave's interior. Knowability and
+  knowing both `absent`.
+
+  Minor prominence but included for the corpus's coverage
+  of British TV ship-AI lineages. The trio Zen / Orac /
+  Slave is the formula's classic-era reference set.

@@ -1,0 +1,64 @@
+id: movellans-doctor-who
+name: "The Movellans"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: control
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Doctor Who: Destiny of the Daleks"
+  year: 1979
+  medium: television
+  creator: "Terry Nation"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+    - power
+  presentation: variable
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: absent
+  tags:
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The Movellans are the robotic adversaries of the Daleks
+  in *Doctor Who*: "Destiny of the Daleks" (1979). A
+  galactic war between the two races has stalemated
+  because both sides' battle computers always reach the
+  same tactical conclusions; both factions are seeking
+  out Davros to break the deadlock with an irrational
+  strategic advantage. The episode is one of the
+  classic-era's clearest "two equally rigid AI armies"
+  Cold War parables.
+
+  Visually distinctive — silver-uniformed humanoid
+  androids with white braided hair — and a notable
+  inversion of the corpus's normal "robots oppose
+  organic protagonists" pattern: here, robots oppose
+  cyborg-organic Daleks. They sit in the corpus
+  alongside `daleks-doctor-who` as that arc's
+  contrast antagonist, but no formal `sequel_link` is
+  set because the relationship is rivalry, not
+  derivation.
+
+  Substrate `mechanical + electrical`. Interiority
+  `claims`. Autonomy `designed` (the joke of the
+  episode is that they cannot break their own
+  programming). Divergence `none`. Primary question
+  `control`. Knowability and knowing both `absent`.
+  Creator_relationship `absent` — their original
+  designers are not characters in the show.

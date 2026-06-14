@@ -20,6 +20,7 @@ metadata:
   substrate:
     - electrical
     - magical
+  origin: manufactured
   motivation:
     - companionship
     - mirror

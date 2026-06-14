@@ -19,6 +19,7 @@ metadata:
   creator: "John Badham / Lawrence Lasker / Walter F. Parkes (Dr. Stephen Falken in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - knowledge

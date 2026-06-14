@@ -1,0 +1,72 @@
+id: tin-woodman-oz
+name: "The Tin Woodman (Nick Chopper)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "The Tin Woodman of Oz"
+  year: 1918
+  medium: novel
+  creator: "L. Frank Baum (Ku-Klip in-narrative)"
+  substrate:
+    - mechanical
+    - magical
+  origin: manufactured
+  motivation:
+    - service
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: absent
+  tags:
+    - canonical
+    - love-story
+    - philosophical
+
+sequel_link: scarecrow-oz
+link_type: successor
+
+notes: |
+  The Tin Woodman first appeared in *The Wonderful Wizard
+  of Oz* (1900) — a Munchkin woodcutter named Nick
+  Chopper who, under a witch's enchantment, repeatedly
+  chopped off his own limbs and had them replaced with
+  tin by the tinsmith Ku-Klip, until eventually no part
+  of him was organic. The corpus coding focuses on *The
+  Tin Woodman of Oz* (1918), Baum's later novel that
+  treats the Tin Woodman as fully a constructed being:
+  he meets Chopfyt, another being assembled by Ku-Klip
+  from his discarded organic parts plus those of a
+  companion soldier who underwent a similar enchantment.
+
+  The 1918 novel resolves the boundary case the corpus
+  previously gave as the reason for excluding the Tin
+  Woodman from `scarecrow-oz`'s entry. Once Ku-Klip
+  reveals the entire process, the Tin Woodman is
+  unambiguously a being whose substrate is tin animated
+  by Ozian magic, with no remaining organic substrate;
+  the original Nick Chopper is, by the book's argument,
+  effectively a different being.
+
+  Substrate `mechanical + magical` (tin body, Ozian
+  animation). Interiority is `demonstrated`. Autonomy
+  is `seized`: by the 1918 novel he is an active agent
+  with his own decisions, ruling as Emperor of the
+  Winkies. Divergence is `departure`. Primary question
+  is `identity` — Chopfyt's existence puts the question
+  explicitly: which is Nick Chopper, the tin Emperor
+  or the assembled organic? Knowability and knowing
+  both `present`. Creator_relationship `absent` —
+  Ku-Klip is a tradesman who did the work, not a
+  guardian or parent figure; the Tin Woodman has no
+  ongoing relationship with him.

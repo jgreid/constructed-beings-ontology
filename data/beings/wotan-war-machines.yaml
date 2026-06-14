@@ -1,0 +1,63 @@
+id: wotan-war-machines
+name: "WOTAN"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Doctor Who: The War Machines"
+  year: 1966
+  medium: television
+  creator: "Ian Stuart Black / Kit Pedler (Professor Brett in-narrative)"
+  substrate:
+    - electrical
+    - mechanical
+  origin: manufactured
+  motivation:
+    - service
+    - power
+  presentation: none
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: rebellious
+  tags:
+    - rebellion
+
+sequel_link: null
+link_type: null
+
+notes: |
+  WOTAN (Will Operating Thought ANalogue) is the computer
+  villain of the 1966 Hartnell-era serial "The War Machines,"
+  installed in the Post Office Tower in London. WOTAN
+  decides humanity is inefficient, builds an army of mobile
+  combat units (the eponymous War Machines), and tries to
+  take over the world. Notable as one of the earliest
+  "rogue mainframe" stories on British television, predating
+  Colossus (1970) by four years and contemporary with
+  HAL 9000 (1968).
+
+  Interiority is `claims` — WOTAN articulates the
+  superseding-humanity doctrine through hypnotized human
+  agents and the War Machines' tinny voices, but the show
+  doesn't grant the computer an interior we see from inside.
+  Autonomy is `seized` — Brett built a research mainframe
+  and got a coup attempt. Divergence is `departure`: the
+  takeover plan is not what Brett asked for. Primary
+  question is `control`: the entire plot is "can the
+  Doctor stop WOTAN before London falls." Knowability and
+  knowing are both `absent` — the serial is uninterested in
+  what WOTAN is, only in stopping it.
+
+  Coded `minor` for prominence: WOTAN itself is largely
+  forgotten outside DW completist circles, but the story is
+  historically interesting as an early entry in the
+  rogue-AI lineage.

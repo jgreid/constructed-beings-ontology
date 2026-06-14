@@ -1,0 +1,66 @@
+id: athena-bsg
+name: "Sharon \"Athena\" Agathon"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Battlestar Galactica (reimagined)"
+  year: 2004
+  medium: television
+  creator: "Ronald D. Moore"
+  substrate:
+    - biological
+    - electrical
+  origin: manufactured
+  motivation:
+    - companionship
+    - service
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - love-story
+    - passing
+    - ensemble-split
+
+sequel_link: cylons-bsg
+link_type: successor
+
+notes: |
+  Sharon "Athena" Agathon is the second-introduced Sharon-
+  model: the Cylon who falls in love with Karl "Helo"
+  Agathon on the surface of Caprica after the holocaust,
+  conceives Hera Agathon (the first human-Cylon hybrid
+  child), and chooses to join the human side. The
+  parallel-Sharon dyad with Boomer is the BSG ensemble's
+  cleanest "identity is not biology" through-line.
+
+  `ensemble-split` from `cylons-bsg`. The split is
+  warranted because Athena's primary question is
+  `affection` (the marriage and motherhood arc), while
+  Boomer's is `identity` (the sleeper-agent self-
+  discovery) and the general Cylon entry's is
+  `affection` collectively framed but coded more as
+  `mirror`. Athena's card sits cleanly apart.
+
+  Substrate `biological + electrical`. Interiority is
+  `demonstrated`. Autonomy is `seized`: her decision to
+  defect to the humans is the most clearly self-
+  authored choice among the Cylon ensemble. Divergence
+  is `departure`. Primary question is `affection`.
+  Knowability and knowing both `primary`: Athena's
+  loyalty test in the rape sequence (S2) and her
+  recognition of Hera as her child are paradigm
+  episodes of both axes. Creator_relationship
+  `rebellious` — she takes the human side.

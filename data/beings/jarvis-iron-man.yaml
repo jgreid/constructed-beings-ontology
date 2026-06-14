@@ -19,6 +19,7 @@ metadata:
   creator: "Jon Favreau (Tony Stark in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - companionship

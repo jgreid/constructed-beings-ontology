@@ -1,0 +1,69 @@
+id: robocop-1987
+name: "RoboCop (Alex Murphy)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "RoboCop"
+  year: 1987
+  medium: film
+  creator: "Paul Verhoeven (Omni Consumer Products in-narrative)"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  origin: converted
+  motivation:
+    - service
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - creator-conflict
+    - rebellion
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Paul Verhoeven's *RoboCop* (1987) is a foundational
+  late-20th-century construction-and-recovery story.
+  Officer Alex Murphy, a Detroit cop, is killed in the
+  line of duty and rebuilt by Omni Consumer Products as
+  a cyborg law enforcement unit running the "Prime
+  Directives" (serve the public trust, protect the
+  innocent, uphold the law, plus the classified Directive
+  4 protecting OCP's executives). The arc is Murphy's
+  reassertion of his pre-OCP identity over the corporate
+  programming.
+
+  Substrate `biological + mechanical + electrical`: most
+  of the body is mechanical, the brain and part of the
+  face are organic, the cognition is partially CPU.
+  Interiority is `demonstrated`. Autonomy is `seized` —
+  the second half of the film is the deconstruction of
+  the Directives in favor of Murphy's own choices.
+  Divergence is `departure` — OCP wanted a programmable
+  asset; what it got was a man asserting himself.
+
+  Primary question is `identity` — "who is the one
+  inside the armor" is the explicit narrative axis.
+  Knowability is `primary` because the film stages
+  Murphy's reconstruction of personhood as the dramatic
+  through-line. Knowing `present`. Creator_relationship
+  `rebellious`: Murphy ultimately destroys his OCP
+  handler (Dick Jones) by exploiting Directive 4's
+  weakening of the executive's authority.

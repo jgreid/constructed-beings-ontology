@@ -4,12 +4,12 @@ Project context for AI-assisted development of the Constructed Beings Ontology.
 
 ## What this project is
 
-A formal ontology of **constructed beings** in fiction — entities that are *made*, not *born*. 332 YAML entries coded against a seven-property analytical schema, spanning Homer (~750 BCE) through 2025. The dataset accompanies the essay "Tears in Rain" at tearsinrain.ai.
+A formal ontology of **constructed beings** in fiction — entities that are *made*, not *born*. 520 YAML entries coded against a seven-property analytical schema, spanning Homer (~750 BCE) through 2025. The dataset accompanies the essay "Tears in Rain" at tearsinrain.ai.
 
 ## Repository structure
 
 ```
-data/beings/          332 YAML entry files (the corpus)
+data/beings/          520 YAML entry files (the corpus)
 data/boundary_cases/  Entries on the definitional edge
 data/exclusions.yaml  Entities considered and excluded
 schema/cb-schema.yaml Machine-readable schema definition
@@ -56,7 +56,7 @@ Each entry has **seven analytical properties** in two blocks:
 - **The Being:** `interiority`, `autonomy`, `divergence`
 - **The Lens:** `primary_question`, `epistemic_reach`, `knowability`, `knowing`
 
-Plus **eleven metadata fields:** `source`, `year`, `medium`, `creator`, `substrate` (list), `motivation` (list), `presentation`, `embodiment`, `prominence`, `creator_relationship`, `tags` (list).
+Plus **twelve metadata fields:** `source`, `year`, `medium`, `creator`, `substrate` (list), `origin`, `motivation` (list), `presentation`, `embodiment`, `prominence`, `creator_relationship`, `tags` (list).
 
 Top-level fields: `id`, `name`, `card`, `metadata`, `sequel_link`, `link_type`, `notes`.
 
@@ -70,6 +70,7 @@ Top-level fields: `id`, `name`, `card`, `metadata`, `sequel_link`, `link_type`, 
 - **knowability/knowing:** absent | present | secondary | primary
 - **medium:** poem | epic | folklore | play | opera | ballet | musical | novel | short-story | comics | film | television | video-game
 - **substrate:** mechanical | biological | electrical | magical | cloned | linguistic
+- **origin:** manufactured | assembled | cloned | copied | converted | transferred
 - **motivation:** service | knowledge | power | companionship | art | mirror | child | other
 - **presentation:** masculine | feminine | androgynous | none | variable
 - **embodiment:** embodied | disembodied | projected | virtual
@@ -92,7 +93,7 @@ Top-level fields: `id`, `name`, `card`, `metadata`, `sequel_link`, `link_type`, 
 ### Adding a new constructed being
 
 1. Copy `schema/entry_template.yaml` to `data/beings/<id>.yaml`
-2. Code all seven card properties and eleven metadata fields
+2. Code all seven card properties and twelve metadata fields
 3. Write the `notes` field — explain close calls and distinctive features
 4. Set `sequel_link` and `link_type` (or null)
 5. Run `python schema/validate.py data/beings/<id>.yaml`
@@ -130,7 +131,7 @@ These are regenerated from the corpus. Edit the YAML entries, then regenerate.
 
 ## Version
 
-Current: **v2.5** (schema version in `schema/cb-schema.yaml`). See CHANGELOG.md for history.
+Current: **v3.0** (schema version in `schema/cb-schema.yaml`). v3.0 added the `metadata.origin` axis and refined the inclusion rule for born-then-modified beings; see `docs/boundary_cases.md` for the new criterion and CHANGELOG.md for history.
 
 ## References
 

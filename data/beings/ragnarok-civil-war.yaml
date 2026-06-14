@@ -21,6 +21,7 @@ metadata:
     - cloned
     - mechanical
     - electrical
+  origin: manufactured
   motivation:
     - power
     - service

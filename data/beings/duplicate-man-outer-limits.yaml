@@ -1,0 +1,64 @@
+id: duplicate-man-outer-limits
+name: "Duplicate Henderson James"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "The Outer Limits: The Duplicate Man"
+  year: 1964
+  medium: television
+  creator: "Robert C. Dennis"
+  substrate:
+    - biological
+    - cloned
+  origin: manufactured
+  motivation:
+    - service
+    - mirror
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - philosophical
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *The Outer Limits* S2E13 "The Duplicate Man" (December
+  19, 1964), based on Clifford D. Simak's short story
+  "Goodnight, Mr. James" (1951). Wealthy zoologist
+  Henderson James creates a duplicate of himself using
+  forbidden duplication technology to hunt an alien
+  fugitive. The duplicate, programmed for the mission
+  and slated for termination at task completion,
+  discovers his own situation and confronts the
+  original about which of them deserves to live.
+
+  The episode is one of the earliest American TV
+  treatments of the corpus's full-fledged "clone with
+  memory transfer wants to live too" arc, ancestor to
+  Kubrick/Spielberg's *A.I.*, the *Westworld* hosts,
+  *Cloud Atlas*'s Sonmi, and Mickey 17 (`mickey-17`,
+  2025). Simak's source story is itself a clean early
+  treatment of the type.
+
+  Substrate `biological + cloned`. Interiority is
+  `demonstrated`. Autonomy is `emergent` — the duplicate
+  exceeds the mission program. Divergence is
+  `departure`. Primary question is `identity` — which
+  is the real Henderson James, by what criterion.
+  Knowability is `primary` — the episode IS the
+  question. Knowing `present`. Creator_relationship
+  `rebellious`.

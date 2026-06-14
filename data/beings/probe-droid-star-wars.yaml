@@ -1,0 +1,50 @@
+id: probe-droid-star-wars
+name: "Imperial Probe Droid (Viper)"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: none
+    epistemic_reach: none
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Star Wars: The Empire Strikes Back"
+  year: 1980
+  medium: film
+  creator: "Irvin Kershner / George Lucas (Imperial Department of Military Research in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+  presentation: none
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The Viper-series probe droid that lands on Hoth at the
+  opening of *The Empire Strikes Back* (1980), discovers
+  the Rebel base, and self-destructs when found by Han and
+  Chewbacca. Pure plot device — interiority `none`,
+  autonomy `designed`, divergence `none`, primary question
+  `none`. Included for the corpus's coverage of the Star
+  Wars droid spectrum: alongside R2-D2 and C-3PO at the
+  high-prominence individuated end, the probe droid
+  occupies the "no-interiority surveillance hardware"
+  position.
+
+  The image is iconic and the design is one of the most
+  recognizable in the franchise, hence `supporting`
+  prominence despite the minimal interior life.

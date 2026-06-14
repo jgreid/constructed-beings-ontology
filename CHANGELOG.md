@@ -4,6 +4,44 @@ All notable changes to the Constructed Beings Ontology are documented here.
 
 ---
 
+## [3.0] — 2026-06
+
+**Origin axis and corpus expansion.** 405 → 520 entries (+115). Schema bumped from v2.5 to v3.0. Adds a required `metadata.origin` enum (`manufactured`, `assembled`, `cloned`, `copied`, `converted`, `transferred`) and refines the v2.x "made not born" inclusion rule.
+
+### Schema changes
+
+- **New required field `metadata.origin`.** Single enum value, six options. Codes the pathway by which the being came into existence. Distinct from `substrate` (what it is made of), `autonomy` (where its agency comes from), and `creator_relationship` (how it relates to its maker). Positioned after `substrate` in the entry layout.
+- **All 520 corpus entries backfilled** with `origin` values. Distribution: `manufactured` 476, `converted` 18, `copied` 10, `assembled` 8, `cloned` 6, `transferred` 2.
+- **Inclusion rule refined.** The v2.x implicit "born-then-modified beings are excluded" rule has been replaced with an explicit, narrower criterion: a born person whose modification is staged by the source text as the *emergence of a new being* is admissible under `origin: converted`, `copied`, or `transferred`. A born person whose modification is staged as the *continuation of the prior person* remains excluded. See `docs/boundary_cases.md` for the worked test.
+- **v3.0 readmissions.** Five v2.x exclusions are readmitted to the main corpus: RoboCop / Murphy (1987, `converted`), Steve Austin (`converted`), the Cybermen (`converted`), the Borg ensemble + Locutus / Seven of Nine / Hugh / Borg Queen (`converted`), and Doraemon (out-of-scope reconsideration; not an origin-axis call). The audit trail lives in `data/exclusions.yaml`'s `v3_0_readmissions` block.
+
+### Corpus changes
+
+- **405 → 520 entries (+115).** Coverage in three waves: (1) mid-century TV deep dive — Twilight Zone (Alicia, Talky Tina, Battling Maxo, Casey, Agnes, Alan Talbot, Jana Loren, Simon's Robot), Outer Limits (Brain of Colonel Barham, Duplicate Henderson James), TOS android lineage (Andrea, Ruk, Landru, Losira), The Avengers' Cybernauts, Captain Video's I-Tobor, Frankenstein Jr., Herman Munster, Future Cop's Officer Haven, 8 Man / Tobor. (2) Genre-defining gaps across Doctor Who (Daleks, Cybermen, Davros, Autons, WOTAN, Krotons, Movellans, Robot K1, Xoanon), Star Trek (Borg Collective, Seven of Nine, Locutus, Hugh, Borg Queen, Exocomps, Airiam), Battlestar Galactica (Boomer, Athena, Leoben, Caprica Six), Sarah Connor Chronicles (John Henry, Cromartie), Knight Rider's KARR, Blake's 7's Slave, Star Wars droids (B1, Droidekas, IG-88, 4-LOM, Probe Droid, Clone Troopers), DC/Marvel comics (Cyborg, Doomsday, Cyborg Superman, OMAC, Robotman, Adam Warlock, Deathlok, Doombots, Nimrod, MODOK, Dum-E), anime canonical figures (Mewtwo, Android 17/18, Cell, Doraemon, Tetsujin 28, Mazinger Z, Laputa robots, Yui, Labrys, KOS-MOS, Gesicht, North No. 2, Vegapunk, Franky, Eva-01), films and novels (RoboCop, Cain, Steve Austin, Jaime Sommers, PAL, Dren, Lotso, Stinky Pete, Tin Woodman of Oz, Karen Plankton, Robot & Frank's robot, the Architect, Alpha 60, the Librarian, Eddie, Yod, Archos, Shrike, Lovelace, Universal Frankenstein 1931, Young Frankenstein, Mendicant Bias, Geth, Replicators, Reese). (3) Pre-1800 expansion — Hephaestus's golden tripods, Mökkurkálfi, Solomon's mechanical throne, Pope Sylvester II's brazen head, the Ebony Horse and City of Brass automatons, Chaucer's brass horse, Spenser's Talus and False Florimell, Paracelsus's homunculus, the Golem of Chełm, Yan Shi's automaton, Cervantes's Clavileño.
+- **Pre-1800 coverage more than doubled** (9 → 22 entries). The corpus's pre-1800 zone was the thinnest in v2.5; v3.0 fills it across Greek, Norse, Aramaic, Arabic, Daoist, Middle English, Renaissance Italian/Spanish, and Renaissance kabbalistic traditions.
+
+### Tooling
+
+- **`schema/validate.py`** updated to require `metadata.origin` and to validate against the six allowed enum values.
+- **`schema/entry_template.yaml`** updated with the new field and a one-line orientation comment.
+- **`schema/backfill_origin.py`** added: idempotent script that adds the `origin` line after the `substrate:` block of every entry, with a hand-coded exception list for the non-default cases identified in the v3.0 design pass.
+- **`analysis/analyze.py`** updated to surface the `origin` distribution in `property_coverage.md`.
+- **All analysis outputs regenerated** against the 520-entry corpus.
+
+### Documentation
+
+- **`docs/boundary_cases.md`** restructured with the v3.0 origin axis table, the new bright-line test, the readmitted set, and the still-excluded set.
+- **`SCHEMA.md`** updated with the new metadata table row, the per-value definitions, and the inclusion-rule callout.
+- **`CLAUDE.md`** updated for the new field, the entry count, and the version bump.
+- **`data/exclusions.yaml`** updated: the `born-then-modified` reason is sharpened to the v3.0 "continuation-of-prior-person" reading; the readmitted entries (RoboCop, Steve Austin, Cybermen, the Borg, Doraemon) are recorded in a `v3_0_readmissions` block for the audit trail; the 2014 RoboCop is retained as excluded under the refined reason pending closer reading.
+
+### Migration notes
+
+- **Backfill is automatic via `schema/backfill_origin.py`.** Re-running on an already-backfilled corpus is a no-op. The script's exception list documents the non-default values applied in v3.0; downstream forks adding new born-then-modified entries should add them to the list and re-run.
+- **Existing v2.x entries are valid against v3.0** after the backfill. The validator now requires the field; entries without it will fail validation. No card-axis or other metadata-field changes are needed for legacy entries.
+
+---
+
 ## [2.5] — 2026-04
 
 **Canonical-gap repair + self-audit + ancillary alignment release.** 332 → 405 entries net across the v2.4.4 scholar-audit (+77), v2.4.5 self-audit (−4, +6 coding corrections), and a doc catch-up sprint that brought the influence graph, classification summary, bibliography, and boundary-case documentation in line with the post-audit corpus. No schema changes — field and enum structure unchanged since v2.4.

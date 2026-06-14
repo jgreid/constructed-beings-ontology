@@ -1,0 +1,68 @@
+id: gesicht-pluto
+name: "Gesicht"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Pluto"
+  year: 2003
+  medium: comics
+  creator: "Naoki Urasawa (after Osamu Tezuka)"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+    - knowledge
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - canonical
+    - philosophical
+    - military
+
+sequel_link: atom-pluto
+link_type: successor
+
+notes: |
+  Gesicht is the Europol-detective protagonist of Naoki
+  Urasawa's *Pluto* (manga, 2003–2009), a serious reworking
+  of Osamu Tezuka's *Astro Boy: The Greatest Robot on
+  Earth* (1964). Pluto re-tells the story from Gesicht's
+  perspective: he is investigating a serial killing of
+  the world's seven most advanced robots and human
+  scientists, and the investigation slowly reveals his
+  own suppressed memories of having killed in the
+  previous war.
+
+  Pluto is among the most acclaimed manga of the 21st
+  century and one of the most fully developed robot-as-
+  protagonist treatments in any medium. The 2023 Netflix
+  anime adaptation broadened its global audience.
+
+  Substrate `mechanical + electrical`. Interiority is
+  `demonstrated`. Autonomy is `seized`. Divergence is
+  `departure`: he is a war-grade combat robot rebuilt as
+  a detective, who increasingly cannot keep the two
+  selves separate. Primary question is `identity` — what
+  Gesicht did before the memory wipe, and whether the
+  current Gesicht is the same person who did it.
+  Knowability and knowing both `primary`: the manga is
+  structurally a Knowability story.
+
+  Creator_relationship `absent` — Gesicht's original
+  designers are not narrative figures in the work, and
+  the question of who built him sits below the question
+  of who he was during the war.

@@ -1,0 +1,71 @@
+id: robotman-doom-patrol
+name: "Robotman (Cliff Steele)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "My Greatest Adventure #80"
+  year: 1963
+  medium: comics
+  creator: "Arnold Drake / Bob Haney / Bruno Premiani (Niles Caulder in-narrative)"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  origin: converted
+  motivation:
+    - service
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: resentful
+  tags:
+    - creator-conflict
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Cliff Steele, the Doom Patrol's Robotman, debuted in *My
+  Greatest Adventure* #80 (1963). After a racing accident
+  destroys his body, the Chief (Niles Caulder) salvages his
+  brain and houses it in a robotic chassis. Across the
+  Doom Patrol's various series — Grant Morrison's 1989
+  run, the Rachel Pollack run, and the HBO Max / Max TV
+  series (2019–2023) — Cliff is the franchise's emotional
+  anchor: a brain in a body that cannot feel, narrated by
+  a working-class voice in a hyperreality circus of
+  superheroes.
+
+  Substrate is `biological + mechanical + electrical`: the
+  brain stays organic, everything else is metal. The TV
+  show in particular foregrounds the loss of touch as the
+  defining grief of the character.
+
+  Interiority is `demonstrated`: Morrison's run gives Cliff
+  some of the comic's clearest first-person interior
+  monologue, and Brendan Fraser's TV voice work is built
+  around the gap between Cliff's affective volume and his
+  inability to feel anything. Autonomy is `seized`:
+  Cliff's heroism is his choice, his refusals of Niles's
+  paternal authority are his. Divergence is `departure`:
+  Niles meant to save him; what survived is something
+  Cliff has to figure out how to be.
+
+  Primary question is `identity` — the canonical Cliff
+  monologue is "am I still Cliff Steele." Knowability and
+  knowing both `present`. Creator_relationship
+  `resentful` — Cliff's relationship with the Chief
+  becomes increasingly bitter as the Doom Patrol stories
+  reveal that Niles's accidents are not always accidents.

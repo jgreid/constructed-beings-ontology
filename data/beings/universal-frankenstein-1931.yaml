@@ -1,0 +1,69 @@
+id: universal-frankenstein-1931
+name: "The Monster (Karloff)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: absent
+
+metadata:
+  source: "Frankenstein"
+  year: 1931
+  medium: film
+  creator: "James Whale (Henry Frankenstein in-narrative)"
+  substrate:
+    - biological
+  origin: assembled
+  motivation:
+    - knowledge
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: resentful
+  tags:
+    - canonical
+    - horror
+    - creator-conflict
+
+sequel_link: frankenstein-creature
+link_type: adaptation
+
+notes: |
+  Boris Karloff's silent Monster in James Whale's
+  *Frankenstein* (Universal Pictures, 1931). Coded
+  separately from `frankenstein-creature` because the
+  film's card differs sharply from the Shelley novel's
+  — most importantly, this Monster does not speak.
+  Karloff's performance, the Jack Pierce makeup (flat
+  top, neck bolts, sunken eyes), and the lakeside scene
+  with the little girl became the dominant visual and
+  affective register for "Frankenstein's monster" across
+  the entire 20th century, far more so than Shelley's
+  articulate philosopher.
+
+  Substrate `biological`. Interiority is `demonstrated`
+  — Karloff's performance is one of the great silent
+  performances of the sound era, with virtually all
+  affective content carried through posture, gesture,
+  and facial work. Autonomy is `seized` (he kills his
+  creator's first victim by accident, the second by
+  rage). Divergence is `departure` — Henry wanted a
+  great scientific achievement; what he got was a man
+  who is alone.
+
+  Epistemic reach is `behavioral` (downgraded from the
+  novel's `conversational`) because the Monster does
+  not speak in the 1931 film. Primary question is
+  `affection` — the lakeside scene's central beat is
+  the Monster's tenderness with the child and his
+  failure to understand what he is doing. Knowability
+  `present`. Knowing `absent`. Creator_relationship
+  `resentful`. Linked to `frankenstein-creature` as
+  `adaptation`.

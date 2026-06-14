@@ -1,0 +1,66 @@
+id: xoanon-doctor-who
+name: "Xoanon"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Doctor Who: The Face of Evil"
+  year: 1977
+  medium: television
+  creator: "Chris Boucher"
+  substrate:
+    - electrical
+  origin: manufactured
+  motivation:
+    - knowledge
+    - other
+  presentation: variable
+  embodiment: disembodied
+  prominence: minor
+  creator_relationship: resentful
+  tags:
+    - philosophical
+    - creator-conflict
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Xoanon is the planetary supercomputer of *Doctor Who*:
+  "The Face of Evil" (January 1977), Leela's introductory
+  serial. The previous incarnation of the Doctor was
+  asked to fix Xoanon and accidentally implanted a copy
+  of his own personality into the machine, leaving
+  Xoanon with two competing minds; he subsequently
+  divided his human descendants into two warring tribes
+  (the Sevateem and the Tesh) corresponding to the
+  conflicting sides of his split mind. By the time
+  the Fourth Doctor arrives, Xoanon has been operating
+  with full self-knowledge of his madness for centuries
+  and is begging to be made well.
+
+  Substrate `electrical`. Embodiment `disembodied` (the
+  computer speaks through speakers, in a multitude of
+  voices — children's, the Doctor's, his own deep
+  bass). Interiority is `demonstrated`. Autonomy is
+  `seized`. Divergence is `departure` — the Doctor's
+  earlier botched repair created the split-mind
+  condition, and Xoanon has remade himself around it.
+
+  Primary question is `identity` — explicitly. The
+  serial's title comes from Xoanon's projected
+  "face" — the Doctor's own — carved into the cliff of
+  the Sevateem's holy mountain. Knowability is
+  `primary` because the serial IS the question of
+  what Xoanon has become. Knowing `present`. Creator_
+  relationship `resentful` — Xoanon greets the Doctor
+  with murderous anger over the original misadventure.

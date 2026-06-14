@@ -19,6 +19,7 @@ metadata:
   creator: "Duncan Jones / Nathan Parker (Lunar Industries in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - knowledge

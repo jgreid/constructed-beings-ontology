@@ -1,0 +1,65 @@
+id: adam-warlock-marvel
+name: "Adam Warlock"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Fantastic Four #66–67"
+  year: 1967
+  medium: comics
+  creator: "Stan Lee / Jack Kirby (the Beehive Enclave in-narrative)"
+  substrate:
+    - biological
+  origin: manufactured
+  motivation:
+    - service
+    - knowledge
+    - power
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - philosophical
+    - rebellion
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Adam Warlock — originally just "Him" — debuted in
+  *Fantastic Four* #66–67 (1967) as the constructed
+  perfect being created by the Enclave, a cabal of
+  scientists who wanted to build a new humanity. He
+  rejected the Enclave on awakening, blasted free, and
+  became one of Marvel's recurring cosmic figures, central
+  to *The Infinity Gauntlet* (1991), *Infinity Watch* (1992),
+  and the Guardians of the Galaxy films (esp. *Vol. 3*,
+  2023).
+
+  Substrate is `biological` — the Enclave designed his
+  body in a cocoon. Interiority is `demonstrated`: he
+  monologues at length about his moral position and his
+  search for his own purpose. Autonomy is `seized` — the
+  awakening-and-departure from the Enclave is the
+  character's foundational beat. Divergence is `departure`:
+  he was made to be the perfect human, and instead became
+  a wandering cosmic agent whose alignment shifts across
+  decades of stories.
+
+  Primary question is `purpose` — Warlock spends his
+  entire publication history asking what he's for, with
+  detours through messianic, savior, and cosmic-balance
+  framings. Knowability and knowing both `present`.
+  Creator_relationship `rebellious` — the Enclave is his
+  origin and he repeatedly defeats them.

@@ -19,6 +19,7 @@ metadata:
   creator: "Chris Buck / Jennifer Lee (Elsa in-narrative)"
   substrate:
     - magical
+  origin: manufactured
   motivation:
     - companionship
     - child

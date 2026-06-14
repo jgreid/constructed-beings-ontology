@@ -1,0 +1,65 @@
+id: losira-tos
+name: "Losira"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Star Trek: That Which Survives"
+  year: 1969
+  medium: television
+  creator: "Michael Richards / D.C. Fontana"
+  substrate:
+    - electrical
+    - linguistic
+  origin: manufactured
+  motivation:
+    - service
+  presentation: feminine
+  embodiment: projected
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Losira is the holographic-and-tactile projection of the
+  long-dead commander of a Kalandan outpost in *Star
+  Trek* TOS S3E17 "That Which Survives" (January 24,
+  1969). The outpost's automated defense system, after
+  the original Losira's death from disease, generates a
+  projection in her image that can selectively kill
+  intruders by touching them. The projection is keyed to
+  each victim — only the named target can be touched by
+  that instance of Losira — and carries some of the
+  original commander's affective register, including
+  visible reluctance to perform the killings.
+
+  Substrate `electrical + linguistic`: the defense
+  computer generates the projection from stored
+  templates and verbal-style command structures.
+  Embodiment `projected` — Losira is a physically
+  interactive but non-corporeal entity (the projection
+  can touch and kill but vanishes when its function is
+  complete).
+
+  Interiority is `demonstrated` (the script gives her
+  reluctance and grief, even as she carries out the
+  defense program). Autonomy `designed` — the original
+  Losira's pattern is faithfully reproduced.
+  Divergence `none`. Primary question `control` — Kirk
+  and Spock work to find the central computer to
+  deactivate it. Knowability and knowing both `present`.
+  Creator_relationship `loyal` — the projection is the
+  Kalandan civilization's faithful posthumous defense.

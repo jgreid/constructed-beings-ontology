@@ -19,6 +19,7 @@ metadata:
   creator: "Mike McMahan / CBS (Sam Rutherford in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - service
     - other

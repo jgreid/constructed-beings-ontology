@@ -21,6 +21,7 @@ metadata:
     - biological
     - electrical
     - magical
+  origin: manufactured
   motivation:
     - power
     - mirror

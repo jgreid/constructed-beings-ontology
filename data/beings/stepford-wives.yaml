@@ -21,6 +21,7 @@ metadata:
     - biological
     - electrical
     - mechanical
+  origin: manufactured
   motivation:
     - service
     - power

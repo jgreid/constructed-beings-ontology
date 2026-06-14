@@ -1,17 +1,21 @@
-# Constructed Beings Ontology — v2.5 Entry Schema Definition
+# Constructed Beings Ontology — v3.0 Entry Schema Definition
 # Machine-readable schema for validating being entries in data/beings/*.yaml
 # Human-readable reference: SCHEMA.md
 
-schema_version: "2.5"
+schema_version: "3.0"
 description: >
   Defines the structure, types, and allowed enum values for every field
-  in a constructed-being entry. v2.5 — canonical-gap repair and ancillary
-  alignment release. Field and enum structure unchanged from v2.4; the
-  corpus has grown from 332 to 405 entries across the v2.4.4 scholar-
-  audit, v2.4.5 self-audit, and a doc catch-up sprint that added 40
-  influence-graph edges, refreshed the classification summary, and
-  brought the bibliography in line with the post-audit corpus. See
-  CHANGELOG.md for full version history.
+  in a constructed-being entry. v3.0 — origin axis. Adds a required
+  `metadata.origin` enum to record the pathway by which a being came
+  into existence (manufactured, assembled, cloned, copied, converted,
+  transferred). Replaces the v2.x implicit "made not born" exclusion
+  rule with an explicit-but-narrower coding axis: born-then-modified
+  beings whose source texts treat them as new entities (the Borg,
+  Cybermen, RoboCop, etc.) are now admissible under
+  `origin: converted` or `transferred`, while beings whose source
+  texts treat them as continuations of a prior person remain
+  excluded. See CHANGELOG.md and docs/boundary_cases.md for the full
+  rationale, the readmitted set, and the new exclusion criterion.
 
 properties:
 
@@ -159,6 +163,24 @@ properties:
             - magical
             - cloned
             - linguistic
+
+      origin:
+        type: enum
+        required: true
+        description: >
+          The pathway by which the being came into existence. Distinct
+          from `substrate` (what it is made of) and `autonomy` (where
+          its agency comes from). Codes whether a specific prior person
+          is involved at the origin and, if so, how. The default value
+          for beings constructed without a specific prior person at
+          narrative issue is `manufactured`.
+        allowed:
+          - manufactured
+          - assembled
+          - cloned
+          - copied
+          - converted
+          - transferred
 
       motivation:
         type: list

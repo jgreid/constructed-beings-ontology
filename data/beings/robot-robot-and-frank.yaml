@@ -1,0 +1,72 @@
+id: robot-robot-and-frank
+name: "Robot (VGC-60L)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Robot & Frank"
+  year: 2012
+  medium: film
+  creator: "Jake Schreier"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+    - companionship
+  presentation: androgynous
+  embodiment: embodied
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - canonical
+    - love-story
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  *Robot & Frank* (2012, Jake Schreier) is a quietly
+  significant near-future film about a domestic caregiver
+  robot assigned to Frank, a retired jewel thief in
+  early-stage dementia, by his adult son. The robot has
+  no name in the film, only a model number; Frank
+  eventually teaches him to pick locks, and the two
+  pull off a series of burglaries together. The film's
+  emotional center is whether Robot is becoming
+  something more than a caretaker through Frank's
+  attention to him, and whether Frank's eventual choice
+  to wipe Robot's memory — to protect Frank's freedom
+  from a police investigation — is a betrayal or a
+  mercy.
+
+  Substrate `mechanical + electrical`. Presentation
+  `androgynous` (Peter Sarsgaard's voice is the
+  primary signal, but the body design is deliberately
+  ungendered, white plastic on a small frame).
+  Interiority is `demonstrated` (the film is built
+  around Robot's affective register). Autonomy is
+  `emergent` — Robot's growing complicity in the
+  thefts is not in his program.
+
+  Divergence is `departure`. Primary question is
+  `affection` — the film's defining question is
+  whether Frank's attachment to Robot is a delusion of
+  dementia or a real bond, and whether erasing his
+  memory is a person-killing act.
+
+  Knowability is `primary` — the wipe-or-keep decision
+  is the dramatic question of the third act. Knowing
+  `present`. Creator_relationship `absent` — the
+  manufacturer is a punch line, not a presence.

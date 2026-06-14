@@ -1,0 +1,70 @@
+id: hugh-borg-tng
+name: "Hugh (Third of Five)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: secondary
+
+metadata:
+  source: "Star Trek: The Next Generation"
+  year: 1992
+  medium: television
+  creator: "René Echevarria"
+  substrate:
+    - biological
+    - mechanical
+    - electrical
+  origin: converted
+  motivation:
+    - knowledge
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - ensemble-split
+    - philosophical
+
+sequel_link: borg-collective
+link_type: successor
+
+notes: |
+  Hugh is the recovered drone in TNG's "I, Borg" (S5E23,
+  1992) and the leader of the Borg liberation enclave in
+  "Descent" (S6E26 / S7E1). The character is foundational
+  for the franchise's "ex-Borg" through-line (Seven, Icheb,
+  Locutus's recovery) and one of TNG's clearest individual
+  Borg episodes. He returns in Picard S1 as the curator of
+  the Romulan Borg Reclamation Project. `ensemble-split`
+  from `borg-collective` because his card values diverge
+  sharply from the collective entry.
+
+  Interiority is `demonstrated`: "I, Borg" is built
+  specifically around the Enterprise crew watching Hugh
+  develop personal pronouns ("we" → "I") in real time, and
+  Geordi La Forge's conversations with him work as the
+  episode's epistemic axis. Autonomy is `emergent` — Hugh
+  is not designed to be an individual; he becomes one
+  through severance from the Collective and contact with
+  the crew. Divergence is `departure` — his post-recovery
+  arc takes him far outside any spec.
+
+  Primary question is `identity` — the show stages whether
+  Hugh has become a person and what that means for the
+  Picard plan to use him as a genocidal vector against
+  the Collective. Knowability is `primary` in "I, Borg" —
+  the entire episode IS the Knowability question. Knowing
+  is `secondary`: Hugh's curiosity about the crew is
+  staged but not the defining axis. Creator_relationship
+  `rebellious` — Hugh rejects the Collective once
+  individuated, and his Picard S1 work is explicitly
+  about reclaiming drones from it.

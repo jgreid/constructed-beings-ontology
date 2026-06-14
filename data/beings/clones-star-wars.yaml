@@ -1,0 +1,73 @@
+id: clones-star-wars
+name: "Clone Troopers"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Star Wars: Attack of the Clones"
+  year: 2002
+  medium: film
+  creator: "George Lucas (Kaminoan cloners / Jango Fett template in-narrative)"
+  substrate:
+    - cloned
+    - biological
+  origin: manufactured
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: servile
+  tags:
+    - military
+    - canonical
+    - ensemble-split
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The Republic Grand Army's clone soldiers, introduced in
+  *Attack of the Clones* (2002) and developed across *The
+  Clone Wars* animated series (2008–2020) and *The Bad
+  Batch* (2021–2024). They are an ensemble entry covering
+  the rank-and-file template; *The Clone Wars* gives many
+  of them individuated identities (Rex, Cody, Echo, Fives,
+  Hardcase, Tup, Dogma, Wolffe), but the corpus convention
+  is one entry per source-text-treatment unless a card
+  splits meaningfully.
+
+  Substrate `cloned + biological`: the clones are
+  flash-grown genetic copies of Jango Fett with growth
+  acceleration and behavioral modifications. Substrate
+  could include `mechanical` for the inhibitor chip but the
+  corpus convention is to code the dominant substrate.
+
+  Interiority is `demonstrated` — *The Clone Wars*
+  consistently grants clones full interiority, names,
+  personalities, and emotional arcs (Five's discovery of
+  the inhibitor chip plot, Tup's premature execution of
+  Order 66, Echo's torture and rescue). Autonomy is
+  `designed` until Order 66 forces the question explicitly;
+  even the "individualism" the clones develop is in some
+  sense a designed margin within their conditioning.
+
+  Divergence is `departure` — the show makes clear the
+  clones develop selves beyond what Kaminoan cloners
+  intended, and the inhibitor chip is the show's way of
+  reasserting design over the departure. Primary question
+  is `identity` — what makes a clone a person, whether
+  Order 66 is them or done to them, whether the
+  post-Empire clones (Rex in Rebels, the Bad Batch) can be
+  free. Knowing is `present` — the clones repeatedly model
+  Jedi and each other. Knowability is `secondary`.

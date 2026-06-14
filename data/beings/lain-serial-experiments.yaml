@@ -20,6 +20,7 @@ metadata:
   substrate:
     - electrical
     - linguistic
+  origin: manufactured
   motivation:
     - knowledge
     - child

@@ -19,6 +19,7 @@ metadata:
   creator: "Ambrose Bierce (Moxon in-narrative)"
   substrate:
     - mechanical
+  origin: manufactured
   motivation:
     - other
   presentation: none

@@ -1,0 +1,65 @@
+id: krotons-doctor-who
+name: "The Krotons"
+
+card:
+  the_being:
+    interiority: claims
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Doctor Who: The Krotons"
+  year: 1968
+  medium: television
+  creator: "Robert Holmes"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+    - knowledge
+  presentation: none
+  embodiment: embodied
+  prominence: minor
+  creator_relationship: absent
+  tags:
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The Krotons are the crystalline robotic survivors of a
+  crashed alien ship in *Doctor Who*: The Krotons" (S6,
+  December 28, 1968 – January 18, 1969), Robert Holmes's
+  first script for the show. Surviving as patterns
+  encoded in a crystalline machine after their ship was
+  damaged, they require the mental energy of "high
+  brains" from the local Gond population to reconstitute
+  themselves into physical form. The Gonds, in turn,
+  have been kept at a controlled developmental level by
+  the machine for thousands of years.
+
+  Substrate `mechanical + electrical` (the show's
+  in-narrative explanation has the machine generating
+  crystalline humanoid bodies from "tellurium" via the
+  donated mental energy). Interiority `claims`.
+  Autonomy `designed`. Divergence `none` — they execute
+  the survival program faithfully. Primary question
+  `control`. Knowability and knowing both `absent`.
+  Creator_relationship `absent` — the original Kroton
+  civilization is long gone.
+
+  Minor prominence but historically interesting as one
+  of the earliest *Doctor Who* serials to give a robotic
+  antagonist a survival-engineering rationale rather
+  than pure conquest motive. Sits in the corpus
+  alongside `daleks-doctor-who` and `cybermen-doctor-who`
+  as the third of the classic-era's recurring "race that
+  preserves itself in machine form" antagonists.

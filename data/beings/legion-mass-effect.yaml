@@ -19,6 +19,7 @@ metadata:
   creator: "BioWare / Casey Hudson (the Quarians in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - knowledge
     - service

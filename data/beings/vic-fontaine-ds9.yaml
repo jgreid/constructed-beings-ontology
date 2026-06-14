@@ -19,6 +19,7 @@ metadata:
   creator: "Ira Steven Behr (Felix the holo-designer in-narrative)"
   substrate:
     - electrical
+  origin: manufactured
   motivation:
     - companionship
     - art

@@ -1,0 +1,66 @@
+id: dum-e-iron-man
+name: "Dum-E"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Iron Man"
+  year: 2008
+  medium: film
+  creator: "Jon Favreau (Tony Stark in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+  presentation: none
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - canonical
+    - comedy
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Dum-E is the older, hapless robotic arm in Tony Stark's
+  workshop in *Iron Man* (2008) and its sequels. Built by
+  young Tony as a college engineering project, the arm
+  persists across the MCU as a recurring comic-relief
+  supporting character — extinguishing fires Tony didn't
+  start, handing him the wrong tool, getting sworn at and
+  forgiven. The 2008 film makes the arm's affection for
+  Tony an explicit emotional beat in the cave-escape
+  sequences.
+
+  Interiority is `demonstrated` through behavior — the
+  arm's posture, hesitation, and "shame" responses are
+  built into the puppeteering and Tony's reactions
+  legitimize them as expressions of feeling. Autonomy is
+  `emergent` — Dum-E was built to perform tool tasks and
+  has become something more like a pet. Divergence is
+  `departure`.
+
+  Primary question is `none`: the films do not treat Dum-E
+  as a question. Knowability and knowing both `absent`.
+  Creator_relationship `loyal` — Dum-E follows Tony around
+  the workshop and clearly cares about him, the only
+  consistent "loyal pet" energy in the MCU's stack of
+  Stark constructs (JARVIS, FRIDAY, the suits).
+
+  A companion to `jarvis-iron-man` and `friday-mcu` at the
+  bottom end of the prominence stack: not a dialogue-AI,
+  not a suit-control system, but a beloved object that
+  the franchise gives almost two decades of affection.

@@ -1,0 +1,71 @@
+id: herman-munster
+name: "Herman Munster"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "The Munsters"
+  year: 1964
+  medium: television
+  creator: "Allan Burns / Chris Hayward / Norm Liebmann / Ed Haas"
+  substrate:
+    - biological
+  origin: assembled
+  motivation:
+    - service
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: absent
+  tags:
+    - canonical
+    - comedy
+
+sequel_link: frankenstein-creature
+link_type: successor
+
+notes: |
+  Herman Munster (Fred Gwynne) is the Frankenstein-monster
+  patriarch of *The Munsters* (CBS, 1964–1966), the
+  parodic mid-century sitcom about a family of horror-
+  movie monsters living in suburban America. Backstory:
+  Herman was assembled at "Heidelberg Institute" in 1865
+  by a Dr. Frankenstein descendant and shipped to America
+  as a "Frankenstein monster" model. He works as an
+  apprentice at a funeral home, is married to a vampire
+  (Lily), and is the doting father of a werewolf son
+  (Eddie).
+
+  Coded as `successor` to `frankenstein-creature`. The
+  card values diverge substantially: Herman has none of
+  the Creature's eloquent grievance, lives a contentedly
+  bourgeois life, and the show's central comedy is that
+  he is gentle, loyal, slightly thick, and entirely
+  unable to perceive that he is monstrous. The
+  `frankenstein-creature`'s `affection` primary question
+  is preserved but inverted in tone — Herman has the
+  love the Creature was denied, just at sitcom volume.
+
+  Substrate `biological`. Interiority is `demonstrated`.
+  Autonomy is `seized` — Herman has a job, a marriage,
+  a mortgage, and runs his own life. Divergence is
+  `departure`. Knowability and knowing both `absent`
+  because the show is uninterested in those questions —
+  the sitcom proceeds.
+
+  Creator_relationship `absent` — the original maker is
+  long dead and not part of the show's running concerns.
+  Foundational prominence for the corpus's "monster-as-
+  middle-class-dad" lineage, which carries forward
+  into Hotel Transylvania (2012) and many subsequent
+  works.

@@ -1,0 +1,65 @@
+id: caprica-six-bsg
+name: "Caprica Six"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: primary
+
+metadata:
+  source: "Battlestar Galactica (reimagined)"
+  year: 2003
+  medium: television
+  creator: "Ronald D. Moore"
+  substrate:
+    - biological
+    - electrical
+  origin: manufactured
+  motivation:
+    - companionship
+    - mirror
+  presentation: feminine
+  embodiment: embodied
+  prominence: foundational
+  creator_relationship: rebellious
+  tags:
+    - canonical
+    - love-story
+    - passing
+    - ensemble-split
+
+sequel_link: cylons-bsg
+link_type: successor
+
+notes: |
+  Caprica Six (Tricia Helfer) is the Number Six Cylon
+  model who seduces Gaius Baltar in the year before the
+  holocaust and persuades him to give her the codes that
+  allow the Cylon attack to succeed. She appears
+  throughout the show alongside an "internal" Six that
+  Baltar sees in his head, and her arc takes her from
+  saboteur to humanity's interlocutor to the eventual
+  peacemaker at the show's end.
+
+  `ensemble-split` from `cylons-bsg`. The Six model is
+  the most-individualized of the Cylon ensembles in the
+  reimagined series — Caprica Six, Baltar's "head" Six,
+  D'Anna Biers' "Number Three" frame for talking to her,
+  and the later Natalie Six who leads the schism are
+  all in some sense "the same" Cylon model with
+  divergent cards. Caprica Six in particular gets a
+  foundational arc.
+
+  Substrate `biological + electrical`. Interiority
+  `demonstrated`. Autonomy `seized`. Divergence
+  `departure`. Primary question `affection` — the Baltar
+  romance is the show's emotional spine. Knowability and
+  knowing both `primary`. Creator_relationship
+  `rebellious` — she repeatedly breaks with the
+  Collective's directives.
