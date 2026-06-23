@@ -1,0 +1,86 @@
+id: creature-del-toro-frankenstein
+name: "The Creature (del Toro)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: affection
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Guillermo del Toro's Frankenstein"
+  year: 2025
+  medium: film
+  creator: "Guillermo del Toro (Victor Frankenstein in-narrative)"
+  substrate:
+    - biological
+  origin: assembled
+  motivation:
+    - knowledge
+    - companionship
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: resentful
+  tags:
+    - canonical
+    - creator-conflict
+    - philosophical
+
+sequel_link: frankenstein-creature
+link_type: adaptation
+
+notes: |
+  Guillermo del Toro's *Frankenstein* (Netflix, 2025), his
+  long-gestating passion project, with Oscar Isaac as Victor and
+  Jacob Elordi as the Creature, set against the mid-19th-century
+  Crimean War. Premiered at Venice (2025), limited theatrical
+  release, then Netflix in November 2025. Coded as a separate entry
+  per the films-always-split rule and linked to
+  `frankenstein-creature` as `adaptation`, alongside the 1931
+  Karloff (`universal-frankenstein-1931`), 1974 Brooks
+  (`young-frankenstein-creature`), and 2011 Nick Dear
+  (`creature-nick-dear-frankenstein`) entries.
+
+  The Creature is assembled from soldiers' corpses, animated
+  against his will, and immediately scorned by Victor — and the
+  film tells a large part of the story through the Creature's own
+  eyes. Interiority is `demonstrated`: Elordi's performance and the
+  Creature's first-person account stage his grief, wonder, and
+  longing throughout (the corpus codes del Toro's *Pinocchio* the
+  same way; the narrated POV also echoes Shelley's first-person
+  Creature chapters).
+
+  Autonomy is `emergent`, a return to the 1818 novel's reading
+  (`frankenstein-creature`) rather than the 1931/2011 entries'
+  `seized`. Del Toro's thesis — "creation does not mean control" —
+  is that the Creature arrives with his own ideas in his newly
+  fashioned mind and grows into a moral person who finally
+  transcends his maker; the film resolves toward forgiveness rather
+  than the mutual-destruction/patricide of the Karloff and Nick
+  Dear stagings. Divergence is `departure`: Victor sought to
+  conquer death and glory and instead made a being with his own
+  demands.
+
+  Primary question is `affection` (per the 1818 and 1931 entries,
+  not the 2011 play's `rights`): the engine of del Toro's version
+  is the abandoned creation's longing for his creator's acceptance
+  and the maker's failed responsibility, settled in reconciliation.
+  Epistemic reach is `conversational` — the Creature learns
+  language and narrates his own story. Knowability and knowing both
+  `present`: the film asserts rather than doubts his personhood
+  (society's rejection raises the question without making the
+  verification central), and the Creature observes and learns
+  humanity closely.
+
+  Creator_relationship `resentful` codes the dominant stance across
+  the runtime — the scorned, abandoned creation — with the arc
+  bending toward forgiveness at the close (hence `resentful`, not
+  the 2011 play's `patricidal`). Substrate `biological`, origin
+  `assembled`, matching the Frankenstein cluster. Prominence
+  `major`. Tags `canonical`, `creator-conflict`, `philosophical`.

@@ -6,7 +6,7 @@
 
 This project is a formal ontology of **constructed beings** (CBs) in Western fiction and myth — entities that are *made*, not *born*. From Hesiod's Pandora to GPT-flavored AI companions in contemporary cinema, Western narrative has been building, animating, and arguing about artificial persons for nearly three millennia. This dataset catalogs those beings and codes them along seven analytical properties organized into two blocks: **The Being** (interiority, autonomy, divergence) and **The Lens** (primary question, epistemic reach, knowability, knowing).
 
-The ontology's central analytical move is the **knowability/knowing split**: it tracks two distinct questions — *can we verify the being's inner experience?* (`knowability`) and *can the being know us?* (`knowing`) — separately, because they behave differently across the corpus. Of 520 entries, 258 (50%) have divergent values on these two axes, confirming that the split captures real analytical structure.
+The ontology's central analytical move is the **knowability/knowing split**: it tracks two distinct questions — *can we verify the being's inner experience?* (`knowability`) and *can the being know us?* (`knowing`) — separately, because they behave differently across the corpus. Of 522 entries, 258 (49%) have divergent values on these two axes, confirming that the split captures real analytical structure.
 
 The central finding is not that these questions are absent from earlier texts; both surface as early as *Frankenstein* and thread through *Blade Runner*, *Ex Machina*, and dozens of other works. Rather, the questions function in most prior literature as **narrative infrastructure** — tension that supports other concerns — and are elevated to the **primary dramatic question** in the contemporary era. Literary SF reached this configuration first (Helen in Powers's *Galatea 2.2*, 1995), and cinema followed when conversational AI entered daily life (Samantha in *Her*, 2013; Ava in *Ex Machina*, 2014). The arrival of LLMs has accelerated the shift further, collapsing the distance between fictional and real constructed beings. That migration — from infrastructure to primary question — is the story this data tells.
 
@@ -128,7 +128,7 @@ In contemporary texts, both questions move from infrastructure to **primary ques
 
 Note: this ontology codes what the *text* shows — the narrative salience of knowability and knowing as properties of the source work, not as properties of contemporary audience reception. The shift the data tracks is in what stories *do*, not in how modern audiences re-read older stories.
 
-The `knowability` and `knowing` fields encode two independent measures of narrative salience, and the divergence between them is one of the most analytically useful features the corpus exposes. Of 520 entries, 258 code differently on the two axes — a 50% divergence rate that confirms these are genuinely independent analytical dimensions.
+The `knowability` and `knowing` fields encode two independent measures of narrative salience, and the divergence between them is one of the most analytically useful features the corpus exposes. Of 522 entries, 258 code differently on the two axes — a 49% divergence rate that confirms these are genuinely independent analytical dimensions.
 
 See [output/classification_summary.md](output/classification_summary.md) for the full pattern analysis.
 

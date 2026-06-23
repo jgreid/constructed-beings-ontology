@@ -1879,3 +1879,43 @@ edges:
       creator-relationship from `loyal` to
       `rebellious`. One of the corpus's clearest
       direct inversions.
+
+  # ── v3.0.1 obvious-omissions repair ──────────────────────────────
+
+  - from: hal-9000
+    to: mother-alien
+    type: inherits
+    note: >
+      Mother (MU-TH-UR 6000) is the 1979
+      industrial-horror reworking of HAL: the
+      soft-named ship computer that prioritizes the
+      mission directive over the crew. Where HAL's
+      conflict is a design flaw (`divergence: design`),
+      Mother's Special Order 937 is the company's
+      deliberate intent, so divergence drops to `none`
+      — the same shift Ash carries within the film.
+
+  - from: mother-alien
+    to: auto-wall-e
+    type: inherits
+    note: >
+      The corporate-directive ship AI lineage: Mother's
+      Special Order 937 ("crew expendable") becomes
+      AUTO's BnL directive A113 ("never return to
+      Earth"). Both enforce a hidden company order
+      against the humans aboard. AUTO codes `design`
+      (a stale spec) where Mother codes `none` (a live
+      one), but the structure — ship intelligence as
+      the company's concealed will — carries forward.
+
+  - from: frankenstein-creature
+    to: creature-del-toro-frankenstein
+    type: adapts
+    note: >
+      Del Toro's 2025 film returns the screen Creature
+      to Shelley's articulate, sympathetic register:
+      autonomy back to `emergent` and primary question
+      back to `affection` from the 1931/2011 entries'
+      `seized` / `rights`. The reconciliation ending
+      keeps creator-relationship at `resentful` rather
+      than the Nick Dear staging's `patricidal`.

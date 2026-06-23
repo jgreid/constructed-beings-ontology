@@ -156,7 +156,7 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Logan's Run** (1976) — Michael Anderson. *Being(s): Box*
 - **Demon Seed** (1977) — Donald Cammell. *Being(s): Proteus IV*
 - **Star Wars** (1977) — George Lucas. *Being(s): C-3PO, R2-D2*
-- **Alien** (1979) — Ridley Scott. *Being(s): Ash*
+- **Alien** (1979) — Ridley Scott. *Being(s): Ash, Mother (MU-TH-UR 6000)*
 - **Star Trek: The Motion Picture** (1979) — Robert Wise. *Being(s): V'Ger*
 - **The Black Hole** (1979) — Gary Nelson. *Being(s): Maximilian, V.I.N.CENT*
 - **Saturn 3** (1980) — Stanley Donen. *Being(s): Hector*
@@ -257,6 +257,7 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Toy Story 4** (2019) — Josh Cooley. *Being(s): Forky*
 - **Star Wars: The Rise of Skywalker** (2019) — J.J. Abrams. *Being(s): D-O*
 - **Guillermo del Toro's Pinocchio** (2022) — Guillermo del Toro / Mark Gustafson. *Being(s): Pinocchio (del Toro)*
+- **Guillermo del Toro's Frankenstein** (2025) — Guillermo del Toro (after Mary Shelley). *Being(s): The Creature (del Toro)*
 
 ### Television
 

@@ -1,6 +1,6 @@
 # Question Analysis
 
-Total entries: **520**.
+Total entries: **522**.
 
 The schema tracks two meta-properties: `knowability` (can we verify its mind?) and `knowing` (can it know us?). This report tracks both, plus the distribution of `primary_question`.
 
@@ -9,8 +9,8 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 | Primary Question   |   Count |
 |:-------------------|--------:|
 | identity           |     134 |
-| control            |     117 |
-| affection          |     115 |
+| control            |     118 |
+| affection          |     116 |
 | rights             |      53 |
 | none               |      37 |
 | purpose            |      37 |
@@ -52,7 +52,7 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| control            |      66 |
+| control            |      67 |
 | identity           |      63 |
 | affection          |      47 |
 | purpose            |      24 |
@@ -65,7 +65,7 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 | Primary Question   |   Count |
 |:-------------------|--------:|
 | identity           |      59 |
-| affection          |      55 |
+| affection          |      56 |
 | control            |      41 |
 | rights             |      32 |
 | knowledge          |      10 |
@@ -76,8 +76,8 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Knowability   |   Count |
 |:--------------|--------:|
-| absent        |     170 |
-| present       |     153 |
+| absent        |     171 |
+| present       |     154 |
 | secondary     |      84 |
 | primary       |     113 |
 
@@ -85,8 +85,8 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Knowing   |   Count |
 |:----------|--------:|
-| absent    |     143 |
-| present   |     260 |
+| absent    |     144 |
+| present   |     261 |
 | secondary |      36 |
 | primary   |      81 |
 
@@ -355,7 +355,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Ares                                                          | Tron: Ares                                              |   2025 | primary       | present   |
 | Cosmo                                                         | The Electric State                                      |   2025 | secondary     | present   |
 
-**258 of 520 entries diverge.**
+**258 of 522 entries diverge.**
 
 ## 6. Entries by Knowability (chronological)
 
@@ -444,6 +444,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Deep Thought                             | The Hitchhiker's Guide to the Galaxy                                         |   1979 | purpose     |
 | Eddie the Computer                       | The Hitchhiker's Guide to the Galaxy                                         |   1979 | none        |
 | Maximilian                               | The Black Hole                                                               |   1979 | control     |
+| Mother (MU-TH-UR 6000)                   | Alien                                                                        |   1979 | control     |
 | The Movellans                            | Doctor Who: Destiny of the Daleks                                            |   1979 | control     |
 | Dr. Theopolis                            | Buck Rogers in the 25th Century                                              |   1979 | purpose     |
 | Twiki                                    | Buck Rogers in the 25th Century                                              |   1979 | affection   |
@@ -690,6 +691,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | PAL                                      | The Mitchells vs. the Machines                                            |   2021 | affection   |
 | Smith (ARC-9)                            | Atlas                                                                     |   2024 | affection   |
 | Iris                                     | Companion                                                                 |   2025 | control     |
+| The Creature (del Toro)                  | Guillermo del Toro's Frankenstein                                         |   2025 | affection   |
 | M3GAN 2.0                                | M3GAN 2.0                                                                 |   2025 | control     |
 
 ### knowability = secondary
