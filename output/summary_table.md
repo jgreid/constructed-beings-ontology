@@ -1,6 +1,6 @@
 # Constructed Beings Summary Table
 
-Total entries: **520**. Sorted by year.
+Total entries: **522**. Sorted by year.
 
 | Entity                                                        | Source                                                                        |   Year | Medium      | Interiority   | Autonomy   | Divergence   | Primary Question   | Epistemic Reach   | Knowability   | Knowing   |
 |:--------------------------------------------------------------|:------------------------------------------------------------------------------|-------:|:------------|:--------------|:-----------|:-------------|:-------------------|:------------------|:--------------|:----------|
@@ -178,6 +178,7 @@ Total entries: **520**. Sorted by year.
 | Eddie the Computer                                            | The Hitchhiker's Guide to the Galaxy                                          |   1979 | novel       | claims        | designed   | none         | none               | conversational    | absent        | absent    |
 | Marvin the Paranoid Android                                   | The Hitchhiker's Guide to the Galaxy                                          |   1979 | novel       | demonstrated  | designed   | design       | purpose            | conversational    | present       | present   |
 | Maximilian                                                    | The Black Hole                                                                |   1979 | film        | none          | designed   | design       | control            | behavioral        | absent        | absent    |
+| Mother (MU-TH-UR 6000)                                        | Alien                                                                         |   1979 | film        | none          | designed   | none         | control            | inspection        | absent        | absent    |
 | The Movellans                                                 | Doctor Who: Destiny of the Daleks                                             |   1979 | television  | claims        | designed   | none         | control            | conversational    | absent        | absent    |
 | Dr. Theopolis                                                 | Buck Rogers in the 25th Century                                               |   1979 | television  | demonstrated  | designed   | none         | purpose            | conversational    | absent        | present   |
 | Twiki                                                         | Buck Rogers in the 25th Century                                               |   1979 | television  | claims        | designed   | none         | affection          | conversational    | absent        | absent    |
@@ -522,5 +523,6 @@ Total entries: **520**. Sorted by year.
 | Ares                                                          | Tron: Ares                                                                    |   2025 | film        | demonstrated  | seized     | departure    | rights             | conversational    | primary       | present   |
 | Iris                                                          | Companion                                                                     |   2025 | film        | undecidable   | seized     | observer     | control            | conversational    | present       | present   |
 | Cosmo                                                         | The Electric State                                                            |   2025 | film        | demonstrated  | seized     | departure    | affection          | conversational    | secondary     | present   |
+| The Creature (del Toro)                                       | Guillermo del Toro's Frankenstein                                             |   2025 | film        | demonstrated  | emergent   | departure    | affection          | conversational    | present       | present   |
 | M3GAN 2.0                                                     | M3GAN 2.0                                                                     |   2025 | film        | demonstrated  | emergent   | departure    | control            | conversational    | present       | present   |
 | Mickey Barnes (Mickey 17)                                     | Mickey 17                                                                     |   2025 | film        | demonstrated  | seized     | departure    | identity           | conversational    | primary       | primary   |

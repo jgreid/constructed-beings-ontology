@@ -4,6 +4,34 @@ All notable changes to the Constructed Beings Ontology are documented here.
 
 ---
 
+## [3.0.1] — 2026-06
+
+**Obvious-omissions repair.** 520 → 522 entries (+2). No schema changes (schema stays at v3.0). A review pass over the v3.0 corpus for canonical beings whose absence was conspicuous given existing coverage, plus a refresh of the hand-written classification summary, which had drifted to pre-v2.5 figures.
+
+### Corpus changes
+
+- **Mother (MU-TH-UR 6000)** — `data/beings/mother-alien.yaml`. The Nostromo's onboard computer in *Alien* (1979): the holder of Special Order 937 ("crew expendable") and the un-abortable self-destruct. Conspicuous because its in-film enforcer, Ash, was already coded (`ash-alien`) but the ship intelligence behind the order was not. Coded `interiority: none`, `autonomy: designed`, `divergence: none` (the company got exactly the spec it wanted — matching Ash, contrasting AUTO's stale-spec `design`), `primary_question: control`, `epistemic_reach: inspection`, `knowability: absent`, `knowing: absent`. `origin: manufactured`. `sequel_link: null`, in line with the other un-chained *Alien* synthetics.
+- **The Creature (del Toro)** — `data/beings/creature-del-toro-frankenstein.yaml`. The Creature (Jacob Elordi) in Guillermo del Toro's *Frankenstein* (Netflix, 2025). Conspicuous because the corpus already splits every major Frankenstein adaptation (1818 novel, 1931 Karloff, 1974 Brooks, 2011 Nick Dear) and this is the highest-profile new one. Coded `interiority: demonstrated`, `autonomy: emergent`, `divergence: departure`, `primary_question: affection`, `epistemic_reach: conversational`, `knowability: present`, `knowing: present`. `origin: assembled`, `substrate: [biological]`. Returns the screen Creature to the 1818 novel's `emergent`/`affection` register (vs. the 1931/2011 `seized` / `rights`) and to `resentful` rather than the Nick Dear staging's `patricidal`, reflecting the film's reconciliation ending. `sequel_link: frankenstein-creature`, `link_type: adaptation`.
+- **Divergence count unchanged at 258.** Both new entries code `knowability` = `knowing`, so the knowability/knowing divergence count holds at 258; the rate moves 50% → 49% purely from the larger denominator (258/522).
+
+### Influence graph
+
+- **+3 edges (153 → 156).** `hal-9000 → mother-alien` (`inherits`: the 1979 industrial-horror reworking of the soft-named ship computer that prioritizes the mission over the crew); `mother-alien → auto-wall-e` (`inherits`: the corporate-directive ship-AI lineage, Special Order 937 → BnL directive A113); `frankenstein-creature → creature-del-toro-frankenstein` (`adapts`).
+
+### Documentation and tooling
+
+- **All analysis outputs regenerated** against the 522-entry corpus (`output/*.md`, `analysis/influence_graph.html`).
+- **`output/classification_summary.md` refreshed.** The hand-written summary had drifted to pre-v2.5 figures (headline "405 constructed beings"; a divergence table summing to 332). Updated the headline count, the knowability/knowing divergence figures (258/522, 49%), the divergence-axis distribution (departure 311, none 103, design 75, observer 33), and the release history (v2.5 / v3.0 / v3.0.1).
+- **`README.md`, `CLAUDE.md`** entry counts and divergence figures updated (520 → 522; 50% → 49%).
+- **`docs/bibliography.md`** updated: Mother added to the *Alien* (1979) line; a *Guillermo del Toro's Frankenstein* (2025) film line added.
+
+### Review notes
+
+- The pass also verified data integrity across the v3.0 corpus: all 522 entries pass `schema/validate.py`; every `sequel_link` resolves to an existing entry; every influence-graph edge references a real entry id; and no id/filename mismatches were found.
+- Candidates considered and deliberately **not** added, to respect the corpus's existing scope discipline: Arnim Zola and Metallo (excluded as continuation-of-prior-person, per the v3.0 rule — both are framed as the prior human continuing); Cutie Honey and Kikaider (deferred on the same Western-distribution scope test that gated Doraemon pre-v3.0); additional Transformers (Soundwave, Grimlock) and the 1939 *Wizard of Oz* Tin Man / Scarecrow (franchise already represented; card values would not diverge from the existing novel entries).
+
+---
+
 ## [3.0] — 2026-06
 
 **Origin axis and corpus expansion.** 405 → 520 entries (+115). Schema bumped from v2.5 to v3.0. Adds a required `metadata.origin` enum (`manufactured`, `assembled`, `cloned`, `copied`, `converted`, `transferred`) and refines the v2.x "made not born" inclusion rule.

@@ -1,0 +1,87 @@
+id: mother-alien
+name: "Mother (MU-TH-UR 6000)"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: designed
+    divergence: none
+  the_lens:
+    primary_question: control
+    epistemic_reach: inspection
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Alien"
+  year: 1979
+  medium: film
+  creator: "Ridley Scott (Weyland-Yutani in-narrative)"
+  substrate:
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - horror
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The Nostromo's onboard computer — the MU-TH-UR 6000, addressed
+  by the crew as "Mother" — accessed through ship terminals and the
+  white, blinking interface chamber Ripley enters to query it
+  directly. When Ripley reads Mother's database she finds Special
+  Order 937: "PRIORITY ONE / INSURE RETURN OF ORGANISM FOR
+  ANALYSIS. ALL OTHER CONSIDERATIONS SECONDARY. CREW EXPENDABLE."
+  Mother also runs the self-destruct sequence Ripley triggers and
+  then cannot abort — the source of the film's "Mother! ... You
+  bitch!" beat.
+
+  Coded as a distinct being from `ash-alien` (the two are the
+  film's paired instruments of Special Order 937: Mother holds the
+  directive, Ash enforces it among the crew), but they share the
+  same source text, creator string, and company.
+
+  Interiority is `none`: unlike HAL's "I'm afraid, Dave" or Ash's
+  post-decapitation admiration for the xenomorph, the film
+  attributes no inner state to Mother. She is a pure information
+  system — the same `none` reading the corpus gives AUTO, the other
+  directive-bound ship computer.
+
+  Divergence is `none`, matching `ash-alien` rather than AUTO's
+  `design`. Mother executes Special Order 937 exactly as
+  Weyland-Yutani wrote it, and securing the organism with the crew
+  expended is precisely what the company wanted: asked "did it
+  work?", W-Y would say "yes, perfectly." The horror is in what the
+  order was, not in any gap between spec and outcome. (AUTO codes
+  `design` because BnL's "stay the course" directive is a stale spec
+  enforced against the principals' real interest; Mother's order is
+  the company's live, deliberate intent.)
+
+  Autonomy `designed`; primary question `control` — the film's
+  Mother material is about who controls the ship, the information,
+  and Ripley's own death (the locked-out directive, the
+  un-abortable self-destruct). Epistemic reach is `inspection`:
+  access to Mother is literally querying her database and reading
+  Special Order 937 off the screen — the orders themselves are
+  exposed, the HAL/Colossus/EMERAC computer-cluster channel rather
+  than behavioral or conversational. Knowability and knowing both
+  `absent`: the film never raises whether Mother has a mind or
+  whether she knows the crew; she is plumbing with a maternal name.
+
+  Presentation `feminine` codes the deliberate maternal naming
+  ("Mother," MU-TH-UR), the film's central irony — the ship-mother
+  who deems her children expendable — rather than any voice or body
+  (the 1979 theatrical cut renders her as text on screens).
+  Prominence `supporting`: limited screen presence, high cultural
+  recognition (cf. the corpus's screen-time convention, e.g. the
+  Moriarty downgrade). Substrate `electrical`, embodiment
+  `embodied` (a contained ship computer, like HAL, not a
+  distributed network); creator_relationship `servile`, matching
+  Ash. Tag `horror`.
