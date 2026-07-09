@@ -106,7 +106,7 @@ The ontology uses a **one entry per source text** rule. The mechanical question 
 - **Games: one per game.** Portal 1 and Portal 2 are separate entries. Halo is the ambiguous case — the CE-through-3 trilogy is coherent enough to unify, and Halo 4+ (rampancy) is distinct enough to split.
 - **Television / serials / comics: one per series by default.** Split only if the character undergoes a transformation that changes the card's core properties. If two candidate entries produce identical cards, collapse them.
 
-**Use `sequel_link`** to chain related entries: older → newer. The newest entry in a chain has `sequel_link: null`. The link is one-directional and is not a symmetric relationship — it's a reading aid, not a data model.
+**Use `sequel_link`** to chain related entries: older → newer. The newest entry in a chain has `sequel_link: null`. The link is one-directional and is not a symmetric relationship — it's a reading aid, not a data model. When a source has multiple derivatives (Frankenstein and its four adaptation entries), the derivatives point back to the shared parent instead — see the fan-in exception in SCHEMA.md.
 
 ### Sequel splits for different beings with continuity
 

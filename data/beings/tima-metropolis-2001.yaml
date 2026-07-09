@@ -1,0 +1,70 @@
+id: tima-metropolis-2001
+name: "Tima"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Metropolis"
+  year: 2001
+  medium: film
+  creator: "Rintaro, Katsuhiro Otomo, Madhouse (Duke Red / Dr. Laughton in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - child
+    - power
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: resentful
+  tags:
+    - child-arc
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The android girl of Rintaro and Otomo's 2001 anime *Metropolis*,
+  adapting Tezuka's 1949 manga — which Tezuka began from a single
+  publicity still of Lang's False Maria (edge in the influence
+  graph). Duke Red commissions Tima in the image of his dead
+  daughter, to sit on the Ziggurat's throne as the superhuman ruler
+  of the world; she escapes activation, loses her memory, and builds
+  a self from scratch with the boy Kenichi.
+
+  Primary question `identity`, carried by her literal recurring line
+  — "Who am I?" — and by the film's cruelest beat, that she does not
+  know she is a robot until Duke Red shows her her own schematics.
+  Reach `conversational`: her selfhood is negotiated in dialogue
+  with Kenichi (teaching her words, her name, "I" and "you"), and
+  that channel is the film's access to her.
+
+  Divergence `departure`, flagged as the entry's closest call. She
+  abandons the throne-spec for personhood — and then, shot and
+  dying, is seated on the throne anyway and executes the superhuman
+  wrath Duke Red built into her, disowning him ("I am not your
+  daughter") as she does. A `design` reading (the spec itself — a
+  weapon-god — was the catastrophe) is defensible; the coding
+  follows the film's center of gravity, which is her departure into
+  and then out of humanity, ending on the fragment of her voice
+  asking who she is.
+
+  Origin `manufactured`, not `copied`: she is modeled on the dead
+  Tima's appearance and role, but no mind or memories transfer —
+  the replacement-daughter pathos lives in motivation `child`
+  (alongside `power`) rather than in the origin axis. Creator
+  relationship `resentful` for the final rejection. Knowability and
+  knowing both `present`: whether her feelings are real and whether
+  she truly knows Kenichi generate tension throughout without
+  becoming the film's explicit argument.

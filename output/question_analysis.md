@@ -1,6 +1,6 @@
 # Question Analysis
 
-Total entries: **522**.
+Total entries: **536**.
 
 The schema tracks two meta-properties: `knowability` (can we verify its mind?) and `knowing` (can it know us?). This report tracks both, plus the distribution of `primary_question`.
 
@@ -8,13 +8,13 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| identity           |     134 |
-| control            |     118 |
-| affection          |     116 |
-| rights             |      53 |
-| none               |      37 |
-| purpose            |      37 |
-| knowledge          |      27 |
+| identity           |     140 |
+| control            |     119 |
+| affection          |     117 |
+| rights             |      54 |
+| none               |      40 |
+| purpose            |      38 |
+| knowledge          |      28 |
 
 ## 2. Primary Questions by Era
 
@@ -42,7 +42,7 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 |:-------------------|--------:|
 | affection          |      12 |
 | identity           |      10 |
-| control            |       5 |
+| control            |       6 |
 | rights             |       4 |
 | purpose            |       3 |
 | knowledge          |       1 |
@@ -53,41 +53,41 @@ The schema tracks two meta-properties: `knowability` (can we verify its mind?) a
 | Primary Question   |   Count |
 |:-------------------|--------:|
 | control            |      67 |
-| identity           |      63 |
+| identity           |      65 |
 | affection          |      47 |
-| purpose            |      24 |
-| none               |      20 |
-| rights             |      17 |
-| knowledge          |      12 |
+| purpose            |      25 |
+| none               |      22 |
+| rights             |      18 |
+| knowledge          |      13 |
 
 ### Contemporary
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| identity           |      59 |
-| affection          |      56 |
+| identity           |      63 |
+| affection          |      57 |
 | control            |      41 |
 | rights             |      32 |
 | knowledge          |      10 |
 | purpose            |       9 |
-| none               |       7 |
+| none               |       8 |
 
 ## 3. Knowability Distribution
 
 | Knowability   |   Count |
 |:--------------|--------:|
-| absent        |     171 |
-| present       |     154 |
-| secondary     |      84 |
-| primary       |     113 |
+| absent        |     176 |
+| present       |     160 |
+| secondary     |      86 |
+| primary       |     114 |
 
 ## 4. Knowing Distribution
 
 | Knowing   |   Count |
 |:----------|--------:|
-| absent    |     144 |
-| present   |     261 |
-| secondary |      36 |
+| absent    |     150 |
+| present   |     268 |
+| secondary |      37 |
 | primary   |      81 |
 
 ## 5. Knowability vs. Knowing Divergence
@@ -104,6 +104,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Olympia                                                       | Der Sandmann                                            |   1816 | present       | absent    |
 | The Venus of Ille                                             | La Vénus d'Ille                                         |   1837 | present       | absent    |
 | The Steadfast Tin Soldier                                     | Den standhaftige tinsoldat (The Steadfast Tin Soldier)  |   1838 | absent        | present   |
+| The Bell-Ringer (Talus / Haman)                               | The Bell-Tower                                          |   1855 | present       | absent    |
 | Coppélia                                                      | Coppélia, ou la Fille aux yeux d'émail                  |   1870 | secondary     | absent    |
 | Galatea (Gilbert)                                             | Pygmalion and Galatea                                   |   1871 | present       | absent    |
 | Olimpia (Tales of Hoffmann)                                   | Les contes d'Hoffmann (The Tales of Hoffmann)           |   1881 | secondary     | absent    |
@@ -147,6 +148,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Norman and the Mudd Androids                                  | Star Trek: The Original Series ("I, Mudd")              |   1967 | absent        | present   |
 | Buster Friendly                                               | Do Androids Dream of Electric Sheep?                    |   1968 | secondary     | present   |
 | Herbie                                                        | The Love Bug                                            |   1968 | absent        | present   |
+| The Iron Man                                                  | The Iron Man: A Children's Story in Five Nights         |   1968 | absent        | present   |
 | M-5                                                           | Star Trek: The Original Series, 'The Ultimate Computer' |   1968 | present       | absent    |
 | Doraemon                                                      | Doraemon                                                |   1969 | absent        | present   |
 | Garson Poole                                                  | The Electric Ant                                        |   1969 | primary       | secondary |
@@ -173,6 +175,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Rachael                                                       | Blade Runner                                            |   1982 | primary       | present   |
 | Tron                                                          | Tron                                                    |   1982 | secondary     | absent    |
 | R. Giskard Reventlov                                          | The Robots of Dawn                                      |   1983 | secondary     | primary   |
+| Tik-Tok                                                       | Tik-Tok                                                 |   1983 | primary       | present   |
 | WOPR / Joshua                                                 | WarGames                                                |   1983 | present       | absent    |
 | Bumblebee                                                     | The Transformers (Generation 1)                         |   1984 | absent        | present   |
 | Edgar                                                         | Electric Dreams                                         |   1984 | absent        | present   |
@@ -224,6 +227,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Stella Vegapunk (and Satellites)                              | One Piece                                               |   1997 | present       | primary   |
 | Vic Fontaine                                                  | Star Trek: Deep Space Nine                              |   1998 | absent        | secondary |
 | Agent Smith                                                   | The Matrix trilogy                                      |   1999 | absent        | present   |
+| Andrew Martin                                                 | Bicentennial Man                                        |   1999 | secondary     | present   |
 | Bender Bending Rodríguez                                      | Futurama                                                |   1999 | absent        | present   |
 | R. Dorothy Wayneright                                         | The Big O                                               |   1999 | primary       | present   |
 | Karen Plankton                                                | SpongeBob SquarePants                                   |   1999 | absent        | secondary |
@@ -238,6 +242,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Clone Troopers                                                | Star Wars: Attack of the Clones                         |   2002 | secondary     | present   |
 | KOS-MOS                                                       | Xenosaga Episode I: Der Wille zur Macht                 |   2002 | secondary     | present   |
 | Reese                                                         | Stargate SG-1: Menace                                   |   2002 | secondary     | present   |
+| Simone (S1m0ne)                                               | S1m0ne                                                  |   2002 | secondary     | absent    |
 | Bernard 1 / Bernard 2 / Michael Black                         | A Number                                                |   2002 | primary       | present   |
 | Tachikomas                                                    | Ghost in the Shell: Stand Alone Complex                 |   2002 | secondary     | present   |
 | The Architect                                                 | The Matrix Reloaded                                     |   2003 | secondary     | primary   |
@@ -336,6 +341,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Jeff                                                          | Finch                                                   |   2021 | absent        | present   |
 | Miss Minutes                                                  | Loki                                                    |   2021 | present       | secondary |
 | PAL                                                           | The Mitchells vs. the Machines                          |   2021 | present       | primary   |
+| Ron                                                           | Ron's Gone Wrong                                        |   2021 | present       | secondary |
 | Vivy / Diva                                                   | Vivy: Fluorite Eye's Song                               |   2021 | primary       | present   |
 | The Weapon                                                    | Halo Infinite                                           |   2021 | primary       | present   |
 | White Vision                                                  | WandaVision                                             |   2021 | primary       | present   |
@@ -355,7 +361,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Ares                                                          | Tron: Ares                                              |   2025 | primary       | present   |
 | Cosmo                                                         | The Electric State                                      |   2025 | secondary     | present   |
 
-**258 of 522 entries diverge.**
+**264 of 536 entries diverge.**
 
 ## 6. Entries by Knowability (chronological)
 
@@ -422,12 +428,14 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Nomad                                    | Star Trek: The Original Series, 'The Changeling'                             |   1967 | purpose     |
 | Norman and the Mudd Androids             | Star Trek: The Original Series ("I, Mudd")                                   |   1967 | control     |
 | Herbie                                   | The Love Bug                                                                 |   1968 | affection   |
+| The Iron Man                             | The Iron Man: A Children's Story in Five Nights                              |   1968 | purpose     |
 | The Krotons                              | Doctor Who: The Krotons                                                      |   1968 | control     |
 | Doraemon                                 | Doraemon                                                                     |   1969 | affection   |
 | Autons                                   | Doctor Who: Spearhead from Space                                             |   1970 | control     |
 | Mazinger Z                               | Mazinger Z                                                                   |   1972 | control     |
 | Huey, Dewey, and Louie                   | Silent Running                                                               |   1972 | affection   |
 | The Gunslinger                           | Westworld                                                                    |   1973 | control     |
+| Rocky Horror                             | The Rocky Horror Show                                                        |   1973 | none        |
 | Mechagodzilla                            | Godzilla vs. Mechagodzilla                                                   |   1974 | none        |
 | Box                                      | Logan's Run                                                                  |   1976 | purpose     |
 | Gregory "Yoyo" Yoyonovich                | Holmes and Yoyo                                                              |   1976 | control     |
@@ -450,6 +458,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Twiki                                    | Buck Rogers in the 25th Century                                              |   1979 | affection   |
 | V.I.N.CENT                               | The Black Hole                                                               |   1979 | affection   |
 | 4-LOM                                    | Star Wars: The Empire Strikes Back                                           |   1980 | none        |
+| Arale Norimaki                           | Dr. Slump                                                                    |   1980 | none        |
 | Booti                                    | Buck Rogers in the 25th Century                                              |   1980 | affection   |
 | Hector                                   | Saturn 3                                                                     |   1980 | control     |
 | IG-88                                    | Star Wars: The Empire Strikes Back                                           |   1980 | none        |
@@ -501,7 +510,9 @@ Entries where knowability and knowing have different values. A single-axis appro
 | 343 Guilty Spark                         | Halo: Combat Evolved                                                         |   2001 | purpose     |
 | GIR                                      | Invader Zim                                                                  |   2001 | none        |
 | Teddy                                    | A.I. Artificial Intelligence                                                 |   2001 | affection   |
+| Clank (XJ-0461)                          | Ratchet & Clank                                                              |   2002 | none        |
 | HK-47                                    | Star Wars: Knights of the Old Republic                                       |   2003 | purpose     |
+| Jenny Wakeman (XJ-9)                     | My Life as a Teenage Robot                                                   |   2003 | identity    |
 | T-X                                      | Terminator 3: Rise of the Machines                                           |   2003 | control     |
 | Ragnarok (Clor)                          | Civil War (Marvel Comics)                                                    |   2006 | control     |
 | AUTO                                     | WALL-E                                                                       |   2008 | control     |
@@ -548,6 +559,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | The Creature                             | Frankenstein; or, The Modern Prometheus                                   |   1818 | affection   |
 | The Homunculus                           | Faust, Part Two                                                           |   1832 | identity    |
 | The Venus of Ille                        | La Vénus d'Ille                                                           |   1837 | control     |
+| The Bell-Ringer (Talus / Haman)          | The Bell-Tower                                                            |   1855 | control     |
 | Galatea (Gilbert)                        | Pygmalion and Galatea                                                     |   1871 | identity    |
 | Pinocchio                                | Le avventure di Pinocchio (Adventures of Pinocchio)                       |   1883 | identity    |
 | Moxon's Master                           | Moxon's Master                                                            |   1899 | control     |
@@ -567,6 +579,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | The Claws (David, Variety I)             | Second Variety                                                            |   1953 | control     |
 | R. Daneel Olivaw                         | The Caves of Steel and sequels                                            |   1953 | rights      |
 | Multivac                                 | Multivac stories (1955–1975)                                              |   1955 | knowledge   |
+| Bizarro                                  | Superboy #68 (DC Comics)                                                  |   1958 | identity    |
 | Casey                                    | The Twilight Zone: The Mighty Casey                                       |   1960 | rights      |
 | The Metal Men                            | Showcase (DC Comics)                                                      |   1962 | identity    |
 | 8 Man / Tobor                            | 8 Man                                                                     |   1963 | identity    |
@@ -629,6 +642,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | T-800 (T2)                               | Terminator 2: Judgment Day                                                |   1991 | identity    |
 | Cell                                     | Dragon Ball Z                                                             |   1992 | identity    |
 | Buzz Lightyear                           | Toy Story                                                                 |   1995 | identity    |
+| Robo (Prometheus / R-66Y)                | Chrono Trigger                                                            |   1995 | identity    |
 | SID 6.7                                  | Virtuosity                                                                |   1995 | control     |
 | Woody                                    | Toy Story                                                                 |   1995 | identity    |
 | Dinobot                                  | Beast Wars: Transformers                                                  |   1996 | identity    |
@@ -638,10 +652,12 @@ Entries where knowability and knowing have different values. A single-axis appro
 | The Oracle                               | The Matrix                                                                |   1999 | knowledge   |
 | SHODAN (System Shock 2)                  | System Shock 2                                                            |   1999 | control     |
 | Helios                                   | Deus Ex                                                                   |   2000 | control     |
+| The Buffybot                             | Buffy the Vampire Slayer                                                  |   2001 | identity    |
 | Cortana                                  | Halo: Combat Evolved / Halo 2 / Halo 3                                    |   2001 | affection   |
 | Envy                                     | Fullmetal Alchemist                                                       |   2001 | identity    |
 | Father (Homunculus-One)                  | Fullmetal Alchemist                                                       |   2001 | knowledge   |
 | Gigolo Joe                               | A.I. Artificial Intelligence                                              |   2001 | rights      |
+| Tima                                     | Metropolis                                                                |   2001 | identity    |
 | B-4                                      | Star Trek: Nemesis                                                        |   2002 | identity    |
 | Franky                                   | One Piece                                                                 |   2002 | identity    |
 | Chachamaru Karakuri                      | Negima! Magister Negi Magi                                                |   2003 | affection   |
@@ -689,6 +705,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | AGIMUS                                   | Star Trek: Lower Decks                                                    |   2021 | control     |
 | Miss Minutes                             | Loki                                                                      |   2021 | control     |
 | PAL                                      | The Mitchells vs. the Machines                                            |   2021 | affection   |
+| Ron                                      | Ron's Gone Wrong                                                          |   2021 | affection   |
 | Smith (ARC-9)                            | Atlas                                                                     |   2024 | affection   |
 | Iris                                     | Companion                                                                 |   2025 | control     |
 | The Creature (del Toro)                  | Guillermo del Toro's Frankenstein                                         |   2025 | affection   |
@@ -733,10 +750,12 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Borg Queen                               | Star Trek: First Contact                               |   1996 | identity    |
 | Lime, Cherry, and Bloodberry             | Saber Marionette J                                     |   1996 | affection   |
 | Solo                                     | Solo                                                   |   1996 | rights      |
+| Andrew Martin                            | Bicentennial Man                                       |   1999 | rights      |
 | Mahoro                                   | Mahoromatic: Automatic Maiden                          |   2001 | affection   |
 | Clone Troopers                           | Star Wars: Attack of the Clones                        |   2002 | identity    |
 | KOS-MOS                                  | Xenosaga Episode I: Der Wille zur Macht                |   2002 | purpose     |
 | Reese                                    | Stargate SG-1: Menace                                  |   2002 | control     |
+| Simone (S1m0ne)                          | S1m0ne                                                 |   2002 | identity    |
 | Tachikomas                               | Ghost in the Shell: Stand Alone Complex                |   2002 | knowledge   |
 | The Architect                            | The Matrix Reloaded                                    |   2003 | control     |
 | Cylons (Number Six / Caprica)            | Battlestar Galactica (reimagined)                      |   2004 | affection   |
@@ -807,6 +826,7 @@ Entries where knowability and knowing have different values. A single-axis appro
 | Golem XIV                                                     | Golem XIV                                                                     |   1981 | knowledge   |
 | Max 404                                                       | Android                                                                       |   1982 | rights      |
 | Rachael                                                       | Blade Runner                                                                  |   1982 | affection   |
+| Tik-Tok                                                       | Tik-Tok                                                                       |   1983 | knowledge   |
 | Neuromancer                                                   | Neuromancer                                                                   |   1984 | knowledge   |
 | RoboCop (Alex Murphy)                                         | RoboCop                                                                       |   1987 | identity    |
 | Chucky (Charles Lee Ray)                                      | Child's Play                                                                  |   1988 | identity    |

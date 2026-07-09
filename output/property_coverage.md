@@ -1,147 +1,147 @@
 # Property Coverage Report
 
-Total entries: **522**.
+Total entries: **536**.
 
 This report counts the distribution of values for each property. List-valued properties (substrate, motivation) count every token separately — hybrids contribute to each of their substrates.
 
 ## Interiority
 
-- **Coded:** 522/522 entries
+- **Coded:** 536/536 entries
 
 | Interiority   |   Count |
 |:--------------|--------:|
-| demonstrated  |     296 |
+| demonstrated  |     306 |
 | claims        |     118 |
-| none          |      56 |
+| none          |      59 |
 | undecidable   |      31 |
-| narrated      |      21 |
+| narrated      |      22 |
 
 ## Autonomy
 
-- **Coded:** 522/522 entries
+- **Coded:** 536/536 entries
 
 | Autonomy   |   Count |
 |:-----------|--------:|
-| seized     |     199 |
-| designed   |     197 |
-| emergent   |     112 |
-| none       |      14 |
+| seized     |     200 |
+| designed   |     199 |
+| emergent   |     120 |
+| none       |      17 |
 
 ## Divergence
 
-- **Coded:** 522/522 entries
+- **Coded:** 536/536 entries
 
 | Divergence   |   Count |
 |:-------------|--------:|
-| departure    |     311 |
-| none         |     103 |
-| design       |      75 |
-| observer     |      33 |
+| departure    |     317 |
+| none         |     105 |
+| design       |      80 |
+| observer     |      34 |
 
 ## Primary Question
 
-- **Coded:** 522/522 entries
+- **Coded:** 536/536 entries
 
 | Primary Question   |   Count |
 |:-------------------|--------:|
-| identity           |     134 |
-| control            |     118 |
-| affection          |     116 |
-| rights             |      53 |
-| none               |      37 |
-| purpose            |      37 |
-| knowledge          |      27 |
+| identity           |     140 |
+| control            |     119 |
+| affection          |     117 |
+| rights             |      54 |
+| none               |      40 |
+| purpose            |      38 |
+| knowledge          |      28 |
 
 ## Epistemic Reach
 
-- **Coded:** 522/522 entries
+- **Coded:** 536/536 entries
 
 | Epistemic Reach   |   Count |
 |:------------------|--------:|
-| conversational    |     331 |
-| behavioral        |     121 |
-| inspection        |      46 |
+| conversational    |     334 |
+| behavioral        |     129 |
+| inspection        |      49 |
 | none              |      24 |
 
 ## Knowability
 
-- **Coded:** 522/522 entries
+- **Coded:** 536/536 entries
 
 | Knowability   |   Count |
 |:--------------|--------:|
-| absent        |     171 |
-| present       |     154 |
-| primary       |     113 |
-| secondary     |      84 |
+| absent        |     176 |
+| present       |     160 |
+| primary       |     114 |
+| secondary     |      86 |
 
 ## Knowing
 
-- **Coded:** 522/522 entries
+- **Coded:** 536/536 entries
 
 | Knowing   |   Count |
 |:----------|--------:|
-| present   |     261 |
-| absent    |     144 |
+| present   |     268 |
+| absent    |     150 |
 | primary   |      81 |
-| secondary |      36 |
+| secondary |      37 |
 
 ## Medium
 
-- **Coded:** 522/522 entries
+- **Coded:** 536/536 entries
 
 | Medium      |   Count |
 |:------------|--------:|
-| television  |     168 |
-| film        |     166 |
-| novel       |      52 |
-| video-game  |      39 |
-| comics      |      34 |
-| short-story |      27 |
+| film        |     170 |
+| television  |     170 |
+| novel       |      54 |
+| video-game  |      41 |
+| comics      |      36 |
+| short-story |      28 |
 | play        |      11 |
 | folklore    |      10 |
 | poem        |       6 |
 | epic        |       3 |
+| musical     |       3 |
 | ballet      |       2 |
-| musical     |       2 |
 | opera       |       2 |
 
 ## Substrate
 
-- **Coded:** 522/522 entries
+- **Coded:** 536/536 entries
 
 | Substrate   |   Count |
 |:------------|--------:|
-| electrical  |     414 |
-| mechanical  |     345 |
-| biological  |     152 |
+| electrical  |     424 |
+| mechanical  |     356 |
+| biological  |     155 |
 | linguistic  |      77 |
 | magical     |      73 |
 | cloned      |      23 |
 
 ## Origin
 
-- **Coded:** 522/522 entries
+- **Coded:** 536/536 entries
 
 | Origin       |   Count |
 |:-------------|--------:|
-| manufactured |     477 |
+| manufactured |     488 |
 | converted    |      18 |
-| copied       |      10 |
-| assembled    |       9 |
+| copied       |      12 |
+| assembled    |      10 |
 | cloned       |       6 |
 | transferred  |       2 |
 
 ## Motivation
 
-- **Coded:** 522/522 entries
+- **Coded:** 536/536 entries
 
 | Motivation    |   Count |
 |:--------------|--------:|
-| service       |     366 |
-| companionship |     167 |
-| knowledge     |     142 |
-| other         |     142 |
-| power         |     113 |
-| child         |      75 |
+| service       |     372 |
+| companionship |     170 |
+| knowledge     |     143 |
+| other         |     143 |
+| power         |     116 |
+| child         |      78 |
 | mirror        |      61 |
-| art           |      25 |
+| art           |      27 |

@@ -1,0 +1,68 @@
+id: clank-ratchet-clank
+name: "Clank (XJ-0461)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: design
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Ratchet & Clank"
+  year: 2002
+  medium: video-game
+  creator: "Insomniac Games (Chairman Drek's warbot factory in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - power
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - comedy
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The opening cutscene of the 2002 game is the whole ontological
+  event: Drek's factory on Quartu stamps out giant warbots, and one
+  unit comes off the line small, polite, and conscientious — a
+  "defect" who immediately steals a ship to warn the galaxy about
+  the army he was born into. Coded from the first game per the
+  one-entry-per-source rule; the series' later mythologization of
+  the defect (A Crack in Time's Zoni reveal) belongs to sequel
+  source texts and would change the origin story materially, so a
+  future split is flagged here rather than pre-coded.
+
+  Divergence `design`: the factory's spec was a mindless war
+  machine and the process produced otherwise — same
+  botched-fabrication call as the corpus's other happy accidents
+  (Bizarro's duplicator, Johnny 5's lightning). Autonomy `emergent`:
+  nobody wanted a warbot with a conscience. Creator_relationship
+  `rebellious` — his first act is desertion, his mission is Drek's
+  defeat.
+
+  Primary question `none`, the entry's main analytical point: the
+  2002 game asks nothing about Clank's nature or standing. He is
+  co-protagonist, moral center, and comic foil (the corpus's
+  mismatched-duo lineage from 3PO/R2 — edge in the influence
+  graph), but no scene frames a question about what he is.
+  Knowability and knowing both `absent` accordingly. Interiority is
+  still `demonstrated` — conscience, loyalty, and deadpan judgment
+  of Ratchet's early selfishness are shown in action; the game
+  simply never problematizes them.
+
+  Reach `behavioral`: he talks throughout, but language gets no
+  closer than watching him act. Motivation `power` codes the
+  factory's purpose (Drek's invasion army), not Clank's own.

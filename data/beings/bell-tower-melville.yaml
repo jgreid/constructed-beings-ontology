@@ -1,0 +1,72 @@
+id: bell-tower-melville
+name: "The Bell-Ringer (Talus / Haman)"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: none
+    divergence: design
+  the_lens:
+    primary_question: control
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: absent
+
+metadata:
+  source: "The Bell-Tower"
+  year: 1855
+  medium: short-story
+  creator: "Herman Melville"
+  substrate:
+    - mechanical
+  origin: manufactured
+  motivation:
+    - service
+    - power
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - horror
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Melville's 1855 Piazza Tale: the Renaissance mechanician Bannadonna
+  builds a shrouded automaton — called "Talus, iron slave to
+  Bannadonna" in the manuscript the narrator cites, and "Haman" by
+  the townsfolk — to strike the hours on his great bell. At the first
+  hour's stroke it kills him: he is absorbed in chiseling the bell
+  and standing in the strike path, and the machine does exactly what
+  it was wound to do. Fills the corpus's 19th-century American gap
+  between Hawthorne's butterfly (1844) and Moxon's Master (1899).
+
+  The coding leans hard on the story's own moral: "the creature slew
+  its creator... the blind slave obeyed its blinder lord." Interiority
+  and autonomy are `none` — the horror is precisely that there is
+  nobody home; the automaton is pure escapement. Divergence is
+  `design`: asked "did it work?", the honest answer is "yes — the
+  arrangement was the problem." The killing is spec-compliant.
+
+  Creator_relationship `servile` despite the killing — a deliberate
+  flag under coding principle 6. `patricidal` describes a stance,
+  and the bell-ringer has none; Melville's point is that servility
+  itself, unsupervised, is what kills the maker. The notes carry
+  what the enum cannot.
+
+  Knowability `present`: the town's speculation about what Bannadonna
+  has made — the narrator's digression on whether he aimed to be a
+  "practical materialist" creating a serf-race, a "supplement to the
+  Six Days" — raises the is-it-alive question and pointedly starves
+  it of an answer (the thing is shrouded until after the death, then
+  sunk at sea). Primary question `control` — the parable is about
+  mechanized slavery escaping oversight, an anxiety the corpus next
+  sees systematized in R.U.R. Motivation `service` + `power`:
+  Bannadonna's disclosed ambition is a race of mechanical helots.
+
+  Melville names the automaton after Spenser's Talus (edge in the
+  influence graph), routing the classical bronze-executioner lineage
+  into the American machine-age gothic.

@@ -409,6 +409,68 @@ entries:
   # Doraemon was excluded in v2.4.5 on out-of-scope grounds and
   # readmitted in v3.0. See the `v3.0 readmissions` block below.
 
+  # ── v3.1 review-pass exclusions ────────────────────────────────────
+
+  - name: "Will Caster"
+    source: "Transcendence"
+    year: 2014
+    reason: born-then-modified
+    note: >
+      Will Caster's consciousness is scanned and uploaded as he
+      dies; the film's central ambiguity is whether the upload is
+      still Will, and its resolution (the garden, "we were never
+      going to hurt anyone") lands on continuation. Excluded on
+      the same principle as Pantheon's UIs and Upload's residents:
+      the text stages the upload as the prior person continued,
+      not as a constructed being. A coder reading PINN's role as
+      corrupting the copy into a new entity could argue for
+      `origin: transferred`; excluded conservatively.
+
+  - name: "Mettaton"
+    source: "Undertale"
+    year: 2015
+    reason: born-then-modified
+    note: >
+      A ghost who inhabits a robot body built for him by Alphys.
+      The body is manufactured; the person animating it predates
+      it. Structurally identical to the Alphonse Elric exclusion —
+      a pre-existing soul relocated to constructed substrate — and
+      excluded on the same rule. The body-as-artifact question
+      remains parked with the Altered Carbon synthetic sleeves for
+      any future schema revision that formalizes body-swap cases.
+
+  - name: "Sparky"
+    source: "Frankenweenie"
+    year: 2012
+    reason: born-then-modified
+    note: >
+      Burton's Frankenstein riff revives Victor's own dead dog,
+      and the film's whole emotional argument is that Sparky is
+      the same dog ("I don't want him in my heart. I want him
+      here with me"). Reanimation staged as continuation, not as
+      the emergence of a new being — the inverse of the 1818
+      Creature, whose assembly from anonymous parts is what makes
+      him new. Excluded per the continuation test.
+
+  - name: "Christine"
+    source: "Christine (King)"
+    year: 1983
+    reason: boundary-deferred
+    note: >
+      King's novel is deliberately ambiguous between a haunting
+      (Roland LeBay's spirit in the car) and a machine born bad
+      off the Detroit line ("rolling off the assembly line with
+      something wrong with her" is the film's reading). Under the
+      haunting reading Christine is a possessed artifact, not a
+      constructed being — the Ariel problem in automotive form.
+      Under the born-bad reading she is a manufactured being with
+      no depicted maker-intent to diverge from. Deferred pending
+      an analytical treatment of possessed-object cases, which
+      the corpus currently handles case-by-case via the
+      haunted-doll entries (Annabelle, Billy), included because
+      their source texts stage the doll itself as the acting
+      entity.
+
 # ── v3.0 readmissions ────────────────────────────────────────────────
 #
 # The v3.0 sprint introduced the `metadata.origin` axis and refined the

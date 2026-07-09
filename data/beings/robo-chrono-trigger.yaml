@@ -1,0 +1,67 @@
+id: robo-chrono-trigger
+name: "Robo (Prometheus / R-66Y)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: conversational
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Chrono Trigger"
+  year: 1995
+  medium: video-game
+  creator: "Square / Masato Kato (Mother Brain's R-series in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: rebellious
+  tags:
+    - rebellion
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The R-66Y unit ("Prometheus") found rusting in the post-apocalyptic
+  2300 AD, repaired by Lucca and named Robo. His two set pieces are
+  the corpus-relevant ones: his R-series siblings beat him nearly to
+  destruction for the "malfunction" of helping humans, and the Fiona
+  sidequest has him spend four hundred years alone reforesting a
+  desert, then wonder aloud — over the campfire, to the friends who
+  just skipped those centuries — whether the entity that planted the
+  forest was really him, and whether a machine that has come to care
+  was broken all along or finally working.
+
+  Divergence `departure` and creator_relationship `rebellious`: made
+  to serve Mother Brain's program, he ends the Geno Dome arc by
+  destroying her (and Atropos, the counterpart who stayed on-spec).
+  Autonomy `emergent` — the game frames his kindness as deviation,
+  not design; the beating scene exists to say so.
+
+  Primary question `identity`, the close call being `affection`. The
+  friendship themes are the game's warmth, but the scenes that
+  interrogate Robo — "malfunctioning" vs. changed, the 400-year gap
+  in his continuity, Mother Brain's taunt that he is a defective
+  unit playing at feelings — all ask what he *is*. Knowability
+  `present` (that taunt raises the are-the-feelings-real question
+  and the game lets his conduct answer it) and knowing `present`
+  (the Fiona vigil is an act of knowing his friends' world across
+  time).
+
+  Reach `conversational` per the JRPG channel: his interior arrives
+  through dialogue boxes. Prominence `supporting` — canonical to the
+  medium's history (Chrono Trigger is one of the most canonized
+  JRPGs), limited recognition outside it. In the Astro Boy lineage
+  of the gentle Japanese robot (edge in the influence graph).

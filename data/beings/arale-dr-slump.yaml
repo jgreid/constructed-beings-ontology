@@ -1,0 +1,69 @@
+id: arale-dr-slump
+name: "Arale Norimaki"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: design
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "Dr. Slump"
+  year: 1980
+  medium: comics
+  creator: "Akira Toriyama (Senbei Norimaki in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - child
+  presentation: feminine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - comedy
+    - child-arc
+    - passing
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Senbei Norimaki's robot daughter, the engine of Toriyama's
+  breakthrough gag manga (1980–84, fully translated by Viz; anime
+  1981). Senbei builds a little-girl android partly to have a
+  daughter and partly to prove his genius; what he gets is
+  catastrophically strong, terminally cheerful, nearsighted, and
+  fascinated by poop — the running joke is that the flaws in the
+  build are inseparable from her charm. Divergence `design`
+  accordingly: the gap between the perfect-robot-girl spec and the
+  Arale that came out is the series' comic premise, and it is the
+  build, not any departure of hers, that produced it.
+
+  Autonomy `designed` — she is a person on purpose, and her chaos
+  is her nature rather than a rebellion. Primary question `none`:
+  Dr. Slump interrogates nothing; her robot-hood is a gag generator
+  (she must pass as a human schoolgirl, hence the tag — Senbei's
+  insistence that no one find out is a running bit, punctured
+  constantly). Knowability and knowing both `absent`. Reach
+  `behavioral` — Penguin Village offers no channel deeper than
+  watching her split the earth by tripping.
+
+  Motivation `child` (with the vanity component noted); creator
+  relationship `loyal` in the bickering-family register — she
+  addresses Senbei as an equal or a kid brother, but the bond is
+  the show. Prominence `major` on the Doraemon precedent: a
+  foundational East Asian gag-robot with substantial (if slower)
+  Western distribution, admitted per the v3.0 scope reading that
+  brought Doraemon in. Toriyama's later android canon (17, 18,
+  Cell, all already in the corpus) grows directly out of this
+  register — Dr. Slump's Penguin Village and its androids cameo
+  inside Dragon Ball itself. Graph edge from doraemon for the
+  domestic gag-manga robot lineage.
