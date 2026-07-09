@@ -1,0 +1,70 @@
+id: bizarro-dc
+name: "Bizarro"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: design
+  the_lens:
+    primary_question: identity
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Superboy #68 (DC Comics)"
+  year: 1958
+  medium: comics
+  creator: "Otto Binder, George Papp (Professor Dalton's duplicator ray in-narrative)"
+  substrate:
+    - biological
+  origin: copied
+  motivation:
+    - knowledge
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - canonical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  The imperfect duplicate of Superboy, created accidentally when
+  Professor Dalton's experimental duplicator ray strikes him. Coded
+  from the 1958 origin story, which is a tragedy, not a gag: the
+  chalk-white copy wants only acceptance, is hounded as a monster,
+  befriends a blind girl (the one person who cannot see what he is),
+  and destroys himself flying into the duplicator — the impact
+  restoring her sight. The later "Me am Bizarro" backwards-logic
+  comedy (Bizarro World, Htrae) inverts the register but keeps the
+  card; the series entry stays with the origin text per the
+  one-entry-per-source rule.
+
+  Origin `copied` — the clearest silver-age instance of the v3.0
+  category: a specific person duplicated, with the flawed copy (not
+  the original) as the narrative entity. Substrate `biological` is
+  the closest fit and flagged per coding principle 6: the stories
+  describe him as living but "imperfect, non-living matter" by
+  Kryptonian standards; there is no enum for "flawed duplicate
+  matter," and `biological` codes the flesh-like body the text
+  depicts.
+
+  Divergence `design`: the duplicator was supposed to produce a
+  perfect copy and the process itself was the problem — same call as
+  the corpus's other botched-fabrication cases. Autonomy `emergent`
+  (nobody designed his will; he simply has one, immediately and
+  inconveniently). Primary question `identity` — "am I Superboy? am
+  I anything?" is the story's engine, asked by the being himself.
+  Knowability `present` (Superboy and the town openly debate whether
+  the thing is alive or a mockery of life); knowing `present` (his
+  fixation on Superboy's life, home, and standing is the plot).
+
+  Creator_relationship `absent`: Dalton is an accident vector, not a
+  relationship; Bizarro's meaningful other is his template. Bizarro
+  precedes and prefigures DC's later copy-antagonists (Amazo, 1960 —
+  edge in the influence graph) and joins False Florimell in the
+  corpus's imperfect-double lineage.

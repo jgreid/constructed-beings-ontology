@@ -1,0 +1,68 @@
+id: simone-s1m0ne
+name: "Simone (S1m0ne)"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: none
+    divergence: observer
+  the_lens:
+    primary_question: identity
+    epistemic_reach: inspection
+    knowability: secondary
+    knowing: absent
+
+metadata:
+  source: "S1m0ne"
+  year: 2002
+  medium: film
+  creator: "Andrew Niccol (Viktor Taransky / Hank Aleno in-narrative)"
+  substrate:
+    - electrical
+  origin: manufactured
+  motivation:
+    - art
+  presentation: feminine
+  embodiment: projected
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - comedy
+    - passing
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Niccol's 2002 satire: washed-up director Viktor Taransky finishes
+  his film with "Simulation One," a photorealistic synthetic actress
+  he performs keystroke by keystroke, and the world falls in love
+  with a woman who does not exist. The corpus's cleanest case of a
+  constructed being with *nobody home at all*: interiority and
+  autonomy are both `none` — every gesture, interview, and concert
+  is Viktor at the console — and the film mines its comedy from the
+  audience's certainty that they are seeing a soul.
+
+  Divergence `observer` in its purest form: the gap is entirely in
+  perception. Simone never was what her public, the studio, or the
+  press believed. Primary question `identity` — "is she real?" is
+  asked constantly in-film and the answer, known to the audience
+  from the first act, is no. Epistemic reach `inspection`: we watch
+  her being operated — code, sliders, the Simulation One console —
+  which is what makes the world's credulity satirical rather than
+  mysterious.
+
+  Knowability `secondary`: the verification question is explicitly
+  and repeatedly raised (Simone can never be met in person; the
+  murder investigation turns on whether she ever existed), but the
+  film's central concern is celebrity culture, not epistemology —
+  the joke is that nobody *wants* to verify. Knowing `absent`: no
+  one asks whether Simone knows them; there is nothing to do the
+  knowing. Embodiment `projected` — screens, holographic concerts,
+  a webcam "interview" — with no body anywhere.
+
+  Origin `manufactured`: she is an amalgam (Viktor claims "Audrey
+  Hepburn's grace..." etc.), not a copy of any one person. Sits in
+  the synthetic-celebrity lineage between Idoru's Rei Toei (1996)
+  and Ashley Too / virtual-influencer stories (edges in the
+  influence graph via rei-toei-idoru and max-headroom).

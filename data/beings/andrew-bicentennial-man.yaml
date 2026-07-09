@@ -32,17 +32,20 @@ metadata:
   tags:
     - canonical
 
-sequel_link: null
-link_type: null
+sequel_link: andrew-bicentennial-man-1999
+link_type: adaptation
 
 notes: |
   Asimov's novella — later expanded with Robert Silverberg into
   *The Positronic Man* (1992) and adapted into the 1999 Chris
   Columbus film with Robin Williams — is the corpus's canonical
-  rights-arc story. Per the scoping decision to collapse sequel
-  splits when the card is stable, this single entry covers the
-  story, the expansion, and the film; all three tell the same
-  arc with the same card values.
+  rights-arc story. This entry covers the novella and the
+  Silverberg expansion, which share a card. The 1999 film was
+  originally collapsed in here too; the v3.1 review split it out
+  (`andrew-bicentennial-man-1999`) per the adaptations-always-split
+  rule, and because the film's card genuinely differs (epistemic
+  reach `inspection` for the film's on-the-table surgeries, where
+  the prose is `conversational`).
 
   Andrew is an NDR-series household robot whose positronic brain
   comes off the assembly line with an unusual artistic tendency.

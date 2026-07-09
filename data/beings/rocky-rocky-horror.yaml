@@ -1,0 +1,74 @@
+id: rocky-rocky-horror
+name: "Rocky Horror"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: none
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "The Rocky Horror Show"
+  year: 1973
+  medium: musical
+  creator: "Richard O'Brien (Dr. Frank-N-Furter in-narrative)"
+  substrate:
+    - biological
+  origin: assembled
+  motivation:
+    - companionship
+    - art
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: resentful
+  tags:
+    - comedy
+    - love-story
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Frank-N-Furter's tank-born creation, unveiled to the "In just
+  seven days I can make you a man" production number. Coded from the
+  1973 stage musical; the 1975 film (*The Rocky Horror Picture
+  Show*) produces an identical card and is collapsed into this entry
+  per the identical-cards exception, with the film noted here as the
+  culturally dominant text.
+
+  The show is an extended camp riff on the Universal Frankenstein
+  pictures — the lab unveiling, the lightning, the created mate —
+  with the genders and the motive flipped: Rocky is the
+  made-to-order lover, built for Frank's pleasure ("with blond hair
+  and a tan"), which routes the bride-of-frankenstein lineage
+  through inversion (edge in the influence graph). Motivation
+  `companionship` + `art` (the unveiling is staged as an aesthetic
+  triumph as much as an erotic one).
+
+  Origin `assembled` and flagged as a close call per coding
+  principle 6: half of Eddie's brain went into Rocky (Frank: "he had
+  a certain naive charm, but no muscle"), which is the
+  built-from-parts-of-a-person pathway, though Eddie's
+  alive-in-the-freezer status muddies the enum's "dead persons"
+  wording. `manufactured` is the defensible alternative; `assembled`
+  better preserves the Frankenstein-parody point of the Eddie
+  donation.
+
+  Primary question `none`, close call `affection`: Rocky exists as
+  spectacle and object of desire, and beyond his one lament of
+  createdness ("The Sword of Damocles is hanging over my head")
+  the show frames no sustained question about his nature or
+  standing — the questions are all about Frank. Divergence
+  `departure` (he strays from his maker's bed to Janet's "Touch-a
+  Touch-a Touch Me" within hours of birth); autonomy `emergent`
+  (appetite past spec, immediately). Creator relationship
+  `resentful` — fear and flight from Frank, though he carries
+  Frank's body up the tower in the King Kong-tableau finale;
+  the grief beat is noted here since the enum keeps the dominant
+  stance.

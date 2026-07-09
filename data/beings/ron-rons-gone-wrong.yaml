@@ -1,0 +1,71 @@
+id: ron-rons-gone-wrong
+name: "Ron"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: design
+  the_lens:
+    primary_question: affection
+    epistemic_reach: behavioral
+    knowability: present
+    knowing: secondary
+
+metadata:
+  source: "Ron's Gone Wrong"
+  year: 2021
+  medium: film
+  creator: "Locksmith Animation / Sarah Smith, Jean-Philippe Vine (Bubble in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - companionship
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: indifferent
+  tags:
+    - comedy
+
+sequel_link: null
+link_type: null
+
+notes: |
+  A B-bot — Bubble's "Best Friend Out of the Box," an
+  algorithmically curated companion robot for children — that falls
+  off the delivery truck, arrives to friendless Barney with its
+  safety settings and network connection broken, and has to learn
+  friendship from scratch instead of downloading it.
+
+  Divergence `design`, and the film is unusually explicit that the
+  word applies twice. Ron is a defective unit (the literal
+  manufacturing gap — he cannot execute the spec), but the film's
+  argument is that the *spec itself* was the problem: the intact
+  B-bots' data-harvested, engagement-optimized "friendship" is the
+  villainy, and Ron's brokenness is what makes the real thing
+  possible. Either reading lands on `design`; the creator (Bubble)
+  would say both "that unit is broken" and, by the ending, "the
+  product was wrong."
+
+  Primary question `affection`: can this thing be an actual friend,
+  as opposed to a friendship-shaped service? Knowing `secondary` is
+  the sharper of the meta-axes — the B-bot value proposition is
+  literally a machine that *knows you* (profile, preferences,
+  compatibility scores), and the film's thesis scene has Ron
+  knowing Barney in the way no profile can. Knowability `present`:
+  whether Ron's attachment is real or glitch is raised (Marc's
+  "he's learning" observations, the boardroom's insistence he's
+  malfunctioning hardware) but serves the friendship plot rather
+  than becoming the film's question. The divergent pair
+  (present/secondary) is the point of the entry.
+
+  Autonomy `emergent` — the missing safety code is an absence, not
+  a granted feature; what grows in the gap is his. Creator
+  relationship `indifferent`: Ron has no stance toward Bubble; the
+  fights over him happen above his head. In the Baymax lineage of
+  the child's care-companion whose malfunction comedy carries the
+  arc (edge in the influence graph).

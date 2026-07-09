@@ -1,0 +1,76 @@
+id: buffybot-buffy
+name: "The Buffybot"
+
+card:
+  the_being:
+    interiority: none
+    autonomy: none
+    divergence: none
+  the_lens:
+    primary_question: identity
+    epistemic_reach: inspection
+    knowability: present
+    knowing: present
+
+metadata:
+  source: "Buffy the Vampire Slayer"
+  year: 2001
+  medium: television
+  creator: "Joss Whedon / Mutant Enemy (Warren Mears in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  origin: copied
+  motivation:
+    - companionship
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: servile
+  tags:
+    - comedy
+    - passing
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Warren Mears's robot replica of Buffy Summers, commissioned by
+  Spike as a companion ("Intervention," season 5), then repurposed
+  by the Scoobies after Buffy's death to patrol Sunnydale and keep
+  the world from learning the Slayer is gone ("Bargaining," season
+  6). One entry for the series per the one-per-source rule; Warren's
+  earlier April ("I Was Made to Love You") and the season 2 robot
+  Ted would produce near-identical or lower-salience cards and are
+  covered here rather than split.
+
+  Interiority, autonomy, and divergence all `none` — and that
+  emptiness is the analytical content. The show is unusually strict
+  about the bot's non-personhood: she runs cheerful subroutines,
+  her devotion is a settings menu, and everyone who matters can
+  tell within minutes. Divergence `none` because she does exactly
+  what Warren built her to do — Spike's verdict, to his own
+  disgust, is that she worked.
+
+  Coded `identity` for the primary question even though the bot
+  herself cannot ask it: the narrative uses her entirely to ask
+  what made Buffy irreplaceable. The Scoobies' flinch at her, the
+  grief of seeing her wear Buffy's face at the Bargaining funeral-
+  in-reverse, Spike's rejection of her after the tower — every bot
+  scene is about the real woman she is not. This is the corpus's
+  recurring simulacrum move (Marjorie Prime, Be Right Back) played
+  in genre-comedy register, with the bot's copy-of-a-person origin
+  (`copied` — a specific person's appearance and observed
+  personality programmed into a new substrate, the crude end of the
+  pathway that runs to ash-be-right-back's data reconstruction;
+  flagged since no mind transfers).
+
+  Reach `inspection`: Willow reprograms her onscreen, reads her
+  diagnostics, and edits her settings — under-the-hood access is
+  the comedy's mechanism (her tactical readouts label Willow
+  "gay (1999–present)"). Knowability `present` (her mindlessness is
+  verifiable and verified; the tension is others' credulity),
+  knowing `present` (her stored models of the Scoobies are a
+  running gag with a grief payload). In the Stepford lineage of the
+  compliant fembot replacement of a real woman (edge in the
+  influence graph).

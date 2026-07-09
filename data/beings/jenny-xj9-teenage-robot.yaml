@@ -1,0 +1,69 @@
+id: jenny-xj9-teenage-robot
+name: "Jenny Wakeman (XJ-9)"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: designed
+    divergence: departure
+  the_lens:
+    primary_question: identity
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: absent
+
+metadata:
+  source: "My Life as a Teenage Robot"
+  year: 2003
+  medium: television
+  creator: "Rob Renzetti / Nickelodeon (Dr. Nora Wakeman in-narrative)"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+    - child
+  presentation: feminine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: loyal
+  tags:
+    - comedy
+    - child-arc
+    - military
+
+sequel_link: null
+link_type: null
+
+notes: |
+  XJ-9, "Jenny," the ninth in Dr. Nora Wakeman's line of global
+  defense robots — a fully sentient teenage girl who would rather
+  go to high school than intercept asteroids. The premise IS the
+  card: built as Earth's armed response system, she wants
+  adolescence, and every episode negotiates the gap.
+
+  Autonomy `designed` — Wakeman built a person on purpose (the
+  XJ line's sentience is a feature, and Wakeman addresses her as a
+  daughter as much as a unit) — but divergence `departure`, because
+  the person Wakeman got keeps leaving the defense spec for the
+  mall. Asked "did it work?", Wakeman's canonical answer is both
+  "yes, she saves the world weekly" and "she snuck out again": the
+  show's engine is the departure, so that's the coding.
+
+  Primary question `identity`: the series title is a statement of
+  it. Jenny's arc is the claim that a robot girl can be a *teenage*
+  girl — acceptance at school, skin-suit episodes (the "Sister
+  Sledgehammer" exoskin she wears to pass), what she is versus what
+  she was built for. Knowability and knowing both `absent`: the show
+  never doubts she has a mind and never frames her knowing of others
+  as a question; it is a comedy of role, not of verification.
+
+  Motivation `service` + `child`: protection of Earth is the design
+  document, but Wakeman's mother-daughter relationship to XJ-9 is
+  textual, not subtext (she is "my greatest creation" and also
+  grounded when she misbehaves). Creator relationship `loyal` —
+  friction, curfews, and genuine bond. Tag `military` per the
+  defense mandate. Sits squarely in the Astro Boy lineage (edge in
+  the influence graph): the child-shaped defender torn between duty
+  and childhood, translated to the American teen sitcom.

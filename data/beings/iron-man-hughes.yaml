@@ -1,0 +1,64 @@
+id: iron-man-hughes
+name: "The Iron Man"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: none
+  the_lens:
+    primary_question: purpose
+    epistemic_reach: behavioral
+    knowability: absent
+    knowing: present
+
+metadata:
+  source: "The Iron Man: A Children's Story in Five Nights"
+  year: 1968
+  medium: novel
+  creator: "Ted Hughes (unknown origin in-narrative)"
+  substrate:
+    - mechanical
+  origin: manufactured
+  motivation:
+    - other
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: absent
+  tags:
+    - child-arc
+
+sequel_link: iron-giant
+link_type: adaptation
+
+notes: |
+  Ted Hughes's 1968 children's novel, the source text of Brad Bird's
+  *The Iron Giant* (1999). Added in the v3.1 review pass: the corpus
+  splits every other major adaptation chain (Frankenstein, Pinocchio,
+  The Wild Robot) but had the film without its source.
+
+  The card differs from the film's in instructive ways. Hughes gives
+  the Iron Man no weapon backstory at all — "Where had he come from?
+  Nobody knows" is the book's refrain — so divergence is `none`
+  (there is no depicted design intent to diverge from) where the
+  film codes `departure` from a gun's blueprint. Primary question is
+  `purpose`, not the film's `identity`: the book's arc is society
+  finding a place for him (fear → the pit → the scrap yard → champion
+  of Earth against the space-bat-angel-dragon), and it never stages
+  the film's "I am not a gun" identity refusal. He is what he is;
+  the question is what to do with him.
+
+  Interiority `demonstrated` (courage, appetite, loyalty shown in
+  action; no narration of his inner state), autonomy `emergent` (no
+  creator, no orders; his agency is simply his own). Epistemic reach
+  `behavioral` — he speaks a little, but the book's access to him is
+  through what he does. Knowability `absent`; knowing `present` for
+  the Hogarth bond — the boy who betrays him, then becomes his
+  advocate, and whom the Iron Man clearly tracks and trusts.
+
+  Motivation is `other` with `creator_relationship: absent`: unlike
+  the film (coded `power`, a war machine by inferred design), the
+  novel refuses even an inferred build purpose. Prominence `major`
+  as a classic of British children's literature (and the basis of
+  Pete Townshend's 1989 concept album as well as the 1999 film).

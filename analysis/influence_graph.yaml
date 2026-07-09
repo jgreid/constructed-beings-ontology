@@ -1919,3 +1919,214 @@ edges:
       `seized` / `rights`. The reconciliation ending
       keeps creator-relationship at `resentful` rather
       than the Nick Dear staging's `patricidal`.
+
+  # ── v3.1 review-and-expansion edges ───────────────────────────────
+
+  - from: iron-man-hughes
+    to: iron-giant
+    type: adapts
+    note: >
+      Bird's 1999 film gives Hughes's unexplained visitor
+      a weapon backstory, which moves divergence from
+      `none` (no depicted design intent in the novel) to
+      `departure`, and shifts the primary question from
+      the book's `purpose` (finding him a place) to
+      `identity` ("I am not a gun").
+
+  - from: andrew-bicentennial-man
+    to: andrew-bicentennial-man-1999
+    type: adapts
+    note: >
+      The film keeps the novella's rights spine intact and
+      changes the access channel: epistemic reach moves
+      from `conversational` to `inspection` as the
+      becoming-human arc is staged as a series of
+      on-the-table surgeries, and substrate adds
+      `biological` accordingly.
+
+  - from: talus-faerie-queene
+    to: bell-tower-melville
+    type: inherits
+    note: >
+      Explicit in-text lineage: Melville's manuscript
+      fragment names the automaton "Talus, iron slave to
+      Bannadonna." Spenser's tireless bronze executioner
+      becomes the American machine age's blind mechanical
+      slave — obedience itself, unsupervised, as the
+      killing force.
+
+  - from: bell-tower-melville
+    to: moxons-master
+    type: inherits
+    note: >
+      The 19th-century American creator-killed-by-his-
+      machine line: Bannadonna dead under the bell-
+      ringer's spec-compliant stroke (1855), Moxon
+      strangled by his chess player (1899). Bierce moves
+      the ambiguity inward — Melville's machine is
+      certainly mindless, Moxon's certainly isn't quite.
+
+  - from: false-florimell-faerie-queene
+    to: bizarro-dc
+    type: inherits
+    note: >
+      The constructed imperfect double of a real person,
+      exposed by its flaws. Spenser's snow-and-wax
+      Florimell and the duplicator-ray Superboy share the
+      analytical core: the copy's defects are the story's
+      way of talking about what the original is.
+
+  - from: bizarro-dc
+    to: amazo-dc
+    type: inherits
+    note: >
+      DC's copy-antagonist lineage: Bizarro (1958) is the
+      accidental flawed duplicate, Amazo (1960) the
+      deliberate power-duplicate. Bizarro's tragic
+      identity register (`identity`, `emergent`) hardens
+      into Amazo's weapon register.
+
+  - from: tik-tok-oz
+    to: tik-tok-sladek
+    type: inverts
+    note: >
+      Sladek's title is the allusion: Baum's utterly
+      reliable clockwork man — the machine that always
+      does what it says — inverted into a first-person
+      murderer whose reliability is the con. Divergence
+      flips from `none` to `departure`, and the absent
+      interiority question becomes `primary`.
+
+  - from: roderick-sladek
+    to: tik-tok-sladek
+    type: inverts
+    note: >
+      Same author, mirrored experiment: Roderick is the
+      innocent machine a corrupt world fails to corrupt;
+      Tik-Tok is the corrupt machine an oblivious world
+      fails to detect. Narrated interiority in both; the
+      moral valence of the narrator flips.
+
+  - from: robbie-asimov
+    to: tik-tok-sladek
+    type: inverts
+    note: >
+      The direct Asimov inversion, named in the novel's
+      failed "asimov circuits": the domestic robot whose
+      safety is definitional becomes a domestic robot
+      whose safety is a societal assumption nobody
+      audits. The Three Laws as unearned trust.
+
+  - from: maria-metropolis
+    to: tima-metropolis-2001
+    type: inherits
+    note: >
+      Tezuka began the 1949 Metropolis manga from a
+      publicity still of Lang's robot Maria, and the 2001
+      film adapts Tezuka: the artificial woman at the
+      pivot of the city's destruction. The register
+      inverts along the way — Maria is a weapon wearing
+      innocence (`observer`), Tima an innocent built as a
+      weapon (`departure`).
+
+  - from: rei-toei-idoru
+    to: simone-s1m0ne
+    type: inherits
+    note: >
+      The synthetic celebrity lineage. Gibson's idoru is
+      an emergent personality whose reality is the
+      novel's open question; Niccol's Simone strips the
+      question to satire — nobody home at all
+      (`interiority: none`) and a public that never
+      checks. Knowability collapses from `primary` to
+      `secondary` because the audience is shown the
+      console from the start.
+
+  - from: max-headroom
+    to: simone-s1m0ne
+    type: inherits
+    note: >
+      The manufactured media personality as satire of the
+      medium itself: Max as the TV-native talking head,
+      Simone as the studio-native star. Both texts locate
+      the joke in the audience's appetite, not the
+      construct's mind.
+
+  - from: astro-boy-tezuka
+    to: jenny-xj9-teenage-robot
+    type: inherits
+    note: >
+      The child-shaped defender torn between duty and
+      childhood, translated to the American teen sitcom:
+      Astro's school-vs-missions structure becomes
+      Jenny's mall-vs-asteroids. The Tezuka pathos reads
+      as comedy but the card carries over — designed
+      autonomy, departure toward a normal childhood.
+
+  - from: astro-boy-tezuka
+    to: robo-chrono-trigger
+    type: inherits
+    note: >
+      The gentle Tezuka robot in the JRPG canon: kindness
+      framed by its own kind as malfunction (the R-series
+      beating scene is pure Pluto-arc material, a decade
+      before Urasawa's remake). Identity question,
+      emergent autonomy, and the machine that outlasts
+      its makers' world.
+
+  - from: c-3po
+    to: clank-ratchet-clank
+    type: inherits
+    note: >
+      The mismatched-duo comic robot: fussy, precise,
+      conscience-shaped, bolted to a reckless organic
+      partner. Clank plays the 3PO role with the moral
+      authority turned up — in the 2002 game he, not the
+      organic, is the mission's conscience.
+
+  - from: baymax-big-hero-6
+    to: ron-rons-gone-wrong
+    type: inherits
+    note: >
+      The child's care-companion robot whose deviation
+      from spec carries the emotional argument. Baymax's
+      healthcare protocol and Ron's broken friendship
+      algorithm both stage the same claim: the care that
+      matters is the part that wasn't in the product
+      spec. Ron sharpens it into an explicit
+      knowing-you-as-data critique (`knowing: secondary`).
+
+  - from: bride-of-frankenstein
+    to: rocky-rocky-horror
+    type: inverts
+    note: >
+      The made-to-order mate, with the genders, the tone,
+      and the outcome flipped: Whale's Bride is created
+      for another being and refuses him in horror;
+      O'Brien's Rocky is created for the creator himself
+      and strays to Janet within hours. The camp
+      register is itself the inversion — the corpus's
+      clearest case of the Universal creation scene
+      replayed as eros.
+
+  - from: stepford-wives
+    to: buffybot-buffy
+    type: inherits
+    note: >
+      The compliant fembot built to replace a real woman.
+      Stepford plays it as horror (the replacement is
+      murder); Buffy plays it first as farce and then as
+      grief — the bot's perfect compliance is exactly
+      what makes her unbearable to the people who knew
+      the original.
+
+  - from: doraemon
+    to: arale-dr-slump
+    type: inherits
+    note: >
+      The domestic gag-manga robot: a household machine
+      person whose comedy is the friction between
+      mechanical capability and everyday life. Toriyama
+      inherits the register and drops the mission frame —
+      Doraemon is there to fix Nobita; Arale is simply
+      there, and the town absorbs her.

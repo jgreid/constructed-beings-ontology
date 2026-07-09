@@ -290,6 +290,7 @@ Optional string. The entry `id` of a related sequel, successor being, or adaptat
 
 - **When to use it.** The same being (or a clearly derived being) appears in a different source text. GLaDOS in *Portal* and *Portal 2*. T-800 in *The Terminator* and *T2*. JARVIS in *Iron Man* becoming Vision in *Age of Ultron*. Dick's replicants, BR '82's replicants, BR 2049's K.
 - **Direction.** Point from the older entry forward to the next entry in the lineage. The newest entry in a chain has `sequel_link: null`.
+- **Fan-in exception (documented in v3.1; long-standing corpus practice).** The field holds a single id, so a source with multiple derivatives cannot forward-link to all of them. In that case each derivative points *back* to the shared parent (the four Frankenstein adaptations → `frankenstein-creature`; the Borg individuations → `borg-collective`; `davros-doctor-who` → `daleks-doctor-who`), and the parent's own link is reserved for its main forward chain or left null. Linear chains still run older → newer (Pinocchio → Disney → del Toro; Roz novel → film). About a third of the corpus's links are back-pointing fan-in links; the influence graph, which allows arbitrary fan-out, is the authoritative lineage record.
 - **Not a symmetric relationship.** Only one direction stored.
 - **When NOT to use it.** Different beings from different works that merely share a genre or theme. The field is about continuity, not thematic kinship.
 

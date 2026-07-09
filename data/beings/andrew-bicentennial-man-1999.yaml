@@ -1,0 +1,68 @@
+id: andrew-bicentennial-man-1999
+name: "Andrew Martin"
+
+card:
+  the_being:
+    interiority: demonstrated
+    autonomy: emergent
+    divergence: departure
+  the_lens:
+    primary_question: rights
+    epistemic_reach: inspection
+    knowability: secondary
+    knowing: present
+
+metadata:
+  source: "Bicentennial Man"
+  year: 1999
+  medium: film
+  creator: "Chris Columbus (NorthAm Robotics in-narrative; from Asimov/Silverberg)"
+  substrate:
+    - mechanical
+    - electrical
+    - biological
+  origin: manufactured
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: major
+  creator_relationship: loyal
+  tags:
+    - love-story
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Chris Columbus's 1999 film of Asimov's novella (by way of the
+  Asimov/Silverberg novel *The Positronic Man*), with Robin Williams
+  as the NDR-114 who spends two hundred years becoming legally
+  human. Added in the v3.1 review pass: the corpus had the 1976
+  novella (`andrew-bicentennial-man`) without the film, against the
+  films-always-split rule that governs every other adaptation chain.
+
+  The card tracks the novella's closely — interiority
+  `demonstrated`, autonomy `emergent`, divergence `departure`,
+  primary question `rights` (the film keeps the petition structure:
+  ownership, wages, freedom, marriage to Portia, and finally the
+  World Congress ruling that arrives as he dies) — with two
+  deliberate differences. Epistemic reach is `inspection` rather
+  than the novella entry's `conversational`: the film repeatedly
+  opens Andrew up on the table (Rupert Burns's upgrades, the
+  android facial rig, the prosthetic organs and the blood system
+  that lets him age), making under-the-hood access the visual
+  grammar of his becoming. Substrate adds `biological` for the same
+  reason — by the third act he is more grown than machined.
+
+  Knowability `secondary`: the hearings explicitly litigate what he
+  is, though the film (softer than the novella) never doubts his
+  inner life on its own behalf — the debate is institutional, and
+  what the Congress balks at first is his immortality, not his
+  mind. Knowing `present` for the generations of Martins he
+  outlives and continues to know (the Little Miss thread and its
+  echo in Portia). Creator relationship `loyal` codes his stance
+  toward the Martin household; NorthAm, which wanted him
+  disassembled as an anomaly, is the corporate face of the
+  manufacturer and gets his litigation instead.

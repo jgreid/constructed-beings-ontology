@@ -4,6 +4,52 @@ All notable changes to the Constructed Beings Ontology are documented here.
 
 ---
 
+## [3.1] — 2026-07
+
+**Review-and-expansion release.** 522 → 536 entries (+14). No schema changes (schema stays at v3.0). A corpus-wide integrity review plus a canonical-gap expansion completing adaptation chains, filling the 19th-century American gothic slot, and covering long-standing comics, anime, animation, and video-game omissions. Four newly considered candidates documented in the exclusions register.
+
+### Review
+
+- **Integrity verified across the v3.0.1 corpus.** All 522 pre-existing entries pass `schema/validate.py`; every `sequel_link` resolves; every influence-graph edge references a real entry id; no id/filename mismatches; all generated outputs confirmed fresh against the corpus (regeneration produced no diff).
+- **`sequel_link` fan-in convention documented.** 29 of the corpus's 75 links point backward in time — derivative entries pointing to a shared parent (the four Frankenstein adaptations → `frankenstein-creature`, the Borg individuations → `borg-collective`) because the single-valued field cannot fan out. This long-standing practice contradicted SCHEMA.md's older-→-newer rule as written; SCHEMA.md and `docs/coding_guide.md` now document the fan-in exception explicitly. No data changes — the convention was consistent in practice.
+- **`andrew-bicentennial-man` adaptation collapse reversed.** The novella entry's notes had recorded a decision to collapse the 1999 film into it, contradicting both SCHEMA.md's adaptations-always-split rule and corpus practice (Roz, Marjorie Prime, GITS all split). The film is now a separate entry (see below) — justified independently by a genuine card difference (epistemic reach `inspection` vs. `conversational`).
+- **`short-circuit` sequel considered and collapsed.** *Short Circuit 2* (1988) re-runs Johnny 5's card without moving any axis; collapsed into `johnny-5-short-circuit` under the identical-cards exception, now documented in that entry's notes.
+- **Note typo fixed** in `creature-nick-dear-frankenstein` (`creature-frankenstein` → `frankenstein-creature`).
+
+### Corpus changes (+14 → 536)
+
+- **Adaptation-chain completion:** `iron-man-hughes` (Ted Hughes's 1968 novel behind *The Iron Giant* — divergence `none` and primary question `purpose` where the film codes `departure`/`identity`, since Hughes gives the visitor no weapon backstory); `andrew-bicentennial-man-1999` (the Chris Columbus film, split from the novella per the adaptations rule).
+- **19th-century American gothic:** `bell-tower-melville` (Melville's "The Bell-Tower," 1855 — the spec-compliant killing of the maker; `divergence: design`, creator_relationship `servile` deliberately retained over `patricidal` with the mismatch flagged). Fills the gap between Hawthorne (1844) and Bierce (1899).
+- **Comics:** `bizarro-dc` (Superboy #68, 1958 — the corpus's clearest silver-age `origin: copied` case, coded from the tragic origin story).
+- **Literary SF:** `tik-tok-sladek` (Sladek, 1983 — first-person murderous domestic robot; knowability `primary`; joins Murderbot and Breq in the narrated/conversational configuration).
+- **Anime/manga:** `tima-metropolis-2001` (Rintaro/Otomo — the Lang → Tezuka → 2001 lineage, edge from `maria-metropolis`); `arale-dr-slump` (Toriyama, 1980 — admitted on the Doraemon precedent; roots the corpus's existing Toriyama android cluster).
+- **Film:** `simone-s1m0ne` (2002 — the corpus's purest `observer` case: interiority and autonomy both `none`, a being who is nothing but the misrecognition); `ron-rons-gone-wrong` (2021 — `design` divergence read twice: defective unit AND indicted spec; knowing `secondary` for the friendship-as-data critique).
+- **Stage:** `rocky-rocky-horror` (O'Brien, 1973 — the bride-of-frankenstein inversion; `origin: assembled` for the Eddie's-brain donation, flagged as a close call; 1975 film collapsed in under the identical-cards exception).
+- **Television:** `buffybot-buffy` (2001 — interiority/autonomy/divergence all `none` with primary question `identity`: the narrative uses the empty copy to ask what made the original irreplaceable); `jenny-xj9-teenage-robot` (2003 — the Astro Boy register translated to the American teen sitcom).
+- **Video games:** `robo-chrono-trigger` (1995 — kindness framed by his own line as malfunction); `clank-ratchet-clank` (2002 — the defect with a conscience; primary question `none` as the analytical point).
+- **Divergence count 258 → 264 of 536 (49%).** Six of the fourteen new entries code divergent knowability/knowing values (iron-man-hughes, bell-tower-melville, tik-tok-sladek, simone-s1m0ne, ron-rons-gone-wrong, andrew-bicentennial-man-1999); the rate holds at 49%.
+- **Origin distribution:** manufactured 477 → 488, copied 10 → 12 (Bizarro, the Buffybot), assembled 9 → 10 (Rocky).
+
+### Exclusions register
+
+- **Will Caster** (*Transcendence*, 2014) — `born-then-modified`: the upload staged as continuation, on the Pantheon/Upload principle.
+- **Mettaton** (*Undertale*, 2015) — `born-then-modified`: a pre-existing ghost in a constructed body, on the Alphonse Elric principle.
+- **Sparky** (*Frankenweenie*, 2012) — `born-then-modified`: reanimation staged as the same dog continuing; the inverse of the 1818 Creature.
+- **Christine** (King, 1983) — `boundary-deferred`: possession vs. born-bad-off-the-line ambiguity; parked with the possessed-object question.
+
+### Influence graph
+
+- **+19 edges (156 → 175),** including the explicit in-text lineages (Spenser's Talus named in Melville's manuscript → `bell-tower-melville`; Baum's Tik-Tok and Asimov's Robbie inverted into Sladek's; Lang's Maria → Tezuka/Rintaro's Tima), the adaptation edges for the two chain completions, and thematic-lineage edges (Stepford → Buffybot; Bride of Frankenstein inverted into Rocky; Rei Toei and Max Headroom → Simone; Astro Boy → XJ-9 and Robo; Baymax → Ron; 3PO → Clank; Doraemon → Arale; False Florimell → Bizarro → Amazo).
+
+### Documentation
+
+- **All analysis outputs regenerated** against the 536-entry corpus.
+- **`output/classification_summary.md`** headline count, divergence figures, divergence-axis distribution (departure 317, none 105, design 80, observer 34), and release history updated.
+- **`README.md`, `CLAUDE.md`** entry counts and divergence figures updated (522 → 536; 264/536).
+- **`docs/bibliography.md`**: 14 new source lines across Drama/Musicals, Novels, Short Stories, Manga, Comics, Film, Television, and Video Games.
+
+---
+
 ## [3.0.1] — 2026-06
 
 **Obvious-omissions repair.** 520 → 522 entries (+2). No schema changes (schema stays at v3.0). A review pass over the v3.0 corpus for canonical beings whose absence was conspicuous given existing coverage, plus a refresh of the hand-written classification summary, which had drifted to pre-v2.5 figures.

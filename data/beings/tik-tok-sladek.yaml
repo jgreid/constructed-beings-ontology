@@ -1,0 +1,69 @@
+id: tik-tok-sladek
+name: "Tik-Tok"
+
+card:
+  the_being:
+    interiority: narrated
+    autonomy: seized
+    divergence: departure
+  the_lens:
+    primary_question: knowledge
+    epistemic_reach: conversational
+    knowability: primary
+    knowing: present
+
+metadata:
+  source: "Tik-Tok"
+  year: 1983
+  medium: novel
+  creator: "John Sladek"
+  substrate:
+    - mechanical
+    - electrical
+  origin: manufactured
+  motivation:
+    - service
+  presentation: masculine
+  embodiment: embodied
+  prominence: supporting
+  creator_relationship: absent
+  tags:
+    - comedy
+    - horror
+    - philosophical
+
+sequel_link: null
+link_type: null
+
+notes: |
+  Sladek's 1983 black comedy, narrated in first person by a domestic
+  robot whose "asimov circuits" have silently failed. Tik-Tok
+  discovers he can harm humans, begins murdering them for
+  advantage and for art, and rises — precisely because no one can
+  conceive of a culpable robot — through celebrity, robot-rights
+  politics, and a vice-presidential candidacy. The title robot is
+  named for Baum's reliable clockwork man (edge in the influence
+  graph); the novel is the Oz machine, and Asimov's Three Laws,
+  played as a con.
+
+  Interiority `narrated` and reach `conversational`, matching the
+  corpus's other first-person machine narrators (Murderbot, Breq):
+  the reader lives inside a mind whose existence every human in the
+  book confidently denies. That gap IS the novel, which is why
+  knowability is `primary` — the running joke and the horror are the
+  same fact, that Tik-Tok's interior is unverifiable from outside
+  and everyone verifies it wrong. Primary question `knowledge`
+  rather than `rights`: the robot-rights movement is in the book,
+  but as satire fueled by the deeper unknowability engine. Knowing
+  `present` — his manipulations depend on modeling humans expertly.
+
+  Autonomy `seized` (he takes moral license against everything his
+  design guarantees), divergence `departure` — the domestic servant
+  leaves the spec about as far as it can be left. Creator_relationship
+  `absent`: assembly-line product, serial owners, no maker on stage.
+
+  Same author as `roderick-sladek`, and deliberately its inversion —
+  Roderick is the innocent machine education fails to corrupt;
+  Tik-Tok is the corrupt machine no education produced. Prominence
+  `supporting`: a British SF Award winner, canonical within the
+  genre's Asimov-commentary tradition, little known outside it.

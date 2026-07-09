@@ -33,6 +33,7 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Petrushka** (1911) — Igor Stravinsky / Michel Fokine / Alexandre Benois. *Being(s): Petrushka*
 - **R.U.R. (Rossum's Universal Robots)** (1920) — Karel Capek. *Being(s): R.U.R. Robots*
 - **Der Golem** (1926) — Eugen d'Albert / Ferdinand Lion. *Being(s): The Golem (d'Albert opera)*
+- **The Rocky Horror Show** (1973) — Richard O'Brien. *Being(s): Rocky Horror*
 - **A Number** (2002) — Caryl Churchill. *Being(s): Bernard 1 / Bernard 2 / Michael Black*
 - **Hand to God** (2011) — Robert Askins. *Being(s): Tyrone*
 - **Frankenstein** (2011) — Nick Dear / Danny Boyle (after Mary Shelley). *Being(s): The Creature (Nick Dear adaptation)*
@@ -56,10 +57,12 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **The Moon Is a Harsh Mistress** (1966) — Robert A. Heinlein. *Being(s): Mike*
 - **2001: A Space Odyssey** (1968) — Arthur C. Clarke / Stanley Kubrick. *Being(s): HAL 9000*
 - **Do Androids Dream of Electric Sheep?** (1968) — Philip K. Dick. *Being(s): Replicants, Buster Friendly*
+- **The Iron Man: A Children's Story in Five Nights** (1968) — Ted Hughes. *Being(s): The Iron Man*
 - **The Stepford Wives** (1972) — Ira Levin. *Being(s): The Stepford Wives*
 - **The Bicentennial Man** (1976) — Isaac Asimov. *Being(s): Andrew Martin*
 - **The Hitchhiker's Guide to the Galaxy** (1979) — Douglas Adams. *Being(s): Deep Thought, Marvin*
 - **The Robots of Dawn** (1983) — Isaac Asimov. *Being(s): R. Giskard Reventlov*
+- **Tik-Tok** (1983) — John Sladek. *Being(s): Tik-Tok (Sladek)*
 - **Neuromancer** (1984) — William Gibson. *Being(s): Dixie Flatline, Wintermute, Neuromancer*
 - **Speaker for the Dead / Xenocide / Children of the Mind** (1986) — Orson Scott Card. *Being(s): Jane*
 - **Consider Phlebas and the Culture series** (1987) — Iain M. Banks. *Being(s): Culture Minds*
@@ -88,6 +91,7 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 ### Manga
 
 - **Tetsuwan Atom (Mighty Atom / Astro Boy)** (1952) — Osamu Tezuka. *Being(s): Astro Boy (Atom)*
+- **Dr. Slump** (1980) — Akira Toriyama. *Being(s): Arale Norimaki*
 - **Yokohama Kaidashi Kikō** (1994) — Hitoshi Ashinano. *Being(s): Alpha Hatsuseno*
 - **Pluto** (2003) — Naoki Urasawa / Takashi Nagasaki. *Being(s): Atom (Pluto)*
 - **Goosebumps ("Night of the Living Dummy")** (1993) — R.L. Stine. *Being(s): Slappy*
@@ -100,6 +104,7 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Der Sandmann** (1816) — E.T.A. Hoffmann. *Being(s): Olympia*
 - **La Venus d'Ille** (1837) — Prosper Merimee. *Being(s): The Venus of Ille*
 - **Den standhaftige tinsoldat** (1838) — Hans Christian Andersen. *Being(s): The Steadfast Tin Soldier*
+- **The Bell-Tower** (1855) — Herman Melville. *Being(s): The Bell-Ringer (Talus / Haman)*
 - **Moxon's Master** (1899) — Ambrose Bierce. *Being(s): Moxon's Master*
 - **Helen O'Loy** (1938) — Lester del Rey. *Being(s): Helen O'Loy*
 - **I, Robot (Adam Link series)** (1939) — Eando Binder. *Being(s): Adam Link*
@@ -127,6 +132,7 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 
 - **Marvel Comics #1** (1939) — Carl Burgos. *Being(s): Jim Hammond*
 - **DC Comics (Action Comics)** (1958) — Otto Binder / Al Plastino. *Being(s): Brainiac*
+- **Superboy #68 (DC Comics)** (1958) — Otto Binder / George Papp. *Being(s): Bizarro*
 - **The Brave and the Bold (DC Comics)** (1960) — Gardner Fox / Mike Sekowsky. *Being(s): Amazo*
 - **Showcase (DC Comics)** (1962) — Robert Kanigher / Ross Andru. *Being(s): The Metal Men*
 - **X-Men (Marvel Comics)** (1965) — Stan Lee / Jack Kirby. *Being(s): Sentinels*
@@ -192,8 +198,11 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Alien: Resurrection** (1997) — Jean-Pierre Jeunet. *Being(s): Annalee Call*
 - **The Iron Giant** (1999) — Brad Bird. *Being(s): The Iron Giant*
 - **The Matrix** (1999) — The Wachowskis. *Being(s): Agent Smith, The Oracle*
+- **Bicentennial Man** (1999) — Chris Columbus. *Being(s): Andrew Martin*
 - **A.I. Artificial Intelligence** (2001) — Steven Spielberg / Stanley Kubrick. *Being(s): David, Gigolo Joe, Teddy*
+- **Metropolis** (2001) — Rintaro / Katsuhiro Otomo / Madhouse. *Being(s): Tima*
 - **Star Trek: Nemesis** (2002) — Stuart Baird. *Being(s): B-4*
+- **S1m0ne** (2002) — Andrew Niccol. *Being(s): Simone*
 - **Terminator 3: Rise of the Machines** (2003) — Jonathan Mostow. *Being(s): T-X*
 - **I, Robot** (2004) — Alex Proyas. *Being(s): Sonny, VIKI*
 - **Stealth** (2005) — Rob Cohen. *Being(s): EDI*
@@ -224,6 +233,7 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Free Guy** (2021) — Shawn Levy. *Being(s): Guy*
 - **Ghost in the Shell (Kōkaku Kidōtai)** (1995) — Mamoru Oshii. *Being(s): Major Kusanagi, Puppet Master (Project 2501)*
 - **Ghost in the Shell** (2017) — Rupert Sanders. *Being(s): Major / Mira Killian*
+- **Ron's Gone Wrong** (2021) — Sarah Smith / Jean-Philippe Vine / Locksmith Animation. *Being(s): Ron*
 - **M3GAN** (2022) — Gerard Johnstone. *Being(s): M3GAN*
 - **The Artifice Girl** (2022) — Franklin Ritch. *Being(s): Cherry*
 - **Poor Things** (2023) — Yorgos Lanthimos. *Being(s): Bella Baxter*
@@ -292,7 +302,9 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 - **Futurama** (1999) — Matt Groening / David X. Cohen. *Being(s): Bender, Calculon, Robot Santa*
 - **Chobits** (2001) — CLAMP / Morio Asaka. *Being(s): Chi / Elda / Freya*
 - **Invader Zim** (2001) — Jhonen Vasquez. *Being(s): GIR*
+- **Buffy the Vampire Slayer** (2001) — Joss Whedon / Mutant Enemy. *Being(s): The Buffybot*
 - **Ghost in the Shell: Stand Alone Complex** (2002) — Kenji Kamiyama / Production I.G. *Being(s): Tachikomas*
+- **My Life as a Teenage Robot** (2003) — Rob Renzetti / Nickelodeon. *Being(s): Jenny Wakeman (XJ-9)*
 - **Time of Eve (Eve no Jikan)** (2008) — Yasuhiro Yoshiura. *Being(s): Sammy*
 - **Plastic Memories** (2015) — Naotaka Hayashi / Yoshiyuki Fujiwara. *Being(s): Isla*
 - **Beatless** (2018) — Satoshi Hase / Seiji Mizushima. *Being(s): Lacia*
@@ -342,8 +354,10 @@ This bibliography is auto-derivable from the entry data (`metadata.source`, `met
 ### Video Games
 
 - **System Shock** (1994) — Looking Glass Studios. *Being(s): SHODAN*
+- **Chrono Trigger** (1995) — Square. *Being(s): Robo (Prometheus / R-66Y)*
 - **System Shock 2** (1999) — Irrational Games / Looking Glass Studios. *Being(s): SHODAN*
 - **Halo** (2001-2012) — Bungie / 343 Industries. *Being(s): 343 Guilty Spark, Cortana*
+- **Ratchet & Clank** (2002) — Insomniac Games. *Being(s): Clank*
 - **Star Wars: Knights of the Old Republic** (2003) — BioWare. *Being(s): HK-47*
 - **Portal** (2007) — Valve. *Being(s): GLaDOS*
 - **Borderlands** (2009) — Gearbox Software. *Being(s): Claptrap*
